@@ -1,5 +1,11 @@
 # Deployment status
 
+**LIVE since 2026-10-09:** https://areyoublonde.github.io/project-blonde-guide/ — repository https://github.com/areyoublonde/project-blonde-guide, branch `main`, commit `4305a20ea29869118717e0b00fe355fac5d77056`, deployed by the `Deploy guide to GitHub Pages` workflow (run 37811686043, success). Live verification: all 1,883 routes return 200; 26 of 26 smoke checks (`data/qa-live.json`). To update the site: commit and push to `main`; the workflow rebuilds and redeploys. This note and `data/qa-live.json` were written after the deploy and are not yet pushed.
+
+---
+
+_Pre-deployment record:_
+
 **Not deployed — ready, waiting for the owner's final approval (2026-10-09).** Repository `https://github.com/areyoublonde/project-blonde-guide` exists (public, empty, Pages not yet enabled); GitHub CLI is signed in as `areyoublonde` with `repo` and `workflow` scopes. Expected site: `https://areyoublonde.github.io/project-blonde-guide/`. Pre-publication audit of the 3,727 files to be committed (23 MB): no ROM, save, patch, archive, credential, token, local path or personal address; sub-path test 35 of 35 (`data/qa-subpath.json`).
 
 **Earlier state, kept for the record:** Not deployed. The site is built and tested locally and is ready to publish. Publication is waiting on the owner (below). Nothing has been pushed anywhere.

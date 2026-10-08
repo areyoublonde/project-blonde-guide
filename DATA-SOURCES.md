@@ -25,6 +25,7 @@ v103 and v104 differ from v102 (the build the run finished on) by 1,861 bytes of
 | Place names, Town Map positions | `romx.py` → `data/rom/sections.json`; `worldmap.py` | ROM `gRegionMapEntries`; region-map layouts | — |
 | Species stats, types, abilities, Pokédex number, evolutions with conditions, level-up moves | `dex.py` → `data/dex.json` | ROM `gSpeciesInfo` (268-byte rows) | `src` |
 | Species names, Pokédex text, form flags, sprites | `dex.py` | `src/data/pokemon/species_info/*.h`, `graphics/pokemon/` | `src` |
+| **Which Pokémon are obtainable** (the public Pokédex) | `availability.py` → `data/availability.json`, `AVAILABILITY-AUDIT.md` | ROM wild tables on reachable maps (map graph from warps, connections and script warps), event scripts (gifts, eggs, static and boss battles that allow capture, trades, roamers, the form converter), then evolution and Day Care closure from the ROM's evolution tables and egg groups; rules and hand-verified sources in `content/availability-rules.json` | `methods[].evidence` per entry; `reason` per excluded entry |
 | Mega forms and their stones | `dex.py` → `data/megas.json` | `src/data/pokemon/form_change_tables.h` | `src` |
 | Obtainable Mega Stones + completeness check | `megastones.py` → `data/megastones.json` | `data/scripts/hns_mega_stone_menus.inc`, cross-checked against the ROM bytes beside the aide's menus and against every item ball, hidden item, gift and shop | `check` block |
 | Fixed encounters and gift Pokémon | `statics.py` → `data/statics.json` | `data/maps/*_hns/scripts.inc`, Hoenn overlay `qa/gym-rematch-yes-no-v84/map_events_overlay.s` | `src` |
@@ -33,6 +34,10 @@ v103 and v104 differ from v102 (the build the run finished on) by 1,861 bytes of
 | Walkthrough steps, gates, puzzles | `content/walkthrough/*.json` | the natural run's trace and website notes | `ev` on every chapter (trace rows) and `basis` |
 | Feature guides | `content/features.json` | run notes, game text, option strings in `src/challenge_menu.c` | `ev`, `basis` |
 | Emulator setup | `content/play.json` | each emulator's own site, listed per device in `sources` | `sources`, `checked` |
+
+## 2a. Permanent rule
+
+**The Project Blonde public Pokédex must represent Pokémon legitimately obtainable in the current approved game build, not every species defined by the underlying ROM engine.** Every future release must revalidate Pokémon availability before the website is redeployed.
 
 ## 3. How to correct a wrong fact
 

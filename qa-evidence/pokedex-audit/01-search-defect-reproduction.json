@@ -1,0 +1,31 @@
+{
+ "rows": 1067,
+ "value": "pikachu",
+ "hidden_attr": 1066,
+ "actually_invisible": 0,
+ "count_text": "1 of 1067",
+ "display_of_hidden_row": "grid",
+ "rule": [
+  ".dex li, .people li, .places li{display:grid}"
+ ],
+ "/items/": [
+  438,
+  438,
+  0
+ ],
+ "/trainers/": [
+  85,
+  85,
+  0
+ ],
+ "/world/": [
+  199,
+  199,
+  0
+ ],
+ "/items/mega-stones/": [
+  51,
+  51,
+  0
+ ]
+}

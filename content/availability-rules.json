@@ -1,0 +1,131 @@
+{
+ "_about": "Hand-maintained rules for tools/availability.py. Every entry carries its evidence. `verified` promotes a source that the automatic scan could only see as a species named in a script variable; it must never assert a source that no script contains.",
+ "extra_edges": [
+  [
+   "PalletTown_hns",
+   "InsideOfTruck",
+   "truck ride, played: natural-run-v101 trace 163"
+  ],
+  [
+   "InsideOfTruck",
+   "LittlerootTown",
+   "truck ride, played: natural-run-v101 trace 163"
+  ],
+  [
+   "Underwater_SootopolisCity",
+   "SootopolisCity",
+   "surfaced inside Sootopolis, played: natural-run-v102 trace 199"
+  ],
+  [
+   "Underwater_SeafloorCavern",
+   "SeafloorCavern_Entrance",
+   "surfaced in the cavern entrance, played: natural-run-v102 trace 197"
+  ],
+  [
+   "Underwater_MarineCave",
+   "MarineCave_Entrance",
+   "not played; Marine Cave via the Route 127 north dive per qa/v75-definitive-hoenn-completeness-audit/LEGENDARIES.md (v57)"
+  ],
+  [
+   "MtSilver_SummitDay_hns",
+   "MtSilver_SummitNight_hns",
+   "same place, night layout: natural-run-v101 website notes (Mt. Silver)"
+  ],
+  [
+   "TinTower_RoofDay_hns",
+   "TinTower_RoofNight_hns",
+   "same place, night layout"
+  ],
+  [
+   "CeladonCity_Apartments_RoofDay_hns",
+   "CeladonCity_Apartments_RoofNight_hns",
+   "same place, night layout"
+  ],
+  [
+   "CeladonCity_DepartmentStore_RoofDay_hns",
+   "CeladonCity_DepartmentStore_RoofNight_hns",
+   "same place, night layout"
+  ],
+  [
+   "GoldenrodCity_DepartmentStore_7F_hns",
+   "GoldenrodCity_DepartmentStore_7FNight_hns",
+   "same place, night layout"
+  ]
+ ],
+ "script_warp_sources": {
+  "OlivinePort_": "OlivineCity_PortInside_hns",
+  "VermilionPort_": "VermilionCity_PortInside_hns",
+  "SootopolisCity_": "SootopolisCity",
+  "Route13_TravelToAlola": "Route13_hns"
+ },
+ "gated": [
+  {
+   "maps": [
+    "SouthernIsland_"
+   ],
+   "needs": "Eon Ticket",
+   "item_source": "data/maps/FuchsiaCity_SafariZoneEntrance_hns/scripts.inc (giveitem ITEM_EON_TICKET)",
+   "played": false
+  },
+  {
+   "maps": [
+    "BirthIsland_"
+   ],
+   "needs": "Aurora Ticket",
+   "item_source": "data/maps/OlivineCity_hns/scripts.inc (giveitem ITEM_AURORA_TICKET)",
+   "played": false
+  },
+  {
+   "maps": [
+    "FarawayIsland_"
+   ],
+   "needs": "Old Sea Map",
+   "item_source": "data/maps/VermilionCity_hns/scripts.inc (finditem ITEM_OLD_SEA_MAP)",
+   "played": false
+  },
+  {
+   "maps": [
+    "MelemeleIsle",
+    "AkalaIsle",
+    "UlaulaIsle",
+    "PoniIsle",
+    "Melemele_",
+    "Akala_",
+    "UlaUla_",
+    "Poni_",
+    "AlolaWater"
+   ],
+   "needs": "the boat on Route 13",
+   "item_source": "data/maps/Route13_hns/scripts.inc (Route13_TravelToAlola)",
+   "played": false
+  }
+ ],
+ "contest_stats": {
+  "map": "LilycoveCity_ContestLobby_hns",
+  "evidence": "Berry Blender and Blend Master in the Contest Lobby, entered from Viridian City (data/maps/LilycoveCity_ContestLobby_hns/scripts.inc; qa/v75-definitive-hoenn-completeness-audit/CONTESTS.md); Pokéblock Case from either Safari Zone gate. Not played."
+ },
+ "retired": [
+  [
+   "SPECIES_KYOGRE",
+   "Route19_Cave_hns"
+  ],
+  [
+   "SPECIES_GROUDON",
+   "SeafoamIslands_SecretCave_hns"
+  ],
+  [
+   "SPECIES_RAYQUAZA",
+   "EmbeddedTower_hns"
+  ]
+ ],
+ "verified": [
+  {
+   "species": "SPECIES_PORYGON",
+   "kind": "gift",
+   "where": "Goldenrod City Game Corner",
+   "map": "GoldenrodCity_GameCorner_hns",
+   "detail": "prize, 6,500 coins, Lv. 15",
+   "evidence": "data/maps/GoldenrodCity_GameCorner_hns/scripts.inc: PrizeRoom_EventScript_Porygon sets VAR_TEMP_1 = SPECIES_PORYGON and the price 6500; ConfirmPrizeMon → GivePorygon → givemon VAR_TEMP_1"
+  }
+ ]
+}

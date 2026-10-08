@@ -1,0 +1,1710 @@
+[
+ {
+  "sym": "gMonIcon_AegislashBlade",
+  "addr": 143435396,
+  "to": "VermilionCity_PokemonCenter_hns",
+  "x": 0,
+  "y": 0
+ },
+ {
+  "sym": "HoStory_DevonLead",
+  "addr": 151313654,
+  "to": "RustboroCity_DevonCorp_3F",
+  "x": 2,
+  "y": 2
+ },
+ {
+  "sym": "Ho12W_PetalburgCity_EventScript_WallyTutorial",
+  "addr": 151327484,
+  "to": "PetalburgCity_Gym",
+  "x": 4,
+  "y": 108
+ },
+ {
+  "sym": "Ho12W_PetalburgCity_Gym_EventScript_BeginWallyTutorial",
+  "addr": 151328874,
+  "to": "PetalburgCity",
+  "x": 15,
+  "y": 8
+ },
+ {
+  "sym": "HoC1_SSTidalCorridor_EventScript_ExitSlateport",
+  "addr": 151434583,
+  "to": "SlateportCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "HoC1_SSTidalCorridor_EventScript_ExitLilycove",
+  "addr": 151434652,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "HoC1_FallarborTown_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 151437038,
+  "to": "FallarborTown_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "HoC1_VerdanturfTown_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 151439293,
+  "to": "VerdanturfTown_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "HoC1_SlateportCity_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 151440906,
+  "to": "SlateportCity_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "HoC1_Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer",
+  "addr": 151444160,
+  "to": "Route110_TrickHousePuzzle5",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom8",
+  "addr": 151456293,
+  "to": "Route110_TrickHousePuzzle8",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom7",
+  "addr": 151456309,
+  "to": "Route110_TrickHousePuzzle7",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom6",
+  "addr": 151456325,
+  "to": "Route110_TrickHousePuzzle6",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom5",
+  "addr": 151456341,
+  "to": "Route110_TrickHousePuzzle5",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom4",
+  "addr": 151456357,
+  "to": "Route110_TrickHousePuzzle4",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom3",
+  "addr": 151456373,
+  "to": "Route110_TrickHousePuzzle3",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom2",
+  "addr": 151456389,
+  "to": "Route110_TrickHousePuzzle2",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom1",
+  "addr": 151456405,
+  "to": "Route110_TrickHousePuzzle1",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_FoundTrickMaster",
+  "addr": 151458194,
+  "to": "Route110_TrickHouseEntrance",
+  "x": 6,
+  "y": 2
+ },
+ {
+  "sym": "HoC1_SafariZone_South_EventScript_Exit",
+  "addr": 151460687,
+  "to": "Route121_SafariZoneEntrance",
+  "x": 2,
+  "y": 5
+ },
+ {
+  "sym": "HoC1_Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone",
+  "addr": 151461772,
+  "to": "SafariZone_South",
+  "x": 32,
+  "y": 33
+ },
+ {
+  "sym": "HoC1_MirageTower_4F_EventScript_CollapseMirageTower",
+  "addr": 151465541,
+  "to": "Route111",
+  "x": 19,
+  "y": 59
+ },
+ {
+  "sym": "HoC1_SootopolisCity_EventScript_MaxieArchieLeave",
+  "addr": 151497490,
+  "to": "SootopolisCity",
+  "x": 31,
+  "y": 34
+ },
+ {
+  "sym": "HoC1_SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin",
+  "addr": 151500599,
+  "to": "CaveOfOrigin_Entrance",
+  "x": 9,
+  "y": 20
+ },
+ {
+  "sym": "HoC1_SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre",
+  "addr": 151505117,
+  "to": "Route128",
+  "x": 38,
+  "y": 22
+ },
+ {
+  "sym": "HoC1_LilycoveCity_LilycoveMuseum_1F_EventScript_FollowCuratorEast",
+  "addr": 151557542,
+  "to": "LilycoveCity_LilycoveMuseum_2F",
+  "x": 11,
+  "y": 8
+ },
+ {
+  "sym": "HoC1_LilycoveCity_LilycoveMuseum_1F_EventScript_FollowCuratorWest",
+  "addr": 151557566,
+  "to": "LilycoveCity_LilycoveMuseum_2F",
+  "x": 11,
+  "y": 8
+ },
+ {
+  "sym": "HoC1_LilycoveCity_LilycoveMuseum_1F_EventScript_FollowCuratorNorth",
+  "addr": 151557590,
+  "to": "LilycoveCity_LilycoveMuseum_2F",
+  "x": 11,
+  "y": 8
+ },
+ {
+  "sym": "HoC1_LilycoveCity_Harbor_EventScript_GoToSlateport",
+  "addr": 151561112,
+  "to": "SSTidalCorridor",
+  "x": 1,
+  "y": 10
+ },
+ {
+  "sym": "HoC1_SlateportCity_Harbor_EventScript_Lilycove",
+  "addr": 151717077,
+  "to": "SSTidalCorridor",
+  "x": 1,
+  "y": 10
+ },
+ {
+  "sym": "HoC1_SlateportCity_EventScript_CaptStern",
+  "addr": 151738038,
+  "to": "SlateportCity_Harbor",
+  "x": 11,
+  "y": 14
+ },
+ {
+  "sym": "HoC1_DewfordTown_EventScript_SailToPetalburg",
+  "addr": 151747376,
+  "to": "Route104_MrBrineysHouse",
+  "x": 5,
+  "y": 4
+ },
+ {
+  "sym": "HoC1_FallarborTown_BattleTentBattleRoom_EventScript_WarpToLobbyLost",
+  "addr": 151768185,
+  "to": "FallarborTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_FallarborTown_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 151768596,
+  "to": "FallarborTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_FallarborTown_BattleTentCorridor_EventScript_EnterCorridor",
+  "addr": 151768847,
+  "to": "FallarborTown_BattleTentBattleRoom",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "HoC1_VerdanturfTown_BattleTentBattleRoom_EventScript_WarpToLobbyLost",
+  "addr": 151769391,
+  "to": "VerdanturfTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_VerdanturfTown_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 151769812,
+  "to": "VerdanturfTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor",
+  "addr": 151769921,
+  "to": "VerdanturfTown_BattleTentBattleRoom",
+  "x": 6,
+  "y": 5
+ },
+ {
+  "sym": "HoC1_SlateportCity_BattleTent_EventScript_WarpToLobbyLost",
+  "addr": 151770421,
+  "to": "SlateportCity_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_SlateportCity_BattleTentBattleRoom_EventScript_DefeatedOpponent",
+  "addr": 151770492,
+  "to": "SlateportCity_BattleTentCorridor",
+  "x": 2,
+  "y": 3
+ },
+ {
+  "sym": "HoC1_SlateportCity_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 151770527,
+  "to": "SlateportCity_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "HoC1_SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom",
+  "addr": 151770784,
+  "to": "SlateportCity_BattleTentBattleRoom",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "HoC1_EverGrandeCity_ChampionsRoom_EventScript_BirchArrivesExitForHoF",
+  "addr": 151774989,
+  "to": "EverGrandeCity_HallOfFame",
+  "x": 7,
+  "y": 16
+ },
+ {
+  "sym": "HoC1_MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts",
+  "addr": 151782474,
+  "to": "MossdeepCity_SpaceCenter_1F",
+  "x": 13,
+  "y": 1
+ },
+ {
+  "sym": "HoC1_PetalburgCity_EventScript_WalkToWallyHouse",
+  "addr": 151787276,
+  "to": "PetalburgCity_WallysHouse",
+  "x": 2,
+  "y": 4
+ },
+ {
+  "sym": "HoC1_PetalburgCity_Gym_EventScript_WallysDadArrives",
+  "addr": 151788449,
+  "to": "PetalburgCity",
+  "x": 15,
+  "y": 8
+ },
+ {
+  "sym": "HoC1_Route104_MrBrineysHouse_EventScript_SailToDewford",
+  "addr": 151792491,
+  "to": "Route104",
+  "x": 13,
+  "y": 51
+ },
+ {
+  "sym": "PetalburgCity_EventScript_WallyTutorial",
+  "addr": 165661357,
+  "to": "PetalburgCity_Gym",
+  "x": 4,
+  "y": 108
+ },
+ {
+  "sym": "PetalburgCity_EventScript_WalkToWallyHouse",
+  "addr": 165661443,
+  "to": "PetalburgCity_WallysHouse",
+  "x": 2,
+  "y": 4
+ },
+ {
+  "sym": "SlateportCity_EventScript_CaptStern",
+  "addr": 165665318,
+  "to": "SlateportCity_Harbor",
+  "x": 11,
+  "y": 14
+ },
+ {
+  "sym": "SootopolisCity_EventScript_StevenLeadPlayerCaveOfOrigin",
+  "addr": 165692875,
+  "to": "CaveOfOrigin_Entrance",
+  "x": 9,
+  "y": 20
+ },
+ {
+  "sym": "SootopolisCity_EventScript_MaxieArchieLeave",
+  "addr": 165693682,
+  "to": "SootopolisCity",
+  "x": 31,
+  "y": 34
+ },
+ {
+  "sym": "LittlerootTown_EventScript_StepOffTruckMale",
+  "addr": 165700048,
+  "to": "LittlerootTown_BrendansHouse_1F",
+  "x": 8,
+  "y": 8
+ },
+ {
+  "sym": "LittlerootTown_EventScript_StepOffTruckFemale",
+  "addr": 165700078,
+  "to": "LittlerootTown_MaysHouse_1F",
+  "x": 2,
+  "y": 8
+ },
+ {
+  "sym": "LittlerootTown_EventScript_BeginDexUpgradeScene",
+  "addr": 165700281,
+  "to": "LittlerootTown_ProfessorBirchsLab",
+  "x": 6,
+  "y": 5
+ },
+ {
+  "sym": "DewfordTown_EventScript_SailToPetalburg",
+  "addr": 165706180,
+  "to": "Route104_MrBrineysHouse",
+  "x": 5,
+  "y": 4
+ },
+ {
+  "sym": "LittlerootTown_BrendansHouse_1F_EventScript_GoUpstairsToSetClock",
+  "addr": 165737891,
+  "to": "LittlerootTown_BrendansHouse_2F",
+  "x": 7,
+  "y": 1
+ },
+ {
+  "sym": "LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock",
+  "addr": 165742325,
+  "to": "LittlerootTown_MaysHouse_2F",
+  "x": 1,
+  "y": 1
+ },
+ {
+  "sym": "FallarborTown_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 165761582,
+  "to": "FallarborTown_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "FallarborTown_BattleTentCorridor_EventScript_EnterCorridor",
+  "addr": 165763012,
+  "to": "FallarborTown_BattleTentBattleRoom",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "FallarborTown_BattleTentBattleRoom_EventScript_WarpToLobbyLost",
+  "addr": 165763687,
+  "to": "FallarborTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "FallarborTown_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 165764063,
+  "to": "FallarborTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 165765021,
+  "to": "VerdanturfTown_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentCorridor_EventScript_EnterCorridor",
+  "addr": 165766820,
+  "to": "VerdanturfTown_BattleTentBattleRoom",
+  "x": 6,
+  "y": 5
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentBattleRoom_EventScript_WarpToLobbyLost",
+  "addr": 165767568,
+  "to": "VerdanturfTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 165767911,
+  "to": "VerdanturfTown_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "SlateportCity_BattleTentLobby_EventScript_EnterChallenge",
+  "addr": 165769487,
+  "to": "SlateportCity_BattleTentCorridor",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "SlateportCity_BattleTentCorridor_EventScript_EnterBattleRoom",
+  "addr": 165770809,
+  "to": "SlateportCity_BattleTentBattleRoom",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "SlateportCity_BattleTent_EventScript_WarpToLobbyLost",
+  "addr": 165773697,
+  "to": "SlateportCity_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "SlateportCity_BattleTentBattleRoom_EventScript_DefeatedOpponent",
+  "addr": 165773763,
+  "to": "SlateportCity_BattleTentCorridor",
+  "x": 2,
+  "y": 3
+ },
+ {
+  "sym": "SlateportCity_BattleTentBattleRoom_EventScript_WarpToLobbyWon",
+  "addr": 165773793,
+  "to": "SlateportCity_BattleTentLobby",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts",
+  "addr": 165839038,
+  "to": "MossdeepCity_SpaceCenter_1F",
+  "x": 13,
+  "y": 1
+ },
+ {
+  "sym": "SootopolisCity_MysteryEventsHouse_B1F_EventScript_BattleVisitingTrainer",
+  "addr": 165848385,
+  "to": "SootopolisCity_MysteryEventsHouse_1F",
+  "x": 3,
+  "y": 1
+ },
+ {
+  "sym": "Route121_SafariZoneEntrance_EventScript_TryEnterSafariZone",
+  "addr": 165849380,
+  "to": "SafariZone_South",
+  "x": 32,
+  "y": 33
+ },
+ {
+  "sym": "MirageTower_4F_EventScript_CollapseMirageTower",
+  "addr": 165861685,
+  "to": "Route111",
+  "x": 19,
+  "y": 59
+ },
+ {
+  "sym": "ContestHall_EventScript_SetExitWarpNormalContest_hns",
+  "addr": 165867576,
+  "to": "LilycoveCity_ContestLobby_hns",
+  "x": 14,
+  "y": 4
+ },
+ {
+  "sym": "ContestHall_EventScript_SetExitWarpSuperContest_hns",
+  "addr": 165867586,
+  "to": "LilycoveCity_ContestLobby_hns",
+  "x": 14,
+  "y": 4
+ },
+ {
+  "sym": "ContestHall_EventScript_SetExitWarpHyperContest_hns",
+  "addr": 165867596,
+  "to": "LilycoveCity_ContestLobby_hns",
+  "x": 14,
+  "y": 4
+ },
+ {
+  "sym": "ContestHall_EventScript_SetExitWarpMasterContest_hns",
+  "addr": 165867606,
+  "to": "LilycoveCity_ContestLobby_hns",
+  "x": 14,
+  "y": 4
+ },
+ {
+  "sym": "ContestHall_EventScript_SetExitWarpLinkContest_hns",
+  "addr": 165867616,
+  "to": "LilycoveCity_ContestLobby_hns",
+  "x": 15,
+  "y": 4
+ },
+ {
+  "sym": "SSTidalCorridor_EventScript_ExitLilycove",
+  "addr": 165868046,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "SSTidalCorridor_EventScript_ExitSlateport",
+  "addr": 165868077,
+  "to": "SlateportCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "SafariZone_South_EventScript_Exit",
+  "addr": 165872937,
+  "to": "Route121_SafariZoneEntrance",
+  "x": 2,
+  "y": 5
+ },
+ {
+  "sym": "BattleFrontier_OutsideWest_EventScript_FerryToSlateport",
+  "addr": 165873190,
+  "to": "SlateportCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "BattleFrontier_OutsideWest_EventScript_FerryToLilycove",
+  "addr": 165873233,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "SouthernIsland_Exterior_EventScript_Sailor",
+  "addr": 165894828,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "FarawayIsland_Entrance_EventScript_Sailor",
+  "addr": 166044044,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "BirthIsland_Harbor_EventScript_Sailor",
+  "addr": 166045001,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "NavelRock_Harbor_EventScript_Sailor",
+  "addr": 166049207,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_FoundTrickMaster",
+  "addr": 166050887,
+  "to": "Route110_TrickHouseEntrance",
+  "x": 6,
+  "y": 2
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom1",
+  "addr": 166051853,
+  "to": "Route110_TrickHousePuzzle1",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom2",
+  "addr": 166051864,
+  "to": "Route110_TrickHousePuzzle2",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom3",
+  "addr": 166051875,
+  "to": "Route110_TrickHousePuzzle3",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom4",
+  "addr": 166051886,
+  "to": "Route110_TrickHousePuzzle4",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom5",
+  "addr": 166051897,
+  "to": "Route110_TrickHousePuzzle5",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom6",
+  "addr": 166051908,
+  "to": "Route110_TrickHousePuzzle6",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom7",
+  "addr": 166051919,
+  "to": "Route110_TrickHousePuzzle7",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHouseEntrance_EventScript_EnterPuzzleRoom8",
+  "addr": 166051930,
+  "to": "Route110_TrickHousePuzzle8",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHousePuzzle5_EventScript_IncorrectAnswer",
+  "addr": 166064445,
+  "to": "Route110_TrickHousePuzzle5",
+  "x": 0,
+  "y": 21
+ },
+ {
+  "sym": "Route110_TrickHousePuzzle7_EventScript_TeleportPad",
+  "addr": 166068716,
+  "to": "Route110_TrickHousePuzzle7",
+  "x": 3,
+  "y": 19
+ },
+ {
+  "sym": "SafariZone_EventScript_Exit",
+  "addr": 166292014,
+  "to": "SafariZoneGate_SafariZoneEntrance_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "SafariZone_EventScript_ExitKanto",
+  "addr": 166292027,
+  "to": "FuchsiaCity_SafariZoneEntrance_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "BugContest_EventScript_End",
+  "addr": 166296321,
+  "to": "Gate_NationalPark_hns",
+  "x": 7,
+  "y": 2
+ },
+ {
+  "sym": "BugContest_EventScript_SideEnd",
+  "addr": 166296332,
+  "to": "Gate_NationalPark_hns",
+  "x": 35,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpNPCRoom_hns",
+  "addr": 166440747,
+  "to": "BattleFrontier_BattlePikeRoomNormal_hns",
+  "x": 4,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpWildMonRoom_hns",
+  "addr": 166440772,
+  "to": "BattleFrontier_BattlePikeRoomWildMons_hns",
+  "x": 4,
+  "y": 19
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeRoom_EventScript_WarpToFinalRoom_hns",
+  "addr": 166440997,
+  "to": "BattleFrontier_BattlePikeRoomFinal_hns",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeRoom_EventScript_WarpToThreePathRoom_hns",
+  "addr": 166441021,
+  "to": "BattleFrontier_BattlePikeThreePathRoom_hns",
+  "x": 6,
+  "y": 10
+ },
+ {
+  "sym": "BattleFrontier_BattlePike_EventScript_Retire_hns",
+  "addr": 166441223,
+  "to": "BattleFrontier_BattlePikeLobby_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "TrainerHill_1F_EventScript_WarpSilentToEntranceCounter",
+  "addr": 166458076,
+  "to": "TrainerHill_Entrance_hns",
+  "x": 9,
+  "y": 6
+ },
+ {
+  "sym": "TrainerHill_EventScript_WarpToEntranceCounter",
+  "addr": 166458113,
+  "to": "TrainerHill_Entrance_hns",
+  "x": 9,
+  "y": 6
+ },
+ {
+  "sym": "Route13_TravelToAlola_13",
+  "addr": 166553817,
+  "to": "MelemeleIsle_hns",
+  "x": 25,
+  "y": 33
+ },
+ {
+  "sym": "Route13_TravelToAlola_16",
+  "addr": 166553949,
+  "to": "MelemeleIsle_hns",
+  "x": 25,
+  "y": 33
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F0",
+  "addr": 166649745,
+  "to": "GoldenrodCity_DepartmentStoreBasement_hns",
+  "x": 10,
+  "y": 5
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F1",
+  "addr": 166649768,
+  "to": "GoldenrodCity_DepartmentStore_1F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F2",
+  "addr": 166649791,
+  "to": "GoldenrodCity_DepartmentStore_2F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F3",
+  "addr": 166649814,
+  "to": "GoldenrodCity_DepartmentStore_3F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F4",
+  "addr": 166649837,
+  "to": "GoldenrodCity_DepartmentStore_4F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F5",
+  "addr": 166649860,
+  "to": "GoldenrodCity_DepartmentStore_5F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "GoldenrodDeptElevator_EventScript_F6",
+  "addr": 166649883,
+  "to": "GoldenrodCity_DepartmentStore_6F_hns",
+  "x": 9,
+  "y": 3
+ },
+ {
+  "sym": "CeladonDeptElevator_EventScript_F1",
+  "addr": 166650175,
+  "to": "CeladonCity_DepartmentStore_1F_hns",
+  "x": 6,
+  "y": 0
+ },
+ {
+  "sym": "CeladonDeptElevator_EventScript_F2",
+  "addr": 166650198,
+  "to": "CeladonCity_DepartmentStore_2F_hns",
+  "x": 6,
+  "y": 0
+ },
+ {
+  "sym": "CeladonDeptElevator_EventScript_F3",
+  "addr": 166650221,
+  "to": "CeladonCity_DepartmentStore_3F_hns",
+  "x": 6,
+  "y": 0
+ },
+ {
+  "sym": "CeladonDeptElevator_EventScript_F4",
+  "addr": 166650244,
+  "to": "CeladonCity_DepartmentStore_4F_hns",
+  "x": 6,
+  "y": 0
+ },
+ {
+  "sym": "CeladonDeptElevator_EventScript_F5",
+  "addr": 166650267,
+  "to": "CeladonCity_DepartmentStore_5F_hns",
+  "x": 6,
+  "y": 0
+ },
+ {
+  "sym": "OlivinePort_EventScript_ChoseVermilion",
+  "addr": 166670550,
+  "to": "VermilionCity_PortInside_hns",
+  "x": 8,
+  "y": 9
+ },
+ {
+  "sym": "OlivinePort_EventScript_ChoseSouthernIsland",
+  "addr": 166670590,
+  "to": "SouthernIsland_Exterior_hns",
+  "x": 13,
+  "y": 22
+ },
+ {
+  "sym": "OlivinePort_EventScript_ChoseBirthIsland",
+  "addr": 166670630,
+  "to": "BirthIsland_Exterior_hns",
+  "x": 13,
+  "y": 23
+ },
+ {
+  "sym": "OlivinePort_EventScript_ChoseFarawayIsland",
+  "addr": 166670670,
+  "to": "FarawayIsland_Entrance_hns",
+  "x": 13,
+  "y": 38
+ },
+ {
+  "sym": "OlivinePort_EventScript_ChoseBattleFrontier",
+  "addr": 166670690,
+  "to": "BattleFrontier_OutsideWest_hns",
+  "x": 20,
+  "y": 67
+ },
+ {
+  "sym": "OlivinePort_EventScript_Sailor_MaidenVoyage",
+  "addr": 166670731,
+  "to": "SSAqua_1F_hns",
+  "x": 29,
+  "y": 3
+ },
+ {
+  "sym": "VermilionPort_EventScript_ChoseOlivine",
+  "addr": 166709396,
+  "to": "OlivineCity_PortInside_hns",
+  "x": 8,
+  "y": 16
+ },
+ {
+  "sym": "VermilionPort_EventScript_ChoseSouthernIsland",
+  "addr": 166709436,
+  "to": "SouthernIsland_Exterior_hns",
+  "x": 13,
+  "y": 22
+ },
+ {
+  "sym": "VermilionPort_EventScript_ChoseBirthIsland",
+  "addr": 166709476,
+  "to": "BirthIsland_Exterior_hns",
+  "x": 13,
+  "y": 23
+ },
+ {
+  "sym": "VermilionPort_EventScript_ChoseFarawayIsland",
+  "addr": 166709516,
+  "to": "FarawayIsland_Entrance_hns",
+  "x": 13,
+  "y": 38
+ },
+ {
+  "sym": "VermilionPort_EventScript_ChoseBattleFrontier",
+  "addr": 166709536,
+  "to": "BattleFrontier_OutsideWest_hns",
+  "x": 20,
+  "y": 67
+ },
+ {
+  "sym": "VermilionPort_EventScript_Sailor_MaidenVoyage",
+  "addr": 166709565,
+  "to": "SSAqua_1F_hns",
+  "x": 29,
+  "y": 3
+ },
+ {
+  "sym": "SaffronStation_EventScript_BoardTrain",
+  "addr": 166729882,
+  "to": "GoldenrodCity_TrainStation_hns",
+  "x": 19,
+  "y": 16
+ },
+ {
+  "sym": "IndigoPlateau_EventScript_PsychicTeleport",
+  "addr": 166751413,
+  "to": "NewBarkTown_hns",
+  "x": 20,
+  "y": 12
+ },
+ {
+  "sym": "Gate_NationalPark_EventScript_BAttendantStart",
+  "addr": 166763159,
+  "to": "NationalPark_BugContest_hns",
+  "x": 40,
+  "y": 19
+ },
+ {
+  "sym": "Gate_NationalPark_EventScript_OnlyOneMonB",
+  "addr": 166763242,
+  "to": "NationalPark_BugContest_hns",
+  "x": 40,
+  "y": 19
+ },
+ {
+  "sym": "TrainerHill_Entrance_hns_EventScript_WarpToEntranceCounter",
+  "addr": 166768202,
+  "to": "TrainerHill_Entrance_hns",
+  "x": 9,
+  "y": 6
+ },
+ {
+  "sym": "TrainerHill_Elevator_hns_EventScript_ExitToRoof",
+  "addr": 166772237,
+  "to": "TrainerHill_Roof_hns",
+  "x": 15,
+  "y": 5
+ },
+ {
+  "sym": "TrainerHill_Elevator_hns_EventScript_EnterElevator",
+  "addr": 166772326,
+  "to": "TrainerHill_Entrance_hns",
+  "x": 17,
+  "y": 8
+ },
+ {
+  "sym": "SlateportCity_BattleTentLobby_hns_EventScript_EnterChallenge",
+  "addr": 166773081,
+  "to": "SlateportCity_BattleTentCorridor_hns",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "SlateportCity_BattleTentCorridor_hns_EventScript_EnterBattleRoom",
+  "addr": 166774403,
+  "to": "SlateportCity_BattleTentBattleRoom_hns",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "SlateportCity_BattleTent_hns_EventScript_WarpToLobbyLost",
+  "addr": 166774998,
+  "to": "SlateportCity_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "SlateportCity_BattleTentBattleRoom_hns_EventScript_DefeatedOpponent",
+  "addr": 166775064,
+  "to": "SlateportCity_BattleTentCorridor_hns",
+  "x": 2,
+  "y": 3
+ },
+ {
+  "sym": "SlateportCity_BattleTentBattleRoom_hns_EventScript_WarpToLobbyWon",
+  "addr": 166775094,
+  "to": "SlateportCity_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentLobby_hns_EventScript_EnterChallenge",
+  "addr": 166775886,
+  "to": "VerdanturfTown_BattleTentCorridor_hns",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentCorridor_hns_EventScript_EnterCorridor",
+  "addr": 166777685,
+  "to": "VerdanturfTown_BattleTentBattleRoom_hns",
+  "x": 6,
+  "y": 5
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyLost",
+  "addr": 166777902,
+  "to": "VerdanturfTown_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "VerdanturfTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyWon",
+  "addr": 166778245,
+  "to": "VerdanturfTown_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "FallarborTown_BattleTentLobby_hns_EventScript_EnterChallenge",
+  "addr": 166779121,
+  "to": "FallarborTown_BattleTentCorridor_hns",
+  "x": 2,
+  "y": 7
+ },
+ {
+  "sym": "FallarborTown_BattleTentCorridor_hns_EventScript_EnterCorridor",
+  "addr": 166780519,
+  "to": "FallarborTown_BattleTentBattleRoom_hns",
+  "x": 4,
+  "y": 4
+ },
+ {
+  "sym": "FallarborTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyLost",
+  "addr": 166780789,
+  "to": "FallarborTown_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "FallarborTown_BattleTentBattleRoom_hns_EventScript_WarpToLobbyWon",
+  "addr": 166781165,
+  "to": "FallarborTown_BattleTentLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "MtSilver_PokemonCenter_EventScript_Meara_BonusContentPrompt",
+  "addr": 166800766,
+  "to": "MtSilver_1F_WaterfallRoom_hns",
+  "x": 43,
+  "y": 9
+ },
+ {
+  "sym": "MtSilver_PokemonCenter_EventScript_Meara_WarpToSinjoh",
+  "addr": 166800800,
+  "to": "MtSilver_1F_WaterfallRoom_hns",
+  "x": 43,
+  "y": 9
+ },
+ {
+  "sym": "SlowpokeWell_B1F_EventScript_Proton",
+  "addr": 166821384,
+  "to": "AzaleaTown_KurtsHouse_hns",
+  "x": 15,
+  "y": 4
+ },
+ {
+  "sym": "IcePath_B1F_EventScript_PuzzleSkipButton",
+  "addr": 166839346,
+  "to": "IcePath_B1F_hns",
+  "x": 15,
+  "y": 12
+ },
+ {
+  "sym": "SSAqua_1F_EventScript_LeaveBoat",
+  "addr": 166883565,
+  "to": "VermilionCity_PortInside_hns",
+  "x": 8,
+  "y": 9
+ },
+ {
+  "sym": "SouthernIsland_Exterior_hns_EventScript_Sailor",
+  "addr": 166890547,
+  "to": "OlivineCity_PortInside_hns",
+  "x": 8,
+  "y": 16
+ },
+ {
+  "sym": "FarawayIsland_Entrance_hns_EventScript_Sailor",
+  "addr": 166890810,
+  "to": "OlivineCity_PortInside_hns",
+  "x": 8,
+  "y": 16
+ },
+ {
+  "sym": "BirthIsland_Harbor_hns_EventScript_Sailor",
+  "addr": 166891991,
+  "to": "LilycoveCity_Harbor",
+  "x": 8,
+  "y": 11
+ },
+ {
+  "sym": "BattleFrontier_OutsideWest_EventScript_EventScript_Sailor_hns",
+  "addr": 166892088,
+  "to": "OlivineCity_PortInside_hns",
+  "x": 8,
+  "y": 16
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerLobby_EventScript_WaitForLinkOpponentLoad_hns",
+  "addr": 166899443,
+  "to": "BattleFrontier_BattleTowerElevator_hns",
+  "x": 1,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerElevator_EventScript_WarpToCorridor_hns",
+  "addr": 166909625,
+  "to": "BattleFrontier_BattleTowerCorridor_hns",
+  "x": 8,
+  "y": 1
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerElevator_EventScript_WarpToNextRoom_hnsMulti_hns",
+  "addr": 166909644,
+  "to": "BattleFrontier_BattleTowerMultiCorridor_hns",
+  "x": 7,
+  "y": 2
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerElevator_EventScript_WarpToCorridor_hnsMulti_hns",
+  "addr": 166909654,
+  "to": "BattleFrontier_BattleTowerMultiCorridor_hns",
+  "x": 7,
+  "y": 2
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerElevator_EventScript_WarpToPartnerRoom_hns",
+  "addr": 166909664,
+  "to": "BattleFrontier_BattleTowerMultiPartnerRoom_hns",
+  "x": 10,
+  "y": 1
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerCorridor_EventScript_WarpToBattleRoom_hns",
+  "addr": 166909840,
+  "to": "BattleFrontier_BattleTowerBattleRoom_hns",
+  "x": 4,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby_hns",
+  "addr": 166911550,
+  "to": "BattleFrontier_BattleTowerLobby_hns",
+  "x": 6,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby_hnsDoubles_hns",
+  "addr": 166911560,
+  "to": "BattleFrontier_BattleTowerLobby_hns",
+  "x": 10,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby_hnsMultis_hns",
+  "addr": 166911570,
+  "to": "BattleFrontier_BattleTowerLobby_hns",
+  "x": 14,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerBattleRoom_EventScript_WarpToLobby_hnsLinkMultis_hns",
+  "addr": 166911588,
+  "to": "BattleFrontier_BattleTowerLobby_hns",
+  "x": 18,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_EnterElevator_hns",
+  "addr": 166918402,
+  "to": "BattleFrontier_BattleTowerElevator_hns",
+  "x": 1,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerMultiPartnerRoom_EventScript_TalkToPotentialPartner_hns",
+  "addr": 166918625,
+  "to": "BattleFrontier_BattleTowerMultiPartnerRoom_hns",
+  "x": 10,
+  "y": 3
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToNormalBattleRoom_hns",
+  "addr": 166938823,
+  "to": "BattleFrontier_BattleTowerBattleRoom_hns",
+  "x": 4,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToMultiBattleRoom_hns",
+  "addr": 166938833,
+  "to": "BattleFrontier_BattleTowerMultiBattleRoom_hns",
+  "x": 4,
+  "y": 5
+ },
+ {
+  "sym": "BattleFrontier_BattleTowerMultiCorridor_EventScript_WarpToLinkMultiBattleRoom_hns",
+  "addr": 166938843,
+  "to": "BattleFrontier_BattleTowerMultiBattleRoom_hns",
+  "x": 4,
+  "y": 5
+ },
+ {
+  "sym": "BattleFrontier_BattleDomeLobby_EventScript_EnterChallenge_hns",
+  "addr": 166942243,
+  "to": "BattleFrontier_BattleDomeCorridor_hns",
+  "x": 23,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattleDomeCorridor_EventScript_WarpToPreBattleRoom_hns",
+  "addr": 166947761,
+  "to": "BattleFrontier_BattleDomePreBattleRoom_hns",
+  "x": 5,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattleDomePreBattleRoom_EventScript_ContinueChallenge_hns",
+  "addr": 166948617,
+  "to": "BattleFrontier_BattleDomeBattleRoom_hns",
+  "x": 9,
+  "y": 5
+ },
+ {
+  "sym": "BattleFrontier_BattleDomeBattleRoom_EventScript_DefeatedOpponent_hns",
+  "addr": 166951289,
+  "to": "BattleFrontier_BattleDomePreBattleRoom_hns",
+  "x": 5,
+  "y": 3
+ },
+ {
+  "sym": "BattleFrontier_BattleDomeBattleRoom_EventScript_WarpToLobby_hns",
+  "addr": 166953825,
+  "to": "BattleFrontier_BattleDomeLobby_hns",
+  "x": 5,
+  "y": 11
+ },
+ {
+  "sym": "BattleFrontier_BattleDomePreBattleRoom_EventScript_WarpToLobbyDoubles_hns",
+  "addr": 166953835,
+  "to": "BattleFrontier_BattleDomeLobby_hns",
+  "x": 17,
+  "y": 11
+ },
+ {
+  "sym": "BattleFrontier_BattlePalaceLobby_EventScript_EnterChallenge_hns",
+  "addr": 166958455,
+  "to": "BattleFrontier_BattlePalaceCorridor_hns",
+  "x": 8,
+  "y": 13
+ },
+ {
+  "sym": "BattleFrontier_BattlePalaceCorridor_EventScript_WarpToBattleRoom_hns",
+  "addr": 166965184,
+  "to": "BattleFrontier_BattlePalaceBattleRoom_hns",
+  "x": 7,
+  "y": 4
+ },
+ {
+  "sym": "BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobby_hns",
+  "addr": 166967555,
+  "to": "BattleFrontier_BattlePalaceLobby_hns",
+  "x": 5,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobby_hnsDoubles_hns",
+  "addr": 166967565,
+  "to": "BattleFrontier_BattlePalaceLobby_hns",
+  "x": 19,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePyramidLobby_EventScript_EnterChallenge_hns",
+  "addr": 166970528,
+  "to": "BattleFrontier_BattlePyramidFloor_hns",
+  "x": 1,
+  "y": 1
+ },
+ {
+  "sym": "BattleFrontier_BattlePyramid_EventScript_WarpToLobby_hns",
+  "addr": 166978979,
+  "to": "BattleFrontier_BattlePyramidLobby_hns",
+  "x": 7,
+  "y": 13
+ },
+ {
+  "sym": "BattlePyramid_WarpToNextFloor_hns",
+  "addr": 166979163,
+  "to": "BattleFrontier_BattlePyramidFloor_hns",
+  "x": 1,
+  "y": 1
+ },
+ {
+  "sym": "BattlePyramid_WarpToTop_hns",
+  "addr": 166979173,
+  "to": "BattleFrontier_BattlePyramidTop_hns",
+  "x": 17,
+  "y": 17
+ },
+ {
+  "sym": "BattleFrontier_BattlePyramidTop_EventScript_WarpToLobbyWon_hns",
+  "addr": 166988868,
+  "to": "BattleFrontier_BattlePyramidLobby_hns",
+  "x": 7,
+  "y": 13
+ },
+ {
+  "sym": "BattleFrontier_BattleArenaLobby_EventScript_EnterChallenge_hns",
+  "addr": 166992299,
+  "to": "BattleFrontier_BattleArenaCorridor_hns",
+  "x": 9,
+  "y": 13
+ },
+ {
+  "sym": "BattleFrontier_BattleArenaCorridor_EventScript_WalkToBattleRoom_hns",
+  "addr": 166997497,
+  "to": "BattleFrontier_BattleArenaBattleRoom_hns",
+  "x": 7,
+  "y": 5
+ },
+ {
+  "sym": "BattleFrontier_BattleArenaBattleRoom_EventScript_WarpToLobbyLost_hns",
+  "addr": 166998035,
+  "to": "BattleFrontier_BattleArenaLobby_hns",
+  "x": 7,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleArenaBattleRoom_EventScript_ReturnToLobbyWon_hns",
+  "addr": 166998611,
+  "to": "BattleFrontier_BattleArenaLobby_hns",
+  "x": 7,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleFactoryLobby_EventScript_EnterChallenge_hns",
+  "addr": 167002428,
+  "to": "BattleFrontier_BattleFactoryPreBattleRoom_hns",
+  "x": 8,
+  "y": 13
+ },
+ {
+  "sym": "BattleFrontier_BattleFactoryPreBattleRoom_EventScript_EnterBattleRoom_hns",
+  "addr": 167007631,
+  "to": "BattleFrontier_BattleFactoryBattleRoom_hns",
+  "x": 6,
+  "y": 11
+ },
+ {
+  "sym": "BattleFrontier_BattleFactoryBattleRoom_EventScript_IncrementBattleNum_hns",
+  "addr": 167012802,
+  "to": "BattleFrontier_BattleFactoryPreBattleRoom_hns",
+  "x": 8,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobby_hns",
+  "addr": 167013343,
+  "to": "BattleFrontier_BattleFactoryLobby_hns",
+  "x": 4,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattleFactoryBattleRoom_EventScript_WarpToLobby_hnsDoubles_hns",
+  "addr": 167013353,
+  "to": "BattleFrontier_BattleFactoryLobby_hns",
+  "x": 14,
+  "y": 8
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeLobby_EventScript_SaveBeforeChallenge_hns",
+  "addr": 167015513,
+  "to": "BattleFrontier_BattlePikeCorridor_hns",
+  "x": 6,
+  "y": 7
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeCorridor_EventScript_EnterCorridor_hns",
+  "addr": 167019037,
+  "to": "BattleFrontier_BattlePikeThreePathRoom_hns",
+  "x": 6,
+  "y": 10
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeThreePathRoom_EventScript_WarpToLobby_hns",
+  "addr": 167019210,
+  "to": "BattleFrontier_BattlePikeLobby_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeRoomNormal_EventScript_WarpToLobbyLost_hns",
+  "addr": 167021637,
+  "to": "BattleFrontier_BattlePikeLobby_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeRoomFinal_EventScript_EnterRoom_hns",
+  "addr": 167026149,
+  "to": "BattleFrontier_BattlePikeLobby_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "BattleFrontier_BattlePikeRoomWildMons_EventScript_WarpToLobbyLost_hns",
+  "addr": 167026288,
+  "to": "BattleFrontier_BattlePikeLobby_hns",
+  "x": 5,
+  "y": 6
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_12",
+  "addr": 167090463,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 26
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_12_Lower",
+  "addr": 167090473,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 27
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_15",
+  "addr": 167090492,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 11
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_15_Lower",
+  "addr": 167090502,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 12
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_18",
+  "addr": 167090521,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 5
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_18_Lower",
+  "addr": 167090531,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 6
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_20",
+  "addr": 167090550,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 8
+ },
+ {
+  "sym": "Alola_Poni_Totem_sign_20_Lower",
+  "addr": 167090560,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 9
+ },
+ {
+  "sym": "Alola_Melemele_TravelToKanto_7",
+  "addr": 167091992,
+  "to": "Route13_hns",
+  "x": 77,
+  "y": 26
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_12",
+  "addr": 167092998,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 26
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_12_Lower",
+  "addr": 167093008,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 27
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_15",
+  "addr": 167093027,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 11
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_15_Lower",
+  "addr": 167093037,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 12
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_18",
+  "addr": 167093056,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 5
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_18_Lower",
+  "addr": 167093066,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 6
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_20",
+  "addr": 167093085,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 8
+ },
+ {
+  "sym": "Alola_Melemele_Totem_sign_20_Lower",
+  "addr": 167093095,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 9
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_12",
+  "addr": 167096725,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 26
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_12_Lower",
+  "addr": 167096735,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 27
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_15",
+  "addr": 167096754,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 11
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_15_Lower",
+  "addr": 167096764,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 12
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_18",
+  "addr": 167096783,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 5
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_18_Lower",
+  "addr": 167096793,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 6
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_20",
+  "addr": 167096812,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 8
+ },
+ {
+  "sym": "Alola_Akala_Totem_sign_20_Lower",
+  "addr": 167096822,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 9
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_12",
+  "addr": 167123723,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 26
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_12_Lower",
+  "addr": 167123733,
+  "to": "MelemeleIsle_hns",
+  "x": 34,
+  "y": 27
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_15",
+  "addr": 167123752,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 11
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_15_Lower",
+  "addr": 167123762,
+  "to": "AkalaIsle_hns",
+  "x": 9,
+  "y": 12
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_18",
+  "addr": 167123781,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 5
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_18_Lower",
+  "addr": 167123791,
+  "to": "UlaUla_Forest_hns",
+  "x": 16,
+  "y": 6
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_20",
+  "addr": 167123810,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 8
+ },
+ {
+  "sym": "Alola_Ulaula_Totem_sign_20_Lower",
+  "addr": 167123820,
+  "to": "PoniIsle_hns",
+  "x": 13,
+  "y": 9
+ }
+]

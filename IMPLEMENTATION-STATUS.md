@@ -74,3 +74,10 @@ python3 -m http.server 8765 -d dist
 - Repository name: `project-blonde-guide` → `https://<account>.github.io/project-blonde-guide/`. Do not publish until the owner approves the final repository and URL.
 - Personal dedication and family acknowledgement are excluded from the public credits (`PRIVATE` in `tools/credits.py`).
 - Download stays disabled until the owner explicitly approves a release and supplies distribution details.
+
+## Pokédex availability correction (2026-10-09)
+
+- **Rule:** the public Pokédex lists Pokémon legitimately obtainable in the current approved build, not every engine species. Revalidate on every release (`tools/availability.py`, then read `AVAILABILITY-AUDIT.md`).
+- Result on v105: 480 entries (438 species + 42 regional forms) = the game's own Pokédex list (482) minus Porygon2 and Porygon-Z (no Up-Grade in the game). 1,067 → 480 public entries; Unown and Arceus added (their macro-defined families were missing from the old species data; `dex.py` now reads such rows from the ROM).
+- Search defect: list filters set `hidden` on rows but `.dex li{display:grid}` (and the same for people / places / items / Mega Stones lists) overrode it. Fixed by a global `[hidden]{display:none!important}`; filter matching now prefers the whole phrase. Tests measure computed visibility (`tools/qa_pokedex.py`).
+- Evidence: `qa-evidence/pokedex-audit/`.

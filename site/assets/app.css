@@ -27,6 +27,8 @@ p{margin:0 0 1em;text-wrap:pretty}b,strong{font-weight:600;color:var(--ink)}
 ul,ol{margin:0;padding:0;list-style:none}button{font:inherit;color:inherit;cursor:pointer;background:none;border:0;padding:0}
 select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--hair-2);border-radius:8px;height:48px;padding:0 14px;max-width:100%}
 .px{image-rendering:pixelated}
+/* The hidden attribute must win over any display rule below. Without this, rows that set display:grid stayed visible when a filter hid them. */
+[hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 .skip{position:absolute;left:8px;top:-60px;background:var(--ink);color:var(--bg);padding:8px 12px;border-radius:4px;z-index:100}.skip:focus{top:8px}
 .wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gut);padding-right:var(--gut)}
@@ -553,3 +555,4 @@ code{font:400 .86em var(--mono);color:var(--ink-2);word-break:break-all}
 @media (max-width:640px){.legs{gap:12px}.leg-s .ticks{gap:1px}.leg-s .ticks a{min-width:0}.leg-s>b{font-size:.8rem;overflow:hidden;text-overflow:ellipsis}}
 .enc,.enc-list,.enc-row{min-width:0}.enc-row b{min-width:0;overflow-wrap:anywhere}
 .megapage>.q4.three{margin-top:0}.megapage>.q4.three section{padding-top:8px}
+.howh{margin:28px 0 8px;font-size:1.05rem}.howlist li small,.evo small.na{color:var(--ink-3);font-size:.78rem}.evo small.na{display:block;font:400 .62rem var(--mono);letter-spacing:.06em;text-transform:uppercase}.availline{margin-top:18px;max-width:70ch}

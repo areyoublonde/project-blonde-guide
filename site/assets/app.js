@@ -121,8 +121,13 @@
   $$("[data-filter-list]").forEach(input => {
     const lists = $$(input.dataset.filterList), rows = lists.flatMap(l => $$(":scope > li", l)), scope = input.closest(".listpage, .roadcol") || document;
     const count = $("[data-filter-count]", scope), empty = $("[data-filter-empty]", scope); let region = "";
-    const run = () => { const toks = norm(input.value).split(" ").filter(Boolean); let n = 0;
-      rows.forEach(li => { const ok = toks.every(t => li.dataset.f.includes(t)) && (!region || (li.dataset.r || "").split(" ").includes(region) || li.dataset.r === region); li.hidden = !ok; n += ok; const c = li.dataset.place && $(`circle[data-place="${li.dataset.place}"]`); c && c.classList.toggle("dim", !ok); });
+    // A row matches when it contains the whole phrase (also with the spaces removed, so "ho-oh" finds Ho-Oh and not every row with "ho" and "oh");
+    // only if no row does, fall back to "contains every word".
+    const run = () => { const q = norm(input.value), qc = q.replace(/ /g, ""), toks = q.split(" ").filter(Boolean); let n = 0;
+      const inR = li => !region || (li.dataset.r || "").split(" ").includes(region) || li.dataset.r === region;
+      const exact = li => !q || li.dataset.f.includes(q) || (qc.length > 2 && li.dataset.f.includes(qc));
+      const strict = !q || rows.some(li => inR(li) && exact(li));
+      rows.forEach(li => { const ok = inR(li) && (strict ? exact(li) : toks.every(t => li.dataset.f.includes(t))); li.hidden = !ok; n += ok; const c = li.dataset.place && $(`circle[data-place="${li.dataset.place}"]`); c && c.classList.toggle("dim", !ok); });
       if (count) count.textContent = `${n} of ${rows.length}`; if (empty) empty.hidden = n > 0; $$(".kind", scope).forEach(k => k.hidden = !$$("li:not([hidden])", k).length && !!$$("li", k).length); };
     on(input, "input", run);
     $$("[data-region-filter]", scope).forEach(b => on(b, "click", () => { region = b.dataset.regionFilter; $$("[data-region-filter]", scope).forEach(x => x.setAttribute("aria-pressed", String(x === b))); run(); }));

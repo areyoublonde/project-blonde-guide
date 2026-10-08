@@ -365,7 +365,14 @@ def main():
                     if agg:
                         rec["tables"].setdefault(method, {})[tod] = sorted(agg.values(), key=lambda e: -e["rate"])
                         rec.setdefault("density", {})[method] = rate
-        if name and rec["tables"]:
+        for t, tod in enumerate(TIMES):          # fifth list of each period: the three hidden (DexNav) slots
+            p = R.u32(a + 4 + t * 20 + 16)
+            if R.ok(p):
+                tab = R.u32(p + 4)
+                hid = [{"id": sp(R.u16(tab + 4 * j + 2)), "min": R.u8(tab + 4 * j), "max": R.u8(tab + 4 * j + 1)} for j in range(3) if R.u16(tab + 4 * j + 2)]
+                if hid:
+                    rec.setdefault("hidden", {})[tod] = hid
+        if name and (rec["tables"] or rec.get("hidden")):
             if name in enc:        # a second header for the same map (kept: the engine uses the first match)
                 rec["dup"] = True
                 enc.setdefault(name + "#2", rec)
@@ -410,6 +417,17 @@ def main():
                 im.convert("P", palette=1, colors=255).save(out / f"{m['slug']}.png", optimize=True)
         print("rendered", sum(m["img"] for m in world.values()), "maps; tiles not found for", sorted(getattr(rr, "missing", [])))
 
+    # ---------------------------------------------------------------- warps performed by scripts (boats, lifts, events): edges the warp tables do not show
+    script_warps = []
+    for m in re.finditer(rb"[\x39\x3a\x3b\x3d](..)\xff(..)(..)", R.b, re.S):
+        g, n = m.group(1)[0], m.group(1)[1]
+        to = key.get((g, n))
+        if not to:
+            continue
+        x, y = struct.unpack("<H", m.group(2))[0], struct.unpack("<H", m.group(3))[0]
+        if x < world[to]["w"] and y < world[to]["h"]:
+            a_ = B + m.start()
+            script_warps.append({"sym": R.sym_at(a_), "addr": a_, "to": to, "x": x, "y": y})
     dump = lambda name, obj: (OUT / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False))
     dump("world.json", world)
     dump("trainers.json", trainers)
@@ -417,6 +435,7 @@ def main():
     dump("sections.json", {"names": secs, "coords": coords})
     dump("gives.json", gives)
     dump("marts.json", marts)
+    dump("scriptwarps.json", script_warps)
     man = {"build": BUILD, "maps": len(world), "by_region": {r: sum(1 for m in world.values() if m["region"] == r) for r in ("johto", "kanto", "hoenn", "alola", "sinjoh")},
            "trainers": len(trainers), "encounter_maps": len(enc), "sections": len(secs), "item_balls": sum(1 for g in gives if g["how"] == "ball"),
            "gift_scripts": sum(1 for g in gives if g["how"] == "gift"), "hidden_items": sum(len(m["events"]["hidden"]) for m in world.values()), "marts": len(marts)}

@@ -1,0 +1,113 @@
+{
+ "url": "https://areyoublonde.github.io/project-blonde-guide/",
+ "commit": "4305a20ea29869118717e0b00fe355fac5d77056",
+ "date": "2026-10-09",
+ "routes": 1883,
+ "checks": [
+  {
+   "name": "All 1883 routes return 200 on the live host",
+   "ok": true
+  },
+  {
+   "name": "Live sweep 1440px: 30 pages clean",
+   "ok": true
+  },
+  {
+   "name": "Live sweep 390px: 30 pages clean",
+   "ok": true
+  },
+  {
+   "name": "Home loads over HTTPS with the new-player state",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201cmisdrevus\u201d finds /pokemon/misdreavus/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201cmega stones\u201d finds /items/mega-stones/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201csky pillar\u201d finds /world/hoenn/sky-pillar/",
+   "ok": true
+  },
+  {
+   "name": "Pok\u00e9dex: 1,067 entries, filter narrows",
+   "ok": true
+  },
+  {
+   "name": "Pok\u00e9dex entry: sprite, locations, Town Map",
+   "ok": true
+  },
+  {
+   "name": "Map: image loads",
+   "ok": true
+  },
+  {
+   "name": "Map: zoom and marker detail",
+   "ok": true
+  },
+  {
+   "name": "Atlas: Hoenn Town Map",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: 51 listed, completeness match",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: searchable",
+   "ok": true
+  },
+  {
+   "name": "Progress: persists across reload",
+   "ok": true
+  },
+  {
+   "name": "Progress: export and import",
+   "ok": true
+  },
+  {
+   "name": "Home: resumes at the saved chapter",
+   "ok": true
+  },
+  {
+   "name": "Play: download disabled",
+   "ok": true
+  },
+  {
+   "name": "Play: no link to any game, save or patch file",
+   "ok": true
+  },
+  {
+   "name": "Play: v1.0 release candidate (build v105), not a public release",
+   "ok": true
+  },
+  {
+   "name": "Play: four device guides",
+   "ok": true
+  },
+  {
+   "name": "About: project credits and non-affiliation; no personal sections",
+   "ok": true
+  },
+  {
+   "name": "Phone: Menu opens",
+   "ok": true
+  },
+  {
+   "name": "Phone: Menu link navigates",
+   "ok": true
+  },
+  {
+   "name": "Phone: chapter dock \u2192 next chapter",
+   "ok": true
+  },
+  {
+   "name": "Phone: search answers",
+   "ok": true
+  }
+ ],
+ "passed": 26
+}

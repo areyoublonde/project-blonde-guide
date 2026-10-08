@@ -1,11 +1,11 @@
 {
  "build": {
   "version": "v105",
+  "public": "v1.0 release candidate",
   "folder": "Heart & Soul - Hoenn Dialogue Events v105 Title Version v1.0 and Wattson Line",
   "rom": "Pokemon - Heart & Soul (Blonde).gba",
   "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
-  "symbols": "qa/natural-run-v102/harness/sym-v84.json",
-  "public": "v1.0 release candidate"
+  "symbols": "qa/natural-run-v102/harness/sym-v84.json"
  },
  "maps": 908,
  "by_region": {
@@ -21,10 +21,5 @@
  "item_balls": 428,
  "gift_scripts": 374,
  "hidden_items": 251,
- "marts": 37,
- "extracted_from": {
-  "version": "v104",
-  "sha256": "2b254f96e644e33c35dcf1719715481f96b87057e5ae1d22a98332e928907582",
-  "note": "v105 = v104 + 473 bytes at 0x090AB550 (Wattson's badge speech), 0x09F6A144 (title sheet pointer) and 0x09F8CCA8 (new title sheet). No table decoded by romx.py is touched, so the extractors were not re-run."
- }
+ "marts": 37
 }

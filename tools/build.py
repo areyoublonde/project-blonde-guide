@@ -241,35 +241,25 @@ for _s in STATICS:
     STATIC_BY.setdefault(_s["species"], []).append(_s)
 RETIRED = {("SPECIES_KYOGRE", "Route19_Cave_hns"), ("SPECIES_GROUDON", "SeafoamIslands_SecretCave_hns"), ("SPECIES_RAYQUAZA", "EmbeddedTower_hns")}
 USED_BY = {}
+NOCATCH = {(b["species"], b["where"]) for b in AVAIL["report"]["blocked_sources"] if "catching disabled" in b["why"]}
+MLABEL = {"wild": "Wild encounter", "static": "Static encounter", "gift": "Gift Pokémon", "egg": "Gift Egg", "trade": "In-game trade", "roamer": "Roaming Pokémon",
+          "converter": "Form converter", "evolution": "Evolution", "breeding": "Breeding", "verified": "Event"}
+MKEY = {"wild": "wild", "static": "event", "gift": "event", "egg": "event", "trade": "event", "roamer": "event", "converter": "event", "evolution": "evolve", "breeding": "breed"}
 
 
-def obtain(d):
-    """How the game's data says this entry can be obtained: wild / fixed / gift / evolve / unknown."""
-    out = []
-    if WHERE.get(d["id"]):
-        out.append("wild")
-    for s in STATIC_BY.get(d["id"], []):
-        if (s["species"], s["map"]) in RETIRED:
-            continue
-        k = "fixed" if s["kind"] == "battle" else "gift"
-        if k not in out:
-            out.append(k)
-    return out
+def gate_note(mk):
+    g = next((g for g in GATED if mk and any(mk.startswith(pre) for pre in g["maps"])), None)
+    return g
 
 
-def evo_reachable():
-    got = {k for k, d in DEX.items() if obtain(d)}
-    changed = True
-    while changed:
-        changed = False
-        for k in list(got):
-            for e in DEX[k]["evolves_to"]:
-                if e["to"] in DEX and e["to"] not in got:
-                    got.add(e["to"]); changed = True
-    return got
-
-
-REACH = evo_reachable()
+def progression(d):
+    """Earliest point on the road where the game's data offers this Pokémon, and whether every source lies beyond the main story."""
+    av = AV[d["id"]]
+    maps = [m["map"] for m in av["methods"] if m.get("map") and m["kind"] in ("wild", "static", "gift", "egg", "converter")]
+    chs = sorted({MAP_CHAPTER[m]["n"] for m in maps if m in MAP_CHAPTER})
+    first = next(j for j in JOURNEY if j["n"] == chs[0]) if chs else None
+    gates = [g for g in (gate_note(m) for m in maps) if g]
+    return first, gates, maps
 
 
 def where_summary(d):
@@ -282,36 +272,55 @@ def where_summary(d):
     return names
 
 
+def how_summary(d):
+    """One line for the index: where it is caught, or how else it is obtained. Never 'not available'."""
+    av = AV[d["id"]]
+    names = where_summary(d)
+    if names:
+        return ", ".join(names[:2]) + (f" +{len(names) - 2}" if len(names) > 2 else "")
+    for m in av["methods"]:
+        if m["kind"] in ("static", "gift", "egg", "converter"):
+            return f'{MLABEL[m["kind"]]}: {m["where"]}'
+        if m["kind"] == "trade":
+            return f'In-game trade {m["detail"]}'
+        if m["kind"] == "roamer":
+            return "Roaming Pokémon"
+    ev = next((m for m in av["methods"] if m["kind"] == "evolution"), None)
+    if ev:
+        return f'Evolve {DEX[ev["from"]]["display_full"]}: {ev["detail"]}'
+    br = next((m for m in av["methods"] if m["kind"] == "breeding"), None)
+    if br:
+        return f'Breed {DEX[br["from"]]["display_full"]} at the Day Care'
+    return MLABEL.get(av["kinds"][0], "") if av["kinds"] else ""
+
+
 def build_pokemon():
     rows = ""
     entries = sorted((DEX[k] for k in PAGES), key=lambda d: (d["dex"], d["num"]))
-    n_wild = 0
     for d in entries:
+        av = AV[d["id"]]
         names = where_summary(d)
-        regions = sorted({map_region(world[l["map"]]) for l in WHERE.get(d["id"], [])})
-        ob = obtain(d)
-        n_wild += "wild" in ob
-        if names:
-            summary = ", ".join(names[:2]) + (f" +{len(names) - 2}" if len(names) > 2 else "")
-        elif "fixed" in ob or "gift" in ob:
-            summary = "Fixed encounter or gift"
-        elif d["id"] in REACH:
-            summary = "By evolution"
-        else:
-            summary = "No source found in game data"
-        flags = " ".join(regions + ob + (["evolve"] if d["id"] in REACH and not ob else []) + ([] if d["id"] in REACH else ["none"]))
+        regions = sorted({map_region(world[m["map"]]) for m in av["methods"] if m.get("map") in world})
+        keys = sorted({MKEY[k] for k in av["kinds"]})
+        if "wild" not in keys and "event" not in keys:
+            keys.append("nowild")
+        form = (d.get("regional") or "") + (" alolan" if d.get("regional") == "Alola" else " galarian" if d.get("regional") == "Galar" else " hisuian" if d.get("regional") == "Hisui" else " paldean" if d.get("regional") == "Paldea" else "")
         label = f' <small>{esc(d["regional"])}</small>' if d["kind"] == "regional" else ""
-        rows += (f'<li id="{d["slug"]}" data-f="{esc((d["display"] + " " + (d.get("regional") or "") + " " + " ".join(d["types"]) + " " + " ".join(names)).lower())}" data-r="{flags}">'
-                 f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a>{label}</b>{types(d)}<span class="w">{esc(summary)}</span></li>')
-    body = head("Pokédex", "Where to find them", f"{len(entries):,} entries: every species and regional form in the game’s data. {n_wild} have wild encounter tables; the rest are marked by how the data says they can be obtained.") + f"""
+        hay = " ".join([d["display"], form, " ".join(d["types"]), " ".join(names), " ".join(MLABEL[k] for k in av["kinds"])]).lower()
+        hay = re.sub(r"[^a-z0-9 ]+", " ", hay.replace("é", "e").replace("♀", " f").replace("♂", " m")) + " " + re.sub(r"[^a-z0-9]+", "", d["display"].lower().replace("é", "e"))
+        rows += (f'<li id="{d["slug"]}" data-f="{esc(hay)}" data-r="{" ".join(regions + keys)}">'
+                 f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a>{label}</b>{types(d)}<span class="w">{esc(how_summary(d))}</span></li>')
+    n_base, n_reg = sum(1 for d in entries if d["kind"] == "species"), sum(1 for d in entries if d["kind"] == "regional")
+    body = head("Pokédex", "Where to find them", f"{len(entries)} Pokémon you can obtain in Project Blonde: {n_base} species and {n_reg} regional forms. Each is here because the game’s own data shows a way to get it: a wild encounter, an event, a gift, a trade, an evolution or an egg. Species the engine defines but the game never offers are left out.",
+                f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a></p>') + f"""
 <div class="wrap listpage">
- <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter Pokémon</span><input type="search" data-filter-list="#dex" placeholder="Name, type or place — try “ghost” or “route 119”" autocomplete="off"></label>
-  <div class="seg wrapok" role="group" aria-label="Show"><button data-region-filter="" aria-pressed="true">All</button><button data-region-filter="johto" aria-pressed="false">Johto</button><button data-region-filter="kanto" aria-pressed="false">Kanto</button><button data-region-filter="hoenn" aria-pressed="false">Hoenn</button><button data-region-filter="far" aria-pressed="false">Far-off</button><button data-region-filter="wild" aria-pressed="false">Any wild</button><button data-region-filter="none" aria-pressed="false">No source</button></div>
-  <p class="count" data-filter-count></p></div>
+ <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter Pokémon</span><input type="search" data-filter-list="#dex" placeholder="Name, type or place — try “pikachu”, “alolan” or “route 119”" autocomplete="off" aria-controls="dex"></label>
+  <div class="seg wrapok" role="group" aria-label="Show"><button data-region-filter="" aria-pressed="true">All</button><button data-region-filter="johto" aria-pressed="false">Johto</button><button data-region-filter="kanto" aria-pressed="false">Kanto</button><button data-region-filter="hoenn" aria-pressed="false">Hoenn</button><button data-region-filter="far" aria-pressed="false">Far-off</button><button data-region-filter="wild" aria-pressed="false">Wild</button><button data-region-filter="event" aria-pressed="false">Event, gift or trade</button><button data-region-filter="nowild" aria-pressed="false">Evolution or egg only</button></div>
+  <p class="count" data-filter-count aria-live="polite"></p></div>
  <ol class="dex" id="dex">{rows}</ol>
- <p class="empty" data-filter-empty hidden>No Pokémon match that. Try a type, or part of a place name.</p>
+ <p class="empty" data-filter-empty hidden>No Pokémon match that. Check the spelling, clear the filters above, or try a type or part of a place name.</p>
 </div>"""
-    write("/pokemon/", layout("Pokédex", body, desc="Every Pokémon in Project Blonde with locations, levels, chances, evolutions and forms.", path="/pokemon/"))
+    write("/pokemon/", layout("Pokédex", body, desc=f"The {len(entries)} Pokémon obtainable in Project Blonde, with locations, levels, chances, evolutions and forms.", path="/pokemon/"))
     for d in entries:
         build_species(d)
 
@@ -326,7 +335,7 @@ def family(d):
         if n["id"] in seen or depth > 5:
             return
         seen.add(n["id"])
-        inner = f'{art_img(n, 64, n["display_full"])}<b>{esc(n["display_full"])}</b>'
+        inner = f'{art_img(n, 64, n["display_full"])}<b>{esc(n["display_full"])}</b>' + ("" if n["id"] in PAGES else "<small class=na>not obtainable</small>")
         out.append(f'<a href="{sp_url(n)}" {"aria-current=true" if n is d else ""}>{inner}</a>' if n["id"] in PAGES else f"<div>{inner}</div>")
         tos = {}
         for e in n["evolves_to"]:
@@ -368,24 +377,47 @@ def build_species(d):
     locs = WHERE.get(d["id"], [])
     best = max(locs, key=lambda l: l["rate"]) if locs else None
     bestline = f'<p class="bestline"><span class="label">Best chance</span><b>{maplink(best["map"])}</b> · {METHOD[best["method"]].lower()} · {best["time"]} · {best["rate"]}%</p>' if best else ""
-    statics = ""
-    for s in STATIC_BY.get(d["id"], []):
-        retired = (s["species"], s["map"]) in RETIRED
-        kind = {"battle": "Fixed encounter", "gift": "Gift", "egg": "Egg"}[s["kind"]] + (" (shiny)" if s.get("shiny") else "")
-        statics += (f'<li><b>{maplink(s["map"])}</b><span>{kind}{", Level " + str(s["level"]) if s["level"] and s["level"] > 1 else ""}'
-                    f'{" — retired in Project Blonde; see the Legendary Pokémon chapter" if retired else ""}</span></li>')
-    ob = obtain(d)
+    av = AV[d["id"]]
+    first, gates, _maps = progression(d)
+    how = ""
+    for m in av["methods"]:
+        k = m["kind"]
+        if k == "wild":
+            continue
+        if k == "evolution":
+            pre = DEX[m["from"]]
+            txt = f'Evolve {sp_link(pre)}: {esc(m["detail"])}' + (" <small>(link trade only)</small>" if m.get("link_trade_only") else "")
+        elif k == "breeding":
+            txt = f'Leave {sp_link(DEX[m["from"]])} at the Day Care; the egg hatches into {esc(d["display_full"])}'
+        elif k == "converter":
+            txt = f'Take {sp_link(DEX[m["from"]])} to Bill’s house on Route 25: the machine there changes it into its regional form'
+        elif k == "trade":
+            txt = f'An in-game trade {esc(m["detail"])}'
+        elif k == "roamer":
+            txt = "Roams the region after a story event releases it"
+        else:
+            where = maplink(m["map"]) if m.get("map") in world else esc(m["where"])
+            lv = re.search(r"Lv\. (\d+)", m["detail"])
+            txt = f'{where}{" · Level " + lv.group(1) if lv else ""}{" · " + esc(m["form"]) + " form" if m.get("form") else ""}'
+            g = gate_note(m.get("map"))
+            if g:
+                txt += f' <small>(needs {esc(g["needs"])})</small>'
+        how += f'<li><b>{MLABEL[k]}</b><span>{txt}</span></li>'
     if rows:
         table = f'<table class="tbl"><thead><tr><th>Place</th><th>How</th><th>Level</th><th>When</th><th>Chance</th></tr></thead><tbody>{rows}</tbody></table>'
-    elif statics:
-        table = '<p class="muted">No wild encounter table lists this Pokémon. The game’s scripts contain the following:</p>'
-    elif d["id"] in REACH:
-        pre = DEX.get((d.get("evolves_from") or {}).get("from"))
-        table = f'<p class="muted">Not found in the wild. Obtained by evolving {"<a href=" + sp_url(pre) + ">" + esc(pre["display_full"]) + "</a>" if pre else "an earlier stage"}{": " + esc(d["evolves_from"]["how"]) if d.get("evolves_from") else ""}.</p>'
     else:
-        table = '<p class="muted">The game’s encounter tables and event scripts contain <b>no source</b> for this Pokémon or any earlier stage of it. It exists in the game’s data, but this guide cannot say it is obtainable.</p>'
-    if statics:
-        table += f'<ul class="items one">{statics}</ul><p class="muted">Fixed encounters and gifts are read from event scripts. Unless a walkthrough chapter describes one, its conditions were not verified by play.</p>'
+        table = '<p class="muted">Not a wild encounter: no encounter table lists it. It is obtained as shown below.</p>'
+    if how:
+        table += f'<h3 class="howh">{"Other ways to obtain it" if rows else "How to obtain it"}</h3><ul class="items howlist">{how}</ul>'
+    prog = []
+    if first:
+        prog.append(f'Earliest on the road: <a href="{jhref(first)}">Chapter {first["n"]}, {esc(first["title"]) if not first["ch"].get("spoiler") else REGIONS[first["r"]]["name"]}</a>')
+    elif any(k in av["kinds"] for k in ("wild", "static", "gift", "egg")):
+        prog.append("Found only in areas outside the walkthrough’s route (see the place pages)")
+    if gates:
+        prog.append("Some sources need " + ", ".join(dict.fromkeys(g["needs"] for g in gates)))
+    kinds_line = " · ".join(MLABEL[k] for k in av["kinds"])
+    table += f'<p class="muted availline"><span class="basis b-played">Obtainable</span> {kinds_line}{". " + ". ".join(prog) if prog else ""}. Sources are read from the game’s encounter tables, scripts and evolution data; unless a walkthrough chapter describes one, it was not confirmed by play.</p>'
     figs = ""
     for key, lab in (("jk", "Johto–Kanto"), ("hoenn", "Hoenn")):
         if dots[key]:
@@ -398,7 +430,9 @@ def build_species(d):
     forms = ""
     regs = REGIONALS.get(d["id"], []) + ([DEX[d["base"]]] if d.get("base") else []) + [x for x in REGIONALS.get(d.get("base"), []) if x is not d]
     if regs:
-        forms += '<div class="formrow">' + "".join(f'<a href="{sp_url(x)}">{art_img(x, 64, x["display_full"])}<b>{esc(x["display_full"])}</b><span>{types(x)}</span></a>' for x in regs) + "</div><p class=muted>Regional forms are separate Pokédex entries with their own locations.</p>"
+        regs = [x for x in regs if x["id"] in PAGES]
+        if regs:
+            forms += '<div class="formrow">' + "".join(f'<a href="{sp_url(x)}">{art_img(x, 64, x["display_full"])}<b>{esc(x["display_full"])}</b><span>{types(x)}</span></a>' for x in regs) + "</div><p class=muted>Regional forms are separate Pokédex entries with their own ways to obtain them.</p>"
     megas = [x for x in FORMS.get(d["id"], []) if x["kind"] == "mega"]
     for x in megas:
         link = next((m for m in MEGAS if m["mega"] == x["id"]), None)
@@ -420,7 +454,7 @@ def build_species(d):
             chs.append(j)
     chs.sort(key=lambda j: j["n"])
     road = "".join(f'<li><a href="{jhref(j)}#wild">Chapter {j["n"]}, {esc(j["title"])}</a></li>' for j in chs[:6])
-    crumb = f'<a href="{u("/pokemon/")}">Pokédex</a>' + (f'<a href="{sp_url(DEX[d["base"]])}">{esc(DEX[d["base"]]["display"])}</a>' if d.get("base") else "")
+    crumb = f'<a href="{u("/pokemon/")}">Pokédex</a>' + (f'<a href="{sp_url(DEX[d["base"]])}">{esc(DEX[d["base"]]["display"])}</a>' if d.get("base") and DEX[d["base"]]["id"] in PAGES else "")
     title = d["display_full"]
     label = (f'{esc(d["regional"])} form · ' if d["kind"] == "regional" else "") + (esc(d.get("category") or "") + " Pokémon")
     body = f"""
@@ -598,9 +632,9 @@ def build_place(p):
                 "".join(f'<li><b>{ilink(h["item"])}</b><span>Hidden · tile {h["x"]},{h["y"]}</span></li>' for h in m["events"]["hidden"])
         trs = "".join(trainer_row(t) for t in m["trainers"])
         shop = "".join(f'<li><b>Shop</b><span>{", ".join(ilink(i) for i in s["items"])}</span></li>' for s in MARTS if s["map"] == mk)
-        st = "".join(f'<li><b>{("<a href=" + sp_url(sp(s["species"])) + ">" + esc(sp(s["species"])["display_full"]) + "</a>") if sp(s["species"]) else esc(s["species"])}</b><span>{ {"battle": "Fixed encounter", "gift": "Gift", "egg": "Egg"}[s["kind"]]}{", Level " + str(s["level"]) if s["level"] and s["level"] > 1 else ""}{" — retired" if (s["species"], mk) in RETIRED else ""}</span></li>' for s in STATICS if s["map"] == mk)
+        st = "".join(f'<li><b>{sp_link(sp(s["species"])) if sp(s["species"]) else esc(s["species"])}</b><span>{ {"battle": "Fixed encounter", "gift": "Gift", "egg": "Egg"}[s["kind"]]}{", Level " + str(s["level"]) if s["level"] and s["level"] > 1 else ""}{" — retired" if (s["species"], mk) in RETIRED else ""}{" — a training or boss battle; it cannot be caught here" if (s["species"], mk) in NOCATCH else ""}</span></li>' for s in STATICS if s["map"] == mk)
         toc += f'<a href="#m-{m["slug"]}">{esc(m["name"])}</a>'
-        secs += (f'<section class="area" id="m-{m["slug"]}"><p class="label">{esc(m["type"].replace("_", " ") or "area")} · {m["w"]}×{m["h"]} tiles</p><h2>{esc(m["name"])}</h2>{map_viewer(mk)}'
+        secs += (f'<section class="area" id="m-{m["slug"]}"><p class="label">{esc(m["type"].replace("_", " ") or "area")} · {m["w"]}×{m["h"]} tiles</p><h2>{esc(m["name"])}</h2>{"<p class=notice>No warp, connection or script in the current game leads to this map. Its data is shown for reference only; nothing here counts as obtainable.</p>" if mk in UNREACHABLE else ""}{map_viewer(mk)}'
                  f'{enc_rows(mk, "Wild Pokémon")}'
                  f'{"<h3>Items</h3><ul class=items>" + items + shop + "</ul>" if items or shop else ""}'
                  f'{"<h3>Fixed encounters and gifts</h3><ul class=items>" + st + "</ul>" if st else ""}'
@@ -687,10 +721,10 @@ def build_item(i):
         a = MEGA_SRC["aide"]
         users = [t for t in MEGASTONES["held_by_trainers"].get(i["name"], []) if t in TRAINER_PAGE]
         if offered:
-            kv = [("Pokémon", f'<a href="{sp_url(base)}">{esc(base["display_full"])}</a> → {esc(form["display_full"])}'), ("Where", esc(a["where"])), ("Who", esc(a["who"]) + f' · the <b>{offered["list"]} Stones</b> list'),
+            kv = [("Pokémon", f'{sp_link(base)} → {esc(form["display_full"])}'), ("Where", esc(a["where"])), ("Who", esc(a["who"]) + f' · the <b>{offered["list"]} Stones</b> list'),
                   ("Requires", esc(a["requires"])), ("Cost", esc(a["cost"])), ("Missable", esc(a["missable"])), ("Available", esc(a["region"])), ("Other sources", "None in the game’s data: no item ball, hidden item, gift script or shop carries it.")]
         else:
-            kv = [("Pokémon", f'<a href="{sp_url(base)}">{esc(base["display_full"])}</a> → {esc(form["display_full"])}'), ("Status", "<b>Not obtainable.</b> The item is defined in the game, but the aide does not offer it and no item ball, hidden item, gift or shop carries it.")]
+            kv = [("Pokémon", f'{sp_link(base)} → {esc(form["display_full"])}'), ("Status", "<b>Not obtainable.</b> The item is defined in the game, but the aide does not offer it and no item ball, hidden item, gift or shop carries it.")]
         if users:
             kv.append(("Used against you by", ", ".join(dict.fromkeys(f'<a href="{u(TRAINER_PAGE[t])}">{esc(tname(trainer(t)))}</a>' for t in users))))
         mega_html = f'<dl class="kv wide answers">{"".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in kv)}</dl><p><a class="link" href="{u("/items/mega-stones/")}">All Mega Stones{ARROW}</a> <a class="link" href="{u("/features/mega-evolution/")}">How Mega Evolution works{ARROW}</a></p>'
@@ -715,7 +749,7 @@ def build_megastones():
         mg = next(m for m in MEGAS if m.get("stone") == o["stone"])
         base, form = DEX[mg["species"]], DEX[mg["mega"]]
         rows += (f'<li id="{slug(o["stone"])}" data-f="{esc((o["stone"] + " " + base["display"] + " " + " ".join(form["types"]) + " " + o["list"]).lower())}" data-r="{o["list"].lower()}">{icon_img(base, 32)}<b><a href="{u(ITEMS[o["stone"]]["url"])}">{esc(o["stone"])}</a></b>'
-                 f'<span class="w"><a href="{sp_url(base)}">{esc(form["display_full"])}</a></span>{types(form)}<span class="w">Elm’s lab aide · {o["list"]} Stones list</span><span class="m ok">Obtainable</span></li>')
+                 f'<span class="w">{sp_link(base, form["display_full"])}</span>{types(form)}<span class="w">Elm’s lab aide · {o["list"]} Stones list</span><span class="m ok">Obtainable</span></li>')
     not_rows = ""
     for name in MEGASTONES["not_obtainable"]:
         mg = next((m for m in MEGAS if m.get("stone") == name), None)
@@ -758,7 +792,9 @@ def trade_evos():
         for to, hows in tos.items():
             if any(h.startswith("Trade") for h in hows) and to in DEX:
                 alt = [h for h in hows if not h.startswith("Trade")]
-                rows += (f'<tr><td><a href="{sp_url(d)}">{esc(d["display_full"])}</a> → <a href="{sp_url(DEX[to])}">{esc(DEX[to]["display_full"])}</a></td><td data-l="By trade">{esc(next(h for h in hows if h.startswith("Trade")))}</td>'
+                if d["id"] not in PAGES or to not in PAGES:
+                    continue
+                rows += (f'<tr><td>{sp_link(d)} → {sp_link(DEX[to])}</td><td data-l="By trade">{esc(next(h for h in hows if h.startswith("Trade")))}</td>'
                          f'<td data-l="Without trading">{esc(" or ".join(alt)) if alt else "<b>No alternative in the data</b>"}</td></tr>')
     return f'<table class="tbl"><thead><tr><th>Evolution</th><th>By trade</th><th>Without trading</th></tr></thead><tbody>{rows}</tbody></table>'
 
@@ -971,7 +1007,7 @@ def build_search_index():
     for k in PAGES:
         d = DEX[k]
         names = where_summary(d)
-        add(d["display_full"], "Pokémon", f"/pokemon/{d['slug']}/", ("Found at " + ", ".join(names[:3]) + ("…" if len(names) > 3 else "")) if names else " / ".join(d["types"]) + " type", " ".join(d["types"]), 3 if names else 1)
+        add(d["display_full"], "Pokémon", f"/pokemon/{d['slug']}/", ("Found at " + ", ".join(names[:3]) + ("…" if len(names) > 3 else "")) if names else how_summary(d), " ".join(d["types"]) + " " + (d.get("regional") or ""), 3 if names else 2)
     for url, b, j in TRAINER_PAGE_LIST:
         ts = boss_trainers(b)
         add(b["title"], "Trainer", url, f'{b.get("place") or j["title"]} · Chapter {j["n"]}', " ".join(dict.fromkeys(mon_name(m) for t in ts for m in t["party"])) + " " + tclass(ts[0]), 5)
@@ -1024,18 +1060,15 @@ def write_reports(n_search, n_stuck):
         by_basis[j["ch"]["basis"]] = by_basis.get(j["ch"]["basis"], 0) + 1
     ent = [DEX[k] for k in PAGES]
     n_wild = sum(1 for d in ent if WHERE.get(d["id"]))
-    n_static = sum(1 for d in ent if not WHERE.get(d["id"]) and any(x in obtain(d) for x in ("fixed", "gift")))
-    n_evo = sum(1 for d in ent if not obtain(d) and d["id"] in REACH)
-    n_none = sum(1 for d in ent if d["id"] not in REACH)
     places_no_ch = sum(1 for p in PLACES.values() if not p["chapters"])
     C = ["# Content coverage", "", f"_Generated by `tools/build.py`. Game: {VERSION} (`{BUILD['build']['sha256'][:12]}…`)._", "",
          "## Pages", "", "| Page type | Expected | Generated | |", "|---|---|---|---|"] + rows + ["", f"**{tot} pages generated** ({len(pages)} written). Search index: {n_search} entries. Stuck? answers: {n_stuck}.", "",
          "## Walkthrough", "", f"- {TOTAL} chapters: " + ", ".join(f"{v} {k}" for k, v in by_basis.items()) + ".",
          f"- {sum(len(j['ch'].get('bosses', [])) for j in JOURNEY)} major battles with teams from the ROM; {sum(len(j['ch'].get('stuck', [])) for j in JOURNEY)} sticking-point answers.",
          "- Chapters marked `source` or `mixed` say so on the page and do not describe routes that were not played.", "",
-         "## Pokédex", "", f"- {len(ent)} entries ({sum(1 for d in ent if d['kind'] == 'species')} species, {sum(1 for d in ent if d['kind'] == 'regional')} regional forms); {sum(1 for d in DEX.values() if d['kind'] == 'mega')} Mega forms and {sum(1 for d in DEX.values() if d['kind'] == 'form')} other forms shown on their species' page.",
-         f"- {n_wild} have wild encounter tables ({BUILD['encounter_maps']} encounter headers, four times of day).", f"- {n_static} more have only a fixed encounter or gift script.", f"- {n_evo} more are reachable by evolution from one of those.",
-         f"- **{n_none} have no source in the game's data** and are labelled as such rather than given invented locations.", "",
+         "## Pokédex", "", f"- {len(ent)} obtainable entries ({sum(1 for d in ent if d['kind'] == 'species')} species, {sum(1 for d in ent if d['kind'] == 'regional')} regional forms); {sum(1 for d in DEX.values() if d['kind'] == 'mega')} Mega forms and {sum(1 for d in DEX.values() if d['kind'] == 'form')} other forms shown on their species' page.",
+         f"- {n_wild} have wild encounter tables on reachable maps ({BUILD['encounter_maps']} encounter headers, four times of day); the rest are obtained by event, gift, trade, evolution or egg.",
+         f"- {len(ENTRIES) - len(PAGES)} species and forms the engine defines are **not** in the public Pokédex because the game offers no way to obtain them. See `AVAILABILITY-AUDIT.md`.", "",
          "## World", "", f"- {len(PLACES)} places from {BUILD['maps']} maps; all {sum(1 for m in world.values() if m.get('img'))} maps rendered from game data.",
          f"- {places_no_ch} places are not on any chapter's route and are data-only pages.", "",
          "## Items", "", f"- {len(ITEMS)} items; {BUILD['item_balls']} item balls, {BUILD['hidden_items']} hidden items, {len(MARTS)} shop lists on live maps.",
@@ -1049,6 +1082,126 @@ def write_reports(n_search, n_stuck):
          "## Broken references", "", ("None: the build stops if content names a map, place, trainer or item the game data does not contain." if not ERRORS else "\n".join(f"- {e}" for e in ERRORS)), ""]
     (ROOT / "CONTENT-COVERAGE.md").write_text("\n".join(C), encoding="utf-8")
     return tot
+
+
+def validate_availability(idx):
+    """Checks that run on every build: the public Pokédex must agree with the availability audit everywhere."""
+    R = {}
+    def chk(name, bad):
+        bad = list(bad)
+        R[name] = len(bad)
+        for b in bad[:5]:
+            ERRORS.append(f"availability: {name}: {b}")
+    chk("public entry without acquisition evidence", (k for k in PAGES if not AV[k]["methods"]))
+    chk("public entry not classified obtainable", (k for k in PAGES if AV[k]["status"] != "obtainable"))
+    chk("entry missing from the audit", (k for k in ENTRIES if k not in AV))
+    chk("regional form not classified on its own", (k for k in ENTRIES if DEX[k]["kind"] == "regional" and (k not in AV or AV[k] is AV.get(DEX[k].get("base")))))
+    chk("regional form shown with its base form's sources", (k for k in PAGES if DEX[k]["kind"] == "regional" and DEX[k].get("base") in AV and AV[k]["methods"] and AV[k]["methods"] == AV[DEX[k]["base"]]["methods"]))
+    chk("method names a map the ROM does not contain", (f'{k}: {m["map"]}' for k in PAGES for m in AV[k]["methods"] if m.get("map") and m["map"] not in world))
+    chk("method on an unreachable map", (f'{k}: {m["map"]}' for k in PAGES for m in AV[k]["methods"] if m.get("map") in UNREACHABLE))
+    chk("evolution or egg from a parent that is not obtainable", (f'{k} <- {m["from"]}' for k in PAGES for m in AV[k]["methods"] if m["kind"] in ("evolution", "breeding", "converter") and m.get("from") not in PAGES and DEX.get(m.get("from"), {}).get("of") not in PAGES))
+    chk("entry obtainable only through a chain with no root source", (k for k in PAGES if not _rooted(k, set())))
+    pub = {u_ for u_ in WRITTEN_PAGES if re.fullmatch(r"/pokemon/[^/]+/", u_)}
+    want = {f"/pokemon/{DEX[k]['slug']}/" for k in PAGES}
+    chk("Pokémon page without a public entry", pub - want)
+    chk("public entry without a page", want - pub)
+    sidx = {e["u"] for e in idx if e["k"] == "Pokémon"}
+    chk("search index lists a Pokémon that is not public", sidx - want)
+    chk("public Pokémon missing from the search index", want - sidx)
+    slugs = [DEX[k]["slug"] for k in PAGES]
+    chk("duplicate Pokédex slug", {x for x in slugs if slugs.count(x) > 1})
+    pairs = [(DEX[k]["dex"], DEX[k].get("regional")) for k in PAGES]
+    chk("duplicate species / form record", {x for x in pairs if pairs.count(x) > 1})
+    chk("wild table species without a public page on a reachable map", (f'{mk}: {r["id"]}' for mk, rec in enc.items() if mk in world and mk not in UNREACHABLE and "#" not in mk for t in rec["tables"].values() for rows in t.values() for r in rows if sp(r["id"]) and not page_of(sp(r["id"]))))
+    chk("Mega Stone offered for a Pokémon that is not obtainable", (o["stone"] for o in MEGASTONES["offered"] if next(m for m in MEGAS if m.get("stone") == o["stone"])["species"] not in PAGES))
+    chk("in-game Pokédex entry excluded without a recorded reason", (k for k in ENTRIES if AV[k]["in_game_dex"] and k not in PAGES and not AV[k]["reason"]))
+    chk("obtainable entry that the game's own Pokédex does not list", (k for k in PAGES if not AV[k]["in_game_dex"]))
+    return R
+
+
+def _rooted(k, seen):
+    if k in seen:
+        return False
+    seen.add(k)
+    ms = AV.get(k, {}).get("methods", [])
+    if any(m["kind"] in ("wild", "static", "gift", "egg", "trade", "roamer", "verified") for m in ms):
+        return True
+    return any(_rooted(m["from"] if m["from"] in AV else DEX.get(m["from"], {}).get("of"), seen) for m in ms if m.get("from"))
+
+
+def write_availability_audit(checks):
+    rep_, ent = AVAIL["report"], sorted(ENTRIES, key=lambda k: (DEX[k]["dex"], DEX[k]["num"]))
+    ob = [k for k in ent if k in PAGES]
+    ex = [k for k in ent if k not in PAGES]
+    kinds = {}
+    for k in ob:
+        for x in set(AV[k]["kinds"]):
+            kinds[x] = kinds.get(x, 0) + 1
+    prim = {}
+    for k in ob:
+        prim[AV[k]["kinds"][0]] = prim.get(AV[k]["kinds"][0], 0) + 1
+    areas = {}
+    for k in ob:
+        for m in AV[k]["methods"]:
+            if m.get("map") in world:
+                areas.setdefault(REGION_NAME.get(world[m["map"]]["region"], world[m["map"]]["region"]), set()).add(k)
+    reasons = {}
+    for k in ex:
+        reasons.setdefault(AV[k]["reason"] or AV[k]["status"], []).append(k)
+    nm = lambda k: DEX[k]["display_full"]
+    L = ["# Pokémon availability audit", "", f"_Generated by `tools/build.py` from `data/availability.json` (`tools/availability.py`). Game: {VERSION}, SHA-256 `{BUILD['build']['sha256']}`._", "",
+         "**Rule.** The Project Blonde public Pokédex must represent Pokémon legitimately obtainable in the current approved game build, not every species defined by the underlying ROM engine. Every future release must revalidate Pokémon availability before the website is redeployed.", "",
+         "## Totals", "", "| | |", "|---|---|",
+         f"| Species rows in the engine (`gSpeciesInfo`) | {rep_['engine_species_rows']:,} |", f"| Records with a Pokédex number (species, regional forms, Mega and other forms) | {rep_['dex_records']:,} |",
+         f"| Species and regional forms considered | {len(ent):,} ({sum(1 for k in ent if DEX[k]['kind'] == 'species'):,} species + {sum(1 for k in ent if DEX[k]['kind'] == 'regional')} regional forms) |",
+         f"| **Obtainable species** | **{sum(1 for k in ob if DEX[k]['kind'] == 'species')}** |", f"| **Obtainable regional forms** | **{sum(1 for k in ob if DEX[k]['kind'] == 'regional')}** |",
+         f"| **Obtainable species / form combinations (public Pokédex)** | **{len(ob)}** |", f"| Not obtainable (kept out of the public Pokédex) | {len(ex)} |",
+         f"| Uncertain | {sum(1 for k in ent if AV[k]['status'] == 'uncertain')} |", f"| Entries on the website before this audit | 1,067 |", f"| Entries removed from the website | {1067 - sum(1 for k in ob if 'ROM row only' not in DEX[k]['src'])} |",
+         f"| Entries added (obtainable, but missing from the old species data) | {sum(1 for k in ob if 'ROM row only' in DEX[k]['src'])}: {', '.join(nm(k) for k in ob if 'ROM row only' in DEX[k]['src'])} |",
+         f"| The game's own Pokédex list (`sObtainableToNationalOrder`) | 482 entries: {sum(1 for k in ent if AV[k]['in_game_dex'])} species / forms, of which {sum(1 for k in ob if AV[k]['in_game_dex'])} are obtainable |",
+         f"| Obtainable entries the game's own Pokédex does not list | {sum(1 for k in ob if not AV[k]['in_game_dex'])} |", "",
+         "The total was not chosen in advance. It is what the evidence below produces, and it equals the game's own Pokédex list minus the entries named under *In the game's Pokédex but not obtainable*.", "",
+         "## How availability is decided", "",
+         f"1. **Reachable maps.** {rep_['maps_reachable']} of {rep_['maps']} maps can be reached from the player's bedroom through warp tiles, map connections, script warps (boats, lifts, events) and {len(J(CONTENT / 'availability-rules.json')['extra_edges'])} hand-recorded links (each with its evidence in `content/availability-rules.json`). A source on any other map does not count.",
+         "2. **Wild tables** of the shipped ROM on those maps: land, Surf, Rock Smash and the three rods, in all four times of day. The ROM has no populated hidden (DexNav) slot.",
+         "3. **Event scripts** the ROM was built from: `givemon`, `giveegg`, `setwildbattle`, `seteventmon`, `setwildbossbattle`; in-game trades that a script starts; roamers; the regional-form converter in Bill's house. A scripted battle that runs while `FLAG_NO_WILD_CATCHING` is set is **not** a source.",
+         "4. **Hand-verified sources** in the rules file, used only where a script names the species in a variable (the Game Corner prize counter).",
+         "5. **Closure**, repeated until nothing changes: every evolution in the ROM's own tables whose level, item, place, partner, region and contest-stat conditions can be met in this game, and Day Care eggs (the egg species is found the way the engine finds it, by walking back through the evolution tables).", "",
+         "A species named only in a script variable, menu or text buffer is *weak evidence* and never makes an entry obtainable by itself.", "",
+         "## Acquisition methods represented", "", "| Method | Entries that can be obtained this way | Entries for which it is the first-listed method |", "|---|---|---|"]
+    for x in ("wild", "static", "gift", "egg", "trade", "roamer", "converter", "evolution", "breeding"):
+        L.append(f"| {MLABEL[x]} | {kinds.get(x, 0)} | {prim.get(x, 0)} |")
+    L += ["", "## Areas covered", "", "| Area | Obtainable entries with a source there |", "|---|---|"] + [f"| {a} | {len(v)} |" for a, v in sorted(areas.items(), key=lambda kv: -len(kv[1]))]
+    L += ["", "Gated areas (the item's source is in the scripts; none of these was reached in the natural playthrough):", ""] + [f"- {', '.join(g['maps'])}: needs {g['needs']} — {g['item_source']}" for g in GATED]
+    L += ["", "## Regional forms", "", "| Region | Obtainable | Not obtainable |", "|---|---|---|"]
+    for r in ("Alola", "Galar", "Hisui", "Paldea"):
+        a_ = [k for k in ent if DEX[k].get("regional") == r]
+        L.append(f"| {r} | {len([k for k in a_ if k in PAGES])}: {', '.join(nm(k).replace(' (' + r + ')', '') for k in a_ if k in PAGES)} | {len([k for k in a_ if k not in PAGES])}: {', '.join(nm(k).replace(' (' + r + ')', '') for k in a_ if k not in PAGES) or '—'} |")
+    L += ["", "The fifteen Galarian forms are obtained only through the converter in Bill's house (source: `sRegionalFormTable`, `special ConvertToRegionalForm`); the game has no Galar maps.", "",
+          "## In the game's Pokédex but not obtainable", ""]
+    L += [f"- **{nm(k)}** — {AV[k]['reason']}" for k in ent if AV[k]["in_game_dex"] and k not in PAGES] or ["- none"]
+    L += ["", "## Sources that were found and rejected", "", "| Pokémon | Why the source does not count | Where |", "|---|---|---|"]
+    seen = set()
+    for b in rep_["blocked_sources"]:
+        key_ = (b["species"], b["why"], b["where"])
+        if key_ in seen or b["species"] not in DEX:
+            continue
+        seen.add(key_)
+        L.append(f"| {nm(b['species'])} | {b['why']} | {world[b['where']]['name'] if b['where'] in world else b['where']} |")
+    L += ["", "## Excluded entries, by reason", ""]
+    for r, ks in sorted(reasons.items(), key=lambda kv: len(kv[1])):
+        L += [f"### {r} ({len(ks)})", "", ", ".join(nm(k) for k in ks), ""]
+    L += ["## Unresolved or uncertain", ""]
+    unc = [k for k in ent if AV[k]["status"] == "uncertain"]
+    L += [f"- {nm(k)}: {json.dumps(AV[k]['uncertain'], ensure_ascii=False)[:300]}" for k in unc] or ["- No entry is classed uncertain."]
+    L += ["- **Not confirmed by play.** The natural playthrough is not an availability list. Most sources here are established from the ROM's tables and the scripts, not by catching each Pokémon. In particular the gated areas above, the converter in Bill's house, the Game Corner prizes, the post-League legendary encounters, raising Beauty for Milotic (Berry Blender in the Contest Lobby) and Day Care eggs were not exercised.",
+          "- **Link-trade evolutions** are counted as possible (two copies of the game can trade, and a trade evolves), but no obtainable entry depends on one: each has a level or item alternative.",
+          "- **Scripts versus ROM.** Event scripts are read from the source tree and the Hoenn overlay that the linked build was made from, not disassembled from the ROM. Wild tables, evolution data, egg groups and maps are read from the ROM itself.",
+          f"- **Unreachable maps** ({len(rep_['maps_unreachable'])}): " + ", ".join(sorted({world[m]['place'].title() or m for m in rep_['maps_unreachable']})) + ". No obtainable entry depends on them.", "",
+          "## Automated checks (run on every build)", "", "| Check | Failures |", "|---|---|"] + [f"| {k} | {v} |" for k, v in checks.items()]
+    L += ["", "## Full list of obtainable entries", "", "| # | Pokémon | Methods | Regions |", "|---|---|---|---|"]
+    L += [f"| {DEX[k]['dex']} | {nm(k)} | {', '.join(MLABEL[x] for x in AV[k]['kinds'])} | {', '.join(AV[k]['regions']) or '—'} |" for k in ob]
+    (ROOT / "AVAILABILITY-AUDIT.md").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
 def main():
@@ -1070,6 +1223,8 @@ def main():
     n_stuck = build_stuck()
     build_progress(); build_play(); build_misc()
     n = build_search_index()
+    checks = validate_availability(json.loads((DIST / "assets" / "search-index.json").read_text(encoding="utf-8")))
+    write_availability_audit(checks)
     tot = write_reports(n, n_stuck)
     if ERRORS:
         print("CONTENT ERRORS — fix before publishing:")

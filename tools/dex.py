@@ -87,6 +87,14 @@ def main():
     for k, v in SP.items():
         if k in src and (v not in by_num or len(k) < len(by_num[v])):
             by_num[v] = k
+    # Families written with C macros (Unown, Arceus, Vivillon, ...) are not matched by the source parser.
+    # Their rows are in the ROM all the same: take name, category and sprite symbols from there.
+    rom_only = {}
+    for k, v in sorted(SP.items(), key=lambda kv: (kv[1], len(kv[0]))):
+        if v in by_num or not (0 < v < 1574) or k.endswith(("_COUNT", "_START", "_END", "_EGG")) or v in rom_only:
+            continue
+        rom_only[v] = k
+    by_num.update(rom_only)
     ITEM, ABIL, TYPE = R.enum("ITEM_"), R.enum("ABILITY_"), R.enum("TYPE_")
     mv = (game / "include/constants/moves.h").read_text()
     MOVE = {S[n]: n for n in re.findall(r"^\s+(MOVE_\w+)(?:\s*=\s*\w+)?,", mv, re.M) if isinstance(S.get(n), int)}
@@ -155,7 +163,12 @@ def main():
             continue
         a = row(n)
         nat = R.u16(a + 60)
-        s = src[sid]
+        s = src.get(sid)
+        if s is None:
+            reg = next((v for suf, v in (("_ALOLA", "Alola"), ("_GALAR", "Galar"), ("_HISUI", "Hisui"), ("_PALDEA", "Paldea")) if suf in sid), None)
+            s = src[sid] = {"name": R.text(a + 44, 13).strip(), "category": R.text(a + 31, 13).strip() or None, "text": None, "desc_ref": None,
+                            "front": R.rev.get(R.u32(a + 88)), "icon": R.rev.get(R.u32(a + 108)), "mega": "_MEGA" in sid, "primal": "_PRIMAL" in sid, "regional": reg,
+                            "src": "ROM row only (family defined by a macro in the source)"}
         if not nat or not s["name"] or s["name"] in ("??????????",):
             continue
         evp = R.u32(a + 164)

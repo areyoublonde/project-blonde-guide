@@ -67,7 +67,15 @@ for d in DEX.values():
         d["display_full"] = (f'Mega {nice(base["name"])}' + (f' {fn.replace("Mega", "").strip()}' if fn.replace("Mega", "").strip() else "")) if d["kind"] == "mega" and not d.get("primal") else f'{nice(base["name"])} ({fn})'
     else:
         d["display_full"] = d["display"]
-PAGES = {k for k, d in DEX.items() if d["kind"] in ("species", "regional")}       # entries with their own page
+# The public Pokédex lists Pokémon a player can legitimately obtain in this build, not every species the engine defines.
+# tools/availability.py decides that from evidence; the build refuses to run on an audit made for another build.
+AVAIL = J(DATA / "availability.json")
+AV = AVAIL["species"]
+check(AVAIL["report"]["build"]["sha256"] == BUILD["build"]["sha256"], "data/availability.json was computed for a different game build: re-run tools/availability.py")
+ENTRIES = {k for k, d in DEX.items() if d["kind"] in ("species", "regional")}       # every species and regional form the engine defines
+PAGES = {k for k in ENTRIES if AV.get(k, {}).get("status") == "obtainable"}          # the public Pokédex: entries with their own page
+UNREACHABLE = set(AVAIL["report"]["maps_unreachable"])
+GATED = J(CONTENT / "availability-rules.json")["gated"]
 FORMS = {}
 for d in DEX.values():
     if d.get("of"):
@@ -88,12 +96,19 @@ def sp(key):
 
 def page_of(d):
     """The species whose page shows this record (forms live on their base species' page)."""
-    return d if d["id"] in PAGES else DEX.get(d.get("of"))
+    p = d if d["id"] in PAGES else DEX.get(d.get("of"))
+    return p if p and p["id"] in PAGES else None
 
 
 def sp_url(d):
     p = page_of(d)
     return u(f"/pokemon/{p['slug']}/") if p else None
+
+
+def sp_link(d, text=None):
+    """A link to the Pokémon's page when it has one (it is obtainable); plain text otherwise, so nothing implies it can be caught."""
+    t = esc(text or d["display_full"])
+    return f'<a href="{sp_url(d)}">{t}</a>' if sp_url(d) else t
 
 
 # ----------------------------------------------------------------------------- places
@@ -144,7 +159,7 @@ for _p in PLACES.values():
 # ----------------------------------------------------------------------------- where each species lives
 WHERE = {}
 for _mk, _rec in enc.items():
-    if "#" in _mk or _mk not in world:
+    if "#" in _mk or _mk not in world or _mk in UNREACHABLE:
         continue
     for _method, _tods in _rec["tables"].items():
         for _tod, _rows in _tods.items():
