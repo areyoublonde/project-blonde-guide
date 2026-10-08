@@ -369,6 +369,19 @@
   "map": "SafariZoneGate_hns"
  },
  {
+  "sym": "SafariZoneGate_EventScript_IncenseClerkFinite",
+  "list_sym": "SafariZoneGate_Pokemart_Incenses2",
+  "addr": 166482260,
+  "items": [
+   "TM10 Hidden Power",
+   "TM43 Secret Power",
+   "Sea Incense",
+   "Lax Incense"
+  ],
+  "map": "SafariZoneGate_hns",
+  "via": "SafariZoneGate_EventScript_IncenseClerk"
+ },
+ {
   "sym": "SafariZoneGate_EventScript_VitaminGuru",
   "list_sym": "SafariZoneGate_Pokemart_VitaminGuru",
   "addr": 166482296,
@@ -498,6 +511,35 @@
    "TM52 Focus Blast"
   ],
   "map": "GoldenrodCity_DepartmentStore_5F_hns"
+ },
+ {
+  "sym": "MahoganyTown_Shop_EventScript_GrannyShop",
+  "list_sym": "MahoganyTown_Pokemart",
+  "addr": 166685516,
+  "items": [
+   "Ragecandybar",
+   "Ice Stone",
+   "Metal Coat",
+   "Dragon Scale",
+   "Kings Rock",
+   "Upgrade",
+   "Dubious Disc",
+   "Reaper Cloth",
+   "Nevermeltice",
+   "Protector",
+   "Electirizer",
+   "Magmarizer",
+   "Oval Stone",
+   "Razor Fang",
+   "Razor Claw",
+   "Dusk Stone",
+   "Dawn Stone",
+   "Shiny Stone",
+   "Black Augurite",
+   "Peat Block"
+  ],
+  "map": "MahoganyTown_Shop_hns",
+  "via": "MahoganyTown_Shop_EventScript_Granny"
  },
  {
   "sym": "CeladonDept3_EventScript_Clerk",

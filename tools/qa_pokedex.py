@@ -49,7 +49,7 @@ def run(c, mobile):
 
     for q, must, n in (("pikachu", ["pikachu"], 1), ("Pikachu", ["pikachu"], 1), ("PIKA", ["pikachu"], None), ("eevee", ["eevee"], 1), ("ninetales", ["ninetales", "ninetales-alola"], 2),
                        ("alolan", ["vulpix-alola", "raichu-alola", "marowak-alola"], 18), ("vulpix alola", ["vulpix-alola"], 1), ("galarian", ["meowth-galar", "ponyta-galar"], 15), ("hisui", ["growlithe-hisui"], 7),
-                       ("char", ["charmander", "charmeleon", "charizard"], None), ("mr. mime", ["mr-mime"], None), ("farfetch'd", ["farfetch-d"], 2), ("ho-oh", ["ho-oh"], 1), ("Ho Oh", ["ho-oh"], 1), ("nidoran", ["nidoran-f", "nidoran-m"], 2), ("porygon", ["porygon"], 1), ("unown", ["unown"], 1)):
+                       ("char", ["charmander", "charmeleon", "charizard"], None), ("mr. mime", ["mr-mime"], None), ("farfetch'd", ["farfetch-d"], 2), ("ho-oh", ["ho-oh"], 1), ("Ho Oh", ["ho-oh"], 1), ("nidoran", ["nidoran-f", "nidoran-m"], 2), ("porygon", ["porygon", "porygon2", "porygon-z"], 3), ("unown", ["unown"], 1)):
         r = search(q)
         good = all(m in r["shown"] for m in must) and (n is None or len(r["shown"]) == n) and 0 < len(r["shown"]) < len(ids) and r["value"] == q
         ok(f"[{tag}] typing “{q}” filters at once to {len(r['shown'])} row(s) incl. {must[0]}", good, r["shown"][:6])
@@ -61,7 +61,7 @@ def run(c, mobile):
     c.shot(str(OUT / f"03-{LABEL}-{tag}-no-results.png"))
     r = search("")
     ok(f"[{tag}] clearing the search restores all {len(ids)} entries", len(r["shown"]) == len(ids) and not r["empty"], len(r["shown"]))
-    for q in ("porygon2", "porygon-z", "greninja", "garchomp", "lucario"):
+    for q in ("greninja", "garchomp", "lucario"):
         r = search(q)
         ok(f"[{tag}] unobtainable “{q}” is not listed", not any(x.replace("-", "") == q.replace("-", "") for x in r["shown"]), r["shown"][:4])
     search("")
@@ -86,7 +86,7 @@ def run(c, mobile):
     errs = [e for e in c.events if e.get("method") in ("Runtime.exceptionThrown",)]
     ok(f"[{tag}] no JavaScript error on the index", not errs, json.dumps(errs[:1])[:200])
     # detail pages, evolution links, wording
-    for slug_, want in (("pikachu", "Wild encounter"), ("gengar", "Evolve"), ("meowth-galar", "Bill"), ("porygon", "Game Corner"), ("cleffa", "Day Care"), ("milotic", "Beauty"), ("unown", "Ruins")):
+    for slug_, want in (("pikachu", "Wild encounter"), ("gengar", "Evolve"), ("meowth-galar", "Bill"), ("porygon", "Game Corner"), ("porygon2", "Use Upgrade"), ("porygon-z", "Use Dubious Disc"), ("cleffa", "Day Care"), ("milotic", "Beauty"), ("unown", "Ruins")):
         c.events.clear()
         c.nav(BASE + f"/pokemon/{slug_}/"); c.wait("document.readyState==='complete'", 20); time.sleep(.4)
         t = c.js("document.querySelector('.entry-where').textContent")
@@ -100,8 +100,9 @@ def run(c, mobile):
     c.js("[...document.querySelectorAll('.evo a')].pop().scrollIntoView({block:'center'})"); time.sleep(.2); c.click(".evo a", 2); time.sleep(.9)
     ok(f"[{tag}] an evolution link opens that Pokémon", c.js("location.pathname").endswith("/pokemon/gengar/"))
     c.nav(BASE + "/pokemon/porygon/"); c.wait("document.readyState==='complete'", 20); time.sleep(.4)
-    ok(f"[{tag}] an unobtainable evolution is shown unlinked and marked", c.js("document.querySelectorAll('.evo a').length") == 1 and c.js("document.querySelector('.evo').textContent.includes('not obtainable')"))
-    for slug_ in ("porygon2", "greninja", "lucario"):
+    # Porygon2 and Porygon-Z are obtainable (Up-Grade: Silph Co gift, Mahogany shop); until 2026-10-09 the audit wrongly left them out
+    ok(f"[{tag}] Porygon's family links Porygon2 and Porygon-Z, none marked not obtainable", c.js("[...document.querySelectorAll('.evo a')].map(a => a.getAttribute('href').split('/').filter(Boolean).pop())") == ["porygon", "porygon2", "porygon-z"] and not c.js("document.querySelector('.evo').textContent.includes('not obtainable')"))
+    for slug_ in ("turtwig", "greninja", "lucario"):
         code = c.js(f"fetch('{BASE}/pokemon/{slug_}/').then(r => r.status)")
         ok(f"[{tag}] no public page exists for unobtainable {slug_}", code == 404, code)
     # global search still works and only knows public Pokémon

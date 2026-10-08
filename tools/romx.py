@@ -330,9 +330,38 @@ def main():
         sym = R.sym_at(a) or ""
         if lst and len(lst) >= 2 and len(set(lst)) == len(lst) and re.search(r"(?i)mart|shop|clerk|store|herb|vendor|seller|sale|stand|counter|market|pharmacy|energy|mulch|decor", sym + " " + (R.sym_at(p) or "")):
             marts.append({"sym": sym, "list_sym": R.sym_at(p), "addr": a, "items": [it(x) for x in lst]})
-    live = {o["script"] for m in world.values() for o in m["events"]["objects"]}
-    for m in marts:                         # a clerk only counts if an object on a shipped map runs that script
-        m["map"] = next((w["key"] for w in world.values() for o in w["events"]["objects"] if R.rev.get(o["script"]) == m["sym"]), None)
+    # a clerk only counts if an object on a shipped map runs that script, directly or through a branch of its own script
+    # (the Mahogany shop sells only after the Rocket Hideout: Granny -> goto_if_ge VAR_MAHOGANY_TOWN_STATE, 14 -> GrannyShop)
+    def branches(sym, depth=4):
+        """Script labels an object script can reach through goto / call / goto_if / call_if, as (label, hops)."""
+        seen, todo = {sym: 0}, [sym]
+        while todo:
+            cur = todo.pop()
+            if seen[cur] >= depth:
+                continue
+            a = S[cur]
+            i = bisect.bisect_right(R.addrs, a)
+            end = min(R.addrs[i] if i < len(R.addrs) else a + 600, a + 600)
+            for j in re.finditer(rb"(?:[\x04\x05]|[\x06\x07][\x00-\x05])(...[\x08\x09])", R.b[a - B:end - B], re.S):
+                t = R.rev.get(struct.unpack("<I", j.group(1))[0])
+                if t and t not in seen:
+                    seen[t] = seen[cur] + 1; todo.append(t)
+        return seen
+
+    direct = {}
+    for w in world.values():
+        for o in w["events"]["objects"]:
+            if R.rev.get(o["script"]):
+                direct.setdefault(R.rev[o["script"]], w["key"])
+    reached = {}
+    for sym, mk in direct.items():
+        for t, hops in branches(sym).items():
+            if hops and t not in direct and (t not in reached or hops < reached[t][1]):
+                reached[t] = (mk, hops, sym)
+    for m in marts:
+        m["map"] = direct.get(m["sym"])
+        if not m["map"] and m["sym"] in reached:
+            m["map"], _, m["via"] = reached[m["sym"]]         # "via" = the object script whose branch opens this shop
     marts = [m for m in marts if m["map"]]
 
     # ---------------------------------------------------------------- wild encounters

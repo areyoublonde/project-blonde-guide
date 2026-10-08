@@ -1,5 +1,1735 @@
 {
  "report": {
+  "evolution_items": {
+   "1": {
+    "item": "Poke Ball",
+    "constants": [
+     "ITEM_POKE_BALL",
+     "ITEM_USE_PARTY_MENU"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "GraniteCave_B1F"
+     },
+     {
+      "how": "hidden item",
+      "map": "LilycoveCity"
+     },
+     {
+      "how": "hidden item",
+      "map": "PetalburgWoods"
+     },
+     {
+      "how": "item ball",
+      "map": "Route104"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route104"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route106"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route110"
+     },
+     {
+      "how": "item ball",
+      "map": "Route31_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "RusturfTunnel"
+     },
+     {
+      "how": "shop",
+      "map": "OldaleTown_Mart"
+     },
+     {
+      "how": "shop",
+      "map": "PetalburgCity_Mart"
+     },
+     {
+      "how": "shop",
+      "map": "RustboroCity_Mart"
+     },
+     {
+      "how": "shop",
+      "map": "SlateportCity_Mart"
+     },
+     {
+      "how": "shop",
+      "map": "MauvilleCity_Mart"
+     },
+     {
+      "how": "shop",
+      "map": "LilycoveCity_DepartmentStore_2F"
+     },
+     {
+      "how": "shop",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "gift",
+      "map": "NewBarkTown_Lab_hns"
+     },
+     {
+      "how": "script",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "NewBarkTown_Lab_hns"
+     },
+     {
+      "how": "script",
+      "map": "Route31_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_NINCADA",
+      "SPECIES_SHEDINJA"
+     ]
+    ]
+   },
+   "211": {
+    "item": "Fire Stone",
+    "constants": [
+     "ITEM_FIRE_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "FieryPath"
+     },
+     {
+      "how": "shop",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_VULPIX",
+      "SPECIES_NINETALES"
+     ],
+     [
+      "SPECIES_GROWLITHE",
+      "SPECIES_ARCANINE"
+     ],
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_FLAREON"
+     ],
+     [
+      "SPECIES_GROWLITHE_HISUI",
+      "SPECIES_ARCANINE_HISUI"
+     ]
+    ]
+   },
+   "212": {
+    "item": "Water Stone",
+    "constants": [
+     "ITEM_WATER_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+     },
+     {
+      "how": "hidden item",
+      "map": "SeafoamIslands_B1F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_POLIWHIRL",
+      "SPECIES_POLIWRATH"
+     ],
+     [
+      "SPECIES_SHELLDER",
+      "SPECIES_CLOYSTER"
+     ],
+     [
+      "SPECIES_STARYU",
+      "SPECIES_STARMIE"
+     ],
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_VAPOREON"
+     ],
+     [
+      "SPECIES_LOMBRE",
+      "SPECIES_LUDICOLO"
+     ]
+    ]
+   },
+   "213": {
+    "item": "Thunderstone",
+    "constants": [
+     "ITEM_THUNDERSTONE",
+     "ITEM_THUNDER_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "NewMauville_Inside"
+     },
+     {
+      "how": "item ball",
+      "map": "Poni_Cave_hns"
+     },
+     {
+      "how": "shop",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "gift",
+      "map": "VermilionCity_Gym_hns"
+     },
+     {
+      "how": "script",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "Poni_Cave_hns"
+     },
+     {
+      "how": "script",
+      "map": "VermilionCity_Gym_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_PIKACHU",
+      "SPECIES_RAICHU"
+     ],
+     [
+      "SPECIES_PIKACHU",
+      "SPECIES_RAICHU_ALOLA"
+     ],
+     [
+      "SPECIES_MAGNETON",
+      "SPECIES_MAGNEZONE"
+     ],
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_JOLTEON"
+     ],
+     [
+      "SPECIES_NOSEPASS",
+      "SPECIES_PROBOPASS"
+     ]
+    ]
+   },
+   "214": {
+    "item": "Leaf Stone",
+    "constants": [
+     "ITEM_LEAF_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "Poni_Cave_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "Route119"
+     },
+     {
+      "how": "hidden item",
+      "map": "ViridianForest_hns"
+     },
+     {
+      "how": "shop",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "GoldenrodCity_DepartmentStore_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "Poni_Cave_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_GLOOM",
+      "SPECIES_VILEPLUME"
+     ],
+     [
+      "SPECIES_WEEPINBELL",
+      "SPECIES_VICTREEBEL"
+     ],
+     [
+      "SPECIES_EXEGGCUTE",
+      "SPECIES_EXEGGUTOR"
+     ],
+     [
+      "SPECIES_EXEGGCUTE",
+      "SPECIES_EXEGGUTOR_ALOLA"
+     ],
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_LEAFEON"
+     ],
+     [
+      "SPECIES_NUZLEAF",
+      "SPECIES_SHIFTRY"
+     ],
+     [
+      "SPECIES_VOLTORB_HISUI",
+      "SPECIES_ELECTRODE_HISUI"
+     ]
+    ]
+   },
+   "215": {
+    "item": "Ice Stone",
+    "constants": [
+     "ITEM_ICE_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "PoniIsle_hns"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route49_hns"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route50_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "UlaUla_Cave_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "PoniIsle_hns"
+     },
+     {
+      "how": "script",
+      "map": "UlaUla_Cave_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_GLACEON"
+     ],
+     [
+      "SPECIES_SANDSHREW_ALOLA",
+      "SPECIES_SANDSLASH_ALOLA"
+     ],
+     [
+      "SPECIES_VULPIX_ALOLA",
+      "SPECIES_NINETALES_ALOLA"
+     ]
+    ]
+   },
+   "216": {
+    "item": "Sun Stone",
+    "constants": [
+     "ITEM_SUN_STONE"
+    ],
+    "sources": [
+     {
+      "how": "gift",
+      "map": "MossdeepCity_SpaceCenter_1F"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_GLOOM",
+      "SPECIES_BELLOSSOM"
+     ],
+     [
+      "SPECIES_SUNKERN",
+      "SPECIES_SUNFLORA"
+     ]
+    ]
+   },
+   "217": {
+    "item": "Moon Stone",
+    "constants": [
+     "ITEM_MOON_STONE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "MeteorFalls_1F_1R"
+     },
+     {
+      "how": "item ball",
+      "map": "MtMoon_Outside_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "Route27_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MtMoon_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MtMoon_Outside_hns"
+     },
+     {
+      "how": "script",
+      "map": "MtMoon_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "Route27_hns"
+     },
+     {
+      "how": "script",
+      "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_NIDORINA",
+      "SPECIES_NIDOQUEEN"
+     ],
+     [
+      "SPECIES_NIDORINO",
+      "SPECIES_NIDOKING"
+     ],
+     [
+      "SPECIES_CLEFAIRY",
+      "SPECIES_CLEFABLE"
+     ],
+     [
+      "SPECIES_JIGGLYPUFF",
+      "SPECIES_WIGGLYTUFF"
+     ],
+     [
+      "SPECIES_SKITTY",
+      "SPECIES_DELCATTY"
+     ]
+    ]
+   },
+   "218": {
+    "item": "Shiny Stone",
+    "constants": [
+     "ITEM_SHINY_STONE"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_EEVEE",
+      "SPECIES_SYLVEON"
+     ],
+     [
+      "SPECIES_TOGETIC",
+      "SPECIES_TOGEKISS"
+     ],
+     [
+      "SPECIES_ROSELIA",
+      "SPECIES_ROSERADE"
+     ]
+    ]
+   },
+   "219": {
+    "item": "Dusk Stone",
+    "constants": [
+     "ITEM_DUSK_STONE"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "CeruleanCave_B2F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_MURKROW",
+      "SPECIES_HONCHKROW"
+     ],
+     [
+      "SPECIES_MISDREAVUS",
+      "SPECIES_MISMAGIUS"
+     ]
+    ]
+   },
+   "220": {
+    "item": "Dawn Stone",
+    "constants": [
+     "ITEM_DAWN_STONE"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "MtSilver_Snow_hns"
+     },
+     {
+      "how": "hidden item",
+      "map": "NewSinjoh_HotSprings_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_KIRLIA",
+      "SPECIES_GALLADE"
+     ],
+     [
+      "SPECIES_SNORUNT",
+      "SPECIES_FROSLASS"
+     ]
+    ]
+   },
+   "225": {
+    "item": "Galarica Cuff",
+    "constants": [
+     "ITEM_GALARICA_CUFF"
+    ],
+    "sources": [
+     {
+      "how": "gift",
+      "map": "Route25_BillsHouse_hns"
+     },
+     {
+      "how": "script",
+      "map": "Route25_BillsHouse_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_SLOWPOKE_GALAR",
+      "SPECIES_SLOWBRO_GALAR"
+     ]
+    ]
+   },
+   "226": {
+    "item": "Galarica Wreath",
+    "constants": [
+     "ITEM_GALARICA_WREATH"
+    ],
+    "sources": [
+     {
+      "how": "gift",
+      "map": "Route25_BillsHouse_hns"
+     },
+     {
+      "how": "script",
+      "map": "Route25_BillsHouse_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_SLOWPOKE_GALAR",
+      "SPECIES_SLOWKING_GALAR"
+     ]
+    ]
+   },
+   "227": {
+    "item": "Dragon Scale",
+    "constants": [
+     "ITEM_DRAGON_SCALE"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "MtMortar_2F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MtMortar_2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_SEADRA",
+      "SPECIES_KINGDRA"
+     ]
+    ]
+   },
+   "228": {
+    "item": "Upgrade",
+    "constants": [
+     "ITEM_UPGRADE",
+     "ITEM_UP_GRADE"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "gift",
+      "map": "SaffronCity_SilphCo_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "SaffronCity_SilphCo_hns"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_PORYGON",
+      "SPECIES_PORYGON2"
+     ]
+    ]
+   },
+   "229": {
+    "item": "Protector",
+    "constants": [
+     "ITEM_PROTECTOR"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "MtMortar_1F_North_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MtMortar_1F_North_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_RHYDON",
+      "SPECIES_RHYPERIOR"
+     ]
+    ]
+   },
+   "230": {
+    "item": "Electirizer",
+    "constants": [
+     "ITEM_ELECTIRIZER"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "CeruleanCave_B2F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_ELECTABUZZ",
+      "SPECIES_ELECTIVIRE"
+     ]
+    ]
+   },
+   "231": {
+    "item": "Magmarizer",
+    "constants": [
+     "ITEM_MAGMARIZER"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_MAGMAR",
+      "SPECIES_MAGMORTAR"
+     ]
+    ]
+   },
+   "232": {
+    "item": "Dubious Disc",
+    "constants": [
+     "ITEM_DUBIOUS_DISC"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "Route42_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_PORYGON2",
+      "SPECIES_PORYGON_Z"
+     ]
+    ]
+   },
+   "233": {
+    "item": "Reaper Cloth",
+    "constants": [
+     "ITEM_REAPER_CLOTH"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "MtSilver_Outside_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_DUSCLOPS",
+      "SPECIES_DUSKNOIR"
+     ]
+    ]
+   },
+   "234": {
+    "item": "Prism Scale",
+    "constants": [
+     "ITEM_PRISM_SCALE"
+    ],
+    "sources": [],
+    "used_by": [
+     [
+      "SPECIES_FEEBAS",
+      "SPECIES_MILOTIC"
+     ]
+    ]
+   },
+   "237": {
+    "item": "Oval Stone",
+    "constants": [
+     "ITEM_OVAL_STONE"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "RockTunnel_B1F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_HAPPINY",
+      "SPECIES_CHANSEY"
+     ]
+    ]
+   },
+   "398": {
+    "item": "Deepseascale",
+    "constants": [
+     "ITEM_DEEPSEASCALE",
+     "ITEM_DEEP_SEA_SCALE"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "Route20_hns"
+     },
+     {
+      "how": "gift",
+      "map": "SlateportCity_Harbor"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_CLAMPERL",
+      "SPECIES_GOREBYSS"
+     ]
+    ]
+   },
+   "399": {
+    "item": "Deepseatooth",
+    "constants": [
+     "ITEM_DEEPSEATOOTH",
+     "ITEM_DEEP_SEA_TOOTH"
+    ],
+    "sources": [
+     {
+      "how": "hidden item",
+      "map": "Route20_hns"
+     },
+     {
+      "how": "gift",
+      "map": "SlateportCity_Harbor"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_CLAMPERL",
+      "SPECIES_HUNTAIL"
+     ]
+    ]
+   },
+   "441": {
+    "item": "Metal Coat",
+    "constants": [
+     "ITEM_METAL_COAT"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "gift",
+      "map": "SSAqua_RoomSSE_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "SSAqua_RoomSSE_hns"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_ONIX",
+      "SPECIES_STEELIX"
+     ],
+     [
+      "SPECIES_SCYTHER",
+      "SPECIES_SCIZOR"
+     ]
+    ]
+   },
+   "465": {
+    "item": "Kings Rock",
+    "constants": [
+     "ITEM_KINGS_ROCK"
+    ],
+    "sources": [
+     {
+      "how": "item ball",
+      "map": "MtMortar_1F_North_hns"
+     },
+     {
+      "how": "hidden item",
+      "map": "Route49_hns"
+     },
+     {
+      "how": "item ball",
+      "map": "SlowpokeWell_B2F_hns"
+     },
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "gift",
+      "map": "MossdeepCity"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MtMortar_1F_North_hns"
+     },
+     {
+      "how": "script",
+      "map": "SlowpokeWell_B2F_hns"
+     },
+     {
+      "how": "script",
+      "map": "map_events_overlay.s"
+     },
+     {
+      "how": "script",
+      "map": "item_ball_scripts_frlg.inc"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_POLIWHIRL",
+      "SPECIES_POLITOED"
+     ],
+     [
+      "SPECIES_SLOWPOKE",
+      "SPECIES_SLOWKING"
+     ]
+    ]
+   },
+   "492": {
+    "item": "Razor Claw",
+    "constants": [
+     "ITEM_RAZOR_CLAW"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_SNEASEL",
+      "SPECIES_WEAVILE"
+     ],
+     [
+      "SPECIES_SNEASEL_HISUI",
+      "SPECIES_SNEASLER"
+     ]
+    ]
+   },
+   "493": {
+    "item": "Razor Fang",
+    "constants": [
+     "ITEM_RAZOR_FANG"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_GLIGAR",
+      "SPECIES_GLISCOR"
+     ]
+    ]
+   },
+   "795": {
+    "item": "Black Augurite",
+    "constants": [
+     "ITEM_BLACK_AUGURITE"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_SCYTHER",
+      "SPECIES_KLEAVOR"
+     ]
+    ]
+   },
+   "797": {
+    "item": "Peat Block",
+    "constants": [
+     "ITEM_PEAT_BLOCK"
+    ],
+    "sources": [
+     {
+      "how": "shop",
+      "map": "MahoganyTown_Shop_hns"
+     },
+     {
+      "how": "script",
+      "map": "MahoganyTown_Shop_hns"
+     }
+    ],
+    "used_by": [
+     [
+      "SPECIES_URSARING",
+      "SPECIES_URSALUNA_BLOODMOON"
+     ],
+     [
+      "SPECIES_URSARING",
+      "SPECIES_URSALUNA"
+     ]
+    ]
+   }
+  },
+  "item_aliases": {
+   "0": [
+    "ITEM_NONE",
+    "ITEM_USE_MAIL"
+   ],
+   "1": [
+    "ITEM_POKE_BALL",
+    "ITEM_USE_PARTY_MENU"
+   ],
+   "2": [
+    "ITEM_GREAT_BALL",
+    "ITEM_USE_FIELD"
+   ],
+   "3": [
+    "ITEM_ULTRA_BALL",
+    "ITEM_USE_PBLOCK_CASE"
+   ],
+   "4": [
+    "ITEM_MASTER_BALL",
+    "ITEM_USE_BAG_MENU"
+   ],
+   "5": [
+    "ITEM_PREMIER_BALL",
+    "ITEM_USE_PARTY_MENU_MOVES"
+   ],
+   "6": [
+    "ITEM_HEAL_BALL",
+    "ITEM_USE_BATTLER"
+   ],
+   "39": [
+    "ITEM_ENERGYPOWDER",
+    "ITEM_ENERGY_POWDER"
+   ],
+   "44": [
+    "ITEM_PARALYZE_HEAL",
+    "ITEM_PARLYZ_HEAL"
+   ],
+   "51": [
+    "ITEM_ELIXER",
+    "ITEM_ELIXIR"
+   ],
+   "52": [
+    "ITEM_MAX_ELIXER",
+    "ITEM_MAX_ELIXIR"
+   ],
+   "58": [
+    "ITEM_RAGECANDYBAR",
+    "ITEM_RAGE_CANDY_BAR"
+   ],
+   "73": [
+    "ITEM_HEALTH_FEATHER",
+    "ITEM_HEALTH_WING"
+   ],
+   "74": [
+    "ITEM_MUSCLE_FEATHER",
+    "ITEM_MUSCLE_WING"
+   ],
+   "75": [
+    "ITEM_RESIST_FEATHER",
+    "ITEM_RESIST_WING"
+   ],
+   "76": [
+    "ITEM_GENIUS_FEATHER",
+    "ITEM_GENIUS_WING"
+   ],
+   "77": [
+    "ITEM_CLEVER_FEATHER",
+    "ITEM_CLEVER_WING"
+   ],
+   "78": [
+    "ITEM_SWIFT_FEATHER",
+    "ITEM_SWIFT_WING"
+   ],
+   "122": [
+    "ITEM_X_DEFEND",
+    "ITEM_X_DEFENSE"
+   ],
+   "123": [
+    "ITEM_X_SPECIAL",
+    "ITEM_X_SP_ATK"
+   ],
+   "137": [
+    "ITEM_TINYMUSHROOM",
+    "ITEM_TINY_MUSHROOM"
+   ],
+   "139": [
+    "ITEM_BALMMUSHROOM",
+    "ITEM_BALM_MUSHROOM"
+   ],
+   "156": [
+    "ITEM_PRETTY_FEATHER",
+    "ITEM_PRETTY_WING"
+   ],
+   "189": [
+    "ITEM_BLUE_APRICORN",
+    "ITEM_BLU_APRICORN"
+   ],
+   "190": [
+    "ITEM_YELLOW_APRICORN",
+    "ITEM_YLW_APRICORN"
+   ],
+   "191": [
+    "ITEM_GREEN_APRICORN",
+    "ITEM_GRN_APRICORN"
+   ],
+   "192": [
+    "ITEM_PINK_APRICORN",
+    "ITEM_PNK_APRICORN"
+   ],
+   "193": [
+    "ITEM_WHITE_APRICORN",
+    "ITEM_WHT_APRICORN"
+   ],
+   "194": [
+    "ITEM_BLACK_APRICORN",
+    "ITEM_BLK_APRICORN"
+   ],
+   "213": [
+    "ITEM_THUNDERSTONE",
+    "ITEM_THUNDER_STONE"
+   ],
+   "228": [
+    "ITEM_UPGRADE",
+    "ITEM_UP_GRADE"
+   ],
+   "393": [
+    "ITEM_LEEK",
+    "ITEM_STICK"
+   ],
+   "398": [
+    "ITEM_DEEPSEASCALE",
+    "ITEM_DEEP_SEA_SCALE"
+   ],
+   "399": [
+    "ITEM_DEEPSEATOOTH",
+    "ITEM_DEEP_SEA_TOOTH"
+   ],
+   "430": [
+    "ITEM_NEVERMELTICE",
+    "ITEM_NEVER_MELT_ICE"
+   ],
+   "431": [
+    "ITEM_BLACKBELT",
+    "ITEM_BLACK_BELT"
+   ],
+   "435": [
+    "ITEM_TWISTEDSPOON",
+    "ITEM_TWISTED_SPOON"
+   ],
+   "436": [
+    "ITEM_SILVERPOWDER",
+    "ITEM_SILVER_POWDER"
+   ],
+   "440": [
+    "ITEM_BLACKGLASSES",
+    "ITEM_BLACK_GLASSES"
+   ],
+   "459": [
+    "ITEM_BRIGHTPOWDER",
+    "ITEM_BRIGHT_POWDER"
+   ],
+   "461": [
+    "ITEM_EXP_ALL",
+    "ITEM_EXP_SHARE"
+   ],
+   "582": [
+    "ITEM_TM01",
+    "ITEM_TM_FOCUS_PUNCH"
+   ],
+   "583": [
+    "ITEM_TM02",
+    "ITEM_TM_DRAGON_CLAW"
+   ],
+   "584": [
+    "ITEM_TM03",
+    "ITEM_TM_WATER_PULSE"
+   ],
+   "585": [
+    "ITEM_TM04",
+    "ITEM_TM_CALM_MIND"
+   ],
+   "586": [
+    "ITEM_TM05",
+    "ITEM_TM_ROAR"
+   ],
+   "587": [
+    "ITEM_TM06",
+    "ITEM_TM_TOXIC"
+   ],
+   "588": [
+    "ITEM_TM07",
+    "ITEM_TM_HAIL"
+   ],
+   "589": [
+    "ITEM_TM08",
+    "ITEM_TM_BULK_UP"
+   ],
+   "590": [
+    "ITEM_TM09",
+    "ITEM_TM_BULLET_SEED"
+   ],
+   "591": [
+    "ITEM_TM10",
+    "ITEM_TM_HIDDEN_POWER"
+   ],
+   "592": [
+    "ITEM_TM11",
+    "ITEM_TM_SUNNY_DAY"
+   ],
+   "593": [
+    "ITEM_TM12",
+    "ITEM_TM_TAUNT"
+   ],
+   "594": [
+    "ITEM_TM13",
+    "ITEM_TM_ICE_BEAM"
+   ],
+   "595": [
+    "ITEM_TM14",
+    "ITEM_TM_BLIZZARD"
+   ],
+   "596": [
+    "ITEM_TM15",
+    "ITEM_TM_HYPER_BEAM"
+   ],
+   "597": [
+    "ITEM_TM16",
+    "ITEM_TM_LIGHT_SCREEN"
+   ],
+   "598": [
+    "ITEM_TM17",
+    "ITEM_TM_PROTECT"
+   ],
+   "599": [
+    "ITEM_TM18",
+    "ITEM_TM_RAIN_DANCE"
+   ],
+   "600": [
+    "ITEM_TM19",
+    "ITEM_TM_GIGA_DRAIN"
+   ],
+   "601": [
+    "ITEM_TM20",
+    "ITEM_TM_SAFEGUARD"
+   ],
+   "602": [
+    "ITEM_TM21",
+    "ITEM_TM_FRUSTRATION"
+   ],
+   "603": [
+    "ITEM_TM22",
+    "ITEM_TM_SOLAR_BEAM"
+   ],
+   "604": [
+    "ITEM_TM23",
+    "ITEM_TM_IRON_TAIL"
+   ],
+   "605": [
+    "ITEM_TM24",
+    "ITEM_TM_THUNDERBOLT"
+   ],
+   "606": [
+    "ITEM_TM25",
+    "ITEM_TM_THUNDER"
+   ],
+   "607": [
+    "ITEM_TM26",
+    "ITEM_TM_EARTHQUAKE"
+   ],
+   "608": [
+    "ITEM_TM27",
+    "ITEM_TM_RETURN"
+   ],
+   "609": [
+    "ITEM_TM28",
+    "ITEM_TM_DIG"
+   ],
+   "610": [
+    "ITEM_TM29",
+    "ITEM_TM_PSYCHIC"
+   ],
+   "611": [
+    "ITEM_TM30",
+    "ITEM_TM_SHADOW_BALL"
+   ],
+   "612": [
+    "ITEM_TM31",
+    "ITEM_TM_BRICK_BREAK"
+   ],
+   "613": [
+    "ITEM_TM32",
+    "ITEM_TM_DOUBLE_TEAM"
+   ],
+   "614": [
+    "ITEM_TM33",
+    "ITEM_TM_REFLECT"
+   ],
+   "615": [
+    "ITEM_TM34",
+    "ITEM_TM_SHOCK_WAVE"
+   ],
+   "616": [
+    "ITEM_TM35",
+    "ITEM_TM_FLAMETHROWER"
+   ],
+   "617": [
+    "ITEM_TM36",
+    "ITEM_TM_SLUDGE_BOMB"
+   ],
+   "618": [
+    "ITEM_TM37",
+    "ITEM_TM_SANDSTORM"
+   ],
+   "619": [
+    "ITEM_TM38",
+    "ITEM_TM_FIRE_BLAST"
+   ],
+   "620": [
+    "ITEM_TM39",
+    "ITEM_TM_ROCK_TOMB"
+   ],
+   "621": [
+    "ITEM_TM40",
+    "ITEM_TM_AERIAL_ACE"
+   ],
+   "622": [
+    "ITEM_TM41",
+    "ITEM_TM_TORMENT"
+   ],
+   "623": [
+    "ITEM_TM42",
+    "ITEM_TM_FACADE"
+   ],
+   "624": [
+    "ITEM_TM43",
+    "ITEM_TM_SECRET_POWER"
+   ],
+   "625": [
+    "ITEM_TM44",
+    "ITEM_TM_REST"
+   ],
+   "626": [
+    "ITEM_TM45",
+    "ITEM_TM_ATTRACT"
+   ],
+   "627": [
+    "ITEM_TM46",
+    "ITEM_TM_THIEF"
+   ],
+   "628": [
+    "ITEM_TM47",
+    "ITEM_TM_STEEL_WING"
+   ],
+   "629": [
+    "ITEM_TM48",
+    "ITEM_TM_SKILL_SWAP"
+   ],
+   "630": [
+    "ITEM_TM49",
+    "ITEM_TM_SNATCH"
+   ],
+   "631": [
+    "ITEM_TM50",
+    "ITEM_TM_OVERHEAT"
+   ],
+   "632": [
+    "ITEM_TM51",
+    "ITEM_TM_ROOST"
+   ],
+   "633": [
+    "ITEM_TM52",
+    "ITEM_TM_FOCUS_BLAST"
+   ],
+   "634": [
+    "ITEM_TM53",
+    "ITEM_TM_ENERGY_BALL"
+   ],
+   "635": [
+    "ITEM_TM54",
+    "ITEM_TM_FALSE_SWIPE"
+   ],
+   "636": [
+    "ITEM_TM55",
+    "ITEM_TM_BRINE"
+   ],
+   "637": [
+    "ITEM_TM56",
+    "ITEM_TM_FLING"
+   ],
+   "638": [
+    "ITEM_TM57",
+    "ITEM_TM_CHARGE_BEAM"
+   ],
+   "639": [
+    "ITEM_TM58",
+    "ITEM_TM_ENDURE"
+   ],
+   "640": [
+    "ITEM_TM59",
+    "ITEM_TM_DRAGON_PULSE"
+   ],
+   "641": [
+    "ITEM_TM60",
+    "ITEM_TM_DRAIN_PUNCH"
+   ],
+   "642": [
+    "ITEM_TM61",
+    "ITEM_TM_WILL_O_WISP"
+   ],
+   "643": [
+    "ITEM_TM62",
+    "ITEM_TM_SILVER_WIND"
+   ],
+   "644": [
+    "ITEM_TM63",
+    "ITEM_TM_EMBARGO"
+   ],
+   "645": [
+    "ITEM_TM64",
+    "ITEM_TM_EXPLOSION"
+   ],
+   "646": [
+    "ITEM_TM65",
+    "ITEM_TM_SHADOW_CLAW"
+   ],
+   "647": [
+    "ITEM_TM66",
+    "ITEM_TM_PAYBACK"
+   ],
+   "648": [
+    "ITEM_TM67",
+    "ITEM_TM_RECYCLE"
+   ],
+   "649": [
+    "ITEM_TM68",
+    "ITEM_TM_GIGA_IMPACT"
+   ],
+   "650": [
+    "ITEM_TM69",
+    "ITEM_TM_ROCK_POLISH"
+   ],
+   "651": [
+    "ITEM_TM70",
+    "ITEM_TM_ROCK_CLIMB"
+   ],
+   "652": [
+    "ITEM_TM71",
+    "ITEM_TM_STONE_EDGE"
+   ],
+   "653": [
+    "ITEM_TM72",
+    "ITEM_TM_AVALANCHE"
+   ],
+   "654": [
+    "ITEM_TM73",
+    "ITEM_TM_THUNDER_WAVE"
+   ],
+   "655": [
+    "ITEM_TM74",
+    "ITEM_TM_GYRO_BALL"
+   ],
+   "656": [
+    "ITEM_TM75",
+    "ITEM_TM_SWORDS_DANCE"
+   ],
+   "657": [
+    "ITEM_TM76",
+    "ITEM_TM_STEALTH_ROCK"
+   ],
+   "658": [
+    "ITEM_TM77",
+    "ITEM_TM_PSYCH_UP"
+   ],
+   "659": [
+    "ITEM_TM78",
+    "ITEM_TM_CAPTIVATE"
+   ],
+   "660": [
+    "ITEM_TM79",
+    "ITEM_TM_DARK_PULSE"
+   ],
+   "661": [
+    "ITEM_TM80",
+    "ITEM_TM_ROCK_SLIDE"
+   ],
+   "662": [
+    "ITEM_TM81",
+    "ITEM_TM_X_SCISSOR"
+   ],
+   "663": [
+    "ITEM_TM82",
+    "ITEM_TM_SLEEP_TALK"
+   ],
+   "664": [
+    "ITEM_TM83",
+    "ITEM_TM_NATURAL_GIFT"
+   ],
+   "665": [
+    "ITEM_TM84",
+    "ITEM_TM_POISON_JAB"
+   ],
+   "666": [
+    "ITEM_TM85",
+    "ITEM_TM_DREAM_EATER"
+   ],
+   "667": [
+    "ITEM_TM86",
+    "ITEM_TM_GRASS_KNOT"
+   ],
+   "668": [
+    "ITEM_TM87",
+    "ITEM_TM_SWAGGER"
+   ],
+   "669": [
+    "ITEM_TM88",
+    "ITEM_TM_PLUCK"
+   ],
+   "670": [
+    "ITEM_TM89",
+    "ITEM_TM_U_TURN"
+   ],
+   "671": [
+    "ITEM_TM90",
+    "ITEM_TM_SUBSTITUTE"
+   ],
+   "672": [
+    "ITEM_TM91",
+    "ITEM_TM_FLASH_CANNON"
+   ],
+   "673": [
+    "ITEM_TM92",
+    "ITEM_TM_TRICK_ROOM"
+   ],
+   "682": [
+    "ITEM_HM01",
+    "ITEM_HM_CUT"
+   ],
+   "683": [
+    "ITEM_HM02",
+    "ITEM_HM_FLY"
+   ],
+   "684": [
+    "ITEM_HM03",
+    "ITEM_HM_SURF"
+   ],
+   "685": [
+    "ITEM_HM04",
+    "ITEM_HM_STRENGTH"
+   ],
+   "686": [
+    "ITEM_HM05",
+    "ITEM_HM_FLASH"
+   ],
+   "687": [
+    "ITEM_HM06",
+    "ITEM_HM_ROCK_SMASH"
+   ],
+   "688": [
+    "ITEM_HM07",
+    "ITEM_HM_WATERFALL"
+   ],
+   "689": [
+    "ITEM_HM08",
+    "ITEM_HM_DIVE",
+    "ITEM_HM_WHIRLPOOL"
+   ],
+   "712": [
+    "ITEM_DOWSING_MACHINE",
+    "ITEM_DOWSING_MCHN",
+    "ITEM_ITEMFINDER"
+   ],
+   "717": [
+    "ITEM_POKEMON_BOX",
+    "ITEM_POKEMON_BOX_LINK"
+   ],
+   "733": [
+    "ITEM_DEVON_GOODS",
+    "ITEM_DEVON_PARTS"
+   ],
+   "739": [
+    "ITEM_KEY_TO_ROOM_1",
+    "ITEM_RM_1_KEY"
+   ],
+   "740": [
+    "ITEM_KEY_TO_ROOM_2",
+    "ITEM_RM_2_KEY"
+   ],
+   "741": [
+    "ITEM_KEY_TO_ROOM_4",
+    "ITEM_RM_4_KEY"
+   ],
+   "742": [
+    "ITEM_KEY_TO_ROOM_6",
+    "ITEM_RM_6_KEY"
+   ],
+   "746": [
+    "ITEM_OAKS_PARCEL",
+    "ITEM_PARCEL"
+   ]
+  },
+  "unknown_item_names": [
+   "ITEM_HM09",
+   "ITEM_NEW_MAUVILLE_KEY"
+  ],
   "build": {
    "version": "v105",
    "public": "v1.0 release candidate",
@@ -342,24 +2072,7 @@
     "evidence": "data/maps/SinjohRuins_ArceusRoom_hns/scripts.inc:SinjohRuins_ArceusRoom_EventScript_Arceus"
    }
   ],
-  "evolution_blocks": {
-   "SPECIES_PORYGON2": [
-    {
-     "from": "SPECIES_PORYGON",
-     "detail": "Trade holding Upgrade",
-     "why": [
-      "Upgrade has no source in the game"
-     ]
-    },
-    {
-     "from": "SPECIES_PORYGON",
-     "detail": "Use Upgrade",
-     "why": [
-      "Upgrade has no source in the game"
-     ]
-    }
-   ]
-  },
+  "evolution_blocks": {},
   "weak_only": {
    "SPECIES_VENUSAUR_MEGA": [
     {
@@ -771,9 +2484,9 @@
    ]
   },
   "counts": {
-   "obtainable": 480,
+   "obtainable": 482,
    "uncertain": 0,
-   "excluded": 600
+   "excluded": 598
   }
  },
  "species": {
@@ -798,7 +2511,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_IVYSAUR",
+     "from": "SPECIES_BULBASAUR",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -981,7 +2694,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WARTORTLE",
+     "from": "SPECIES_SQUIRTLE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -1125,7 +2838,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_METAPOD",
+     "from": "SPECIES_CATERPIE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -1338,7 +3051,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_KAKUNA",
+     "from": "SPECIES_WEEDLE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -1551,7 +3264,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_PIDGEOTTO",
+     "from": "SPECIES_PIDGEY",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -2395,7 +4108,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_FEAROW",
+     "from": "SPECIES_SPEAROW",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -2644,7 +4357,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ARBOK",
+     "from": "SPECIES_EKANS",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -3260,7 +4973,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_NIDORINO",
+     "from": "SPECIES_NIDORAN_M",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -4896,7 +6609,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_VILEPLUME",
+     "from": "SPECIES_ODDISH",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -5205,7 +6918,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_PARASECT",
+     "from": "SPECIES_PARAS",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -6172,7 +7885,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ANNIHILAPE",
+     "from": "SPECIES_MANKEY",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -6290,7 +8003,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ARCANINE",
+     "from": "SPECIES_GROWLITHE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -7462,7 +9175,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_KADABRA",
+     "from": "SPECIES_ABRA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -7702,7 +9415,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_MACHOKE",
+     "from": "SPECIES_MACHOP",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -7968,7 +9681,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WEEPINBELL",
+     "from": "SPECIES_BELLSPROUT",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -10143,7 +11856,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SLOWBRO",
+     "from": "SPECIES_SLOWPOKE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -10655,7 +12368,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_DODRIO",
+     "from": "SPECIES_DODUO",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -11470,7 +13183,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_GENGAR",
+     "from": "SPECIES_GASTLY",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -11779,7 +13492,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_STEELIX",
+     "from": "SPECIES_ONIX",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -11848,7 +13561,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_HYPNO",
+     "from": "SPECIES_DROWZEE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -12654,7 +14367,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ELECTRODE",
+     "from": "SPECIES_VOLTORB",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -13328,7 +15041,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_MAROWAK",
+     "from": "SPECIES_CUBONE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -13469,7 +15182,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_LICKILICKY",
+     "from": "SPECIES_LICKITUNG",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -13571,7 +15284,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WEEZING",
+     "from": "SPECIES_KOFFING",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -13729,7 +15442,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_RHYPERIOR",
+     "from": "SPECIES_RHYHORN",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -13950,7 +15663,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_TANGROWTH",
+     "from": "SPECIES_TANGELA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -14319,7 +16032,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SEADRA",
+     "from": "SPECIES_HORSEA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -15713,7 +17426,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_KLEAVOR",
+     "from": "SPECIES_SCYTHER",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -17003,7 +18716,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ESPEON",
+     "from": "SPECIES_EEVEE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -17491,7 +19204,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_DRAGONAIR",
+     "from": "SPECIES_DRATINI",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -17654,7 +19367,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_BAYLEEF",
+     "from": "SPECIES_CHIKORITA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -17732,7 +19445,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_QUILAVA",
+     "from": "SPECIES_CYNDAQUIL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -17902,7 +19615,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_FURRET",
+     "from": "SPECIES_SENTRET",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -18144,7 +19857,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_NOCTOWL",
+     "from": "SPECIES_HOOTHOOT",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -19837,7 +21550,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_RAICHU",
+     "from": "SPECIES_PIKACHU",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -19893,7 +21606,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WIGGLYTUFF",
+     "from": "SPECIES_JIGGLYPUFF",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -19932,7 +21645,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_TOGEKISS",
+     "from": "SPECIES_TOGETIC",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -20122,7 +21835,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_XATU",
+     "from": "SPECIES_NATU",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -20260,7 +21973,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_AMPHAROS",
+     "from": "SPECIES_MAREEP",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -21234,7 +22947,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_AMBIPOM",
+     "from": "SPECIES_AIPOM",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -21331,7 +23044,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SUNFLORA",
+     "from": "SPECIES_SUNKERN",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -21539,7 +23252,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_QUAGSIRE",
+     "from": "SPECIES_WOOPER",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -22093,7 +23806,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_HONCHKROW",
+     "from": "SPECIES_MURKROW",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -22257,7 +23970,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_MISMAGIUS",
+     "from": "SPECIES_MISDREAVUS",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -22718,7 +24431,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_FARIGIRAF",
+     "from": "SPECIES_GIRAFARIG",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -23266,7 +24979,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_DUDUNSPARCE_TWO_SEGMENT",
+     "from": "SPECIES_DUNSPARCE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -23997,7 +25710,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WEAVILE",
+     "from": "SPECIES_SNEASEL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -24058,7 +25771,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_URSARING",
+     "from": "SPECIES_TEDDIURSA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -25324,7 +27037,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_HOUNDOOM",
+     "from": "SPECIES_HOUNDOUR",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -25560,15 +27273,27 @@
    "n_sources": 6
   },
   "SPECIES_PORYGON2": {
-   "status": "excluded",
-   "methods": [],
-   "kinds": [],
-   "primary": null,
+   "status": "obtainable",
+   "methods": [
+    {
+     "kind": "evolution",
+     "where": "",
+     "map": null,
+     "from": "SPECIES_PORYGON",
+     "detail": "Use Upgrade or Trade holding Upgrade",
+     "link_trade_only": false,
+     "evidence": "ROM gSpeciesInfo evolution table"
+    }
+   ],
+   "kinds": [
+    "evolution"
+   ],
+   "primary": "Evolution",
    "regions": [],
    "in_game_dex": true,
-   "reason": "evolution blocked: Upgrade has no source in the game",
+   "reason": null,
    "uncertain": null,
-   "n_sources": 0
+   "n_sources": 1
   },
   "SPECIES_STANTLER": {
    "status": "obtainable",
@@ -25647,7 +27372,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WYRDEER",
+     "from": "SPECIES_STANTLER",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -25720,7 +27445,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_HITMONTOP",
+     "from": "SPECIES_HITMONLEE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -25824,7 +27549,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ELECTIVIRE",
+     "from": "SPECIES_ELECTABUZZ",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -26109,7 +27834,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_PUPITAR",
+     "from": "SPECIES_LARVITAR",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -26501,7 +28226,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SWAMPERT",
+     "from": "SPECIES_MUDKIP",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -27428,7 +29153,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SILCOON",
+     "from": "SPECIES_WURMPLE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -27691,7 +29416,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_LUDICOLO",
+     "from": "SPECIES_LOTAD",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -27935,7 +29660,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SHIFTRY",
+     "from": "SPECIES_SEEDOT",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -28172,7 +29897,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SWELLOW",
+     "from": "SPECIES_TAILLOW",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -29639,7 +31364,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SHEDINJA",
+     "from": "SPECIES_NINCADA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -30212,7 +31937,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_AZUMARILL",
+     "from": "SPECIES_MARILL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -31311,7 +33036,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_MANECTRIC",
+     "from": "SPECIES_ELECTRIKE",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -33640,7 +35365,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_VIBRAVA",
+     "from": "SPECIES_TRAPINCH",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -33757,7 +35482,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_CACTURNE",
+     "from": "SPECIES_CACNEA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -33876,7 +35601,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ALTARIA",
+     "from": "SPECIES_SWABLU",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -35599,7 +37324,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_CRADILY",
+     "from": "SPECIES_LILEEP",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -35670,7 +37395,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ARMALDO",
+     "from": "SPECIES_ANORITH",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -36599,7 +38324,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_DUSCLOPS",
+     "from": "SPECIES_DUSKULL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -36980,7 +38705,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_GLALIE",
+     "from": "SPECIES_SNORUNT",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -37233,7 +38958,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_WALREIN",
+     "from": "SPECIES_SPHEAL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -37396,7 +39121,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_HUNTAIL",
+     "from": "SPECIES_CLAMPERL",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -37803,7 +39528,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SHELGON",
+     "from": "SPECIES_BAGON",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -37896,7 +39621,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_METANG",
+     "from": "SPECIES_BELDUM",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -39052,7 +40777,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_MR_MIME_GALAR",
+     "from": "SPECIES_MR_MIME",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -39795,15 +41520,27 @@
    "n_sources": 3
   },
   "SPECIES_PORYGON_Z": {
-   "status": "excluded",
-   "methods": [],
-   "kinds": [],
-   "primary": null,
+   "status": "obtainable",
+   "methods": [
+    {
+     "kind": "evolution",
+     "where": "",
+     "map": null,
+     "from": "SPECIES_PORYGON2",
+     "detail": "Use Dubious Disc or Trade holding Dubious Disc",
+     "link_trade_only": false,
+     "evidence": "ROM gSpeciesInfo evolution table"
+    }
+   ],
+   "kinds": [
+    "evolution"
+   ],
+   "primary": "Evolution",
    "regions": [],
    "in_game_dex": true,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": null,
    "uncertain": null,
-   "n_sources": 0
+   "n_sources": 1
   },
   "SPECIES_GALLADE": {
    "status": "obtainable",
@@ -42560,7 +44297,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_NOIVERN",
+     "from": "SPECIES_NOIBAT",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45015,7 +46752,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_RATICATE_ALOLA",
+     "from": "SPECIES_RATTATA_ALOLA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45123,7 +46860,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SANDSLASH_ALOLA",
+     "from": "SPECIES_SANDSHREW_ALOLA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45318,7 +47055,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_PERSIAN_ALOLA",
+     "from": "SPECIES_MEOWTH_ALOLA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45383,7 +47120,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_GOLEM_ALOLA",
+     "from": "SPECIES_GEODUDE_ALOLA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45646,7 +47383,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_RAPIDASH_GALAR",
+     "from": "SPECIES_PONYTA_GALAR",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45780,7 +47517,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_FARFETCHD_GALAR",
+     "from": "SPECIES_SIRFETCHD",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -45967,7 +47704,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_CORSOLA_GALAR",
+     "from": "SPECIES_CURSOLA",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -46000,7 +47737,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_ZIGZAGOON_GALAR",
+     "from": "SPECIES_OBSTAGOON",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
@@ -46363,7 +48100,7 @@
      "kind": "breeding",
      "where": "Day Care",
      "map": null,
-     "from": "SPECIES_SNEASEL_HISUI",
+     "from": "SPECIES_SNEASLER",
      "detail": "Day Care egg",
      "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }

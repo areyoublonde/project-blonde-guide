@@ -39,6 +39,24 @@ LABEL = {"wild": "Wild encounter", "static": "Static encounter", "gift": "Gift P
          "converter": "Regional-form converter", "evolution": "Evolution", "breeding": "Breeding", "verified": "Event"}
 
 
+def item_ids(S, header=""):
+    """Every item constant -> numeric id, aliases included (ITEM_UP_GRADE and ITEM_UPGRADE are both 228).
+    The linked symbol table is the authority; `NAME = OTHER_NAME` rows of items.h cover an alias the table lacks."""
+    ids = {k: v for k, v in S.items() if k.startswith("ITEM_") and isinstance(v, int) and v < 0x10000}
+    grow = True
+    while grow:
+        grow = False
+        for k, v in re.findall(r"^\s*(?:#define\s+)?(ITEM_\w+)\s*=?\s*(ITEM_\w+)\s*,?\s*(?://.*)?$", header, re.M):
+            if k not in ids and v in ids:
+                ids[k] = ids[v]; grow = True
+    return ids
+
+
+def rom_item_names(ITEM):
+    """Display name used in data/rom/*.json -> item id (romx names an item after the constant its id resolves to)."""
+    return {item_name(c): i for i, c in ITEM.items()}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--game", default=str(ROOT.parent / "blonde"))
@@ -62,6 +80,7 @@ def main():
     for k in list(ITEM):
         if ITEM[k].endswith("_COUNT"):
             ITEM.pop(k)
+    ITEM_ID = item_ids(S, (game / "include/constants/items.h").read_text())
     mv = (game / "include/constants/moves.h").read_text()
     MOVE = {S[n]: n for n in re.findall(r"^\s+(MOVE_\w+)(?:\s*=\s*\w+)?,", mv, re.M) if isinstance(S.get(n), int)}
 
@@ -106,18 +125,34 @@ def main():
     unreached = sorted(set(world) - reach)
 
     # ------------------------------------------------------------ items a player can get (for item evolutions)
-    have_items = set()
-    name2const = {item_name(c): c for c in ITEM.values()}
-    for k in reach:
+    # Items are compared by numeric id, never by constant name: one item can have several constants
+    # (ITEM_UPGRADE = ITEM_UP_GRADE = 228), and the scripts and the evolution table do not agree on which one they use.
+    name2id = rom_item_names(ITEM)
+    item_src = collections.defaultdict(list)       # item id -> [{"how", "map"}]
+    unknown_items = set()
+
+    def got(item, how, mk):
+        i = item if isinstance(item, int) else name2id.get(item, ITEM_ID.get(item))
+        if i is None:
+            if not re.match(r"(TM|HM)\d", str(item)):      # machines carry their move's name in data/rom and take no part in evolutions
+                unknown_items.add(str(item))
+        elif {"how": how, "map": mk} not in item_src[i]:
+            item_src[i].append({"how": how, "map": mk})
+
+    for k in sorted(reach):
         for o in world[k]["events"]["objects"]:
             if o.get("item"):
-                have_items.add(name2const.get(o["item"], o["item"]))
+                got(o["item"], "item ball", k)
         for h in world[k]["events"]["hidden"]:
-            have_items.add(name2const.get(h["item"], h["item"]))
-    for m in marts:
+            got(h["item"], "hidden item", k)
+    for m in marts:                                 # ROM shop lists, including shops a clerk opens through a branch of the script
         if m["map"] in reach:
-            have_items |= {name2const.get(i, i) for i in m["items"]}
-    item_src = collections.defaultdict(list)
+            for i in m["items"]:
+                got(i, "shop", m["map"])
+    for g in gives:                                 # ROM giveitem commands (NPC gifts and event rewards), placed by their script label
+        mk = sym_map(g["sym"]) if g["how"] == "gift" else None
+        if mk in reach:
+            got(g["item"], "gift", mk)
     files = sorted((game / "data/maps").glob("*_hns/scripts.inc")) + [game / "qa/gym-rematch-yes-no-v84/map_events_overlay.s"] + sorted((game / "data/scripts").glob("*.inc"))
     texts = {}
     for f in files:
@@ -127,8 +162,8 @@ def main():
             continue
         texts[f] = f.read_text(errors="replace")
         for it in re.findall(r"^\s*(?:giveitem|additem|finditem|pokemart\w*\s+\w+|\.2byte)\s+(ITEM_\w+)", texts[f], re.M):
-            have_items.add(it)
-            item_src[it].append(f.parent.name if f.name == "scripts.inc" else f.name)
+            got(it, "script", f.parent.name if f.name == "scripts.inc" else f.name)
+    have_items = set(item_src)                      # numeric ids
 
     # ------------------------------------------------------------ 2. direct sources
     src = collections.defaultdict(list)      # species id -> [evidence]
@@ -245,7 +280,7 @@ def main():
         elif m == 3:
             ic = ITEM.get(p, "ITEM_?")
             bits.append(f"Use {item_name(ic)}")
-            if ic not in have_items:
+            if p not in have_items:
                 why.append(f"{item_name(ic)} has no source in the game")
         elif m == 4:
             bits.append("Appears when its partner evolves, with a free party slot and a Poké Ball")
@@ -260,7 +295,7 @@ def main():
             if c in (7, 36):
                 ic = ITEM.get(a1, "ITEM_?")
                 bits.append(("holding " if c == 7 else f"with {a2} × ") + item_name(ic))
-                if ic not in have_items:
+                if a1 not in have_items:
                     why.append(f"{item_name(ic)} has no source in the game")
             elif c in (37, 38):
                 r = REGION.get(a1, "?")
@@ -307,11 +342,12 @@ def main():
     # ------------------------------------------------------------ 4. closure
     have = {s for s, v in src.items() if v}
     via, evo_block = {}, collections.defaultdict(list)
-    daycare = [k for k in reach if "DayCare" in k or "Daycare" in k]
+    daycare = sorted(k for k in reach if "DayCare" in k or "Daycare" in k)
+    order = lambda group: sorted(group, key=lambda k: (dex[k]["num"], k))       # fixed order: the same audit twice gives the same file
     changed = True
     while changed:
         changed = False
-        for s in list(have):
+        for s in order(have):
             for e in evo[s]:
                 ok, unsure, text, reasons = feasible(e, have)
                 if e["to"] in have:
@@ -324,7 +360,7 @@ def main():
                         have.add(b); via[b] = {"kind": "converter", "from": a, "detail": "Bill’s grandfather’s machine in Bill’s house, Route 25"}; changed = True
         ditto = "SPECIES_DITTO" in have
         if daycare:
-            for s in list(have):
+            for s in order(have):
                 if 15 in egg[s] or dex[s].get("mega") or dex[s]["kind"] == "mega":
                     continue
                 if gender[s] in (255, 0) and not ditto:
@@ -334,14 +370,14 @@ def main():
                     have.add(child); via[child] = {"kind": "breeding", "from": s, "detail": "Day Care egg" + (" (with Ditto)" if gender[s] in (255, 0) else "")}; changed = True
     # every other feasible route to a species that is already obtainable (so a page can say "wild, or evolve X")
     also = collections.defaultdict(list)
-    for s in have:
+    for s in order(have):
         for e in rev.get(s, []):
             if e["method"] and e["from"] in have:
                 ok, unsure, text, _ = feasible(e, have)
                 if ok and not unsure:
                     also[s].append({"kind": "evolution", "from": e["from"], "detail": text})
     if daycare:
-        for s in have:
+        for s in order(have):
             if 15 in egg[s] or dex[s]["kind"] == "mega" or (gender[s] in (255, 0) and "SPECIES_DITTO" not in have):
                 continue
             c = egg_species(s)
@@ -433,7 +469,23 @@ def main():
         regs = sorted({("hoenn" if not k.endswith("_hns") else world[k]["region"]) for k in maps})
         out[s] = {"status": status, "methods": methods[:60], "kinds": kinds, "primary": LABEL.get(kinds[0]) if kinds else None, "regions": regs,
                   "in_game_dex": natname.get(d["dex"]) in ingame, "reason": reason, "uncertain": uncertain.get(s), "n_sources": len(methods)}
+    # items an evolution asks for, with every place the item comes from, and the constants that share each id
+    names_of = collections.defaultdict(list)
+    for k, v in sorted(ITEM_ID.items()):
+        names_of[v].append(k)
+    evo_items = {}
+    for s_, edges_ in evo.items():
+        for e in edges_:
+            for i in ([e["param"]] if e["method"] == 3 else []) + [a1 for c, a1, _a2, _a3 in e["conds"] if c in (7, 36)]:
+                if not i:
+                    continue
+                r = evo_items.setdefault(str(i), {"item": item_name(ITEM.get(i, "ITEM_?")), "constants": names_of.get(i, []), "sources": item_src.get(i, []), "used_by": []})
+                if s_ in have and [s_, e["to"]] not in r["used_by"]:
+                    r["used_by"].append([s_, e["to"]])
     rep = {
+        "evolution_items": {k: v for k, v in sorted(evo_items.items(), key=lambda kv: int(kv[0])) if v["used_by"]},
+        "item_aliases": {str(i): n for i, n in sorted(names_of.items()) if len(n) > 1},
+        "unknown_item_names": sorted(unknown_items),
         "build": json.loads((ROOT / "data/rom/manifest.json").read_text())["build"],
         "engine_species_rows": 1573, "dex_records": len(dex), "entries_considered": len(out),
         "maps": len(world), "maps_reachable": len(reach), "maps_unreachable": unreached,

@@ -22,6 +22,7 @@ python3 tools/qa_static.py             # every link, anchor and asset on every p
 python3 tools/qa_browser.py            # Chrome, desktop + phone: page sweep and 107 interaction checks
 python3 tools/qa_browser.py --all      # every route at phone width
 python3 tools/qa_pokedex.py [url]      # Pokédex search, filters and availability, measured by what is visible; pass the live URL to test production
+python3 tools/qa_availability.py       # availability regressions: item aliases, NPC gifts, branch-opened shops (Porygon2 / Porygon-Z)
 ```
 
 Re-extract from the game (reads `../blonde`, never writes there):

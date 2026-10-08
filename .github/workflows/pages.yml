@@ -25,6 +25,9 @@ jobs:
       # base_path is "/repo-name" for a project site and "" for a user site or a custom domain
       - name: Build
         run: python3 tools/build.py --base "${{ steps.pages.outputs.base_path }}"
+      # Item aliases, NPC gifts and branch-opened shops in the availability audit (the Porygon2 / Porygon-Z regression)
+      - name: Check availability regressions
+        run: python3 tools/qa_availability.py
       - name: Check every link and asset
         run: python3 tools/qa_static.py --base "${{ steps.pages.outputs.base_path }}"
       - uses: actions/upload-pages-artifact@v3
