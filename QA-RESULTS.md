@@ -15,6 +15,21 @@ _Last run on 2026-10-09 against the local production build for v1.0 release cand
 | WebKit (Safari) | `qa_webkit.py`, 22 checks prepared | **not run** — Safari's “Allow remote automation” is off on this machine and turning it on needs the owner |
 | Firefox | — | **not run** — not installed on this machine |
 
+## Pokédex availability correction and search fix (2026-10-09, commit `b1a5a88`)
+
+| Test | Result |
+|---|---|
+| Build validation, 19 availability checks (`AVAILABILITY-AUDIT.md`) | 0 failures |
+| Static links and assets, root and `/project-blonde-guide/` sub-path | 1,296 pages, 77,856 links, 32,032 assets, 0 failures |
+| Chrome, general suite (`qa_browser.py`), now measuring computed visibility | 182 pages × 2 viewports clean; 107 of 107 |
+| Chrome, every route at phone width (`qa_browser.py --all`) | 1,296 pages, 0 failures |
+| Chrome, Pokédex test (`qa_pokedex.py`), local | 136 of 136 |
+| Chrome, Pokédex test, **live site** | 136 of 136; all 1,296 live routes return 200; 49 sampled removed Pokémon pages return 404 |
+| Safari / WebKit | **not run**: `safaridriver` could not create a session on this machine (first "Allow remote automation" disabled, later a session timeout) |
+| Firefox | not run: not installed |
+
+The Pokédex test types each query with real key events and counts rows whose computed `display` is not `none`: `pikachu`, `Pikachu`, `PIKA`, `eevee`, `ninetales`, `alolan`, `vulpix alola`, `galarian`, `hisui`, `char`, `mr. mime`, `farfetch'd`, `ho-oh`, `Ho Oh`, `nidoran`, `porygon`, `unown`, a no-match string, clearing, region and method filters alone and combined with search, detail pages, evolution links, global search, on desktop and phone. Evidence: `qa-evidence/pokedex-audit/`.
+
 ## Final pre-publication pass (v105, 2026-10-09)
 
 - Root build: static check 0 failures; Chrome sweep of 181 pages × 2 viewports clean; 107 of 107 interaction checks.

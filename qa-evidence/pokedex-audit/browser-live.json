@@ -1,0 +1,693 @@
+{
+ "base": "https://areyoublonde.github.io/project-blonde-guide",
+ "browser": "Chrome (headless)",
+ "date": "2026-10-09",
+ "passed": 136,
+ "total": 136,
+ "checks": [
+  {
+   "name": "[desktop] index lists exactly the 480 obtainable entries",
+   "ok": true,
+   "detail": "480 rows; extra []; missing []"
+  },
+  {
+   "name": "[desktop] no excluded species is in the index",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] every row is visible before any search",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] typing “pikachu” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[desktop] “pikachu”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “Pikachu” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[desktop] “Pikachu”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “PIKA” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[desktop] “PIKA”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “eevee” filters at once to 1 row(s) incl. eevee",
+   "ok": true,
+   "detail": "['eevee']"
+  },
+  {
+   "name": "[desktop] “eevee”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “ninetales” filters at once to 2 row(s) incl. ninetales",
+   "ok": true,
+   "detail": "['ninetales', 'ninetales-alola']"
+  },
+  {
+   "name": "[desktop] “ninetales”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[desktop] typing “alolan” filters at once to 18 row(s) incl. vulpix-alola",
+   "ok": true,
+   "detail": "['rattata-alola', 'raticate-alola', 'raichu-alola', 'sandshrew-alola', 'sandslash-alola', 'vulpix-alola']"
+  },
+  {
+   "name": "[desktop] “alolan”: result count reads 18 of 480",
+   "ok": true,
+   "detail": "18 of 480"
+  },
+  {
+   "name": "[desktop] typing “vulpix alola” filters at once to 1 row(s) incl. vulpix-alola",
+   "ok": true,
+   "detail": "['vulpix-alola']"
+  },
+  {
+   "name": "[desktop] “vulpix alola”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “galarian” filters at once to 15 row(s) incl. meowth-galar",
+   "ok": true,
+   "detail": "['meowth-galar', 'ponyta-galar', 'rapidash-galar', 'slowpoke-galar', 'slowbro-galar', 'slowking-galar']"
+  },
+  {
+   "name": "[desktop] “galarian”: result count reads 15 of 480",
+   "ok": true,
+   "detail": "15 of 480"
+  },
+  {
+   "name": "[desktop] typing “hisui” filters at once to 7 row(s) incl. growlithe-hisui",
+   "ok": true,
+   "detail": "['growlithe-hisui', 'arcanine-hisui', 'voltorb-hisui', 'electrode-hisui', 'typhlosion-hisui', 'qwilfish-hisui']"
+  },
+  {
+   "name": "[desktop] “hisui”: result count reads 7 of 480",
+   "ok": true,
+   "detail": "7 of 480"
+  },
+  {
+   "name": "[desktop] typing “char” filters at once to 3 row(s) incl. charmander",
+   "ok": true,
+   "detail": "['charmander', 'charmeleon', 'charizard']"
+  },
+  {
+   "name": "[desktop] “char”: result count reads 3 of 480",
+   "ok": true,
+   "detail": "3 of 480"
+  },
+  {
+   "name": "[desktop] typing “mr. mime” filters at once to 2 row(s) incl. mr-mime",
+   "ok": true,
+   "detail": "['mr-mime', 'mr-mime-galar']"
+  },
+  {
+   "name": "[desktop] “mr. mime”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[desktop] typing “farfetch'd” filters at once to 2 row(s) incl. farfetch-d",
+   "ok": true,
+   "detail": "['farfetch-d', 'farfetch-d-galar']"
+  },
+  {
+   "name": "[desktop] “farfetch'd”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[desktop] typing “ho-oh” filters at once to 1 row(s) incl. ho-oh",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[desktop] “ho-oh”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “Ho Oh” filters at once to 1 row(s) incl. ho-oh",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[desktop] “Ho Oh”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “nidoran” filters at once to 2 row(s) incl. nidoran-f",
+   "ok": true,
+   "detail": "['nidoran-f', 'nidoran-m']"
+  },
+  {
+   "name": "[desktop] “nidoran”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[desktop] typing “porygon” filters at once to 1 row(s) incl. porygon",
+   "ok": true,
+   "detail": "['porygon']"
+  },
+  {
+   "name": "[desktop] “porygon”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] typing “unown” filters at once to 1 row(s) incl. unown",
+   "ok": true,
+   "detail": "['unown']"
+  },
+  {
+   "name": "[desktop] “unown”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[desktop] no match: zero rows and the empty state is shown",
+   "ok": true,
+   "detail": "{'shown': [], 'count': '0 of 480', 'empty': True, 'value': 'zzzzqq'}"
+  },
+  {
+   "name": "[desktop] clearing the search restores all 480 entries",
+   "ok": true,
+   "detail": "480"
+  },
+  {
+   "name": "[desktop] unobtainable “porygon2” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] unobtainable “porygon-z” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] unobtainable “greninja” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] unobtainable “garchomp” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] unobtainable “lucario” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] region filter Hoenn shows only Hoenn entries (135)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] search + region filter combine (30 Water in Hoenn)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] method filter ‘Evolution or egg only’ works (105)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] All restores the full list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] type search “ghost” narrows the list",
+   "ok": true,
+   "detail": "18"
+  },
+  {
+   "name": "[desktop] no sideways scroll on the index",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[desktop] no JavaScript error on the index",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] /pokemon/pikachu/ loads and explains how to obtain it (Wild encounter)",
+   "ok": true,
+   "detail": "Where to findIn the gameBest chanceViridian Forest · walking · day · 5%PlaceHowLevelWhenChanceViridian ForestKantoWalkin"
+  },
+  {
+   "name": "[desktop] /pokemon/gengar/ loads and explains how to obtain it (Evolve)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/meowth-galar/ loads and explains how to obtain it (Bill)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/porygon/ loads and explains how to obtain it (Game Corner)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/cleffa/ loads and explains how to obtain it (Day Care)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/milotic/ loads and explains how to obtain it (Beauty)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/unown/ loads and explains how to obtain it (Ruins)",
+   "ok": true,
+   "detail": "Where to findIn the gameBest chanceRuins Of Alph B1F · walking · day · 100%PlaceHowLevelWhenChanceRuins Of Alph B1FJohto"
+  },
+  {
+   "name": "[desktop] evolution family links are present (Gastly, Haunter, Gengar)",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/gastly/', '/project-blonde-guide/pokemon/haunter/', '/project-blonde-guide/pokemon/gengar/']"
+  },
+  {
+   "name": "[desktop] an evolution link opens that Pokémon",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] an unobtainable evolution is shown unlinked and marked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] no public page exists for unobtainable porygon2",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[desktop] no public page exists for unobtainable greninja",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[desktop] no public page exists for unobtainable lucario",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[desktop] global search finds Pikachu",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/items/ashs-pikachu/']"
+  },
+  {
+   "name": "[desktop] global search does not offer a page for unobtainable Greninja",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] index lists exactly the 480 obtainable entries",
+   "ok": true,
+   "detail": "480 rows; extra []; missing []"
+  },
+  {
+   "name": "[phone] no excluded species is in the index",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] every row is visible before any search",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] typing “pikachu” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[phone] “pikachu”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “Pikachu” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[phone] “Pikachu”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “PIKA” filters at once to 1 row(s) incl. pikachu",
+   "ok": true,
+   "detail": "['pikachu']"
+  },
+  {
+   "name": "[phone] “PIKA”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “eevee” filters at once to 1 row(s) incl. eevee",
+   "ok": true,
+   "detail": "['eevee']"
+  },
+  {
+   "name": "[phone] “eevee”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “ninetales” filters at once to 2 row(s) incl. ninetales",
+   "ok": true,
+   "detail": "['ninetales', 'ninetales-alola']"
+  },
+  {
+   "name": "[phone] “ninetales”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[phone] typing “alolan” filters at once to 18 row(s) incl. vulpix-alola",
+   "ok": true,
+   "detail": "['rattata-alola', 'raticate-alola', 'raichu-alola', 'sandshrew-alola', 'sandslash-alola', 'vulpix-alola']"
+  },
+  {
+   "name": "[phone] “alolan”: result count reads 18 of 480",
+   "ok": true,
+   "detail": "18 of 480"
+  },
+  {
+   "name": "[phone] typing “vulpix alola” filters at once to 1 row(s) incl. vulpix-alola",
+   "ok": true,
+   "detail": "['vulpix-alola']"
+  },
+  {
+   "name": "[phone] “vulpix alola”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “galarian” filters at once to 15 row(s) incl. meowth-galar",
+   "ok": true,
+   "detail": "['meowth-galar', 'ponyta-galar', 'rapidash-galar', 'slowpoke-galar', 'slowbro-galar', 'slowking-galar']"
+  },
+  {
+   "name": "[phone] “galarian”: result count reads 15 of 480",
+   "ok": true,
+   "detail": "15 of 480"
+  },
+  {
+   "name": "[phone] typing “hisui” filters at once to 7 row(s) incl. growlithe-hisui",
+   "ok": true,
+   "detail": "['growlithe-hisui', 'arcanine-hisui', 'voltorb-hisui', 'electrode-hisui', 'typhlosion-hisui', 'qwilfish-hisui']"
+  },
+  {
+   "name": "[phone] “hisui”: result count reads 7 of 480",
+   "ok": true,
+   "detail": "7 of 480"
+  },
+  {
+   "name": "[phone] typing “char” filters at once to 3 row(s) incl. charmander",
+   "ok": true,
+   "detail": "['charmander', 'charmeleon', 'charizard']"
+  },
+  {
+   "name": "[phone] “char”: result count reads 3 of 480",
+   "ok": true,
+   "detail": "3 of 480"
+  },
+  {
+   "name": "[phone] typing “mr. mime” filters at once to 2 row(s) incl. mr-mime",
+   "ok": true,
+   "detail": "['mr-mime', 'mr-mime-galar']"
+  },
+  {
+   "name": "[phone] “mr. mime”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[phone] typing “farfetch'd” filters at once to 2 row(s) incl. farfetch-d",
+   "ok": true,
+   "detail": "['farfetch-d', 'farfetch-d-galar']"
+  },
+  {
+   "name": "[phone] “farfetch'd”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[phone] typing “ho-oh” filters at once to 1 row(s) incl. ho-oh",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[phone] “ho-oh”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “Ho Oh” filters at once to 1 row(s) incl. ho-oh",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[phone] “Ho Oh”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “nidoran” filters at once to 2 row(s) incl. nidoran-f",
+   "ok": true,
+   "detail": "['nidoran-f', 'nidoran-m']"
+  },
+  {
+   "name": "[phone] “nidoran”: result count reads 2 of 480",
+   "ok": true,
+   "detail": "2 of 480"
+  },
+  {
+   "name": "[phone] typing “porygon” filters at once to 1 row(s) incl. porygon",
+   "ok": true,
+   "detail": "['porygon']"
+  },
+  {
+   "name": "[phone] “porygon”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] typing “unown” filters at once to 1 row(s) incl. unown",
+   "ok": true,
+   "detail": "['unown']"
+  },
+  {
+   "name": "[phone] “unown”: result count reads 1 of 480",
+   "ok": true,
+   "detail": "1 of 480"
+  },
+  {
+   "name": "[phone] no match: zero rows and the empty state is shown",
+   "ok": true,
+   "detail": "{'shown': [], 'count': '0 of 480', 'empty': True, 'value': 'zzzzqq'}"
+  },
+  {
+   "name": "[phone] clearing the search restores all 480 entries",
+   "ok": true,
+   "detail": "480"
+  },
+  {
+   "name": "[phone] unobtainable “porygon2” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] unobtainable “porygon-z” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] unobtainable “greninja” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] unobtainable “garchomp” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] unobtainable “lucario” is not listed",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] region filter Hoenn shows only Hoenn entries (135)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] search + region filter combine (30 Water in Hoenn)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] method filter ‘Evolution or egg only’ works (105)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] All restores the full list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] type search “ghost” narrows the list",
+   "ok": true,
+   "detail": "18"
+  },
+  {
+   "name": "[phone] no sideways scroll on the index",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[phone] no JavaScript error on the index",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] /pokemon/pikachu/ loads and explains how to obtain it (Wild encounter)",
+   "ok": true,
+   "detail": "Where to findIn the gameBest chanceViridian Forest · walking · day · 5%PlaceHowLevelWhenChanceViridian ForestKantoWalkin"
+  },
+  {
+   "name": "[phone] /pokemon/gengar/ loads and explains how to obtain it (Evolve)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/meowth-galar/ loads and explains how to obtain it (Bill)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/porygon/ loads and explains how to obtain it (Game Corner)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/cleffa/ loads and explains how to obtain it (Day Care)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/milotic/ loads and explains how to obtain it (Beauty)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/unown/ loads and explains how to obtain it (Ruins)",
+   "ok": true,
+   "detail": "Where to findIn the gameBest chanceRuins Of Alph B1F · walking · day · 100%PlaceHowLevelWhenChanceRuins Of Alph B1FJohto"
+  },
+  {
+   "name": "[phone] evolution family links are present (Gastly, Haunter, Gengar)",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/gastly/', '/project-blonde-guide/pokemon/haunter/', '/project-blonde-guide/pokemon/gengar/']"
+  },
+  {
+   "name": "[phone] an evolution link opens that Pokémon",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] an unobtainable evolution is shown unlinked and marked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] no public page exists for unobtainable porygon2",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[phone] no public page exists for unobtainable greninja",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[phone] no public page exists for unobtainable lucario",
+   "ok": true,
+   "detail": "404"
+  },
+  {
+   "name": "[phone] global search finds Pikachu",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/items/ashs-pikachu/']"
+  },
+  {
+   "name": "[phone] global search does not offer a page for unobtainable Greninja",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] /items/ filter “surf” visibly narrows 438 rows to 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /trainers/ filter “wallace” visibly narrows 85 rows to 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /world/ filter “ecruteak” visibly narrows 119 rows to 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /items/mega-stones/ filter “charizard” visibly narrows 51 rows to 2",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "routes_200": 1296,
+ "removed_pages_sampled": 49,
+ "removed_pages_still_served": 0,
+ "commit": "b1a5a88a38f8c081a0db42be19ef71dca714177a"
+}
