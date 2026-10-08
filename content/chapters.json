@@ -1,0 +1,122 @@
+{
+ "_about": "Order of the road. Chapter content lives in content/walkthrough/{region}.json; this file only fixes the order and the crossings between regions. Reconciled against the completed natural playthrough (blonde/qa/natural-run-v100..v102).",
+ "regions": [
+  {
+   "id": "johto",
+   "name": "Johto",
+   "tagline": "Heritage, lantern light and the long road to the League.",
+   "blurb": "Your journey starts in New Bark Town and winds through shrine towns, old forests and eight Gyms on the way to the Indigo Plateau.",
+   "map": "jk",
+   "chapters": [
+    "new-bark-town",
+    "cherrygrove-city",
+    "violet-city",
+    "route-32-union-cave",
+    "azalea-town",
+    "ilex-forest",
+    "goldenrod-city",
+    "route-35-national-park",
+    "ecruteak-city",
+    "olivine-city",
+    "cianwood-city",
+    "olivine-gym",
+    "mahogany-town",
+    "mahogany-gym",
+    "radio-tower",
+    "blackthorn-city",
+    "kimono-girls",
+    "victory-road",
+    "indigo-plateau"
+   ]
+  },
+  {
+   "id": "kanto",
+   "name": "Kanto",
+   "tagline": "A classic journey, wide open.",
+   "blurb": "With the League behind you, the S.S. Aqua sails for Vermilion. Eight more Gyms are scattered across a region you are free to roam.",
+   "map": "jk",
+   "chapters": [
+    "ss-aqua",
+    "vermilion-city",
+    "saffron-city",
+    "cerulean-city",
+    "lavender-town",
+    "pewter-city",
+    "celadon-city",
+    "fuchsia-city",
+    "viridian-pallet",
+    "cinnabar-seafoam",
+    "viridian-gym",
+    "kanto-league",
+    "mt-silver",
+    "ash"
+   ]
+  },
+  {
+   "id": "hoenn",
+   "name": "Hoenn",
+   "tagline": "By truck, as a veteran.",
+   "blurb": "A third region opens after Kanto: the full Hoenn story, eight Gyms and a new League, tuned for a team that has already won two. Opponents start at Level 80.",
+   "map": "hoenn",
+   "chapters": [
+    "road-to-hoenn",
+    "littleroot-town",
+    "rustboro-city",
+    "dewford-town",
+    "slateport-city",
+    "mauville-city",
+    "fallarbor-town",
+    "lavaridge-town",
+    "petalburg-gym",
+    "fortree-city",
+    "lilycove-city",
+    "team-hideouts",
+    "mossdeep-city",
+    "seafloor-cavern",
+    "sootopolis-city",
+    "ever-grande-city",
+    "hoenn-league"
+   ]
+  },
+  {
+   "id": "postgame",
+   "name": "Postgame",
+   "tagline": "Three regions down.",
+   "blurb": "Rematches, the ferry, and everything that has no fixed order once the credits have rolled.",
+   "map": null,
+   "chapters": [
+    "after-the-credits",
+    "gym-rematches",
+    "ss-tidal",
+    "rival-rematches",
+    "johto-rematches",
+    "legendaries",
+    "far-off-places",
+    "battle-facilities"
+   ]
+  }
+ ],
+ "crossings": {
+  "kanto": {
+   "title": "S.S. Aqua",
+   "from": "Olivine City",
+   "to": "Vermilion City",
+   "plate": "olivine-harbour",
+   "text": "With the Johto League behind you, Professor Elm hands you a ticket and a ship sails from Olivine’s harbour to Kanto."
+  },
+  "hoenn": {
+   "title": "The road to Hoenn",
+   "from": "Pallet Town",
+   "to": "Littleroot Town",
+   "plate": "pallet-town",
+   "text": "Red, then Ash, then a call from Professor Oak: Professor Birch’s truck is waiting in Pallet Town.",
+   "spoiler": true
+  },
+  "postgame": {
+   "title": "After the credits",
+   "from": "Hoenn League",
+   "to": "Everything else",
+   "text": "Three regions cleared. What follows has no fixed order."
+  }
+ }
+}

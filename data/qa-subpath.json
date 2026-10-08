@@ -1,0 +1,147 @@
+{
+ "base": "/project-blonde-guide",
+ "date": "2026-10-09",
+ "checks": [
+  {
+   "name": "Sweep 1440px: 32 pages, no error, broken image or sideways scroll",
+   "ok": true
+  },
+  {
+   "name": "Sweep 390px: 32 pages, no error, broken image or sideways scroll",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201cmisdrevus\u201d finds /pokemon/misdreavus/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201cwattson\u201d finds /trainers/hoenn/wattson/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201cmega stones\u201d finds /items/mega-stones/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201csky pillar\u201d finds /world/hoenn/sky-pillar/",
+   "ok": true
+  },
+  {
+   "name": "Search: \u201chow do i get to hoenn\u201d finds /stuck/",
+   "ok": true
+  },
+  {
+   "name": "Search: Enter opens a result inside the sub-path",
+   "ok": true
+  },
+  {
+   "name": "Map: image loads from the sub-path",
+   "ok": true
+  },
+  {
+   "name": "Map: zoom",
+   "ok": true
+  },
+  {
+   "name": "Map: marker detail",
+   "ok": true
+  },
+  {
+   "name": "Map: full screen and Esc",
+   "ok": true
+  },
+  {
+   "name": "Atlas: Hoenn Town Map and list",
+   "ok": true
+  },
+  {
+   "name": "Atlas: a place opens its page",
+   "ok": true
+  },
+  {
+   "name": "Progress: position, Badge and chapter persist across reload",
+   "ok": true
+  },
+  {
+   "name": "Progress: export then import restores it",
+   "ok": true
+  },
+  {
+   "name": "Home: resumes at Mauville City with a Continue link in the sub-path",
+   "ok": true
+  },
+  {
+   "name": "Stuck?: next step from the saved position",
+   "ok": true
+  },
+  {
+   "name": "Pok\u00e9dex: 1067 entries; type filter narrows",
+   "ok": true
+  },
+  {
+   "name": "Pok\u00e9dex: region filter",
+   "ok": true
+  },
+  {
+   "name": "Pok\u00e9dex entry: sprite, locations, Town Map, regional form link",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: 51 listed, completeness check matches",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: searchable",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: stone \u2192 item page \u2192 Pok\u00e9mon link",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: linked from the Pok\u00e9mon page",
+   "ok": true
+  },
+  {
+   "name": "Mega Stones: linked from the Mega Evolution guide",
+   "ok": true
+  },
+  {
+   "name": "Play: download disabled, no game file link, release details pending",
+   "ok": true
+  },
+  {
+   "name": "Play: v1.0 release candidate (build v105), not yet owner-verified",
+   "ok": true
+  },
+  {
+   "name": "About: project credits and non-affiliation kept; personal sections absent",
+   "ok": true
+  },
+  {
+   "name": "Phone: Menu opens with every section",
+   "ok": true
+  },
+  {
+   "name": "Phone: Menu link navigates inside the sub-path",
+   "ok": true
+  },
+  {
+   "name": "Phone: chapter dock \u2192 Next chapter",
+   "ok": true
+  },
+  {
+   "name": "Phone: Town Map stays pinned on the road",
+   "ok": true
+  },
+  {
+   "name": "Phone: search answers",
+   "ok": true
+  },
+  {
+   "name": "Phone: maps scroll inside their frame",
+   "ok": true
+  }
+ ],
+ "passed": 35
+}

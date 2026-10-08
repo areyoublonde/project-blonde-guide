@@ -1,0 +1,810 @@
+[
+ {
+  "species": "SPECIES_NOSEPASS",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "AkalaIsle_hns",
+  "src": "data/maps/AkalaIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MAGMAR",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "AkalaIsle_hns",
+  "src": "data/maps/AkalaIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TAPU_LELE",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "AkalaIsle_hns",
+  "src": "data/maps/AkalaIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MAROWAK_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Akala_Cave_hns",
+  "src": "data/maps/Akala_Cave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_DUGTRIO_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Akala_Cave_hns",
+  "src": "data/maps/Akala_Cave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_RAICHU_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Akala_Forest_hns",
+  "src": "data/maps/Akala_Forest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ELECTRODE",
+  "level": 30,
+  "kind": "battle",
+  "shiny": false,
+  "map": "AquaHideout_B1F",
+  "src": "data/maps/AquaHideout_B1F/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SUDOWOODO",
+  "level": 40,
+  "kind": "battle",
+  "shiny": false,
+  "map": "BattleFrontier_OutsideEast_hns",
+  "src": "data/maps/BattleFrontier_OutsideEast_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_DEOXYS",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "BirthIsland_Exterior_hns",
+  "src": "data/maps/BirthIsland_Exterior_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MEWTWO",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "CeruleanCave_B2F_hns",
+  "src": "data/maps/CeruleanCave_B2F_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TENTACOOL",
+  "level": 25,
+  "kind": "gift",
+  "shiny": false,
+  "map": "CianwoodPokecenter_hns",
+  "src": "data/maps/CianwoodPokecenter_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_DRATINI",
+  "level": 15,
+  "kind": "gift",
+  "shiny": false,
+  "map": "DragonsDen_Shrine_hns",
+  "src": "data/maps/DragonsDen_Shrine_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_RAYQUAZA",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "EmbeddedTower_hns",
+  "src": "data/maps/EmbeddedTower_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MEW",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "FarawayIsland_Interior_hns",
+  "src": "data/maps/FarawayIsland_Interior_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_CELEBI",
+  "level": 40,
+  "kind": "battle",
+  "shiny": false,
+  "map": "IlexForest_hns",
+  "src": "data/maps/IlexForest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_GYARADOS",
+  "level": 30,
+  "kind": "battle",
+  "shiny": true,
+  "map": "LakeOfRage_hns",
+  "src": "data/maps/LakeOfRage_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_WYNAUT",
+  "level": null,
+  "kind": "egg",
+  "shiny": false,
+  "map": "LavaridgeTown",
+  "src": "data/maps/LavaridgeTown/scripts.inc"
+ },
+ {
+  "species": "SPECIES_CYNDAQUIL",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "LittlerootTown_ProfessorBirchsLab",
+  "src": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TOTODILE",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "LittlerootTown_ProfessorBirchsLab",
+  "src": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc"
+ },
+ {
+  "species": "SPECIES_CHIKORITA",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "LittlerootTown_ProfessorBirchsLab",
+  "src": "data/maps/LittlerootTown_ProfessorBirchsLab/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KYOGRE",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MarineCave_End",
+  "src": "data/maps/MarineCave_End/scripts.inc"
+ },
+ {
+  "species": "SPECIES_RATTATA_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MelemeleIsle_hns",
+  "src": "data/maps/MelemeleIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_EEVEE",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MelemeleIsle_hns",
+  "src": "data/maps/MelemeleIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TAPU_KOKO",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MelemeleIsle_hns",
+  "src": "data/maps/MelemeleIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_BELDUM",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "MossdeepCity_StevensHouse",
+  "src": "data/maps/MossdeepCity_StevensHouse/scripts.inc"
+ },
+ {
+  "species": "SPECIES_JIRACHI",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MtMoon_Outside_hns",
+  "src": "data/maps/MtMoon_Outside_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TYROGUE",
+  "level": 25,
+  "kind": "gift",
+  "shiny": false,
+  "map": "MtMortar_B1F_hns",
+  "src": "data/maps/MtMortar_B1F_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MOLTRES",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MtSilver_1F_MoltresRoom_hns",
+  "src": "data/maps/MtSilver_1F_MoltresRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_VOLTORB",
+  "level": 25,
+  "kind": "battle",
+  "shiny": false,
+  "map": "NewMauville_Inside",
+  "src": "data/maps/NewMauville_Inside/scripts.inc"
+ },
+ {
+  "species": "SPECIES_WOOPER_PALDEA",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "NewSinjoh_House1_hns",
+  "src": "data/maps/NewSinjoh_House1_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_EXEGGUTOR_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "PoniIsle_hns",
+  "src": "data/maps/PoniIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ELECTABUZZ",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "PoniIsle_hns",
+  "src": "data/maps/PoniIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TAPU_FINI",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "PoniIsle_hns",
+  "src": "data/maps/PoniIsle_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ELECTRODE",
+  "level": 30,
+  "kind": "battle",
+  "shiny": false,
+  "map": "RocketHideout_B2F_hns",
+  "src": "data/maps/RocketHideout_B2F_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ZAPDOS",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route10_hns",
+  "src": "data/maps/Route10_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_CASTFORM_NORMAL",
+  "level": 25,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route119_WeatherInstitute_2F",
+  "src": "data/maps/Route119_WeatherInstitute_2F/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KECLEON",
+  "level": 30,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route120",
+  "src": "data/maps/Route120/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KYOGRE",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route19_Cave_hns",
+  "src": "data/maps/Route19_Cave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MEOWTH",
+  "level": 10,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route25_BillsHouse_hns",
+  "src": "data/maps/Route25_BillsHouse_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ZIGZAGOON",
+  "level": 10,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route25_BillsHouse_hns",
+  "src": "data/maps/Route25_BillsHouse_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_PONYTA",
+  "level": 10,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route25_BillsHouse_hns",
+  "src": "data/maps/Route25_BillsHouse_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_FARFETCHD",
+  "level": 10,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route25_BillsHouse_hns",
+  "src": "data/maps/Route25_BillsHouse_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SLOWPOKE",
+  "level": 10,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route25_BillsHouse_hns",
+  "src": "data/maps/Route25_BillsHouse_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SUICUNE",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route25_hns",
+  "src": "data/maps/Route25_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SUDOWOODO",
+  "level": 20,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route36_hns",
+  "src": "data/maps/Route36_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TENTACRUEL",
+  "level": 100,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route41_hns",
+  "src": "data/maps/Route41_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LILEEP",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ANORITH",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_OMANYTE",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KABUTO",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KABUTO",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_AERODACTYL",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RuinsOfAlph_Lab_hns",
+  "src": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LILEEP",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RustboroCity_DevonCorp_2F",
+  "src": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ANORITH",
+  "level": 20,
+  "kind": "gift",
+  "shiny": false,
+  "map": "RustboroCity_DevonCorp_2F",
+  "src": "data/maps/RustboroCity_DevonCorp_2F/scripts.inc"
+ },
+ {
+  "species": "SPECIES_BELDUM",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SafariZoneGate_SafariZoneEntrance_hns",
+  "src": "data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_CASTFORM",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SafariZoneGate_SafariZoneEntrance_hns",
+  "src": "data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MEDICHAM",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SafariZoneGate_SafariZoneEntrance_hns",
+  "src": "data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_BAGON",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SafariZoneGate_SafariZoneEntrance_hns",
+  "src": "data/maps/SafariZoneGate_SafariZoneEntrance_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LICKILICKY",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MACHAMP",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_STEELIX",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ALAKAZAM",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SLOWKING",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_PIDGEOT",
+  "level": 1,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SaffronCity_FightingDojo_hns",
+  "src": "data/maps/SaffronCity_FightingDojo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TREECKO",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SaffronCity_SilphCo_hns",
+  "src": "data/maps/SaffronCity_SilphCo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TORCHIC",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SaffronCity_SilphCo_hns",
+  "src": "data/maps/SaffronCity_SilphCo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MUDKIP",
+  "level": 5,
+  "kind": "gift",
+  "shiny": false,
+  "map": "SaffronCity_SilphCo_hns",
+  "src": "data/maps/SaffronCity_SilphCo_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_ARTICUNO",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SeafoamIslands_B1F_hns",
+  "src": "data/maps/SeafoamIslands_B1F_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_GROUDON",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SeafoamIslands_SecretCave_hns",
+  "src": "data/maps/SeafoamIslands_SecretCave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGICE",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegiceRoom_hns",
+  "src": "data/maps/SinjohRuins_RegiceRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGIDRAGO",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegidracoRoom_hns",
+  "src": "data/maps/SinjohRuins_RegidracoRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGIELEKI",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegielekiRoom_hns",
+  "src": "data/maps/SinjohRuins_RegielekiRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGIGIGAS",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegigigasRoom_hns",
+  "src": "data/maps/SinjohRuins_RegigigasRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGIROCK",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegirockRoom_hns",
+  "src": "data/maps/SinjohRuins_RegirockRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_REGISTEEL",
+  "level": 80,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SinjohRuins_RegisteelRoom_hns",
+  "src": "data/maps/SinjohRuins_RegisteelRoom_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_RAYQUAZA",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SkyPillar_Top",
+  "src": "data/maps/SkyPillar_Top/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LATIOS",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SouthernIsland_Interior_hns",
+  "src": "data/maps/SouthernIsland_Interior_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LATIAS",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SouthernIsland_Interior_hns",
+  "src": "data/maps/SouthernIsland_Interior_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_GROUDON",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "TerraCave_End",
+  "src": "data/maps/TerraCave_End/scripts.inc"
+ },
+ {
+  "species": "SPECIES_HO_OH",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "TinTower_RoofDay_hns",
+  "src": "data/maps/TinTower_RoofDay_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_HO_OH",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "TinTower_RoofDay_hns",
+  "src": "data/maps/TinTower_RoofDay_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MUK_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Cave_2_hns",
+  "src": "data/maps/UlaUla_Cave_2_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SANDSLASH_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Cave_hns",
+  "src": "data/maps/UlaUla_Cave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_NINETALES_ALOLA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Cave_hns",
+  "src": "data/maps/UlaUla_Cave_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_MANKEY",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Forest_hns",
+  "src": "data/maps/UlaUla_Forest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TANGELA",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Forest_hns",
+  "src": "data/maps/UlaUla_Forest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TAPU_BULU",
+  "level": 60,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UlaUla_Forest_hns",
+  "src": "data/maps/UlaUla_Forest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_NOIBAT",
+  "level": null,
+  "kind": "egg",
+  "shiny": false,
+  "map": "UlaUla_House_hns",
+  "src": "data/maps/UlaUla_House_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LAPRAS",
+  "level": 20,
+  "kind": "battle",
+  "shiny": false,
+  "map": "UnionCave_B2F_hns",
+  "src": "data/maps/UnionCave_B2F_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_SNORLAX",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "VermilionCity_hns",
+  "src": "data/maps/VermilionCity_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_TOGEPI",
+  "level": null,
+  "kind": "egg",
+  "shiny": false,
+  "map": "VioletCity_PokemonCenter_hns",
+  "src": "data/maps/VioletCity_PokemonCenter_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_PICHU_SPIKY_EARED",
+  "level": 35,
+  "kind": "battle",
+  "shiny": false,
+  "map": "ViridianForest_hns",
+  "src": "data/maps/ViridianForest_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LUGIA",
+  "level": 50,
+  "kind": "battle",
+  "shiny": false,
+  "map": "WhirlIslands_LugiaChamber_hns",
+  "src": "data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_LUGIA",
+  "level": 70,
+  "kind": "battle",
+  "shiny": false,
+  "map": "WhirlIslands_LugiaChamber_hns",
+  "src": "data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc"
+ },
+ {
+  "species": "SPECIES_KECLEON",
+  "level": 81,
+  "kind": "battle",
+  "shiny": false,
+  "map": "Route120",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_Route120_EventScript_KecleonC4Battle"
+ },
+ {
+  "species": "SPECIES_VOLTORB",
+  "level": 78,
+  "kind": "battle",
+  "shiny": false,
+  "map": "NewMauville_Inside",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_NewMauville_Inside_EventScript_Voltorb3"
+ },
+ {
+  "species": "SPECIES_GROUDON",
+  "level": 85,
+  "kind": "battle",
+  "shiny": false,
+  "map": "TerraCave_End",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_TerraCave_End_EventScript_Groudon"
+ },
+ {
+  "species": "SPECIES_KYOGRE",
+  "level": 85,
+  "kind": "battle",
+  "shiny": false,
+  "map": "MarineCave_End",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_MarineCave_End_EventScript_Kyogre"
+ },
+ {
+  "species": "SPECIES_RAYQUAZA",
+  "level": 85,
+  "kind": "battle",
+  "shiny": false,
+  "map": "SkyPillar_Top",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_SkyPillar_Top_EventScript_Rayquaza"
+ },
+ {
+  "species": "SPECIES_ELECTRODE",
+  "level": 82,
+  "kind": "battle",
+  "shiny": false,
+  "map": "AquaHideout_B1F",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_AquaHideout_B1F_EventScript_Electrode2"
+ },
+ {
+  "species": "SPECIES_CASTFORM_NORMAL",
+  "level": 78,
+  "kind": "gift",
+  "shiny": false,
+  "map": "Route119_WeatherInstitute_2F",
+  "src": "qa/gym-rematch-yes-no-v84/map_events_overlay.s:HoC1_Route119_WeatherInstitute_2F_EventScript_ReceiveCastform"
+ }
+]

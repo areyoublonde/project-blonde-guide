@@ -1,0 +1,78 @@
+{
+ "ecruteak-city": {
+  "map": "EcruteakCity_hns",
+  "w": 66,
+  "h": 61,
+  "px": [
+   1056,
+   976
+  ]
+ },
+ "ecruteak-gym": {
+  "map": "EcruteakCity_Gym_hns",
+  "w": 17,
+  "h": 48,
+  "px": [
+   272,
+   768
+  ]
+ },
+ "burned-tower-1f": {
+  "map": "BurnedTower_1F_hns",
+  "w": 27,
+  "h": 25,
+  "px": [
+   432,
+   400
+  ]
+ },
+ "burned-tower-b1f": {
+  "map": "BurnedTower_B1F_hns",
+  "w": 28,
+  "h": 19,
+  "px": [
+   448,
+   304
+  ]
+ },
+ "vermilion-city": {
+  "map": "VermilionCity_hns",
+  "art": true,
+  "w": 71,
+  "h": 55,
+  "px": [
+   1136,
+   880
+  ]
+ },
+ "new-bark-town": {
+  "map": "NewBarkTown_hns",
+  "art": true,
+  "w": 30,
+  "h": 39,
+  "px": [
+   480,
+   624
+  ]
+ },
+ "pallet-town": {
+  "map": "PalletTown_hns",
+  "art": true,
+  "w": 24,
+  "h": 20,
+  "px": [
+   384,
+   320
+  ]
+ },
+ "olivine-city": {
+  "map": "OlivineCity_hns",
+  "art": true,
+  "w": 60,
+  "h": 72,
+  "px": [
+   960,
+   1152
+  ]
+ }
+}

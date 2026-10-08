@@ -1,0 +1,13 @@
+{
+ "pages": 1883,
+ "links_checked": 97060,
+ "assets_checked": 35983,
+ "failures": [],
+ "failure_count": 0,
+ "duplicate_titles": {
+  "Exp. Share · Project Blonde Guide": [
+   "/features/exp-share/",
+   "/items/exp-share/"
+  ]
+ }
+}

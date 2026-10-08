@@ -1,0 +1,617 @@
+[
+ {
+  "sym": "HoRe_OldaleTown_Mart_Talk_1",
+  "list_sym": "HoRe_OldaleStock",
+  "addr": 151265412,
+  "items": [
+   "Poke Ball",
+   "Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening"
+  ],
+  "map": "OldaleTown_Mart"
+ },
+ {
+  "sym": "HoRe_PetalburgCity_Mart_Talk_1",
+  "list_sym": "HoRe_OldaleStock",
+  "addr": 151271349,
+  "items": [
+   "Poke Ball",
+   "Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening"
+  ],
+  "map": "PetalburgCity_Mart"
+ },
+ {
+  "sym": "HoRe_RustboroCity_Mart_Talk_1",
+  "list_sym": "HoRe_OldaleStock",
+  "addr": 151282908,
+  "items": [
+   "Poke Ball",
+   "Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening"
+  ],
+  "map": "RustboroCity_Mart"
+ },
+ {
+  "sym": "HoC1_SlateportCity_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_SlateportMartStock",
+  "addr": 151390809,
+  "items": [
+   "Poke Ball",
+   "Great Ball",
+   "Potion",
+   "Super Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Escape Rope",
+   "Repel",
+   "Lure",
+   "Harbor Mail"
+  ],
+  "map": "SlateportCity_Mart"
+ },
+ {
+  "sym": "HoC1_MauvilleCity_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_MauvilleCity_Mart_Stock",
+  "addr": 151390983,
+  "items": [
+   "Poke Ball",
+   "Great Ball",
+   "Super Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening",
+   "X Speed",
+   "X Attack",
+   "X Defend",
+   "Guard Spec",
+   "Dire Hit",
+   "X Accuracy"
+  ],
+  "map": "MauvilleCity_Mart"
+ },
+ {
+  "sym": "HoC1_VerdanturfTown_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_VerdanturfTown_Mart_Stock",
+  "addr": 151391036,
+  "items": [
+   "Great Ball",
+   "Nest Ball",
+   "Super Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening",
+   "Burn Heal",
+   "Ice Heal",
+   "Repel",
+   "Lure",
+   "X Special",
+   "Fluffy Tail"
+  ],
+  "map": "VerdanturfTown_Mart"
+ },
+ {
+  "sym": "HoC1_FallarborTown_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_FallarborTown_Mart_Stock",
+  "addr": 151391521,
+  "items": [
+   "Great Ball",
+   "Super Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Escape Rope",
+   "Super Repel",
+   "Super Lure",
+   "X Special",
+   "X Speed",
+   "X Attack",
+   "X Defend",
+   "Dire Hit",
+   "Guard Spec"
+  ],
+  "map": "FallarborTown_Mart"
+ },
+ {
+  "sym": "HoC1_LavaridgeTown_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_LavaridgeTown_Mart_Stock",
+  "addr": 151391574,
+  "items": [
+   "Great Ball",
+   "Super Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening",
+   "Burn Heal",
+   "Revive",
+   "Super Repel",
+   "Super Lure",
+   "X Speed"
+  ],
+  "map": "LavaridgeTown_Mart"
+ },
+ {
+  "sym": "HoC1_LavaridgeTown_HerbShop_EventScript_Clerk",
+  "list_sym": "HoC1_LavaridgeTown_HerbShop_Stock",
+  "addr": 151391624,
+  "items": [
+   "Energypowder",
+   "Energy Root",
+   "Heal Powder",
+   "Revival Herb"
+  ],
+  "map": "LavaridgeTown_HerbShop"
+ },
+ {
+  "sym": "HoC1_FortreeCity_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_FortreeCity_Mart_Stock",
+  "addr": 151392399,
+  "items": [
+   "Great Ball",
+   "Ultra Ball",
+   "Super Potion",
+   "Hyper Potion",
+   "Antidote",
+   "Paralyze Heal",
+   "Awakening",
+   "Revive",
+   "Super Repel",
+   "Super Lure",
+   "Wood Mail"
+  ],
+  "map": "FortreeCity_Mart"
+ },
+ {
+  "sym": "HoC1_MossdeepCity_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_MossdeepCity_Mart_EventScript_Clerk_Stock",
+  "addr": 151393216,
+  "items": [
+   "Ultra Ball",
+   "Net Ball",
+   "Dive Ball",
+   "Hyper Potion",
+   "Full Heal",
+   "Revive",
+   "Max Repel",
+   "Max Lure",
+   "X Attack",
+   "X Defend"
+  ],
+  "map": "MossdeepCity_Mart"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_2F_EventScript_ClerkLeft_Stock",
+  "addr": 151393264,
+  "items": [
+   "Poke Ball",
+   "Great Ball",
+   "Ultra Ball",
+   "Escape Rope",
+   "Full Heal",
+   "Antidote",
+   "Paralyze Heal",
+   "Burn Heal",
+   "Ice Heal",
+   "Awakening",
+   "Fluffy Tail"
+  ],
+  "map": "LilycoveCity_DepartmentStore_2F"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_2F_EventScript_ClerkRight_Stock",
+  "addr": 151393314,
+  "items": [
+   "Potion",
+   "Super Potion",
+   "Hyper Potion",
+   "Max Potion",
+   "Revive",
+   "Repel",
+   "Super Repel",
+   "Max Repel",
+   "Lure",
+   "Super Lure",
+   "Max Lure",
+   "Wave Mail",
+   "Mech Mail"
+  ],
+  "map": "LilycoveCity_DepartmentStore_2F"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft_Stock",
+  "addr": 151393370,
+  "items": [
+   "Protein",
+   "Calcium",
+   "Iron",
+   "Zinc",
+   "Carbos",
+   "HP Up"
+  ],
+  "map": "LilycoveCity_DepartmentStore_3F"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_3F_EventScript_ClerkRight_Stock",
+  "addr": 151393412,
+  "items": [
+   "X Speed",
+   "X Special",
+   "X Attack",
+   "X Defend",
+   "Dire Hit",
+   "Guard Spec",
+   "X Accuracy"
+  ],
+  "map": "LilycoveCity_DepartmentStore_3F"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_4F_EventScript_ClerkLeft_Stock",
+  "addr": 151393454,
+  "items": [
+   "TM38 Fire Blast",
+   "TM25 Thunder",
+   "TM14 Blizzard",
+   "TM15 Hyper Beam"
+  ],
+  "map": "LilycoveCity_DepartmentStore_4F"
+ },
+ {
+  "sym": "HoC1_LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight",
+  "list_sym": "HoC1_LilycoveCity_DepartmentStore_4F_EventScript_ClerkRight_Stock",
+  "addr": 151393492,
+  "items": [
+   "TM17 Protect",
+   "TM20 Safeguard",
+   "TM33 Reflect",
+   "TM16 Light Screen"
+  ],
+  "map": "LilycoveCity_DepartmentStore_4F"
+ },
+ {
+  "sym": "HoC1_SootopolisCity_Mart_EventScript_Clerk",
+  "list_sym": "HoC1_SootopolisCity_Mart_EventScript_Clerk_Stock",
+  "addr": 151393528,
+  "items": [
+   "Ultra Ball",
+   "Hyper Potion",
+   "Max Potion",
+   "Full Heal",
+   "Revive",
+   "Max Repel",
+   "Max Lure",
+   "X Attack",
+   "X Defend",
+   "Shadow Mail"
+  ],
+  "map": "SootopolisCity_Mart"
+ },
+ {
+  "sym": "HoC1_EverGrandeCity_PokemonLeague_1F_EventScript_Clerk",
+  "list_sym": "HoC1_EverGrandeCity_PokemonLeague_1F_EventScript_Clerk_Stock",
+  "addr": 151393576,
+  "items": [
+   "Ultra Ball",
+   "Hyper Potion",
+   "Max Potion",
+   "Full Restore",
+   "Full Heal",
+   "Revive",
+   "Max Repel",
+   "Max Lure"
+  ],
+  "map": "EverGrandeCity_PokemonLeague_1F"
+ },
+ {
+  "sym": "LavaridgeTown_HerbShop_EventScript_Clerk",
+  "list_sym": "LavaridgeTown_HerbShop_Pokemart",
+  "addr": 165759872,
+  "items": [
+   "Energypowder",
+   "Energy Root",
+   "Heal Powder",
+   "Revival Herb"
+  ],
+  "map": "GoldenrodCity_UndergroundTunnel_hns"
+ },
+ {
+  "sym": "LilycoveCity_DepartmentStore_3F_EventScript_ClerkLeft",
+  "list_sym": "LilycoveCity_DepartmentStore_3F_Pokemart_Vitamins",
+  "addr": 165825144,
+  "items": [
+   "Protein",
+   "Calcium",
+   "Iron",
+   "Zinc",
+   "Carbos",
+   "HP Up"
+  ],
+  "map": "CeladonCity_DepartmentStore_4F_hns"
+ },
+ {
+  "sym": "BattleFrontier_Mart_EventScript_Clerk",
+  "list_sym": "BattleFrontier_Mart_Pokemart",
+  "addr": 166043525,
+  "items": [
+   "Ultra Ball",
+   "Hyper Potion",
+   "Max Potion",
+   "Full Restore",
+   "Full Heal",
+   "Revive",
+   "Max Repel",
+   "Protein",
+   "Calcium",
+   "Iron",
+   "Zinc",
+   "Carbos",
+   "HP Up"
+  ],
+  "map": "IndigoPlateau_PokemonCenter_hns"
+ },
+ {
+  "sym": "SafariZoneGate_EventScript_IncenseClerk",
+  "list_sym": "SafariZoneGate_Pokemart_Incenses",
+  "addr": 166482227,
+  "items": [
+   "Sea Incense",
+   "Lax Incense"
+  ],
+  "map": "SafariZoneGate_hns"
+ },
+ {
+  "sym": "SafariZoneGate_EventScript_VitaminGuru",
+  "list_sym": "SafariZoneGate_Pokemart_VitaminGuru",
+  "addr": 166482296,
+  "items": [
+   "Protein",
+   "Iron",
+   "Carbos",
+   "Zinc",
+   "Calcium",
+   "HP Up"
+  ],
+  "map": "SafariZoneGate_hns"
+ },
+ {
+  "sym": "Cherrygrove_Pokemart_EventScript_Clerk",
+  "list_sym": "Cherrygrove_Pokemart_Pokemart",
+  "addr": 166588810,
+  "items": [
+   "Potion",
+   "Antidote"
+  ],
+  "map": "CherrygroveCity_Mart_hns"
+ },
+ {
+  "sym": "GoldenrodCity_FlowerShop_EventScript_MintClerk",
+  "list_sym": "GoldenrodCity_FlowerShop_Mints",
+  "addr": 166619517,
+  "items": [
+   "Serious Mint",
+   "Adamant Mint",
+   "Bold Mint",
+   "Brave Mint",
+   "Calm Mint",
+   "Careful Mint",
+   "Gentle Mint",
+   "Hasty Mint",
+   "Impish Mint",
+   "Jolly Mint",
+   "Lax Mint",
+   "Lonely Mint",
+   "Mild Mint",
+   "Modest Mint",
+   "Naive Mint",
+   "Naughty Mint",
+   "Quiet Mint",
+   "Rash Mint",
+   "Relaxed Mint",
+   "Sassy Mint",
+   "Timid Mint",
+   "Mirror Herb"
+  ],
+  "map": "GoldenrodCity_FlowerShop_hns"
+ },
+ {
+  "sym": "GoldenrodDeptStore2_EventScript_Clerk",
+  "list_sym": "GoldenrodDeptStore2_Pokemart",
+  "addr": 166645647,
+  "items": [
+   "Poke Ball",
+   "Great Ball",
+   "Ultra Ball",
+   "Fire Stone",
+   "Water Stone",
+   "Thunderstone",
+   "Leaf Stone",
+   "Potion",
+   "Super Potion",
+   "Hyper Potion",
+   "Max Potion",
+   "Revive",
+   "Antidote",
+   "Paralyze Heal",
+   "Burn Heal",
+   "Ice Heal",
+   "Awakening",
+   "Full Heal",
+   "Escape Rope",
+   "Repel",
+   "Super Repel",
+   "Max Repel"
+  ],
+  "map": "GoldenrodCity_DepartmentStore_2F_hns"
+ },
+ {
+  "sym": "GoldenrodDeptStore3_EventScript_Clerk",
+  "list_sym": "GoldenrodDeptStore3_Pokemart",
+  "addr": 166646620,
+  "items": [
+   "X Speed",
+   "X Special",
+   "X Attack",
+   "X Defend",
+   "Dire Hit",
+   "Guard Spec",
+   "X Accuracy"
+  ],
+  "map": "GoldenrodCity_DepartmentStore_3F_hns"
+ },
+ {
+  "sym": "GoldenrodDeptStore4_EventScript_Clerk",
+  "list_sym": "GoldenrodDeptStore4_Pokemart",
+  "addr": 166647109,
+  "items": [
+   "Protein",
+   "Calcium",
+   "Iron",
+   "Zinc",
+   "Carbos",
+   "HP Up"
+  ],
+  "map": "GoldenrodCity_DepartmentStore_4F_hns"
+ },
+ {
+  "sym": "GoldenrodDeptStore5_EventScript_Clerk",
+  "list_sym": "GoldenrodDeptStore5_Pokemart",
+  "addr": 166647815,
+  "items": [
+   "TM16 Light Screen",
+   "TM17 Protect",
+   "TM33 Reflect",
+   "TM83 Natural Gift",
+   "TM14 Blizzard",
+   "TM15 Hyper Beam",
+   "TM22 Solar Beam",
+   "TM25 Thunder",
+   "TM38 Fire Blast",
+   "TM52 Focus Blast"
+  ],
+  "map": "GoldenrodCity_DepartmentStore_5F_hns"
+ },
+ {
+  "sym": "CeladonDept3_EventScript_Clerk",
+  "list_sym": "CeladonDept3_Pokemart",
+  "addr": 166725210,
+  "items": [
+   "TM20 Safeguard",
+   "TM78 Captivate",
+   "TM76 Stealth Rock",
+   "TM55 Brine",
+   "TM72 Avalanche",
+   "TM79 Dark Pulse",
+   "TM74 Gyro Ball",
+   "TM85 Dream Eater",
+   "TM68 Giga Impact",
+   "TM58 Endure"
+  ],
+  "map": "CeladonCity_DepartmentStore_3F_hns"
+ },
+ {
+  "sym": "TrainerHill_Entrance_hns_EventScript_Clerk",
+  "list_sym": "TrainerHill_Entrance_hns_Pokemart_Basic",
+  "addr": 166768870,
+  "items": [
+   "X Speed",
+   "X Special",
+   "X Attack",
+   "X Defend",
+   "Dire Hit",
+   "Guard Spec",
+   "X Accuracy"
+  ],
+  "map": "TrainerHill_Entrance_hns"
+ },
+ {
+  "sym": "MtMoon_Shop_EventScript_Clerk",
+  "list_sym": "MtMoon_Shop_Pokemart",
+  "addr": 166802190,
+  "items": [
+   "Moon Stone",
+   "Poke Doll",
+   "Fresh Water",
+   "Soda Pop",
+   "Lemonade",
+   "Repel",
+   "Strange Souvenir"
+  ],
+  "map": "MtMoon_Shop_hns"
+ },
+ {
+  "sym": "BattleFrontier_Mart_EventScript_Clerk_hns",
+  "list_sym": "BattleFrontier_Mart_Pokemart_hns",
+  "addr": 167059650,
+  "items": [
+   "Ultra Ball",
+   "Hyper Potion",
+   "Max Potion",
+   "Full Restore",
+   "Full Heal",
+   "Revive",
+   "Max Repel",
+   "Protein",
+   "Calcium",
+   "Iron",
+   "Zinc",
+   "Carbos",
+   "HP Up"
+  ],
+  "map": "BattleFrontier_Mart_hns"
+ },
+ {
+  "sym": "NewSinjoh_Script_TravelMart",
+  "list_sym": "NewSinjoh_Pokemart_TravelShop",
+  "addr": 167063091,
+  "items": [
+   "Energy Root",
+   "Revival Herb",
+   "Heal Powder",
+   "Elixer",
+   "Max Repel",
+   "Max Lure",
+   "Great Ball",
+   "Ultra Ball"
+  ],
+  "map": "NewSinjoh_hns"
+ },
+ {
+  "sym": "NewSinjoh_Cafe_Script_Sister",
+  "list_sym": "NewSinjoh_Cafe_Pokemart_Resturant",
+  "addr": 167070785,
+  "items": [
+   "Yache Berry",
+   "Lansat Berry",
+   "Rowap Berry",
+   "Berry Juice",
+   "Soda Pop",
+   "Lava Cookie",
+   "Heal Powder",
+   "Leek",
+   "Big Root"
+  ],
+  "map": "NewSinjoh_House4_hns"
+ },
+ {
+  "sym": "Alola_Pokemart_EventScript_Clerk",
+  "list_sym": "Alola_Pokemart_Pokemart",
+  "addr": 167120022,
+  "items": [
+   "Big Malasada",
+   "Friend Ball",
+   "Net Ball",
+   "Wave Incense",
+   "Lemonade"
+  ],
+  "map": "Melemele_House_2_hns"
+ }
+]

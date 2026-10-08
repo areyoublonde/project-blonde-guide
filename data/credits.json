@@ -1,0 +1,338 @@
+[
+ {
+  "id": "project_blonde",
+  "heads": [
+   "POKéMON PROJECT BLONDE",
+   "Credits",
+   "PROJECT BLONDE",
+   "Project Direction"
+  ],
+  "names": [
+   "BLONDE"
+  ]
+ },
+ {
+  "id": "extension",
+  "heads": [
+   "An Extension of Pokémon Heart & Soul"
+  ],
+  "names": [
+   "LIL DILL and team"
+  ]
+ },
+ {
+  "id": "hns_title",
+  "heads": [
+   "POKéMON HEART & SOUL",
+   "Credits"
+  ],
+  "names": []
+ },
+ {
+  "id": "hns_director",
+  "heads": [
+   "Director",
+   "Lead Developer"
+  ],
+  "names": [
+   "LIL DILL"
+  ]
+ },
+ {
+  "id": "hns_developers",
+  "heads": [
+   "Developers"
+  ],
+  "names": [
+   "TixoRebel",
+   "InfiniteBacon42",
+   "Exclsior",
+   "Phantonomy",
+   "DaniRainbow",
+   "Resetes",
+   "Jozuno",
+   "leob0505",
+   "Skeletonkey36",
+   "MearaTheDigger",
+   "Grintoul"
+  ]
+ },
+ {
+  "id": "hns_sprites",
+  "heads": [
+   "Sprite Sources"
+  ],
+  "names": [
+   "Cesare CBass",
+   "AveonTrainer",
+   "PurpleZaffre",
+   "BatimaTheBat",
+   "ShinyDragonHunter",
+   "Tamamushi Erika",
+   "Beliot419",
+   "shiningstar5022",
+   "Nettorizo"
+  ]
+ },
+ {
+  "id": "hns_tilesets_a",
+  "heads": [
+   "Tileset Sources"
+  ],
+  "names": [
+   "Crystal advance - Kertra",
+   "Ekat99",
+   "TheDeadHeroAlistair",
+   "Johto Redrawn Team",
+   "zatavares852",
+   "lbsbezerra",
+   "WesleyFG",
+   "Kalarie"
+  ]
+ },
+ {
+  "id": "hns_maps",
+  "heads": [
+   "Map Sources"
+  ],
+  "names": [
+   "Crystal Advance - Kertra",
+   "Fire Gold - blackfragrant",
+   "SkidMarc25"
+  ]
+ },
+ {
+  "id": "hns_engine",
+  "heads": [
+   "Engine Sources"
+  ],
+  "names": [
+   "pokeemerald - Pret",
+   "Modern Emerald - Resetes12",
+   "Pokeemerald Expansion"
+  ]
+ },
+ {
+  "id": "hns_gameplay",
+  "heads": [
+   "Gameplay"
+  ],
+  "names": [
+   "Crystal Legacy - TSP",
+   "slawter666",
+   "wally-217",
+   "RavePossum"
+  ]
+ },
+ {
+  "id": "portrait_art",
+  "heads": [
+   "Dialogue Portrait Art"
+  ],
+  "names": [
+   "Slime",
+   "Wergan",
+   "CRMM"
+  ]
+ },
+ {
+  "id": "portrait_system",
+  "heads": [
+   "Dialogue Portrait System"
+  ],
+  "names": [
+   "Mudskip",
+   "Soul Gold - Eemeliri"
+  ]
+ },
+ {
+  "id": "additional_music",
+  "heads": [
+   "Additional Music Composers"
+  ],
+  "names": [
+   "Minako Adachi",
+   "Junichi Masuda",
+   "Hirokazu Tanaka"
+  ]
+ },
+ {
+  "id": "mega_followers",
+  "heads": [
+   "Mega Follower Sprites"
+  ],
+  "names": [
+   "Soul Gold - Eemeliri",
+   "DarkusShadow",
+   "HantomProductions",
+   "NeoFireSoul",
+   "princess-phoenix",
+   "larryturbo",
+   "kidkatt"
+  ]
+ },
+ {
+  "id": "ash_art",
+  "heads": [
+   "Additional Character Art"
+  ],
+  "names": [
+   "RichardPT",
+   "StreakOfSprites",
+   "Fersure4",
+   "TintjeMadelintje101"
+  ]
+ },
+ {
+  "id": "lillie_art",
+  "heads": [
+   "Additional Character Art"
+  ],
+  "names": [
+   "UlithiumDragon",
+   "Droid779",
+   "Kyledove"
+  ]
+ },
+ {
+  "id": "arrangement_sources",
+  "heads": [
+   "Music Arrangement Sources"
+  ],
+  "names": [
+   "-Meow-",
+   "Jose Villanueva",
+   "Jackson Wilking"
+  ]
+ },
+ {
+  "id": "engine_rhh",
+  "heads": [
+   "Engine & Systems"
+  ],
+  "names": [
+   "pokeemerald-expansion",
+   "RHH and contributors",
+   "Complete FireRed Upgrade - Skeli789"
+  ]
+ },
+ {
+  "id": "recharged",
+  "heads": [
+   "Hoenn Adapted From"
+  ],
+  "names": [
+   "Recharged Emerald v2.2.7",
+   "by Jaizu"
+  ]
+ },
+ {
+  "id": "recharged_contributors",
+  "heads": [
+   "Recharged Emerald"
+  ],
+  "names": [
+   "and its contributors"
+  ]
+ },
+ {
+  "id": "emerald_title",
+  "heads": [
+   "POKéMON EMERALD VERSION",
+   "Credits"
+  ],
+  "names": []
+ },
+ {
+  "id": "emerald_a",
+  "heads": [
+   "POKéDEX Text",
+   "Environment & Tool Programmers",
+   "POKéMON Designers"
+  ],
+  "names": [
+   "Kenji Matsushima",
+   "Hisashi Sogabe",
+   "Sosuke Tamada",
+   "Hiroyuki Nakamura",
+   "Akito Mori",
+   "Ken Sugimori",
+   "Motofumi Fujiwara",
+   "Shigeki Morimoto",
+   "Hironobu Yoshida",
+   "Satoshi Ohta",
+   "Asuka Iwashita",
+   "Takao Unno",
+   "Kanako Eo",
+   "Aimi Tomita",
+   "Atsuko Nishida",
+   "Muneo Saito",
+   "Rena Yoshikawa",
+   "Jun Okutani"
+  ]
+ },
+ {
+  "id": "emerald_b",
+  "heads": [
+   "Support Programmers",
+   "Package & Manual Illustration",
+   "English Version Coordinators",
+   "Programmers",
+   "Graphic Designer",
+   "Environment & Tool Programmers"
+  ],
+  "names": [
+   "Satoshi Mitsuhara",
+   "Daisuke Hoshino",
+   "Ken Sugimori",
+   "Hiro Nakamura",
+   "Seth McMahill",
+   "Teruki Murakawa",
+   "Souichi Yamamoto",
+   "Yuichiro Ito",
+   "Akira Kinashi",
+   "Akira Kinashi",
+   "Teruki Murakawa",
+   "Souichi Yamamoto",
+   "Kimiko Nakamichi"
+  ]
+ },
+ {
+  "id": "emerald_b2",
+  "heads": [
+   "NOA Product Testing"
+  ],
+  "names": [
+   "Thomas Hertzog",
+   "Erik Johnson",
+   "Mika Kurosawa"
+  ]
+ },
+ {
+  "id": "emerald_c",
+  "heads": [
+   "Task Managers",
+   "Producers",
+   "Executive Director",
+   "Executive Producers"
+  ],
+  "names": [
+   "Azusa Tajima",
+   "Shusaku Egami",
+   "Hiroyuki Jinnai",
+   "Hitoshi Yamagami",
+   "Gakuji Nomoto",
+   "Hiroaki Tsuru",
+   "Satoshi Tajiri",
+   "Satoru Iwata",
+   "Tsunekaz Ishihara"
+  ]
+ },
+ {
+  "id": "thank_you",
+  "heads": [
+   "Thank You for Playing"
+  ],
+  "names": []
+ }
+]

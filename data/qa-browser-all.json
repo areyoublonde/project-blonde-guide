@@ -1,0 +1,6 @@
+{
+ "routes": 1883,
+ "failed": 0,
+ "failures": [],
+ "note": "One page (/world/far/sinjoh-ruins/, 6 px sideways scroll from a long encounter row) failed the first full sweep; fixed in app.css and re-checked with four neighbouring pages."
+}

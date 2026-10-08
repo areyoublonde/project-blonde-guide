@@ -1,0 +1,315 @@
+{
+ "title": "Project Blonde Guide",
+ "tagline": "Three regions. One journey.",
+ "nav": [
+  {
+   "label": "Walkthrough",
+   "href": "/walkthrough/"
+  },
+  {
+   "label": "World",
+   "href": "/world/"
+  },
+  {
+   "label": "Pokémon",
+   "href": "/pokemon/"
+  },
+  {
+   "label": "Trainers",
+   "href": "/trainers/"
+  }
+ ],
+ "stuck": [
+  {
+   "id": "relearn-moves",
+   "q": "How do I relearn moves?",
+   "tags": "move relearner remember forgot moves summary start relearn",
+   "a": "Open a Pokémon’s <b>Summary</b>, go to the <b>Battle Moves</b> page and press <b>START</b>. It is free and works anywhere.",
+   "link": [
+    "/features/start-relearn/",
+    "START Relearn"
+   ]
+  },
+  {
+   "id": "mega-evolution",
+   "q": "How do I use Mega Evolution?",
+   "tags": "mega evolution ring stone start aide elm",
+   "a": "Get the <b>Mega Ring</b> from Professor Oak on Radio Tower 5F, collect a stone for free from the aide in Elm’s lab, give it to the matching Pokémon, then in battle open FIGHT and press <b>START</b> before choosing a move.",
+   "link": [
+    "/items/mega-stones/",
+    "Mega Stones"
+   ]
+  },
+  {
+   "id": "hm-teach",
+   "q": "Do I have to teach HM moves?",
+   "tags": "hm cut surf strength rock smash waterfall bag field move teach",
+   "a": "No. With the HM in your Bag, press A on the obstacle. Surf and Fly appear in the party menu.",
+   "link": [
+    "/features/shared-hms/",
+    "HMs: shared and bag-based"
+   ]
+  },
+  {
+   "id": "exp-share",
+   "q": "Where is the Exp. Share?",
+   "tags": "exp share experience key item whole party",
+   "a": "In your <b>Key Items</b> from the start. Use it to switch it on; it begins off.",
+   "link": [
+    "/features/exp-share/",
+    "Exp. Share"
+   ]
+  },
+  {
+   "id": "trade-evo",
+   "q": "How do I evolve trade Pokémon without trading?",
+   "tags": "trade evolution machoke graveler haunter kadabra linking cord",
+   "a": "Every trade evolution has a second method: a level, using the held item directly, or a Linking Cord. The Pokémon’s page lists it.",
+   "link": [
+    "/features/evolution-methods/",
+    "Trade evolutions"
+   ]
+  },
+  {
+   "id": "lost-progress",
+   "q": "I updated the game and my save is gone",
+   "tags": "update save lost progress version new rom",
+   "a": "Your save lives in a separate <b>.sav</b> file. Give the new game file the same name as the old one, or import the save in your emulator.",
+   "link": [
+    "/play/#update",
+    "Updating without losing progress"
+   ]
+  }
+ ],
+ "checklist": [
+  {
+   "id": "johto",
+   "title": "Johto",
+   "items": [
+    [
+     "badge-zephyr",
+     "Zephyr Badge — Falkner"
+    ],
+    [
+     "badge-hive",
+     "Hive Badge — Bugsy"
+    ],
+    [
+     "badge-plain",
+     "Plain Badge — Whitney"
+    ],
+    [
+     "badge-fog",
+     "Fog Badge — Morty"
+    ],
+    [
+     "badge-storm",
+     "Storm Badge — Chuck"
+    ],
+    [
+     "badge-mineral",
+     "Mineral Badge — Jasmine"
+    ],
+    [
+     "badge-glacier",
+     "Glacier Badge — Pryce"
+    ],
+    [
+     "badge-rising",
+     "Rising Badge — Clair"
+    ],
+    [
+     "ms-surf",
+     "HM03 Surf from the Dance Theater"
+    ],
+    [
+     "ms-radio-tower",
+     "Radio Tower cleared, Mega Ring received"
+    ],
+    [
+     "ms-ho-oh",
+     "Kimono Girls and the Tin Tower",
+     true
+    ],
+    [
+     "ms-johto-league",
+     "Johto League Champion",
+     true
+    ]
+   ]
+  },
+  {
+   "id": "kanto",
+   "title": "Kanto",
+   "items": [
+    [
+     "badge-thunder",
+     "Thunder Badge — Lt. Surge"
+    ],
+    [
+     "badge-marsh",
+     "Marsh Badge — Sabrina"
+    ],
+    [
+     "badge-cascade",
+     "Cascade Badge — Misty"
+    ],
+    [
+     "badge-boulder",
+     "Boulder Badge — Brock"
+    ],
+    [
+     "badge-rainbow",
+     "Rainbow Badge — Erika"
+    ],
+    [
+     "badge-soul",
+     "Soul Badge — Janine"
+    ],
+    [
+     "badge-volcano",
+     "Volcano Badge — Blaine"
+    ],
+    [
+     "badge-earth",
+     "Earth Badge — Blue"
+    ],
+    [
+     "ms-snorlax",
+     "Snorlax woken in Vermilion"
+    ],
+    [
+     "ms-kanto-league",
+     "Kanto League Champion",
+     true
+    ],
+    [
+     "ms-red",
+     "Red defeated on Mt. Silver",
+     true
+    ],
+    [
+     "ms-ash",
+     "Ash’s story finished",
+     true
+    ]
+   ]
+  },
+  {
+   "id": "hoenn",
+   "title": "Hoenn",
+   "items": [
+    [
+     "badge-stone",
+     "Stone Badge — Roxanne"
+    ],
+    [
+     "badge-knuckle",
+     "Knuckle Badge — Brawly"
+    ],
+    [
+     "badge-dynamo",
+     "Dynamo Badge — Wattson"
+    ],
+    [
+     "badge-heat",
+     "Heat Badge — Flannery"
+    ],
+    [
+     "badge-balance",
+     "Balance Badge — Norman"
+    ],
+    [
+     "badge-feather",
+     "Feather Badge — Winona"
+    ],
+    [
+     "badge-mind",
+     "Mind Badge — Tate & Liza"
+    ],
+    [
+     "badge-rain",
+     "Rain Badge — Juan",
+     true
+    ],
+    [
+     "ms-hoenn-arrival",
+     "Arrived in Littleroot Town",
+     true
+    ],
+    [
+     "ms-dive",
+     "HM09 Dive from Steven"
+    ],
+    [
+     "ms-crisis",
+     "Weather crisis ended",
+     true
+    ],
+    [
+     "ms-hoenn-league",
+     "Hoenn League Champion",
+     true
+    ]
+   ]
+  },
+  {
+   "id": "postgame",
+   "title": "Postgame",
+   "items": [
+    [
+     "pg-truck",
+     "Rode the truck back to Pallet Town"
+    ],
+    [
+     "pg-hoenn-rematches",
+     "All eight Hoenn Gym rematches"
+    ],
+    [
+     "pg-tidal",
+     "Sailed on the S.S. Tidal"
+    ],
+    [
+     "pg-steven",
+     "Champion Steven defeated",
+     true
+    ],
+    [
+     "pg-wally",
+     "Wally’s final battle",
+     true
+    ],
+    [
+     "pg-johto-rematches",
+     "Johto Leader rematches"
+    ],
+    [
+     "pg-link",
+     "Traded or battled over a link cable"
+    ]
+   ]
+  }
+ ],
+ "more": [
+  {
+   "label": "Items",
+   "href": "/items/"
+  },
+  {
+   "label": "Mega Stones",
+   "href": "/items/mega-stones/"
+  },
+  {
+   "label": "Features",
+   "href": "/features/"
+  },
+  {
+   "label": "My progress",
+   "href": "/progress/"
+  },
+  {
+   "label": "About",
+   "href": "/about/"
+  }
+ ]
+}

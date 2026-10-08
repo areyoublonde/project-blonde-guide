@@ -1,0 +1,499 @@
+[
+ {
+  "id": "start-relearn",
+  "title": "START Relearn",
+  "blurb": "Relearn any level-up move from the Summary screen, anywhere, for free.",
+  "basis": "played",
+  "what": "A move relearner built into every Pokémon’s Summary. It lists the level-up moves that Pokémon has forgotten or skipped and teaches one on the spot.",
+  "how": [
+   "Open your party and choose a Pokémon’s <b>Summary</b>.",
+   "Go to the <b>Battle Moves</b> page. A red hint reads <b>START RELEARN</b>.",
+   "Press <b>START</b>. A list titled ‘Teach which move to …?’ appears, in learnset order.",
+   "Pick a move, then choose which current move to replace. Cancel asks whether to give up."
+  ],
+  "when": "From the start of the game. It was used with a Level 20 Quilava before the first Gym in the playthrough.",
+  "limits": "Level-up moves only: it does not teach TM, Egg or tutor moves. It costs nothing and needs no item. Relearned moves persist through a save and restart.",
+  "more": [
+   "It is the main tool for the mid-game difficulty spikes. Before Jasmine, the playthrough relearned Eruption and Double-Edge on Typhlosion, Magnitude on Graveler, Bounce on Gyarados, Wood Hammer on Sudowoodo and Knock Off on Machoke in one sitting.",
+   "Rayquaza’s Dragon Ascent, which it needs to Mega Evolve, is taught the same way."
+  ],
+  "ev": "natural-run-v100 trace 29, 79, 112; accepted in v92"
+ },
+ {
+  "id": "exp-share",
+  "title": "Exp. Share",
+  "blurb": "A Key Item you own from the first minute. Switch it on to train the whole party.",
+  "basis": "played",
+  "what": "The modern, whole-party Exp. Share. It sits in your Key Items pocket from the start of a new game.",
+  "how": [
+   "Open the <b>Bag</b> and go to <b>Key Items</b>.",
+   "Use the <b>Exp. Share</b>. The message reads ‘The Exp. Share has been turned on.’",
+   "Use it again to switch it off."
+  ],
+  "when": "Immediately. It is in your Bag before you leave your room, and it starts switched <b>off</b>.",
+  "limits": "It is a toggle, not a held item. A separate held item, the Exp. Share S, is given with the egg in Violet City.",
+  "more": [],
+  "ev": "natural-run-v100 trace 27; website notes ‘Early systems’"
+ },
+ {
+  "id": "mega-evolution",
+  "title": "Mega Evolution",
+  "blurb": "Get the Mega Ring from Professor Oak, then collect stones for free from Elm’s aide.",
+  "basis": "played",
+  "what": "A once-per-battle transformation for Pokémon holding their matching Mega Stone. In Project Blonde the Ring is a story reward and the stones are handed out by an aide in New Bark Town.",
+  "how": [
+   "Earn the <b>Mega Ring</b>: after you beat Archer on the top floor of Goldenrod’s Radio Tower, Professor Oak arrives and gives it to you.",
+   "Go to Professor Elm’s lab in New Bark Town and talk to the <b>aide on the right</b>. She offers Mega Stones free of charge once you hold the Ring.",
+   "Choose <b>Kanto Stones</b>, <b>Johto Stones</b> or <b>Hoenn Stones</b>, pick a Pokémon’s name and confirm. One of each stone.",
+   "Give the stone to the matching Pokémon to <b>hold</b>.",
+   "In battle open <b>FIGHT</b>, press <b>START</b>, then choose your move."
+  ],
+  "when": "After the Radio Tower chapter in Johto, which begins once you have seven Badges. The aide says nothing about stones until you own the Ring.",
+  "limits": "One Mega Evolution per battle. The stone is not used up. All Mega forms return to normal when the battle ends. Rayquaza uses the move Dragon Ascent instead of a stone.",
+  "more": [
+   "A Mega Stone also boosts moves of the holder’s <b>first type</b> by 20%, before and after Mega Evolving. That text is the aide’s own explanation in the game.",
+   "Opponents use it too: Lance’s Dragonite in the first League run, every member of the Kanto League rematch, Red, Ash, and every Hoenn Gym Leader, Elite Four member and Champion.",
+   "Mega Evolution works for both players over a link cable when both run the same Project Blonde version."
+  ],
+  "links": [
+   [
+    "/items/mega-stones/",
+    "All Mega Stones and where to get them"
+   ]
+  ],
+  "ev": "natural-run-v100 trace 94, 101; data/scripts/hns_mega.inc (aide dialogue)"
+ },
+ {
+  "id": "shared-hms",
+  "title": "HMs: shared and bag-based",
+  "blurb": "An HM in your Bag is enough to use its field move, in every region.",
+  "basis": "played",
+  "what": "Project Blonde keeps one set of HMs for all three regions and lets you use their field effects from the Bag, without teaching the move.",
+  "how": [
+   "Carry the HM in your <b>TMs &amp; HMs</b> pocket.",
+   "Face the obstacle (a small tree, a boulder, a rock, a waterfall, a whirlpool) and press <b>A</b>.",
+   "For Surf and Fly, open the party menu: the entries appear for a Pokémon that could learn the move."
+  ],
+  "when": "Each HM as you receive it: Flash (Sprout Tower), Cut (Ilex Forest), Surf (Ecruteak Dance Theater), Strength (Olivine Café), Fly (Chuck’s wife, Cianwood), Whirlpool (Rocket Hideout), Waterfall (Ice Path), Rock Smash (Route 36, or Mauville City in Hoenn), Dive (Steven’s house, Mossdeep).",
+  "limits": "Dive is <b>HM09</b>; HM08 is Whirlpool. No Hoenn Badge gates an HM you already own: Surf works from arrival, Fly as soon as you have visited a town. Up to v103 the Hoenn Leaders’ badge speeches still promised HM permissions and obedience levels from the original game; v104 rewrote them.",
+  "more": [
+   "Where Hoenn’s story would hand you an HM you already own, you receive something else: a Linking Cord and Rare Candy on Route 119 (Fly), a Rare Candy from Wally’s father (Surf) and from Wallace (Waterfall).",
+   "HM moves are not permanent. They can be overwritten like any other move.",
+   "<b>Fixed in v102:</b> in v100 and v101, Hoenn’s breakable rocks only responded if you had been given Rock Smash on Johto’s Route 36. From v102 the Mauville HM06 in your Bag works on its own."
+  ],
+  "ev": "natural-run-v100 issues D-3; natural-run-v102 website notes ‘HMs in Hoenn’; BLOCKER-002"
+ },
+ {
+  "id": "pokedex-area",
+  "title": "Pokédex AREA & regional forms",
+  "blurb": "Two area maps, a Forms viewer, and regional forms tracked as their own entries.",
+  "basis": "accepted",
+  "what": "The Pokédex’s AREA page shows where a species lives on two maps, and regional forms such as Alolan Vulpix are recorded separately from the original species.",
+  "how": [
+   "Open a seen species in the Pokédex and go to <b>AREA</b>.",
+   "Press <b>L</b> or <b>R</b> to switch between the <b>Johto &amp; Kanto</b> map (which also carries the Alola isles and Sinjoh) and the <b>Hoenn</b> map.",
+   "On a species’ INFO page, press <b>START</b> to open the <b>Forms</b> viewer when the hint START FORMS is shown.",
+   "On the list screen, the red <b>START</b> button labelled FORMS does the same for the highlighted species."
+  ],
+  "when": "With the Pokédex. The Forms hint appears only when another regional form of that species has been discovered.",
+  "limits": "Regional forms you have not seen stay hidden. AREA follows the form you are viewing and the time of day; where a place has no table for the current time, the daytime table is shown. Mega forms, Unown, Castform, Pikachu’s costumes, Deoxys and Arceus are not part of the Forms viewer.",
+  "more": [
+   "A regional form has its own Pokédex number and its own seen and caught marks. The list collapses a family into one row for display: the original species if you have seen it, otherwise the first form you found.",
+   "The Poké Ball icon on a family row lights when any form in it has been caught."
+  ],
+  "ev": "Owner-accepted in v100 (builds v96–v100). Not opened during the natural run’s Hoenn leg."
+ },
+ {
+  "id": "day-night",
+  "title": "Day & Night",
+  "blurb": "Encounter tables change with the clock. Every table in this guide is split by time.",
+  "basis": "data",
+  "what": "The game runs on a real-time clock with four periods: morning, day, evening and night. Wild encounter tables, some map layouts and some events depend on it.",
+  "how": [
+   "Set the clock in your room at the start (the confirmation defaults to No).",
+   "Change it later at any Pokémon Center without penalty.",
+   "Use the time switch on any encounter table in this guide to see what appears when."
+  ],
+  "when": "Always. A ‘Fake RTC’ option in the Features settings makes one real hour equal one in-game day.",
+  "limits": "Many Johto and Kanto areas have only day and night tables; Hoenn areas carry all four.",
+  "more": [
+   "Mt. Silver’s summit and the Tin Tower’s roof have separate day and night maps."
+  ],
+  "ev": "ROM gWildMonHeaders (four tables per header); natural-run-v100 notes"
+ },
+ {
+  "id": "followers",
+  "title": "Following Pokémon",
+  "blurb": "The first Pokémon in your party walks behind you.",
+  "basis": "played",
+  "what": "Your lead Pokémon follows you on the map from the moment you receive your partner.",
+  "how": [
+   "Put the Pokémon you want to see at the front of your party."
+  ],
+  "when": "From Elm’s lab onward.",
+  "limits": "The follower is hidden during some scenes and during the truck ride between Pallet Town and Littleroot, and returns afterwards.",
+  "more": [],
+  "ev": "natural-run-v100 trace 9, 13; natural-run-v102 trace 181, 210"
+ },
+ {
+  "id": "game-options",
+  "title": "Game options",
+  "blurb": "Movepool, physical / special split, Fairy type, reusable TMs and more, chosen at the start.",
+  "basis": "data",
+  "what": "The first two tabs of the settings menu shown after you name your character: MODE and FEATURES. Recommended gives the modern rules in one press; Custom lets you choose each one.",
+  "how": [
+   "On a new game the menu opens after the naming screen. <b>L / R</b> change tab; <b>R</b> on the last tab saves.",
+   "Later, change settings from any <b>PC</b>."
+  ],
+  "when": "At the start of a new game, and afterwards from a PC.",
+  "limits": "Mode and Features settings can be changed freely. Randomizer, Nuzlocke, Difficulty and Challenge settings can only be made easier after the game has started.",
+  "table": [
+   [
+    "Pokémon movepool",
+    "Gen 3 learnsets, or Gen 7 learnsets with minor changes"
+   ],
+   [
+    "Physical / special split",
+    "By type as in Gen 3, or per move"
+   ],
+   [
+    "Add Fairy type",
+    "Off, or as in Gen 6"
+   ],
+   [
+    "Reusable TMs",
+    "Single-use, or reusable"
+   ],
+   [
+    "Sturdy",
+    "Gen 3 behaviour, or survive a lethal hit at 1 HP"
+   ],
+   [
+    "Sitrus Berry",
+    "30 HP, or 25% of maximum HP"
+   ],
+   [
+    "Synchronize",
+    "50% or 100% chance to pass on nature"
+   ],
+   [
+    "Legendary abilities",
+    "Keep Pressure, or a replacement ability"
+   ],
+   [
+    "Nature Mints",
+    "Postgame only, or sold at Goldenrod’s Flower Shop after the 3rd Badge"
+   ],
+   [
+    "Survive poison",
+    "Faint, or survive at 1 HP outside battle"
+   ],
+   [
+    "Recharge moves",
+    "Always recharge, or skip the recharge after a knockout"
+   ],
+   [
+    "Clock type",
+    "Real-time clock, or fake clock (1 real hour = 1 day)"
+   ],
+   [
+    "Shiny chance",
+    "1 in 8192, 4096, 2048, 1024 or 512"
+   ],
+   [
+    "Alternative shiny colours",
+    "Original palettes, or new ones for some species"
+   ],
+   [
+    "Item drop",
+    "Held items by capture or Thief only, or dropped on defeat"
+   ],
+   [
+    "Frontier bans",
+    "Legendaries banned, or allowed"
+   ]
+  ],
+  "more": [],
+  "ev": "src/challenge_menu.c option text; natural-run-v100 notes ‘New game / intro’"
+ },
+ {
+  "id": "difficulty",
+  "title": "Difficulty & challenges",
+  "blurb": "Level caps, experience rate, item bans, IV and EV scaling, and stricter rules.",
+  "basis": "data",
+  "what": "The DIFFICULTY and CHALLENGES tabs of the settings menu. The Recommended preset uses no level cap, normal experience and Pokémon Centers on.",
+  "how": [
+   "Set them at the start of a new game.",
+   "After the game has begun they can be relaxed from a PC, never tightened."
+  ],
+  "when": "New game.",
+  "limits": "A party limit of 1 has visual bugs in Double Battles, by the game’s own description.",
+  "table": [
+   [
+    "Party limit",
+    "Fewer than six Pokémon"
+   ],
+   [
+    "Level cap",
+    "None, or tied to the next Gym’s highest or lowest level"
+   ],
+   [
+    "Exp. multiplier",
+    "×1, ×1.5, ×2 or ×0"
+   ],
+   [
+    "Player items / Trainer items",
+    "Battle items allowed or banned for each side"
+   ],
+   [
+    "Player IVs / EVs",
+    "Normal, maximum IVs, or no EV gain"
+   ],
+   [
+    "Trainer IVs / EVs",
+    "Normal, scaling with Badges, or perfect"
+   ],
+   [
+    "Less escapes",
+    "Fleeing wild battles is harder"
+   ],
+   [
+    "Escape Rope / Dig",
+    "Allowed or disabled for leaving dungeons"
+   ],
+   [
+    "Pokémon Centers",
+    "Usable, or no healing spots at all"
+   ],
+   [
+    "Prices",
+    "×1, ×5, ×10 or ×50"
+   ],
+   [
+    "Evolution limit",
+    "Normal, first evolution only, or none"
+   ]
+  ],
+  "more": [
+   "Even on the default settings the game is harder than its originals: the Johto Elite Four sit at Level 48–56 with held items and Full Restores, and Hoenn’s routes start at Level 80."
+  ],
+  "ev": "src/challenge_menu.c option text"
+ },
+ {
+  "id": "nuzlocke",
+  "title": "Nuzlocke mode",
+  "blurb": "Built-in Nuzlocke rules with dupes, shiny and nickname clauses.",
+  "basis": "data",
+  "what": "An optional rule set enforced by the game itself.",
+  "how": [
+   "Choose a mode on the NUZLOCKE tab at the start: Off, Easy, Normal or Hard.",
+   "Set the clauses below it."
+  ],
+  "when": "New game only. It can be switched to an easier mode later, not a harder one.",
+  "limits": "<b>Hard</b> deletes your save when you lose a battle.",
+  "table": [
+   [
+    "Easy",
+    "Fainted Pokémon cannot be used again. No other rule."
+   ],
+   [
+    "Normal",
+    "One catch per route, and fainted Pokémon cannot be used again."
+   ],
+   [
+    "Hard",
+    "Normal rules, and the save is deleted on a battle loss."
+   ],
+   [
+    "Dupes clause",
+    "Only species you have not caught count as a first encounter (recommended)"
+   ],
+   [
+    "Shiny clause",
+    "Shiny Pokémon can always be caught (recommended)"
+   ],
+   [
+    "Nicknames",
+    "Forced, or optional"
+   ],
+   [
+    "Fainting",
+    "Fainted Pokémon go to a PC ‘cemetery’, or are released"
+   ],
+   [
+    "Infinite Rare Candy",
+    "Available in your PC from the start, or not"
+   ]
+  ],
+  "more": [
+   "A loss in a link battle does not trigger the Hard-mode deletion."
+  ],
+  "ev": "src/challenge_menu.c option text; link Stage 2 notes"
+ },
+ {
+  "id": "randomizer",
+  "title": "Randomizer",
+  "blurb": "Randomise starters, wild Pokémon, Trainers, types, moves, abilities, evolutions and items.",
+  "basis": "data",
+  "what": "A built-in randomizer on the RANDOMIZER tab of the settings menu. It is off in the Recommended preset.",
+  "how": [
+   "Switch <b>Randomizer</b> on at the start of a new game.",
+   "Choose what to randomise from the list below."
+  ],
+  "when": "New game only.",
+  "limits": "With the randomizer on, the encounter tables, Trainer teams and item locations in this guide no longer describe your game. Randomised type effectiveness is marked by the game itself as potentially buggy.",
+  "table": [
+   [
+    "Starter Pokémon",
+    "Standard or random"
+   ],
+   [
+    "Wild Pokémon",
+    "Standard or random; ‘Map seeded’ keeps each area consistent"
+   ],
+   [
+    "Trainers",
+    "Standard or random parties"
+   ],
+   [
+    "Static Pokémon",
+    "Named, gift and roaming Pokémon can be kept or randomised"
+   ],
+   [
+    "Balancing",
+    "Replace with similar evolution stages, or anything"
+   ],
+   [
+    "Legendaries",
+    "Included or excluded"
+   ],
+   [
+    "Generation scope",
+    "Gen 1–9, or Gen 1–3 with their later evolutions"
+   ],
+   [
+    "Types, moves, abilities",
+    "Each can be randomised"
+   ],
+   [
+    "Evolutions and evolution lines",
+    "Each can be randomised"
+   ],
+   [
+    "Type effectiveness",
+    "Can be randomised"
+   ],
+   [
+    "Items",
+    "Found, hidden and received items; Key Items excluded"
+   ],
+   [
+    "Chaos mode",
+    "Makes every chosen option more extreme"
+   ]
+  ],
+  "more": [],
+  "ev": "src/challenge_menu.c option text"
+ },
+ {
+  "id": "evolution-methods",
+  "title": "Trade evolutions without trading",
+  "blurb": "Every trade evolution has a second method you can do alone.",
+  "basis": "data",
+  "what": "Pokémon that evolve by trade in the original games keep that method and gain another: a level, an item used directly, or the Linking Cord.",
+  "how": [
+   "Check the Pokémon’s page in this guide: its Family section lists every method the game accepts.",
+   "For held-item trade evolutions, <b>use</b> the item on the Pokémon instead.",
+   "Level-based ones simply evolve when they reach the level."
+  ],
+  "when": "Always.",
+  "limits": "Trading still works and still evolves them.",
+  "auto": "trade-evos",
+  "more": [
+   "In the playthrough, Machoke became Machamp at Level 38 and Graveler became Golem at Level 39 with no trade.",
+   "A <b>Linking Cord</b> is given by your rival on Hoenn’s Route 119."
+  ],
+  "ev": "ROM gSpeciesInfo evolution tables; natural-run-v100 issue D-2"
+ },
+ {
+  "id": "link-play",
+  "title": "Link Play",
+  "blurb": "Trading and battling between two copies of Project Blonde over a link cable.",
+  "basis": "played",
+  "what": "Cable-link trading and battling between two Project Blonde games that report the same link version, <b>PB-LINK-0001</b>.",
+  "how": [
+   "Both players go to the upper floor counter of a Pokémon Center; the playthrough used <b>Goldenrod City</b>’s.",
+   "Talk to the link receptionist and choose <b>Trade</b>, <b>Single Battle</b> or <b>Double Battle</b>.",
+   "The game saves before linking."
+  ],
+  "when": "The playthrough tested it after the Hoenn League.",
+  "limits": "Only Project Blonde to Project Blonde with the same link version. Other games and mismatched versions are refused before the Trainer Cards appear. <b>Record Mixing and the Union Room are not supported.</b> Battles need both players to have matching battle options; trades do not.",
+  "table": [
+   [
+    "Trading",
+    "Works. Tested between two copies of v102."
+   ],
+   [
+    "Trade evolution",
+    "Supported by the build; not exercised in the playthrough’s smoke test."
+   ],
+   [
+    "Single Battle",
+    "Works. Tested to the end of a battle."
+   ],
+   [
+    "Double Battle",
+    "Works. Tested to the end of a battle."
+   ],
+   [
+    "Mega Evolution for both players",
+    "Supported by the build (verified in its own acceptance tests); not run in the playthrough’s smoke test."
+   ],
+   [
+    "Record Mixing, Union Room",
+    "Not supported."
+   ]
+  ],
+  "more": [
+   "<b>What you need:</b> two devices or two emulator windows that emulate the Game Boy Advance link cable between them. The tests above ran on two linked mGBA cores. This guide has <b>not</b> verified a link setup on Delta, on Android emulators, or over the internet, and does not claim they work.",
+   "Save both games before linking, and keep a backup of both save files the first time you try."
+  ],
+  "links": [
+   [
+    "/play/#link",
+    "Link Play on the Play page"
+   ]
+  ],
+  "ev": "natural-run-v102/link-smoke/LINK-SMOKE.md; builds v93–v94"
+ },
+ {
+  "id": "travel",
+  "title": "Trucks & ferries",
+  "blurb": "How to move between Johto, Kanto and Hoenn.",
+  "basis": "played",
+  "what": "Three links join the regions: the S.S. Aqua (Olivine ⇄ Vermilion), Professor Birch’s truck (Pallet Town ⇄ Littleroot Town) and, inside Hoenn, the S.S. Tidal (Slateport ⇄ Lilycove).",
+  "how": [
+   "<b>Truck:</b> stand below the rear door at the truck’s east end, face up and press A.",
+   "<b>S.S. Aqua:</b> show the S.S. Ticket to the sailor in Olivine’s or Vermilion’s port.",
+   "<b>S.S. Tidal:</b> show the Ticket to the sailor in Slateport or Lilycove Harbor, then rest in the bed in cabin No. 2 to arrive."
+  ],
+  "when": "S.S. Aqua after the Johto League; the truck after Ash’s story; the S.S. Tidal after the Hoenn League.",
+  "limits": "Fly only reaches towns in the region you are standing in. The truck’s body gives no prompt, only its rear door.",
+  "more": [],
+  "ev": "natural-run-v100 trace 118–119; natural-run-v101 trace 163; natural-run-v102 trace 209–210"
+ },
+ {
+  "id": "dexnav",
+  "title": "DexNav",
+  "blurb": "Present in the START menu; not exercised in the playthrough.",
+  "basis": "source",
+  "what": "The game’s source enables DexNav and adds it to the START menu once you own a Pokémon.",
+  "how": [
+   "Open the <b>START</b> menu and choose <b>DexNav</b>."
+  ],
+  "when": "According to the source, as soon as you have your first Pokémon.",
+  "limits": "The natural playthrough never opened it, so this guide does not describe its search or chaining behaviour in Project Blonde.",
+  "more": [],
+  "ev": "include/config/dexnav.h (DEXNAV_ENABLED, DN_FLAG_DEXNAV_GET = FLAG_SYS_POKEMON_GET); src/start_menu.c"
+ }
+]

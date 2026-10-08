@@ -1,0 +1,77 @@
+{
+ "_about": "Single source for everything release-related. The download stays disabled until the owner sets `download.url` to a legitimate release artifact and chooses a distribution method. No URL, checksum or public version is invented here.",
+ "distribution": {
+  "method": "undecided",
+  "notes": {
+   "direct": "One file. Download it and open it in your emulator.",
+   "patch": "A patch file applied to your own legally obtained copy of the base game.",
+   "undecided": "Not announced. How Project Blonde will be distributed has not been decided."
+  }
+ },
+ "notice": "No game file is distributed from this site. The download opens only when a public release has been announced. Your progress lives in a separate save file, so a later update never means starting again.",
+ "current": "1.0-rc",
+ "releases": [
+  {
+   "version": "1.0-rc",
+   "status": "candidate",
+   "status_label": "release candidate, not yet owner-verified and not a public release",
+   "date": null,
+   "file": {
+    "type": "Game Boy Advance game (.gba)",
+    "size": "32 MB",
+    "name": null
+   },
+   "sha256": null,
+   "download": {
+    "url": null
+   },
+   "save_compatibility": "Saves carry forward by ordinary Continue. Tested across v100 → v101 → v102 in the full playthrough, and both ways between v103, v104 and v105.",
+   "link_protocol": "PB-LINK-0001",
+   "notes": [
+    "Public version <b>v1.0 release candidate</b>, internal build v105. The title screen shows v1.0.",
+    "It is a candidate: the owner has not yet verified it or announced a public release, and no download exists.",
+    "The walkthrough was played to the end on builds v100 to v102. Builds v103 to v105 change three small scripts, some dialogue and the title’s version label, listed here, and nothing in the game’s data tables.",
+    "Cable-link trading, Single and Double Battles tested between two copies (on v102)."
+   ]
+  }
+ ],
+ "fixed": [
+  [
+   "Viridian Forest freeze",
+   "Walking into Ash’s clearing with the Boulder and Cascade Badges froze the game in v100. Fixed in v101."
+  ],
+  [
+   "Hoenn rocks would not break",
+   "Rock Smash from Mauville alone did not work on Hoenn’s rocks in v100 and v101. Fixed in v102: either copy of HM06 works."
+  ],
+  [
+   "Space Center stair guard",
+   "The Magma grunt on Mossdeep Space Center’s stairs could return to them after being beaten. Fixed in v103."
+  ],
+  [
+   "Professor Oak’s call",
+   "A typo in his call after the sixteenth Badge. Fixed in v103."
+  ],
+  [
+   "Dowsing Machine",
+   "Your Hoenn rival called it an Itemfinder on Route 110. Fixed in v103."
+  ],
+  [
+   "Hoenn badge speeches",
+   "Seven Leaders described level caps and HM permissions that do not apply in Project Blonde. Rewritten in v104."
+  ],
+  [
+   "Wattson’s badge speech",
+   "Reworded in v105 so it no longer echoes his previous line."
+  ],
+  [
+   "Title screen version",
+   "Shows v1.0 from v105 (earlier builds showed v1)."
+  ]
+ ],
+ "known": [
+  "<b>Sky Pillar:</b> the cracked floors are present on the first climb. On 4F, step on the cracked tile at (6,4) and take the middle stairs from 3F.",
+  "<b>S.S. Tidal:</b> the voyage ends when you rest in the bed in cabin No. 2, not by walking.",
+  "<b>Space Center, old saves only:</b> a save made inside the building on v102 or earlier can show the stair guard back on the stairs once. Leave and re-enter."
+ ]
+}

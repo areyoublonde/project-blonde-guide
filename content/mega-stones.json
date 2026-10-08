@@ -1,0 +1,27 @@
+{
+ "_about": "Editorial layer for the Mega Stones section. The list of stones the aide gives is NOT typed here: tools/megastones.py reads it from data/scripts/hns_mega_stone_menus.inc and the build compares it with this file’s rules.",
+ "ring": {
+  "item": "Mega Ring",
+  "where": "Goldenrod Radio Tower 5F",
+  "how": "Given by Professor Oak after you defeat Rocket Executive Archer.",
+  "chapter": "johto/radio-tower",
+  "ev": "natural-run-v100 trace 94; data/maps/GoldenrodCity_RadioTower_5F_hns/scripts.inc (additem ITEM_MEGA_RING)"
+ },
+ "aide": {
+  "where": "Professor Elm’s lab, New Bark Town",
+  "who": "The aide on the right-hand side of the lab",
+  "requires": "The Mega Ring in your Bag. Without it she says her usual line and offers nothing.",
+  "cost": "Free. One of each stone; asking again says you already have one.",
+  "missable": "No. The offer has no time limit and uses no save flags.",
+  "region": "Johto (open from the Radio Tower chapter onward, and for the rest of the game)",
+  "ev": "data/scripts/hns_mega.inc, data/maps/NewBarkTown_Lab_hns/scripts.inc (Aide2MegaService); natural-run-v100 trace 101"
+ },
+ "differences": [
+  "In the official games Mega Stones are scattered across a region or sold; here every obtainable stone comes from one aide, free, as soon as you hold the Mega Ring.",
+  "The Mega Ring is given by Professor Oak in Johto, during the Radio Tower story, rather than by a regional professor’s assistant.",
+  "A Mega Stone also boosts moves of its holder’s first type by 20%, before and after Mega Evolving.",
+  "Mega Evolution is triggered with START on the FIGHT menu.",
+  "The roster includes Mega forms from Pokémon Legends: Z-A alongside the X/Y and Omega Ruby/Alpha Sapphire ones.",
+  "Rayquaza Mega Evolves by knowing Dragon Ascent and needs no stone."
+ ]
+}

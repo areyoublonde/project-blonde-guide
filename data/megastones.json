@@ -1,0 +1,1101 @@
+{
+ "offered": [
+  {
+   "item_id": "ITEM_VENUSAURITE",
+   "stone": "Venusaurite",
+   "mega": "SPECIES_VENUSAUR_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_CHARIZARDITE_X",
+   "stone": "Charizardite X",
+   "mega": "SPECIES_CHARIZARD_MEGA_X",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_CHARIZARDITE_Y",
+   "stone": "Charizardite Y",
+   "mega": "SPECIES_CHARIZARD_MEGA_Y",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_BLASTOISINITE",
+   "stone": "Blastoisinite",
+   "mega": "SPECIES_BLASTOISE_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_BEEDRILLITE",
+   "stone": "Beedrillite",
+   "mega": "SPECIES_BEEDRILL_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_PIDGEOTITE",
+   "stone": "Pidgeotite",
+   "mega": "SPECIES_PIDGEOT_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_RAICHUNITE_X",
+   "stone": "Raichunite X",
+   "mega": "SPECIES_RAICHU_MEGA_X",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_RAICHUNITE_Y",
+   "stone": "Raichunite Y",
+   "mega": "SPECIES_RAICHU_MEGA_Y",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_CLEFABLITE",
+   "stone": "Clefablite",
+   "mega": "SPECIES_CLEFABLE_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_ALAKAZITE",
+   "stone": "Alakazite",
+   "mega": "SPECIES_ALAKAZAM_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_VICTREEBELITE",
+   "stone": "Victreebelite",
+   "mega": "SPECIES_VICTREEBEL_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SLOWBRONITE",
+   "stone": "Slowbronite",
+   "mega": "SPECIES_SLOWBRO_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_GENGARITE",
+   "stone": "Gengarite",
+   "mega": "SPECIES_GENGAR_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_KANGASKHANITE",
+   "stone": "Kangaskhanite",
+   "mega": "SPECIES_KANGASKHAN_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_STARMINITE",
+   "stone": "Starminite",
+   "mega": "SPECIES_STARMIE_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_PINSIRITE",
+   "stone": "Pinsirite",
+   "mega": "SPECIES_PINSIR_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_GYARADOSITE",
+   "stone": "Gyaradosite",
+   "mega": "SPECIES_GYARADOS_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_AERODACTYLITE",
+   "stone": "Aerodactylite",
+   "mega": "SPECIES_AERODACTYL_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_DRAGONINITE",
+   "stone": "Dragoninite",
+   "mega": "SPECIES_DRAGONITE_MEGA",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MEWTWONITE_X",
+   "stone": "Mewtwonite X",
+   "mega": "SPECIES_MEWTWO_MEGA_X",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MEWTWONITE_Y",
+   "stone": "Mewtwonite Y",
+   "mega": "SPECIES_MEWTWO_MEGA_Y",
+   "list": "Kanto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MEGANIUMITE",
+   "stone": "Meganiumite",
+   "mega": "SPECIES_MEGANIUM_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_FERALIGITE",
+   "stone": "Feraligite",
+   "mega": "SPECIES_FERALIGATR_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_AMPHAROSITE",
+   "stone": "Ampharosite",
+   "mega": "SPECIES_AMPHAROS_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_STEELIXITE",
+   "stone": "Steelixite",
+   "mega": "SPECIES_STEELIX_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SCIZORITE",
+   "stone": "Scizorite",
+   "mega": "SPECIES_SCIZOR_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_HERACRONITE",
+   "stone": "Heracronite",
+   "mega": "SPECIES_HERACROSS_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SKARMORITE",
+   "stone": "Skarmorite",
+   "mega": "SPECIES_SKARMORY_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_HOUNDOOMINITE",
+   "stone": "Houndoominite",
+   "mega": "SPECIES_HOUNDOOM_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_TYRANITARITE",
+   "stone": "Tyranitarite",
+   "mega": "SPECIES_TYRANITAR_MEGA",
+   "list": "Johto",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SCEPTILITE",
+   "stone": "Sceptilite",
+   "mega": "SPECIES_SCEPTILE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_BLAZIKENITE",
+   "stone": "Blazikenite",
+   "mega": "SPECIES_BLAZIKEN_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SWAMPERTITE",
+   "stone": "Swampertite",
+   "mega": "SPECIES_SWAMPERT_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_GARDEVOIRITE",
+   "stone": "Gardevoirite",
+   "mega": "SPECIES_GARDEVOIR_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SABLENITE",
+   "stone": "Sablenite",
+   "mega": "SPECIES_SABLEYE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MAWILITE",
+   "stone": "Mawilite",
+   "mega": "SPECIES_MAWILE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_AGGRONITE",
+   "stone": "Aggronite",
+   "mega": "SPECIES_AGGRON_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MEDICHAMITE",
+   "stone": "Medichamite",
+   "mega": "SPECIES_MEDICHAM_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_MANECTITE",
+   "stone": "Manectite",
+   "mega": "SPECIES_MANECTRIC_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SHARPEDONITE",
+   "stone": "Sharpedonite",
+   "mega": "SPECIES_SHARPEDO_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_CAMERUPTITE",
+   "stone": "Cameruptite",
+   "mega": "SPECIES_CAMERUPT_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_ALTARIANITE",
+   "stone": "Altarianite",
+   "mega": "SPECIES_ALTARIA_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_BANETTITE",
+   "stone": "Banettite",
+   "mega": "SPECIES_BANETTE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_CHIMECHITE",
+   "stone": "Chimechite",
+   "mega": "SPECIES_CHIMECHO_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_ABSOLITE",
+   "stone": "Absolite",
+   "mega": "SPECIES_ABSOL_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_ABSOLITE_Z",
+   "stone": "Absolite Z",
+   "mega": "SPECIES_ABSOL_MEGA_Z",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_GLALITITE",
+   "stone": "Glalitite",
+   "mega": "SPECIES_GLALIE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_SALAMENCITE",
+   "stone": "Salamencite",
+   "mega": "SPECIES_SALAMENCE_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_METAGROSSITE",
+   "stone": "Metagrossite",
+   "mega": "SPECIES_METAGROSS_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_LATIASITE",
+   "stone": "Latiasite",
+   "mega": "SPECIES_LATIAS_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  },
+  {
+   "item_id": "ITEM_LATIOSITE",
+   "stone": "Latiosite",
+   "mega": "SPECIES_LATIOS_MEGA",
+   "list": "Hoenn",
+   "in_rom": true
+  }
+ ],
+ "other_sources": [],
+ "defined": [
+  {
+   "item_id": "ITEM_VENUSAURITE",
+   "stone": "Venusaurite",
+   "mega": "SPECIES_VENUSAUR_MEGA",
+   "species": "SPECIES_VENUSAUR"
+  },
+  {
+   "item_id": "ITEM_CHARIZARDITE_X",
+   "stone": "Charizardite X",
+   "mega": "SPECIES_CHARIZARD_MEGA_X",
+   "species": "SPECIES_CHARIZARD"
+  },
+  {
+   "item_id": "ITEM_CHARIZARDITE_Y",
+   "stone": "Charizardite Y",
+   "mega": "SPECIES_CHARIZARD_MEGA_Y",
+   "species": "SPECIES_CHARIZARD"
+  },
+  {
+   "item_id": "ITEM_BLASTOISINITE",
+   "stone": "Blastoisinite",
+   "mega": "SPECIES_BLASTOISE_MEGA",
+   "species": "SPECIES_BLASTOISE"
+  },
+  {
+   "item_id": "ITEM_BEEDRILLITE",
+   "stone": "Beedrillite",
+   "mega": "SPECIES_BEEDRILL_MEGA",
+   "species": "SPECIES_BEEDRILL"
+  },
+  {
+   "item_id": "ITEM_PIDGEOTITE",
+   "stone": "Pidgeotite",
+   "mega": "SPECIES_PIDGEOT_MEGA",
+   "species": "SPECIES_PIDGEOT"
+  },
+  {
+   "item_id": "ITEM_ALAKAZITE",
+   "stone": "Alakazite",
+   "mega": "SPECIES_ALAKAZAM_MEGA",
+   "species": "SPECIES_ALAKAZAM"
+  },
+  {
+   "item_id": "ITEM_SLOWBRONITE",
+   "stone": "Slowbronite",
+   "mega": "SPECIES_SLOWBRO_MEGA",
+   "species": "SPECIES_SLOWBRO"
+  },
+  {
+   "item_id": "ITEM_GENGARITE",
+   "stone": "Gengarite",
+   "mega": "SPECIES_GENGAR_MEGA",
+   "species": "SPECIES_GENGAR"
+  },
+  {
+   "item_id": "ITEM_KANGASKHANITE",
+   "stone": "Kangaskhanite",
+   "mega": "SPECIES_KANGASKHAN_MEGA",
+   "species": "SPECIES_KANGASKHAN"
+  },
+  {
+   "item_id": "ITEM_PINSIRITE",
+   "stone": "Pinsirite",
+   "mega": "SPECIES_PINSIR_MEGA",
+   "species": "SPECIES_PINSIR"
+  },
+  {
+   "item_id": "ITEM_GYARADOSITE",
+   "stone": "Gyaradosite",
+   "mega": "SPECIES_GYARADOS_MEGA",
+   "species": "SPECIES_GYARADOS"
+  },
+  {
+   "item_id": "ITEM_AERODACTYLITE",
+   "stone": "Aerodactylite",
+   "mega": "SPECIES_AERODACTYL_MEGA",
+   "species": "SPECIES_AERODACTYL"
+  },
+  {
+   "item_id": "ITEM_MEWTWONITE_X",
+   "stone": "Mewtwonite X",
+   "mega": "SPECIES_MEWTWO_MEGA_X",
+   "species": "SPECIES_MEWTWO"
+  },
+  {
+   "item_id": "ITEM_MEWTWONITE_Y",
+   "stone": "Mewtwonite Y",
+   "mega": "SPECIES_MEWTWO_MEGA_Y",
+   "species": "SPECIES_MEWTWO"
+  },
+  {
+   "item_id": "ITEM_AMPHAROSITE",
+   "stone": "Ampharosite",
+   "mega": "SPECIES_AMPHAROS_MEGA",
+   "species": "SPECIES_AMPHAROS"
+  },
+  {
+   "item_id": "ITEM_STEELIXITE",
+   "stone": "Steelixite",
+   "mega": "SPECIES_STEELIX_MEGA",
+   "species": "SPECIES_STEELIX"
+  },
+  {
+   "item_id": "ITEM_SCIZORITE",
+   "stone": "Scizorite",
+   "mega": "SPECIES_SCIZOR_MEGA",
+   "species": "SPECIES_SCIZOR"
+  },
+  {
+   "item_id": "ITEM_HERACRONITE",
+   "stone": "Heracronite",
+   "mega": "SPECIES_HERACROSS_MEGA",
+   "species": "SPECIES_HERACROSS"
+  },
+  {
+   "item_id": "ITEM_HOUNDOOMINITE",
+   "stone": "Houndoominite",
+   "mega": "SPECIES_HOUNDOOM_MEGA",
+   "species": "SPECIES_HOUNDOOM"
+  },
+  {
+   "item_id": "ITEM_TYRANITARITE",
+   "stone": "Tyranitarite",
+   "mega": "SPECIES_TYRANITAR_MEGA",
+   "species": "SPECIES_TYRANITAR"
+  },
+  {
+   "item_id": "ITEM_SCEPTILITE",
+   "stone": "Sceptilite",
+   "mega": "SPECIES_SCEPTILE_MEGA",
+   "species": "SPECIES_SCEPTILE"
+  },
+  {
+   "item_id": "ITEM_BLAZIKENITE",
+   "stone": "Blazikenite",
+   "mega": "SPECIES_BLAZIKEN_MEGA",
+   "species": "SPECIES_BLAZIKEN"
+  },
+  {
+   "item_id": "ITEM_SWAMPERTITE",
+   "stone": "Swampertite",
+   "mega": "SPECIES_SWAMPERT_MEGA",
+   "species": "SPECIES_SWAMPERT"
+  },
+  {
+   "item_id": "ITEM_GARDEVOIRITE",
+   "stone": "Gardevoirite",
+   "mega": "SPECIES_GARDEVOIR_MEGA",
+   "species": "SPECIES_GARDEVOIR"
+  },
+  {
+   "item_id": "ITEM_SABLENITE",
+   "stone": "Sablenite",
+   "mega": "SPECIES_SABLEYE_MEGA",
+   "species": "SPECIES_SABLEYE"
+  },
+  {
+   "item_id": "ITEM_MAWILITE",
+   "stone": "Mawilite",
+   "mega": "SPECIES_MAWILE_MEGA",
+   "species": "SPECIES_MAWILE"
+  },
+  {
+   "item_id": "ITEM_AGGRONITE",
+   "stone": "Aggronite",
+   "mega": "SPECIES_AGGRON_MEGA",
+   "species": "SPECIES_AGGRON"
+  },
+  {
+   "item_id": "ITEM_MEDICHAMITE",
+   "stone": "Medichamite",
+   "mega": "SPECIES_MEDICHAM_MEGA",
+   "species": "SPECIES_MEDICHAM"
+  },
+  {
+   "item_id": "ITEM_MANECTITE",
+   "stone": "Manectite",
+   "mega": "SPECIES_MANECTRIC_MEGA",
+   "species": "SPECIES_MANECTRIC"
+  },
+  {
+   "item_id": "ITEM_SHARPEDONITE",
+   "stone": "Sharpedonite",
+   "mega": "SPECIES_SHARPEDO_MEGA",
+   "species": "SPECIES_SHARPEDO"
+  },
+  {
+   "item_id": "ITEM_CAMERUPTITE",
+   "stone": "Cameruptite",
+   "mega": "SPECIES_CAMERUPT_MEGA",
+   "species": "SPECIES_CAMERUPT"
+  },
+  {
+   "item_id": "ITEM_ALTARIANITE",
+   "stone": "Altarianite",
+   "mega": "SPECIES_ALTARIA_MEGA",
+   "species": "SPECIES_ALTARIA"
+  },
+  {
+   "item_id": "ITEM_BANETTITE",
+   "stone": "Banettite",
+   "mega": "SPECIES_BANETTE_MEGA",
+   "species": "SPECIES_BANETTE"
+  },
+  {
+   "item_id": "ITEM_ABSOLITE",
+   "stone": "Absolite",
+   "mega": "SPECIES_ABSOL_MEGA",
+   "species": "SPECIES_ABSOL"
+  },
+  {
+   "item_id": "ITEM_GLALITITE",
+   "stone": "Glalitite",
+   "mega": "SPECIES_GLALIE_MEGA",
+   "species": "SPECIES_GLALIE"
+  },
+  {
+   "item_id": "ITEM_SALAMENCITE",
+   "stone": "Salamencite",
+   "mega": "SPECIES_SALAMENCE_MEGA",
+   "species": "SPECIES_SALAMENCE"
+  },
+  {
+   "item_id": "ITEM_METAGROSSITE",
+   "stone": "Metagrossite",
+   "mega": "SPECIES_METAGROSS_MEGA",
+   "species": "SPECIES_METAGROSS"
+  },
+  {
+   "item_id": "ITEM_LATIASITE",
+   "stone": "Latiasite",
+   "mega": "SPECIES_LATIAS_MEGA",
+   "species": "SPECIES_LATIAS"
+  },
+  {
+   "item_id": "ITEM_LATIOSITE",
+   "stone": "Latiosite",
+   "mega": "SPECIES_LATIOS_MEGA",
+   "species": "SPECIES_LATIOS"
+  },
+  {
+   "item_id": "ITEM_LOPUNNITE",
+   "stone": "Lopunnite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GARCHOMPITE",
+   "stone": "Garchompite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_LUCARIONITE",
+   "stone": "Lucarionite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_ABOMASITE",
+   "stone": "Abomasite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GALLADITE",
+   "stone": "Galladite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_AUDINITE",
+   "stone": "Audinite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_DIANCITE",
+   "stone": "Diancite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_CLEFABLITE",
+   "stone": "Clefablite",
+   "mega": "SPECIES_CLEFABLE_MEGA",
+   "species": "SPECIES_CLEFABLE"
+  },
+  {
+   "item_id": "ITEM_VICTREEBELITE",
+   "stone": "Victreebelite",
+   "mega": "SPECIES_VICTREEBEL_MEGA",
+   "species": "SPECIES_VICTREEBEL"
+  },
+  {
+   "item_id": "ITEM_STARMINITE",
+   "stone": "Starminite",
+   "mega": "SPECIES_STARMIE_MEGA",
+   "species": "SPECIES_STARMIE"
+  },
+  {
+   "item_id": "ITEM_DRAGONINITE",
+   "stone": "Dragoninite",
+   "mega": "SPECIES_DRAGONITE_MEGA",
+   "species": "SPECIES_DRAGONITE"
+  },
+  {
+   "item_id": "ITEM_MEGANIUMITE",
+   "stone": "Meganiumite",
+   "mega": "SPECIES_MEGANIUM_MEGA",
+   "species": "SPECIES_MEGANIUM"
+  },
+  {
+   "item_id": "ITEM_FERALIGITE",
+   "stone": "Feraligite",
+   "mega": "SPECIES_FERALIGATR_MEGA",
+   "species": "SPECIES_FERALIGATR"
+  },
+  {
+   "item_id": "ITEM_SKARMORITE",
+   "stone": "Skarmorite",
+   "mega": "SPECIES_SKARMORY_MEGA",
+   "species": "SPECIES_SKARMORY"
+  },
+  {
+   "item_id": "ITEM_FROSLASSITE",
+   "stone": "Froslassite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_EMBOARITE",
+   "stone": "Emboarite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_EXCADRITE",
+   "stone": "Excadrite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_SCOLIPITE",
+   "stone": "Scolipite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_SCRAFTINITE",
+   "stone": "Scraftinite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_EELEKTROSSITE",
+   "stone": "Eelektrossite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_CHANDELURITE",
+   "stone": "Chandelurite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_CHESNAUGHTITE",
+   "stone": "Chesnaughtite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_DELPHOXITE",
+   "stone": "Delphoxite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GRENINJITE",
+   "stone": "Greninjite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_PYROARITE",
+   "stone": "Pyroarite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_FLOETTITE",
+   "stone": "Floettite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_MALAMARITE",
+   "stone": "Malamarite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_BARBARACITE",
+   "stone": "Barbaracite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_DRAGALGITE",
+   "stone": "Dragalgite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_HAWLUCHANITE",
+   "stone": "Hawluchanite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_ZYGARDITE",
+   "stone": "Zygardite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_DRAMPANITE",
+   "stone": "Drampanite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_FALINKSITE",
+   "stone": "Falinksite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_HEATRANITE",
+   "stone": "Heatranite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_DARKRANITE",
+   "stone": "Darkranite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_ZERAORITE",
+   "stone": "Zeraorite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_RAICHUNITE_X",
+   "stone": "Raichunite X",
+   "mega": "SPECIES_RAICHU_MEGA_X",
+   "species": "SPECIES_RAICHU"
+  },
+  {
+   "item_id": "ITEM_RAICHUNITE_Y",
+   "stone": "Raichunite Y",
+   "mega": "SPECIES_RAICHU_MEGA_Y",
+   "species": "SPECIES_RAICHU"
+  },
+  {
+   "item_id": "ITEM_CHIMECHITE",
+   "stone": "Chimechite",
+   "mega": "SPECIES_CHIMECHO_MEGA",
+   "species": "SPECIES_CHIMECHO"
+  },
+  {
+   "item_id": "ITEM_ABSOLITE_Z",
+   "stone": "Absolite Z",
+   "mega": "SPECIES_ABSOL_MEGA_Z",
+   "species": "SPECIES_ABSOL"
+  },
+  {
+   "item_id": "ITEM_STARAPTITE",
+   "stone": "Staraptite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GARCHOMPITE_Z",
+   "stone": "Garchompite Z",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_LUCARIONITE_Z",
+   "stone": "Lucarionite Z",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GOLURKITE",
+   "stone": "Golurkite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_MEOWSTICITE",
+   "stone": "Meowsticite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_CRABOMINITE",
+   "stone": "Crabominite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GOLISOPITE",
+   "stone": "Golisopite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_MAGEARNITE",
+   "stone": "Magearnite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_SCOVILLAINITE",
+   "stone": "Scovillainite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_BAXCALIBRITE",
+   "stone": "Baxcalibrite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_TATSUGIRINITE",
+   "stone": "Tatsugirinite",
+   "mega": null,
+   "species": null
+  },
+  {
+   "item_id": "ITEM_GLIMMORANITE",
+   "stone": "Glimmoranite",
+   "mega": null,
+   "species": null
+  }
+ ],
+ "not_obtainable": [
+  "Lopunnite",
+  "Garchompite",
+  "Lucarionite",
+  "Abomasite",
+  "Galladite",
+  "Audinite",
+  "Diancite",
+  "Froslassite",
+  "Emboarite",
+  "Excadrite",
+  "Scolipite",
+  "Scraftinite",
+  "Eelektrossite",
+  "Chandelurite",
+  "Chesnaughtite",
+  "Delphoxite",
+  "Greninjite",
+  "Pyroarite",
+  "Floettite",
+  "Malamarite",
+  "Barbaracite",
+  "Dragalgite",
+  "Hawluchanite",
+  "Zygardite",
+  "Drampanite",
+  "Falinksite",
+  "Heatranite",
+  "Darkranite",
+  "Zeraorite",
+  "Staraptite",
+  "Garchompite Z",
+  "Lucarionite Z",
+  "Golurkite",
+  "Meowsticite",
+  "Crabominite",
+  "Golisopite",
+  "Magearnite",
+  "Scovillainite",
+  "Baxcalibrite",
+  "Tatsugirinite",
+  "Glimmoranite"
+ ],
+ "held_by_trainers": {
+  "Pidgeotite": [
+   403,
+   431
+  ],
+  "Scizorite": [
+   405
+  ],
+  "Gengarite": [
+   409
+  ],
+  "Glalitite": [
+   411,
+   1429
+  ],
+  "Steelixite": [
+   415
+  ],
+  "Medichamite": [
+   419,
+   708,
+   1470
+  ],
+  "Gyaradosite": [
+   422,
+   423,
+   1431
+  ],
+  "Aerodactylite": [
+   424,
+   634,
+   1469
+  ],
+  "Starminite": [
+   425
+  ],
+  "Raichunite Y": [
+   426
+  ],
+  "Victreebelite": [
+   427
+  ],
+  "Alakazite": [
+   428
+  ],
+  "Cameruptite": [
+   430,
+   821,
+   1276,
+   1337,
+   1472
+  ],
+  "Slowbronite": [
+   433,
+   434
+  ],
+  "Heracronite": [
+   435,
+   436
+  ],
+  "Houndoominite": [
+   437,
+   438
+  ],
+  "Dragoninite": [
+   441,
+   442
+  ],
+  "Tyranitarite": [
+   447,
+   448,
+   449,
+   454,
+   455,
+   456,
+   461,
+   462,
+   463
+  ],
+  "Charizardite X": [
+   464
+  ],
+  "Kangaskhanite": [
+   466,
+   837,
+   1473
+  ],
+  "Metagrossite": [
+   612,
+   1478
+  ],
+  "Charizardite Y": [
+   633
+  ],
+  "Manectite": [
+   741,
+   1471
+  ],
+  "Altarianite": [
+   1204,
+   1474
+  ],
+  "Blazikenite": [
+   1277,
+   1280
+  ],
+  "Swampertite": [
+   1278,
+   1281
+  ],
+  "Sceptilite": [
+   1279,
+   1282
+  ],
+  "Chimechite": [
+   1328,
+   1475
+  ],
+  "Sharpedonite": [
+   1359
+  ],
+  "Gardevoirite": [
+   1410,
+   1477
+  ],
+  "Absolite": [
+   1427
+  ],
+  "Banettite": [
+   1428
+  ],
+  "Salamencite": [
+   1430
+  ]
+ },
+ "check": {
+  "defined": 92,
+  "offered_by_aide": 51,
+  "offered_found_in_rom": 51,
+  "offered_without_form_link": [],
+  "other_sources": 0
+ }
+}

@@ -1,0 +1,820 @@
+{
+ "jk": {
+  "w": 240,
+  "h": 160,
+  "src": "graphics/pokenav/region_map/map_jk.png + src/data/region_map/region_map_layout_jk.h",
+  "sections": {
+   "MAPSEC_ROUTE_24": [
+    204.0,
+    24.0
+   ],
+   "MAPSEC_ROUTE_25": [
+    212.0,
+    20.0
+   ],
+   "MAPSEC_LAKE_OF_RAGE": [
+    84.0,
+    28.0
+   ],
+   "MAPSEC_CERULEAN_CAVE": [
+    196.0,
+    28.0
+   ],
+   "MAPSEC_TIN_TOWER": [
+    60.0,
+    36.0
+   ],
+   "MAPSEC_MT_MORTAR": [
+    76.0,
+    36.0
+   ],
+   "MAPSEC_ROUTE_43": [
+    84.0,
+    36.0
+   ],
+   "MAPSEC_ICE_PATH": [
+    104.0,
+    36.0
+   ],
+   "MAPSEC_INDIGO_PLATEAU": [
+    140.0,
+    40.0
+   ],
+   "MAPSEC_PEWTER_CITY": [
+    164.0,
+    36.0
+   ],
+   "MAPSEC_ROUTE_3": [
+    172.0,
+    36.0
+   ],
+   "MAPSEC_ROUTE_4": [
+    188.0,
+    36.0
+   ],
+   "MAPSEC_MT_MOON": [
+    188.0,
+    36.0
+   ],
+   "MAPSEC_CERULEAN_CITY": [
+    204.0,
+    36.0
+   ],
+   "MAPSEC_ROUTE_9": [
+    220.0,
+    36.0
+   ],
+   "MAPSEC_ROUTE_39": [
+    36.0,
+    52.0
+   ],
+   "MAPSEC_ROUTE_38": [
+    48.0,
+    44.0
+   ],
+   "MAPSEC_ECRUTEAK_CITY": [
+    60.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_42": [
+    72.0,
+    44.0
+   ],
+   "MAPSEC_MAHOGANY_TOWN": [
+    84.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_44": [
+    96.0,
+    44.0
+   ],
+   "MAPSEC_BLACKTHORN_CITY": [
+    108.0,
+    44.0
+   ],
+   "MAPSEC_SINJOH_RUINS": [
+    124.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_2": [
+    164.0,
+    56.0
+   ],
+   "MAPSEC_DIGLETTS_CAVE": [
+    192.0,
+    56.0
+   ],
+   "MAPSEC_ROUTE_5": [
+    204.0,
+    48.0
+   ],
+   "MAPSEC_ROUTE_10": [
+    228.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_37": [
+    60.0,
+    52.0
+   ],
+   "MAPSEC_ROUTE_45": [
+    108.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_50": [
+    124.0,
+    52.0
+   ],
+   "MAPSEC_VICTORY_ROAD_HNS": [
+    140.0,
+    64.0
+   ],
+   "MAPSEC_VIRIDIAN_FOREST": [
+    164.0,
+    56.0
+   ],
+   "MAPSEC_ROCK_TUNNEL": [
+    228.0,
+    52.0
+   ],
+   "MAPSEC_TRAINER_HILL": [
+    28.0,
+    60.0
+   ],
+   "MAPSEC_NATIONAL_PARK": [
+    52.0,
+    60.0
+   ],
+   "MAPSEC_ROUTE_36": [
+    60.0,
+    60.0
+   ],
+   "MAPSEC_VIOLET_CITY": [
+    68.0,
+    60.0
+   ],
+   "MAPSEC_ROUTE_31": [
+    80.0,
+    60.0
+   ],
+   "MAPSEC_DARK_CAVE": [
+    98.0,
+    66.0
+   ],
+   "MAPSEC_NEW_SINJOH": [
+    124.0,
+    60.0
+   ],
+   "MAPSEC_ROUTE_16": [
+    180.0,
+    60.0
+   ],
+   "MAPSEC_CELADON_CITY": [
+    188.0,
+    60.0
+   ],
+   "MAPSEC_ROUTE_7": [
+    196.0,
+    60.0
+   ],
+   "MAPSEC_SAFFRON_CITY": [
+    204.0,
+    60.0
+   ],
+   "MAPSEC_ROUTE_8": [
+    216.0,
+    60.0
+   ],
+   "MAPSEC_LAVENDER_TOWN": [
+    228.0,
+    60.0
+   ],
+   "MAPSEC_SAFARI_ZONE": [
+    12.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_40": [
+    28.0,
+    76.0
+   ],
+   "MAPSEC_OLIVINE_CITY": [
+    36.0,
+    68.0
+   ],
+   "MAPSEC_OLIVINE_LIGHTHOUSE": [
+    44.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_35": [
+    52.0,
+    68.0
+   ],
+   "MAPSEC_RUINS_OF_ALPH": [
+    60.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_32": [
+    68.0,
+    80.0
+   ],
+   "MAPSEC_ROUTE_30": [
+    84.0,
+    84.0
+   ],
+   "MAPSEC_SNOWSWEPT_CAVERN": [
+    124.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_17": [
+    180.0,
+    88.0
+   ],
+   "MAPSEC_ROUTE_6": [
+    204.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_12": [
+    228.0,
+    80.0
+   ],
+   "MAPSEC_SAFARI_ZONE_GATE": [
+    12.0,
+    76.0
+   ],
+   "MAPSEC_GOLDENROD_CITY": [
+    52.0,
+    80.0
+   ],
+   "MAPSEC_MT_SILVER": [
+    124.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_28": [
+    132.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_22": [
+    152.0,
+    76.0
+   ],
+   "MAPSEC_VIRIDIAN_CITY": [
+    164.0,
+    76.0
+   ],
+   "MAPSEC_VERMILION_CITY": [
+    204.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_11": [
+    216.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_48": [
+    12.0,
+    84.0
+   ],
+   "MAPSEC_ROUTE_46": [
+    100.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_26": [
+    140.0,
+    96.0
+   ],
+   "MAPSEC_ROUTE_1": [
+    164.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_47": [
+    12.0,
+    92.0
+   ],
+   "MAPSEC_CIANWOOD_CITY": [
+    20.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_41": [
+    28.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_34": [
+    52.0,
+    96.0
+   ],
+   "MAPSEC_EMBEDDED_TOWER": [
+    12.0,
+    100.0
+   ],
+   "MAPSEC_WHIRL_ISLANDS": [
+    20.0,
+    100.0
+   ],
+   "MAPSEC_UNION_CAVE": [
+    68.0,
+    104.0
+   ],
+   "MAPSEC_ROUTE_14": [
+    220.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_13": [
+    228.0,
+    100.0
+   ],
+   "MAPSEC_ILEX_FOREST": [
+    52.0,
+    112.0
+   ],
+   "MAPSEC_CHERRYGROVE_CITY": [
+    84.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_29": [
+    100.0,
+    108.0
+   ],
+   "MAPSEC_NEW_BARK_TOWN": [
+    116.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_27": [
+    128.0,
+    108.0
+   ],
+   "MAPSEC_PALLET_TOWN": [
+    164.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_18": [
+    192.0,
+    108.0
+   ],
+   "MAPSEC_FUCHSIA_CITY": [
+    204.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_15": [
+    216.0,
+    108.0
+   ],
+   "MAPSEC_AKALA_FOREST": [
+    228.0,
+    108.0
+   ],
+   "MAPSEC_AZALEA_TOWN": [
+    60.0,
+    116.0
+   ],
+   "MAPSEC_ROUTE_33": [
+    68.0,
+    116.0
+   ],
+   "MAPSEC_ROUTE_21": [
+    164.0,
+    116.0
+   ],
+   "MAPSEC_ROUTE_19": [
+    201.3,
+    121.3
+   ],
+   "MAPSEC_ALOLA_OCEAN": [
+    212.0,
+    116.0
+   ],
+   "MAPSEC_ULAULA_CAVE_2": [
+    220.0,
+    116.0
+   ],
+   "MAPSEC_AKALA_ISLAND": [
+    228.0,
+    116.0
+   ],
+   "MAPSEC_CINNABAR_ISLAND": [
+    164.0,
+    124.0
+   ],
+   "MAPSEC_ROUTE_20": [
+    176.0,
+    124.0
+   ],
+   "MAPSEC_SEAFOAM_ISLANDS": [
+    188.0,
+    124.0
+   ],
+   "MAPSEC_PONI_ISLAND": [
+    212.0,
+    124.0
+   ],
+   "MAPSEC_MELEMELE_ISLAND": [
+    220.0,
+    124.0
+   ],
+   "MAPSEC_ULAULA_ISLAND": [
+    228.0,
+    124.0
+   ],
+   "MAPSEC_BATTLE_FRONTIER": [
+    108.0,
+    132.0
+   ],
+   "MAPSEC_PONI_CAVE": [
+    212.0,
+    132.0
+   ],
+   "MAPSEC_ULAULA_CAVE": [
+    220.0,
+    132.0
+   ],
+   "MAPSEC_AKALA_CAVE": [
+    228.0,
+    132.0
+   ]
+  },
+  "names": {
+   "MAPSEC_ROUTE_24": "ROUTE 24",
+   "MAPSEC_ROUTE_25": "ROUTE 25",
+   "MAPSEC_LAKE_OF_RAGE": "LAKE OF RAGE",
+   "MAPSEC_CERULEAN_CAVE": "CERULEAN CAVE",
+   "MAPSEC_TIN_TOWER": "TIN TOWER",
+   "MAPSEC_MT_MORTAR": "MT. MORTAR",
+   "MAPSEC_ROUTE_43": "ROUTE 43",
+   "MAPSEC_ICE_PATH": "ICE PATH",
+   "MAPSEC_INDIGO_PLATEAU": "INDIGO PLATEAU",
+   "MAPSEC_PEWTER_CITY": "PEWTER CITY",
+   "MAPSEC_ROUTE_3": "ROUTE 3",
+   "MAPSEC_ROUTE_4": "ROUTE 4",
+   "MAPSEC_MT_MOON": "MT. MOON",
+   "MAPSEC_CERULEAN_CITY": "CERULEAN CITY",
+   "MAPSEC_ROUTE_9": "ROUTE 9",
+   "MAPSEC_ROUTE_39": "ROUTE 39",
+   "MAPSEC_ROUTE_38": "ROUTE 38",
+   "MAPSEC_ECRUTEAK_CITY": "ECRUTEAK CITY",
+   "MAPSEC_ROUTE_42": "ROUTE 42",
+   "MAPSEC_MAHOGANY_TOWN": "MAHOGANY TOWN",
+   "MAPSEC_ROUTE_44": "ROUTE 44",
+   "MAPSEC_BLACKTHORN_CITY": "BLACKTHORN CITY",
+   "MAPSEC_SINJOH_RUINS": "SINJOH RUINS",
+   "MAPSEC_ROUTE_2": "ROUTE 2",
+   "MAPSEC_DIGLETTS_CAVE": "DIGLETT'S CAVE",
+   "MAPSEC_ROUTE_5": "ROUTE 5",
+   "MAPSEC_ROUTE_10": "ROUTE 10",
+   "MAPSEC_ROUTE_37": "ROUTE 37",
+   "MAPSEC_ROUTE_45": "ROUTE 45",
+   "MAPSEC_ROUTE_50": "ROUTE 50",
+   "MAPSEC_VICTORY_ROAD_HNS": "VICTORY ROAD",
+   "MAPSEC_VIRIDIAN_FOREST": "VIRIDIAN FOREST",
+   "MAPSEC_ROCK_TUNNEL": "ROCK TUNNEL",
+   "MAPSEC_TRAINER_HILL": "TRAINER HILL",
+   "MAPSEC_NATIONAL_PARK": "NATIONAL PARK",
+   "MAPSEC_ROUTE_36": "ROUTE 36",
+   "MAPSEC_VIOLET_CITY": "VIOLET CITY",
+   "MAPSEC_ROUTE_31": "ROUTE 31",
+   "MAPSEC_DARK_CAVE": "DARK CAVE",
+   "MAPSEC_NEW_SINJOH": "NEW SINJOH",
+   "MAPSEC_ROUTE_16": "ROUTE 16",
+   "MAPSEC_CELADON_CITY": "CELADON CITY",
+   "MAPSEC_ROUTE_7": "ROUTE 7",
+   "MAPSEC_SAFFRON_CITY": "SAFFRON CITY",
+   "MAPSEC_ROUTE_8": "ROUTE 8",
+   "MAPSEC_LAVENDER_TOWN": "LAVENDER TOWN",
+   "MAPSEC_SAFARI_ZONE": "SAFARI ZONE",
+   "MAPSEC_ROUTE_40": "ROUTE 40",
+   "MAPSEC_OLIVINE_CITY": "OLIVINE CITY",
+   "MAPSEC_OLIVINE_LIGHTHOUSE": "OLIVINE LIGHTHOUSE",
+   "MAPSEC_ROUTE_35": "ROUTE 35",
+   "MAPSEC_RUINS_OF_ALPH": "RUINS OF ALPH",
+   "MAPSEC_ROUTE_32": "ROUTE 32",
+   "MAPSEC_ROUTE_30": "ROUTE 30",
+   "MAPSEC_SNOWSWEPT_CAVERN": "SNOWSWEPT CAVERN",
+   "MAPSEC_ROUTE_17": "ROUTE 17",
+   "MAPSEC_ROUTE_6": "ROUTE 6",
+   "MAPSEC_ROUTE_12": "ROUTE 12",
+   "MAPSEC_SAFARI_ZONE_GATE": "SAFARI ZONE GATE",
+   "MAPSEC_GOLDENROD_CITY": "GOLDENROD CITY",
+   "MAPSEC_MT_SILVER": "MT. SILVER",
+   "MAPSEC_ROUTE_28": "ROUTE 28",
+   "MAPSEC_ROUTE_22": "ROUTE 22",
+   "MAPSEC_VIRIDIAN_CITY": "VIRIDIAN CITY",
+   "MAPSEC_VERMILION_CITY": "VERMILION CITY",
+   "MAPSEC_ROUTE_11": "ROUTE 11",
+   "MAPSEC_ROUTE_48": "ROUTE 48",
+   "MAPSEC_ROUTE_46": "ROUTE 46",
+   "MAPSEC_ROUTE_26": "ROUTE 26",
+   "MAPSEC_ROUTE_1": "ROUTE 1",
+   "MAPSEC_ROUTE_47": "ROUTE 47",
+   "MAPSEC_CIANWOOD_CITY": "CIANWOOD CITY",
+   "MAPSEC_ROUTE_41": "ROUTE 41",
+   "MAPSEC_ROUTE_34": "ROUTE 34",
+   "MAPSEC_EMBEDDED_TOWER": "EMBEDDED TOWER",
+   "MAPSEC_WHIRL_ISLANDS": "WHIRL ISLANDS",
+   "MAPSEC_UNION_CAVE": "UNION CAVE",
+   "MAPSEC_ROUTE_14": "ROUTE 14",
+   "MAPSEC_ROUTE_13": "ROUTE 13",
+   "MAPSEC_ILEX_FOREST": "ILEX FOREST",
+   "MAPSEC_CHERRYGROVE_CITY": "CHERRYGROVE CITY",
+   "MAPSEC_ROUTE_29": "ROUTE 29",
+   "MAPSEC_NEW_BARK_TOWN": "NEW BARK TOWN",
+   "MAPSEC_ROUTE_27": "ROUTE 27",
+   "MAPSEC_PALLET_TOWN": "PALLET TOWN",
+   "MAPSEC_ROUTE_18": "ROUTE 18",
+   "MAPSEC_FUCHSIA_CITY": "FUCHSIA CITY",
+   "MAPSEC_ROUTE_15": "ROUTE 15",
+   "MAPSEC_AKALA_FOREST": "AKALA FOREST",
+   "MAPSEC_AZALEA_TOWN": "AZALEA TOWN",
+   "MAPSEC_ROUTE_33": "ROUTE 33",
+   "MAPSEC_ROUTE_21": "ROUTE 21",
+   "MAPSEC_ROUTE_19": "ROUTE 19",
+   "MAPSEC_ALOLA_OCEAN": "MELEMELE SEA",
+   "MAPSEC_ULAULA_CAVE_2": "ULA'ULA CAVE",
+   "MAPSEC_AKALA_ISLAND": "AKALA ISLE",
+   "MAPSEC_CINNABAR_ISLAND": "CINNABAR ISLAND",
+   "MAPSEC_ROUTE_20": "ROUTE 20",
+   "MAPSEC_SEAFOAM_ISLANDS": "SEAFOAM ISLANDS",
+   "MAPSEC_PONI_ISLAND": "PONI ISLE",
+   "MAPSEC_MELEMELE_ISLAND": "MELEMELE ISLE",
+   "MAPSEC_ULAULA_ISLAND": "ULA'ULA ISLE",
+   "MAPSEC_BATTLE_FRONTIER": "BATTLE FRONTIER",
+   "MAPSEC_PONI_CAVE": "PONI CAVE",
+   "MAPSEC_ULAULA_CAVE": "MT. LANIKALA",
+   "MAPSEC_AKALA_CAVE": "AKALA CAVE"
+  }
+ },
+ "hoenn": {
+  "w": 240,
+  "h": 160,
+  "src": "graphics/pokenav/region_map/map.png + src/data/region_map/region_map_layout.h",
+  "sections": {
+   "MAPSEC_ROUTE_114": [
+    22.0,
+    26.0
+   ],
+   "MAPSEC_FALLARBOR_TOWN": [
+    36.0,
+    20.0
+   ],
+   "MAPSEC_ROUTE_113": [
+    56.0,
+    20.0
+   ],
+   "MAPSEC_ROUTE_111": [
+    76.0,
+    40.0
+   ],
+   "MAPSEC_ROUTE_119": [
+    100.0,
+    40.0
+   ],
+   "MAPSEC_FORTREE_CITY": [
+    108.0,
+    20.0
+   ],
+   "MAPSEC_ROUTE_120": [
+    116.0,
+    32.0
+   ],
+   "MAPSEC_MT_CHIMNEY": [
+    64.0,
+    32.0
+   ],
+   "MAPSEC_ROUTE_115": [
+    12.0,
+    44.0
+   ],
+   "MAPSEC_SAFARI_ZONE": [
+    140.0,
+    36.0
+   ],
+   "MAPSEC_LAVARIDGE_TOWN": [
+    52.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_112": [
+    64.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_121": [
+    136.0,
+    44.0
+   ],
+   "MAPSEC_LILYCOVE_CITY": [
+    160.0,
+    44.0
+   ],
+   "MAPSEC_ROUTE_124": [
+    184.0,
+    52.0
+   ],
+   "MAPSEC_ROUTE_125": [
+    208.0,
+    48.0
+   ],
+   "MAPSEC_ROUTE_122": [
+    140.0,
+    56.0
+   ],
+   "MAPSEC_RUSTBORO_CITY": [
+    12.0,
+    64.0
+   ],
+   "MAPSEC_ROUTE_116": [
+    32.0,
+    60.0
+   ],
+   "MAPSEC_MOSSDEEP_CITY": [
+    208.0,
+    60.0
+   ],
+   "MAPSEC_VERDANTURF_TOWN": [
+    44.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_117": [
+    60.0,
+    68.0
+   ],
+   "MAPSEC_MAUVILLE_CITY": [
+    80.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_118": [
+    96.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_123": [
+    124.0,
+    68.0
+   ],
+   "MAPSEC_ROUTE_126": [
+    180.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_127": [
+    204.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_104": [
+    12.0,
+    84.0
+   ],
+   "MAPSEC_ROUTE_110": [
+    76.0,
+    84.0
+   ],
+   "MAPSEC_SOOTOPOLIS_CITY": [
+    180.0,
+    76.0
+   ],
+   "MAPSEC_ROUTE_103": [
+    56.0,
+    84.0
+   ],
+   "MAPSEC_EVER_GRANDE_CITY": [
+    228.0,
+    88.0
+   ],
+   "MAPSEC_PETALBURG_CITY": [
+    20.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_102": [
+    32.0,
+    92.0
+   ],
+   "MAPSEC_OLDALE_TOWN": [
+    44.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_128": [
+    208.0,
+    92.0
+   ],
+   "MAPSEC_ROUTE_105": [
+    12.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_101": [
+    44.0,
+    100.0
+   ],
+   "MAPSEC_SLATEPORT_CITY": [
+    76.0,
+    104.0
+   ],
+   "MAPSEC_ROUTE_134": [
+    92.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_133": [
+    116.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_132": [
+    136.0,
+    100.0
+   ],
+   "MAPSEC_PACIFIDLOG_TOWN": [
+    148.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_131": [
+    164.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_130": [
+    188.0,
+    100.0
+   ],
+   "MAPSEC_ROUTE_129": [
+    208.0,
+    100.0
+   ],
+   "MAPSEC_LITTLEROOT_TOWN": [
+    44.0,
+    108.0
+   ],
+   "MAPSEC_ROUTE_109": [
+    76.0,
+    124.0
+   ],
+   "MAPSEC_BATTLE_FRONTIER": [
+    188.0,
+    116.0
+   ],
+   "MAPSEC_ROUTE_106": [
+    20.0,
+    124.0
+   ],
+   "MAPSEC_DEWFORD_TOWN": [
+    28.0,
+    132.0
+   ],
+   "MAPSEC_ROUTE_107": [
+    44.0,
+    132.0
+   ],
+   "MAPSEC_ROUTE_108": [
+    64.0,
+    132.0
+   ],
+   "MAPSEC_SOUTHERN_ISLAND": [
+    108.0,
+    132.0
+   ]
+  },
+  "names": {
+   "MAPSEC_ROUTE_114": "ROUTE 114",
+   "MAPSEC_FALLARBOR_TOWN": "FALLARBOR TOWN",
+   "MAPSEC_ROUTE_113": "ROUTE 113",
+   "MAPSEC_ROUTE_111": "ROUTE 111",
+   "MAPSEC_ROUTE_119": "ROUTE 119",
+   "MAPSEC_FORTREE_CITY": "FORTREE CITY",
+   "MAPSEC_ROUTE_120": "ROUTE 120",
+   "MAPSEC_MT_CHIMNEY": "MT. CHIMNEY",
+   "MAPSEC_ROUTE_115": "ROUTE 115",
+   "MAPSEC_SAFARI_ZONE": "SAFARI ZONE",
+   "MAPSEC_LAVARIDGE_TOWN": "LAVARIDGE TOWN",
+   "MAPSEC_ROUTE_112": "ROUTE 112",
+   "MAPSEC_ROUTE_121": "ROUTE 121",
+   "MAPSEC_LILYCOVE_CITY": "LILYCOVE CITY",
+   "MAPSEC_ROUTE_124": "ROUTE 124",
+   "MAPSEC_ROUTE_125": "ROUTE 125",
+   "MAPSEC_ROUTE_122": "ROUTE 122",
+   "MAPSEC_RUSTBORO_CITY": "RUSTBORO CITY",
+   "MAPSEC_ROUTE_116": "ROUTE 116",
+   "MAPSEC_MOSSDEEP_CITY": "MOSSDEEP CITY",
+   "MAPSEC_VERDANTURF_TOWN": "VERDANTURF TOWN",
+   "MAPSEC_ROUTE_117": "ROUTE 117",
+   "MAPSEC_MAUVILLE_CITY": "MAUVILLE CITY",
+   "MAPSEC_ROUTE_118": "ROUTE 118",
+   "MAPSEC_ROUTE_123": "ROUTE 123",
+   "MAPSEC_ROUTE_126": "ROUTE 126",
+   "MAPSEC_ROUTE_127": "ROUTE 127",
+   "MAPSEC_ROUTE_104": "ROUTE 104",
+   "MAPSEC_ROUTE_110": "ROUTE 110",
+   "MAPSEC_SOOTOPOLIS_CITY": "SOOTOPOLIS CITY",
+   "MAPSEC_ROUTE_103": "ROUTE 103",
+   "MAPSEC_EVER_GRANDE_CITY": "EVER GRANDE CITY",
+   "MAPSEC_PETALBURG_CITY": "PETALBURG CITY",
+   "MAPSEC_ROUTE_102": "ROUTE 102",
+   "MAPSEC_OLDALE_TOWN": "OLDALE TOWN",
+   "MAPSEC_ROUTE_128": "ROUTE 128",
+   "MAPSEC_ROUTE_105": "ROUTE 105",
+   "MAPSEC_ROUTE_101": "ROUTE 101",
+   "MAPSEC_SLATEPORT_CITY": "SLATEPORT CITY",
+   "MAPSEC_ROUTE_134": "ROUTE 134",
+   "MAPSEC_ROUTE_133": "ROUTE 133",
+   "MAPSEC_ROUTE_132": "ROUTE 132",
+   "MAPSEC_PACIFIDLOG_TOWN": "PACIFIDLOG TOWN",
+   "MAPSEC_ROUTE_131": "ROUTE 131",
+   "MAPSEC_ROUTE_130": "ROUTE 130",
+   "MAPSEC_ROUTE_129": "ROUTE 129",
+   "MAPSEC_LITTLEROOT_TOWN": "LITTLEROOT TOWN",
+   "MAPSEC_ROUTE_109": "ROUTE 109",
+   "MAPSEC_BATTLE_FRONTIER": "BATTLE FRONTIER",
+   "MAPSEC_ROUTE_106": "ROUTE 106",
+   "MAPSEC_DEWFORD_TOWN": "DEWFORD TOWN",
+   "MAPSEC_ROUTE_107": "ROUTE 107",
+   "MAPSEC_ROUTE_108": "ROUTE 108",
+   "MAPSEC_SOUTHERN_ISLAND": "SOUTHERN ISLAND"
+  }
+ }
+}

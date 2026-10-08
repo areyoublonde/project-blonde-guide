@@ -1,0 +1,499 @@
+{
+ "_about": "Device setup paths. Every instruction is checked against the emulator's own site (listed per device in `sources`) or, for mGBA on macOS, the installed app. Nothing here names a download location for the game itself.",
+ "terms": [
+  [
+   "Emulator",
+   "An app that plays Game Boy Advance games on your computer. mGBA is the one this guide uses."
+  ],
+  [
+   "Game file",
+   "Project Blonde itself: one file ending in .gba. You may see it called a ROM."
+  ],
+  [
+   "Save file",
+   "Your progress: a small file ending in .sav that sits beside the game file."
+  ],
+  [
+   "Save state",
+   "A snapshot the emulator takes of the exact moment. Handy, but not the same as saving your game — see step 5."
+  ]
+ ],
+ "devices": [
+  {
+   "id": "iphone",
+   "name": "iPhone & iPad",
+   "short": "iPhone",
+   "emulator": "Delta",
+   "emulator_note": "a free emulator by Testut Tech on the App Store.",
+   "requires": "iOS or iPadOS 14 or later",
+   "checked": "October 2026",
+   "sources": [
+    [
+     "Delta on the App Store",
+     "https://apps.apple.com/us/app/delta-game-emulator/id1048524688"
+    ],
+    [
+     "Delta FAQ: Get Delta",
+     "https://faq.deltaemulator.com/getting-started/get-delta"
+    ],
+    [
+     "Delta FAQ: Importing Games",
+     "https://faq.deltaemulator.com/getting-started/importing-games"
+    ],
+    [
+     "Delta FAQ: Delta Sync",
+     "https://faq.deltaemulator.com/using-delta/delta-sync"
+    ]
+   ],
+   "quick": [
+    "Install <b>Delta</b> from the App Store.",
+    "Save the Project Blonde <b>.gba</b> file to the Files app.",
+    "In Delta tap <b>+</b>, choose Files, and pick the game.",
+    "Play. Save from the game’s own START menu."
+   ],
+   "steps": [
+    {
+     "t": "Install Delta",
+     "p": [
+      "Open the <b>App Store</b>, search for <b>Delta – Game Emulator</b> by Testut Tech and install it. It is free.",
+      "In the European Union, Delta is distributed through <b>AltStore PAL</b> (altstore.io) rather than the App Store."
+     ],
+     "note": [
+      "One app, many consoles",
+      "Delta plays several classic systems. Project Blonde is a Game Boy Advance game and needs no extra files or BIOS."
+     ]
+    },
+    {
+     "t": "Put the game file on your device",
+     "p": [
+      "Get the Project Blonde <b>.gba</b> file onto your iPhone or iPad: download it in Safari, AirDrop it from a computer, or copy it into iCloud Drive. It lands in the <b>Files</b> app, usually under Downloads.",
+      "Delta imports <b>.gba</b> files. If your download is a .zip, tap it once in Files to unpack it first."
+     ]
+    },
+    {
+     "t": "Import it into Delta",
+     "p": [
+      "Open Delta and tap the <b>+</b> button in the top-right corner of the main screen. Choose <b>Files</b>, find the game and tap it.",
+      "Project Blonde appears on the Game Boy Advance page of your library. Tap it to play."
+     ]
+    },
+    {
+     "t": "Controls",
+     "p": [
+      "Delta shows an on-screen Game Boy Advance. Bluetooth controllers (PlayStation, Xbox, Switch and MFi) work once paired in iOS Settings.",
+      "START opens the game’s menu; in battle, START on the FIGHT menu is also how you Mega Evolve."
+     ]
+    },
+    {
+     "t": "Save the right way",
+     "p": [
+      "Save from <b>inside the game</b>: press START and choose <b>SAVE</b>, exactly as on a real Game Boy Advance. This writes your save file, the one that moves to another device or a newer version of the game.",
+      "Delta also has <b>save states</b> in its pause menu. They are a convenience that lives inside Delta; never rely on one as your only save."
+     ]
+    },
+    {
+     "t": "Back up, restore and sync",
+     "p": [
+      "<b>Export:</b> in the library, touch and hold Project Blonde and choose <b>Export Save File</b>. Save the .sav file to Files or iCloud Drive.",
+      "<b>Restore or move in:</b> touch and hold the game and choose <b>Import Save File</b>, then pick a .sav file.",
+      "<b>Automatic backup:</b> in Delta’s Settings open <b>Delta Sync</b>, tap <b>Service</b> and sign in to Google Drive or Dropbox. Delta then backs up your games and save files and restores them on another iPhone or iPad signed in to the same account."
+     ],
+     "note": [
+      "Bringing a save from a computer",
+      "mGBA writes saves that are 16 bytes longer than Delta expects (it appends clock data). A save made in mGBA must be trimmed to exactly 131,072 bytes before Delta will load it; a save exported from Delta opens in mGBA as it is. This was measured in the project’s own tests."
+     ]
+    }
+   ],
+   "problems": [
+    [
+     "I can’t find the game in the Files picker",
+     "It is usually in <b>On My iPhone → Downloads</b> or <b>iCloud Drive → Downloads</b>. If you see a .zip, tap it in the Files app first to unpack it."
+    ],
+    [
+     "My imported save doesn’t load",
+     "Delta only accepts a Game Boy Advance save of exactly 131,072 bytes. Saves written by mGBA are 131,088 bytes and must be trimmed. Saves exported from Delta are already the right size."
+    ],
+    [
+     "The clock in the game is wrong",
+     "Delta gives the game your device’s local time. Set the in-game clock at any Pokémon Center."
+    ],
+    [
+     "Can I link with a friend on Delta?",
+     "This guide has no verified way to use Project Blonde’s cable link on Delta. Delta’s documented multiplayer is local play for some home-console systems and online play for Nintendo DS games. See Link Play on the Play page."
+    ]
+   ],
+   "alternatives": []
+  },
+  {
+   "id": "android",
+   "name": "Android",
+   "short": "Android",
+   "emulator": "RetroArch",
+   "emulator_note": "a free, open-source front end that runs the mGBA emulator as a ‘core’.",
+   "requires": "an Android phone or tablet",
+   "checked": "October 2026",
+   "sources": [
+    [
+     "retroarch.com platforms",
+     "https://www.retroarch.com/?page=platforms"
+    ],
+    [
+     "Libretro docs: mGBA core",
+     "https://docs.libretro.com/library/mgba/"
+    ],
+    [
+     "mgba.io FAQ (no official Android build)",
+     "https://mgba.io/faq.html"
+    ]
+   ],
+   "quick": [
+    "Install <b>RetroArch</b> from retroarch.com.",
+    "Download the <b>mGBA</b> core inside RetroArch.",
+    "<b>Load Content</b> and pick the Project Blonde .gba file.",
+    "Play. Save from the game’s own START menu."
+   ],
+   "steps": [
+    {
+     "t": "Why RetroArch",
+     "p": [
+      "mGBA, the emulator this guide uses on computers, has <b>no official Android app</b>: its developers say so on their own site. RetroArch is an official, free, open-source app that runs the same mGBA emulator as a ‘core’, so the game behaves the same as on a computer.",
+      "There are many other Game Boy Advance emulators on Google Play. This guide has not tested Project Blonde on them and does not recommend one by name."
+     ]
+    },
+    {
+     "t": "Install RetroArch",
+     "p": [
+      "Go to <b>retroarch.com</b>, open <b>Platforms</b> and download the Android version, or install it from F-Droid, the Samsung Galaxy Store or the Amazon Appstore.",
+      "RetroArch’s own site says the Google Play version is out of date and recommends the download from its site or another store."
+     ],
+     "note": [
+      "Installing an APK",
+      "If you download the .apk from retroarch.com, Android asks you to allow your browser to install apps. That prompt is expected for apps from outside Google Play."
+     ]
+    },
+    {
+     "t": "Get the mGBA core",
+     "p": [
+      "Open RetroArch. Choose <b>Load Core → Download a Core</b> and pick <b>Nintendo – Game Boy Advance (mGBA)</b>.",
+      "A core is the part of RetroArch that knows how to be one particular console. You only do this once."
+     ]
+    },
+    {
+     "t": "Load Project Blonde",
+     "p": [
+      "Put the .gba file somewhere easy to find, such as your Download folder. In RetroArch choose <b>Load Content</b>, browse to the file and select it. If asked which core to use, choose mGBA.",
+      "The mGBA core loads <b>.gba</b> files directly."
+     ]
+    },
+    {
+     "t": "Save the right way",
+     "p": [
+      "Save from <b>inside the game</b>: press START and choose <b>SAVE</b>, exactly as on a real Game Boy Advance. This writes your save file, the one that moves to another device or a newer version of the game.",
+      "RetroArch also offers <b>save states</b> in its Quick Menu. They only work in RetroArch with the same core; treat them as a convenience."
+     ]
+    },
+    {
+     "t": "Back up your save",
+     "p": [
+      "With the mGBA core, your in-game save is a file ending in <b>.srm</b> with the same name as the game, kept in RetroArch’s <b>Save</b> directory. You can see or change that folder under <b>Settings → Directory → Save Files</b>.",
+      "Copy the .srm file somewhere safe with a file manager, and always before you update the game. It holds the same battery-save data that mGBA on a computer stores as .sav."
+     ],
+     "note": [
+      "Close the game properly",
+      "RetroArch writes the save file when you close the content or quit from its menu. Use <b>Quick Menu → Close Content</b> before swiping the app away."
+     ]
+    }
+   ],
+   "problems": [
+    [
+     "RetroArch can’t see my files",
+     "Grant it storage permission when asked, and keep the game in a normal folder such as Download rather than inside another app’s private storage."
+    ],
+    [
+     "There’s no mGBA in the list",
+     "Use <b>Load Core → Download a Core</b> first. If the list is empty, check your internet connection and try <b>Online Updater → Update Core Info Files</b>."
+    ],
+    [
+     "My progress vanished after an update",
+     "The save is matched by <b>file name</b>. Give the new .gba the same name as the old one, or rename the .srm to match the new file."
+    ],
+    [
+     "Can I link with a friend on Android?",
+     "The mGBA core in RetroArch does not support netplay or the link cable, according to its own documentation. This guide has no verified link setup on Android."
+    ]
+   ],
+   "alternatives": [
+    "Other Android emulators exist, including paid and free apps on Google Play. They were not tested with Project Blonde for this guide."
+   ]
+  },
+  {
+   "id": "windows",
+   "name": "Windows",
+   "short": "Windows",
+   "emulator": "mGBA",
+   "emulator_note": "a free, open-source Game Boy Advance emulator.",
+   "requires": "a Windows PC (64-bit or 32-bit builds are offered)",
+   "checked": "October 2026 (mGBA 0.10.5)",
+   "sources": [
+    [
+     "mgba.io Downloads",
+     "https://mgba.io/downloads.html"
+    ],
+    [
+     "mgba.io FAQ",
+     "https://mgba.io/faq.html"
+    ]
+   ],
+   "quick": [
+    "Download mGBA from <b>mgba.io</b>.",
+    "Open Project Blonde with <b>File → Load ROM…</b>",
+    "Play. Save from the game’s own START menu.",
+    "Keep a copy of the <b>.sav</b> file somewhere safe."
+   ],
+   "steps": [
+    {
+     "t": "Get mGBA",
+     "p": [
+      "Go to the official site, <b>mgba.io</b>, and open <b>Downloads</b>. Under Windows choose the 64-bit <b>installer</b>, or the portable archive if you would rather not install anything.",
+      "Run the installer, or unpack the archive into a folder of its own."
+     ]
+    },
+    {
+     "t": "Put the game somewhere permanent",
+     "p": [
+      "Make a folder for Project Blonde, in Documents for example, and move the .gba file into it.",
+      "Do not keep the game inside <b>Program Files</b>. mGBA’s own FAQ warns that Windows redirects saves written there to a hidden folder, which makes them hard to find."
+     ]
+    },
+    {
+     "t": "Open Project Blonde",
+     "p": [
+      "In mGBA choose <b>File → Load ROM…</b>, find the game and open it. The title screen appears straight away; no extra files are needed."
+     ]
+    },
+    {
+     "t": "Set your controls",
+     "p": [
+      "Open <b>Tools → Settings…</b>. <b>Keyboard</b> lets you choose a key for each button; <b>Controllers</b> does the same for a gamepad."
+     ]
+    },
+    {
+     "t": "Save the right way",
+     "p": [
+      "Save from <b>inside the game</b>: press START and choose <b>SAVE</b>, exactly as on a real Game Boy Advance. This writes your save file, the one that moves to another device or a newer version of the game.",
+      "mGBA can also take <b>save states</b> (File → Save State, or Quick save). They are useful before a hard battle, but they only work in mGBA. Treat them as a convenience, never as your only save."
+     ]
+    },
+    {
+     "t": "Back up your adventure",
+     "p": [
+      "Next to the game is a file with the same name ending in <b>.sav</b>. Copy it somewhere safe from time to time, and always before you update the game or change device.",
+      "If you move where saves go, the setting is under <b>Tools → Settings… → Paths</b>."
+     ]
+    }
+   ],
+   "problems": [
+    [
+     "The game opens but my progress is gone",
+     "mGBA looks for a .sav with exactly the same name as the game file, in the same folder. If you renamed or moved one of them, put them back together with matching names."
+    ],
+    [
+     "I can’t find my save file",
+     "If the game is inside Program Files, Windows may have redirected the save to <b>%LocalAppData%\\VirtualStore</b>. Move the game to Documents."
+    ]
+   ],
+   "alternatives": []
+  },
+  {
+   "id": "mac",
+   "name": "macOS",
+   "short": "Mac",
+   "emulator": "mGBA",
+   "requires": "macOS 10.13 or later",
+   "quick": [
+    "Install mGBA from mgba.io.",
+    "Open Project Blonde with File → Load ROM…",
+    "Play. Save from the game's own menu.",
+    "Keep a copy of the .sav file somewhere safe."
+   ],
+   "steps": [
+    {
+     "t": "Get mGBA",
+     "p": [
+      "Go to the official mGBA site, <b>mgba.io</b>, and open <b>Downloads</b>. Choose <b>macOS (modern, 10.13+)</b>.",
+      "Open the file you downloaded and drag <b>mGBA</b> into your Applications folder."
+     ],
+     "note": [
+      "The first time you open it",
+      "macOS may ask you to confirm that you want to open an app downloaded from the internet. That is expected for apps from outside the App Store."
+     ]
+    },
+    {
+     "t": "Put the game somewhere permanent",
+     "p": [
+      "Make a folder for Project Blonde — in Documents, for example — and move the game file into it.",
+      "mGBA keeps your save in the same folder as the game, so choose a place you won't tidy away later."
+     ]
+    },
+    {
+     "t": "Open Project Blonde",
+     "p": [
+      "In mGBA, choose <b>File → Load ROM…</b>, find the game file and open it. The title screen appears straight away; you don't need any extra files."
+     ]
+    },
+    {
+     "t": "Set your controls",
+     "p": [
+      "Open <b>Tools → Settings…</b>. <b>Keyboard</b> lets you choose a key for each button; <b>Controllers</b> does the same for a gamepad.",
+      "For a bigger picture, use <b>Audio/Video → Toggle fullscreen</b>."
+     ]
+    },
+    {
+     "t": "Save the right way",
+     "p": [
+      "Save from <b>inside the game</b>: press START and choose <b>SAVE</b>, exactly as on a real Game Boy Advance. This writes your save file, the one that moves to another device or a newer version of the game.",
+      "mGBA can also take <b>save states</b> (File → Save State, or Quick save). They are useful before a hard battle, but they only work in mGBA. Treat them as a convenience, never as your only save."
+     ]
+    },
+    {
+     "t": "Back up your adventure",
+     "p": [
+      "Look in your Project Blonde folder: next to the game is a file with the same name ending in <b>.sav</b>. Copy it somewhere safe from time to time — and always before you update the game or switch device.",
+      "If you ever change where saves go, the setting is under <b>Tools → Settings… → Paths</b>, in the <b>Save games</b> row. The default is the same folder as the game."
+     ]
+    }
+   ],
+   "problems": [
+    [
+     "The game opens but my progress is gone",
+     "mGBA looks for a .sav with exactly the same name as the game file, in the same folder. If you renamed or moved one of them, put them back together with matching names."
+    ],
+    [
+     "A button does nothing, or the character walks on its own",
+     "In <b>Tools → Settings… → Controllers</b>, click each direction's box and clear both the analog and the button entry, then set it again."
+    ]
+   ],
+   "emulator_note": "a free, open-source Game Boy Advance emulator.",
+   "checked": "October 2026 (mGBA 0.10.5 for macOS, menus read from the app)",
+   "sources": [
+    [
+     "mgba.io Downloads",
+     "https://mgba.io/downloads.html"
+    ],
+    [
+     "mgba.io FAQ",
+     "https://mgba.io/faq.html"
+    ]
+   ],
+   "alternatives": []
+  }
+ ],
+ "save": {
+  "title": "In-game save or save state?",
+  "lead": "They sound alike and behave very differently. Only one of them is your adventure.",
+  "rows": [
+   [
+    "In-game save",
+    "From the game's own menu.",
+    "A .sav file beside the game.",
+    "Moves between devices and game updates.",
+    "Use this. It is your adventure."
+   ],
+   [
+    "Save state",
+    "From the emulator's menu.",
+    "A snapshot inside that emulator.",
+    "Usually stays on that device and emulator.",
+    "A convenience. Never your only copy."
+   ]
+  ]
+ },
+ "topics": [
+  {
+   "id": "backup",
+   "label": "Back up",
+   "title": "Back up your save",
+   "text": [
+    "Your progress is one small file. Copy it before you update the game, change emulator or change device.",
+    "<b>mGBA (Windows, macOS):</b> the .sav file beside the game. <b>Delta:</b> touch and hold the game → Export Save File, or switch on Delta Sync. <b>RetroArch:</b> the .srm file in its Save directory."
+   ]
+  },
+  {
+   "id": "update",
+   "label": "Update",
+   "title": "Updating without losing progress",
+   "text": [
+    "A new version of Project Blonde is a new game file. Your save is separate and carries over; the last three builds were continued one into the next in testing."
+   ],
+   "steps": [
+    "Back up your save file first.",
+    "<b>mGBA:</b> put the new .gba in the same folder and give it <b>exactly the same name</b> as the old one (or rename the .sav to match the new file).",
+    "<b>Delta:</b> export the save, import the new game with <b>+</b>, then touch and hold it and choose <b>Import Save File</b>.",
+    "<b>RetroArch:</b> keep the same file name, or rename the .srm to match the new .gba.",
+    "Start the game and choose <b>Continue</b>."
+   ]
+  },
+  {
+   "id": "restore",
+   "label": "Restore",
+   "title": "Restoring a save",
+   "text": [
+    "Put the backed-up file back where the emulator looks for it, with the same name as the game: beside the .gba for mGBA, through Import Save File in Delta, or in the Save directory (as .srm) for RetroArch.",
+    "Save states cannot be restored into a different emulator, and may not survive a game update. The in-game save can."
+   ]
+  },
+  {
+   "id": "move",
+   "label": "Move",
+   "title": "Moving between devices",
+   "text": [
+    "The in-game save is the same battery-save data everywhere; only the file name and length differ.",
+    "<b>Delta → computer:</b> export the save and place it beside the game as <i>game name</i>.sav. <b>Computer → Delta:</b> mGBA’s save is 16 bytes longer than Delta accepts and must be trimmed to 131,072 bytes first. <b>RetroArch (mGBA core):</b> uses the extension .srm for the same data."
+   ]
+  },
+  {
+   "id": "link",
+   "label": "Link Play",
+   "title": "Link Play",
+   "text": [
+    "Two copies of Project Blonde with the same link version, <code>PB-LINK-0001</code>, can trade (including trade evolutions), fight Single and Double Battles, and both Mega Evolve. Other games and other link versions are refused. Record Mixing and the Union Room are not supported.",
+    "<b>Verified setup:</b> two mGBA instances on one computer. Open the game, then choose <b>File → New multiplayer window</b> and load the game in the second window with its own save file. Both players talk to the link receptionist in a Pokémon Center.",
+    "<b>Not verified:</b> Delta, RetroArch on Android, and play over the internet. The RetroArch mGBA core does not support the link cable. This guide makes no claim that those work."
+   ]
+  }
+ ],
+ "trouble": [
+  [
+   "The game shows a white or black screen",
+   "Check that the file ends in .gba and is the full 32 MB. A partly downloaded or still-zipped file will not start."
+  ],
+  [
+   "Continue is missing from the title menu",
+   "The emulator did not find your save. It is matched by file name: the save must have the same name as the game file and be where that emulator expects it."
+  ],
+  [
+   "The in-game clock is wrong or stuck",
+   "Set it at any Pokémon Center; there is no penalty. The game reads the clock from your device through the emulator."
+  ],
+  [
+   "A save state stopped working after I updated",
+   "Save states belong to one emulator and one game version. Use your in-game save, which carries over."
+  ],
+  [
+   "The game says the link partner is incompatible",
+   "Both players need the same Project Blonde version (link version PB-LINK-0001), and for battles the same battle options."
+  ],
+  [
+   "I walked into Viridian Forest and the game froze",
+   "That was a bug in build v100, fixed in v101. Update the game; your save is unaffected."
+  ],
+  [
+   "Rocks in Hoenn won’t smash",
+   "A bug in builds v100 and v101, fixed in v102."
+  ],
+  [
+   "A grunt blocks the Space Center stairs again",
+   "Fixed in v103. On an older build, leave the building and walk back in."
+  ]
+ ]
+}

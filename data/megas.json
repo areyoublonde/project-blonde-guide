@@ -1,0 +1,366 @@
+[
+ {
+  "stone": "Venusaurite",
+  "item_id": "ITEM_VENUSAURITE",
+  "mega": "SPECIES_VENUSAUR_MEGA",
+  "species": "SPECIES_VENUSAUR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Charizardite X",
+  "item_id": "ITEM_CHARIZARDITE_X",
+  "mega": "SPECIES_CHARIZARD_MEGA_X",
+  "species": "SPECIES_CHARIZARD",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Charizardite Y",
+  "item_id": "ITEM_CHARIZARDITE_Y",
+  "mega": "SPECIES_CHARIZARD_MEGA_Y",
+  "species": "SPECIES_CHARIZARD",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Blastoisinite",
+  "item_id": "ITEM_BLASTOISINITE",
+  "mega": "SPECIES_BLASTOISE_MEGA",
+  "species": "SPECIES_BLASTOISE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Beedrillite",
+  "item_id": "ITEM_BEEDRILLITE",
+  "mega": "SPECIES_BEEDRILL_MEGA",
+  "species": "SPECIES_BEEDRILL",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Pidgeotite",
+  "item_id": "ITEM_PIDGEOTITE",
+  "mega": "SPECIES_PIDGEOT_MEGA",
+  "species": "SPECIES_PIDGEOT",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Raichunite X",
+  "item_id": "ITEM_RAICHUNITE_X",
+  "mega": "SPECIES_RAICHU_MEGA_X",
+  "species": "SPECIES_RAICHU",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Raichunite Y",
+  "item_id": "ITEM_RAICHUNITE_Y",
+  "mega": "SPECIES_RAICHU_MEGA_Y",
+  "species": "SPECIES_RAICHU",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Clefablite",
+  "item_id": "ITEM_CLEFABLITE",
+  "mega": "SPECIES_CLEFABLE_MEGA",
+  "species": "SPECIES_CLEFABLE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Alakazite",
+  "item_id": "ITEM_ALAKAZITE",
+  "mega": "SPECIES_ALAKAZAM_MEGA",
+  "species": "SPECIES_ALAKAZAM",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Victreebelite",
+  "item_id": "ITEM_VICTREEBELITE",
+  "mega": "SPECIES_VICTREEBEL_MEGA",
+  "species": "SPECIES_VICTREEBEL",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Slowbronite",
+  "item_id": "ITEM_SLOWBRONITE",
+  "mega": "SPECIES_SLOWBRO_MEGA",
+  "species": "SPECIES_SLOWBRO",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Gengarite",
+  "item_id": "ITEM_GENGARITE",
+  "mega": "SPECIES_GENGAR_MEGA",
+  "species": "SPECIES_GENGAR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Steelixite",
+  "item_id": "ITEM_STEELIXITE",
+  "mega": "SPECIES_STEELIX_MEGA",
+  "species": "SPECIES_STEELIX",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Kangaskhanite",
+  "item_id": "ITEM_KANGASKHANITE",
+  "mega": "SPECIES_KANGASKHAN_MEGA",
+  "species": "SPECIES_KANGASKHAN",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Starminite",
+  "item_id": "ITEM_STARMINITE",
+  "mega": "SPECIES_STARMIE_MEGA",
+  "species": "SPECIES_STARMIE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Scizorite",
+  "item_id": "ITEM_SCIZORITE",
+  "mega": "SPECIES_SCIZOR_MEGA",
+  "species": "SPECIES_SCIZOR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Pinsirite",
+  "item_id": "ITEM_PINSIRITE",
+  "mega": "SPECIES_PINSIR_MEGA",
+  "species": "SPECIES_PINSIR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Gyaradosite",
+  "item_id": "ITEM_GYARADOSITE",
+  "mega": "SPECIES_GYARADOS_MEGA",
+  "species": "SPECIES_GYARADOS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Aerodactylite",
+  "item_id": "ITEM_AERODACTYLITE",
+  "mega": "SPECIES_AERODACTYL_MEGA",
+  "species": "SPECIES_AERODACTYL",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Dragoninite",
+  "item_id": "ITEM_DRAGONINITE",
+  "mega": "SPECIES_DRAGONITE_MEGA",
+  "species": "SPECIES_DRAGONITE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Mewtwonite X",
+  "item_id": "ITEM_MEWTWONITE_X",
+  "mega": "SPECIES_MEWTWO_MEGA_X",
+  "species": "SPECIES_MEWTWO",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Mewtwonite Y",
+  "item_id": "ITEM_MEWTWONITE_Y",
+  "mega": "SPECIES_MEWTWO_MEGA_Y",
+  "species": "SPECIES_MEWTWO",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Meganiumite",
+  "item_id": "ITEM_MEGANIUMITE",
+  "mega": "SPECIES_MEGANIUM_MEGA",
+  "species": "SPECIES_MEGANIUM",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Feraligite",
+  "item_id": "ITEM_FERALIGITE",
+  "mega": "SPECIES_FERALIGATR_MEGA",
+  "species": "SPECIES_FERALIGATR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Ampharosite",
+  "item_id": "ITEM_AMPHAROSITE",
+  "mega": "SPECIES_AMPHAROS_MEGA",
+  "species": "SPECIES_AMPHAROS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Heracronite",
+  "item_id": "ITEM_HERACRONITE",
+  "mega": "SPECIES_HERACROSS_MEGA",
+  "species": "SPECIES_HERACROSS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Skarmorite",
+  "item_id": "ITEM_SKARMORITE",
+  "mega": "SPECIES_SKARMORY_MEGA",
+  "species": "SPECIES_SKARMORY",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Houndoominite",
+  "item_id": "ITEM_HOUNDOOMINITE",
+  "mega": "SPECIES_HOUNDOOM_MEGA",
+  "species": "SPECIES_HOUNDOOM",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Tyranitarite",
+  "item_id": "ITEM_TYRANITARITE",
+  "mega": "SPECIES_TYRANITAR_MEGA",
+  "species": "SPECIES_TYRANITAR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Sceptilite",
+  "item_id": "ITEM_SCEPTILITE",
+  "mega": "SPECIES_SCEPTILE_MEGA",
+  "species": "SPECIES_SCEPTILE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Blazikenite",
+  "item_id": "ITEM_BLAZIKENITE",
+  "mega": "SPECIES_BLAZIKEN_MEGA",
+  "species": "SPECIES_BLAZIKEN",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Swampertite",
+  "item_id": "ITEM_SWAMPERTITE",
+  "mega": "SPECIES_SWAMPERT_MEGA",
+  "species": "SPECIES_SWAMPERT",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Gardevoirite",
+  "item_id": "ITEM_GARDEVOIRITE",
+  "mega": "SPECIES_GARDEVOIR_MEGA",
+  "species": "SPECIES_GARDEVOIR",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Sablenite",
+  "item_id": "ITEM_SABLENITE",
+  "mega": "SPECIES_SABLEYE_MEGA",
+  "species": "SPECIES_SABLEYE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Mawilite",
+  "item_id": "ITEM_MAWILITE",
+  "mega": "SPECIES_MAWILE_MEGA",
+  "species": "SPECIES_MAWILE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Aggronite",
+  "item_id": "ITEM_AGGRONITE",
+  "mega": "SPECIES_AGGRON_MEGA",
+  "species": "SPECIES_AGGRON",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Medichamite",
+  "item_id": "ITEM_MEDICHAMITE",
+  "mega": "SPECIES_MEDICHAM_MEGA",
+  "species": "SPECIES_MEDICHAM",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Manectite",
+  "item_id": "ITEM_MANECTITE",
+  "mega": "SPECIES_MANECTRIC_MEGA",
+  "species": "SPECIES_MANECTRIC",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Sharpedonite",
+  "item_id": "ITEM_SHARPEDONITE",
+  "mega": "SPECIES_SHARPEDO_MEGA",
+  "species": "SPECIES_SHARPEDO",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Cameruptite",
+  "item_id": "ITEM_CAMERUPTITE",
+  "mega": "SPECIES_CAMERUPT_MEGA",
+  "species": "SPECIES_CAMERUPT",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Altarianite",
+  "item_id": "ITEM_ALTARIANITE",
+  "mega": "SPECIES_ALTARIA_MEGA",
+  "species": "SPECIES_ALTARIA",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Banettite",
+  "item_id": "ITEM_BANETTITE",
+  "mega": "SPECIES_BANETTE_MEGA",
+  "species": "SPECIES_BANETTE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Chimechite",
+  "item_id": "ITEM_CHIMECHITE",
+  "mega": "SPECIES_CHIMECHO_MEGA",
+  "species": "SPECIES_CHIMECHO",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Absolite",
+  "item_id": "ITEM_ABSOLITE",
+  "mega": "SPECIES_ABSOL_MEGA",
+  "species": "SPECIES_ABSOL",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Absolite Z",
+  "item_id": "ITEM_ABSOLITE_Z",
+  "mega": "SPECIES_ABSOL_MEGA_Z",
+  "species": "SPECIES_ABSOL",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Glalitite",
+  "item_id": "ITEM_GLALITITE",
+  "mega": "SPECIES_GLALIE_MEGA",
+  "species": "SPECIES_GLALIE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Salamencite",
+  "item_id": "ITEM_SALAMENCITE",
+  "mega": "SPECIES_SALAMENCE_MEGA",
+  "species": "SPECIES_SALAMENCE",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Metagrossite",
+  "item_id": "ITEM_METAGROSSITE",
+  "mega": "SPECIES_METAGROSS_MEGA",
+  "species": "SPECIES_METAGROSS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Latiasite",
+  "item_id": "ITEM_LATIASITE",
+  "mega": "SPECIES_LATIAS_MEGA",
+  "species": "SPECIES_LATIAS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": "Latiosite",
+  "item_id": "ITEM_LATIOSITE",
+  "mega": "SPECIES_LATIOS_MEGA",
+  "species": "SPECIES_LATIOS",
+  "src": "src/data/pokemon/form_change_tables.h"
+ },
+ {
+  "stone": null,
+  "move": "Dragon Ascent",
+  "mega": "SPECIES_RAYQUAZA_MEGA",
+  "species": "SPECIES_RAYQUAZA",
+  "src": "src/data/pokemon/form_change_tables.h"
+ }
+]

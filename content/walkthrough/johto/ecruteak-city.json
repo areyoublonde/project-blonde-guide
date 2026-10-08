@@ -1,0 +1,442 @@
+{
+ "_provenance": {
+  "about": "Every factual element below maps to a current Project Blonde source file. Never rendered on the site.",
+  "arrival": "data/maps/Route37_hns/map.json (coord events -> EcruteakCity_EventScript_Trigger); data/maps/EcruteakCity_hns/scripts.inc",
+  "bill": "data/maps/EcruteakCity_PokemonCenter_hns/scripts.inc (EventScript_Bill, FLAG_SYS_PC_BILL)",
+  "dowsing": "data/maps/EcruteakCity_House2_hns/scripts.inc (ItemFinderMan -> ITEM_DOWSING_MACHINE)",
+  "theater": "data/maps/EcruteakCity_Theater_hns/{map.json,scripts.inc} (RocketEventTrigger, TRAINER_GRUNT_33_HNS, SurfGuy -> ITEM_HM_SURF)",
+  "tower": "data/maps/BurnedTower_1F_hns/scripts.inc (MeetEusine, EventScript_Silver, warphole); BurnedTower_B1F_hns/scripts.inc (ReleaseBeasts)",
+  "rival_team": "VAR_STARTER_MON set in data/maps/NewBarkTown_Lab_hns/scripts.inc (0 Chikorita, 1 Cyndaquil, 2 Totodile); teams in src/data/trainers_hns.party",
+  "gym_gate": "FLAG_HIDE_ECRUTEAK_CITY_SAGE on object at (20,49), set in BurnedTower_B1F ReleaseBeasts",
+  "gym": "data/maps/EcruteakCity_Gym_hns/{map.json,scripts.inc}; pit tiles = warp events returning to warp 1",
+  "gym_trainers_step_down": "data/scripts/set_gym_trainers.inc (EcruteakCity_Gym_SetGymTrainers_hns)",
+  "surf_badge": "src/field_move.c:46 (FLAG_BADGE04_GET); Morty's badge speech in gym scripts",
+  "tin_tower_gate": "data/maps/EcruteakCity_SageOffice1_hns/scripts.inc (SageA: checkitem ITEM_CLEAR_BELL)",
+  "night_pokemon": "EcruteakCity_hns/map.json object events with FLAG_NIGHT_POKEMON / FLAG_DAY_POKEMON",
+  "next": "EcruteakCity_hns/map.json connections + gate warps; NPC rumours in EcruteakCity_hns/scripts.inc"
+ },
+ "region": "johto",
+ "slug": "ecruteak-city",
+ "title": "Ecruteak City",
+ "subtitle": "& the Burned Tower",
+ "epigraph": "A Historical City — Where the Past Meets the Present",
+ "epigraph_source": "City sign",
+ "summary": "Find Morty at the Burned Tower, pick up Surf at the Dance Theater and win the Fog Badge.",
+ "meta": [
+  [
+   "Badge",
+   "Fog Badge"
+  ],
+  [
+   "Gym Leader",
+   "Morty"
+  ],
+  [
+   "Leader's ace",
+   "Lv. {morty_ace}"
+  ],
+  [
+   "Key reward",
+   "HM Surf"
+  ]
+ ],
+ "where": [
+  "Route 37 ends at a wooden gate, and beyond it the streets turn to old stone. Ecruteak is Johto's city of two towers: one burned long ago and still standing in ruins on the north-west terrace, the other rising behind a guarded gatehouse to the north.",
+  "Everything you need for this chapter is inside the city walls. The Gym is in the south-west corner, but you won't get in straight away — its Leader has gone to the Burned Tower, and a sage is minding the door until he's back."
+ ],
+ "objective": {
+  "title": "Win the Fog Badge",
+  "text": "The Gym door is blocked while Morty is away. Meet him inside the Burned Tower, see what's waiting in its basement, then come back and take on the Gym.",
+  "checks": [
+   "ecruteak-surf",
+   "ecruteak-rival",
+   "badge-fog"
+  ]
+ },
+ "quick": [
+  {
+   "t": "Heal at the Pokémon Center",
+   "d": "Speak to Bill by the counter while you're there."
+  },
+  {
+   "t": "Visit the Dance Theater",
+   "d": "Beat the Rocket Grunt on stage. The gentleman in the audience hands you <b>HM Surf</b>."
+  },
+  {
+   "t": "Enter the Burned Tower",
+   "d": "North-west terrace. Meet Eusine and Morty just inside."
+  },
+  {
+   "t": "Battle your Rival",
+   "d": "Walk toward the gap in the floor. After the battle the floor gives way."
+  },
+  {
+   "t": "Watch the basement scene",
+   "d": "Then climb the ladder in the north-east corner and leave the tower."
+  },
+  {
+   "t": "Clear the Ecruteak Gym",
+   "d": "South-west corner of the city. Follow the unseen path and defeat <b>Morty</b>."
+  },
+  {
+   "t": "Leave by the west gate",
+   "d": "Route 38 leads on toward Olivine City."
+  }
+ ],
+ "map": {
+  "id": "ecruteak-city",
+  "caption": "Ecruteak City, drawn from the game's own map data.",
+  "markers": [
+   {
+    "x": 20,
+    "y": 48,
+    "ev": "warp",
+    "kind": "objective",
+    "label": "Ecruteak Gym",
+    "note": "Blocked by a sage until you return from the Burned Tower."
+   },
+   {
+    "x": 22,
+    "y": 14,
+    "ev": "warp",
+    "kind": "objective",
+    "label": "Burned Tower",
+    "note": "Morty and Eusine are just inside."
+   },
+   {
+    "x": 39,
+    "y": 40,
+    "ev": "warp",
+    "kind": "objective",
+    "label": "Dance Theater",
+    "note": "Rocket Grunt, then HM Surf."
+   },
+   {
+    "x": 39,
+    "y": 47,
+    "ev": "warp",
+    "kind": "service",
+    "label": "Pokémon Center",
+    "note": "Bill is here on your first visit."
+   },
+   {
+    "x": 48,
+    "y": 40,
+    "ev": "warp",
+    "kind": "service",
+    "label": "Poké Mart"
+   },
+   {
+    "x": 28,
+    "y": 47,
+    "ev": "warp",
+    "kind": "item",
+    "label": "Dowsing Machine house",
+    "note": "Say yes to the man inside."
+   },
+   {
+    "x": 19,
+    "y": 15,
+    "ev": "object",
+    "kind": "item",
+    "label": "Rare Candy",
+    "note": "On the Burned Tower terrace."
+   },
+   {
+    "x": 39,
+    "y": 22,
+    "ev": "warp",
+    "kind": "optional",
+    "label": "Tin Tower gatehouse",
+    "note": "The sage won't let you past yet."
+   },
+   {
+    "x": 8,
+    "y": 35,
+    "ev": "warp",
+    "kind": "exit",
+    "label": "West gate → Route 38",
+    "note": "Onward to Olivine City."
+   },
+   {
+    "x": 55,
+    "y": 42,
+    "ev": "warp",
+    "kind": "exit",
+    "label": "East gate → Route 42"
+   },
+   {
+    "x": 33,
+    "y": 55,
+    "ev": "warp",
+    "kind": "exit",
+    "label": "South gate → Route 37"
+   }
+  ]
+ },
+ "steps": [
+  {
+   "id": "arrive",
+   "title": "Settle in",
+   "kicker": "City streets",
+   "body": [
+    "Start at the <b>Pokémon Center</b>, the red-roofed building in the middle of the south row. On your first visit a man is standing at the counter: that's <b>Bill</b>, who has just finished tuning the Storage System. Talk to him and he heads home to Goldenrod.",
+    "One door west of the Center is a small house with a single resident. He has a question for you — answer <b>Yes</b> and he gives you the <b>Dowsing Machine</b>, which pings when a hidden item is close by.",
+    "Before you leave the streets, climb the steps to the Burned Tower's terrace in the north-west. A <b>Rare Candy</b> is sitting out in the open, left of the tower door."
+   ],
+   "callouts": [
+    {
+     "type": "item",
+     "title": "Dowsing Machine",
+     "text": "Free from the man in the house west of the Pokémon Center. It tells you an item is near, not exactly where — you still have to search the spot yourself."
+    },
+    {
+     "type": "item",
+     "title": "Rare Candy",
+     "text": "Item ball on the Burned Tower terrace, just left of the entrance."
+    }
+   ]
+  },
+  {
+   "id": "theater",
+   "title": "The Dance Theater",
+   "kicker": "Centre of town",
+   "body": [
+    "The large hall in the middle of the city is the <b>Ecruteak Dance Theater</b>, home of the Kimono Girls. The first time you step inside, a Team Rocket Grunt is on the stage heckling the dancer.",
+    "Walk up and talk to him to start the battle. He isn't much of a threat, but he does carry two Full Restores, so expect the fight to drag a little.",
+    "Once he's gone, the <b>gentleman</b> in the audience is so impressed that he gives you <b>HM Surf</b>. If he doesn't approach you on your way out, just talk to him."
+   ],
+   "trainers": [
+    "TRAINER_GRUNT_33_HNS"
+   ],
+   "callouts": [
+    {
+     "type": "item",
+     "title": "HM Surf",
+     "text": "From the gentleman in the Dance Theater after you beat the Rocket Grunt. You can't Surf outside of battle until you hold the Fog Badge."
+    }
+   ]
+  },
+  {
+   "id": "tower",
+   "title": "The Burned Tower",
+   "kicker": "North-west terrace",
+   "body": [
+    "Go through the tower door and a stranger greets you at once. This is <b>Eusine</b>, who has spent years chasing a Pokémon called Suicune; <b>Morty</b> is here with him, investigating the tower. Neither of them will battle you.",
+    "Two Trainers are picking through the rubble on this floor — a Firebreather near the top and a Burglar on the west side — and there are two items worth the detour: an <b>HP Up</b> in the south-east and an <b>Ether</b> in the north-west.",
+    "When you're ready, walk toward the broken floor in the middle of the room. Your <b>Rival</b> is waiting beside it, and he is not in a good mood."
+   ],
+   "trainers": [
+    "TRAINER_NARD_HNS",
+    "TRAINER_RICHARDO_HNS"
+   ],
+   "boss": {
+    "id": "rival-burned-tower",
+    "title": "Rival",
+    "place": "Burned Tower 1F",
+    "variants": [
+     {
+      "label": "You chose Chikorita",
+      "trainer": "TRAINER_RIVAL_CYNDAQUIL_3_HNS"
+     },
+     {
+      "label": "You chose Cyndaquil",
+      "trainer": "TRAINER_RIVAL_TOTODILE_3_HNS"
+     },
+     {
+      "label": "You chose Totodile",
+      "trainer": "TRAINER_RIVAL_CHIKORITA_3_HNS"
+     }
+    ],
+    "strategy": [
+     "His strongest Pokémon is always the starter that has the edge over yours. Keep something in reserve that resists it.",
+     "Golbat knows Confuse Ray. Switching out clears the confusion if it starts costing you turns.",
+     "He carries one Super Potion, so don't be surprised if a nearly beaten Pokémon bounces back once."
+    ]
+   },
+   "after": [
+    "The moment the battle is over, the damaged floor gives way and you drop into the basement."
+   ],
+   "spoiler": {
+    "label": "What happens in the basement",
+    "body": [
+     "Three Pokémon are resting in the chamber below — <b>Raikou</b>, <b>Entei</b> and <b>Suicune</b>. As you land they stir, and each one bolts in a different direction before you can do a thing. Eusine runs in a moment too late and is thrilled anyway.",
+     "You can't battle them here. Wherever they've gone, they're no longer in the tower."
+    ]
+   },
+   "after2": [
+    "Before you climb out, look around the basement: an <b>Ultra Ball</b> lies on the west side, and <b>TM Taunt</b> is in the south-west corner. A pushable boulder sits near the TM — if it's in your way and you can't move it yet, come back later.",
+    "The ladder out is in the <b>north-east corner</b>. Back on the ground floor the hole you fell through stays open, and Morty and Eusine have gone."
+   ],
+   "callouts": [
+    {
+     "type": "item",
+     "title": "Burned Tower items",
+     "text": "1F: HP Up, Ether. B1F: Ultra Ball, TM Taunt."
+    }
+   ]
+  },
+  {
+   "id": "gym",
+   "title": "Ecruteak Gym",
+   "kicker": "South-west corner",
+   "body": [
+    "With the tower business finished, the sage outside the Gym is gone and the door is open.",
+    "Inside, the hall is pitch black apart from a few lit platforms. A narrow walkway links them, but you can't see it. Step off the edge and you're sent back to the entrance. Move one tile at a time and trust the line the platforms suggest — as one of the Gym Trainers puts it, the path is right in front of your eyes.",
+    "Four Trainers stand on the platforms. Each one is a short fight, and every one of them uses Ghost- or Dark-type Pokémon, and Normal- and Fighting-type moves pass straight through the ghosts."
+   ],
+   "trainers": [
+    "TRAINER_JEFFREY_HNS",
+    "TRAINER_MARTHA_HNS",
+    "TRAINER_PING_HNS",
+    "TRAINER_GRACE_HNS"
+   ],
+   "puzzle": {
+    "title": "The unseen path",
+    "text": "Every tile marked below is a pitfall that sends you back to the door. The safe route runs through the gaps between them.",
+    "map": "ecruteak-gym"
+   },
+   "callouts": [
+    {
+     "type": "missable",
+     "title": "Battle the Gym Trainers first",
+     "text": "Any Gym Trainer you haven't fought stands down for good once Morty is beaten. If you want the experience and prize money, take them on before the Leader."
+    }
+   ],
+   "boss": {
+    "id": "morty",
+    "title": "Gym Leader Morty",
+    "place": "Ecruteak Gym",
+    "tagline": "The Mystic Seer of the Future",
+    "page": "/trainers/johto/morty/",
+    "variants": [
+     {
+      "label": "",
+      "trainer": "TRAINER_MORTY_1_HNS"
+     }
+    ],
+    "rewards": [
+     "Fog Badge",
+     "TM Shadow Ball"
+    ],
+    "strategy": [
+     "Three of his four Pokémon know Hypnosis. Bring a way to cure sleep, or lead with a Pokémon that can't be put to sleep.",
+     "Stantler is the odd one out: a Normal-type among ghosts. Ghost-type moves won't touch it, but Fighting-type moves hit it hard. This is the \"mystic deer\" the Gym guide warns you about.",
+     "Misdreavus uses Perish Song. Count the turns and switch before the timer runs out.",
+     "Gengar is his ace and holds a Sitrus Berry. It pairs Mean Look with Hypnosis and Dream Eater, so don't leave a sleeping Pokémon in front of it — and don't bother with Ground-type moves, since it has Levitate.",
+     "Dark- and Ghost-type attacks are your best tools against the three ghosts."
+    ]
+   },
+   "after": [
+    "Morty hands over the <b>Fog Badge</b> and <b>TM Shadow Ball</b>. From now on you can use Surf outside of battle."
+   ]
+  }
+ ],
+ "encounters": [
+  {
+   "map": "BurnedTower_1F_hns",
+   "title": "Burned Tower 1F"
+  },
+  {
+   "map": "BurnedTower_B1F_hns",
+   "title": "Burned Tower B1F"
+  },
+  {
+   "map": "EcruteakCity_hns",
+   "title": "Ecruteak City",
+   "note": "The city's ponds, once you can Surf or fish."
+  }
+ ],
+ "items": [
+  {
+   "name": "Rare Candy",
+   "where": "Burned Tower terrace, left of the door",
+   "map": "EcruteakCity_hns",
+   "how": "ball"
+  },
+  {
+   "name": "Dowsing Machine",
+   "where": "House west of the Pokémon Center — answer Yes",
+   "how": "gift",
+   "key": true
+  },
+  {
+   "name": "HM Surf",
+   "where": "Dance Theater, from the gentleman after the Rocket battle",
+   "how": "gift",
+   "key": true
+  },
+  {
+   "name": "HP Up",
+   "where": "Burned Tower 1F, south-east",
+   "map": "BurnedTower_1F_hns",
+   "how": "ball"
+  },
+  {
+   "name": "Ether",
+   "where": "Burned Tower 1F, north-west",
+   "map": "BurnedTower_1F_hns",
+   "how": "ball"
+  },
+  {
+   "name": "Ultra Ball",
+   "where": "Burned Tower B1F, west side",
+   "map": "BurnedTower_B1F_hns",
+   "how": "ball"
+  },
+  {
+   "name": "TM Taunt",
+   "where": "Burned Tower B1F, south-west corner",
+   "map": "BurnedTower_B1F_hns",
+   "how": "ball"
+  },
+  {
+   "name": "TM Shadow Ball",
+   "where": "From Morty, with the Fog Badge",
+   "how": "gift",
+   "key": true
+  }
+ ],
+ "optional": [
+  {
+   "title": "Ecruteak after dark",
+   "text": "Visit at night and the streets fill with Gastly, Haunter and Misdreavus drifting between the lanterns. They're only there for atmosphere — you can't battle them — but it's the best time to see the city."
+  },
+  {
+   "title": "The Tin Tower gatehouse",
+   "text": "The tall building at the north end of the city is the barrier station to the Tin Tower. The sage inside turns you away for now. Remember where it is; you'll be back."
+  },
+  {
+   "title": "Listen to the locals",
+   "text": "Two rumours are doing the rounds: the Pokémon that lights Olivine's Lighthouse has fallen ill, and something is rampaging at the Lake of Rage. Both are places you'll be visiting."
+  }
+ ],
+ "unlocks": [
+  {
+   "title": "Surf in the field",
+   "text": "The Fog Badge lets you use Surf outside of battle. Water routes are now open to you."
+  },
+  {
+   "title": "Level 50 obedience",
+   "text": "Morty tells you Pokémon up to Lv. 50 will now obey you."
+  },
+  {
+   "title": "Bill's PC",
+   "text": "After you meet Bill in the Pokémon Center, the Storage System carries his name."
+  },
+  {
+   "title": "Three roaming legends",
+   "text": "The three Pokémon from the Burned Tower basement have left the city.",
+   "spoiler": true
+  }
+ ],
+ "next": {
+  "title": "Olivine City",
+  "via": "West gate → Route 38 → Route 39",
+  "text": "Take the gatehouse on the west side of the city, past the pair of stone lanterns. Routes 38 and 39 run past farmland down to the coast and Olivine City, where the Lighthouse rumour is waiting to be looked into.",
+  "chapter": "olivine-city",
+  "alt": "The east gate opens onto Route 42 and the road toward Mahogany Town, if you'd rather explore first."
+ },
+ "plate": "ecruteak-towers",
+ "plate_wide": "ecruteak-streets"
+}

@@ -1,0 +1,5168 @@
+{
+ "None": {
+  "id": "ITEM_NONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Strange Ball": {
+  "id": "ITEM_STRANGE_BALL",
+  "desc": "An unusual Ball  warped through  space and time.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Poke Ball": {
+  "id": "ITEM_POKE_BALL",
+  "desc": "A tool used for  catching wild  Pokémon.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Great Ball": {
+  "id": "ITEM_GREAT_BALL",
+  "desc": "A good Ball with a  higher catch rate  than a Poké Ball.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Ultra Ball": {
+  "id": "ITEM_ULTRA_BALL",
+  "desc": "A better Ball with  a higher catch rate  than a Great Ball.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Master Ball": {
+  "id": "ITEM_MASTER_BALL",
+  "desc": "The best Ball that  catches a Pokémon  without fail.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Premier Ball": {
+  "id": "ITEM_PREMIER_BALL",
+  "desc": "A rare Ball made  in commemoration  of some event.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Heal Ball": {
+  "id": "ITEM_HEAL_BALL",
+  "desc": "A remedial Ball  that restores  caught Pokémon.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Net Ball": {
+  "id": "ITEM_NET_BALL",
+  "desc": "A Ball that works  well on Water- and  Bug-type Pokémon.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Nest Ball": {
+  "id": "ITEM_NEST_BALL",
+  "desc": "A Ball that works  better on weaker  Pokémon.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Dive Ball": {
+  "id": "ITEM_DIVE_BALL",
+  "desc": "A Ball that works  better on Pokémon  on the ocean floor.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Dusk Ball": {
+  "id": "ITEM_DUSK_BALL",
+  "desc": "Works well if  used in a  dark place.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Timer Ball": {
+  "id": "ITEM_TIMER_BALL",
+  "desc": "A Ball that gains  power in battles  taking many turns.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Quick Ball": {
+  "id": "ITEM_QUICK_BALL",
+  "desc": "Works well if  used on the  first turn.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Repeat Ball": {
+  "id": "ITEM_REPEAT_BALL",
+  "desc": "A Ball that works  better on Pokémon  caught before.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Luxury Ball": {
+  "id": "ITEM_LUXURY_BALL",
+  "desc": "A cozy Ball that  makes Pokémon  more friendly.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Level Ball": {
+  "id": "ITEM_LEVEL_BALL",
+  "desc": "Good for NORMAL,  FLYING, ICE, and  low level POKéMON.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Lure Ball": {
+  "id": "ITEM_LURE_BALL",
+  "desc": "Good for WATER,  DRAGON, and fished  up POKéMON.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Moon Ball": {
+  "id": "ITEM_MOON_BALL",
+  "desc": "Good for DARK,  GHOST, POISON, and  MOON STONE users.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Friend Ball": {
+  "id": "ITEM_FRIEND_BALL",
+  "desc": "Good for BUG,  GRASS, and making  POKéMON friendly.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Love Ball": {
+  "id": "ITEM_LOVE_BALL",
+  "desc": "Good for PSYCHIC,  FAIRY, and the  opposite gender.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Fast Ball": {
+  "id": "ITEM_FAST_BALL",
+  "desc": "Good for fast, FIRE,  ELECTRIC, and  FIGHTING POKéMON.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Heavy Ball": {
+  "id": "ITEM_HEAVY_BALL",
+  "desc": "Good for ROCK,  GROUND, STEEL, and  Heavy POKéMON.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Dream Ball": {
+  "id": "ITEM_DREAM_BALL",
+  "desc": "A Ball that works  well on sleeping  Pokémon.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Safari Ball": {
+  "id": "ITEM_SAFARI_BALL",
+  "desc": "A special Ball that  is used only in the  Safari Zone.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Sport Ball": {
+  "id": "ITEM_SPORT_BALL",
+  "desc": "A special Ball  used in the Bug-  Catching Contest.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Park Ball": {
+  "id": "ITEM_PARK_BALL",
+  "desc": "A special Ball for  the Pal Park.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Beast Ball": {
+  "id": "ITEM_BEAST_BALL",
+  "desc": "A Ball designed to  catch Ultra Beasts.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Cherish Ball": {
+  "id": "ITEM_CHERISH_BALL",
+  "desc": "A rare Ball made  in commemoration  of some event.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Potion": {
+  "id": "ITEM_POTION",
+  "desc": "Restores the HP of  a Pokémon by  20 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Super Potion": {
+  "id": "ITEM_SUPER_POTION",
+  "desc": "Restores the HP of  a Pokémon by  60 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Hyper Potion": {
+  "id": "ITEM_HYPER_POTION",
+  "desc": "Restores the HP of  a Pokémon by  120 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Max Potion": {
+  "id": "ITEM_MAX_POTION",
+  "desc": "Fully restores the  HP of a Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Full Restore": {
+  "id": "ITEM_FULL_RESTORE",
+  "desc": "Fully restores the  HP and status of a  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Revive": {
+  "id": "ITEM_REVIVE",
+  "desc": "Revives a fainted  Pokémon with half  its HP.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Max Revive": {
+  "id": "ITEM_MAX_REVIVE",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Fresh Water": {
+  "id": "ITEM_FRESH_WATER",
+  "desc": "A mineral water  that restores HP  by 30 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Soda Pop": {
+  "id": "ITEM_SODA_POP",
+  "desc": "A fizzy soda drink  that restores HP  by 50 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Lemonade": {
+  "id": "ITEM_LEMONADE",
+  "desc": "A very sweet drink  that restores HP  by 70 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Moomoo Milk": {
+  "id": "ITEM_MOOMOO_MILK",
+  "desc": "A nutritious milk  that restores HP  by 100 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Energy Powder": {
+  "id": "ITEM_ENERGY_POWDER",
+  "desc": "A bitter powder  that restores HP  by 60 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Energy Root": {
+  "id": "ITEM_ENERGY_ROOT",
+  "desc": "A bitter root  that restores HP  by 120 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Heal Powder": {
+  "id": "ITEM_HEAL_POWDER",
+  "desc": "A bitter powder  that heals all  status problems.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Revival Herb": {
+  "id": "ITEM_REVIVAL_HERB",
+  "desc": "A very bitter herb  that revives a  fainted Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Antidote": {
+  "id": "ITEM_ANTIDOTE",
+  "desc": "Heals a poisoned  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Paralyze Heal": {
+  "id": "ITEM_PARALYZE_HEAL",
+  "desc": "Heals a paralyzed  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Burn Heal": {
+  "id": "ITEM_BURN_HEAL",
+  "desc": "Heals Pokémon  of a burn.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Ice Heal": {
+  "id": "ITEM_ICE_HEAL",
+  "desc": "Defrosts a frozen  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Awakening": {
+  "id": "ITEM_AWAKENING",
+  "desc": "Awakens a sleeping  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Full Heal": {
+  "id": "ITEM_FULL_HEAL",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Ether": {
+  "id": "ITEM_ETHER",
+  "desc": "Restores the PP  of a selected move  by 10.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Max Ether": {
+  "id": "ITEM_MAX_ETHER",
+  "desc": "Fully restores the  PP of a selected  move.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Elixir": {
+  "id": "ITEM_ELIXIR",
+  "desc": "Restores the PP  of all moves by 10.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Max Elixir": {
+  "id": "ITEM_MAX_ELIXIR",
+  "desc": "Fully restores the  PP of a Pokémon's  moves.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Berry Juice": {
+  "id": "ITEM_BERRY_JUICE",
+  "desc": "A 100% pure juice  that restores HP  by 20 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Sacred Ash": {
+  "id": "ITEM_SACRED_ASH",
+  "desc": "Fully revives and  restores all  fainted Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Sweet Heart": {
+  "id": "ITEM_SWEET_HEART",
+  "desc": "A sweet chocolate  that restores HP  by 20 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Max Honey": {
+  "id": "ITEM_MAX_HONEY",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Pewter Crunchies": {
+  "id": "ITEM_PEWTER_CRUNCHIES",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Rage Candy Bar": {
+  "id": "ITEM_RAGE_CANDY_BAR",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Lava Cookie": {
+  "id": "ITEM_LAVA_COOKIE",
+  "desc": "A local specialty  that heals all  status problems.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Old Gateau": {
+  "id": "ITEM_OLD_GATEAU",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Casteliacone": {
+  "id": "ITEM_CASTELIACONE",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Lumiose Galette": {
+  "id": "ITEM_LUMIOSE_GALETTE",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Shalour Sable": {
+  "id": "ITEM_SHALOUR_SABLE",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Big Malasada": {
+  "id": "ITEM_BIG_MALASADA",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "HP Up": {
+  "id": "ITEM_HP_UP",
+  "desc": "Raises the base HP  of one Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Protein": {
+  "id": "ITEM_PROTEIN",
+  "desc": "Raises the base  Attack stat of one  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Iron": {
+  "id": "ITEM_IRON",
+  "desc": "Raises the base  Defense stat of  one Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Calcium": {
+  "id": "ITEM_CALCIUM",
+  "desc": "Raises the base  Sp. Atk stat of one  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Zinc": {
+  "id": "ITEM_ZINC",
+  "desc": "Raises the base  Sp. Def stat of one  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Carbos": {
+  "id": "ITEM_CARBOS",
+  "desc": "Raises the base  Speed stat of one  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "PP Up": {
+  "id": "ITEM_PP_UP",
+  "desc": "Raises the maximum  PP of a selected  move.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "PP Max": {
+  "id": "ITEM_PP_MAX",
+  "desc": "Raises the PP of a  move to its maximum  points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Health Feather": {
+  "id": "ITEM_HEALTH_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Muscle Feather": {
+  "id": "ITEM_MUSCLE_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Resist Feather": {
+  "id": "ITEM_RESIST_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Genius Feather": {
+  "id": "ITEM_GENIUS_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Clever Feather": {
+  "id": "ITEM_CLEVER_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Swift Feather": {
+  "id": "ITEM_SWIFT_FEATHER",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ability Capsule": {
+  "id": "ITEM_ABILITY_CAPSULE",
+  "desc": "Switches a Poké-  mon's ability.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ability Patch": {
+  "id": "ITEM_ABILITY_PATCH",
+  "desc": "Turns the ability  of a Pokémon into  a rare ability.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lonely Mint": {
+  "id": "ITEM_LONELY_MINT",
+  "desc": "Can be smelled. It  ups Attack, but  reduces Defense.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Adamant Mint": {
+  "id": "ITEM_ADAMANT_MINT",
+  "desc": "Can be smelled. It  ups Attack, but  reduces Sp. Atk.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Naughty Mint": {
+  "id": "ITEM_NAUGHTY_MINT",
+  "desc": "Can be smelled. It  ups Attack, but  reduces Sp. Def.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Brave Mint": {
+  "id": "ITEM_BRAVE_MINT",
+  "desc": "Can be smelled. It  ups Attack, but  reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Bold Mint": {
+  "id": "ITEM_BOLD_MINT",
+  "desc": "Can be smelled. It  ups Defense, but  reduces Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Impish Mint": {
+  "id": "ITEM_IMPISH_MINT",
+  "desc": "Can be smelled. It  ups Defense, but  reduces Sp. Atk.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lax Mint": {
+  "id": "ITEM_LAX_MINT",
+  "desc": "Can be smelled. It  ups Defense, but  reduces Sp. Def.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Relaxed Mint": {
+  "id": "ITEM_RELAXED_MINT",
+  "desc": "Can be smelled. It  ups Defense, but  reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Modest Mint": {
+  "id": "ITEM_MODEST_MINT",
+  "desc": "Can be smelled. It  ups Sp. Atk, but  reduces Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mild Mint": {
+  "id": "ITEM_MILD_MINT",
+  "desc": "Can be smelled. It  ups Sp. Atk, but  reduces Defense.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rash Mint": {
+  "id": "ITEM_RASH_MINT",
+  "desc": "Can be smelled. It  ups Sp. Atk, but  reduces Sp. Def.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Quiet Mint": {
+  "id": "ITEM_QUIET_MINT",
+  "desc": "Can be smelled. It  ups Sp. Atk, but  reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Calm Mint": {
+  "id": "ITEM_CALM_MINT",
+  "desc": "Can be smelled. It  ups Sp. Def, but  reduces Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gentle Mint": {
+  "id": "ITEM_GENTLE_MINT",
+  "desc": "Can be smelled. It  ups Sp. Def, but  reduces Defense.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Careful Mint": {
+  "id": "ITEM_CAREFUL_MINT",
+  "desc": "Can be smelled. It  ups Sp. Def, but  reduces Sp. Atk.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sassy Mint": {
+  "id": "ITEM_SASSY_MINT",
+  "desc": "Can be smelled. It  ups Sp. Def, but  reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Timid Mint": {
+  "id": "ITEM_TIMID_MINT",
+  "desc": "Can be smelled. It  ups Speed, but  reduces Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Hasty Mint": {
+  "id": "ITEM_HASTY_MINT",
+  "desc": "Can be smelled. It  ups Speed, but  reduces Defense.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Jolly Mint": {
+  "id": "ITEM_JOLLY_MINT",
+  "desc": "Can be smelled. It  ups Speed, but  reduces Sp. Atk.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Naive Mint": {
+  "id": "ITEM_NAIVE_MINT",
+  "desc": "Can be smelled. It  ups Speed, but  reduces Sp. Def.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Serious Mint": {
+  "id": "ITEM_SERIOUS_MINT",
+  "desc": "Can be smelled. It  makes each stat  grow equally.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rare Candy": {
+  "id": "ITEM_RARE_CANDY",
+  "desc": "Raises the level  of a Pokémon by  one.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Exp Candy Xs": {
+  "id": "ITEM_EXP_CANDY_XS",
+  "desc": "Gives a very small  amount of Exp. to  a single Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Exp Candy S": {
+  "id": "ITEM_EXP_CANDY_S",
+  "desc": "Gives a small  amount of Exp. to  a single Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Exp Candy M": {
+  "id": "ITEM_EXP_CANDY_M",
+  "desc": "Gives a moderate  amount of Exp. to  a single Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Exp Candy L": {
+  "id": "ITEM_EXP_CANDY_L",
+  "desc": "Gives a large  amount of Exp. to  a single Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Exp Candy Xl": {
+  "id": "ITEM_EXP_CANDY_XL",
+  "desc": "Gives a very large  amount of Exp. to  a single Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Dynamax Candy": {
+  "id": "ITEM_DYNAMAX_CANDY",
+  "desc": "Raises the Dynamax  Level of a single  Pokémon by one.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Blue Flute": {
+  "id": "ITEM_BLUE_FLUTE",
+  "desc": "A glass flute that  awakens sleeping  Pokémon.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Yellow Flute": {
+  "id": "ITEM_YELLOW_FLUTE",
+  "desc": "A glass flute that  snaps Pokémon  out of confusion.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Red Flute": {
+  "id": "ITEM_RED_FLUTE",
+  "desc": "A glass flute that  snaps Pokémon  out of attraction.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Black Flute": {
+  "id": "ITEM_BLACK_FLUTE",
+  "desc": "A glass flute that  keeps away wild  Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "White Flute": {
+  "id": "ITEM_WHITE_FLUTE",
+  "desc": "A glass flute that  lures wild Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Repel": {
+  "id": "ITEM_REPEL",
+  "desc": "Repels weak wild  Pokémon for 100  steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Super Repel": {
+  "id": "ITEM_SUPER_REPEL",
+  "desc": "Repels weak wild  Pokémon for 200  steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Max Repel": {
+  "id": "ITEM_MAX_REPEL",
+  "desc": "Repels weak wild  Pokémon for 250  steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lure": {
+  "id": "ITEM_LURE",
+  "desc": "Makes Pokémon more  likely to appear  for 100 steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Super Lure": {
+  "id": "ITEM_SUPER_LURE",
+  "desc": "Makes Pokémon more  likely to appear  for 200 steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Max Lure": {
+  "id": "ITEM_MAX_LURE",
+  "desc": "Makes Pokémon more  likely to appear  for 250 steps.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Escape Rope": {
+  "id": "ITEM_ESCAPE_ROPE",
+  "desc": "Use to escape  instantly from a  cave or a dungeon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "X Attack": {
+  "id": "ITEM_X_ATTACK",
+  "desc": "Sharply raises stat  Attack during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "X Defense": {
+  "id": "ITEM_X_DEFENSE",
+  "desc": "Sharply raises stat  Defense during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "X Sp Atk": {
+  "id": "ITEM_X_SP_ATK",
+  "desc": "Sharply raises stat  Sp. Atk during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "X Sp Def": {
+  "id": "ITEM_X_SP_DEF",
+  "desc": "Sharply raises stat  Sp. Def during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "X Speed": {
+  "id": "ITEM_X_SPEED",
+  "desc": "Sharply raises stat  Speed during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "X Accuracy": {
+  "id": "ITEM_X_ACCURACY",
+  "desc": "Sharply raises move  accuracy during  one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Dire Hit": {
+  "id": "ITEM_DIRE_HIT",
+  "desc": "Raises the  critical-hit ratio  during one battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Guard Spec": {
+  "id": "ITEM_GUARD_SPEC",
+  "desc": "Prevents stat  reduction when  used in battle.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Poke Doll": {
+  "id": "ITEM_POKE_DOLL",
+  "desc": null,
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Fluffy Tail": {
+  "id": "ITEM_FLUFFY_TAIL",
+  "desc": null,
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Poke Toy": {
+  "id": "ITEM_POKE_TOY",
+  "desc": null,
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Max Mushrooms": {
+  "id": "ITEM_MAX_MUSHROOMS",
+  "desc": "Raises every stat  during one battle  by one stage.",
+  "pocket": "Battle Items",
+  "src": "src/data/items.h"
+ },
+ "Bottle Cap": {
+  "id": "ITEM_BOTTLE_CAP",
+  "desc": "A beautiful bottle  cap that gives off  a silver gleam.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gold Bottle Cap": {
+  "id": "ITEM_GOLD_BOTTLE_CAP",
+  "desc": "A beautiful bottle  cap that gives off  a golden gleam.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Nugget": {
+  "id": "ITEM_NUGGET",
+  "desc": "A nugget of pure  gold. Can be sold at  a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Big Nugget": {
+  "id": "ITEM_BIG_NUGGET",
+  "desc": "A big nugget made  of gold, sellable  at a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Tiny Mushroom": {
+  "id": "ITEM_TINY_MUSHROOM",
+  "desc": "A plain mushroom  that would sell  at a cheap price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Big Mushroom": {
+  "id": "ITEM_BIG_MUSHROOM",
+  "desc": null,
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Balm Mushroom": {
+  "id": "ITEM_BALM_MUSHROOM",
+  "desc": null,
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Pearl": {
+  "id": "ITEM_PEARL",
+  "desc": "A pretty pearl  that would sell at a  cheap price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Big Pearl": {
+  "id": "ITEM_BIG_PEARL",
+  "desc": "A lovely large pearl  that would sell at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Pearl String": {
+  "id": "ITEM_PEARL_STRING",
+  "desc": "Very large pearls  that would sell at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Stardust": {
+  "id": "ITEM_STARDUST",
+  "desc": "Beautiful red sand.  Can be sold at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Star Piece": {
+  "id": "ITEM_STAR_PIECE",
+  "desc": "A red gem shard.  It would sell for a  very high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Comet Shard": {
+  "id": "ITEM_COMET_SHARD",
+  "desc": "A comet's shard.  It would sell for a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Shoal Salt": {
+  "id": "ITEM_SHOAL_SALT",
+  "desc": "Salt obtained from  deep inside the  Shoal Cave.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Shoal Shell": {
+  "id": "ITEM_SHOAL_SHELL",
+  "desc": "A seashell found  deep inside the  Shoal Cave.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Red Shard": {
+  "id": "ITEM_RED_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blue Shard": {
+  "id": "ITEM_BLUE_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Yellow Shard": {
+  "id": "ITEM_YELLOW_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Green Shard": {
+  "id": "ITEM_GREEN_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Heart Scale": {
+  "id": "ITEM_HEART_SCALE",
+  "desc": "A lovely scale.  It is coveted by  collectors.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Honey": {
+  "id": "ITEM_HONEY",
+  "desc": "Sweet honey that  attracts wild  Pokémon when used.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rare Bone": {
+  "id": "ITEM_RARE_BONE",
+  "desc": "A very rare bone.  It can be sold at  a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Odd Keystone": {
+  "id": "ITEM_ODD_KEYSTONE",
+  "desc": "Voices can be heard  from this odd stone  occasionally.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pretty Feather": {
+  "id": "ITEM_PRETTY_FEATHER",
+  "desc": "A beautiful yet  plain feather that  does nothing.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Copper": {
+  "id": "ITEM_RELIC_COPPER",
+  "desc": "A copper coin used  long ago. It sells  at a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Silver": {
+  "id": "ITEM_RELIC_SILVER",
+  "desc": "A silver coin used  long ago. It sells  at a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Gold": {
+  "id": "ITEM_RELIC_GOLD",
+  "desc": "A gold coin used  long ago. It sells  at a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Vase": {
+  "id": "ITEM_RELIC_VASE",
+  "desc": "A vase made long  ago. It sells at  a high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Band": {
+  "id": "ITEM_RELIC_BAND",
+  "desc": "An old bracelet.  It sells at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Statue": {
+  "id": "ITEM_RELIC_STATUE",
+  "desc": "An old statue.  It sells at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Relic Crown": {
+  "id": "ITEM_RELIC_CROWN",
+  "desc": "An old crown.  It sells at a  high price.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Strange Souvenir": {
+  "id": "ITEM_STRANGE_SOUVENIR",
+  "desc": "An ornament that  depicts a Pokémon  from ALOLA.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Helix Fossil": {
+  "id": "ITEM_HELIX_FOSSIL",
+  "desc": "A piece of an  ancient marine  Pokémon's seashell.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dome Fossil": {
+  "id": "ITEM_DOME_FOSSIL",
+  "desc": "A piece of an  ancient marine  Pokémon's shell.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Old Amber": {
+  "id": "ITEM_OLD_AMBER",
+  "desc": "A stone containing  the genes of an  ancient Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Root Fossil": {
+  "id": "ITEM_ROOT_FOSSIL",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Claw Fossil": {
+  "id": "ITEM_CLAW_FOSSIL",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Armor Fossil": {
+  "id": "ITEM_ARMOR_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's head.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Skull Fossil": {
+  "id": "ITEM_SKULL_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's collar.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cover Fossil": {
+  "id": "ITEM_COVER_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's back.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Plume Fossil": {
+  "id": "ITEM_PLUME_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's wing.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Jaw Fossil": {
+  "id": "ITEM_JAW_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's large jaw.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sail Fossil": {
+  "id": "ITEM_SAIL_FOSSIL",
+  "desc": "A piece of a  prehistoric Poké-  mon's skin sail.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fossilized Bird": {
+  "id": "ITEM_FOSSILIZED_BIRD",
+  "desc": "A fossil of an  ancient, sky-  soaring Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fossilized Fish": {
+  "id": "ITEM_FOSSILIZED_FISH",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fossilized Drake": {
+  "id": "ITEM_FOSSILIZED_DRAKE",
+  "desc": "A fossil of an  ancient, land-  roaming Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fossilized Dino": {
+  "id": "ITEM_FOSSILIZED_DINO",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Growth Mulch": {
+  "id": "ITEM_GROWTH_MULCH",
+  "desc": "A fertilizer that  accelerates the  growth of Berries.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Damp Mulch": {
+  "id": "ITEM_DAMP_MULCH",
+  "desc": "A fertilizer that  decelerates the  growth of Berries.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Stable Mulch": {
+  "id": "ITEM_STABLE_MULCH",
+  "desc": "A fertilizer that  ups the life time  of Berry trees.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gooey Mulch": {
+  "id": "ITEM_GOOEY_MULCH",
+  "desc": "A fertilizer that  makes more Berries  regrow after fall.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rich Mulch": {
+  "id": "ITEM_RICH_MULCH",
+  "desc": "A fertilizer that  ups the number of  Berries harvested.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Surprise Mulch": {
+  "id": "ITEM_SURPRISE_MULCH",
+  "desc": "A fertilizer that  ups the chance of  Berry mutations.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Boost Mulch": {
+  "id": "ITEM_BOOST_MULCH",
+  "desc": "A fertilizer that  ups the dry speed  of soft soil.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Amaze Mulch": {
+  "id": "ITEM_AMAZE_MULCH",
+  "desc": "A fertilizer Rich  Surprising and  Boosting as well.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Red Apricorn": {
+  "id": "ITEM_RED_APRICORN",
+  "desc": "A red apricorn.  It assails your  nostrils.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blue Apricorn": {
+  "id": "ITEM_BLUE_APRICORN",
+  "desc": "A blue apricorn.  It smells a bit  like grass.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Yellow Apricorn": {
+  "id": "ITEM_YELLOW_APRICORN",
+  "desc": "A yellow apricorn.  It has an invigor-  ating scent.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Green Apricorn": {
+  "id": "ITEM_GREEN_APRICORN",
+  "desc": "A green apricorn.  It has a strange,  aromatic scent.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pink Apricorn": {
+  "id": "ITEM_PINK_APRICORN",
+  "desc": "A pink apricorn.  It has a nice,  sweet scent.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "White Apricorn": {
+  "id": "ITEM_WHITE_APRICORN",
+  "desc": "A white apricorn.  It doesn't smell  like anything.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Black Apricorn": {
+  "id": "ITEM_BLACK_APRICORN",
+  "desc": "A black apricorn.  It has an inde-  scribable scent.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wishing Piece": {
+  "id": "ITEM_WISHING_PIECE",
+  "desc": "Throw into a  {PKMN} Den to attract  Dynamax Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Galarica Twig": {
+  "id": "ITEM_GALARICA_TWIG",
+  "desc": "A twig from a tree  in Galar called  Galarica.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Armorite Ore": {
+  "id": "ITEM_ARMORITE_ORE",
+  "desc": "A rare ore. Can be  found in the Isle  of Armor at Galar.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dynite Ore": {
+  "id": "ITEM_DYNITE_ORE",
+  "desc": "A mysterious ore.  It can be found in  Galar's Max Lair.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Orange Mail": {
+  "id": "ITEM_ORANGE_MAIL",
+  "desc": "A Zigzagoon-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Harbor Mail": {
+  "id": "ITEM_HARBOR_MAIL",
+  "desc": "A Wingull-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Glitter Mail": {
+  "id": "ITEM_GLITTER_MAIL",
+  "desc": "A Pikachu-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mech Mail": {
+  "id": "ITEM_MECH_MAIL",
+  "desc": "A Magnemite-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wood Mail": {
+  "id": "ITEM_WOOD_MAIL",
+  "desc": "A Slakoth-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wave Mail": {
+  "id": "ITEM_WAVE_MAIL",
+  "desc": "A Wailmer-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Bead Mail": {
+  "id": "ITEM_BEAD_MAIL",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Shadow Mail": {
+  "id": "ITEM_SHADOW_MAIL",
+  "desc": "A Duskull-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Tropic Mail": {
+  "id": "ITEM_TROPIC_MAIL",
+  "desc": "A Bellossom-print  Mail to be held by  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dream Mail": {
+  "id": "ITEM_DREAM_MAIL",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fab Mail": {
+  "id": "ITEM_FAB_MAIL",
+  "desc": "A gorgeous-print  Mail to be held  by a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Retro Mail": {
+  "id": "ITEM_RETRO_MAIL",
+  "desc": "Mail featuring the  drawings of three  Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fire Stone": {
+  "id": "ITEM_FIRE_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Water Stone": {
+  "id": "ITEM_WATER_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Thunder Stone": {
+  "id": "ITEM_THUNDER_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Leaf Stone": {
+  "id": "ITEM_LEAF_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ice Stone": {
+  "id": "ITEM_ICE_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sun Stone": {
+  "id": "ITEM_SUN_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Moon Stone": {
+  "id": "ITEM_MOON_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Shiny Stone": {
+  "id": "ITEM_SHINY_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dusk Stone": {
+  "id": "ITEM_DUSK_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dawn Stone": {
+  "id": "ITEM_DAWN_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sweet Apple": {
+  "id": "ITEM_SWEET_APPLE",
+  "desc": "A very sweet apple  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Tart Apple": {
+  "id": "ITEM_TART_APPLE",
+  "desc": "A very tart apple  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cracked Pot": {
+  "id": "ITEM_CRACKED_POT",
+  "desc": "A cracked teapot  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Chipped Pot": {
+  "id": "ITEM_CHIPPED_POT",
+  "desc": "A chipped teapot  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Galarica Cuff": {
+  "id": "ITEM_GALARICA_CUFF",
+  "desc": "A cuff from Galar  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Galarica Wreath": {
+  "id": "ITEM_GALARICA_WREATH",
+  "desc": "A wreath made in  Galar. Makes some  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragon Scale": {
+  "id": "ITEM_DRAGON_SCALE",
+  "desc": "A strange scale  held by Dragon-  type Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Upgrade": {
+  "id": "ITEM_UPGRADE",
+  "desc": "A peculiar box made  by Silph Co.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Protector": {
+  "id": "ITEM_PROTECTOR",
+  "desc": "Loved by a certain  Pokémon. It's stiff  and heavy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electirizer": {
+  "id": "ITEM_ELECTIRIZER",
+  "desc": "Loved by a certain  Pokémon. It's full  of electric energy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Magmarizer": {
+  "id": "ITEM_MAGMARIZER",
+  "desc": "Loved by a certain  Pokémon. It's full  of magma energy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dubious Disc": {
+  "id": "ITEM_DUBIOUS_DISC",
+  "desc": "A clear device  overflowing with  dubious data.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Reaper Cloth": {
+  "id": "ITEM_REAPER_CLOTH",
+  "desc": "Loved by a certain  Pokémon. Imbued  with spirit energy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Prism Scale": {
+  "id": "ITEM_PRISM_SCALE",
+  "desc": "A mysterious scale  that evolves a  certain Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Whipped Dream": {
+  "id": "ITEM_WHIPPED_DREAM",
+  "desc": "A soft and sweet  treat loved by  a certain Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sachet": {
+  "id": "ITEM_SACHET",
+  "desc": "A sachet of strong  perfumes, loved by  a certain Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Oval Stone": {
+  "id": "ITEM_OVAL_STONE",
+  "desc": "Peculiar stone  that evolves a  certain Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Strawberry Sweet": {
+  "id": "ITEM_STRAWBERRY_SWEET",
+  "desc": "Strawberry-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Love Sweet": {
+  "id": "ITEM_LOVE_SWEET",
+  "desc": "A heart-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Berry Sweet": {
+  "id": "ITEM_BERRY_SWEET",
+  "desc": "A berry-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Clover Sweet": {
+  "id": "ITEM_CLOVER_SWEET",
+  "desc": "A clover-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flower Sweet": {
+  "id": "ITEM_FLOWER_SWEET",
+  "desc": "A flower-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Star Sweet": {
+  "id": "ITEM_STAR_SWEET",
+  "desc": "A star-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ribbon Sweet": {
+  "id": "ITEM_RIBBON_SWEET",
+  "desc": "A ribbon-shaped  sweet loved by  Milcery.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Everstone": {
+  "id": "ITEM_EVERSTONE",
+  "desc": "A wondrous hold  item that prevents  evolution.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Red Nectar": {
+  "id": "ITEM_RED_NECTAR",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Yellow Nectar": {
+  "id": "ITEM_YELLOW_NECTAR",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pink Nectar": {
+  "id": "ITEM_PINK_NECTAR",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Purple Nectar": {
+  "id": "ITEM_PURPLE_NECTAR",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flame Plate": {
+  "id": "ITEM_FLAME_PLATE",
+  "desc": "A tablet that ups  the power of  Fire-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Splash Plate": {
+  "id": "ITEM_SPLASH_PLATE",
+  "desc": "A tablet that ups  the power of  Water-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Zap Plate": {
+  "id": "ITEM_ZAP_PLATE",
+  "desc": "A tablet that ups  the power of Elec-  tric-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Meadow Plate": {
+  "id": "ITEM_MEADOW_PLATE",
+  "desc": "A tablet that ups  the power of  Grass-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Icicle Plate": {
+  "id": "ITEM_ICICLE_PLATE",
+  "desc": "A tablet that ups  the power of  Ice-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fist Plate": {
+  "id": "ITEM_FIST_PLATE",
+  "desc": "A tablet that ups  the power of Fight-  ing-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Toxic Plate": {
+  "id": "ITEM_TOXIC_PLATE",
+  "desc": "A tablet that ups  the power of  Poison-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Earth Plate": {
+  "id": "ITEM_EARTH_PLATE",
+  "desc": "A tablet that ups  the power of  Ground-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sky Plate": {
+  "id": "ITEM_SKY_PLATE",
+  "desc": "A tablet that ups  the power of  Flying-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mind Plate": {
+  "id": "ITEM_MIND_PLATE",
+  "desc": "A tablet that ups  the power of Psy  chic-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Insect Plate": {
+  "id": "ITEM_INSECT_PLATE",
+  "desc": "A tablet that ups  the power of  Bug-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Stone Plate": {
+  "id": "ITEM_STONE_PLATE",
+  "desc": "A tablet that ups  the power of  Rock-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Spooky Plate": {
+  "id": "ITEM_SPOOKY_PLATE",
+  "desc": "A tablet that ups  the power of  Ghost-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Draco Plate": {
+  "id": "ITEM_DRACO_PLATE",
+  "desc": "A tablet that ups  the power of  Dragon-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dread Plate": {
+  "id": "ITEM_DREAD_PLATE",
+  "desc": "A tablet that ups  the power of  Dark-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Iron Plate": {
+  "id": "ITEM_IRON_PLATE",
+  "desc": "A tablet that ups  the power of  Steel-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pixie Plate": {
+  "id": "ITEM_PIXIE_PLATE",
+  "desc": "A tablet that ups  the power of  Fairy-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Douse Drive": {
+  "id": "ITEM_DOUSE_DRIVE",
+  "desc": "Changes Genesect's  Techno Blast to  Water-type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Shock Drive": {
+  "id": "ITEM_SHOCK_DRIVE",
+  "desc": "Changes Genesect's  Techno Blast to  Electric-type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Burn Drive": {
+  "id": "ITEM_BURN_DRIVE",
+  "desc": "Changes Genesect's  Techno Blast to  Fire-type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Chill Drive": {
+  "id": "ITEM_CHILL_DRIVE",
+  "desc": "Changes Genesect's  Techno Blast to  Ice-type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fire Memory": {
+  "id": "ITEM_FIRE_MEMORY",
+  "desc": "A disc with Fire  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Water Memory": {
+  "id": "ITEM_WATER_MEMORY",
+  "desc": "A disc with Water  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electric Memory": {
+  "id": "ITEM_ELECTRIC_MEMORY",
+  "desc": "A disc with Electric  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grass Memory": {
+  "id": "ITEM_GRASS_MEMORY",
+  "desc": "A disc with Grass  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ice Memory": {
+  "id": "ITEM_ICE_MEMORY",
+  "desc": "A disc with Ice  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fighting Memory": {
+  "id": "ITEM_FIGHTING_MEMORY",
+  "desc": "Disc with Fighting  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Poison Memory": {
+  "id": "ITEM_POISON_MEMORY",
+  "desc": "A disc with Poison  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ground Memory": {
+  "id": "ITEM_GROUND_MEMORY",
+  "desc": "A disc with Ground  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flying Memory": {
+  "id": "ITEM_FLYING_MEMORY",
+  "desc": "A disc with Flying  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Psychic Memory": {
+  "id": "ITEM_PSYCHIC_MEMORY",
+  "desc": "A disc with Psychic  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Bug Memory": {
+  "id": "ITEM_BUG_MEMORY",
+  "desc": "A disc with Bug  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rock Memory": {
+  "id": "ITEM_ROCK_MEMORY",
+  "desc": "A disc with Rock  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ghost Memory": {
+  "id": "ITEM_GHOST_MEMORY",
+  "desc": "A disc with Ghost  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragon Memory": {
+  "id": "ITEM_DRAGON_MEMORY",
+  "desc": "A disc with Dragon  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dark Memory": {
+  "id": "ITEM_DARK_MEMORY",
+  "desc": "A disc with Dark  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Steel Memory": {
+  "id": "ITEM_STEEL_MEMORY",
+  "desc": "A disc with Steel  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fairy Memory": {
+  "id": "ITEM_FAIRY_MEMORY",
+  "desc": "A disc with Fairy  type data. It swaps  Silvally's type.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rusted Sword": {
+  "id": "ITEM_RUSTED_SWORD",
+  "desc": "A rusty sword. A  hero used it to  halt a disaster.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rusted Shield": {
+  "id": "ITEM_RUSTED_SHIELD",
+  "desc": "A rusty shield. A  hero used it to  halt a disaster.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Red Orb": {
+  "id": "ITEM_RED_ORB",
+  "desc": "A red, glowing orb  said to contain an  ancient power.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blue Orb": {
+  "id": "ITEM_BLUE_ORB",
+  "desc": "A blue, glowing orb  said to contain an  ancient power.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Venusaurite": {
+  "id": "ITEM_VENUSAURITE",
+  "desc": "This stone enables  Venusaur to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Charizardite X": {
+  "id": "ITEM_CHARIZARDITE_X",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Charizardite Y": {
+  "id": "ITEM_CHARIZARDITE_Y",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blastoisinite": {
+  "id": "ITEM_BLASTOISINITE",
+  "desc": "This stone enables  Blastoise to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Beedrillite": {
+  "id": "ITEM_BEEDRILLITE",
+  "desc": "This stone enables  Beedrill to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pidgeotite": {
+  "id": "ITEM_PIDGEOTITE",
+  "desc": "This stone enables  Pidgeot to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Alakazite": {
+  "id": "ITEM_ALAKAZITE",
+  "desc": "This stone enables  Alakazam to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Slowbronite": {
+  "id": "ITEM_SLOWBRONITE",
+  "desc": "This stone enables  Slowbro to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gengarite": {
+  "id": "ITEM_GENGARITE",
+  "desc": "This stone enables  Gengar to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Kangaskhanite": {
+  "id": "ITEM_KANGASKHANITE",
+  "desc": "This stone enables  Kangaskhan to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pinsirite": {
+  "id": "ITEM_PINSIRITE",
+  "desc": "This stone enables  Pinsir to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gyaradosite": {
+  "id": "ITEM_GYARADOSITE",
+  "desc": "This stone enables  Gyarados to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aerodactylite": {
+  "id": "ITEM_AERODACTYLITE",
+  "desc": "This stone enables  Aerodactyl to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mewtwonite X": {
+  "id": "ITEM_MEWTWONITE_X",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mewtwonite Y": {
+  "id": "ITEM_MEWTWONITE_Y",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ampharosite": {
+  "id": "ITEM_AMPHAROSITE",
+  "desc": "This stone enables  Ampharos to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Steelixite": {
+  "id": "ITEM_STEELIXITE",
+  "desc": "This stone enables  Steelix to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scizorite": {
+  "id": "ITEM_SCIZORITE",
+  "desc": "This stone enables  Scizor to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Heracronite": {
+  "id": "ITEM_HERACRONITE",
+  "desc": "This stone enables  Heracross to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Houndoominite": {
+  "id": "ITEM_HOUNDOOMINITE",
+  "desc": "This stone enables  Houndoom to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Tyranitarite": {
+  "id": "ITEM_TYRANITARITE",
+  "desc": "This stone enables  Tyranitar to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sceptilite": {
+  "id": "ITEM_SCEPTILITE",
+  "desc": "This stone enables  Sceptile to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blazikenite": {
+  "id": "ITEM_BLAZIKENITE",
+  "desc": "This stone enables  Blaziken to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Swampertite": {
+  "id": "ITEM_SWAMPERTITE",
+  "desc": "This stone enables  Swampert to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gardevoirite": {
+  "id": "ITEM_GARDEVOIRITE",
+  "desc": "This stone enables  Gardevoir to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sablenite": {
+  "id": "ITEM_SABLENITE",
+  "desc": "This stone enables  Sableye to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mawilite": {
+  "id": "ITEM_MAWILITE",
+  "desc": "This stone enables  Mawile to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aggronite": {
+  "id": "ITEM_AGGRONITE",
+  "desc": "This stone enables  Aggron to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Medichamite": {
+  "id": "ITEM_MEDICHAMITE",
+  "desc": "This stone enables  Medicham to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Manectite": {
+  "id": "ITEM_MANECTITE",
+  "desc": "This stone enables  Manectric to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sharpedonite": {
+  "id": "ITEM_SHARPEDONITE",
+  "desc": "This stone enables  Sharpedo to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cameruptite": {
+  "id": "ITEM_CAMERUPTITE",
+  "desc": "This stone enables  Camerupt to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Altarianite": {
+  "id": "ITEM_ALTARIANITE",
+  "desc": "This stone enables  Altaria to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Banettite": {
+  "id": "ITEM_BANETTITE",
+  "desc": "This stone enables  Banette to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Absolite": {
+  "id": "ITEM_ABSOLITE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Glalitite": {
+  "id": "ITEM_GLALITITE",
+  "desc": "This stone enables  Glalie to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Salamencite": {
+  "id": "ITEM_SALAMENCITE",
+  "desc": "This stone enables  Salamence to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Metagrossite": {
+  "id": "ITEM_METAGROSSITE",
+  "desc": "This stone enables  Metagross to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Latiasite": {
+  "id": "ITEM_LATIASITE",
+  "desc": "This stone enables  Latias to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Latiosite": {
+  "id": "ITEM_LATIOSITE",
+  "desc": "This stone enables  Latios to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lopunnite": {
+  "id": "ITEM_LOPUNNITE",
+  "desc": "This stone enables  Lopunny to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Garchompite": {
+  "id": "ITEM_GARCHOMPITE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lucarionite": {
+  "id": "ITEM_LUCARIONITE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Abomasite": {
+  "id": "ITEM_ABOMASITE",
+  "desc": "This stone enables  Abomasnow to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Galladite": {
+  "id": "ITEM_GALLADITE",
+  "desc": "This stone enables  Gallade to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Audinite": {
+  "id": "ITEM_AUDINITE",
+  "desc": "This stone enables  Audino to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Diancite": {
+  "id": "ITEM_DIANCITE",
+  "desc": "This stone enables  Diancie to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Clefablite": {
+  "id": "ITEM_CLEFABLITE",
+  "desc": "This stone enables  Clefable to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Victreebelite": {
+  "id": "ITEM_VICTREEBELITE",
+  "desc": "This stone enables  Victreebel to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Starminite": {
+  "id": "ITEM_STARMINITE",
+  "desc": "This stone enables  Starmie to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragoninite": {
+  "id": "ITEM_DRAGONINITE",
+  "desc": "This stone enables  Dragonite to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Meganiumite": {
+  "id": "ITEM_MEGANIUMITE",
+  "desc": "This stone enables  Meganium to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Feraligite": {
+  "id": "ITEM_FERALIGITE",
+  "desc": "This stone enables  Feraligatr to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Skarmorite": {
+  "id": "ITEM_SKARMORITE",
+  "desc": "This stone enables  Skarmory to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Froslassite": {
+  "id": "ITEM_FROSLASSITE",
+  "desc": "This stone enables  Froslass to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Emboarite": {
+  "id": "ITEM_EMBOARITE",
+  "desc": "This stone enables  Emboar to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Excadrite": {
+  "id": "ITEM_EXCADRITE",
+  "desc": "This stone enables  Excadrill to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scolipite": {
+  "id": "ITEM_SCOLIPITE",
+  "desc": "This stone enables  Scolipede to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scraftinite": {
+  "id": "ITEM_SCRAFTINITE",
+  "desc": "This stone enables  Scrafty to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Eelektrossite": {
+  "id": "ITEM_EELEKTROSSITE",
+  "desc": "This stone enables  Eelektross to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Chandelurite": {
+  "id": "ITEM_CHANDELURITE",
+  "desc": "This stone enables  Chandelure to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Chesnaughtite": {
+  "id": "ITEM_CHESNAUGHTITE",
+  "desc": "This stone enables  Chesnaught to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Delphoxite": {
+  "id": "ITEM_DELPHOXITE",
+  "desc": "This stone enables  Delphox to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Greninjite": {
+  "id": "ITEM_GRENINJITE",
+  "desc": "This stone enables  Greninja to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pyroarite": {
+  "id": "ITEM_PYROARITE",
+  "desc": "This stone enables  Pyroar to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Floettite": {
+  "id": "ITEM_FLOETTITE",
+  "desc": "This stone enables  Floette to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Malamarite": {
+  "id": "ITEM_MALAMARITE",
+  "desc": "This stone enables  Malamar to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Barbaracite": {
+  "id": "ITEM_BARBARACITE",
+  "desc": "This stone enables  Barbaracle to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragalgite": {
+  "id": "ITEM_DRAGALGITE",
+  "desc": "This stone enables  Dragalge to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Hawluchanite": {
+  "id": "ITEM_HAWLUCHANITE",
+  "desc": "This stone enables  Hawlucha to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Zygardite": {
+  "id": "ITEM_ZYGARDITE",
+  "desc": "This stone enables  Zygarde to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Drampanite": {
+  "id": "ITEM_DRAMPANITE",
+  "desc": "This stone enables  Drampa to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Falinksite": {
+  "id": "ITEM_FALINKSITE",
+  "desc": "This stone enables  Falinks to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Heatranite": {
+  "id": "ITEM_HEATRANITE",
+  "desc": "This stone enables  Heatran to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Darkranite": {
+  "id": "ITEM_DARKRANITE",
+  "desc": "This stone enables  Darkrai to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Zeraorite": {
+  "id": "ITEM_ZERAORITE",
+  "desc": "This stone enables  Zeraora to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Raichunite X": {
+  "id": "ITEM_RAICHUNITE_X",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Raichunite Y": {
+  "id": "ITEM_RAICHUNITE_Y",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Chimechite": {
+  "id": "ITEM_CHIMECHITE",
+  "desc": "This stone enables  Chimecho to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Absolite Z": {
+  "id": "ITEM_ABSOLITE_Z",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Staraptite": {
+  "id": "ITEM_STARAPTITE",
+  "desc": "This stone enables  Staraptor to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Garchompite Z": {
+  "id": "ITEM_GARCHOMPITE_Z",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lucarionite Z": {
+  "id": "ITEM_LUCARIONITE_Z",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Golurkite": {
+  "id": "ITEM_GOLURKITE",
+  "desc": "This stone enables  Golurk to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Meowsticite": {
+  "id": "ITEM_MEOWSTICITE",
+  "desc": "This stone enables  Meowstic to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Crabominite": {
+  "id": "ITEM_CRABOMINITE",
+  "desc": "This stone enables  Crabominable to  Mega in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Golisopite": {
+  "id": "ITEM_GOLISOPITE",
+  "desc": "This stone enables  Golisopod to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Magearnite": {
+  "id": "ITEM_MAGEARNITE",
+  "desc": "This stone enables  Magearna to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scovillainite": {
+  "id": "ITEM_SCOVILLAINITE",
+  "desc": "This stone enables  Scovillain to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Baxcalibrite": {
+  "id": "ITEM_BAXCALIBRITE",
+  "desc": "This stone enables  Baxcalibur to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Tatsugirinite": {
+  "id": "ITEM_TATSUGIRINITE",
+  "desc": "This stone enables  Tatsugiri to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Glimmoranite": {
+  "id": "ITEM_GLIMMORANITE",
+  "desc": "This stone enables  Glimmora to Mega  Evolve in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Gb Player": {
+  "id": "ITEM_GB_PLAYER",
+  "desc": "A device that plays  music from the old  Pokémon games.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Normal Gem": {
+  "id": "ITEM_NORMAL_GEM",
+  "desc": "Increases the  power of Normal  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fire Gem": {
+  "id": "ITEM_FIRE_GEM",
+  "desc": "Increases the  power of Fire  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Water Gem": {
+  "id": "ITEM_WATER_GEM",
+  "desc": "Increases the  power of Water  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electric Gem": {
+  "id": "ITEM_ELECTRIC_GEM",
+  "desc": "Increases the  power of Electric  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grass Gem": {
+  "id": "ITEM_GRASS_GEM",
+  "desc": "Increases the  power of Grass  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ice Gem": {
+  "id": "ITEM_ICE_GEM",
+  "desc": "Increases the  power of Ice  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fighting Gem": {
+  "id": "ITEM_FIGHTING_GEM",
+  "desc": "Increases the  power of Fighting  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Poison Gem": {
+  "id": "ITEM_POISON_GEM",
+  "desc": "Increases the  power of Poison  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ground Gem": {
+  "id": "ITEM_GROUND_GEM",
+  "desc": "Increases the  power of Ground  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flying Gem": {
+  "id": "ITEM_FLYING_GEM",
+  "desc": "Increases the  power of Flying  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Psychic Gem": {
+  "id": "ITEM_PSYCHIC_GEM",
+  "desc": "Increases the  power of Psychic  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Bug Gem": {
+  "id": "ITEM_BUG_GEM",
+  "desc": "Increases the  power of Bug  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rock Gem": {
+  "id": "ITEM_ROCK_GEM",
+  "desc": "Increases the  power of Rock  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ghost Gem": {
+  "id": "ITEM_GHOST_GEM",
+  "desc": "Increases the  power of Ghost  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragon Gem": {
+  "id": "ITEM_DRAGON_GEM",
+  "desc": "Increases the  power of Dragon  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dark Gem": {
+  "id": "ITEM_DARK_GEM",
+  "desc": "Increases the  power of Dark  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Steel Gem": {
+  "id": "ITEM_STEEL_GEM",
+  "desc": "Increases the  power of Steel  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fairy Gem": {
+  "id": "ITEM_FAIRY_GEM",
+  "desc": "Increases the  power of Fairy  Type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Normalium Z": {
+  "id": "ITEM_NORMALIUM_Z",
+  "desc": "Upgrade Normal-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Firium Z": {
+  "id": "ITEM_FIRIUM_Z",
+  "desc": "Upgrade Fire-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Waterium Z": {
+  "id": "ITEM_WATERIUM_Z",
+  "desc": "Upgrade Water-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electrium Z": {
+  "id": "ITEM_ELECTRIUM_Z",
+  "desc": "Upgrade Electric-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grassium Z": {
+  "id": "ITEM_GRASSIUM_Z",
+  "desc": "Upgrade Grass-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Icium Z": {
+  "id": "ITEM_ICIUM_Z",
+  "desc": "Upgrade Ice-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fightinium Z": {
+  "id": "ITEM_FIGHTINIUM_Z",
+  "desc": "Upgrade Fighting-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Poisonium Z": {
+  "id": "ITEM_POISONIUM_Z",
+  "desc": "Upgrade Poison-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Groundium Z": {
+  "id": "ITEM_GROUNDIUM_Z",
+  "desc": "Upgrade Ground-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flyinium Z": {
+  "id": "ITEM_FLYINIUM_Z",
+  "desc": "Upgrade Flying-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Psychium Z": {
+  "id": "ITEM_PSYCHIUM_Z",
+  "desc": "Upgrade Psychic-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Buginium Z": {
+  "id": "ITEM_BUGINIUM_Z",
+  "desc": "Upgrade Bug-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rockium Z": {
+  "id": "ITEM_ROCKIUM_Z",
+  "desc": "Upgrade Rock-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ghostium Z": {
+  "id": "ITEM_GHOSTIUM_Z",
+  "desc": "Upgrade Ghost-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragonium Z": {
+  "id": "ITEM_DRAGONIUM_Z",
+  "desc": "Upgrade Dragon-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Darkinium Z": {
+  "id": "ITEM_DARKINIUM_Z",
+  "desc": "Upgrade Dark-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Steelium Z": {
+  "id": "ITEM_STEELIUM_Z",
+  "desc": "Upgrade Steel-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fairium Z": {
+  "id": "ITEM_FAIRIUM_Z",
+  "desc": "Upgrade Fairy-  type moves into  Z-Moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pikanium Z": {
+  "id": "ITEM_PIKANIUM_Z",
+  "desc": "Upgrade Pikachu's  Volt Tackle  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Eevium Z": {
+  "id": "ITEM_EEVIUM_Z",
+  "desc": "Upgrade Eevee's  Last Resort  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Snorlium Z": {
+  "id": "ITEM_SNORLIUM_Z",
+  "desc": "Upgrade Snorlax's  Giga Impact  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mewnium Z": {
+  "id": "ITEM_MEWNIUM_Z",
+  "desc": "Upgrade Mew's  Psychic into  a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Decidium Z": {
+  "id": "ITEM_DECIDIUM_Z",
+  "desc": "Upgrade Decidu-  eye's Spirit Sha-  ckle into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Incinium Z": {
+  "id": "ITEM_INCINIUM_Z",
+  "desc": "Upgrade Incine-  roar's Darkest La-  riat into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Primarium Z": {
+  "id": "ITEM_PRIMARIUM_Z",
+  "desc": "Upgrade Primarina's  Sparkling Aria  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lycanium Z": {
+  "id": "ITEM_LYCANIUM_Z",
+  "desc": "Upgrade Lycanroc's  Stone Edge  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mimikium Z": {
+  "id": "ITEM_MIMIKIUM_Z",
+  "desc": "Upgrade Mimikyu's  Play Rough  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Kommonium Z": {
+  "id": "ITEM_KOMMONIUM_Z",
+  "desc": "Upgrade Kommo-o's  Clanging Scales  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Tapunium Z": {
+  "id": "ITEM_TAPUNIUM_Z",
+  "desc": "Upgrade the tapus'  Nature's Madness  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Solganium Z": {
+  "id": "ITEM_SOLGANIUM_Z",
+  "desc": "Upgrade Solgaleo's  Sunsteel Strike  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lunalium Z": {
+  "id": "ITEM_LUNALIUM_Z",
+  "desc": "Upgrade Lunala's  Moongeist Beam  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Marshadium Z": {
+  "id": "ITEM_MARSHADIUM_Z",
+  "desc": "Upgrade Marsha-  dow's Spectral Thi-  ef into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aloraichium Z": {
+  "id": "ITEM_ALORAICHIUM_Z",
+  "desc": "Upgrade Alolan  Raichu's Thunder-  bolt into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pikashunium Z": {
+  "id": "ITEM_PIKASHUNIUM_Z",
+  "desc": "Upgrade Pikachu w/  a cap's Thunderbolt  into a Z-Move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ultranecrozium Z": {
+  "id": "ITEM_ULTRANECROZIUM_Z",
+  "desc": "A crystal to turn  fused Necrozma  into a new form.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Light Ball": {
+  "id": "ITEM_LIGHT_BALL",
+  "desc": "A hold item that  raises the Atk and  Sp. Atk of Pikachu.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Leek": {
+  "id": "ITEM_LEEK",
+  "desc": "A hold item that  raises Farfetch'd's  critical-hit ratio.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Thick Club": {
+  "id": "ITEM_THICK_CLUB",
+  "desc": "A hold item that   raises Cubone or  Marowak's Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lucky Punch": {
+  "id": "ITEM_LUCKY_PUNCH",
+  "desc": "A hold item that  raises Chansey's  critical-hit rate.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Metal Powder": {
+  "id": "ITEM_METAL_POWDER",
+  "desc": "A hold item that  raises Ditto's  Defense.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Quick Powder": {
+  "id": "ITEM_QUICK_POWDER",
+  "desc": "A hold item that  raises the Speed  of Ditto.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Deep Sea Scale": {
+  "id": "ITEM_DEEP_SEA_SCALE",
+  "desc": "A hold item that  raises the Sp. Def  of Clamperl.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Deep Sea Tooth": {
+  "id": "ITEM_DEEP_SEA_TOOTH",
+  "desc": "A hold item that  raises the Sp. Atk  of Clamperl.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Soul Dew": {
+  "id": "ITEM_SOUL_DEW",
+  "desc": "Powers up Latios' &  Latias' Psychic and  Dragon-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Adamant Orb": {
+  "id": "ITEM_ADAMANT_ORB",
+  "desc": "Powers up Dialga's  Dragon and Steel-  type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lustrous Orb": {
+  "id": "ITEM_LUSTROUS_ORB",
+  "desc": "Powers up Palkia's  Dragon and Water-  type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Griseous Orb": {
+  "id": "ITEM_GRISEOUS_ORB",
+  "desc": "Boosts Giratina's  Dragon and Ghost-  type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sea Incense": {
+  "id": "ITEM_SEA_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lax Incense": {
+  "id": "ITEM_LAX_INCENSE",
+  "desc": "A hold item that  lowers the  foe's accuracy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Odd Incense": {
+  "id": "ITEM_ODD_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rock Incense": {
+  "id": "ITEM_ROCK_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Full Incense": {
+  "id": "ITEM_FULL_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wave Incense": {
+  "id": "ITEM_WAVE_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rose Incense": {
+  "id": "ITEM_ROSE_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Luck Incense": {
+  "id": "ITEM_LUCK_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pure Incense": {
+  "id": "ITEM_PURE_INCENSE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Red Scarf": {
+  "id": "ITEM_RED_SCARF",
+  "desc": "A hold item that  raises Cool in  Contests.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blue Scarf": {
+  "id": "ITEM_BLUE_SCARF",
+  "desc": "A hold item that  raises Beauty in  Contests.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pink Scarf": {
+  "id": "ITEM_PINK_SCARF",
+  "desc": "A hold item that  raises Cute in  Contests.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Green Scarf": {
+  "id": "ITEM_GREEN_SCARF",
+  "desc": "A hold item that  raises Smart in  Contests.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Yellow Scarf": {
+  "id": "ITEM_YELLOW_SCARF",
+  "desc": "A hold item that  raises Tough in  Contests.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Macho Brace": {
+  "id": "ITEM_MACHO_BRACE",
+  "desc": "A hold item that  promotes growth,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Weight": {
+  "id": "ITEM_POWER_WEIGHT",
+  "desc": "A hold item that  promotes HP gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Bracer": {
+  "id": "ITEM_POWER_BRACER",
+  "desc": "A hold item that  promotes Atk gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Belt": {
+  "id": "ITEM_POWER_BELT",
+  "desc": "A hold item that  promotes Def gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Lens": {
+  "id": "ITEM_POWER_LENS",
+  "desc": "Hold item that pro-  motes Sp. Atk gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Band": {
+  "id": "ITEM_POWER_BAND",
+  "desc": "Hold item that pro-  motes Sp. Def gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Anklet": {
+  "id": "ITEM_POWER_ANKLET",
+  "desc": "A hold item that  promotes Spd gain,  but reduces Speed.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Silk Scarf": {
+  "id": "ITEM_SILK_SCARF",
+  "desc": "A hold item that  raises the power of  Normal-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Charcoal": {
+  "id": "ITEM_CHARCOAL",
+  "desc": "A hold item that  raises the power of  Fire-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mystic Water": {
+  "id": "ITEM_MYSTIC_WATER",
+  "desc": "A hold item that  raises the power of  Water-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Magnet": {
+  "id": "ITEM_MAGNET",
+  "desc": "A hold item that  boosts Electric-  type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Miracle Seed": {
+  "id": "ITEM_MIRACLE_SEED",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Never Melt Ice": {
+  "id": "ITEM_NEVER_MELT_ICE",
+  "desc": "A hold item that  raises the power of  Ice-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Black Belt": {
+  "id": "ITEM_BLACK_BELT",
+  "desc": "A hold item that  boosts Fighting-  type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Poison Barb": {
+  "id": "ITEM_POISON_BARB",
+  "desc": "A hold item that  raises the power of  Poison-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Soft Sand": {
+  "id": "ITEM_SOFT_SAND",
+  "desc": "A hold item that  raises the power of  Ground-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sharp Beak": {
+  "id": "ITEM_SHARP_BEAK",
+  "desc": "A hold item that  raises the power of  Flying-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Twisted Spoon": {
+  "id": "ITEM_TWISTED_SPOON",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Silver Powder": {
+  "id": "ITEM_SILVER_POWDER",
+  "desc": "A hold item that  raises the power of  Bug-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Hard Stone": {
+  "id": "ITEM_HARD_STONE",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Spell Tag": {
+  "id": "ITEM_SPELL_TAG",
+  "desc": "A hold item that  raises the power of  Ghost-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragon Fang": {
+  "id": "ITEM_DRAGON_FANG",
+  "desc": "A hold item that  raises the power of  Dragon-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Black Glasses": {
+  "id": "ITEM_BLACK_GLASSES",
+  "desc": "A hold item that  raises the power of  Dark-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Metal Coat": {
+  "id": "ITEM_METAL_COAT",
+  "desc": "A hold item that  raises the power of  Steel-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Choice Band": {
+  "id": "ITEM_CHOICE_BAND",
+  "desc": "Boosts Attack, but  allows the use of  only one move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Choice Specs": {
+  "id": "ITEM_CHOICE_SPECS",
+  "desc": "Boosts Sp. Atk, but  allows the use of  only one move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Choice Scarf": {
+  "id": "ITEM_CHOICE_SCARF",
+  "desc": "Boosts Speed, but  allows the use of  only one move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flame Orb": {
+  "id": "ITEM_FLAME_ORB",
+  "desc": "A bizarre orb that  inflicts a burn on  holder in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Toxic Orb": {
+  "id": "ITEM_TOXIC_ORB",
+  "desc": "A bizarre orb that  badly poisons the  holder in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Damp Rock": {
+  "id": "ITEM_DAMP_ROCK",
+  "desc": "Extends the length  of Rain Dance if  used by the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Heat Rock": {
+  "id": "ITEM_HEAT_ROCK",
+  "desc": "Extends the length  of Sunny Day if  used by the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Smooth Rock": {
+  "id": "ITEM_SMOOTH_ROCK",
+  "desc": "Extends the length  of Sandstorm if  used by the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Icy Rock": {
+  "id": "ITEM_ICY_ROCK",
+  "desc": "Extends the length  of the move Hail  used by the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electric Seed": {
+  "id": "ITEM_ELECTRIC_SEED",
+  "desc": "Boosts Defense on  Electric Terrain,  but only one time.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Psychic Seed": {
+  "id": "ITEM_PSYCHIC_SEED",
+  "desc": "Boosts Sp. Def. on  Psychic Terrain,  but only one time.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Misty Seed": {
+  "id": "ITEM_MISTY_SEED",
+  "desc": "Boosts Sp. Def. on  Misty Terrain,  but only one time.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grassy Seed": {
+  "id": "ITEM_GRASSY_SEED",
+  "desc": "Boosts Defense on  Grassy Terrain,  but only one time.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Absorb Bulb": {
+  "id": "ITEM_ABSORB_BULB",
+  "desc": "Raises Sp. Atk if  the holder is hit by  a Water-type move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cell Battery": {
+  "id": "ITEM_CELL_BATTERY",
+  "desc": "Raises Attack if  the holder is hit by  an Electric move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Luminous Moss": {
+  "id": "ITEM_LUMINOUS_MOSS",
+  "desc": "Raises Sp. Def if  the holder is hit by  a Water-type move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Snowball": {
+  "id": "ITEM_SNOWBALL",
+  "desc": "Raises Atk if its  holder is hit by an  Ice-type move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Bright Powder": {
+  "id": "ITEM_BRIGHT_POWDER",
+  "desc": "A hold item that  casts a glare to  reduce accuracy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "White Herb": {
+  "id": "ITEM_WHITE_HERB",
+  "desc": "A hold item that  restores any  lowered stat.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Exp Share": {
+  "id": "ITEM_EXP_SHARE",
+  "desc": "This device gives  exp. to other  party members.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Quick Claw": {
+  "id": "ITEM_QUICK_CLAW",
+  "desc": "A hold item that  occasionally allows  the first strike.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Soothe Bell": {
+  "id": "ITEM_SOOTHE_BELL",
+  "desc": "A hold item that  calms spirits and  fosters friendship.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mental Herb": {
+  "id": "ITEM_MENTAL_HERB",
+  "desc": "Snaps Pokémon out  of move-binding  effects.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Kings Rock": {
+  "id": "ITEM_KINGS_ROCK",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Amulet Coin": {
+  "id": "ITEM_AMULET_COIN",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cleanse Tag": {
+  "id": "ITEM_CLEANSE_TAG",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Smoke Ball": {
+  "id": "ITEM_SMOKE_BALL",
+  "desc": "A hold item that  assures fleeing  from wild Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Focus Band": {
+  "id": "ITEM_FOCUS_BAND",
+  "desc": "A hold item that  occasionally  prevents fainting.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lucky Egg": {
+  "id": "ITEM_LUCKY_EGG",
+  "desc": "A hold item that  boosts Exp. points  earned in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scope Lens": {
+  "id": "ITEM_SCOPE_LENS",
+  "desc": "A hold item that  improves the  critical-hit rate.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Leftovers": {
+  "id": "ITEM_LEFTOVERS",
+  "desc": "A hold item that  gradually restores  HP in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Shell Bell": {
+  "id": "ITEM_SHELL_BELL",
+  "desc": "A hold item that  restores HP upon  striking the foe.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wide Lens": {
+  "id": "ITEM_WIDE_LENS",
+  "desc": "A magnifying lens  that boosts the  accuracy of moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Muscle Band": {
+  "id": "ITEM_MUSCLE_BAND",
+  "desc": "A headband that  boosts the power  of physical moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wise Glasses": {
+  "id": "ITEM_WISE_GLASSES",
+  "desc": "A pair of glasses  that ups the power  of special moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Expert Belt": {
+  "id": "ITEM_EXPERT_BELT",
+  "desc": "A belt that boosts  the power of super  effective moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Light Clay": {
+  "id": "ITEM_LIGHT_CLAY",
+  "desc": "Extends the length  of barrier moves  used by the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Life Orb": {
+  "id": "ITEM_LIFE_ORB",
+  "desc": "Boosts move power  but holder loses HP  with each attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Power Herb": {
+  "id": "ITEM_POWER_HERB",
+  "desc": "Allows immediate  use of a move that  charges first.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Focus Sash": {
+  "id": "ITEM_FOCUS_SASH",
+  "desc": "If the holder has  full HP, it endures  KO hits with 1 HP.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Zoom Lens": {
+  "id": "ITEM_ZOOM_LENS",
+  "desc": "If the holder moves  after the foe, it'll  boost accuracy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Metronome": {
+  "id": "ITEM_METRONOME",
+  "desc": "A held item that  boosts a move used  consecutively.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Iron Ball": {
+  "id": "ITEM_IRON_BALL",
+  "desc": "Cuts Speed and  becomes vulnerable  to Ground moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lagging Tail": {
+  "id": "ITEM_LAGGING_TAIL",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Destiny Knot": {
+  "id": "ITEM_DESTINY_KNOT",
+  "desc": "If the holder falls  in love, the foe  does too.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Black Sludge": {
+  "id": "ITEM_BLACK_SLUDGE",
+  "desc": "Restores HP for  Poison-types.  Damages all others.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grip Claw": {
+  "id": "ITEM_GRIP_CLAW",
+  "desc": "A held item that  extends binding  moves like Wrap.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Sticky Barb": {
+  "id": "ITEM_STICKY_BARB",
+  "desc": "Damages the holder  each turn. May  latch on to foes.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Shed Shell": {
+  "id": "ITEM_SHED_SHELL",
+  "desc": "Allows the holder  to switch out  without fail.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Big Root": {
+  "id": "ITEM_BIG_ROOT",
+  "desc": "A held item that  ups the power of  HP-stealing moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Razor Claw": {
+  "id": "ITEM_RAZOR_CLAW",
+  "desc": "A hooked claw that  ups the holder's  critical-hit ratio.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Razor Fang": {
+  "id": "ITEM_RAZOR_FANG",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Eviolite": {
+  "id": "ITEM_EVIOLITE",
+  "desc": "Raises the Def and  Sp. Def of Pokémon  that can evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Float Stone": {
+  "id": "ITEM_FLOAT_STONE",
+  "desc": "It's so light that  when held, it halves  a Pokémon's weight.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rocky Helmet": {
+  "id": "ITEM_ROCKY_HELMET",
+  "desc": "Hurts the foe if  they touch its  holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Air Balloon": {
+  "id": "ITEM_AIR_BALLOON",
+  "desc": "Makes the holder  float but bursts  if hit by Attack.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Red Card": {
+  "id": "ITEM_RED_CARD",
+  "desc": "Switches out the  foe if they hit the  holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ring Target": {
+  "id": "ITEM_RING_TARGET",
+  "desc": "Moves that usually  have no effect will  hit the holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Binding Band": {
+  "id": "ITEM_BINDING_BAND",
+  "desc": "Increases the  power of binding  moves when held.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Eject Button": {
+  "id": "ITEM_EJECT_BUTTON",
+  "desc": "Switches out the  user if they're hit  by the foe.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Weakness Policy": {
+  "id": "ITEM_WEAKNESS_POLICY",
+  "desc": "If hit by a super-  effective move,  ups Atk and Sp. Atk.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Assault Vest": {
+  "id": "ITEM_ASSAULT_VEST",
+  "desc": "Raises Sp. Def but  prevents the use  of status moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Safety Goggles": {
+  "id": "ITEM_SAFETY_GOGGLES",
+  "desc": "Protect from  weather damage and  powder moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Adrenaline Orb": {
+  "id": "ITEM_ADRENALINE_ORB",
+  "desc": "This orb boosts  Speed if the holder  is intimidated.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Terrain Extender": {
+  "id": "ITEM_TERRAIN_EXTENDER",
+  "desc": "Extends the length  of the active  battle terrain.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Protective Pads": {
+  "id": "ITEM_PROTECTIVE_PADS",
+  "desc": "Guard the holder  from contact move  effects.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Throat Spray": {
+  "id": "ITEM_THROAT_SPRAY",
+  "desc": "Raises Sp. Atk. if  the holder uses a  sound-based move.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Eject Pack": {
+  "id": "ITEM_EJECT_PACK",
+  "desc": "Forces the user to  switch if its stats  are lowered.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Heavy Duty Boots": {
+  "id": "ITEM_HEAVY_DUTY_BOOTS",
+  "desc": "Boots that prevent  effects of traps  set in the field.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Blunder Policy": {
+  "id": "ITEM_BLUNDER_POLICY",
+  "desc": "Raises Speed if  the user misses  due to Accuracy.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Room Service": {
+  "id": "ITEM_ROOM_SERVICE",
+  "desc": "Lowers Speed if  Trick Room is  active.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Utility Umbrella": {
+  "id": "ITEM_UTILITY_UMBRELLA",
+  "desc": "An umbrella that  protects from  weather effects.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cheri Berry": {
+  "id": "ITEM_CHERI_BERRY",
+  "desc": "A hold item that  heals paralysis  in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Chesto Berry": {
+  "id": "ITEM_CHESTO_BERRY",
+  "desc": "A hold item that  awakens Pokémon  in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Pecha Berry": {
+  "id": "ITEM_PECHA_BERRY",
+  "desc": "A hold item that  heals poisoning  in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Rawst Berry": {
+  "id": "ITEM_RAWST_BERRY",
+  "desc": "A hold item that  heals a burn in  battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Aspear Berry": {
+  "id": "ITEM_ASPEAR_BERRY",
+  "desc": "A hold item that  defrosts Pokémon  in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Leppa Berry": {
+  "id": "ITEM_LEPPA_BERRY",
+  "desc": "A hold item that  restores 10 PP in  battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Oran Berry": {
+  "id": "ITEM_ORAN_BERRY",
+  "desc": "A hold item that  restores 10 HP in  battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Persim Berry": {
+  "id": "ITEM_PERSIM_BERRY",
+  "desc": "A hold item that  heals confusion  in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Lum Berry": {
+  "id": "ITEM_LUM_BERRY",
+  "desc": "A hold item that  heals any status  problem in battle.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Sitrus Berry": {
+  "id": "ITEM_SITRUS_BERRY",
+  "desc": "A hold item that  restores the user's  HP a little.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Figy Berry": {
+  "id": "ITEM_FIGY_BERRY",
+  "desc": null,
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Wiki Berry": {
+  "id": "ITEM_WIKI_BERRY",
+  "desc": null,
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Mago Berry": {
+  "id": "ITEM_MAGO_BERRY",
+  "desc": null,
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Aguav Berry": {
+  "id": "ITEM_AGUAV_BERRY",
+  "desc": null,
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Iapapa Berry": {
+  "id": "ITEM_IAPAPA_BERRY",
+  "desc": null,
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Razz Berry": {
+  "id": "ITEM_RAZZ_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Razz.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Bluk Berry": {
+  "id": "ITEM_BLUK_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Bluk.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Nanab Berry": {
+  "id": "ITEM_NANAB_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Nanab.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Wepear Berry": {
+  "id": "ITEM_WEPEAR_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Wepear.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Pinap Berry": {
+  "id": "ITEM_PINAP_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Pinap.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Pomeg Berry": {
+  "id": "ITEM_POMEG_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base HP.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Kelpsy Berry": {
+  "id": "ITEM_KELPSY_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base Attack.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Qualot Berry": {
+  "id": "ITEM_QUALOT_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base Defense.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Hondew Berry": {
+  "id": "ITEM_HONDEW_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base Sp. Atk.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Grepa Berry": {
+  "id": "ITEM_GREPA_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base Sp. Def.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Tamato Berry": {
+  "id": "ITEM_TAMATO_BERRY",
+  "desc": "Makes a Pokémon  friendly but lowers  base Speed.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Cornn Berry": {
+  "id": "ITEM_CORNN_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Cornn.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Magost Berry": {
+  "id": "ITEM_MAGOST_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Magost.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Rabuta Berry": {
+  "id": "ITEM_RABUTA_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Rabuta.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Nomel Berry": {
+  "id": "ITEM_NOMEL_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Nomel.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Spelon Berry": {
+  "id": "ITEM_SPELON_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Spelon.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Pamtre Berry": {
+  "id": "ITEM_PAMTRE_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Pamtre.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Watmel Berry": {
+  "id": "ITEM_WATMEL_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Watmel.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Durin Berry": {
+  "id": "ITEM_DURIN_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Durin.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Belue Berry": {
+  "id": "ITEM_BELUE_BERRY",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow Belue.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Chilan Berry": {
+  "id": "ITEM_CHILAN_BERRY",
+  "desc": "A hold item that  weakens a Normal  move.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Occa Berry": {
+  "id": "ITEM_OCCA_BERRY",
+  "desc": "A hold item that  weakens a Fire  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Passho Berry": {
+  "id": "ITEM_PASSHO_BERRY",
+  "desc": "A hold item that  weakens a Water  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Wacan Berry": {
+  "id": "ITEM_WACAN_BERRY",
+  "desc": "A hold item that  weakens a Electric  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Rindo Berry": {
+  "id": "ITEM_RINDO_BERRY",
+  "desc": "A hold item that  weakens a Grass  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Yache Berry": {
+  "id": "ITEM_YACHE_BERRY",
+  "desc": "A hold item that  weakens a Ice  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Chople Berry": {
+  "id": "ITEM_CHOPLE_BERRY",
+  "desc": "A hold item that  weakens a Fighting  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Kebia Berry": {
+  "id": "ITEM_KEBIA_BERRY",
+  "desc": "A hold item that  weakens a Poison  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Shuca Berry": {
+  "id": "ITEM_SHUCA_BERRY",
+  "desc": "A hold item that  weakens a Ground  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Coba Berry": {
+  "id": "ITEM_COBA_BERRY",
+  "desc": "A hold item that  weakens a Flying  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Payapa Berry": {
+  "id": "ITEM_PAYAPA_BERRY",
+  "desc": "A hold item that  weakens a Psychic  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Tanga Berry": {
+  "id": "ITEM_TANGA_BERRY",
+  "desc": "A hold item that  weakens a Bug  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Charti Berry": {
+  "id": "ITEM_CHARTI_BERRY",
+  "desc": "A hold item that  weakens a Rock  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Kasib Berry": {
+  "id": "ITEM_KASIB_BERRY",
+  "desc": "A hold item that  weakens a Ghost  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Haban Berry": {
+  "id": "ITEM_HABAN_BERRY",
+  "desc": "A hold item that  weakens a Dragon  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Colbur Berry": {
+  "id": "ITEM_COLBUR_BERRY",
+  "desc": "A hold item that  weakens a Dark  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Babiri Berry": {
+  "id": "ITEM_BABIRI_BERRY",
+  "desc": "A hold item that  weakens a Steel  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Roseli Berry": {
+  "id": "ITEM_ROSELI_BERRY",
+  "desc": "A hold item that  weakens a Fairy  move if weak to it.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Liechi Berry": {
+  "id": "ITEM_LIECHI_BERRY",
+  "desc": "A hold item that  raises Attack in  a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Ganlon Berry": {
+  "id": "ITEM_GANLON_BERRY",
+  "desc": "A hold item that  raises Defense in  a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Salac Berry": {
+  "id": "ITEM_SALAC_BERRY",
+  "desc": "A hold item that  raises Speed in  a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Petaya Berry": {
+  "id": "ITEM_PETAYA_BERRY",
+  "desc": "A hold item that  raises Sp. Atk in  a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Apicot Berry": {
+  "id": "ITEM_APICOT_BERRY",
+  "desc": "A hold item that  raises Sp. Def in  a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Lansat Berry": {
+  "id": "ITEM_LANSAT_BERRY",
+  "desc": "A hold item that  ups the critical-  hit rate in a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Starf Berry": {
+  "id": "ITEM_STARF_BERRY",
+  "desc": "A hold item that  sharply boosts a  stat in a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Enigma Berry": {
+  "id": "ITEM_ENIGMA_BERRY",
+  "desc": "A hold item that  heals from super  effective moves.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Micle Berry": {
+  "id": "ITEM_MICLE_BERRY",
+  "desc": "When held, it ups  the Accuracy of a  move in a pinch.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Custap Berry": {
+  "id": "ITEM_CUSTAP_BERRY",
+  "desc": "It allows a Pokémon  in a pinch to move  first just once.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Jaboca Berry": {
+  "id": "ITEM_JABOCA_BERRY",
+  "desc": "If hit by a physical  move, it will hurt  the attacker a bit.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Rowap Berry": {
+  "id": "ITEM_ROWAP_BERRY",
+  "desc": "If hit by a special  move, it will hurt  the attacker a bit.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Kee Berry": {
+  "id": "ITEM_KEE_BERRY",
+  "desc": "If hit by a physical  move, it raises the  Defense a bit.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Maranga Berry": {
+  "id": "ITEM_MARANGA_BERRY",
+  "desc": "If hit by a special  move, it raises the  Sp. Def. a bit.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Enigma Berry E Reader": {
+  "id": "ITEM_ENIGMA_BERRY_E_READER",
+  "desc": "{POKEBLOCK} ingredient.  Plant in loamy soil  to grow a mystery.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "TM Focus Punch": {
+  "id": "ITEM_TM_FOCUS_PUNCH",
+  "desc": "Powerful, but makes  the user flinch if  hit by the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Dragon Claw": {
+  "id": "ITEM_TM_DRAGON_CLAW",
+  "desc": "Hooks and slashes  the foe with long,  sharp claws.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Water Pulse": {
+  "id": "ITEM_TM_WATER_PULSE",
+  "desc": "Generates an  ultrasonic wave  that may confuse.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Calm Mind": {
+  "id": "ITEM_TM_CALM_MIND",
+  "desc": "Raises Sp. Atk and  Sp. Def by focusing  the mind.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Roar": {
+  "id": "ITEM_TM_ROAR",
+  "desc": "A savage roar that  makes the foe flee   to end the battle.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Toxic": {
+  "id": "ITEM_TM_TOXIC",
+  "desc": "Poisons the foe  with a toxin that  gradually worsens.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Hail": {
+  "id": "ITEM_TM_HAIL",
+  "desc": "Raises the Defense  of Ice type {PKMN}  for 5 turns.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Bulk Up": {
+  "id": "ITEM_TM_BULK_UP",
+  "desc": "Bulks up the body  to boost both  Attack & Defense.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Bullet Seed": {
+  "id": "ITEM_TM_BULLET_SEED",
+  "desc": "Shoots 2 to 5 seeds  in a row to strike  the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Hidden Power": {
+  "id": "ITEM_TM_HIDDEN_POWER",
+  "desc": "The attack power  varies among  different Pokémon.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Sunny Day": {
+  "id": "ITEM_TM_SUNNY_DAY",
+  "desc": "Raises the power of  Fire-type moves  for 5 turns.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Taunt": {
+  "id": "ITEM_TM_TAUNT",
+  "desc": "Enrages the foe so  it can only use  attack moves.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Ice Beam": {
+  "id": "ITEM_TM_ICE_BEAM",
+  "desc": "Fires an icy cold  beam that may  inflict frostbite.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Blizzard": {
+  "id": "ITEM_TM_BLIZZARD",
+  "desc": "A snow-and-wind  attack that may  inflict frostbite.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Hyper Beam": {
+  "id": "ITEM_TM_HYPER_BEAM",
+  "desc": "Powerful, but needs  recharging the  next turn.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Light Screen": {
+  "id": "ITEM_TM_LIGHT_SCREEN",
+  "desc": "Creates a wall of  light that lowers  Sp. Atk damage.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Protect": {
+  "id": "ITEM_TM_PROTECT",
+  "desc": "Negates all damage,  but may fail if used  in succession.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Rain Dance": {
+  "id": "ITEM_TM_RAIN_DANCE",
+  "desc": "Raises the power of  Water-type moves  for 5 turns.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Giga Drain": {
+  "id": "ITEM_TM_GIGA_DRAIN",
+  "desc": "Recovers half the  HP of the damage   this move inflicts.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Safeguard": {
+  "id": "ITEM_TM_SAFEGUARD",
+  "desc": "Prevents status  abnormality with a  mystical power.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Frustration": {
+  "id": "ITEM_TM_FRUSTRATION",
+  "desc": "The less the user  likes you, the more  powerful this move.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Solar Beam": {
+  "id": "ITEM_TM_SOLAR_BEAM",
+  "desc": "Absorbs sunlight in  the 1st turn, then  attacks next turn.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Iron Tail": {
+  "id": "ITEM_TM_IRON_TAIL",
+  "desc": "Slams the foe with  a hard tail. It may  lower Defense.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Thunderbolt": {
+  "id": "ITEM_TM_THUNDERBOLT",
+  "desc": "A powerful electric  attack that may  cause paralysis.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Thunder": {
+  "id": "ITEM_TM_THUNDER",
+  "desc": "Strikes the foe  with a thunderbolt.  It may paralyze.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Earthquake": {
+  "id": "ITEM_TM_EARTHQUAKE",
+  "desc": "Causes a quake  that has no effect  on flying foes.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Return": {
+  "id": "ITEM_TM_RETURN",
+  "desc": "The more the user  likes you, the more  powerful this move.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Dig": {
+  "id": "ITEM_TM_DIG",
+  "desc": "Digs underground  the 1st turn, then  strikes next turn.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Psychic": {
+  "id": "ITEM_TM_PSYCHIC",
+  "desc": "A powerful psychic  attack that may  lower Sp. Def.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Shadow Ball": {
+  "id": "ITEM_TM_SHADOW_BALL",
+  "desc": "Hurls a dark lump  at the foe. It may  lower Sp. Def.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Brick Break": {
+  "id": "ITEM_TM_BRICK_BREAK",
+  "desc": "Destroys barriers  like Light Screen  and causes damage.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Double Team": {
+  "id": "ITEM_TM_DOUBLE_TEAM",
+  "desc": "Creates illusory  copies to enhance  elusiveness.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Reflect": {
+  "id": "ITEM_TM_REFLECT",
+  "desc": "Creates a wall of  light that weakens  physical attacks.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Shock Wave": {
+  "id": "ITEM_TM_SHOCK_WAVE",
+  "desc": "Zaps the foe with a  jolt of electricity  that never misses.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Flamethrower": {
+  "id": "ITEM_TM_FLAMETHROWER",
+  "desc": "Looses a stream of  fire that may burn  the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Sludge Bomb": {
+  "id": "ITEM_TM_SLUDGE_BOMB",
+  "desc": "Hurls sludge at the  foe. It may poison  the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Sandstorm": {
+  "id": "ITEM_TM_SANDSTORM",
+  "desc": "Causes a sandstorm  that hits the foe  over several turns.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Fire Blast": {
+  "id": "ITEM_TM_FIRE_BLAST",
+  "desc": "A powerful fire  attack that may  burn the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Rock Tomb": {
+  "id": "ITEM_TM_ROCK_TOMB",
+  "desc": "Stops the foe from  moving with rocks.  May lower Speed.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Aerial Ace": {
+  "id": "ITEM_TM_AERIAL_ACE",
+  "desc": "An extremely fast  attack that can't  be avoided.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Torment": {
+  "id": "ITEM_TM_TORMENT",
+  "desc": "Prevents the foe  from using the same  move in a row.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Facade": {
+  "id": "ITEM_TM_FACADE",
+  "desc": "Raises Attack when  poisoned, burned,  or paralyzed.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Secret Power": {
+  "id": "ITEM_TM_SECRET_POWER",
+  "desc": "Adds an effect to  attack depending  on the location.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Rest": {
+  "id": "ITEM_TM_REST",
+  "desc": "The user sleeps for  2 turns to restore  health and status.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Attract": {
+  "id": "ITEM_TM_ATTRACT",
+  "desc": "Makes it tough to  attack a foe of the  opposite gender.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Thief": {
+  "id": "ITEM_TM_THIEF",
+  "desc": "While attacking,  it may steal the  foe's held item.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Steel Wing": {
+  "id": "ITEM_TM_STEEL_WING",
+  "desc": "Spreads hard-  edged wings and  slams into the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Skill Swap": {
+  "id": "ITEM_TM_SKILL_SWAP",
+  "desc": "Switches abilities  with the foe on the  turn this is used.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Snatch": {
+  "id": "ITEM_TM_SNATCH",
+  "desc": "Steals the effects  of the move the foe  is trying to use.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "TM Overheat": {
+  "id": "ITEM_TM_OVERHEAT",
+  "desc": "Enables full-power  attack, but sharply  lowers Sp. Atk.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm93": {
+  "id": "ITEM_TM93",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm94": {
+  "id": "ITEM_TM94",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm95": {
+  "id": "ITEM_TM95",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm96": {
+  "id": "ITEM_TM96",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm97": {
+  "id": "ITEM_TM97",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm98": {
+  "id": "ITEM_TM98",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm99": {
+  "id": "ITEM_TM99",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Tm100": {
+  "id": "ITEM_TM100",
+  "desc": null,
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Cut": {
+  "id": "ITEM_HM_CUT",
+  "desc": "Attacks the foe  with sharp blades  or claws.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Fly": {
+  "id": "ITEM_HM_FLY",
+  "desc": "Flies up on the  first turn, then  attacks next turn.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Surf": {
+  "id": "ITEM_HM_SURF",
+  "desc": "Creates a huge  wave, then crashes  it down on the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Strength": {
+  "id": "ITEM_HM_STRENGTH",
+  "desc": "Builds enormous  power, then slams  the foe.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Flash": {
+  "id": "ITEM_HM_FLASH",
+  "desc": "Looses a powerful  blast of light that  reduces accuracy.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Rock Smash": {
+  "id": "ITEM_HM_ROCK_SMASH",
+  "desc": "A rock-crushingly  tough attack that  may lower Defense.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Waterfall": {
+  "id": "ITEM_HM_WATERFALL",
+  "desc": "Attacks the foe  with enough power  to climb waterfalls.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Whirlpool": {
+  "id": "ITEM_HM_WHIRLPOOL",
+  "desc": "Traps the foe in a  violent swirling  whirlpool.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "HM Dive": {
+  "id": "ITEM_HM_DIVE",
+  "desc": "Dives underwater  the 1st turn, then  attacks next turn.",
+  "pocket": "Tm Hm",
+  "src": "src/data/items.h"
+ },
+ "Oval Charm": {
+  "id": "ITEM_OVAL_CHARM",
+  "desc": "Raises the chance  of finding eggs  at the daycare.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Shiny Charm": {
+  "id": "ITEM_SHINY_CHARM",
+  "desc": "A charm that will  raise the chance  of Shiny Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Catching Charm": {
+  "id": "ITEM_CATCHING_CHARM",
+  "desc": "A charm that raises  the chance of  Critical Captures.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Exp Charm": {
+  "id": "ITEM_EXP_CHARM",
+  "desc": "A charm that raises  the amount of Exp.  earned in battle.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Rotom Catalog": {
+  "id": "ITEM_ROTOM_CATALOG",
+  "desc": "A catalog full of  devices liked by  Rotom.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Gracidea": {
+  "id": "ITEM_GRACIDEA",
+  "desc": "Bouquets made with  it are offered as a  token of gratitude.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Reveal Glass": {
+  "id": "ITEM_REVEAL_GLASS",
+  "desc": "This glass returns  a Pokémon back to  its original form.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Dna Splicers": {
+  "id": "ITEM_DNA_SPLICERS",
+  "desc": "Splicer that fuses  Kyurem and a  certain Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Zygarde Cube": {
+  "id": "ITEM_ZYGARDE_CUBE",
+  "desc": "An item to store  Zygarde Cores and  Cells.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Prison Bottle": {
+  "id": "ITEM_PRISON_BOTTLE",
+  "desc": "A bottle used to  seal a certain  Pokémon long ago.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "N Solarizer": {
+  "id": "ITEM_N_SOLARIZER",
+  "desc": "A device to fuse  and split Necrozma  using a Solgaleo.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "N Lunarizer": {
+  "id": "ITEM_N_LUNARIZER",
+  "desc": "A device to fuse  and split Necrozma  using a Lunala.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Reins Of Unity": {
+  "id": "ITEM_REINS_OF_UNITY",
+  "desc": "Reins that unite  Calyrex with its  beloved steed.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Mega Ring": {
+  "id": "ITEM_MEGA_RING",
+  "desc": "Enables {PKMN} holding  their Mega Stone to  Mega Evolve.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Z Power Ring": {
+  "id": "ITEM_Z_POWER_RING",
+  "desc": "A strange ring  that enables  Z-Move usage.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Dynamax Band": {
+  "id": "ITEM_DYNAMAX_BAND",
+  "desc": "A band carrying a  Wishing Star that  allows Dynamaxing.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Bicycle": {
+  "id": "ITEM_BICYCLE",
+  "desc": "A folding bicycle.  Press R while still  to change speeds.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Mach Bike": {
+  "id": "ITEM_MACH_BIKE",
+  "desc": "A folding bicycle  that doubles your  speed or better.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Acro Bike": {
+  "id": "ITEM_ACRO_BIKE",
+  "desc": "A folding bicycle  capable of jumps  and wheelies.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Old Rod": {
+  "id": "ITEM_OLD_ROD",
+  "desc": "Use by any body of  water to fish for  wild Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Good Rod": {
+  "id": "ITEM_GOOD_ROD",
+  "desc": "A decent fishing  rod for catching  wild Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Super Rod": {
+  "id": "ITEM_SUPER_ROD",
+  "desc": "The best fishing  rod for catching  wild Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Dowsing Machine": {
+  "id": "ITEM_DOWSING_MACHINE",
+  "desc": "A device that  signals an invisible  item by sound.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Town Map": {
+  "id": "ITEM_TOWN_MAP",
+  "desc": "Can be viewed  anytime. Shows your  present location.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Vs Seeker": {
+  "id": "ITEM_VS_SEEKER",
+  "desc": "A rechargeable unit  that flags battle-  ready Trainers.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "TM Case": {
+  "id": "ITEM_TM_CASE",
+  "desc": "A convenient case  that holds TMs and  HMs.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Berry Pouch": {
+  "id": "ITEM_BERRY_POUCH",
+  "desc": "A convenient  container that  holds Berries.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Pokemon Box Link": {
+  "id": "ITEM_POKEMON_BOX_LINK",
+  "desc": "This device grants  access to the {PKMN}  Storage System.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Coin Case": {
+  "id": "ITEM_COIN_CASE",
+  "desc": "A case that holds  up to 9,999 Coins.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Powder Jar": {
+  "id": "ITEM_POWDER_JAR",
+  "desc": "Stores Berry  Powder made using  a Berry Crusher.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Wailmer Pail": {
+  "id": "ITEM_WAILMER_PAIL",
+  "desc": "A tool used for  watering Berries  and plants.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Poke Radar": {
+  "id": "ITEM_POKE_RADAR",
+  "desc": "A tool used to  search out Pokémon  hiding in grass.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Pokeblock Case": {
+  "id": "ITEM_POKEBLOCK_CASE",
+  "desc": "A case for holding  {POKEBLOCK}s made with  a Berry Blender.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Soot Sack": {
+  "id": "ITEM_SOOT_SACK",
+  "desc": "A sack used to  gather and hold  volcanic ash.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Poke Flute": {
+  "id": "ITEM_POKE_FLUTE",
+  "desc": "A sweet-sounding  flute that awakens  Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Fame Checker": {
+  "id": "ITEM_FAME_CHECKER",
+  "desc": "Stores information  on famous people  for instant recall.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Teachy Tv": {
+  "id": "ITEM_TEACHY_TV",
+  "desc": "A TV set tuned to  an advice program  for Trainers.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Ss Ticket": {
+  "id": "ITEM_SS_TICKET",
+  "desc": "The ticket required  for sailing on a  ferry.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Eon Ticket": {
+  "id": "ITEM_EON_TICKET",
+  "desc": "The ticket for a  ferry to a distant  southern island.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Mystic Ticket": {
+  "id": "ITEM_MYSTIC_TICKET",
+  "desc": "A ticket required  to board the ship  to Navel Rock.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Aurora Ticket": {
+  "id": "ITEM_AURORA_TICKET",
+  "desc": "A ticket required  to board the ship  to Birth Island.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Old Sea Map": {
+  "id": "ITEM_OLD_SEA_MAP",
+  "desc": "A faded sea chart  that shows the way  to a certain island.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Letter": {
+  "id": "ITEM_LETTER",
+  "desc": "A letter to Steven  from the President  of the Devon Corp.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Devon Parts": {
+  "id": "ITEM_DEVON_PARTS",
+  "desc": "A package that  contains Devon's  machine parts.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Go Goggles": {
+  "id": "ITEM_GO_GOGGLES",
+  "desc": "Nifty goggles that  protect eyes from  desert sandstorms.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Devon Scope": {
+  "id": "ITEM_DEVON_SCOPE",
+  "desc": "A device by Devon  that signals any  unseeable Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Basement Key": {
+  "id": "ITEM_BASEMENT_KEY",
+  "desc": "The key for the  GOLDENROD  UNDERGROUND.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Scanner": {
+  "id": "ITEM_SCANNER",
+  "desc": "A device found  inside the  Abandoned Ship.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Storage Key": {
+  "id": "ITEM_STORAGE_KEY",
+  "desc": "The key to the  storage inside the  Abandoned Ship.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Key To Room 1": {
+  "id": "ITEM_KEY_TO_ROOM_1",
+  "desc": null,
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Key To Room 2": {
+  "id": "ITEM_KEY_TO_ROOM_2",
+  "desc": null,
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Key To Room 4": {
+  "id": "ITEM_KEY_TO_ROOM_4",
+  "desc": null,
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Key To Room 6": {
+  "id": "ITEM_KEY_TO_ROOM_6",
+  "desc": null,
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Meteorite": {
+  "id": "ITEM_METEORITE",
+  "desc": "A meteorite found  at Birth Island.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Magma Emblem": {
+  "id": "ITEM_MAGMA_EMBLEM",
+  "desc": "A medal-like item in  the same shape as  Team Magma's mark.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Contest Pass": {
+  "id": "ITEM_CONTEST_PASS",
+  "desc": "The pass required  for entering  Pokémon Contests.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Parcel": {
+  "id": "ITEM_PARCEL",
+  "desc": "A parcel for Prof.  Oak from a Pokémon  Mart's clerk.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Secret Key": {
+  "id": "ITEM_SECRET_KEY",
+  "desc": "The key to the  Cinnabar Island  Gym's entrance.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Bike Voucher": {
+  "id": "ITEM_BIKE_VOUCHER",
+  "desc": "A voucher for  obtaining a bicycle  from the Bike Shop.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Gold Teeth": {
+  "id": "ITEM_GOLD_TEETH",
+  "desc": "Gold dentures lost  by the Safari  Zone's Warden.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Card Key": {
+  "id": "ITEM_CARD_KEY",
+  "desc": "A card-type door  key used in RADIO  TOWER.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Lift Key": {
+  "id": "ITEM_LIFT_KEY",
+  "desc": "An elevator key  used in Team  Rocket's Hideout.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Silph Scope": {
+  "id": "ITEM_SILPH_SCOPE",
+  "desc": "Silph Co's scope  makes unseeable  POKéMON visible.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Tri Pass": {
+  "id": "ITEM_TRI_PASS",
+  "desc": "A pass for ferries  between One, Two,  and Three Island.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Rainbow Pass": {
+  "id": "ITEM_RAINBOW_PASS",
+  "desc": "For ferries serving  Vermilion and the  Sevii Islands.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Tea": {
+  "id": "ITEM_TEA",
+  "desc": "A thirst-quenching  tea prepared by an  old lady.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Ruby": {
+  "id": "ITEM_RUBY",
+  "desc": "An exquisite, red-  glowing gem that  symbolizes passion.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Sapphire": {
+  "id": "ITEM_SAPPHIRE",
+  "desc": "A brilliant blue gem  that symbolizes  honesty.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Ability Shield": {
+  "id": "ITEM_ABILITY_SHIELD",
+  "desc": "Ability changes are  prevented for this  items's holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Clear Amulet": {
+  "id": "ITEM_CLEAR_AMULET",
+  "desc": "Stat lowering is  prevented for this  items's holder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Punching Glove": {
+  "id": "ITEM_PUNCHING_GLOVE",
+  "desc": "Powers up punching  moves and removes  their contact.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Covert Cloak": {
+  "id": "ITEM_COVERT_CLOAK",
+  "desc": "Protects holder  from additional  effects of moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Loaded Dice": {
+  "id": "ITEM_LOADED_DICE",
+  "desc": "Rolls high numbers.  Multihit strikes  hit more times.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Auspicious Armor": {
+  "id": "ITEM_AUSPICIOUS_ARMOR",
+  "desc": "Armor inhabited by  auspicious wishes.  Causes evolution.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Booster Energy": {
+  "id": "ITEM_BOOSTER_ENERGY",
+  "desc": "Encapsuled energy  ups Pokémon with  certain Abilities.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Big Bamboo Shoot": {
+  "id": "ITEM_BIG_BAMBOO_SHOOT",
+  "desc": "A large and rare  bamboo shoot. Best  sold to gourmands.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Gimmighoul Coin": {
+  "id": "ITEM_GIMMIGHOUL_COIN",
+  "desc": "Gimmighoul hoard  and treasure these  curious coins.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Leaders Crest": {
+  "id": "ITEM_LEADERS_CREST",
+  "desc": "A shard of an old  blade of some sort.  Held by Bisharp.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Malicious Armor": {
+  "id": "ITEM_MALICIOUS_ARMOR",
+  "desc": "Armor inhabited by  malicious will.  Causes evolution.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Mirror Herb": {
+  "id": "ITEM_MIRROR_HERB",
+  "desc": "Mirrors an enemy's  stat increases  but only once.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Scroll Of Darkness": {
+  "id": "ITEM_SCROLL_OF_DARKNESS",
+  "desc": "A peculiar scroll  with secrets of  the dark path.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Scroll Of Waters": {
+  "id": "ITEM_SCROLL_OF_WATERS",
+  "desc": "A peculiar scroll  with secrets of  the water path.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Tera Orb": {
+  "id": "ITEM_TERA_ORB",
+  "desc": "Energy charges can  be used to cause  Terastallization.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Tiny Bamboo Shoot": {
+  "id": "ITEM_TINY_BAMBOO_SHOOT",
+  "desc": "A small and rare  bamboo shoot. Best  sold to gourmands.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Bug Tera Shard": {
+  "id": "ITEM_BUG_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dark Tera Shard": {
+  "id": "ITEM_DARK_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Dragon Tera Shard": {
+  "id": "ITEM_DRAGON_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Electric Tera Shard": {
+  "id": "ITEM_ELECTRIC_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fairy Tera Shard": {
+  "id": "ITEM_FAIRY_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fighting Tera Shard": {
+  "id": "ITEM_FIGHTING_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fire Tera Shard": {
+  "id": "ITEM_FIRE_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Flying Tera Shard": {
+  "id": "ITEM_FLYING_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ghost Tera Shard": {
+  "id": "ITEM_GHOST_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Grass Tera Shard": {
+  "id": "ITEM_GRASS_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ground Tera Shard": {
+  "id": "ITEM_GROUND_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Ice Tera Shard": {
+  "id": "ITEM_ICE_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Normal Tera Shard": {
+  "id": "ITEM_NORMAL_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Poison Tera Shard": {
+  "id": "ITEM_POISON_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Psychic Tera Shard": {
+  "id": "ITEM_PSYCHIC_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Rock Tera Shard": {
+  "id": "ITEM_ROCK_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Steel Tera Shard": {
+  "id": "ITEM_STEEL_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Water Tera Shard": {
+  "id": "ITEM_WATER_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Adamant Crystal": {
+  "id": "ITEM_ADAMANT_CRYSTAL",
+  "desc": "A large, glowing gem  that lets Dialga  change form.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Griseous Core": {
+  "id": "ITEM_GRISEOUS_CORE",
+  "desc": "A large, glowing gem  that lets Giratina  change form.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Lustrous Globe": {
+  "id": "ITEM_LUSTROUS_GLOBE",
+  "desc": "A large, glowing gem  that lets Palkia  change form.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Black Augurite": {
+  "id": "ITEM_BLACK_AUGURITE",
+  "desc": "A black stone that  makes some Pokémon  evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Linking Cord": {
+  "id": "ITEM_LINKING_CORD",
+  "desc": "A mysterious string  that makes some  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Peat Block": {
+  "id": "ITEM_PEAT_BLOCK",
+  "desc": "A block of material  that makes some  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Berserk Gene": {
+  "id": "ITEM_BERSERK_GENE",
+  "desc": "Sharply boosts  Attack, but causes  lasting confusion.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fairy Feather": {
+  "id": "ITEM_FAIRY_FEATHER",
+  "desc": "A hold item that  raises the power of  Fairy-type moves.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Syrupy Apple": {
+  "id": "ITEM_SYRUPY_APPLE",
+  "desc": "A very syrupy apple  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Unremarkable Teacup": {
+  "id": "ITEM_UNREMARKABLE_TEACUP",
+  "desc": "A cracked teacup  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Masterpiece Teacup": {
+  "id": "ITEM_MASTERPIECE_TEACUP",
+  "desc": "A chipped teacup  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Cornerstone Mask": {
+  "id": "ITEM_CORNERSTONE_MASK",
+  "desc": "Allows Ogerpon to  wield the Rock-  type in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Wellspring Mask": {
+  "id": "ITEM_WELLSPRING_MASK",
+  "desc": "Allows Ogerpon to  wield the Water-  type in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Hearthflame Mask": {
+  "id": "ITEM_HEARTHFLAME_MASK",
+  "desc": "Allows Ogerpon to  wield the Fire-  type in battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Health Mochi": {
+  "id": "ITEM_HEALTH_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Muscle Mochi": {
+  "id": "ITEM_MUSCLE_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Resist Mochi": {
+  "id": "ITEM_RESIST_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Genius Mochi": {
+  "id": "ITEM_GENIUS_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Clever Mochi": {
+  "id": "ITEM_CLEVER_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Swift Mochi": {
+  "id": "ITEM_SWIFT_MOCHI",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Fresh Start Mochi": {
+  "id": "ITEM_FRESH_START_MOCHI",
+  "desc": "An item that resets  all base points of  a Pokémon.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Glimmering Charm": {
+  "id": "ITEM_GLIMMERING_CHARM",
+  "desc": "A charm that will  raise the shards  from Tera Raids.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Metal Alloy": {
+  "id": "ITEM_METAL_ALLOY",
+  "desc": "A peculiar metal  that makes certain  Pokémon evolve.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Stellar Tera Shard": {
+  "id": "ITEM_STELLAR_TERA_SHARD",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Jubilife Muffin": {
+  "id": "ITEM_JUBILIFE_MUFFIN",
+  "desc": null,
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Remedy": {
+  "id": "ITEM_REMEDY",
+  "desc": "A bitter powder  that restores HP  by 20 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Fine Remedy": {
+  "id": "ITEM_FINE_REMEDY",
+  "desc": "A bitter powder  that restores HP  by 60 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Superb Remedy": {
+  "id": "ITEM_SUPERB_REMEDY",
+  "desc": "A bitter powder  that restores HP  by 120 points.",
+  "pocket": "Medicine",
+  "src": "src/data/items.h"
+ },
+ "Aux Evasion": {
+  "id": "ITEM_AUX_EVASION",
+  "desc": "Sharply raises  evasiveness during  one battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aux Guard": {
+  "id": "ITEM_AUX_GUARD",
+  "desc": "Sharply raises  defenses during  one battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aux Power": {
+  "id": "ITEM_AUX_POWER",
+  "desc": "Sharply raises  offenses during  one battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Aux Powerguard": {
+  "id": "ITEM_AUX_POWERGUARD",
+  "desc": "Sharply raises  offense & defense  during one battle.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Choice Dumpling": {
+  "id": "ITEM_CHOICE_DUMPLING",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Swap Snack": {
+  "id": "ITEM_SWAP_SNACK",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Twice Spiced Radish": {
+  "id": "ITEM_TWICE_SPICED_RADISH",
+  "desc": null,
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Pokeshi Doll": {
+  "id": "ITEM_POKESHI_DOLL",
+  "desc": "A wooden toy  resembling a Poké-  mon. Can be sold.",
+  "pocket": "Treasures",
+  "src": "src/data/items.h"
+ },
+ "Gs Ball": {
+  "id": "ITEM_GS_BALL",
+  "desc": "A strange Poké Ball  with a gold and  silver design.",
+  "pocket": "Poke Balls",
+  "src": "src/data/items.h"
+ },
+ "Fertilizer": {
+  "id": "ITEM_FERTILIZER",
+  "desc": "A fertilizer that  accelerates the  growth of Berries.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Exp Share Small": {
+  "id": "ITEM_EXP_SHARE_SMALL",
+  "desc": "A held item that  gets Exp. Points  from battles.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Healing Heart": {
+  "id": "ITEM_HEALING_HEART",
+  "desc": "A heart that heals  your party when  used in the field.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Infinite Repel": {
+  "id": "ITEM_INFINITE_REPEL",
+  "desc": "An item that repels  weak Pokémon  permanently.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Infinite Rare Candies": {
+  "id": "ITEM_INFINITE_RARE_CANDIES",
+  "desc": "A box of Rare Candy  that never runs  out.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Clear Bell": {
+  "id": "ITEM_CLEAR_BELL",
+  "desc": "A bell that makes a  clear, pure sound.  It calms Pokémon.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Lost Item": {
+  "id": "ITEM_LOST_ITEM",
+  "desc": "An item lost by a  girl in Saffron  City.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Machine Part": {
+  "id": "ITEM_MACHINE_PART",
+  "desc": "A part needed to  repair the Power  Plant generator.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Mystery Egg": {
+  "id": "ITEM_MYSTERY_EGG",
+  "desc": "An Egg obtained  from Mr. Pokémon.  Give it to Elm.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Pass": {
+  "id": "ITEM_PASS",
+  "desc": "A pass for the  Magnet Train between  Goldenrod and Saffron.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Rainbow Wing": {
+  "id": "ITEM_RAINBOW_WING",
+  "desc": "A mystical feather  of rainbow colors.  It is sacred.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Red Scale": {
+  "id": "ITEM_RED_SCALE",
+  "desc": "A scale from the  red Gyarados at  the Lake of Rage.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Secret Potion": {
+  "id": "ITEM_SECRET_POTION",
+  "desc": "A secret medicine  made in Cianwood  City pharmacy.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Silver Wing": {
+  "id": "ITEM_SILVER_WING",
+  "desc": "A mystical silver  feather. It is said  to summon Lugia.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Tidal Bell": {
+  "id": "ITEM_TIDAL_BELL",
+  "desc": "Bell that produces  an echoing sound  that calls Lugia.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Radio": {
+  "id": "ITEM_RADIO",
+  "desc": "A portable radio  that picks up  various channels.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Squirt Bottle": {
+  "id": "ITEM_SQUIRT_BOTTLE",
+  "desc": "A bottle for  watering plants  and Sudowoodo.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Room 1 Key": {
+  "id": "ITEM_ROOM_1_KEY",
+  "desc": "A key to a room  in the Underground  Warehouse.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Room 2 Key": {
+  "id": "ITEM_ROOM_2_KEY",
+  "desc": "A key to a room  in the Underground  Warehouse.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Room 4 Key": {
+  "id": "ITEM_ROOM_4_KEY",
+  "desc": "A key to a room  in the Underground  Warehouse.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Room 6 Key": {
+  "id": "ITEM_ROOM_6_KEY",
+  "desc": "A key to a room  in the Underground  Warehouse.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Unused Berry 1": {
+  "id": "ITEM_UNUSED_BERRY_1",
+  "desc": "A hold item. Restores  the holder's HP by  30 points.",
+  "pocket": "Berries",
+  "src": "src/data/items.h"
+ },
+ "Unused Berry 2": {
+  "id": "ITEM_UNUSED_BERRY_2",
+  "desc": "An unused item  placeholder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Unused Berry 3": {
+  "id": "ITEM_UNUSED_BERRY_3",
+  "desc": "An unused item  placeholder.",
+  "pocket": "Items",
+  "src": "src/data/items.h"
+ },
+ "Candy Jar": {
+  "id": "ITEM_CANDY_JAR",
+  "desc": "Banks bonus EXP.  Use it to make  EXP. Candies.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ },
+ "Azure Flute": {
+  "id": "ITEM_AZURE_FLUTE",
+  "desc": "A flute that puts  out a mystifying  sound.",
+  "pocket": "Key Items",
+  "src": "src/data/items.h"
+ }
+}

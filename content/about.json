@@ -1,0 +1,46 @@
+{
+ "lead": "A Game Boy Advance adventure that joins Johto, Kanto and Hoenn into one journey, built as an extension of Pokémon Heart &amp; Soul.",
+ "sections": [
+  {
+   "id": "game",
+   "label": "The game",
+   "title": "One journey, three regions",
+   "p": [
+    "You begin in New Bark Town, take sixteen Badges across Johto and Kanto, climb Mt. Silver, and then ride a moving truck to Hoenn, which is rebuilt as a region for a veteran team: its routes start at Level 70 and every Gym Leader Mega Evolves.",
+    "Along the way are things no other game has in this shape: a story with Ash, Misty and Brock in Viridian Forest, a Mega Ring handed over by Professor Oak in Goldenrod, HMs that work from the Bag in every region, a free move relearner on the Summary screen, and cable-link trading and battling between two copies."
+   ]
+  },
+  {
+   "id": "scope",
+   "label": "Scope",
+   "title": "What is in it",
+   "list": [
+    "Johto and Kanto from Pokémon Heart &amp; Soul, with their Leagues, Red, and a second Kanto League at full strength.",
+    "Hoenn adapted from Recharged Emerald: all eight Gyms, both villain teams, the weather crisis, the Elite Four and Champion Wallace.",
+    "Extra areas: four Alola isles, New Sinjoh and the Sinjoh Ruins, three Safari Zones.",
+    "Built-in options: modern or classic rules, a randomizer, Nuzlocke modes, level caps and other challenges.",
+    "Mega Evolution with 51 obtainable Mega Stones."
+   ]
+  },
+  {
+   "id": "guide",
+   "label": "This guide",
+   "title": "How it was made",
+   "p": [
+    "The walkthrough is written from a complete playthrough of the game from a blank save to the Hoenn credits and into the postgame, played with ordinary inputs and logged step by step. Where a chapter says something was <i>played</i>, it happened in that run.",
+    "Everything else — every team, encounter table, item, shop list, evolution method and area map — is decoded from the game itself by scripts, not typed by hand. Each page says which kind of evidence it rests on, and where the game’s data does not answer a question the guide says so instead of filling the gap from other Pokémon games.",
+    "The guide is written for one specific build of the game, shown at the foot of every page. Bugs that were fixed in earlier builds are described as fixed, with the version that fixed them."
+   ]
+  },
+  {
+   "id": "legal",
+   "label": "Legal",
+   "title": "A fan project",
+   "p": [
+    "Project Blonde and this guide are unofficial, non-commercial fan works. Pokémon and all related names, characters and artwork are trademarks and © of Nintendo, Creatures Inc. and GAME FREAK inc. No affiliation or endorsement is implied.",
+    "Maps, sprites and text shown here are taken from the game for the purpose of documenting it. This site does not host Nintendo’s games.",
+    "Typefaces: Instrument Sans and Geist Mono, under the SIL Open Font License."
+   ]
+  }
+ ]
+}

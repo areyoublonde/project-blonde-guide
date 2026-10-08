@@ -1,0 +1,543 @@
+{
+ "sweep": [],
+ "checks": [
+  {
+   "name": "Desktop sweep: 181 pages clean",
+   "ok": true,
+   "detail": "0 pages failed"
+  },
+  {
+   "name": "Phone sweep: 181 pages clean",
+   "ok": true,
+   "detail": "0 pages failed"
+  },
+  {
+   "name": "Home (new player): headline is Play Project Blonde",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home: one primary button above the fold",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home: route into the walkthrough and into Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home: section links cover all eight areas",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home: Get started opens Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Road: 58 stops, every one a link",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Road: four regions in order",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Road: first stop opens Chapter 1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: opening it saves the position",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: title, objective, quick route in first screen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: shows what it is based on",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: Quick mode hides the full walkthrough",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: Full mode restores it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Map: zoom in enlarges",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Map: selecting a marker shows its detail",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Map: layer toggle hides its markers",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Map: expand fills the screen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Map: Esc leaves full screen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: rival battle has a team per starter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: starter tab switches the team",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: time-of-day switch changes the tables",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: a sticking-point answer opens",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: Next goes to the following chapter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Chapter: journey bar Previous goes back",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Gym map: pitfall layer exists and reveals",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Spoilers: Hoenn crossing text is blurred by default",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Spoilers: selecting it reveals it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Spoilers: global switch turns them on",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search: / opens the palette",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search: empty palette offers Continue first",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search: a misspelling finds Misdreavus",
+   "ok": true,
+   "detail": "['/trainers/johto/morty/', '/pokemon/misdreavus/']"
+  },
+  {
+   "name": "Search: a Leader's name finds their page",
+   "ok": true,
+   "detail": "['/trainers/postgame/roxanne-2/', '/trainers/hoenn/roxanne/', '/stuck/#gym-rematches-how-do-i-rematch-roxanne-and-the-other-h']"
+  },
+  {
+   "name": "Search: Mega Stones finds its section",
+   "ok": true,
+   "detail": "['/items/mega-stones/', '/items/meganiumite/', '/items/venusaurite/']"
+  },
+  {
+   "name": "Search: a question finds its Stuck? answer",
+   "ok": true,
+   "detail": "['/stuck/#road-to-hoenn-how-do-i-get-to-hoenn', '/stuck/#after-the-credits-how-do-i-return-to-pallet-town-from-hoen', '/stuck/#after-the-credits-where-am-i-after-the-hoenn-credits']"
+  },
+  {
+   "name": "Search: a place finds its page",
+   "ok": true,
+   "detail": "['/world/hoenn/sky-pillar/', '/stuck/#seafloor-cavern-the-sky-pillar-seems-blocked-on-4f', '/stuck/#seafloor-cavern-wallace-asks-where-rayquaza-is']"
+  },
+  {
+   "name": "Search: an HM finds its item page",
+   "ok": true,
+   "detail": "['/stuck/#mossdeep-city-which-hm-is-dive', '/stuck/#seafloor-cavern-where-do-i-dive-for-the-seafloor-cavern', '/stuck/#seafloor-cavern-how-do-i-get-into-sootopolis']"
+  },
+  {
+   "name": "Search: results are grouped by kind",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search: arrow keys move the selection",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search: Enter opens the selected result",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Search page: ?q= runs the query",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokédex: over a thousand entries listed",
+   "ok": true,
+   "detail": "1067"
+  },
+  {
+   "name": "Pokédex: typing a type filters the list",
+   "ok": true,
+   "detail": "71"
+  },
+  {
+   "name": "Pokédex: region filter narrows it",
+   "ok": true,
+   "detail": "4"
+  },
+  {
+   "name": "Pokédex: count readout matches",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokémon: regional form is a separate, linked entry",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokémon: locations table and Town Map dots",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokémon: Alolan form has its own locations (Alola isle)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokémon: Mega forms link to their Mega Stones",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Pokémon: trade evolution shows its level alternative",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Trainers: region filter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Trainer page: team with levels, items and moves",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Items: filter finds HM03 Surf",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Mega Stones: 51 obtainable stones listed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Mega Stones: searchable",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Mega Stones: completeness check reports a match",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Mega Evolution guide links to the Mega Stones section",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Item page: Mega Stone links to its Pokémon and the section",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "World: hovering a place lights its dot",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "World: Hoenn tab swaps the map and list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "World: filter leaves matching places",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Place: area map, encounter tables with four times of day",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Place: links back to its chapter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Stuck?: choosing where you are gives a next step",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Stuck?: it sets the last Badge and shows the road ahead",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Stuck?: answers for that stretch come first",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Stuck?: no answer from a later region is promoted",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Stuck?: a plain-language question narrows to the answer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: setting the current chapter moves You are here",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: Badges, milestones and chapters tick and count",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: postgame objectives are tracked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: survives a reload",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: Export produces a progress file",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: cleared state is empty",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: Import restores Badges, chapters and position",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: a wrong file is refused with a message",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Progress: says plainly that nothing is synced",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home (returning): You are here with place, chapter and Continue",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Home (returning): Badge progress and next Badge",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Header: Continue chip returns to the chapter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Play: download is present but disabled",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Play: no game file link anywhere on the page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Play: four devices offered",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Play: saving, backup, update, restore, link and troubleshooting are all there",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Play: link section names the compatibility id and the unsupported modes",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup · iphone: full path with Delta, six steps, sources",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup · android: full path with RetroArch, six steps, sources",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup · windows: full path with mGBA, six steps, sources",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup · mac: full path with mGBA, six steps, sources",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup: device chooser switches path",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Setup: step list jumps to a step",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Nav: More opens and lists Mega Stones",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Keyboard: first Tab lands on Skip to content",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Keyboard: focus is visible",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Keyboard: every control is reachable (no positive tabindex, no div buttons)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Reduced motion: animations and transitions are switched off",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "404: unknown path is not a blank page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: Menu opens the full list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: Menu links navigate",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: chapter dock has Journey, Route, Map, Contents",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: Journey sheet opens with previous / next",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: Next in the sheet opens the next chapter",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: Town Map stays pinned while the road scrolls",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: maps scroll inside their frame, not the page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: setup stepper advances",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Phone: search opens full screen and answers",
+   "ok": true,
+   "detail": ""
+  }
+ ],
+ "fail": 0,
+ "sweep_pages": 181,
+ "passed": 107
+}

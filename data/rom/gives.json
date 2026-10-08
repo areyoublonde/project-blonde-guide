@@ -1,0 +1,6036 @@
+[
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 151263331,
+  "sym": "HoRe_OldaleTown_Talk_2"
+ },
+ {
+  "item": "Chesto Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151278923,
+  "sym": "HoRe_Route104_Talk_16"
+ },
+ {
+  "item": "TM09 Bullet Seed",
+  "n": 1,
+  "how": "gift",
+  "addr": 151279387,
+  "sym": "HoRe_Route104_Talk_32"
+ },
+ {
+  "item": "Quick Claw",
+  "n": 1,
+  "how": "gift",
+  "addr": 151282238,
+  "sym": "HoRe_RustboroCity_PokemonSchool_Talk_6"
+ },
+ {
+  "item": "HM01 Cut",
+  "n": 1,
+  "how": "gift",
+  "addr": 151283369,
+  "sym": "HoRe_RustboroCity_CuttersHouse_Talk_1"
+ },
+ {
+  "item": "Wailmer Pail",
+  "n": 1,
+  "how": "gift",
+  "addr": 151283657,
+  "sym": "HoRe_Route104_PrettyPetalFlowerShop_Talk_2"
+ },
+ {
+  "item": "Miracle Seed",
+  "n": 1,
+  "how": "gift",
+  "addr": 151284399,
+  "sym": "HoRe_PetalburgWoods_Talk_13"
+ },
+ {
+  "item": "Master Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151313745,
+  "sym": "HoV22_StoneMasterBall"
+ },
+ {
+  "item": "Premier Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151319434,
+  "sym": "Ho9_RustboroCity_Flat2_2F_EventScript_NinjaBoy"
+ },
+ {
+  "item": "Aguav Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151423797,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveAguavBerry"
+ },
+ {
+  "item": "Mago Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151423883,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveMagoBerry"
+ },
+ {
+  "item": "Wiki Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151423916,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveWikiBerry"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424122,
+  "sym": "HoC1_SootopolisCity_Gym_1F_EventScript_PendingRewardRareCandy"
+ },
+ {
+  "item": "HM07 Waterfall",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424173,
+  "sym": "HoC1_SootopolisCity_Gym_1F_EventScript_PendingReward"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424208,
+  "sym": "HoC1_SootopolisCity_EventScript_WaterfallRewardPendingRareCandy"
+ },
+ {
+  "item": "HM07 Waterfall",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424267,
+  "sym": "HoC1_SootopolisCity_EventScript_WaterfallRewardPending"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424502,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveWaterfallOwned"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424854,
+  "sym": "HoC1_MossdeepCity_StevensHouse_EventScript_RareCandyPending"
+ },
+ {
+  "item": "HM09 Dive",
+  "n": 1,
+  "how": "gift",
+  "addr": 151424915,
+  "sym": "HoC1_MossdeepCity_StevensHouse_EventScript_RewardPending"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151425191,
+  "sym": "HoC1_MossdeepCity_StevensHouse_EventScript_StevenGivesRareCandy"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151425615,
+  "sym": "HoC1_LittlerootTown_EventScript_RivalGiveRareCandyC4"
+ },
+ {
+  "item": "Linking Cord",
+  "n": 1,
+  "how": "gift",
+  "addr": 151426302,
+  "sym": "HoC1_Route119_EventScript_FlyOwnedRareCandy"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151426314,
+  "sym": "HoC1_Route119_EventScript_FlyOwnedRareCandy"
+ },
+ {
+  "item": "Linking Cord",
+  "n": 1,
+  "how": "gift",
+  "addr": 151426623,
+  "sym": "HoC1_Route119_EventScript_GiveFlyHM"
+ },
+ {
+  "item": "HM02 Fly",
+  "n": 1,
+  "how": "gift",
+  "addr": 151426635,
+  "sym": "HoC1_Route119_EventScript_GiveFlyHM"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151427649,
+  "sym": "HoC1_PetalburgCity_WallysHouse_EventScript_RareCandyPending"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151427789,
+  "sym": "HoC1_PetalburgCity_WallysHouse_EventScript_SurfOwned"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 151428271,
+  "sym": "HoC1_VerdanturfTown_WandasHouse_EventScript_WandasBoyfriendPPMax"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 151429127,
+  "sym": "HoC1_RusturfTunnel_EventScript_StrengthOwned"
+ },
+ {
+  "item": "HM04 Strength",
+  "n": 1,
+  "how": "gift",
+  "addr": 151429185,
+  "sym": "HoC1_RusturfTunnel_EventScript_GiveStrengthIfNeeded"
+ },
+ {
+  "item": "Dowsing Machine",
+  "n": 1,
+  "how": "gift",
+  "addr": 151429348,
+  "sym": "HoC1_Route110_EventScript_GiveItemfinderIfNeeded"
+ },
+ {
+  "item": "TM49 Snatch",
+  "n": 1,
+  "how": "gift",
+  "addr": 151431041,
+  "sym": "HoC1_SSTidalRooms_EventScript_SnatchGiver"
+ },
+ {
+  "item": "TM45 Attract",
+  "n": 1,
+  "how": "gift",
+  "addr": 151438595,
+  "sym": "HoC1_VerdanturfTown_BattleTentLobby_EventScript_AttractGiver"
+ },
+ {
+  "item": "TM41 Torment",
+  "n": 1,
+  "how": "gift",
+  "addr": 151440088,
+  "sym": "HoC1_SlateportCity_BattleTentLobby_EventScript_TormentGiver"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 151454260,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle7"
+ },
+ {
+  "item": "Magnet",
+  "n": 1,
+  "how": "gift",
+  "addr": 151454808,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle6"
+ },
+ {
+  "item": "TM12 Taunt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151454958,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle5"
+ },
+ {
+  "item": "Smoke Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151455158,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle4"
+ },
+ {
+  "item": "Hard Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 151455340,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle3"
+ },
+ {
+  "item": "Timer Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151455528,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle2"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151455712,
+  "sym": "HoC1_Route110_TrickHouseEnd_EventScript_CompletedPuzzle1"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457562,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle7Reward"
+ },
+ {
+  "item": "Magnet",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457682,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle6Reward"
+ },
+ {
+  "item": "TM12 Taunt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457726,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle5Reward"
+ },
+ {
+  "item": "Smoke Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457770,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle4Reward"
+ },
+ {
+  "item": "Hard Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457814,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle3Reward"
+ },
+ {
+  "item": "Timer Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457858,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle2Reward"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 151457902,
+  "sym": "HoC1_Route110_TrickHouseEntrance_EventScript_GivePuzzle1Reward"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463143,
+  "sym": "HoC1_ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4"
+ },
+ {
+  "item": "Focus Band",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463294,
+  "sym": "HoC1_ShoalCave_LowTideLowerRoom_EventScript_BlackBelt"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463553,
+  "sym": "HoC1_ShoalCave_LowTideStairsRoom_EventScript_ShoalSalt3"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463632,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalShell4"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463772,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalShell3"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463841,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalShell2"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463910,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalShell1"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151463979,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt2"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 151464058,
+  "sym": "HoC1_ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt1"
+ },
+ {
+  "item": "Shell Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151464220,
+  "sym": "HoC1_ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert"
+ },
+ {
+  "item": "Root Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 151465354,
+  "sym": "HoC1_DesertUnderpass_EventScript_GiveRootFossil"
+ },
+ {
+  "item": "Claw Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 151465392,
+  "sym": "HoC1_DesertUnderpass_EventScript_GiveClawFossil"
+ },
+ {
+  "item": "Claw Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 151465451,
+  "sym": "HoC1_MirageTower_4F_EventScript_ClawFossil"
+ },
+ {
+  "item": "Root Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 151465742,
+  "sym": "HoC1_MirageTower_4F_EventScript_RootFossil"
+ },
+ {
+  "item": "TM21 Frustration",
+  "n": 1,
+  "how": "gift",
+  "addr": 151481908,
+  "sym": "HoC1_PacifidlogTown_House2_EventScript_GiveFrustration"
+ },
+ {
+  "item": "TM27 Return",
+  "n": 1,
+  "how": "gift",
+  "addr": 151482268,
+  "sym": "HoC1_PacifidlogTown_House2_EventScript_GiveReturn"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "gift",
+  "addr": 151486350,
+  "sym": "HoC1_SootopolisCity_LotadAndSeedotHouse_EventScript_BigSeedot"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "gift",
+  "addr": 151487148,
+  "sym": "HoC1_SootopolisCity_LotadAndSeedotHouse_EventScript_BigLotad"
+ },
+ {
+  "item": "TM31 Brick Break",
+  "n": 1,
+  "how": "gift",
+  "addr": 151489847,
+  "sym": "HoC1_SootopolisCity_House1_EventScript_BrickBreakBlackBelt"
+ },
+ {
+  "item": "TM03 Water Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 151494765,
+  "sym": "HoC1_SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2"
+ },
+ {
+  "item": "TM03 Water Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 151495058,
+  "sym": "HoC1_SootopolisCity_Gym_1F_EventScript_GiveWaterPulse"
+ },
+ {
+  "item": "HM07 Waterfall",
+  "n": 1,
+  "how": "gift",
+  "addr": 151496648,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveWaterfall"
+ },
+ {
+  "item": "Iapapa Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151502900,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveIapapaBerry"
+ },
+ {
+  "item": "Figy Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151502933,
+  "sym": "HoC1_SootopolisCity_EventScript_GiveFigyBerry"
+ },
+ {
+  "item": "Sun Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 151528469,
+  "sym": "HoC1_MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan"
+ },
+ {
+  "item": "Sun Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 151528727,
+  "sym": "HoC1_MossdeepCity_SpaceCenter_1F_EventScript_SunStoneManMagma"
+ },
+ {
+  "item": "Super Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 151530987,
+  "sym": "HoC1_MossdeepCity_House3_EventScript_SuperRodFisherman"
+ },
+ {
+  "item": "TM04 Calm Mind",
+  "n": 1,
+  "how": "gift",
+  "addr": 151533800,
+  "sym": "HoC1_MossdeepCity_Gym_EventScript_GiveCalmMind2"
+ },
+ {
+  "item": "TM04 Calm Mind",
+  "n": 1,
+  "how": "gift",
+  "addr": 151534151,
+  "sym": "HoC1_MossdeepCity_Gym_EventScript_GiveCalmMind"
+ },
+ {
+  "item": "Kings Rock",
+  "n": 1,
+  "how": "gift",
+  "addr": 151538378,
+  "sym": "HoC1_MossdeepCity_EventScript_KingsRockBoy"
+ },
+ {
+  "item": "TM44 Rest",
+  "n": 1,
+  "how": "gift",
+  "addr": 151560278,
+  "sym": "HoC1_LilycoveCity_House2_EventScript_FatMan"
+ },
+ {
+  "item": "Oval Charm",
+  "n": 1,
+  "how": "gift",
+  "addr": 151567602,
+  "sym": "HoC1_LilycoveCity_CoveLilyMotel_2F_EventScript_GiveOvalCharm"
+ },
+ {
+  "item": "Shiny Charm",
+  "n": 1,
+  "how": "gift",
+  "addr": 151567648,
+  "sym": "HoC1_LilycoveCity_CoveLilyMotel_2F_EventScript_GiveShinyCharm"
+ },
+ {
+  "item": "Magma Emblem",
+  "n": 1,
+  "how": "gift",
+  "addr": 151584431,
+  "sym": "HoC1_MtPyre_Summit_EventScript_TeamAquaExits"
+ },
+ {
+  "item": "Cleanse Tag",
+  "n": 1,
+  "how": "gift",
+  "addr": 151592974,
+  "sym": "HoC1_MtPyre_1F_EventScript_CleanseTagWoman"
+ },
+ {
+  "item": "Belue Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151593504,
+  "sym": "HoC1_Route123_BerryMastersHouse_EventScript_GiveBelueBerry"
+ },
+ {
+  "item": "Durin Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151593790,
+  "sym": "HoC1_Route123_BerryMastersHouse_EventScript_GiveDurinBerry"
+ },
+ {
+  "item": "Watmel Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151593858,
+  "sym": "HoC1_Route123_BerryMastersHouse_EventScript_GiveWatmelBerry"
+ },
+ {
+  "item": "Pamtre Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151593926,
+  "sym": "HoC1_Route123_BerryMastersHouse_EventScript_GivePamtreBerry"
+ },
+ {
+  "item": "Spelon Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151593994,
+  "sym": "HoC1_Route123_BerryMastersHouse_EventScript_GiveSpelonBerry"
+ },
+ {
+  "item": "TM19 Giga Drain",
+  "n": 1,
+  "how": "gift",
+  "addr": 151598430,
+  "sym": "HoC1_Route123_EventScript_GigaDrainGirl"
+ },
+ {
+  "item": "Devon Scope",
+  "n": 1,
+  "how": "gift",
+  "addr": 151603639,
+  "sym": "HoC1_Route120_EventScript_StevenGiveDeconScope"
+ },
+ {
+  "item": "TM40 Aerial Ace",
+  "n": 1,
+  "how": "gift",
+  "addr": 151610148,
+  "sym": "HoC1_FortreeCity_Gym_EventScript_GiveAerialAce2"
+ },
+ {
+  "item": "TM40 Aerial Ace",
+  "n": 1,
+  "how": "gift",
+  "addr": 151610396,
+  "sym": "HoC1_FortreeCity_Gym_EventScript_GiveAerialAce"
+ },
+ {
+  "item": "Mental Herb",
+  "n": 1,
+  "how": "gift",
+  "addr": 151612504,
+  "sym": "HoC1_FortreeCity_House4_EventScript_WingullReturned"
+ },
+ {
+  "item": "TM10 Hidden Power",
+  "n": 1,
+  "how": "gift",
+  "addr": 151613468,
+  "sym": "HoC1_FortreeCity_House2_EventScript_HiddenPowerGiver"
+ },
+ {
+  "item": "Good Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 151629450,
+  "sym": "HoC1_Route118_EventScript_ReceiveGoodRod"
+ },
+ {
+  "item": "Charcoal",
+  "n": 1,
+  "how": "gift",
+  "addr": 151633551,
+  "sym": "HoC1_LavaridgeTown_HerbShop_EventScript_OldMan"
+ },
+ {
+  "item": "TM50 Overheat",
+  "n": 1,
+  "how": "gift",
+  "addr": 151636576,
+  "sym": "HoC1_LavaridgeTown_Gym_1F_EventScript_GiveOverheat2"
+ },
+ {
+  "item": "TM50 Overheat",
+  "n": 1,
+  "how": "gift",
+  "addr": 151636925,
+  "sym": "HoC1_LavaridgeTown_Gym_1F_EventScript_GiveOverheat"
+ },
+ {
+  "item": "Meteorite",
+  "n": 1,
+  "how": "gift",
+  "addr": 151641797,
+  "sym": "HoC1_MtChimney_EventScript_MeteoriteMachine"
+ },
+ {
+  "item": "Lava Cookie",
+  "n": 1,
+  "how": "gift",
+  "addr": 151644635,
+  "sym": "HoC1_MtChimney_EventScript_LavaCookieLady"
+ },
+ {
+  "item": "TM28 Dig",
+  "n": 1,
+  "how": "gift",
+  "addr": 151653417,
+  "sym": "HoC1_Route114_FossilManiacsHouse_EventScript_FossilManiacsBrother"
+ },
+ {
+  "item": "TM05 Roar",
+  "n": 1,
+  "how": "gift",
+  "addr": 151656322,
+  "sym": "HoC1_Route114_EventScript_RoarGentleman"
+ },
+ {
+  "item": "TM27 Return",
+  "n": 1,
+  "how": "gift",
+  "addr": 151659121,
+  "sym": "HoC1_FallarborTown_CozmosHouse_EventScript_PlayerHasMeteorite"
+ },
+ {
+  "item": "Soot Sack",
+  "n": 1,
+  "how": "gift",
+  "addr": 151661906,
+  "sym": "HoC1_Route113_GlassWorkshop_EventScript_GlassWorker"
+ },
+ {
+  "item": "Macho Brace",
+  "n": 1,
+  "how": "gift",
+  "addr": 151671603,
+  "sym": "HoC1_Route111_WinstrateFamilysHouse_EventScript_Victoria"
+ },
+ {
+  "item": "Razz Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 151676734,
+  "sym": "HoC1_Route111_EventScript_Girl"
+ },
+ {
+  "item": "Coin Case",
+  "n": 1,
+  "how": "gift",
+  "addr": 151689818,
+  "sym": "HoC1_MauvilleCity_House2_EventScript_AcceptTrade"
+ },
+ {
+  "item": "HM06 Rock Smash",
+  "n": 1,
+  "how": "gift",
+  "addr": 151690158,
+  "sym": "HoC1_MauvilleCity_House1_EventScript_RockSmashDude"
+ },
+ {
+  "item": "Acro Bike",
+  "n": 1,
+  "how": "gift",
+  "addr": 151692569,
+  "sym": "HoC1_MauvilleCity_BikeShop_EventScript_GetAcroBike"
+ },
+ {
+  "item": "Mach Bike",
+  "n": 1,
+  "how": "gift",
+  "addr": 151692705,
+  "sym": "HoC1_MauvilleCity_BikeShop_EventScript_GetMachBike"
+ },
+ {
+  "item": "Acro Bike",
+  "n": 1,
+  "how": "gift",
+  "addr": 151693951,
+  "sym": "HoC1_MauvilleCity_BikeShop_EventScript_SwitchMachForAcro"
+ },
+ {
+  "item": "Mach Bike",
+  "n": 1,
+  "how": "gift",
+  "addr": 151694033,
+  "sym": "HoC1_MauvilleCity_BikeShop_EventScript_SwitchAcroForMach"
+ },
+ {
+  "item": "TM34 Shock Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 151696365,
+  "sym": "HoC1_MauvilleCity_Gym_EventScript_GiveShockWave2"
+ },
+ {
+  "item": "TM34 Shock Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 151696643,
+  "sym": "HoC1_MauvilleCity_Gym_EventScript_GiveShockWave"
+ },
+ {
+  "item": "TM25 Thunder",
+  "n": 1,
+  "how": "gift",
+  "addr": 151698210,
+  "sym": "HoC1_MauvilleCity_EventScript_CompletedNewMauville"
+ },
+ {
+  "item": "Soda Pop",
+  "n": 6,
+  "how": "gift",
+  "addr": 151713028,
+  "sym": "HoC1_Route109_SeashoreHouse_EventScript_DefeatedTrainers"
+ },
+ {
+  "item": "Soda Pop",
+  "n": 1,
+  "how": "gift",
+  "addr": 151713429,
+  "sym": "HoC1_Route109_SeashoreHouse_EventScript_BuySodaPop"
+ },
+ {
+  "item": "Deepseascale",
+  "n": 1,
+  "how": "gift",
+  "addr": 151715901,
+  "sym": "HoC1_SlateportCity_Harbor_EventScript_DeepSeaScale"
+ },
+ {
+  "item": "Deepseatooth",
+  "n": 1,
+  "how": "gift",
+  "addr": 151716186,
+  "sym": "HoC1_SlateportCity_Harbor_EventScript_DeepSeaTooth"
+ },
+ {
+  "item": "Soothe Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 151719513,
+  "sym": "HoC1_SlateportCity_PokemonFanClub_EventScript_GiveSootheBell"
+ },
+ {
+  "item": "Silk Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 151720501,
+  "sym": "HoC1_DewfordTown_House2_EventScript_Man"
+ },
+ {
+  "item": "TM36 Sludge Bomb",
+  "n": 1,
+  "how": "gift",
+  "addr": 151721787,
+  "sym": "HoC1_DewfordTown_Hall_EventScript_SludgeBombMan"
+ },
+ {
+  "item": "TM46 Thief",
+  "n": 1,
+  "how": "gift",
+  "addr": 151732544,
+  "sym": "HoC1_SlateportCity_OceanicMuseum_1F_EventScript_FamiliarGrunt"
+ },
+ {
+  "item": "TM47 Steel Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 151741000,
+  "sym": "HoC1_GraniteCave_StevensRoom_EventScript_Steven"
+ },
+ {
+  "item": "HM05 Flash",
+  "n": 1,
+  "how": "gift",
+  "addr": 151741639,
+  "sym": "HoC1_GraniteCave_1F_EventScript_Hiker"
+ },
+ {
+  "item": "TM08 Bulk Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 151744664,
+  "sym": "HoC1_DewfordTown_Gym_EventScript_GiveBulkUp2"
+ },
+ {
+  "item": "TM08 Bulk Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 151744919,
+  "sym": "HoC1_DewfordTown_Gym_EventScript_GiveBulkUp"
+ },
+ {
+  "item": "Old Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 151745858,
+  "sym": "HoC1_DewfordTown_EventScript_GiveOldRod"
+ },
+ {
+  "item": "Soft Sand",
+  "n": 1,
+  "how": "gift",
+  "addr": 151750166,
+  "sym": "HoC1_Route109_EventScript_SoftSandGirl"
+ },
+ {
+  "item": "HM09 Dive",
+  "n": 1,
+  "how": "gift",
+  "addr": 151782321,
+  "sym": "HoC1_MossdeepCity_StevensHouse_EventScript_StevenGivesDive"
+ },
+ {
+  "item": "Go Goggles",
+  "n": 1,
+  "how": "gift",
+  "addr": 151785399,
+  "sym": "HoC1_LavaridgeTown_EventScript_BrendanGiveGoGoggles"
+ },
+ {
+  "item": "Go Goggles",
+  "n": 1,
+  "how": "gift",
+  "addr": 151786032,
+  "sym": "HoC1_LavaridgeTown_EventScript_MayGiveGoGoggles"
+ },
+ {
+  "item": "HM03 Surf",
+  "n": 1,
+  "how": "gift",
+  "addr": 151787098,
+  "sym": "HoC1_PetalburgCity_WallysHouse_EventScript_GiveHMSurf"
+ },
+ {
+  "item": "TM42 Facade",
+  "n": 1,
+  "how": "gift",
+  "addr": 151787889,
+  "sym": "HoC1_PetalburgCity_Gym_EventScript_GiveFacade"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795294,
+  "sym": "HoItem_PetalburgCity_6",
+  "map": "PetalburgCity"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795312,
+  "sym": "HoItem_PetalburgCity_7",
+  "map": "PetalburgCity"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795330,
+  "sym": "HoItem_Route102_6",
+  "map": "Route102"
+ },
+ {
+  "item": "Guard Spec",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795348,
+  "sym": "HoItem_Route103_13",
+  "map": "Route103"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795366,
+  "sym": "HoItem_Route103_20",
+  "map": "Route103"
+ },
+ {
+  "item": "X Defend",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795384,
+  "sym": "HoItem_RustboroCity_12",
+  "map": "RustboroCity"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795402,
+  "sym": "HoItem_Route104_21",
+  "map": "Route104"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795420,
+  "sym": "HoItem_Route104_27",
+  "map": "Route104"
+ },
+ {
+  "item": "X Accuracy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795438,
+  "sym": "HoItem_Route104_29",
+  "map": "Route104"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795456,
+  "sym": "HoItem_Route104_31",
+  "map": "Route104"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795474,
+  "sym": "HoItem_Route116_7",
+  "map": "Route116"
+ },
+ {
+  "item": "Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795492,
+  "sym": "HoItem_Route116_8",
+  "map": "Route116"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795510,
+  "sym": "HoItem_Route116_15",
+  "map": "Route116"
+ },
+ {
+  "item": "X Special",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795528,
+  "sym": "HoItem_Route116_20",
+  "map": "Route116"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795546,
+  "sym": "HoItem_Route116_25",
+  "map": "Route116"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795564,
+  "sym": "HoItem_RusturfTunnel_3",
+  "map": "RusturfTunnel"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795582,
+  "sym": "HoItem_RusturfTunnel_4",
+  "map": "RusturfTunnel"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795600,
+  "sym": "HoItem_PetalburgWoods_5",
+  "map": "PetalburgWoods"
+ },
+ {
+  "item": "X Attack",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795618,
+  "sym": "HoItem_PetalburgWoods_6",
+  "map": "PetalburgWoods"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795636,
+  "sym": "HoItem_PetalburgWoods_7",
+  "map": "PetalburgWoods"
+ },
+ {
+  "item": "Paralyze Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795654,
+  "sym": "HoItem_PetalburgWoods_12",
+  "map": "PetalburgWoods"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795672,
+  "sym": "HoItem_Route105_5",
+  "map": "Route105"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795690,
+  "sym": "HoItem_Route106_5",
+  "map": "Route106"
+ },
+ {
+  "item": "Star Piece",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795708,
+  "sym": "HoItem_Route108_7",
+  "map": "Route108"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795726,
+  "sym": "HoItem_Route109_10",
+  "map": "Route109"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795744,
+  "sym": "HoItem_Route109_23",
+  "map": "Route109"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795762,
+  "sym": "HoItem_GraniteCave_1F_2",
+  "map": "GraniteCave_1F"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795780,
+  "sym": "HoItem_GraniteCave_B1F_1",
+  "map": "GraniteCave_B1F"
+ },
+ {
+  "item": "Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795798,
+  "sym": "HoItem_GraniteCave_B2F_1",
+  "map": "GraniteCave_B2F"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795816,
+  "sym": "HoItem_GraniteCave_B2F_2",
+  "map": "GraniteCave_B2F"
+ },
+ {
+  "item": "Dire Hit",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795834,
+  "sym": "HoItem_Route110_19",
+  "map": "Route110"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795852,
+  "sym": "HoItem_Route110_20",
+  "map": "Route110"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795870,
+  "sym": "HoItem_Route110_35",
+  "map": "Route110"
+ },
+ {
+  "item": "X Speed",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795888,
+  "sym": "HoItem_MauvilleCity_9",
+  "map": "MauvilleCity"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795906,
+  "sym": "HoItem_Route117_14",
+  "map": "Route117"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795924,
+  "sym": "HoItem_Route117_16",
+  "map": "Route117"
+ },
+ {
+  "item": "TM37 Sandstorm",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795942,
+  "sym": "HoItem_Route111_18",
+  "map": "Route111"
+ },
+ {
+  "item": "Stardust",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795960,
+  "sym": "HoItem_Route111_25",
+  "map": "Route111"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795978,
+  "sym": "HoItem_Route111_26",
+  "map": "Route111"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151795996,
+  "sym": "HoItem_Route111_42",
+  "map": "Route111"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796014,
+  "sym": "HoItem_Route112_12",
+  "map": "Route112"
+ },
+ {
+  "item": "TM06 Toxic",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796032,
+  "sym": "HoItem_FieryPath_1",
+  "map": "FieryPath"
+ },
+ {
+  "item": "Fire Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796050,
+  "sym": "HoItem_FieryPath_8",
+  "map": "FieryPath"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796068,
+  "sym": "HoItem_Route113_6",
+  "map": "Route113"
+ },
+ {
+  "item": "Super Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796086,
+  "sym": "HoItem_Route113_7",
+  "map": "Route113"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796104,
+  "sym": "HoItem_Route113_12",
+  "map": "Route113"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796122,
+  "sym": "HoItem_Route114_9",
+  "map": "Route114"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796140,
+  "sym": "HoItem_Route114_10",
+  "map": "Route114"
+ },
+ {
+  "item": "Energypowder",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796158,
+  "sym": "HoItem_Route114_26",
+  "map": "Route114"
+ },
+ {
+  "item": "TM23 Iron Tail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796176,
+  "sym": "HoItem_MeteorFalls_1F_1R_1",
+  "map": "MeteorFalls_1F_1R"
+ },
+ {
+  "item": "Moon Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796194,
+  "sym": "HoItem_MeteorFalls_1F_1R_2",
+  "map": "MeteorFalls_1F_1R"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796212,
+  "sym": "HoItem_MeteorFalls_1F_1R_3",
+  "map": "MeteorFalls_1F_1R"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796230,
+  "sym": "HoItem_MeteorFalls_1F_1R_4",
+  "map": "MeteorFalls_1F_1R"
+ },
+ {
+  "item": "TM02 Dragon Claw",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796248,
+  "sym": "HoItem_MeteorFalls_B1F_2R_1",
+  "map": "MeteorFalls_B1F_2R"
+ },
+ {
+  "item": "Burn Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796266,
+  "sym": "HoItem_JaggedPass_3",
+  "map": "JaggedPass"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796284,
+  "sym": "HoItem_Route115_10",
+  "map": "Route115"
+ },
+ {
+  "item": "TM01 Focus Punch",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796302,
+  "sym": "HoItem_Route115_11",
+  "map": "Route115"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796320,
+  "sym": "HoItem_Route115_12",
+  "map": "Route115"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796338,
+  "sym": "HoItem_Route115_16",
+  "map": "Route115"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796356,
+  "sym": "HoItem_Route115_22",
+  "map": "Route115"
+ },
+ {
+  "item": "Heal Powder",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796374,
+  "sym": "HoItem_Route115_23",
+  "map": "Route115"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796392,
+  "sym": "HoItem_Route118_20",
+  "map": "Route118"
+ },
+ {
+  "item": "Super Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796410,
+  "sym": "HoItem_Route119_17",
+  "map": "Route119"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796428,
+  "sym": "HoItem_Route119_18",
+  "map": "Route119"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796446,
+  "sym": "HoItem_Route119_19",
+  "map": "Route119"
+ },
+ {
+  "item": "Leaf Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796464,
+  "sym": "HoItem_Route119_20",
+  "map": "Route119"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796482,
+  "sym": "HoItem_Route119_21",
+  "map": "Route119"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796500,
+  "sym": "HoItem_Route119_22",
+  "map": "Route119"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796518,
+  "sym": "HoItem_Route119_32",
+  "map": "Route119"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796536,
+  "sym": "HoItem_Route119_41",
+  "map": "Route119"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796554,
+  "sym": "HoItem_Route119_42",
+  "map": "Route119"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796572,
+  "sym": "HoItem_Route120_16",
+  "map": "Route120"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796590,
+  "sym": "HoItem_Route120_22",
+  "map": "Route120"
+ },
+ {
+  "item": "Nest Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796608,
+  "sym": "HoItem_Route120_28",
+  "map": "Route120"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796626,
+  "sym": "HoItem_Route120_29",
+  "map": "Route120"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796644,
+  "sym": "HoItem_Route120_44",
+  "map": "Route120"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796662,
+  "sym": "HoItem_Route121_21",
+  "map": "Route121"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796680,
+  "sym": "HoItem_Route121_28",
+  "map": "Route121"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796698,
+  "sym": "HoItem_Route121_29",
+  "map": "Route121"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796716,
+  "sym": "HoItem_Route123_21",
+  "map": "Route123"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796734,
+  "sym": "HoItem_Route123_32",
+  "map": "Route123"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796752,
+  "sym": "HoItem_Route123_33",
+  "map": "Route123"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796770,
+  "sym": "HoItem_Route123_40",
+  "map": "Route123"
+ },
+ {
+  "item": "Revival Herb",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796788,
+  "sym": "HoItem_Route123_43",
+  "map": "Route123"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796806,
+  "sym": "HoItem_MtPyre_2F_2",
+  "map": "MtPyre_2F"
+ },
+ {
+  "item": "Super Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796824,
+  "sym": "HoItem_MtPyre_3F_3",
+  "map": "MtPyre_3F"
+ },
+ {
+  "item": "Sea Incense",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796842,
+  "sym": "HoItem_MtPyre_4F_2",
+  "map": "MtPyre_4F"
+ },
+ {
+  "item": "Lax Incense",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796860,
+  "sym": "HoItem_MtPyre_5F_2",
+  "map": "MtPyre_5F"
+ },
+ {
+  "item": "TM30 Shadow Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796878,
+  "sym": "HoItem_MtPyre_6F_2",
+  "map": "MtPyre_6F"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796896,
+  "sym": "HoItem_MtPyre_Exterior_1",
+  "map": "MtPyre_Exterior"
+ },
+ {
+  "item": "TM48 Skill Swap",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796914,
+  "sym": "HoItem_MtPyre_Exterior_2",
+  "map": "MtPyre_Exterior"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796932,
+  "sym": "HoItem_MagmaHideout_1F_2",
+  "map": "MagmaHideout_1F"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796950,
+  "sym": "HoItem_MagmaHideout_2F_2R_3",
+  "map": "MagmaHideout_2F_2R"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796968,
+  "sym": "HoItem_MagmaHideout_2F_2R_6",
+  "map": "MagmaHideout_2F_2R"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151796986,
+  "sym": "HoItem_MagmaHideout_3F_1R_3",
+  "map": "MagmaHideout_3F_1R"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797004,
+  "sym": "HoItem_MagmaHideout_3F_2R_2",
+  "map": "MagmaHideout_3F_2R"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797022,
+  "sym": "HoItem_MagmaHideout_3F_3R_1",
+  "map": "MagmaHideout_3F_3R"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797040,
+  "sym": "HoItem_MagmaHideout_4F_8",
+  "map": "MagmaHideout_4F"
+ },
+ {
+  "item": "Max Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797058,
+  "sym": "HoItem_LilycoveCity_11",
+  "map": "LilycoveCity"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797076,
+  "sym": "HoItem_AquaHideout_B1F_3",
+  "map": "AquaHideout_B1F"
+ },
+ {
+  "item": "Master Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797094,
+  "sym": "HoItem_AquaHideout_B1F_5",
+  "map": "AquaHideout_B1F"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797112,
+  "sym": "HoItem_AquaHideout_B1F_7",
+  "map": "AquaHideout_B1F"
+ },
+ {
+  "item": "Nest Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797130,
+  "sym": "HoItem_AquaHideout_B2F_3",
+  "map": "AquaHideout_B2F"
+ },
+ {
+  "item": "Red Shard",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797148,
+  "sym": "HoItem_Route124_6",
+  "map": "Route124"
+ },
+ {
+  "item": "Blue Shard",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797166,
+  "sym": "HoItem_Route124_7",
+  "map": "Route124"
+ },
+ {
+  "item": "Yellow Shard",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797184,
+  "sym": "HoItem_Route124_8",
+  "map": "Route124"
+ },
+ {
+  "item": "Big Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797202,
+  "sym": "HoItem_Route125_10",
+  "map": "Route125"
+ },
+ {
+  "item": "Green Shard",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797220,
+  "sym": "HoItem_Route126_5",
+  "map": "Route126"
+ },
+ {
+  "item": "Net Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797238,
+  "sym": "HoItem_MossdeepCity_6",
+  "map": "MossdeepCity"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797256,
+  "sym": "HoItem_Route127_3",
+  "map": "Route127"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797274,
+  "sym": "HoItem_Route127_4",
+  "map": "Route127"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797292,
+  "sym": "HoItem_Route127_11",
+  "map": "Route127"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797310,
+  "sym": "HoItem_Route132_3",
+  "map": "Route132"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797328,
+  "sym": "HoItem_Route132_10",
+  "map": "Route132"
+ },
+ {
+  "item": "Big Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797346,
+  "sym": "HoItem_Route133_4",
+  "map": "Route133"
+ },
+ {
+  "item": "Star Piece",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797364,
+  "sym": "HoItem_Route133_5",
+  "map": "Route133"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797382,
+  "sym": "HoItem_Route133_10",
+  "map": "Route133"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797400,
+  "sym": "HoItem_Route134_10",
+  "map": "Route134"
+ },
+ {
+  "item": "Star Piece",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797418,
+  "sym": "HoItem_Route134_11",
+  "map": "Route134"
+ },
+ {
+  "item": "TM26 Earthquake",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797436,
+  "sym": "HoItem_SeafloorCavern_Room9_6",
+  "map": "SeafloorCavern_Room9"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797454,
+  "sym": "HoItem_VictoryRoad_1F_5",
+  "map": "VictoryRoad_1F"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797472,
+  "sym": "HoItem_VictoryRoad_1F_6",
+  "map": "VictoryRoad_1F"
+ },
+ {
+  "item": "TM29 Psychic",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797490,
+  "sym": "HoItem_VictoryRoad_B1F_18",
+  "map": "VictoryRoad_B1F"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797508,
+  "sym": "HoItem_VictoryRoad_B1F_19",
+  "map": "VictoryRoad_B1F"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797526,
+  "sym": "HoItem_VictoryRoad_B2F_5",
+  "map": "VictoryRoad_B2F"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797544,
+  "sym": "HoItem_NewMauville_Inside_1",
+  "map": "NewMauville_Inside"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797562,
+  "sym": "HoItem_NewMauville_Inside_2",
+  "map": "NewMauville_Inside"
+ },
+ {
+  "item": "Thunderstone",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797580,
+  "sym": "HoItem_NewMauville_Inside_3",
+  "map": "NewMauville_Inside"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797598,
+  "sym": "HoItem_NewMauville_Inside_4",
+  "map": "NewMauville_Inside"
+ },
+ {
+  "item": "Paralyze Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797616,
+  "sym": "HoItem_NewMauville_Inside_5",
+  "map": "NewMauville_Inside"
+ },
+ {
+  "item": "Harbor Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797634,
+  "sym": "HoItem_AbandonedShip_Rooms_1F_2",
+  "map": "AbandonedShip_Rooms_1F"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797652,
+  "sym": "HoItem_AbandonedShip_Rooms_B1F_2",
+  "map": "AbandonedShip_Rooms_B1F"
+ },
+ {
+  "item": "Dive Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797670,
+  "sym": "HoItem_AbandonedShip_Rooms2_B1F_2",
+  "map": "AbandonedShip_Rooms2_B1F"
+ },
+ {
+  "item": "TM13 Ice Beam",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797688,
+  "sym": "HoItem_AbandonedShip_Room_B1F_1",
+  "map": "AbandonedShip_Room_B1F"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797706,
+  "sym": "HoItem_AbandonedShip_Rooms2_1F_3",
+  "map": "AbandonedShip_Rooms2_1F"
+ },
+ {
+  "item": "Storage Key",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797724,
+  "sym": "HoItem_AbandonedShip_CaptainsOffice_2",
+  "map": "AbandonedShip_CaptainsOffice"
+ },
+ {
+  "item": "Luxury Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797742,
+  "sym": "HoItem_AbandonedShip_HiddenFloorRooms_1",
+  "map": "AbandonedShip_HiddenFloorRooms"
+ },
+ {
+  "item": "Scanner",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797760,
+  "sym": "HoItem_AbandonedShip_HiddenFloorRooms_2",
+  "map": "AbandonedShip_HiddenFloorRooms"
+ },
+ {
+  "item": "TM18 Rain Dance",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797778,
+  "sym": "HoItem_AbandonedShip_HiddenFloorRooms_3",
+  "map": "AbandonedShip_HiddenFloorRooms"
+ },
+ {
+  "item": "Water Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797796,
+  "sym": "HoItem_AbandonedShip_HiddenFloorRooms_4",
+  "map": "AbandonedShip_HiddenFloorRooms"
+ },
+ {
+  "item": "Big Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797814,
+  "sym": "HoItem_ShoalCave_LowTideEntranceRoom_1",
+  "map": "ShoalCave_LowTideEntranceRoom"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797832,
+  "sym": "HoItem_ShoalCave_LowTideInnerRoom_1",
+  "map": "ShoalCave_LowTideInnerRoom"
+ },
+ {
+  "item": "Ice Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797850,
+  "sym": "HoItem_ShoalCave_LowTideStairsRoom_1",
+  "map": "ShoalCave_LowTideStairsRoom"
+ },
+ {
+  "item": "TM07 Hail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797868,
+  "sym": "HoItem_ShoalCave_LowTideIceRoom_1",
+  "map": "ShoalCave_LowTideIceRoom"
+ },
+ {
+  "item": "Nevermeltice",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797886,
+  "sym": "HoItem_ShoalCave_LowTideIceRoom_2",
+  "map": "ShoalCave_LowTideIceRoom"
+ },
+ {
+  "item": "TM22 Solar Beam",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797904,
+  "sym": "HoItem_SafariZone_Northwest_2",
+  "map": "SafariZone_Northwest"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797922,
+  "sym": "HoItem_SafariZone_North_9",
+  "map": "SafariZone_North"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797940,
+  "sym": "HoItem_SafariZone_Southwest_2",
+  "map": "SafariZone_Southwest"
+ },
+ {
+  "item": "Lucky Egg",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797958,
+  "sym": "HoItem_SafariZone_South_7",
+  "map": "SafariZone_South"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797976,
+  "sym": "HoItem_SafariZone_Northeast_9",
+  "map": "SafariZone_Northeast"
+ },
+ {
+  "item": "Big Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 151797994,
+  "sym": "HoItem_SafariZone_Southeast_4",
+  "map": "SafariZone_Southeast"
+ },
+ {
+  "item": "Orange Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798012,
+  "sym": "HoItem_Route110_TrickHousePuzzle1_13",
+  "map": "Route110_TrickHousePuzzle1"
+ },
+ {
+  "item": "Wave Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798030,
+  "sym": "HoItem_Route110_TrickHousePuzzle2_4",
+  "map": "Route110_TrickHousePuzzle2"
+ },
+ {
+  "item": "Harbor Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798048,
+  "sym": "HoItem_Route110_TrickHousePuzzle2_5",
+  "map": "Route110_TrickHousePuzzle2"
+ },
+ {
+  "item": "Wood Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798066,
+  "sym": "HoItem_Route110_TrickHousePuzzle3_4",
+  "map": "Route110_TrickHousePuzzle3"
+ },
+ {
+  "item": "Shadow Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798084,
+  "sym": "HoItem_Route110_TrickHousePuzzle3_5",
+  "map": "Route110_TrickHousePuzzle3"
+ },
+ {
+  "item": "Mech Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798102,
+  "sym": "HoItem_Route110_TrickHousePuzzle4_4",
+  "map": "Route110_TrickHousePuzzle4"
+ },
+ {
+  "item": "Glitter Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798120,
+  "sym": "HoItem_Route110_TrickHousePuzzle6_4",
+  "map": "Route110_TrickHousePuzzle6"
+ },
+ {
+  "item": "Tropic Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798138,
+  "sym": "HoItem_Route110_TrickHousePuzzle7_4",
+  "map": "Route110_TrickHousePuzzle7"
+ },
+ {
+  "item": "Bead Mail",
+  "n": 1,
+  "how": "ball",
+  "addr": 151798156,
+  "sym": "HoItem_Route110_TrickHousePuzzle8_4",
+  "map": "Route110_TrickHousePuzzle8"
+ },
+ {
+  "item": "White Herb",
+  "n": 1,
+  "how": "gift",
+  "addr": 151798290,
+  "sym": "HoRe_Route104_Talk_22"
+ },
+ {
+  "item": "Powder Jar",
+  "n": 1,
+  "how": "gift",
+  "addr": 165665449,
+  "sym": "SlateportCity_EventScript_BerryPowderClerk"
+ },
+ {
+  "item": "Basement Key",
+  "n": 1,
+  "how": "gift",
+  "addr": 165674664,
+  "sym": "MauvilleCity_EventScript_Wattson"
+ },
+ {
+  "item": "TM24 Thunderbolt",
+  "n": 1,
+  "how": "gift",
+  "addr": 165674718,
+  "sym": "MauvilleCity_EventScript_CompletedNewMauville"
+ },
+ {
+  "item": "Kings Rock",
+  "n": 1,
+  "how": "gift",
+  "addr": 165687257,
+  "sym": "MossdeepCity_EventScript_KingsRockBoy"
+ },
+ {
+  "item": "Figy Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 165692171,
+  "sym": "SootopolisCity_EventScript_GiveFigyBerry"
+ },
+ {
+  "item": "Iapapa Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 165692204,
+  "sym": "SootopolisCity_EventScript_GiveIapapaBerry"
+ },
+ {
+  "item": "HM07 Waterfall",
+  "n": 1,
+  "how": "gift",
+  "addr": 165693449,
+  "sym": "SootopolisCity_EventScript_GiveWaterfall"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 165704310,
+  "sym": "OldaleTown_EventScript_ExplainPokemonMart"
+ },
+ {
+  "item": "Old Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 165705961,
+  "sym": "DewfordTown_EventScript_GiveOldRod"
+ },
+ {
+  "item": "Go Goggles",
+  "n": 1,
+  "how": "gift",
+  "addr": 165709994,
+  "sym": "LavaridgeTown_EventScript_MayGiveGoGoggles"
+ },
+ {
+  "item": "Go Goggles",
+  "n": 1,
+  "how": "gift",
+  "addr": 165710031,
+  "sym": "LavaridgeTown_EventScript_BrendanGiveGoGoggles"
+ },
+ {
+  "item": "Soft Sand",
+  "n": 1,
+  "how": "gift",
+  "addr": 165716338,
+  "sym": "Route109_EventScript_SoftSandGirl"
+ },
+ {
+  "item": "Razz Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 165719510,
+  "sym": "Route111_EventScript_Girl"
+ },
+ {
+  "item": "Good Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 165724103,
+  "sym": "Route118_EventScript_ReceiveGoodRod"
+ },
+ {
+  "item": "HM02 Fly",
+  "n": 1,
+  "how": "gift",
+  "addr": 165726512,
+  "sym": "Route119_EventScript_GiveFlyHM"
+ },
+ {
+  "item": "Devon Scope",
+  "n": 1,
+  "how": "gift",
+  "addr": 165731446,
+  "sym": "Route120_EventScript_StevenGiveDeconScope"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 5,
+  "how": "gift",
+  "addr": 165748956,
+  "sym": "LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 5,
+  "how": "gift",
+  "addr": 165749001,
+  "sym": "LittlerootTown_ProfessorBirchsLab_EventScript_BrendanGivePokeBalls"
+ },
+ {
+  "item": "TM36 Sludge Bomb",
+  "n": 1,
+  "how": "gift",
+  "addr": 165757244,
+  "sym": "DewfordTown_Hall_EventScript_SludgeBombMan"
+ },
+ {
+  "item": "Charcoal",
+  "n": 1,
+  "how": "gift",
+  "addr": 165759928,
+  "sym": "LavaridgeTown_HerbShop_EventScript_OldMan"
+ },
+ {
+  "item": "TM45 Attract",
+  "n": 1,
+  "how": "gift",
+  "addr": 165765215,
+  "sym": "VerdanturfTown_BattleTentLobby_EventScript_AttractGiver"
+ },
+ {
+  "item": "TM41 Torment",
+  "n": 1,
+  "how": "gift",
+  "addr": 165769637,
+  "sym": "SlateportCity_BattleTentLobby_EventScript_TormentGiver"
+ },
+ {
+  "item": "Red Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774171,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GiveRedScarf"
+ },
+ {
+  "item": "Blue Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774220,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GiveBlueScarf"
+ },
+ {
+  "item": "Pink Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774269,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GivePinkScarf"
+ },
+ {
+  "item": "Green Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774318,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GiveGreenScarf"
+ },
+ {
+  "item": "Yellow Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774367,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GiveYellowScarf"
+ },
+ {
+  "item": "Soothe Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165774626,
+  "sym": "SlateportCity_PokemonFanClub_EventScript_GiveSootheBell"
+ },
+ {
+  "item": "TM34 Shock Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 165778219,
+  "sym": "MauvilleCity_Gym_EventScript_GiveShockWave2"
+ },
+ {
+  "item": "TM34 Shock Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 165778255,
+  "sym": "MauvilleCity_Gym_EventScript_GiveShockWave"
+ },
+ {
+  "item": "TM39 Rock Tomb",
+  "n": 1,
+  "how": "gift",
+  "addr": 165790696,
+  "sym": "RustboroCity_Gym_EventScript_GiveRockTomb"
+ },
+ {
+  "item": "Quick Claw",
+  "n": 1,
+  "how": "gift",
+  "addr": 165794922,
+  "sym": "RustboroCity_PokemonSchool_EventScript_Teacher"
+ },
+ {
+  "item": "Mental Herb",
+  "n": 1,
+  "how": "gift",
+  "addr": 165798520,
+  "sym": "FortreeCity_House4_EventScript_WingullReturned"
+ },
+ {
+  "item": "Oval Charm",
+  "n": 1,
+  "how": "gift",
+  "addr": 165799166,
+  "sym": "LilycoveCity_CoveLilyMotel_2F_EventScript_GiveOvalCharm"
+ },
+ {
+  "item": "Shiny Charm",
+  "n": 1,
+  "how": "gift",
+  "addr": 165799212,
+  "sym": "LilycoveCity_CoveLilyMotel_2F_EventScript_GiveShinyCharm"
+ },
+ {
+  "item": "TM04 Calm Mind",
+  "n": 1,
+  "how": "gift",
+  "addr": 165827395,
+  "sym": "MossdeepCity_Gym_EventScript_GiveCalmMind2"
+ },
+ {
+  "item": "TM04 Calm Mind",
+  "n": 1,
+  "how": "gift",
+  "addr": 165827431,
+  "sym": "MossdeepCity_Gym_EventScript_GiveCalmMind"
+ },
+ {
+  "item": "HM08 Whirlpool",
+  "n": 1,
+  "how": "gift",
+  "addr": 165833654,
+  "sym": "MossdeepCity_StevensHouse_EventScript_StevenGivesDive"
+ },
+ {
+  "item": "HM08 Whirlpool",
+  "n": 1,
+  "how": "ball",
+  "addr": 165833954,
+  "sym": "MossdeepCity_StevensHouse_EventScript_DiveItemBall"
+ },
+ {
+  "item": "Sun Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 165835518,
+  "sym": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan"
+ },
+ {
+  "item": "Sun Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 165835581,
+  "sym": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneManMagma"
+ },
+ {
+  "item": "TM03 Water Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 165843715,
+  "sym": "SootopolisCity_Gym_1F_EventScript_GiveWaterPulse"
+ },
+ {
+  "item": "TM03 Water Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 165843750,
+  "sym": "SootopolisCity_Gym_1F_EventScript_GiveWaterPulse2"
+ },
+ {
+  "item": "TM47 Steel Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 165849792,
+  "sym": "GraniteCave_StevensRoom_EventScript_Steven"
+ },
+ {
+  "item": "Lava Cookie",
+  "n": 1,
+  "how": "gift",
+  "addr": 165851025,
+  "sym": "MtChimney_EventScript_LavaCookieLady"
+ },
+ {
+  "item": "Meteorite",
+  "n": 1,
+  "how": "gift",
+  "addr": 165851556,
+  "sym": "MtChimney_EventScript_MeteoriteMachine"
+ },
+ {
+  "item": "Shell Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857406,
+  "sym": "ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857789,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalShell1"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857849,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalShell2"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857899,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalShell3"
+ },
+ {
+  "item": "Shoal Shell",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857949,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalShell4"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 165857999,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt1"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 165858059,
+  "sym": "ShoalCave_LowTideInnerRoom_EventScript_ShoalSalt2"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 165858141,
+  "sym": "ShoalCave_LowTideStairsRoom_EventScript_ShoalSalt3"
+ },
+ {
+  "item": "Shoal Salt",
+  "n": 1,
+  "how": "gift",
+  "addr": 165858233,
+  "sym": "ShoalCave_LowTideLowerRoom_EventScript_ShoalSalt4"
+ },
+ {
+  "item": "Focus Band",
+  "n": 1,
+  "how": "gift",
+  "addr": 165858302,
+  "sym": "ShoalCave_LowTideLowerRoom_EventScript_BlackBelt"
+ },
+ {
+  "item": "Root Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 165861518,
+  "sym": "MirageTower_4F_EventScript_RootFossil"
+ },
+ {
+  "item": "Claw Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 165861594,
+  "sym": "MirageTower_4F_EventScript_ClawFossil"
+ },
+ {
+  "item": "Claw Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 165862046,
+  "sym": "DesertUnderpass_EventScript_GiveClawFossil"
+ },
+ {
+  "item": "Root Fossil",
+  "n": 1,
+  "how": "gift",
+  "addr": 165862074,
+  "sym": "DesertUnderpass_EventScript_GiveRootFossil"
+ },
+ {
+  "item": "TM49 Snatch",
+  "n": 1,
+  "how": "gift",
+  "addr": 165870330,
+  "sym": "SSTidalRooms_EventScript_SnatchGiver"
+ },
+ {
+  "item": "Lansat Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 166027440,
+  "sym": "BattleFrontier_ScottsHouse_EventScript_CheckSilverSymbols"
+ },
+ {
+  "item": "Starf Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 166027542,
+  "sym": "BattleFrontier_ScottsHouse_EventScript_CheckGoldSymbols"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051155,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle1Reward"
+ },
+ {
+  "item": "Timer Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051199,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle2Reward"
+ },
+ {
+  "item": "Hard Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051243,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle3Reward"
+ },
+ {
+  "item": "Smoke Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051287,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle4Reward"
+ },
+ {
+  "item": "TM12 Taunt",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051331,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle5Reward"
+ },
+ {
+  "item": "Magnet",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051375,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle6Reward"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 166051419,
+  "sym": "Route110_TrickHouseEntrance_EventScript_GivePuzzle7Reward"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 166054909,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle1"
+ },
+ {
+  "item": "Timer Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166054969,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle2"
+ },
+ {
+  "item": "Hard Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 166055029,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle3"
+ },
+ {
+  "item": "Smoke Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166055089,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle4"
+ },
+ {
+  "item": "TM12 Taunt",
+  "n": 1,
+  "how": "gift",
+  "addr": 166055149,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle5"
+ },
+ {
+  "item": "Magnet",
+  "n": 1,
+  "how": "gift",
+  "addr": 166055209,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle6"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "gift",
+  "addr": 166055269,
+  "sym": "Route110_TrickHouseEnd_EventScript_CompletedPuzzle7"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166079828,
+  "sym": "Debug_EventScript_Script_2"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 166079840,
+  "sym": "Debug_EventScript_Script_2"
+ },
+ {
+  "item": "Candy Jar",
+  "n": 1,
+  "how": "gift",
+  "addr": 166086476,
+  "sym": "EventScript_PkmnCenterNurse_CandyJar"
+ },
+ {
+  "item": "TM43 Secret Power",
+  "n": 1,
+  "how": "gift",
+  "addr": 166110964,
+  "sym": "Route111_EventScript_GiveSecretPower"
+ },
+ {
+  "item": "Eon Ticket",
+  "n": 1,
+  "how": "gift",
+  "addr": 166112282,
+  "sym": "CableClub_EventScript_DistributeEonTicket"
+ },
+ {
+  "item": "Pokeblock Case",
+  "n": 1,
+  "how": "gift",
+  "addr": 166125018,
+  "sym": "LilycoveCity_ContestLobby_EventScript_GivePokeblockCase"
+ },
+ {
+  "item": "Luxury Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166125075,
+  "sym": "LilycoveCity_ContestLobby_EventScript_GiveLuxuryBallAtCounter"
+ },
+ {
+  "item": "Luxury Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166129060,
+  "sym": "ContestHall_EventScript_GiveLuxuryBall"
+ },
+ {
+  "item": "Heart Scale",
+  "n": 1,
+  "how": "gift",
+  "addr": 166209914,
+  "sym": "EventScript_RockSmashHeartscale"
+ },
+ {
+  "item": "Blue Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166209927,
+  "sym": "EventScript_RockSmashBlueShard"
+ },
+ {
+  "item": "Red Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166209940,
+  "sym": "EventScript_RockSmashRedShard"
+ },
+ {
+  "item": "Green Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166209953,
+  "sym": "EventScript_RockSmashGreenShard"
+ },
+ {
+  "item": "Yellow Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166209966,
+  "sym": "EventScript_RockSmashYellowShard"
+ },
+ {
+  "item": "Amulet Coin",
+  "n": 1,
+  "how": "gift",
+  "addr": 166217298,
+  "sym": "PlayersHouse_1F_EventScript_TryGiveAmuletCoin"
+ },
+ {
+  "item": "Ss Ticket",
+  "n": 1,
+  "how": "gift",
+  "addr": 166217645,
+  "sym": "PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV"
+ },
+ {
+  "item": "Pecha Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 166222063,
+  "sym": "BerryBlender_EventScript_Blender1GiveSpareBerry"
+ },
+ {
+  "item": "Pecha Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 166222981,
+  "sym": "BerryBlender_EventScript_ExpertMGiveBerry"
+ },
+ {
+  "item": "Mystic Water",
+  "n": 1,
+  "how": "gift",
+  "addr": 166464294,
+  "sym": "CherryGroveCity_EventScript_Fisherman"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166467141,
+  "sym": "VioletCity_EventScript_ItemRareCandy",
+  "map": "VioletCity_hns"
+ },
+ {
+  "item": "Pecha Berry",
+  "n": 1,
+  "how": "ball",
+  "addr": 166467154,
+  "sym": "VioletCity_EventScript_ItemPechaBerry",
+  "map": "VioletCity_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166467167,
+  "sym": "VioletCity_EventScript_ItemHyperPotion",
+  "map": "VioletCity_hns"
+ },
+ {
+  "item": "Gs Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166469412,
+  "sym": "AzaleaTown_EventScript_GSBall"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166475170,
+  "sym": "EcruteakCity_EventScript_Item_RareCandy",
+  "map": "EcruteakCity_hns"
+ },
+ {
+  "item": "TM57 Charge Beam",
+  "n": 1,
+  "how": "ball",
+  "addr": 166477998,
+  "sym": "OlivineCity_EventScript_Item_ChargeBeam",
+  "map": "OlivineCity_hns"
+ },
+ {
+  "item": "Aurora Ticket",
+  "n": 1,
+  "how": "gift",
+  "addr": 166478057,
+  "sym": "OlivineCity_EventScript_EonTicketWomanChamp"
+ },
+ {
+  "item": "HM02 Fly",
+  "n": 1,
+  "how": "gift",
+  "addr": 166479248,
+  "sym": "CianwoodCity_EventScript_Flytrigger"
+ },
+ {
+  "item": "HM02 Fly",
+  "n": 1,
+  "how": "gift",
+  "addr": 166479364,
+  "sym": "CianwoodCity_EventScript_ChucksWifeGiveFly"
+ },
+ {
+  "item": "Ragecandybar",
+  "n": 1,
+  "how": "gift",
+  "addr": 166482778,
+  "sym": "MahoganyTown_EventScript_MerchantTrigger"
+ },
+ {
+  "item": "Ragecandybar",
+  "n": 1,
+  "how": "gift",
+  "addr": 166482916,
+  "sym": "MahoganyTown_EventScript_Merchant"
+ },
+ {
+  "item": "Spell Tag",
+  "n": 1,
+  "how": "gift",
+  "addr": 166484873,
+  "sym": "BlackthornCity_EventScript_SantosYes"
+ },
+ {
+  "item": "Silk Scarf",
+  "n": 1,
+  "how": "gift",
+  "addr": 166486405,
+  "sym": "Route29_EventScript_TuscanyYes"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166486525,
+  "sym": "Route29_EventScript_ItemPotion",
+  "map": "Route29_hns"
+ },
+ {
+  "item": "TM44 Rest",
+  "n": 1,
+  "how": "gift",
+  "addr": 166490472,
+  "sym": "Route31_EventScript_SleepyMan_GiveKenya"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166490547,
+  "sym": "Route31_EventScript_ItemPokeBall",
+  "map": "Route31_hns"
+ },
+ {
+  "item": "Antidote",
+  "n": 1,
+  "how": "ball",
+  "addr": 166490560,
+  "sym": "Route31_EventScript_ItemAntidote",
+  "map": "Route31_hns"
+ },
+ {
+  "item": "TM05 Roar",
+  "n": 1,
+  "how": "gift",
+  "addr": 166492794,
+  "sym": "Route32_EventScript_Roar"
+ },
+ {
+  "item": "Poison Barb",
+  "n": 1,
+  "how": "gift",
+  "addr": 166493249,
+  "sym": "Route32_EventScript_FriedaYes"
+ },
+ {
+  "item": "Miracle Seed",
+  "n": 1,
+  "how": "gift",
+  "addr": 166493456,
+  "sym": "Route32_EventScript_BaldingManCheck"
+ },
+ {
+  "item": "TM09 Bullet Seed",
+  "n": 1,
+  "how": "ball",
+  "addr": 166493574,
+  "sym": "Route32_EventScript_Item_Bullet_Seed",
+  "map": "Route32_hns"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166493587,
+  "sym": "Route32_EventScript_GreatBall",
+  "map": "Route32_hns"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166493600,
+  "sym": "Route32_EventScript_GreatBallII",
+  "map": "Route32_hns"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166493613,
+  "sym": "Route32_EventScript_SuperPotion",
+  "map": "Route32_hns"
+ },
+ {
+  "item": "Soft Sand",
+  "n": 1,
+  "how": "ball",
+  "addr": 166498189,
+  "sym": "Route34_EventScript_Item_SoftSand",
+  "map": "Route34_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166498202,
+  "sym": "Route34_EventScript_Item_RareCandy",
+  "map": "Route34_hns"
+ },
+ {
+  "item": "TM63 Embargo",
+  "n": 1,
+  "how": "ball",
+  "addr": 166498215,
+  "sym": "Route34_EventScript_Item_Embargo",
+  "map": "Route34_hns"
+ },
+ {
+  "item": "TM66 Payback",
+  "n": 1,
+  "how": "ball",
+  "addr": 166500844,
+  "sym": "Route35_EventScript_Item_Payback",
+  "map": "Route35_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166500857,
+  "sym": "Route35_EventScript_Item_Nugget",
+  "map": "Route35_hns"
+ },
+ {
+  "item": "Paralyze Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166500870,
+  "sym": "Route35_EventScript_Item_ParalyzeHeal",
+  "map": "Route35_hns"
+ },
+ {
+  "item": "HM06 Rock Smash",
+  "n": 1,
+  "how": "gift",
+  "addr": 166502568,
+  "sym": "Route36_EventScript_RockSmashGuy2"
+ },
+ {
+  "item": "Hard Stone",
+  "n": 1,
+  "how": "gift",
+  "addr": 166502767,
+  "sym": "Route36_EventScript_ArthurYes"
+ },
+ {
+  "item": "Magnet",
+  "n": 1,
+  "how": "gift",
+  "addr": 166505635,
+  "sym": "Route37_EventScript_SunnyYes"
+ },
+ {
+  "item": "Lax Incense",
+  "n": 1,
+  "how": "ball",
+  "addr": 166507279,
+  "sym": "Route38_EventScript_Item_LaxIncense",
+  "map": "Route38_hns"
+ },
+ {
+  "item": "TM60 Drain Punch",
+  "n": 1,
+  "how": "ball",
+  "addr": 166509260,
+  "sym": "Route39_EventScript_Item_TM",
+  "map": "Route39_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166509273,
+  "sym": "Route39_EventScript_Item_Nugget",
+  "map": "Route39_hns"
+ },
+ {
+  "item": "Sharp Beak",
+  "n": 1,
+  "how": "gift",
+  "addr": 166514026,
+  "sym": "Rotue40_EventScript_MonicaYes"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166517616,
+  "sym": "Route42_EventScript_Item_SuperPotion",
+  "map": "Route42_hns"
+ },
+ {
+  "item": "TM65 Shadow Claw",
+  "n": 1,
+  "how": "ball",
+  "addr": 166517629,
+  "sym": "Route42_EventScript_Item_Shadow_Claw",
+  "map": "Route42_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166517642,
+  "sym": "Route42_EventScript_Item_UltraBall",
+  "map": "Route42_hns"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166519266,
+  "sym": "Route43_EventScript_Item_Max_Ether",
+  "map": "Route43_hns"
+ },
+ {
+  "item": "Max Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 166521575,
+  "sym": "Route44_EventScript_Item_MaxRepel",
+  "map": "Route44_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166521588,
+  "sym": "Route44_EventScript_Item_UltraBall",
+  "map": "Route44_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166521601,
+  "sym": "Route44_EventScript_Item_Elixir",
+  "map": "Route44_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166524371,
+  "sym": "Route45_EventScript_Item_Elixir",
+  "map": "Route45_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166524384,
+  "sym": "Route45_EventScript_Item_Max_Potion",
+  "map": "Route45_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166524397,
+  "sym": "Route45_EventScript_Item_Full_Heal",
+  "map": "Route45_hns"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166524410,
+  "sym": "Route45_EventScript_Item_Nugget",
+  "map": "Route45_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166526932,
+  "sym": "Route46_EventScript_Item_Revive",
+  "map": "Route46_hns"
+ },
+ {
+  "item": "Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 166529541,
+  "sym": "Route47_EventScript_Item_Pearl",
+  "map": "Route47_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166529554,
+  "sym": "Route47_EventScript_Item_Revive",
+  "map": "Route47_hns"
+ },
+ {
+  "item": "White Flute",
+  "n": 1,
+  "how": "ball",
+  "addr": 166529567,
+  "sym": "Route47_EventScript_Item_WhiteFlute",
+  "map": "Route47_hns"
+ },
+ {
+  "item": "Stardust",
+  "n": 1,
+  "how": "ball",
+  "addr": 166529580,
+  "sym": "Route47_EventScript_Item_Stardust",
+  "map": "Route47_hns"
+ },
+ {
+  "item": "Lucky Punch",
+  "n": 1,
+  "how": "ball",
+  "addr": 166529593,
+  "sym": "Route47_EventScript_Item_LuckyPunch",
+  "map": "Route47_hns"
+ },
+ {
+  "item": "TM85 Dream Eater",
+  "n": 1,
+  "how": "gift",
+  "addr": 166530176,
+  "sym": "ViridianCity_EventScript_Fisher"
+ },
+ {
+  "item": "Rainbow Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 166531498,
+  "sym": "PewterCity_EventScript_GrampsRainbowWing"
+ },
+ {
+  "item": "Silver Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 166531545,
+  "sym": "PewterCity_EventScript_GrampsSilverWing"
+ },
+ {
+  "item": "Old Sea Map",
+  "n": 1,
+  "how": "ball",
+  "addr": 166533781,
+  "sym": "VermilionCity_EventScript_OldSeaMap",
+  "map": "VermilionCity_hns"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 166534488,
+  "sym": "VermilionCity_EventScript_BadgeGuyAll"
+ },
+ {
+  "item": "TM67 Recycle",
+  "n": 1,
+  "how": "ball",
+  "addr": 166537674,
+  "sym": "CeladonCity_EventScript_Item_Recycle",
+  "map": "CeladonCity_hns"
+ },
+ {
+  "item": "TM81 X Scissor",
+  "n": 1,
+  "how": "gift",
+  "addr": 166544037,
+  "sym": "Route2_EventScript_RematchRobTryGiveItem"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 166544169,
+  "sym": "Route2_EventScript_Carbos",
+  "map": "Route2_hns"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166544182,
+  "sym": "Route2_EventScript_Nugget",
+  "map": "Route2_hns"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166545470,
+  "sym": "Route4_EventScript_HpUp",
+  "map": "Route4_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166545483,
+  "sym": "Route4_EventScript_UltraBall",
+  "map": "Route4_hns"
+ },
+ {
+  "item": "TM62 Silver Wind",
+  "n": 1,
+  "how": "ball",
+  "addr": 166546286,
+  "sym": "Route6_EventScript_Item_Silver_Wind",
+  "map": "Route6_hns"
+ },
+ {
+  "item": "TM91 Flash Cannon",
+  "n": 1,
+  "how": "ball",
+  "addr": 166548153,
+  "sym": "Route9_EventScript_Item_Flash_Cannon",
+  "map": "Route9_hns"
+ },
+ {
+  "item": "TM69 Rock Polish",
+  "n": 1,
+  "how": "ball",
+  "addr": 166549134,
+  "sym": "Route10_EventScript_Item_Rock_Polish",
+  "map": "Route10_hns"
+ },
+ {
+  "item": "TM86 Grass Knot",
+  "n": 1,
+  "how": "ball",
+  "addr": 166549806,
+  "sym": "Route11_EventScript_Item_Grass_Knot",
+  "map": "Route11_hns"
+ },
+ {
+  "item": "Blue Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166550723,
+  "sym": "Route12_EventScript_RematchKyleTryGiveItem"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166550746,
+  "sym": "Route12_EventScript_Elixir",
+  "map": "Route12_hns"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 166550759,
+  "sym": "Route12_EventScript_Calcium",
+  "map": "Route12_hns"
+ },
+ {
+  "item": "Red Shard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166551958,
+  "sym": "Route13_EventScript_RematchAlexTryGiveItem"
+ },
+ {
+  "item": "TM71 Stone Edge",
+  "n": 1,
+  "how": "gift",
+  "addr": 166552294,
+  "sym": "Route13_EventScript_RematchKennyTryGiveItem"
+ },
+ {
+  "item": "TM73 Thunder Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 166555084,
+  "sym": "Route14_EventScript_RematchCarterTryGiveItem"
+ },
+ {
+  "item": "TM61 Will O Wisp",
+  "n": 1,
+  "how": "gift",
+  "addr": 166555320,
+  "sym": "Route14_EventScript_RematchTrevorTryGiveItem"
+ },
+ {
+  "item": "TM40 Aerial Ace",
+  "n": 1,
+  "how": "gift",
+  "addr": 166556726,
+  "sym": "Route14_EventScript_Pidgeotto"
+ },
+ {
+  "item": "TM53 Energy Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166557183,
+  "sym": "Route15_EventScript_RematchHillaryTryGiveItem"
+ },
+ {
+  "item": "TM42 Facade",
+  "n": 1,
+  "how": "gift",
+  "addr": 166557519,
+  "sym": "Route15_EventScript_RematchBillyTryGiveItem"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166557542,
+  "sym": "Route15_EventScript_PPup",
+  "map": "Route15_hns"
+ },
+ {
+  "item": "TM06 Toxic",
+  "n": 1,
+  "how": "gift",
+  "addr": 166558979,
+  "sym": "Route17_EventScript_RematchRileyTryGiveItem"
+ },
+ {
+  "item": "TM31 Brick Break",
+  "n": 1,
+  "how": "gift",
+  "addr": 166559165,
+  "sym": "Route17_EventScript_RematchJoelTryGiveItem"
+ },
+ {
+  "item": "TM08 Bulk Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 166559401,
+  "sym": "Route17_EventScript_RematchCharlesTryGiveItem"
+ },
+ {
+  "item": "TM55 Brine",
+  "n": 1,
+  "how": "ball",
+  "addr": 166561042,
+  "sym": "Route19_EventScript_Item_Brine",
+  "map": "Route19_hns"
+ },
+ {
+  "item": "Shell Bell",
+  "n": 1,
+  "how": "ball",
+  "addr": 166562042,
+  "sym": "Route20_EventScript_ShellBell",
+  "map": "Route20_hns"
+ },
+ {
+  "item": "Heart Scale",
+  "n": 1,
+  "how": "gift",
+  "addr": 166562233,
+  "sym": "Route20_EventScript_RematchNicoleTryGiveItem"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "gift",
+  "addr": 166567490,
+  "sym": "Route25_EventScript_Kevin"
+ },
+ {
+  "item": "Moon Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 166572314,
+  "sym": "Route27_EventScript_Item_Moonstone",
+  "map": "Route27_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166572327,
+  "sym": "Route27_EventScript_Item_RareCandy",
+  "map": "Route27_hns"
+ },
+ {
+  "item": "TM02 Dragon Claw",
+  "n": 1,
+  "how": "ball",
+  "addr": 166572340,
+  "sym": "Route27_EventScript_Item_DragonClaw",
+  "map": "Route27_hns"
+ },
+ {
+  "item": "Destiny Knot",
+  "n": 1,
+  "how": "ball",
+  "addr": 166572353,
+  "sym": "Route27_EventScript_Item_Destiny_Knot",
+  "map": "Route27_hns"
+ },
+ {
+  "item": "TM35 Flamethrower",
+  "n": 1,
+  "how": "ball",
+  "addr": 166574859,
+  "sym": "Route28_EventScript_Item_Flamethrower",
+  "map": "Route28_hns"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 166578981,
+  "sym": "NewBarkTown_Lab_EventScript_TriggerAideGivePotion"
+ },
+ {
+  "item": "Master Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166579348,
+  "sym": "NewBarkTown_Lab_EventScript_ElmMasterBall"
+ },
+ {
+  "item": "Ss Ticket",
+  "n": 1,
+  "how": "gift",
+  "addr": 166579461,
+  "sym": "NewBarkTown_Lab_EventScript_ElmSSTicket"
+ },
+ {
+  "item": "Poke Ball",
+  "n": 5,
+  "how": "gift",
+  "addr": 166579522,
+  "sym": "NewBarkTown_Lab_EventScript_TriggerAideGiveBalls"
+ },
+ {
+  "item": "Everstone",
+  "n": 1,
+  "how": "gift",
+  "addr": 166579674,
+  "sym": "NewBarkTown_Lab_EventScript_Elm_Togepi_Seen"
+ },
+ {
+  "item": "Exp Share Small",
+  "n": 1,
+  "how": "gift",
+  "addr": 166589926,
+  "sym": "VioletCity_PokemonCenter_EventScript_Aide_GiveEgg"
+ },
+ {
+  "item": "TM51 Roost",
+  "n": 1,
+  "how": "gift",
+  "addr": 166595230,
+  "sym": "VioletCity_Gym_EventScript_Falkner"
+ },
+ {
+  "item": "Fast Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166598330,
+  "sym": "AzaleaTown_KurtsHouse_EventScript_ReturnFromWell"
+ },
+ {
+  "item": "Charcoal",
+  "n": 1,
+  "how": "gift",
+  "addr": 166600867,
+  "sym": "AzaleaTown_House1_EventScript_Apprentice3"
+ },
+ {
+  "item": "TM89 U Turn",
+  "n": 1,
+  "how": "gift",
+  "addr": 166603799,
+  "sym": "AzaleaTown_Gym_EventScript_Bugsy"
+ },
+ {
+  "item": "Coin Case",
+  "n": 1,
+  "how": "ball",
+  "addr": 166609355,
+  "sym": "GoldenrodCity_UndergroundTunnel_EventScript_Item_CoinCase",
+  "map": "GoldenrodCity_UndergroundTunnel_hns"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166609368,
+  "sym": "GoldenrodCity_UndergroundTunnel_EventScript_Item_SuperPotion",
+  "map": "GoldenrodCity_UndergroundTunnel_hns"
+ },
+ {
+  "item": "Paralyze Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166609381,
+  "sym": "GoldenrodCity_UndergroundTunnel_EventScript_Item_ParalyzeHeal",
+  "map": "GoldenrodCity_UndergroundTunnel_hns"
+ },
+ {
+  "item": "Antidote",
+  "n": 1,
+  "how": "ball",
+  "addr": 166609394,
+  "sym": "GoldenrodCity_UndergroundTunnel_EventScript_Item_Antidote",
+  "map": "GoldenrodCity_UndergroundTunnel_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166613127,
+  "sym": "GoldenrodCity_UndergroundSwitches_EventScript_Item_Revive",
+  "map": "GoldenrodCity_UndergroundSwitches_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166613140,
+  "sym": "GoldenrodCity_UndergroundSwitches_EventScript_Item_MaxPotion",
+  "map": "GoldenrodCity_UndergroundSwitches_hns"
+ },
+ {
+  "item": "Smoke Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166613153,
+  "sym": "GoldenrodCity_UndergroundSwitches_EventScript_Item_SmokeBall",
+  "map": "GoldenrodCity_UndergroundSwitches_hns"
+ },
+ {
+  "item": "Card Key",
+  "n": 1,
+  "how": "gift",
+  "addr": 166615075,
+  "sym": "GoldenrodCity_UndergroundStorage_EventScript_Director"
+ },
+ {
+  "item": "TM04 Calm Mind",
+  "n": 1,
+  "how": "ball",
+  "addr": 166615259,
+  "sym": "GoldenrodCity_UndergroundStorage_EventScript_Item_TM_CALM_MIND",
+  "map": "GoldenrodCity_UndergroundStorage_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166615272,
+  "sym": "GoldenrodCity_UndergroundStorage_EventScript_Item_UltraBall",
+  "map": "GoldenrodCity_UndergroundStorage_hns"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166615285,
+  "sym": "GoldenrodCity_UndergroundStorage_EventScript_Item_MaxEther",
+  "map": "GoldenrodCity_UndergroundStorage_hns"
+ },
+ {
+  "item": "Amulet Coin",
+  "n": 1,
+  "how": "ball",
+  "addr": 166616706,
+  "sym": "GoldenrodCity_DepartmentStoreBasement_EventScript_Item_AmuletCoin",
+  "map": "GoldenrodCity_DepartmentStoreBasement_hns"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166616719,
+  "sym": "GoldenrodCity_DepartmentStoreBasement_EventScript_Item_Ether",
+  "map": "GoldenrodCity_DepartmentStoreBasement_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166616732,
+  "sym": "GoldenrodCity_DepartmentStoreBasement_EventScript_Item_UltraBall",
+  "map": "GoldenrodCity_DepartmentStoreBasement_hns"
+ },
+ {
+  "item": "Exp Share Small",
+  "n": 1,
+  "how": "ball",
+  "addr": 166616745,
+  "sym": "GoldenrodCity_DepartmentStoreBasement_EventScript_Item_ExpShare",
+  "map": "GoldenrodCity_DepartmentStoreBasement_hns"
+ },
+ {
+  "item": "TM45 Attract",
+  "n": 1,
+  "how": "gift",
+  "addr": 166617535,
+  "sym": "GoldenrodCity_Gym_EventScript_WhitneyBadge"
+ },
+ {
+  "item": "Squirt Bottle",
+  "n": 1,
+  "how": "gift",
+  "addr": 166619698,
+  "sym": "GoldenrodCity_FlowerShop_EventScript_GiveSquirtBottle"
+ },
+ {
+  "item": "Bicycle",
+  "n": 1,
+  "how": "gift",
+  "addr": 166623717,
+  "sym": "GoldenrodCity_BikeShop_EventScript_Clerk_BikeAgreed"
+ },
+ {
+  "item": "TM11 Sunny Day",
+  "n": 1,
+  "how": "gift",
+  "addr": 166636971,
+  "sym": "GoldenrodCity_RadioTower_3F_EventScript_Cooltrainer2"
+ },
+ {
+  "item": "Brightpowder",
+  "n": 1,
+  "how": "gift",
+  "addr": 166638711,
+  "sym": "GoldenrodCity_RadioTower_4F4_EventScript_Mary3"
+ },
+ {
+  "item": "Basement Key",
+  "n": 1,
+  "how": "gift",
+  "addr": 166640310,
+  "sym": "GoldenrodCity_RadioTower_5F_EventScript_Petrel"
+ },
+ {
+  "item": "Silver Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 166641485,
+  "sym": "GoldenrodCity_RadioTower_5F_EventScript_GiveTidalWing"
+ },
+ {
+  "item": "Rainbow Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 166641508,
+  "sym": "GoldenrodCity_RadioTower_5F_EventScript_GiveClearWing"
+ },
+ {
+  "item": "TM27 Return",
+  "n": 1,
+  "how": "gift",
+  "addr": 166647290,
+  "sym": "GoldenrodDeptStore5_EventScript_Receptionist_GiveReturn"
+ },
+ {
+  "item": "HM03 Surf",
+  "n": 1,
+  "how": "gift",
+  "addr": 166652997,
+  "sym": "EcruteakCity_Theater_EventScript_SurfGuy_GiveSurf"
+ },
+ {
+  "item": "HM03 Surf",
+  "n": 1,
+  "how": "gift",
+  "addr": 166653065,
+  "sym": "EcruteakCity_Theater_EventScript_TriggerSurfGuy"
+ },
+ {
+  "item": "Tidal Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 166655568,
+  "sym": "EcruteakCity_Theater_EventScript_Lugia"
+ },
+ {
+  "item": "Clear Bell",
+  "n": 1,
+  "how": "gift",
+  "addr": 166655733,
+  "sym": "EcruteakCity_Theater_EventScript_Hooh"
+ },
+ {
+  "item": "Dowsing Machine",
+  "n": 1,
+  "how": "gift",
+  "addr": 166658810,
+  "sym": "EcruteakCity_House2_EventScript_GiveItemFinder"
+ },
+ {
+  "item": "Big Mushroom",
+  "n": 1,
+  "how": "ball",
+  "addr": 166661034,
+  "sym": "EcruteakBellchimeTrail_EventScript_Item_BigMushroom",
+  "map": "BellchimeTrail_hns"
+ },
+ {
+  "item": "TM30 Shadow Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 166661426,
+  "sym": "EcruteakCity_Gym_EventScript_Morty"
+ },
+ {
+  "item": "TM23 Iron Tail",
+  "n": 1,
+  "how": "gift",
+  "addr": 166665664,
+  "sym": "OlivineCity_Gym_EventScript_JasmineVictory"
+ },
+ {
+  "item": "HM04 Strength",
+  "n": 1,
+  "how": "gift",
+  "addr": 166667474,
+  "sym": "OlivineCity_EventScript_SailorA"
+ },
+ {
+  "item": "Good Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 166668808,
+  "sym": "OlivineCityHouse3_EventScriptFishingGuru"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166671588,
+  "sym": "OlivineLighthouse_EventScript_Item_Ether",
+  "map": "OlivineCity_Lighthouse_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166671601,
+  "sym": "OlivineLighthouse_EventScript_Item_RareCandy",
+  "map": "OlivineCity_Lighthouse_hns"
+ },
+ {
+  "item": "TM87 Swagger",
+  "n": 1,
+  "how": "ball",
+  "addr": 166671614,
+  "sym": "OlivineLighthouse_EventScript_Item_TMSwagger",
+  "map": "OlivineCity_Lighthouse_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166671627,
+  "sym": "OlivineLighthouse_EventScript_Item_HyperPotion",
+  "map": "OlivineCity_Lighthouse_hns"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 166671640,
+  "sym": "OlivineLighthouse_EventScript_Item_Protein",
+  "map": "OlivineCity_Lighthouse_hns"
+ },
+ {
+  "item": "Secret Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 166679344,
+  "sym": "CianwoodShop_EventScriptMan"
+ },
+ {
+  "item": "Secret Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 166679394,
+  "sym": "CianwoodCity_EventScript_Pharmacist"
+ },
+ {
+  "item": "TM01 Focus Punch",
+  "n": 1,
+  "how": "gift",
+  "addr": 166679946,
+  "sym": "CianwoodGym_EventScript_ChuckVictory"
+ },
+ {
+  "item": "TM07 Hail",
+  "n": 1,
+  "how": "gift",
+  "addr": 166682575,
+  "sym": "MahoganyTown_Gym_EventScript_PryceVictory"
+ },
+ {
+  "item": "TM10 Hidden Power",
+  "n": 1,
+  "how": "gift",
+  "addr": 166686337,
+  "sym": "LakeOfRage_House1_EventScript_HiddenPowerGuy"
+ },
+ {
+  "item": "TM92 Trick Room",
+  "n": 1,
+  "how": "gift",
+  "addr": 166699258,
+  "sym": "ViridianCity_Gym_EventScript_Blue"
+ },
+ {
+  "item": "TM80 Rock Slide",
+  "n": 1,
+  "how": "gift",
+  "addr": 166701860,
+  "sym": "PewterCity_Gym_EventScript_Brock"
+ },
+ {
+  "item": "Machine Part",
+  "n": 1,
+  "how": "ball",
+  "addr": 166706143,
+  "sym": "CeruleanCity_Gym_EventScript_MachinePartItem"
+ },
+ {
+  "item": "TM03 Water Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 166706744,
+  "sym": "CeruleanCity_Gym_EventScript_Misty"
+ },
+ {
+  "item": "Thunderstone",
+  "n": 1,
+  "how": "gift",
+  "addr": 166711237,
+  "sym": "VermilionCity_Gym_EventScript_GiveThunderstone"
+ },
+ {
+  "item": "TM34 Shock Wave",
+  "n": 1,
+  "how": "gift",
+  "addr": 166711258,
+  "sym": "VermilionCity_Gym_EventScript_GiveTM"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "gift",
+  "addr": 166713447,
+  "sym": "VermilionCity_FanClub_EventScript_Chairman"
+ },
+ {
+  "item": "Lost Item",
+  "n": 1,
+  "how": "gift",
+  "addr": 166713589,
+  "sym": "VermilionCity_FanClub_EventScript_ClefairyGiveDoll"
+ },
+ {
+  "item": "TM82 Sleep Talk",
+  "n": 1,
+  "how": "gift",
+  "addr": 166722734,
+  "sym": "CeladonCity_Apartments_RoofHouse_EventScript_BlackBelt"
+ },
+ {
+  "item": "TM21 Frustration",
+  "n": 1,
+  "how": "gift",
+  "addr": 166725934,
+  "sym": "CeladonDeptStore5_EventScript_Receptionist_GiveFrustration"
+ },
+ {
+  "item": "TM19 Giga Drain",
+  "n": 1,
+  "how": "gift",
+  "addr": 166727022,
+  "sym": "CeladonCity_Gym_EventScript_Erika"
+ },
+ {
+  "item": "TM48 Skill Swap",
+  "n": 1,
+  "how": "gift",
+  "addr": 166738706,
+  "sym": "SaffronCity_Gym_EventScript_Sabrina"
+ },
+ {
+  "item": "Upgrade",
+  "n": 1,
+  "how": "gift",
+  "addr": 166741624,
+  "sym": "SaffronCity_SilphCo_EventScript_Officer"
+ },
+ {
+  "item": "Pass",
+  "n": 1,
+  "how": "gift",
+  "addr": 166742865,
+  "sym": "SaffronCity_CopyCatsHouse_2F_EventScript_CopycatReturnDoll"
+ },
+ {
+  "item": "TM29 Psychic",
+  "n": 1,
+  "how": "gift",
+  "addr": 166744099,
+  "sym": "SaffronCity_House1_EventScript_MrPsychic"
+ },
+ {
+  "item": "TM84 Poison Jab",
+  "n": 1,
+  "how": "gift",
+  "addr": 166745420,
+  "sym": "FuchsiaCity_Gym_EventScript_Janine"
+ },
+ {
+  "item": "Pokeblock Case",
+  "n": 1,
+  "how": "gift",
+  "addr": 166747536,
+  "sym": "FuchsiaCity_SafariZoneEntrance_EventScript_StevenGiveCase"
+ },
+ {
+  "item": "Eon Ticket",
+  "n": 1,
+  "how": "gift",
+  "addr": 166747623,
+  "sym": "FuchsiaCity_SafariZoneEntrance_StevenChamp"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 166761590,
+  "sym": "Gate_GoldenrodCity_Route35_EventScript_RandyDeliveredKenya"
+ },
+ {
+  "item": "Sport Ball",
+  "n": 30,
+  "how": "gift",
+  "addr": 166762761,
+  "sym": "Gate_NationalPark_EventScript_AttendantStart"
+ },
+ {
+  "item": "Sport Ball",
+  "n": 30,
+  "how": "gift",
+  "addr": 166762844,
+  "sym": "Gate_NationalPark_EventScript_OnlyOneMon"
+ },
+ {
+  "item": "Sport Ball",
+  "n": 30,
+  "how": "gift",
+  "addr": 166763098,
+  "sym": "Gate_NationalPark_EventScript_BAttendantStart"
+ },
+ {
+  "item": "Sport Ball",
+  "n": 30,
+  "how": "gift",
+  "addr": 166763181,
+  "sym": "Gate_NationalPark_EventScript_OnlyOneMonB"
+ },
+ {
+  "item": "TM36 Sludge Bomb",
+  "n": 1,
+  "how": "gift",
+  "addr": 166765769,
+  "sym": "Gate_Route43_Rocket_EventScript_Policeman"
+ },
+ {
+  "item": "TM42 Facade",
+  "n": 1,
+  "how": "gift",
+  "addr": 166773231,
+  "sym": "SlateportCity_BattleTentLobby_hns_EventScript_TormentGiver"
+ },
+ {
+  "item": "TM20 Safeguard",
+  "n": 1,
+  "how": "gift",
+  "addr": 166776080,
+  "sym": "VerdanturfTown_BattleTentLobby_hns_EventScript_AttractGiver"
+ },
+ {
+  "item": "TM49 Snatch",
+  "n": 1,
+  "how": "gift",
+  "addr": 166782222,
+  "sym": "Route39House_EventScript_FarmerFAfter"
+ },
+ {
+  "item": "Cheri Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 166784275,
+  "sym": "Route30_House_EventScript_BaldMan"
+ },
+ {
+  "item": "Mystery Egg",
+  "n": 1,
+  "how": "gift",
+  "addr": 166784748,
+  "sym": "MrPokemonHouse_EventScript_GiveEgg"
+ },
+ {
+  "item": "Exp Share Small",
+  "n": 1,
+  "how": "gift",
+  "addr": 166785014,
+  "sym": "MrPokemonHouse_EventScript_MrPokemon_RedScale_Accepted"
+ },
+ {
+  "item": "Old Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 166787009,
+  "sym": "Route32_PokemonCenter_EventScript_FishingGuru2"
+ },
+ {
+  "item": "TM47 Steel Wing",
+  "n": 1,
+  "how": "gift",
+  "addr": 166796467,
+  "sym": "Route28House_EventScript_Celebrity"
+ },
+ {
+  "item": "Pokeblock Case",
+  "n": 1,
+  "how": "gift",
+  "addr": 166797331,
+  "sym": "SafariZoneGate_SafariZoneEntrance_MeetBaoba"
+ },
+ {
+  "item": "Pokeblock Case",
+  "n": 1,
+  "how": "gift",
+  "addr": 166799392,
+  "sym": "SafariZoneGate_SafariZoneEntrance_EventScript_BoyGiveExtraPokeblockCase"
+ },
+ {
+  "item": "TM37 Sandstorm",
+  "n": 1,
+  "how": "gift",
+  "addr": 166800117,
+  "sym": "Route27_House_EventScript_WomanHighFriendship"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "gift",
+  "addr": 166801913,
+  "sym": "Route2_House_EventScript_Man"
+ },
+ {
+  "item": "Cleanse Tag",
+  "n": 1,
+  "how": "gift",
+  "addr": 166802342,
+  "sym": "Route5_House_EventScript_Granny"
+ },
+ {
+  "item": "TM64 Explosion",
+  "n": 1,
+  "how": "gift",
+  "addr": 166802798,
+  "sym": "SaffronCity_Tunnel_NS_EventScript_BaldingManDetected"
+ },
+ {
+  "item": "TM25 Thunder",
+  "n": 1,
+  "how": "gift",
+  "addr": 166806150,
+  "sym": "Route10_PowerPlantBackRoom_EventScript_ManagerCheckPart"
+ },
+ {
+  "item": "Super Rod",
+  "n": 1,
+  "how": "gift",
+  "addr": 166807071,
+  "sym": "Route12_House_EventScript_SuperRod"
+ },
+ {
+  "item": "Galarica Cuff",
+  "n": 1,
+  "how": "gift",
+  "addr": 166809418,
+  "sym": "Route25_BillsHouse_EventScript_Gramps_SlowpokeReward"
+ },
+ {
+  "item": "Galarica Wreath",
+  "n": 1,
+  "how": "gift",
+  "addr": 166809441,
+  "sym": "Route25_BillsHouse_EventScript_Gramps_SlowpokeReward"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166810960,
+  "sym": "DarkCave1_EventScript_Item_Revive",
+  "map": "DarkCave_SouthSide_hns"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166810973,
+  "sym": "DarkCave1_EventScript_Item_Potion",
+  "map": "DarkCave_SouthSide_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166810986,
+  "sym": "DarkCave1_EventScript_Item_Elixir",
+  "map": "DarkCave_SouthSide_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166810999,
+  "sym": "DarkCave1_EventScript_Item_MaxRevive",
+  "map": "DarkCave_SouthSide_hns"
+ },
+ {
+  "item": "Black Flute",
+  "n": 1,
+  "how": "ball",
+  "addr": 166811029,
+  "sym": "DarkCave2_EventScript_Item_BlackFlute",
+  "map": "DarkCave_NorthSide_hns"
+ },
+ {
+  "item": "Star Piece",
+  "n": 1,
+  "how": "ball",
+  "addr": 166811042,
+  "sym": "DarkCave2_EventScript_Item_StarPiece",
+  "map": "DarkCave_NorthSide_hns"
+ },
+ {
+  "item": "Blackglasses",
+  "n": 1,
+  "how": "gift",
+  "addr": 166811074,
+  "sym": "DarkCave2_EventScript_BlackGlasses"
+ },
+ {
+  "item": "Paralyze Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166811460,
+  "sym": "SproutTower_1F_EventScript_ItemParalyzeHeal",
+  "map": "SproutTower_1F_hns"
+ },
+ {
+  "item": "X Defend",
+  "n": 1,
+  "how": "ball",
+  "addr": 166812080,
+  "sym": "SproutTower_2F_EventScript_Xdefend",
+  "map": "SproutTower_2F_hns"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166812601,
+  "sym": "SproutTower_3F_EventScript_Potion",
+  "map": "SproutTower_3F_hns"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 166812614,
+  "sym": "SproutTower_3F_EventScript_EscapeRope",
+  "map": "SproutTower_3F_hns"
+ },
+ {
+  "item": "HM05 Flash",
+  "n": 1,
+  "how": "gift",
+  "addr": 166812910,
+  "sym": "SproutTower_3F_EventScript_SageLi"
+ },
+ {
+  "item": "Helix Fossil",
+  "n": 1,
+  "how": "ball",
+  "addr": 166815672,
+  "sym": "RuinsOfAlph_PuzzleAndRewardChambers_EventScript_HelixFossil",
+  "map": "RuinsOfAlph_B1F_hns"
+ },
+ {
+  "item": "Dome Fossil",
+  "n": 1,
+  "how": "ball",
+  "addr": 166815685,
+  "sym": "RuinsOfAlph_PuzzleAndRewardChambers_EventScript_DomeFossil",
+  "map": "RuinsOfAlph_B1F_hns"
+ },
+ {
+  "item": "Old Amber",
+  "n": 1,
+  "how": "ball",
+  "addr": 166815698,
+  "sym": "RuinsOfAlph_PuzzleAndRewardChambers_EventScript_OldAmber",
+  "map": "RuinsOfAlph_B1F_hns"
+ },
+ {
+  "item": "Gs Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166815711,
+  "sym": "RuinsOfAlph_PuzzleAndRewardChambers_EventScript_GSBALL",
+  "map": "RuinsOfAlph_B1F_hns"
+ },
+ {
+  "item": "Life Orb",
+  "n": 1,
+  "how": "ball",
+  "addr": 166817965,
+  "sym": "RuinsOfAlph_EventScript_Item_LifeOrb",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Charcoal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166817978,
+  "sym": "RuinsOfAlph_EventScript_Item_Charcoal",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166817991,
+  "sym": "RuinsOfAlph_EventScript_Item_MaxRevive1",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Sacred Ash",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818004,
+  "sym": "RuinsOfAlph_EventScript_Item_SacredAsh",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Heal Powder",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818017,
+  "sym": "RuinsOfAlph_EventScript_Item_HealPowder1",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Energy Root",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818030,
+  "sym": "RuinsOfAlph_EventScript_Item_EnergyRoot",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Sitrus Berry",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818043,
+  "sym": "RuinsOfAlph_EventScript_Item_SitrusBerry2",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Moon Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818056,
+  "sym": "RuinsOfAlph_EventScript_Item_MoonStone",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Heal Powder",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818069,
+  "sym": "RuinsOfAlph_EventScript_Item_HealPowder2",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Energypowder",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818082,
+  "sym": "RuinsOfAlph_EventScript_Item_EnergyPowder",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Oran Berry",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818095,
+  "sym": "RuinsOfAlph_EventScript_Item_OranBerry",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Pecha Berry",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818108,
+  "sym": "RuinsOfAlph_EventScript_Item_PechaBerry",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Stardust",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818121,
+  "sym": "RuinsOfAlph_EventScript_Item_Stardust",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Star Piece",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818134,
+  "sym": "RuinsOfAlph_EventScript_Item_StarPiece",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Lum Berry",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818147,
+  "sym": "RuinsOfAlph_EventScript_Item_LumBerry2",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Water Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818160,
+  "sym": "RuinsOfAlph_EventScript_Item_WaterStone",
+  "map": "RuinsOfAlph_PuzzleAndRewardChambers_hns"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818528,
+  "sym": "UnionCave_1F_EventScript_Item_Potion",
+  "map": "UnionCave_1F_hns"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818541,
+  "sym": "UnionCave_1F_EventScript_Item_GreatBall",
+  "map": "UnionCave_1F_hns"
+ },
+ {
+  "item": "X Attack",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818554,
+  "sym": "UnionCave_1F_EventScript_Item_Xattack",
+  "map": "UnionCave_1F_hns"
+ },
+ {
+  "item": "Awakening",
+  "n": 1,
+  "how": "ball",
+  "addr": 166818567,
+  "sym": "UnionCave_1F_EventScript_Item_Awakening",
+  "map": "UnionCave_1F_hns"
+ },
+ {
+  "item": "TM39 Rock Tomb",
+  "n": 1,
+  "how": "ball",
+  "addr": 166819604,
+  "sym": "UnionCave_B1F_EventScript_Item_RockTomb",
+  "map": "UnionCave_B1F_hns"
+ },
+ {
+  "item": "X Defend",
+  "n": 1,
+  "how": "ball",
+  "addr": 166819617,
+  "sym": "UnionCave_B1F_EventScript_Item_Xdefend",
+  "map": "UnionCave_B1F_hns"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166820463,
+  "sym": "UnionCave_B2F_EventScript_Item_Ether",
+  "map": "UnionCave_B2F_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166820476,
+  "sym": "UnionCave_B2F_EventScript_Item_HyperPotion",
+  "map": "UnionCave_B2F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166820489,
+  "sym": "UnionCave_B2F_EventScript_Item_MaxRevive",
+  "map": "UnionCave_B2F_hns"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166821040,
+  "sym": "SlowpokeWell_B1F_EventScript_Item_Super_Potion_1",
+  "map": "SlowpokeWell_B1F_hns"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166821053,
+  "sym": "SlowpokeWell_B1F_EventScript_Item_Super_Potion_2",
+  "map": "SlowpokeWell_B1F_hns"
+ },
+ {
+  "item": "Great Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166821066,
+  "sym": "SlowpokeWell_B1F_EventScript_Item_Great_Ball",
+  "map": "SlowpokeWell_B1F_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166821079,
+  "sym": "SlowpokeWell_B1F_EventScript_Item_Full_Heal",
+  "map": "SlowpokeWell_B1F_hns"
+ },
+ {
+  "item": "Kings Rock",
+  "n": 1,
+  "how": "ball",
+  "addr": 166823016,
+  "sym": "SlowpokeWell_EventScript_Item_Kings_Rock",
+  "map": "SlowpokeWell_B2F_hns"
+ },
+ {
+  "item": "TM18 Rain Dance",
+  "n": 1,
+  "how": "gift",
+  "addr": 166823137,
+  "sym": "SlowpokeWell_EventScript_Slowking"
+ },
+ {
+  "item": "HM01 Cut",
+  "n": 1,
+  "how": "gift",
+  "addr": 166823797,
+  "sym": "IlexForest_EventScript_Trigger"
+ },
+ {
+  "item": "Super Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166824416,
+  "sym": "IlexForest_EventScript_SuperPotion",
+  "map": "IlexForest_hns"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166824429,
+  "sym": "IlexForest_EventScript_Ether",
+  "map": "IlexForest_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166824442,
+  "sym": "IlexForest_EventScript_FullHeal",
+  "map": "IlexForest_hns"
+ },
+ {
+  "item": "TM54 False Swipe",
+  "n": 1,
+  "how": "ball",
+  "addr": 166824455,
+  "sym": "IlexForest_EventScript_Item_FalseSwipe",
+  "map": "IlexForest_hns"
+ },
+ {
+  "item": "Quick Claw",
+  "n": 1,
+  "how": "gift",
+  "addr": 166826684,
+  "sym": "NationalPark_Normal_EventScript_TeacherQuickclaw"
+ },
+ {
+  "item": "TM28 Dig",
+  "n": 1,
+  "how": "ball",
+  "addr": 166827872,
+  "sym": "NationalPark_Normal_EventScript_TM_Dig",
+  "map": "NationalPark_Normal_hns"
+ },
+ {
+  "item": "Soothe Bell",
+  "n": 1,
+  "how": "ball",
+  "addr": 166827885,
+  "sym": "NationalPark_Normal_EventScript_Item_Soothe_Bell",
+  "map": "NationalPark_Normal_hns"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166830770,
+  "sym": "BurnedTower_1F_EventScript_Item_HpUp",
+  "map": "BurnedTower_1F_hns"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166830783,
+  "sym": "BurnedTower_1F_EventScript_Item_Ether",
+  "map": "BurnedTower_1F_hns"
+ },
+ {
+  "item": "TM12 Taunt",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833132,
+  "sym": "BurnedTower_B1F_EventScript_Item_Taunt",
+  "map": "BurnedTower_B1F_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833145,
+  "sym": "BurnedTower_B1F_EventScript_Item_UltraBall",
+  "map": "BurnedTower_B1F_hns"
+ },
+ {
+  "item": "TM40 Aerial Ace",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833674,
+  "sym": "MtMortar_1F_South_EventScript_Item_Aerial_Ace",
+  "map": "MtMortar_1F_South_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833687,
+  "sym": "MtMortar_1F_South_EventScript_Item_Elixir",
+  "map": "MtMortar_1F_South_hns"
+ },
+ {
+  "item": "Max Repel",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833717,
+  "sym": "MtMortar_1F_North_EventScript_Item_MaxRepel",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833730,
+  "sym": "MtMortar_1F_North_EventScript_Item_EscapeRope",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833743,
+  "sym": "MtMortar_1F_North_EventScript_Item_MaxPotion",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Protector",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833756,
+  "sym": "MtMortar_1F_North_EventScript_Item_Protector",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833769,
+  "sym": "MtMortar_1F_North_EventScript_Item_UltraBall",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833782,
+  "sym": "MtMortar_1F_North_EventScript_Item_FullIncense",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Kings Rock",
+  "n": 1,
+  "how": "ball",
+  "addr": 166833795,
+  "sym": "MtMortar_1F_North_EventScript_Item_KingsRock",
+  "map": "MtMortar_1F_North_hns"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834322,
+  "sym": "MtMortar_2F_EventScript_Item_Iron",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834335,
+  "sym": "MtMortar_2F_EventScript_Item_MaxRevive",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834348,
+  "sym": "MtMortar_2F_EventScript_Item_Ether",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834361,
+  "sym": "MtMortar_2F_EventScript_Item_RareCandy",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Dragon Scale",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834374,
+  "sym": "MtMortar_2F_EventScript_Item_DragonScale",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834387,
+  "sym": "MtMortar_2F_EventScript_Item_Elixir",
+  "map": "MtMortar_2F_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834634,
+  "sym": "MtMortar_B1F_EventScript_Item_HyperPotion",
+  "map": "MtMortar_B1F_hns"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834647,
+  "sym": "MtMortar_B1F_EventScript_Item_Carbos",
+  "map": "MtMortar_B1F_hns"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834660,
+  "sym": "MtMortar_B1F_EventScript_Item_PPUp",
+  "map": "MtMortar_B1F_hns"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834673,
+  "sym": "MtMortar_B1F_EventScript_Item_MaxEther",
+  "map": "MtMortar_B1F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166834686,
+  "sym": "MtMortar_B1F_EventScript_Item_MaxRevive",
+  "map": "MtMortar_B1F_hns"
+ },
+ {
+  "item": "Red Scale",
+  "n": 1,
+  "how": "gift",
+  "addr": 166835815,
+  "sym": "LakeOfRage_EventScript_Defeated_Gyarados"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166835843,
+  "sym": "LakeOfRage_EventScript_Item_Full_Restore",
+  "map": "LakeOfRage_hns"
+ },
+ {
+  "item": "TM43 Secret Power",
+  "n": 1,
+  "how": "ball",
+  "addr": 166835856,
+  "sym": "LakeOfRage_EventScript_Item_Secret_Power",
+  "map": "LakeOfRage_hns"
+ },
+ {
+  "item": "Red Flute",
+  "n": 1,
+  "how": "ball",
+  "addr": 166835869,
+  "sym": "LakeOfRage_EventScript_Item_Red_Flute",
+  "map": "LakeOfRage_hns"
+ },
+ {
+  "item": "Blackbelt",
+  "n": 1,
+  "how": "gift",
+  "addr": 166837873,
+  "sym": "LakeOfRage_EventScript_WesleyYes"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166838428,
+  "sym": "IcePath_1F_EventScript_Item_PpUp",
+  "map": "IcePath_1F_hns"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 166838441,
+  "sym": "IcePath_1F_EventScript_Item_Protein",
+  "map": "IcePath_1F_hns"
+ },
+ {
+  "item": "HM07 Waterfall",
+  "n": 1,
+  "how": "ball",
+  "addr": 166838454,
+  "sym": "IcePath_1F_EventScript_Item_HM_Waterfall",
+  "map": "IcePath_1F_hns"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 166839394,
+  "sym": "IcePath_B1F_EventScript_Item_Iron",
+  "map": "IcePath_B1F_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166839407,
+  "sym": "IcePath_B1F_EventScript_Item_Revive",
+  "map": "IcePath_B1F_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166839534,
+  "sym": "IcePath_B2F_EventScript_Item_FullHeal",
+  "map": "IcePath_B2F_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166839547,
+  "sym": "IcePath_B2F_EventScript_Item_MaxPotion",
+  "map": "IcePath_B2F_hns"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 166839560,
+  "sym": "IcePath_B2F_EventScript_Item_Carbos",
+  "map": "IcePath_B2F_hns"
+ },
+ {
+  "item": "TM72 Avalanche",
+  "n": 1,
+  "how": "gift",
+  "addr": 166839745,
+  "sym": "IcePath_B3F_EventScript_Swinub"
+ },
+ {
+  "item": "TM72 Avalanche",
+  "n": 1,
+  "how": "gift",
+  "addr": 166839915,
+  "sym": "IcePath_B3F_EventScript_Delibird"
+ },
+ {
+  "item": "Nevermeltice",
+  "n": 1,
+  "how": "ball",
+  "addr": 166840257,
+  "sym": "IcePath_B4F_EventScript_Item_NeverMeltIce",
+  "map": "IcePath_B4F_hns"
+ },
+ {
+  "item": "TM59 Dragon Pulse",
+  "n": 1,
+  "how": "gift",
+  "addr": 166840603,
+  "sym": "DragonsDen_Cavern_EventScript_Clair"
+ },
+ {
+  "item": "Dragon Fang",
+  "n": 1,
+  "how": "ball",
+  "addr": 166841491,
+  "sym": "DragonsDen_Cavern_EventScript_Item_Dragon_Fang",
+  "map": "DragonsDen_Cavern_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166841504,
+  "sym": "DragonsDen_Cavern_EventScript_Item_Max_Potion",
+  "map": "DragonsDen_Cavern_hns"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "ball",
+  "addr": 166841517,
+  "sym": "DragonsDen_Cavern_EventScript_Item_PP_Max",
+  "map": "DragonsDen_Cavern_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845331,
+  "sym": "WhirlIslands_1F_EventScript_Item_Ultra_Ball",
+  "map": "WhirlIslands_1F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845344,
+  "sym": "WhirlIslands_1F_EventScript_Item_Rare_Candy",
+  "map": "WhirlIslands_1F_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845357,
+  "sym": "WhirlIslands_1F_EventScript_Item_Full_Restore",
+  "map": "WhirlIslands_1F_hns"
+ },
+ {
+  "item": "Guard Spec",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845370,
+  "sym": "WhirlIslands_1F_EventScript_Item_Guard_Spec",
+  "map": "WhirlIslands_1F_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845399,
+  "sym": "WhirlIslands_B1F_EventScript_Item_Big_Nugget",
+  "map": "WhirlIslands_B1F_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845412,
+  "sym": "WhirlIslands_B1F_EventScript_Item_Full_Restore",
+  "map": "WhirlIslands_B1F_hns"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845425,
+  "sym": "WhirlIslands_B1F_EventScript_Item_Carbos",
+  "map": "WhirlIslands_B1F_hns"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845438,
+  "sym": "WhirlIslands_B1F_EventScript_Item_Calcium",
+  "map": "WhirlIslands_B1F_hns"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845451,
+  "sym": "WhirlIslands_B1F_EventScript_Item_Escape_Rope",
+  "map": "WhirlIslands_B1F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845468,
+  "sym": "WhirlIslands_Descent_EventScript_Item_Max_Revive",
+  "map": "WhirlIslands_Descent_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845481,
+  "sym": "WhirlIslands_Descent_EventScript_Item_Full_Restore",
+  "map": "WhirlIslands_Descent_hns"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "ball",
+  "addr": 166845494,
+  "sym": "WhirlIslands_Descent_EventScript_Item_PP_Max",
+  "map": "WhirlIslands_Descent_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849762,
+  "sym": "TinTower_3F_EvetScript_Item_FullHeal",
+  "map": "TinTower_3F_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849775,
+  "sym": "TinTower_4F_EventScript_Item_UltraBall",
+  "map": "TinTower_4F_hns"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849788,
+  "sym": "TinTower_4F_EventScript_Item_EscapeRope",
+  "map": "TinTower_4F_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849801,
+  "sym": "TinTower_4F_EventScript_Item_MaxPotion",
+  "map": "TinTower_4F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849814,
+  "sym": "TinTower_5F_EventScript_Item_RareCandy",
+  "map": "TinTower_5F_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849827,
+  "sym": "TinTower_5F_EventScript_Item_MaxPotion",
+  "map": "TinTower_6F_hns"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849840,
+  "sym": "TinTower_5F_EventScript_Item_Carbos",
+  "map": "TinTower_5F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849853,
+  "sym": "TinTower_7F_EventScript_Item_MaxRevive",
+  "map": "TinTower_7F_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849866,
+  "sym": "TinTower_8F_EventScript_Item_FullRestore",
+  "map": "TinTower_8F_hns"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849879,
+  "sym": "TinTower_8F_EventScript_Item_MaxElixir",
+  "map": "TinTower_9F_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166849892,
+  "sym": "TinTower_8F_EventScript_Item_BigNugget",
+  "map": "TinTower_9F_hns"
+ },
+ {
+  "item": "Heart Scale",
+  "n": 1,
+  "how": "ball",
+  "addr": 166852384,
+  "sym": "TohjoFalls_Cavern_EventScript_HeartScale",
+  "map": "TohjoFalls_Cavern_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853846,
+  "sym": "VictoryRoadKanto_B2F_EventScript_Item_MaxRevive",
+  "map": "VictoryRoadKanto_B2F_hns"
+ },
+ {
+  "item": "TM26 Earthquake",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853859,
+  "sym": "VictoryRoadKanto_B2F_EventScript_Item_Earthquake",
+  "map": "VictoryRoadKanto_B2F_hns"
+ },
+ {
+  "item": "Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853872,
+  "sym": "VictoryRoadKanto_B2F_EventScript_Item_Potion",
+  "map": "VictoryRoadKanto_B2F_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853886,
+  "sym": "VictoryRoadKanto_B1F_EventScript_Item_FullRestore",
+  "map": "VictoryRoadKanto_B1F_hns"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853899,
+  "sym": "VictoryRoadKanto_B1F_EventScript_Item_HpUp",
+  "map": "VictoryRoadKanto_B1F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853912,
+  "sym": "VictoryRoadKanto_B1F_EventScript_Item_MaxRevive",
+  "map": "VictoryRoadKanto_B1F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853926,
+  "sym": "VictoryRoadKanto_1F_EventScript_Item_RareCandy",
+  "map": "VictoryRoadKanto_1F_hns"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853939,
+  "sym": "VictoryRoadKanto_1F_EventScript_Item_MaxEther",
+  "map": "VictoryRoadKanto_1F_hns"
+ },
+ {
+  "item": "TM79 Dark Pulse",
+  "n": 1,
+  "how": "ball",
+  "addr": 166853952,
+  "sym": "VictoryRoadKanto_EventScript_Item_Dark_Pulse",
+  "map": "VictoryRoadKanto_1F_hns"
+ },
+ {
+  "item": "TM77 Psych Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166862939,
+  "sym": "ViridianForest_EventScript_Item_Psych_Up",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166862952,
+  "sym": "ViridianForest_EventScript_MaxPotion",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166862965,
+  "sym": "ViridianForest_EventScript_Elixir",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166862978,
+  "sym": "ViridianForest_EventScript_Revive",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166862991,
+  "sym": "ViridianForest_EventScript_FullRestore",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Max Ether",
+  "n": 1,
+  "how": "ball",
+  "addr": 166863004,
+  "sym": "ViridianForest_EventScript_MaxEther",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166863017,
+  "sym": "ViridianForest_EventScript_FullHeal",
+  "map": "ViridianForest_hns"
+ },
+ {
+  "item": "Moon Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864105,
+  "sym": "MtMoon_EventScript_Moonstone",
+  "map": "MtMoon_Outside_hns"
+ },
+ {
+  "item": "TM56 Fling",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864780,
+  "sym": "RockTunnel_B1F_EventScript_ItemFling",
+  "map": "RockTunnel_B1F_hns"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864793,
+  "sym": "RockTunnel_B1F_EventScript_Elixir",
+  "map": "RockTunnel_B1F_hns"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864823,
+  "sym": "RockTunnel_1F_EventScript_ItemIron",
+  "map": "RockTunnel_1F_hns"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864836,
+  "sym": "RockTunnel_1F_EventScript_PPup",
+  "map": "RockTunnel_1F_hns"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864850,
+  "sym": "CeruleanCave1_EventScript_MaxElixir",
+  "map": "CeruleanCave_1F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864863,
+  "sym": "CeruleanCave1_EventScript_RareCandy",
+  "map": "CeruleanCave_1F_hns"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864876,
+  "sym": "CeruleanCave1_EventScript_PpUp",
+  "map": "CeruleanCave_1F_hns"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864890,
+  "sym": "CeruleanCave2_EventScript_Zinc",
+  "map": "CeruleanCave_B1F_hns"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864903,
+  "sym": "CeruleanCave2_EventScript_Protein",
+  "map": "CeruleanCave_B1F_hns"
+ },
+ {
+  "item": "Big Pearl",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864916,
+  "sym": "CeruleanCave2_EventScript_BigPearl",
+  "map": "CeruleanCave_B1F_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166864992,
+  "sym": "CeruleanCave3_EventScript_MaxRevive",
+  "map": "CeruleanCave_B2F_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166865005,
+  "sym": "CeruleanCave3_EventScript_UltraBall",
+  "map": "CeruleanCave_B2F_hns"
+ },
+ {
+  "item": "TM50 Overheat",
+  "n": 1,
+  "how": "gift",
+  "addr": 166865309,
+  "sym": "SeafoamIslands_Gym_EventScript_Blaine"
+ },
+ {
+  "item": "TM13 Ice Beam",
+  "n": 1,
+  "how": "ball",
+  "addr": 166866872,
+  "sym": "SeafoamIslands_B1F_EventScript_Item_Ice_Beam",
+  "map": "SeafoamIslands_B1F_hns"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867150,
+  "sym": "MtSilver_1F_WaterfallRoom_EventScript_MaxPotion",
+  "map": "MtSilver_1F_WaterfallRoom_hns"
+ },
+ {
+  "item": "Dire Hit",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867163,
+  "sym": "MtSilver_1F_WaterfallRoom_EventScript_DireHit",
+  "map": "MtSilver_1F_WaterfallRoom_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867176,
+  "sym": "MtSilver_1F_WaterfallRoom_EventScript_FullRestore",
+  "map": "MtSilver_1F_WaterfallRoom_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867189,
+  "sym": "MtSilver_1F_WaterfallRoom_EventScript_UltraBall",
+  "map": "MtSilver_1F_WaterfallRoom_hns"
+ },
+ {
+  "item": "Spell Tag",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867202,
+  "sym": "MtSilver_1F_WaterfallRoom_EventScript_SpellTag",
+  "map": "MtSilver_1F_ItemRoom_hns"
+ },
+ {
+  "item": "TM76 Stealth Rock",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867322,
+  "sym": "MtSilver_MountainSide_EventScript_Item_Stealth_Rock",
+  "map": "MtSilver_MountainSide_hns"
+ },
+ {
+  "item": "Azure Flute",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867352,
+  "sym": "MtSilver_2F_Item_AzureFlue",
+  "map": "MtSilver_2F_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867407,
+  "sym": "MtSilver_Snow_EventScript_RareCandy",
+  "map": "MtSilver_Snow_hns"
+ },
+ {
+  "item": "Nevermeltice",
+  "n": 1,
+  "how": "ball",
+  "addr": 166867420,
+  "sym": "MtSilver_Snow_EventScript_NevermeltIce",
+  "map": "MtSilver_Snow_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 166869421,
+  "sym": "RocketHideout_B1F_EventScript_Item_BigNugget",
+  "map": "RocketHideout_B1F_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166869434,
+  "sym": "RocketHideout_B1F_EventScript_Item_HyperPotion",
+  "map": "RocketHideout_B1F_hns"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166869447,
+  "sym": "RocketHideout_B1F_EventScript_Item_Revive",
+  "map": "RocketHideout_B1F_hns"
+ },
+ {
+  "item": "HM08 Whirlpool",
+  "n": 1,
+  "how": "gift",
+  "addr": 166872209,
+  "sym": "RocketHideout_B2F_EventScript_ElectrodeDone"
+ },
+ {
+  "item": "TM46 Thief",
+  "n": 1,
+  "how": "ball",
+  "addr": 166874023,
+  "sym": "RocketHideout_EventScript_Item_Thief",
+  "map": "RocketHideout_B2F_hns"
+ },
+ {
+  "item": "Ice Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166875959,
+  "sym": "RocketHideout_B3F_EventScript_Item_IceHeal",
+  "map": "RocketHideout_B3F_hns"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 166875972,
+  "sym": "RocketHideout_B3F_EventScript_Item_Protein",
+  "map": "RocketHideout_B3F_hns"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 166875985,
+  "sym": "RocketHideout_B3F_EventScript_Item_FullHeal",
+  "map": "RocketHideout_B3F_hns"
+ },
+ {
+  "item": "Guard Spec",
+  "n": 1,
+  "how": "ball",
+  "addr": 166875998,
+  "sym": "RocketHideout_B3F_EventScript_Item_GuardSpec",
+  "map": "RocketHideout_B3F_hns"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 166876011,
+  "sym": "RocketHideout_B3F_EventScript_Item_HyperPotion",
+  "map": "RocketHideout_B3F_hns"
+ },
+ {
+  "item": "Toxic Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 166879567,
+  "sym": "Snowswept_Cavern_EventScript_Sneasler"
+ },
+ {
+  "item": "Fist Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 166879810,
+  "sym": "Snowswept_Cavern_Eventscript_Machamp"
+ },
+ {
+  "item": "Icy Rock",
+  "n": 1,
+  "how": "ball",
+  "addr": 166880043,
+  "sym": "Snowswept_EventScript_Item_IcyRock",
+  "map": "SnowsweptCavern_hns"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 166880056,
+  "sym": "Snowswept_EventScript_Item_UltraBall",
+  "map": "SnowsweptCavern_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 166880070,
+  "sym": "NewSinjoh_HotSprings_EventScript_Item_MaxRevive",
+  "map": "NewSinjoh_HotSprings_hns"
+ },
+ {
+  "item": "Lava Cookie",
+  "n": 1,
+  "how": "ball",
+  "addr": 166880083,
+  "sym": "NewSinjoh_HotSprings_EventScript_Item_LavaCookie",
+  "map": "NewSinjoh_HotSprings_hns"
+ },
+ {
+  "item": "Splash Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 166880185,
+  "sym": "NewSinjoh_HotSprings_EventScript_MualaniBattle"
+ },
+ {
+  "item": "Flame Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 166882424,
+  "sym": "NewSinjoh_HotSprings_EventScript_Arcanine"
+ },
+ {
+  "item": "Earth Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 166882825,
+  "sym": "NewSinjoh_HotSprings_EventScript_Ursaluna"
+ },
+ {
+  "item": "Metal Coat",
+  "n": 1,
+  "how": "gift",
+  "addr": 166889029,
+  "sym": "SSAqua_RoomSSE_EventScript_ReuinionScene"
+ },
+ {
+  "item": "Meteorite",
+  "n": 1,
+  "how": "gift",
+  "addr": 166891916,
+  "sym": "BirthIsland_Exterior_hns_MeteorInteract"
+ },
+ {
+  "item": "Lansat Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 167042835,
+  "sym": "BattleFrontier_ScottsHouse_EventScript_CheckSilverSymbols_hns"
+ },
+ {
+  "item": "Starf Berry",
+  "n": 1,
+  "how": "gift",
+  "addr": 167042937,
+  "sym": "BattleFrontier_ScottsHouse_EventScript_CheckGoldSymbols_hns"
+ },
+ {
+  "item": "Sky Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167060217,
+  "sym": "Route49_EventScript_SkylarBattle"
+ },
+ {
+  "item": "Stardust",
+  "n": 1,
+  "how": "ball",
+  "addr": 167061185,
+  "sym": "Route49_EventScript_Item_StarDust",
+  "map": "Route49_hns"
+ },
+ {
+  "item": "Lure",
+  "n": 1,
+  "how": "ball",
+  "addr": 167061198,
+  "sym": "Route49_EventScript_Item_Lure",
+  "map": "Route49_hns"
+ },
+ {
+  "item": "Dread Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167061526,
+  "sym": "Route49_EventScript_Overqwil"
+ },
+ {
+  "item": "Mind Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167062121,
+  "sym": "Route49_EventScript_Wyrdeer"
+ },
+ {
+  "item": "TM70 Rock Climb",
+  "n": 1,
+  "how": "ball",
+  "addr": 167062244,
+  "sym": "Route49_EventScript_Item_TMRockClimb",
+  "map": "Route49_hns"
+ },
+ {
+  "item": "Dusk Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 167065158,
+  "sym": "NewSinjoh_EventScript_Item_DuskBall",
+  "map": "NewSinjoh_hns"
+ },
+ {
+  "item": "Iron Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167065449,
+  "sym": "Route50_EventScript_WesselBattle"
+ },
+ {
+  "item": "Draco Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167066022,
+  "sym": "Route50_EventScript_FinleyBattle"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 167066598,
+  "sym": "Route50_EventScript_Item_ULtraBall",
+  "map": "Route50_hns"
+ },
+ {
+  "item": "Big Nugget",
+  "n": 1,
+  "how": "ball",
+  "addr": 167066611,
+  "sym": "Route50_EventScript_Item_Big_Nugget",
+  "map": "Route50_hns"
+ },
+ {
+  "item": "Insect Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167066899,
+  "sym": "Route50_EventScript_Kleavor"
+ },
+ {
+  "item": "Zap Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167067326,
+  "sym": "Route50_EventScript_Electrode"
+ },
+ {
+  "item": "Stone Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167068845,
+  "sym": "SinjohRuins_EventScript_StevenBattle"
+ },
+ {
+  "item": "Zoom Lens",
+  "n": 1,
+  "how": "gift",
+  "addr": 167070167,
+  "sym": "NewSinjoh_EventScript_Artist"
+ },
+ {
+  "item": "Spooky Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167072954,
+  "sym": "NewSinjoh_House3_EventScript_NobleTyphlosion"
+ },
+ {
+  "item": "Meadow Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167088140,
+  "sym": "NewSinjoh_KimonoHideout_EventScript_MiharuBattle"
+ },
+ {
+  "item": "Icicle Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167088652,
+  "sym": "NewSinjoh_KimonoHideout_EventScript_YoukoBattle"
+ },
+ {
+  "item": "Pixie Plate",
+  "n": 1,
+  "how": "gift",
+  "addr": 167089086,
+  "sym": "NewSinjoh_KimonoHideout_EventScript_ShizukoBattle"
+ },
+ {
+  "item": "Ice Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 167090913,
+  "sym": "Alola_Poni_FindItem1",
+  "map": "PoniIsle_hns"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 167092092,
+  "sym": "Alola_Melemele_FindItem1"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 167095968,
+  "sym": "Alola_Akala_Island_FindItem1",
+  "map": "AkalaIsle_hns"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 167095981,
+  "sym": "Alola_Akala_Island_FindItem2",
+  "map": "AkalaIsle_hns"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 167095994,
+  "sym": "Alola_Akala_Island_Finditem3"
+ },
+ {
+  "item": "Friend Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 167098930,
+  "sym": "Alola_Ulaula_FindItem1"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 167098943,
+  "sym": "Alola_Ulaula_FindItem2",
+  "map": "UlaulaIsle_hns"
+ },
+ {
+  "item": "Beast Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 167103083,
+  "sym": "Alola_Melemele_SamsonOakVilla_Dialogue_10"
+ },
+ {
+  "item": "Shiny Charm",
+  "n": 1,
+  "how": "gift",
+  "addr": 167113638,
+  "sym": "Lillie_GiveReward"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 5,
+  "how": "gift",
+  "addr": 167113679,
+  "sym": "Lillie_AlreadyCharm"
+ },
+ {
+  "item": "Leaf Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122091,
+  "sym": "Alola_Poni_Cave_FindItem1",
+  "map": "Poni_Cave_hns"
+ },
+ {
+  "item": "Thunderstone",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122104,
+  "sym": "Alola_Poni_Cave_FindItem2",
+  "map": "Poni_Cave_hns"
+ },
+ {
+  "item": "Full Restore",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122125,
+  "sym": "Alola_Akala_Forest_FindItem1"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122138,
+  "sym": "Alola_Akala_Forest_FindItem2",
+  "map": "Akala_Forest_hns"
+ },
+ {
+  "item": "Ice Stone",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122823,
+  "sym": "Alola_Ulaula_Cave_FindItem1",
+  "map": "UlaUla_Cave_hns"
+ },
+ {
+  "item": "Adrenaline Orb",
+  "n": 1,
+  "how": "ball",
+  "addr": 167122836,
+  "sym": "Alola_Ulaula_Cave_FindItem2",
+  "map": "UlaUla_Cave_hns"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 167123010,
+  "sym": "Alola_Ulaula_Forest_FindItem1"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 167124501,
+  "sym": "Alola_Akala_Cave_FindItem1",
+  "map": "Akala_Cave_hns"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167124514,
+  "sym": "Alola_Akala_Cave_FindItem2",
+  "map": "Akala_Cave_hns"
+ }
+]
