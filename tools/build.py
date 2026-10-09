@@ -919,14 +919,14 @@ def build_progress():
 <div class="wrap progress">
  <header class="now"><div data-if="known"><p class="label accent">You are here</p><h1 data-now="title"></h1><p class="meta" data-now="meta"></p><p class="regline" data-now="badges"></p>
    <div class="actions"><a class="btn" data-now="href" href="{u("/walkthrough/")}">Continue{ARROW}</a></div></div>
-  <div data-if="none"><p class="label accent">My progress</p><h1>Where are you on the road?</h1><p class="goal">Open any chapter and the guide remembers it. Or set your position here.</p></div>
+  <div data-if="none"><p class="label accent">My Progress</p><h1>Where are you on the road?</h1><p class="goal">Open any chapter and the guide remembers it. Or set your position here.</p></div>
   <label class="setpos"><span class="label">Current chapter</span><select data-set-pos><option value="">Not set</option>{opts}</select></label></header>
  {legs}
  <section class="keep"><p class="label">Your data</p><h2>Stays on this device</h2><p class="muted">Progress is stored in this browser only. Nothing is sent anywhere and nothing is synced between devices: to move it, export a file here and import it on the other device. This tracks the guide, not your save file.</p>
   <div class="actions"><button class="btn ghost" data-export>Export progress file</button><label class="btn ghost">Import progress file<input type="file" accept="application/json,.json" data-import class="sr"></label><button class="btn ghost" data-clear>Clear</button><button class="btn ghost" data-spoiler-toggle>Spoilers: hidden</button></div>
   <p class="muted" data-io-msg aria-live="polite"></p></section>
 </div>"""
-    write("/progress/", layout("My progress", body, desc="Track your chapter, Badges, milestones and postgame objectives. Stored on this device; export and import supported.", path="/progress/", dock="none"))
+    write("/progress/", layout("My Progress", body, desc="Track your chapter, Badges, milestones and postgame objectives. Stored on this device; export and import supported.", path="/progress/", dock="none"))
 
 
 # ============================================================ 17-18  PLAY
@@ -1194,7 +1194,7 @@ def build_search_index():
     add("How to update without losing your save", "Play", "/play/#update", "Back up, update, restore, roll back", "update new version save backup restore rollback patch sav", 4)
     idx.extend(legend_page.search_entries())
     idx.extend(dexnav_page.search_entries())
-    add("My progress", "Guide", "/progress/", "Your chapter, Badges and milestones", "checklist progress tracker export import")
+    add("My Progress", "Guide", "/progress/", "Your chapter, Badges and milestones", "checklist progress tracker export import")
     add("About & credits", "Guide", "/about/", "What Project Blonde is, and who made it", "credits about acknowledgements")
     (DIST / "assets" / "search-index.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     return len(idx)

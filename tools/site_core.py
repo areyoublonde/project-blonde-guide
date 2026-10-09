@@ -247,7 +247,7 @@ def layout(title, body, desc="", path="/", dock="continue", attrs=""):
     more = "".join(f'<a href="{u(n["href"])}" {"aria-current=page" if path.startswith(n["href"]) else ""}>{n["label"]}</a>' for n in site["more"])
     more_on = any(path.startswith(n["href"]) for n in site["more"])
     sheet = (f'<a href="{u("/walkthrough/")}">Walkthrough</a><a href="{u("/world/")}">World</a><a href="{u("/pokemon/")}">Pokémon</a><a href="{u("/trainers/")}">Trainers</a>'
-             f'<a href="{u("/items/")}">Items</a><a href="{u("/items/mega-stones/")}">Mega Stones</a><a href="{u("/postgame/legendaries/")}">Legendary Pokémon</a><a href="{u("/features/")}">Features</a><a href="{u("/stuck/")}">Stuck?</a><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/about/")}">About</a>{discord_link("dc")}')
+             f'<a href="{u("/items/")}">Items</a><a href="{u("/items/mega-stones/")}">Mega Stones</a><a href="{u("/postgame/legendaries/")}">Legendary Pokémon</a><a href="{u("/features/")}">Features</a><a href="{u("/stuck/")}">Stuck?</a><a href="{u("/progress/")}">My Progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/about/")}">About</a>{discord_link("dc")}')
     docks = {
         "continue": f'<nav class="dock one" data-if="known" aria-label="Continue"><a data-now="href" href="{u("/walkthrough/")}"><small>Continue</small><b data-now="title"></b></a></nav>',
         "none": "",
@@ -282,7 +282,7 @@ def layout(title, body, desc="", path="/", dock="continue", attrs=""):
 <nav class="menu-sheet" id="menu" aria-label="Menu" hidden>{sheet}</nav>
 <main id="main">{body}</main>
 <footer class="foot"><div class="wrap"><p class="foot-note">An unofficial, non-commercial fan guide to Pokémon Project Blonde, written for {VERSION}. Not affiliated with Nintendo, Creatures, GAME FREAK or The Pokémon Company.</p>
- <nav aria-label="Footer"><div class="foot-links"><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/search/")}">Search</a><a href="{u("/about/")}">About</a>{discord_link("dc")}</div><button class="link" data-spoiler-toggle>Spoilers: hidden</button></nav></div></footer>
+ <nav aria-label="Footer"><div class="foot-links"><a href="{u("/progress/")}">My Progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/search/")}">Search</a><a href="{u("/about/")}">About</a>{discord_link("dc")}</div><button class="link" data-spoiler-toggle>Spoilers: hidden</button></nav></div></footer>
 {dock_html}
 <dialog class="search" aria-label="Search the guide"><div class="search-top"><label class="field">{SEARCH}<span class="sr">Search</span><input type="search" placeholder="A place, a Pokémon, a Trainer, an item, a question…" autocomplete="off" spellcheck="false"></label><button class="esc" data-search-close>esc</button></div>
 <div class="results" role="listbox"></div><div class="search-foot"><span><kbd>↑↓</kbd> move</span><span><kbd>↵</kbd> open</span><span><kbd>esc</kbd> close</span></div></dialog>
