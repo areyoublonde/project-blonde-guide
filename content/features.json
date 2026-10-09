@@ -101,7 +101,13 @@
    "A regional form has its own Pokédex number and its own seen and caught marks. The list collapses a family into one row for display: the original species if you have seen it, otherwise the first form you found.",
    "The Poké Ball icon on a family row lights when any form in it has been caught."
   ],
-  "ev": "Owner-accepted in v100 (builds v96–v100). Not opened during the natural run’s Hoenn leg."
+  "ev": "Owner-accepted in v100 (builds v96–v100). Not opened during the natural run’s Hoenn leg.",
+  "links": [
+   [
+    "/features/dexnav/",
+    "DexNav: track a Pokémon in the area you are in"
+   ]
+  ]
  },
  {
   "id": "day-night",
@@ -119,7 +125,13 @@
   "more": [
    "Mt. Silver’s summit and the Tin Tower’s roof have separate day and night maps."
   ],
-  "ev": "ROM gWildMonHeaders (four tables per header); natural-run-v100 notes"
+  "ev": "ROM gWildMonHeaders (four tables per header); natural-run-v100 notes",
+  "links": [
+   [
+    "/features/dexnav/",
+    "DexNav shows the list for the current time of day"
+   ]
+  ]
  },
  {
   "id": "followers",
@@ -485,15 +497,17 @@
  {
   "id": "dexnav",
   "title": "DexNav",
-  "blurb": "Present in the START menu; not exercised in the playthrough.",
-  "basis": "source",
-  "what": "The game’s source enables DexNav and adds it to the START menu once you own a Pokémon.",
+  "blurb": "Track a wild Pokémon in the area you are in: an illustrated, step-by-step manual.",
+  "basis": "tested",
+  "what": "A Pokémon tracker in the START menu. It lists the wild Pokémon of the area you are in and lets you walk straight to one you have already seen.",
   "how": [
-   "Open the <b>START</b> menu and choose <b>DexNav</b>."
+   "Open the <b>START</b> menu and choose <b>DEXNAV</b>.",
+   "Put the ring on a Pokémon shown in colour and press <b>A</b>.",
+   "Walk onto the rustling spot."
   ],
-  "when": "According to the source, as soon as you have your first Pokémon.",
-  "limits": "The natural playthrough never opened it, so this guide does not describe its search or chaining behaviour in Project Blonde.",
+  "when": "As soon as you receive your first Pokémon.",
+  "limits": "Only Pokémon you have seen, only where they live, one battle per search. No fishing, Rock Smash, gift or legendary Pokémon.",
   "more": [],
-  "ev": "include/config/dexnav.h (DEXNAV_ENABLED, DN_FLAG_DEXNAV_GET = FLAG_SYS_POKEMON_GET); src/start_menu.c"
+  "ev": "content/dexnav.json; test session on v105 (public v1.0), 2026-10-09"
  }
 ]

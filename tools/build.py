@@ -9,6 +9,7 @@ Output : dist/ and CONTENT-COVERAGE.md, WALKTHROUGH-CHAPTER-MAP.md
 import argparse, shutil, sys
 from site_core import *
 import legend_page
+import dexnav_page
 
 MEGASTONES = J(DATA / "megastones.json")
 ABOUT = J(CONTENT / "about.json")
@@ -18,6 +19,7 @@ BASIS = {"played": ("Played", "Every step on this page was carried out in the co
          "accepted": ("Owner-accepted", "Described from the build the owner accepted; not re-opened in the natural playthrough."),
          "data": ("From game data", "Read from the game’s own tables and text."),
          "script": ("From game scripts", "This page is confirmed from the story scripts and text in the release build, and from the project’s automated tests where marked. It was not reached in the natural playthrough, so directions on the ground were not walked."),
+         "tested": ("Tested in play", "Checked in the running release build with ordinary button presses, on private copies of the playthrough saves. Anything read from the game’s code instead is marked on the page."),
          "fixture": ("Fixture-tested", "Read from the game’s scripts and exercised by the project’s automated tests, which set each stage up directly. Not reached in the natural playthrough.")}
 REGION_ORDER = ["johto", "kanto", "hoenn", "far"]
 ilink = lambda name: (f'<a href="{u(ITEMS[name]["url"])}">{esc(ITEMS[name]["display"])}</a>' if name in ITEMS else esc(name))
@@ -336,7 +338,7 @@ def build_pokemon():
                  f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a>{label}</b>{types(d)}<span class="w">{esc(how_summary(d))}</span></li>')
     n_base, n_reg = sum(1 for d in entries if d["kind"] == "species"), sum(1 for d in entries if d["kind"] == "regional")
     body = head("Pokédex", "Where to find them", f"{len(entries)} Pokémon you can obtain in Project Blonde: {n_base} species and {n_reg} regional forms. Each is here because the game’s own data shows a way to get it: a wild encounter, an event, a gift, a trade, an evolution or an egg. Species the engine defines but the game never offers are left out.",
-                f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a><a class="link" href="{u(legend_page.URL)}">Legendary &amp; Mythical guide{ARROW}</a></p>') + f"""
+                f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a><a class="link" href="{u(legend_page.URL)}">Legendary &amp; Mythical guide{ARROW}</a><a class="link" href="{u(dexnav_page.URL)}">Track one with DexNav{ARROW}</a></p>') + f"""
 <div class="wrap listpage">
  <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter Pokémon</span><input type="search" data-filter-list="#dex" placeholder="Name, type or place — try “pikachu”, “alolan” or “route 119”" autocomplete="off" aria-controls="dex"></label>
   <div class="seg wrapok" role="group" aria-label="Show"><button data-region-filter="" aria-pressed="true">All</button><button data-region-filter="johto" aria-pressed="false">Johto</button><button data-region-filter="kanto" aria-pressed="false">Kanto</button><button data-region-filter="hoenn" aria-pressed="false">Hoenn</button><button data-region-filter="far" aria-pressed="false">Far-off</button><button data-region-filter="wild" aria-pressed="false">Wild</button><button data-region-filter="event" aria-pressed="false">Event, gift or trade</button><button data-region-filter="nowild" aria-pressed="false">Evolution or egg only</button></div>
@@ -679,6 +681,7 @@ def build_place(p):
  {legend_page.place_note(p)}
  {"<nav class=areanav aria-label=Areas>" + toc + "</nav>" if toc.count("<a") > 1 else ""}
  {"<div class=rowhead><p class=label>Time of day for every table on this page</p>" + TOD + "</div>" if any_enc else ""}
+ {dexnav_page.place_line(any(m in ("walk", "surf") for mk in p["maps"] if mk in enc for m in enc[mk]["tables"]))}
  {secs}
  {"<section><p class=label>Also here</p><ul class='plain alsohere muted'>" + "".join(f"<li>{x}</li>" for x in plain) + "</ul></section>" if plain else ""}
 </div></article>"""
@@ -830,6 +833,9 @@ def build_features():
     body = head("Features", "How this game works", "The systems that make Project Blonde its own game. Each guide says what it is, how to use it, when it unlocks and its limits, and whether that was seen in play or read from the game.") + f'<div class="wrap listpage"><ol class="people feat">{rows}</ol></div>'
     write("/features/", layout("Features", body, desc="Guides to Project Blonde’s own systems.", path="/features/"))
     for f in FEATURES:
+        if f["id"] == "dexnav":         # the illustrated manual is its own page type
+            dexnav_page.build(f, basis_tag(f["basis"]))
+            continue
         how = "".join(f"<li>{x}</li>" for x in f["how"])
         table = ""
         if f.get("table"):
@@ -1050,6 +1056,7 @@ def build_search_index():
         add(re.sub(r"<[^>]+>", "", t["title"]), "Play", f"/play/#{t['id']}", t["label"], "save backup update restore link " + t["id"], 3)
     add("Play Project Blonde", "Play", "/play/", "Download, setup, saving and updating", "download install rom emulator save backup update", 5)
     idx.extend(legend_page.search_entries())
+    idx.extend(dexnav_page.search_entries())
     add("My progress", "Guide", "/progress/", "Your chapter, Badges and milestones", "checklist progress tracker export import")
     add("About & credits", "Guide", "/about/", "What Project Blonde is, and who made it", "credits about acknowledgements")
     (DIST / "assets" / "search-index.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -1105,7 +1112,7 @@ def write_reports(n_search, n_stuck):
          "- Unlock conditions and routes for: Steven and Wally's final battles, Johto Leader rematches (Fighting Dojo), post-League legendaries, the Alola isles, Sinjoh, Battle Tents, Trainer Hill, Battle Frontier. Teams, maps and encounter data are shown; how to reach them is not, because the natural run did not play them.",
          "- Seven of the eight Hoenn Gym rematches: teams from the ROM, not fought in the run.", "- Poké Mart prices and the progress-scaled stock of standard Johto / Kanto Marts (shared clerk script) are not extracted; department stores and Hoenn Marts are.",
          "- TM / tutor compatibility per species is not listed (level-up moves are).", "- Link Play: verified on two linked mGBA cores only. No setup is published for Delta or Android.",
-         "- DexNav: present in source and START menu; not exercised.", "- Fixed encounters and gifts come from event scripts; three retired ones (Kyogre, Groudon, Rayquaza in their old Heart & Soul sites) are labelled.", "",
+         "- DexNav: tested in play on the release build for its own manual (/features/dexnav/); not used in the natural playthrough.", "- Fixed encounters and gifts come from event scripts; three retired ones (Kyogre, Groudon, Rayquaza in their old Heart & Soul sites) are labelled.", "",
          "## Broken references", "", ("None: the build stops if content names a map, place, trainer or item the game data does not contain." if not ERRORS else "\n".join(f"- {e}" for e in ERRORS)), ""]
     (ROOT / "CONTENT-COVERAGE.md").write_text("\n".join(C), encoding="utf-8")
     return tot

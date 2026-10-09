@@ -1,0 +1,189 @@
+{
+ "_about": "The DexNav manual (/features/dexnav/). Hand-written from a dedicated test session on the v105 (public v1.0) ROM: ordinary button presses in headless mGBA on private copies of the natural-playthrough saves, no memory writes. Screenshots are native 240x160 captures from that session (site/assets/game/dexnav/). A sentence ending in [code] was read from the game's code or data and was not seen happen in play. Links: {/path/|text}.",
+ "lead": "DexNav is a Pokémon tracker. It shows which wild Pokémon live in the area you are standing in, and lets you pick one and walk straight to it instead of waiting for it to turn up by chance.",
+ "what": {
+  "paras": [
+   "Open DexNav on any route, cave floor or stretch of water where wild Pokémon appear. It lists the Pokémon that live there at this time of day, including ones you have never met, which show as black shapes.",
+   "Choose a Pokémon you have already seen and DexNav makes that exact Pokémon appear close by. A patch of grass rustles, dust rises from a cave floor, or the water ripples. Walk onto that spot and the battle starts.",
+   "Nothing about ordinary play changes. Random wild battles go on as usual until you start a search, and they pause only while you are tracking."
+  ],
+  "why": [
+   ["See what lives here", "One screen lists every Pokémon found in the grass and on the water of the area you are in."],
+   ["Skip the waiting", "A Pokémon that appears in 1 battle out of 20 is as quick to find as a common one."],
+   ["No interruptions", "While you are tracking, no other wild Pokémon jump out at you."],
+   ["Chain for a bonus", "Each tracked Pokémon you beat or catch in a row adds to a chain, which raises levels and, on long chains, shiny odds."]
+  ],
+  "limits": "You can only search for Pokémon you have already seen, only in the area they live in, and one search gives one battle. Fishing, Rock Smash, gift and legendary Pokémon are not part of it."
+ },
+ "unlock": {
+  "answer": "You have it as soon as you receive your first Pokémon.",
+  "paras": [
+   "There is nothing to find, buy or earn. The moment Professor Elm gives you your first Pokémon in New Bark Town, <b>DEXNAV</b> is added to the START menu, just above <b>POKéMON</b>. No Badge, item or character is involved.",
+   "It is the same in every region. Johto, Kanto, Hoenn and the far-off isles all use the one DexNav you already have."
+  ],
+  "checked": "Checked in play: on a new game before the first Pokémon the START menu has no DEXNAV entry; on a save with no Badges it is there.",
+  "chapter": "johto/new-bark-town"
+ },
+ "steps": [
+  {"img": "menu", "title": "Go where wild Pokémon live, then open the menu",
+   "alt": "Route 31. The START menu is open with the cursor on DEXNAV, the second entry, between POKéDEX and POKéMON.",
+   "body": ["Stand in or right next to tall grass, on a cave floor, or on water while surfing. Press <kbd>START</kbd> and move down to <b>DEXNAV</b>.",
+            "Press <kbd>A</kbd>. If nothing happens, this area has no wild Pokémon: towns, buildings and some dungeon floors do not."],
+   "next": "Press A on DEXNAV."},
+  {"img": "screen", "title": "Read the DexNav screen",
+   "alt": "The DexNav screen on Route 31. A WATER row shows Poliwag and one black shape, a LAND row shows Ledyba and five black shapes, a HIDDEN row is empty. A panel on the right reads Species Ledyba, Type Bug Flying, Search Level 0, Hidden Ability Capture first!, Current Chain 0.",
+   "body": ["The left side lists the area’s Pokémon in three rows: <b>WATER</b>, <b>LAND</b> and <b>HIDDEN</b>. The right side describes the one under the red ring. The area’s name is in the top-right corner.",
+            "Move the ring with the <kbd>D-pad</kbd>. Up and down change rows."],
+   "next": "Move the ring onto the Pokémon you want."},
+  {"img": "unseen", "title": "Pick a Pokémon you have seen",
+   "alt": "The red ring is on a black silhouette in the LAND row. The panel on the right shows dashes instead of a name and a ??? type.",
+   "body": ["A Pokémon in colour is one you have met before. You can search for it. A black shape lives here too, but you have not seen it yet, so the panel shows dashes and pressing <kbd>A</kbd> only buzzes.",
+            "To unlock a black shape, meet that Pokémon once the ordinary way. After that it appears in colour."],
+   "next": "Choose one that is in colour."},
+  {"img": "search", "title": "Press A to start the search",
+   "alt": "Back on Route 31. A black bar across the top of the screen shows a Ledyba icon, LEDYBA, Lv. 4, an arrow pointing right and No. 0. The player stands at the edge of tall grass.",
+   "body": ["Press <kbd>A</kbd>. There is no confirmation: the screen closes and you are back in the field with a black bar showing the Pokémon’s icon, name and <b>level</b>, an <b>arrow</b> and your chain (<b>No.</b>).",
+            "Somewhere nearby one patch of grass is now rustling. The arrow points towards it. The bar sits at the top or the bottom of the screen, whichever keeps the spot in view."],
+   "next": "Follow the arrow."},
+  {"img": "found", "title": "Walk onto the rustling spot",
+   "alt": "The player has stepped onto the rustling patch of grass. An exclamation mark bubble is above the player’s head.",
+   "body": ["Walk to the spot. You do not need to tiptoe, and no other wild Pokémon will appear on the way. You have <b>60 seconds</b>, and you must stay within about 20 steps of it.",
+            "When you step onto the spot an exclamation mark pops up."],
+   "next": "The battle starts by itself."},
+  {"img": "battle", "title": "Battle the Pokémon you chose",
+   "alt": "A wild battle. The message reads You encountered a wild LEDYBA! and the opponent’s bar shows LEDYBA Lv4.",
+   "body": ["The wild Pokémon is the one you picked, at the level the bar showed. It is an ordinary wild battle: fight it, catch it or run.",
+            "In testing every search that reached the spot gave the chosen Pokémon at the shown level."],
+   "next": "Win or catch it to start a chain."},
+  {"img": "chain", "title": "Search again to build a chain",
+   "alt": "A second search on Route 31. The bar shows LEDYBA, Lv. 14 and No. 1.",
+   "body": ["One search gives one battle. To go again, open DexNav and press <kbd>A</kbd>, or use the <kbd>R</kbd> shortcut described below.",
+            "Each tracked Pokémon you defeat or catch adds 1 to the chain, shown as <b>No.</b> on the bar. Here the chain is 1, and this Ledyba rolled a lucky level bonus: Lv. 14 on a route where they are normally Lv. 4."],
+   "next": "Keep going, or stop whenever you like."}
+ ],
+ "buttons": {
+  "screen": [["D-pad", "Move the red ring. Up and down change rows."], ["A", "Search for this Pokémon now."], ["R", "Register this Pokémon for the field shortcut. You hear its cry."], ["B", "Close DexNav and go back to the START menu."]],
+  "field": [["START", "Open the menu that holds DEXNAV."], ["R", "Search for your registered Pokémon without opening any menu."]]
+ },
+ "register": {
+  "img": "register",
+  "alt": "The DexNav screen with Search LEDYBA written in the top bar, where R TO REGISTER! was before.",
+  "paras": [
+   "On the DexNav screen, put the ring on a Pokémon you have seen and press <kbd>R</kbd>. Its cry plays and the top bar changes from <b>R TO REGISTER!</b> to <b>Search</b> and its name.",
+   "From then on, pressing <kbd>R</kbd> while walking around starts a search for that Pokémon at once. This is the fast way to chain: battle, press R, walk, battle.",
+   "The registered Pokémon is saved with your game and stays registered when you change areas. It can only be found where it lives, so in any other place pressing R gives “It couldn’t be found nearby.” Register a different Pokémon at any time to replace it."
+  ]
+ },
+ "list": {
+  "img": "list-route-102",
+  "alt": "The DexNav screen on Route 102 in Hoenn. WATER shows Marill and Goldeen. LAND shows Poochyena, Wurmple, Lotad, Zigzagoon and Seedot in colour and one black shape. HIDDEN is empty. The ring is on Marill: Type Water Fairy.",
+  "caption": "Route 102 in Hoenn. Two Pokémon on the water, six on land, one of them not seen yet.",
+  "rows": [
+   ["WATER", "Pokémon met while surfing here. Up to five."],
+   ["LAND", "Pokémon met by walking here: tall grass outdoors, the floor of a cave or tower. Up to twelve."],
+   ["HIDDEN", "Not used in Project Blonde. No area has hidden Pokémon, so this row is always three crosses. [code]"]
+  ],
+  "icons": [
+   ["In colour", "You have seen this Pokémon. You can search for it."],
+   ["Black shape", "It lives here, but you have not seen it. You cannot search for it yet."],
+   ["Cross", "An empty slot. Most areas have fewer Pokémon than there are slots."],
+   ["Small Poké Ball on a row’s title", "You have caught every Pokémon in that row. The unused HIDDEN row always shows it. [code]"]
+  ],
+  "panel": [
+   ["SPECIES and TYPE", "The Pokémon under the ring. Dashes and ??? mean you have not seen it."],
+   ["SEARCH LEVEL", "Always 0. Project Blonde does not use search levels, so there is nothing to raise. [code]"],
+   ["HIDDEN ABILITY", "Names the Pokémon’s Hidden Ability once you have caught one, and says “Capture first!” before that. It is information only: a DexNav search does not give Hidden Abilities. [code]"],
+   ["CURRENT CHAIN", "How many tracked Pokémon in a row you have beaten or caught."]
+  ],
+  "notes": [
+   "<b>Every Pokémon is listed once, however rare.</b> Route 31’s list includes Pichu and Weedle, which each turn up in only 1 battle out of 20 there.",
+   "<b>The list follows the clock.</b> DexNav shows the Pokémon for the current time of day. On Route 31 the daytime list is Ledyba, Bellsprout, Caterpie, Mareep, Weedle and Pichu; at night the game’s data swaps it for Poliwag, Spinarak, Bellsprout, Hoothoot, Gastly and Zubat. [code] The daytime list was checked on screen against the game’s data.",
+   "<b>Seeing is enough.</b> You do not need to have caught a Pokémon to search for it.",
+   "<b>What is never listed:</b> Pokémon from fishing rods or Rock Smash, gift and trade Pokémon, and legendary, roaming or other one-off encounters. DexNav only reads an area’s walking and surfing lists. [code]"
+  ]
+ },
+ "after": {
+  "paras": [
+   "Starting a search does not change which Pokémon appear at random. It sets up <b>one</b> meeting with the Pokémon you chose, on one spot, and switches ordinary wild battles off until that search is over. In testing, pacing in tall grass for a full minute during a search gave no battles at all; without a search the same pacing gave one within seconds.",
+   "Registering a Pokémon with R changes nothing by itself. It only chooses what the R shortcut will look for."
+  ],
+  "ends": [
+   ["You step on the spot", "The battle starts. Beat or catch the Pokémon and the chain goes up by 1. Run away or lose and the chain goes back to 0.", "found"],
+   ["You take longer than 60 seconds", "“The Pokémon got away!” appears on your next step. The chain goes back to 0.", "got-away"],
+   ["You walk more than about 20 steps away", "“There is no reaction. The signal was lost!” The chain goes back to 0.", "lost-signal"],
+   ["You leave the area", "The search ends without a message and the chain goes back to 0. Your registered Pokémon is kept.", ""],
+   ["DexNav cannot place the Pokémon", "“It couldn’t be found nearby. Try looking in a different area!” No search starts. Your chain is kept, so simply try again.", "not-found"]
+  ],
+  "ends_alt": {
+   "found": "The player standing on the rustling grass with an exclamation mark bubble overhead, just before the battle.",
+   "got-away": "Route 31 with the message: The Pokémon got away!",
+   "lost-signal": "Route 31, far from the grass, with the message: There is no reaction. The signal was lost!",
+   "not-found": "Route 31 beside the gate with the message: It couldn’t be found nearby. Try looking in a different area!"
+  },
+  "chain": [
+   "The chain counts tracked Pokémon you have beaten or caught in a row. It does not have to be the same species each time. [code]",
+   "Every 5 in the chain adds 1 level to the next Pokémon you track. Separately, any search has a small chance of a Pokémon 10 levels higher than usual, as in the Lv. 14 Ledyba above. [code]",
+   "From a chain of 50 the game takes extra tries at making the Pokémon shiny, and more again at 100, where the chain stops counting. [code]",
+   "The chain is saved with your game. It is reset by running away, by a search that fails once it has started, by leaving the area, and by any other battle, including an ordinary wild battle or a Trainer battle. [code]"
+  ],
+  "table": [
+   ["Which Pokémon appears", "Yes", "The one you chose."],
+   ["Level", "Sometimes", "Normal for the area, plus 1 per 5 in the chain, with a small chance of +10. [code]"],
+   ["Shiny odds", "A little", "A small chance of extra tries on any search, more from a chain of 50 and of 100. [code]"],
+   ["Random wild battles", "Paused", "Off while a search is active, back to normal afterwards."],
+   ["Stats (IVs) and nature", "No", "Rolled as for any wild Pokémon. [code]"],
+   ["Ability", "No", "One of its ordinary Abilities. Never a Hidden Ability. [code]"],
+   ["Moves", "No", "The ordinary moves for its level. [code]"],
+   ["Held item", "No", "About the same chance as any wild Pokémon. [code]"]
+  ]
+ },
+ "where": {
+  "table": [
+   ["Tall grass", "Yes", "Stand in or beside the grass. Checked on Route 31 (Johto) and Route 102 (Hoenn)."],
+   ["Caves and tower floors", "Yes", "A puff of dust marks the spot. Checked on Sprout Tower 2F."],
+   ["Dark caves", "Not until lit", "“It’s too dark to search for a Pokémon!” Light the cave with Flash first. [code]"],
+   ["Water", "Only while surfing", "Ripples mark the spot. From the shore the search always fails; get on the water first. Checked on Route 102."],
+   ["Fishing", "No", "Rod Pokémon are not in DexNav. [code]"],
+   ["Rock Smash", "No", "Pokémon from smashed rocks are not in DexNav. [code]"],
+   ["Towns and buildings", "No", "Choosing DEXNAV does nothing where there are no wild Pokémon."],
+   ["Legendary and one-off Pokémon", "No", "They are not wild encounters, so they are never listed."]
+  ],
+  "figs": [
+   ["search", "Tall grass: one patch rustles.", "A search bar for Ledyba over Route 31’s tall grass."],
+   ["indoor", "Indoors: a puff of dust on the floor.", "Sprout Tower 2F with a dust cloud on the floor and a search bar for Rattata, Lv. 6, at the bottom of the screen."],
+   ["water", "Surfing: ripples on the water.", "The player surfing on a pond on Route 102 with ripples nearby and a search bar for Marill, Lv. 73."]
+  ],
+  "regions": "DexNav is one system for the whole game. It was used in Johto and in Hoenn for this guide. Kanto and the far-off isles were not opened separately, but they use the same lists: the game has walking lists for 135 areas and surfing lists for 90. [code]"
+ },
+ "tips": [
+  ["If it “couldn’t be found nearby”, just try again", "DexNav picks the spot at random and sometimes finds none, even when you are standing in grass. It costs nothing and keeps your chain."],
+  ["Stand towards the bottom-right of the grass", "DexNav looks further up and to the left of you (about seven steps) than down and to the right (about four). Having the grass above and to your left gives it more places to choose from. [code]"],
+  ["Small ponds take more tries", "On a small pond the search can fail several times in a row. It took four attempts on Route 102’s pond."],
+  ["The spot can be out of reach", "Indoors the dust can appear behind a wall or on a ledge you cannot get to. Let it go and search again."],
+  ["Use R for repeat hunts", "Register the Pokémon once, then press R after every battle. You never need to open the menu."],
+  ["Use the Pokédex to choose the area first", "DexNav only knows the area you are in. To find out where a Pokémon lives, use the Pokédex’s AREA page or this guide’s Pokédex."]
+ ],
+ "faq": [
+  ["Why does nothing happen when I choose DEXNAV?", "The area you are in has no wild Pokémon. Towns, buildings and some dungeon floors (Sprout Tower’s ground floor, for example) have none, so the menu simply stays open. Walk to a route or a floor with wild Pokémon and try again.", "empty"],
+  ["Why is my list all crosses or black shapes?", "Crosses are empty slots. Black shapes are Pokémon that live here but that you have not seen yet. Meet one in an ordinary wild battle and it will show in colour next time.", "shapes"],
+  ["Why isn’t the Pokémon I want listed?", "Three usual reasons. It may appear at a different time of day. It may come from fishing, Rock Smash, a gift or a one-off encounter, none of which DexNav covers. Or it may not live in this area at all: check {/features/pokedex-area/|the Pokédex’s AREA page}.", "missing"],
+  ["Can I use DexNav at night?", "Yes. It works at any hour and shows the Pokémon for the current time of day, so the night list can be different from the day list. [code] You can change the clock at any Pokémon Center: see {/features/day-night/|Day & Night}.", "night"],
+  ["Can I use it while surfing?", "Yes, and for WATER Pokémon you have to. Start the search while you are on the water. From the shore it always fails.", "surf"],
+  ["Can I use it for fishing?", "No. Pokémon caught with a rod are not in DexNav.", "fishing"],
+  ["Does DexNav increase shiny odds?", "A little. Any tracked Pokémon has a small chance of extra tries at being shiny, and every tracked Pokémon gets extra tries once your chain reaches 50, and more at 100. [code] This was read from the game’s code; no shiny was seen in testing.", "shiny"],
+  ["Can I search for legendary Pokémon?", "No. Legendary, roaming and other one-off Pokémon are not wild encounters, so they are never listed. See the {/postgame/legendaries/|Legendary & Mythical guide} for those.", "legendary"],
+  ["What happens if I change areas?", "An active search ends quietly and your chain goes back to 0. Your registered Pokémon stays registered, but the R shortcut only works again in an area where that Pokémon lives.", "areas"],
+  ["Is the Pokémon guaranteed?", "Once the search bar is on screen, yes: reach the spot in time and you battle that Pokémon at that level. What is not guaranteed is the search starting. It can fail with “It couldn’t be found nearby”, in which case try again.", "guaranteed"],
+  ["Do I have to sneak up on it?", "No. Walk normally. The Pokémon also stays on its spot and does not move away from you. [code]", "sneak"],
+  ["Is anything lost when I save and reload?", "No. Your registered Pokémon and your chain are saved with the game. A search that is still in progress is not saved; start it again after loading. [code]", "save"]
+ ],
+ "related": [
+  ["/pokemon/", "Pokédex", "Every obtainable Pokémon and where it lives."],
+  ["/world/", "World atlas", "Wild Pokémon lists for every route, cave and sea."],
+  ["/features/pokedex-area/", "Pokédex AREA & regional forms", "The in-game map of where a Pokémon is found."],
+  ["/features/day-night/", "Day & Night", "How the clock changes which Pokémon appear."],
+  ["/walkthrough/johto/new-bark-town/", "Chapter 1: New Bark Town", "Where you receive your first Pokémon, and DexNav with it."],
+  ["/features/", "All feature guides", "The other systems that make Project Blonde its own game."]
+ ],
+ "ev": "v1.0 release candidate (v105). Test session of 2026-10-09: headless mGBA, controller input only, private copies of playthrough saves (new game, Violet City with no Badges, Petalburg City with five Hoenn Badges). Code read: src/dexnav.c, include/config/dexnav.h, src/start_menu.c, src/battle_main.c, src/pokemon.c; wild lists from the ROM’s gWildMonHeaders"
+}
