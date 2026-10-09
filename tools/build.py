@@ -8,6 +8,7 @@ Output : dist/ and CONTENT-COVERAGE.md, WALKTHROUGH-CHAPTER-MAP.md
 """
 import argparse, shutil, sys
 from site_core import *
+import legend_page
 
 MEGASTONES = J(DATA / "megastones.json")
 ABOUT = J(CONTENT / "about.json")
@@ -312,7 +313,7 @@ def build_pokemon():
                  f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a>{label}</b>{types(d)}<span class="w">{esc(how_summary(d))}</span></li>')
     n_base, n_reg = sum(1 for d in entries if d["kind"] == "species"), sum(1 for d in entries if d["kind"] == "regional")
     body = head("Pokédex", "Where to find them", f"{len(entries)} Pokémon you can obtain in Project Blonde: {n_base} species and {n_reg} regional forms. Each is here because the game’s own data shows a way to get it: a wild encounter, an event, a gift, a trade, an evolution or an egg. Species the engine defines but the game never offers are left out.",
-                f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a></p>') + f"""
+                f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a><a class="link" href="{u(legend_page.URL)}">Legendary &amp; Mythical guide{ARROW}</a></p>') + f"""
 <div class="wrap listpage">
  <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter Pokémon</span><input type="search" data-filter-list="#dex" placeholder="Name, type or place — try “pikachu”, “alolan” or “route 119”" autocomplete="off" aria-controls="dex"></label>
   <div class="seg wrapok" role="group" aria-label="Show"><button data-region-filter="" aria-pressed="true">All</button><button data-region-filter="johto" aria-pressed="false">Johto</button><button data-region-filter="kanto" aria-pressed="false">Kanto</button><button data-region-filter="hoenn" aria-pressed="false">Hoenn</button><button data-region-filter="far" aria-pressed="false">Far-off</button><button data-region-filter="wild" aria-pressed="false">Wild</button><button data-region-filter="event" aria-pressed="false">Event, gift or trade</button><button data-region-filter="nowild" aria-pressed="false">Evolution or egg only</button></div>
@@ -418,6 +419,7 @@ def build_species(d):
         prog.append("Some sources need " + ", ".join(dict.fromkeys(g["needs"] for g in gates)))
     kinds_line = " · ".join(MLABEL[k] for k in av["kinds"])
     table += f'<p class="muted availline"><span class="basis b-played">Obtainable</span> {kinds_line}{". " + ". ".join(prog) if prog else ""}. Sources are read from the game’s encounter tables, scripts and evolution data; unless a walkthrough chapter describes one, it was not confirmed by play.</p>'
+    table += legend_page.species_link(d)
     figs = ""
     for key, lab in (("jk", "Johto–Kanto"), ("hoenn", "Hoenn")):
         if dots[key]:
@@ -651,6 +653,7 @@ def build_place(p):
  <header class="entry-head nomedia"><div><p class="label">{p["kind"]} · {REGION_NAME[p["region"]]}</p><h1>{esc(p["name"])}</h1>
    <dl class="kv wide">{"<div><dt>Services</dt><dd>" + ", ".join(services) + "</dd></div>" if services else ""}{conns}{doors}<div><dt>In the data</dt><dd>{len(p["maps"])} area{"s" * (len(p["maps"]) != 1)} · {len(p["wild"])} wild Pokémon · {len(p["items"])} items · {len(p["trainers"])} Trainers</dd></div></dl></div>{fig}</header>
  {"<section class=inwalk><p class=label>On the road</p><div class=chlinks>" + chs + "</div></section>" if chs else "<p class=muted>No walkthrough chapter passes through here; this page is built from game data alone.</p>"}
+ {legend_page.place_note(p)}
  {"<nav class=areanav aria-label=Areas>" + toc + "</nav>" if toc.count("<a") > 1 else ""}
  {"<div class=rowhead><p class=label>Time of day for every table on this page</p>" + TOD + "</div>" if any_enc else ""}
  {secs}
@@ -1023,6 +1026,7 @@ def build_search_index():
     for t in PLAY["topics"]:
         add(re.sub(r"<[^>]+>", "", t["title"]), "Play", f"/play/#{t['id']}", t["label"], "save backup update restore link " + t["id"], 3)
     add("Play Project Blonde", "Play", "/play/", "Download, setup, saving and updating", "download install rom emulator save backup update", 5)
+    idx.extend(legend_page.search_entries())
     add("My progress", "Guide", "/progress/", "Your chapter, Badges and milestones", "checklist progress tracker export import")
     add("About & credits", "Guide", "/about/", "What Project Blonde is, and who made it", "credits about acknowledgements")
     (DIST / "assets" / "search-index.json").write_text(json.dumps(idx, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -1218,7 +1222,7 @@ def main():
     index_trainers()
     build_home(); build_road()
     for j in JOURNEY:
-        build_chapter(j)
+        legend_page.build(j, journey_bar) if j["k"] == "postgame/legendaries" else build_chapter(j)       # the field guide is its own page type
     build_pokemon(); build_trainers(); build_world(); build_items(); build_features()
     n_stuck = build_stuck()
     build_progress(); build_play(); build_misc()

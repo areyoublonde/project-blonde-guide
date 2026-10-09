@@ -232,7 +232,7 @@ def layout(title, body, desc="", path="/", dock="continue", attrs=""):
     more = "".join(f'<a href="{u(n["href"])}" {"aria-current=page" if path.startswith(n["href"]) else ""}>{n["label"]}</a>' for n in site["more"])
     more_on = any(path.startswith(n["href"]) for n in site["more"])
     sheet = (f'<a href="{u("/walkthrough/")}">Walkthrough</a><a href="{u("/world/")}">World</a><a href="{u("/pokemon/")}">Pokémon</a><a href="{u("/trainers/")}">Trainers</a>'
-             f'<a href="{u("/items/")}">Items</a><a href="{u("/items/mega-stones/")}">Mega Stones</a><a href="{u("/features/")}">Features</a><a href="{u("/stuck/")}">Stuck?</a><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Play Project Blonde</a><a href="{u("/about/")}">About</a>')
+             f'<a href="{u("/items/")}">Items</a><a href="{u("/items/mega-stones/")}">Mega Stones</a><a href="{u("/postgame/legendaries/")}">Legendary Pokémon</a><a href="{u("/features/")}">Features</a><a href="{u("/stuck/")}">Stuck?</a><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Play Project Blonde</a><a href="{u("/about/")}">About</a>')
     docks = {
         "continue": f'<nav class="dock one" data-if="known" aria-label="Continue"><a data-now="href" href="{u("/walkthrough/")}"><small>Continue</small><b data-now="title"></b></a></nav>',
         "none": "",

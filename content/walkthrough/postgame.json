@@ -54,15 +54,64 @@
  "stuck": [["How do I rematch the Johto Gym Leaders?", "Their second teams are fought in the Saffron City Fighting Dojo. The condition that opens it is not confirmed in this guide yet."]],
  "next": ["Legendary Pokémon", "All three regions."], "ev": "ROM trainer records; SaffronCity_FightingDojo scripts; not played", "basis": "source"},
 
-{"region": "postgame", "slug": "legendaries", "title": "Legendary Pokémon", "sub": "Where the game keeps them", "at": "SKY PILLAR", "spoiler": true,
- "goal": "Know which legendary encounters exist and where.",
- "maps": ["SkyPillar_Top"],
- "need": ["Varies. Most are postgame."],
- "quick": [["Ho-Oh", "Tin Tower roof, Level 50, during the Johto story (played)."], ["Latios or Latias", "The one you chose in Vermilion roams Kanto (scene played; the roamer was not caught)."],
-  ["Rayquaza, Kyogre, Groudon", "After the Hoenn League: Sky Pillar, Marine Cave and Terra Cave, Level 85, once each."], ["Others", "See the list below. These come from game data."]],
- "steps": [{"id": "list", "t": "What the data and audits record", "p": ["<b>Played in the natural run:</b> Ho-Oh on the Tin Tower roof (Level 50); the Latios / Latias choice with Steven in Vermilion; Snorlax in Vermilion (Level 50); Sudowoodo on Route 36 (Level 20); the red Gyarados’ lake and the Rocket Hideout’s Electrode.", "<b>From the project’s Hoenn audit, not played:</b> Rayquaza at the top of the Sky Pillar, Kyogre in the Marine Cave (reached by diving on Route 127’s north side) and Groudon in the Terra Cave (Route 114, north), each at Level 85 after the Hoenn League and each catchable once per save. During the story they only wake and leave.", "<b>Also from data, not played:</b> the Regis in the Sinjoh Ruins rather than Hoenn’s sealed chambers; Lugia in the Whirl Islands; the second Eon Pokémon on Southern Island; Beldum in Steven’s house after the League.", "Each Pokémon’s own page lists any fixed encounter the game data contains for it."]}],
- "stuck": [["Can I catch Groudon, Kyogre or Rayquaza during the story?", "No. In the story they wake and leave. The project’s audit records them as catchable after the Hoenn League; that was not played in the natural run."]],
- "next": ["Far-off places", "Alola’s isles, Sinjoh and more."], "ev": "v100 trace 57, 106, 121, 133; qa/v75-definitive-hoenn-completeness-audit/LEGENDARIES.md", "basis": "mixed"},
+{
+   "region": "postgame",
+   "slug": "legendaries",
+   "title": "Legendary Pokémon",
+   "sub": "The field guide",
+   "at": "SKY PILLAR",
+   "spoiler": true,
+   "goal": "Find and catch every Legendary and Mythical Pokémon the game offers.",
+   "maps": [
+    "SkyPillar_Top"
+   ],
+   "need": [
+    "Varies by Pokémon. Eighteen can be caught during the story, eleven after a milestone and three only after the Hoenn League."
+   ],
+   "quick": [
+    [
+     "Open the field guide",
+     "Thirty-two entries, each with where to start, what you need, the steps, the encounter and what happens afterwards."
+    ],
+    [
+     "Save before each one",
+     "Fleeing is safe almost everywhere; Celebi’s shrine battle is the exception."
+    ],
+    [
+     "A knock-out is not final",
+     "Most return at your next League win as Kanto Champion. Kyogre, Groudon and Rayquaza follow Hoenn’s League instead."
+    ],
+    [
+     "Arceus is fought twice",
+     "Only the second battle can end in a capture."
+    ]
+   ],
+   "steps": [],
+   "stuck": [
+    [
+     "Can I catch Groudon, Kyogre or Rayquaza during the story?",
+     "No. In the story they wake and leave. After the Hoenn League each waits at Level 85: Rayquaza on the Sky Pillar, Kyogre in the Marine Cave under Route 127 and Groudon in the Terra Cave on Route 114. One of each per save."
+    ],
+    [
+     "I knocked out a legendary Pokémon. Is it gone?",
+     "Not for good. Most return the next time you enter the Hall of Fame as Kanto Champion. Kyogre, Groudon and Rayquaza return after your next Hoenn League win instead."
+    ],
+    [
+     "I can’t throw a Poké Ball at Arceus",
+     "That is its first battle: Level 100, and it has to be knocked out. The second battle follows at once, at Level 80, and that one can be caught."
+    ],
+    [
+     "Where are Regirock, Regice and Registeel?",
+     "In the Sinjoh Ruins, not in Hoenn. Their chambers open as you collect plates in the Sinjoh story, which starts with the Azure Flute on Mt. Silver."
+    ]
+   ],
+   "next": [
+    "The Alola Isles",
+    "A boat from Kanto’s Route 13."
+   ],
+   "ev": "content/legendaries.json, checked by tools/legendaries.py against the v105 ROM and the Pokédex availability audit; LEGENDARY-MYTHICAL-COMPLETENESS-AUDIT.md. Played: Ho-Oh (natural run)",
+   "basis": "mixed"
+  },
 
 {"region": "postgame", "slug": "far-off-places", "title": "Far-off Places", "sub": "Alola’s isles, Sinjoh & the Safari Zones", "at": "MELEMELE ISLE", "spoiler": true,
  "goal": "A map of the areas that sit outside the three regions’ main roads.",

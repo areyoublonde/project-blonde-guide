@@ -1,0 +1,3090 @@
+{
+ "build": {
+  "version": "v105",
+  "public": "v1.0 release candidate",
+  "folder": "Heart & Soul - Hoenn Dialogue Events v105 Title Version v1.0 and Wattson Line",
+  "rom": "Pokemon - Heart & Soul (Blonde).gba",
+  "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+  "symbols": "qa/natural-run-v102/harness/sym-v84.json"
+ },
+ "counts": {
+  "rom_rows_flagged": 181,
+  "audited": 97,
+  "obtainable": 32,
+  "unobtainable": 65,
+  "ultra_beasts": 11,
+  "form_rows": 73,
+  "entries": 32,
+  "previously_named": 7,
+  "previously_missing": 25,
+  "story": 18,
+  "milestone": 11,
+  "postgame": 3,
+  "static": 11,
+  "roaming": 4,
+  "ticket": 2,
+  "quest": 12,
+  "special": 3,
+  "checks": 360,
+  "failed": 0
+ },
+ "entries": {
+  "SPECIES_HO_OH": {
+   "id": "ho-oh",
+   "name": "Ho-Oh",
+   "rom": [
+    {
+     "sym": "TinTower_RoofDay_EventScript_HoOh",
+     "addr": "0x9f1f082",
+     "species": "SPECIES_HO_OH",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 250; setvar 0x8005 50"
+    },
+    {
+     "sym": "TinTower_RoofDay_EventScript_HoOhPostgame",
+     "addr": "0x9f1f110",
+     "species": "SPECIES_HO_OH",
+     "level": 70,
+     "found": true,
+     "how": "setvar 0x8004 250; setvar 0x8005 70"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50,
+    70
+   ]
+  },
+  "SPECIES_LUGIA": {
+   "id": "lugia",
+   "name": "Lugia",
+   "rom": [
+    {
+     "sym": "WhirlIslands_LugiaChamber_EventScript_Lugia",
+     "addr": "0x9f1df3b",
+     "species": "SPECIES_LUGIA",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 249; setvar 0x8005 50"
+    },
+    {
+     "sym": "WhirlIslands_LugiaChamber_EventScript_LugiaPostgame",
+     "addr": "0x9f1dfc9",
+     "species": "SPECIES_LUGIA",
+     "level": 70,
+     "found": true,
+     "how": "setvar 0x8004 249; setvar 0x8005 70"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50,
+    70
+   ]
+  },
+  "SPECIES_RAIKOU": {
+   "id": "raikou",
+   "name": "Raikou",
+   "rom": [
+    {
+     "sym": "InitRoamer",
+     "addr": "0x81fbf58",
+     "species": "SPECIES_RAIKOU",
+     "level": 40,
+     "found": true,
+     "how": "level 40 loaded into r2 for CreateInitialRoamerMon in InitRoamer"
+    }
+   ],
+   "kinds": [
+    "roamer"
+   ],
+   "levels": []
+  },
+  "SPECIES_ENTEI": {
+   "id": "entei",
+   "name": "Entei",
+   "rom": [
+    {
+     "sym": "InitRoamer",
+     "addr": "0x81fbf58",
+     "species": "SPECIES_ENTEI",
+     "level": 40,
+     "found": true,
+     "how": "level 40 loaded into r2 for CreateInitialRoamerMon in InitRoamer"
+    }
+   ],
+   "kinds": [
+    "roamer"
+   ],
+   "levels": []
+  },
+  "SPECIES_SUICUNE": {
+   "id": "suicune",
+   "name": "Suicune",
+   "rom": [
+    {
+     "sym": "Route25_EventScript_Suicune",
+     "addr": "0x9eda1f0",
+     "species": "SPECIES_SUICUNE",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 245; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_CELEBI": {
+   "id": "celebi",
+   "name": "Celebi",
+   "rom": [
+    {
+     "sym": "IlexForest_EventScript_Celebi_Event",
+     "addr": "0x9f18809",
+     "species": "SPECIES_CELEBI",
+     "level": 40,
+     "found": true,
+     "how": "setvar 0x8004 251; setvar 0x8005 40"
+    },
+    {
+     "sym": "IlexForest_EventScript_SecondCelebi",
+     "addr": "0x9f188d2",
+     "species": "SPECIES_CELEBI",
+     "level": 40,
+     "found": true,
+     "how": "setvar 0x8004 251; setvar 0x8005 40"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    40
+   ]
+  },
+  "SPECIES_ARTICUNO": {
+   "id": "articuno",
+   "name": "Articuno",
+   "rom": [
+    {
+     "sym": "SeafoamIslands_B1F_EventScript_Articuno",
+     "addr": "0x9f22f68",
+     "species": "SPECIES_ARTICUNO",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 144; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_ZAPDOS": {
+   "id": "zapdos",
+   "name": "Zapdos",
+   "rom": [
+    {
+     "sym": "Route10_EventScript_Zapdos",
+     "addr": "0x9ed5711",
+     "species": "SPECIES_ZAPDOS",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 145; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_MOLTRES": {
+   "id": "moltres",
+   "name": "Moltres",
+   "rom": [
+    {
+     "sym": "MtSilver_1F_MoltresRoom_EventScript_Moltres",
+     "addr": "0x9f23120",
+     "species": "SPECIES_MOLTRES",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 146; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_ARTICUNO_GALAR": {
+   "id": "articuno-galar",
+   "name": "Articuno (Galar)",
+   "rom": [
+    {
+     "sym": "sRegionalFormTable",
+     "addr": "0x84e0e5c",
+     "species": "SPECIES_ARTICUNO",
+     "level": "SPECIES_ARTICUNO_GALAR",
+     "found": true,
+     "how": "SPECIES_ARTICUNO → SPECIES_ARTICUNO_GALAR pair in sRegionalFormTable"
+    }
+   ],
+   "kinds": [
+    "converter"
+   ],
+   "levels": []
+  },
+  "SPECIES_ZAPDOS_GALAR": {
+   "id": "zapdos-galar",
+   "name": "Zapdos (Galar)",
+   "rom": [
+    {
+     "sym": "sRegionalFormTable",
+     "addr": "0x84e0e5c",
+     "species": "SPECIES_ZAPDOS",
+     "level": "SPECIES_ZAPDOS_GALAR",
+     "found": true,
+     "how": "SPECIES_ZAPDOS → SPECIES_ZAPDOS_GALAR pair in sRegionalFormTable"
+    }
+   ],
+   "kinds": [
+    "converter"
+   ],
+   "levels": []
+  },
+  "SPECIES_MOLTRES_GALAR": {
+   "id": "moltres-galar",
+   "name": "Moltres (Galar)",
+   "rom": [
+    {
+     "sym": "sRegionalFormTable",
+     "addr": "0x84e0e5c",
+     "species": "SPECIES_MOLTRES",
+     "level": "SPECIES_MOLTRES_GALAR",
+     "found": true,
+     "how": "SPECIES_MOLTRES → SPECIES_MOLTRES_GALAR pair in sRegionalFormTable"
+    }
+   ],
+   "kinds": [
+    "converter"
+   ],
+   "levels": []
+  },
+  "SPECIES_MEWTWO": {
+   "id": "mewtwo",
+   "name": "Mewtwo",
+   "rom": [
+    {
+     "sym": "CeruleanCave3_EventScript_MewtwoNew",
+     "addr": "0x9f22822",
+     "species": "SPECIES_MEWTWO",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 150; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_MEW": {
+   "id": "mew",
+   "name": "Mew",
+   "rom": [
+    {
+     "sym": "FarawayIsland_Interior_hns_EventScript_Mew",
+     "addr": "0x9f28f03",
+     "species": "SPECIES_MEW",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 151; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_JIRACHI": {
+   "id": "jirachi",
+   "name": "Jirachi",
+   "rom": [
+    {
+     "sym": "MtMoon_Outside_EventScript_Jirachi",
+     "addr": "0x9f226f1",
+     "species": "SPECIES_JIRACHI",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 385; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_LATIAS": {
+   "id": "latias",
+   "name": "Latias",
+   "rom": [
+    {
+     "sym": "InitKantoRoamers",
+     "addr": "0x81fc000",
+     "species": "SPECIES_LATIAS",
+     "level": 60,
+     "found": true,
+     "how": "level 60 loaded into r2 for CreateInitialRoamerMon in InitKantoRoamers"
+    },
+    {
+     "sym": "SouthernIsland_Interior_hns_EventScript_Latias",
+     "addr": "0x9f28cae",
+     "species": "SPECIES_LATIAS",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 380; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static",
+    "roamer"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_LATIOS": {
+   "id": "latios",
+   "name": "Latios",
+   "rom": [
+    {
+     "sym": "InitKantoRoamers",
+     "addr": "0x81fc000",
+     "species": "SPECIES_LATIOS",
+     "level": 60,
+     "found": true,
+     "how": "level 60 loaded into r2 for CreateInitialRoamerMon in InitKantoRoamers"
+    },
+    {
+     "sym": "SouthernIsland_Interior_hns_EventScript_Latios",
+     "addr": "0x9f28c70",
+     "species": "SPECIES_LATIOS",
+     "level": 50,
+     "found": true,
+     "how": "setvar 0x8004 381; setvar 0x8005 50"
+    }
+   ],
+   "kinds": [
+    "static",
+    "roamer"
+   ],
+   "levels": [
+    50
+   ]
+  },
+  "SPECIES_DEOXYS_NORMAL": {
+   "id": "deoxys",
+   "name": "Deoxys",
+   "rom": [
+    {
+     "sym": "BirthIsland_Exterior_hns_EventScript_Deoxys",
+     "addr": "0x9f290d4",
+     "species": "SPECIES_DEOXYS_NORMAL",
+     "level": 70,
+     "found": true,
+     "how": "setvar 0x8004 386; setvar 0x8005 70"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    70
+   ]
+  },
+  "SPECIES_TAPU_KOKO": {
+   "id": "tapu-koko",
+   "name": "Tapu Koko",
+   "rom": [
+    {
+     "sym": "Alola_Melemele_BattleVsTapuKoko",
+     "addr": "0x9f5a397",
+     "species": "SPECIES_TAPU_KOKO",
+     "level": 60,
+     "found": true,
+     "how": "setvar 0x8004 785; setvar 0x8005 60"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    60
+   ]
+  },
+  "SPECIES_TAPU_LELE": {
+   "id": "tapu-lele",
+   "name": "Tapu Lele",
+   "rom": [
+    {
+     "sym": "Alola_Akala_BattleVsTapuLele",
+     "addr": "0x9f5b226",
+     "species": "SPECIES_TAPU_LELE",
+     "level": 60,
+     "found": true,
+     "how": "setvar 0x8004 786; setvar 0x8005 60"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    60
+   ]
+  },
+  "SPECIES_TAPU_BULU": {
+   "id": "tapu-bulu",
+   "name": "Tapu Bulu",
+   "rom": [
+    {
+     "sym": "Alola_Ulaula_BattleVsTapuBulu",
+     "addr": "0x9f61b76",
+     "species": "SPECIES_TAPU_BULU",
+     "level": 60,
+     "found": true,
+     "how": "setvar 0x8004 787; setvar 0x8005 60"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    60
+   ]
+  },
+  "SPECIES_TAPU_FINI": {
+   "id": "tapu-fini",
+   "name": "Tapu Fini",
+   "rom": [
+    {
+     "sym": "Alola_Poni_BattleVsTapuFini",
+     "addr": "0x9f599b0",
+     "species": "SPECIES_TAPU_FINI",
+     "level": 60,
+     "found": true,
+     "how": "setvar 0x8004 788; setvar 0x8005 60"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    60
+   ]
+  },
+  "SPECIES_REGIROCK": {
+   "id": "regirock",
+   "name": "Regirock",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegirockRoom_EventScript_Regirock",
+     "addr": "0x9f5492a",
+     "species": "SPECIES_REGIROCK",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 377; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_REGICE": {
+   "id": "regice",
+   "name": "Regice",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegiceRoom_EventScript_Regice",
+     "addr": "0x9f548eb",
+     "species": "SPECIES_REGICE",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 378; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_REGISTEEL": {
+   "id": "registeel",
+   "name": "Registeel",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegisteelRoom_EventScript_Registeel",
+     "addr": "0x9f54969",
+     "species": "SPECIES_REGISTEEL",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 379; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_REGIELEKI": {
+   "id": "regieleki",
+   "name": "Regieleki",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegielekiRoom_EventScript_Regieleki",
+     "addr": "0x9f54bfa",
+     "species": "SPECIES_REGIELEKI",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 894; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_REGIDRAGO": {
+   "id": "regidrago",
+   "name": "Regidrago",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegidragoRoom_EventScript_Regidrago",
+     "addr": "0x9f54bbb",
+     "species": "SPECIES_REGIDRAGO",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 895; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_REGIGIGAS": {
+   "id": "regigigas",
+   "name": "Regigigas",
+   "rom": [
+    {
+     "sym": "SinjohRuins_RegigigasRoom_EventScript_Regigigas",
+     "addr": "0x9f55c55",
+     "species": "SPECIES_REGIGIGAS",
+     "level": 80,
+     "found": true,
+     "how": "setvar 0x8004 486; setvar 0x8005 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    80
+   ]
+  },
+  "SPECIES_ARCEUS_NORMAL": {
+   "id": "arceus",
+   "name": "Arceus",
+   "rom": [
+    {
+     "sym": "SinjohRuins_ArceusRoom_EventScript_Arceus",
+     "addr": "0x9f58823",
+     "species": "SPECIES_ARCEUS_STEEL",
+     "level": 100,
+     "found": true,
+     "how": ".2byte 1080, .byte 100"
+    },
+    {
+     "sym": "SinjohRuins_ArceusRoom_EventScript_ArceusPhase2",
+     "addr": "0x9f588aa",
+     "species": "SPECIES_ARCEUS_NORMAL",
+     "level": 80,
+     "found": true,
+     "how": ".2byte 493, .byte 80"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": []
+  },
+  "SPECIES_RAYQUAZA": {
+   "id": "rayquaza",
+   "name": "Rayquaza",
+   "rom": [
+    {
+     "sym": "HoC1_SkyPillar_Top_EventScript_Rayquaza",
+     "addr": "0x9077765",
+     "species": "SPECIES_RAYQUAZA",
+     "level": 85,
+     "found": true,
+     "how": ".2byte 384, .byte 85"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    85
+   ]
+  },
+  "SPECIES_KYOGRE": {
+   "id": "kyogre",
+   "name": "Kyogre",
+   "rom": [
+    {
+     "sym": "HoC1_MarineCave_End_EventScript_Kyogre",
+     "addr": "0x90745e8",
+     "species": "SPECIES_KYOGRE",
+     "level": 85,
+     "found": true,
+     "how": ".2byte 382, .byte 85"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    85
+   ]
+  },
+  "SPECIES_GROUDON": {
+   "id": "groudon",
+   "name": "Groudon",
+   "rom": [
+    {
+     "sym": "HoC1_TerraCave_End_EventScript_Groudon",
+     "addr": "0x907453b",
+     "species": "SPECIES_GROUDON",
+     "level": 85,
+     "found": true,
+     "how": ".2byte 383, .byte 85"
+    }
+   ],
+   "kinds": [
+    "static"
+   ],
+   "levels": [
+    85
+   ]
+  }
+ },
+ "unobtainable": [
+  {
+   "id": "SPECIES_UXIE",
+   "name": "Uxie",
+   "class": "Legendary",
+   "dex": 480
+  },
+  {
+   "id": "SPECIES_MESPRIT",
+   "name": "Mesprit",
+   "class": "Legendary",
+   "dex": 481
+  },
+  {
+   "id": "SPECIES_AZELF",
+   "name": "Azelf",
+   "class": "Legendary",
+   "dex": 482
+  },
+  {
+   "id": "SPECIES_DIALGA",
+   "name": "Dialga",
+   "class": "Legendary (restricted)",
+   "dex": 483
+  },
+  {
+   "id": "SPECIES_PALKIA",
+   "name": "Palkia",
+   "class": "Legendary (restricted)",
+   "dex": 484
+  },
+  {
+   "id": "SPECIES_HEATRAN",
+   "name": "Heatran",
+   "class": "Legendary",
+   "dex": 485
+  },
+  {
+   "id": "SPECIES_GIRATINA_ALTERED",
+   "name": "Giratina",
+   "class": "Legendary (restricted)",
+   "dex": 487
+  },
+  {
+   "id": "SPECIES_CRESSELIA",
+   "name": "Cresselia",
+   "class": "Legendary",
+   "dex": 488
+  },
+  {
+   "id": "SPECIES_PHIONE",
+   "name": "Phione",
+   "class": "Mythical",
+   "dex": 489
+  },
+  {
+   "id": "SPECIES_MANAPHY",
+   "name": "Manaphy",
+   "class": "Mythical",
+   "dex": 490
+  },
+  {
+   "id": "SPECIES_DARKRAI",
+   "name": "Darkrai",
+   "class": "Mythical",
+   "dex": 491
+  },
+  {
+   "id": "SPECIES_SHAYMIN_LAND",
+   "name": "Shaymin",
+   "class": "Mythical",
+   "dex": 492
+  },
+  {
+   "id": "SPECIES_VICTINI",
+   "name": "Victini",
+   "class": "Mythical",
+   "dex": 494
+  },
+  {
+   "id": "SPECIES_COBALION",
+   "name": "Cobalion",
+   "class": "Legendary",
+   "dex": 638
+  },
+  {
+   "id": "SPECIES_TERRAKION",
+   "name": "Terrakion",
+   "class": "Legendary",
+   "dex": 639
+  },
+  {
+   "id": "SPECIES_VIRIZION",
+   "name": "Virizion",
+   "class": "Legendary",
+   "dex": 640
+  },
+  {
+   "id": "SPECIES_TORNADUS_INCARNATE",
+   "name": "Tornadus",
+   "class": "Legendary",
+   "dex": 641
+  },
+  {
+   "id": "SPECIES_THUNDURUS_INCARNATE",
+   "name": "Thundurus",
+   "class": "Legendary",
+   "dex": 642
+  },
+  {
+   "id": "SPECIES_RESHIRAM",
+   "name": "Reshiram",
+   "class": "Legendary (restricted)",
+   "dex": 643
+  },
+  {
+   "id": "SPECIES_ZEKROM",
+   "name": "Zekrom",
+   "class": "Legendary (restricted)",
+   "dex": 644
+  },
+  {
+   "id": "SPECIES_LANDORUS_INCARNATE",
+   "name": "Landorus",
+   "class": "Legendary",
+   "dex": 645
+  },
+  {
+   "id": "SPECIES_KYUREM",
+   "name": "Kyurem",
+   "class": "Legendary (restricted)",
+   "dex": 646
+  },
+  {
+   "id": "SPECIES_KELDEO_ORDINARY",
+   "name": "Keldeo",
+   "class": "Mythical",
+   "dex": 647
+  },
+  {
+   "id": "SPECIES_MELOETTA_ARIA",
+   "name": "Meloetta",
+   "class": "Mythical",
+   "dex": 648
+  },
+  {
+   "id": "SPECIES_GENESECT",
+   "name": "Genesect",
+   "class": "Mythical",
+   "dex": 649
+  },
+  {
+   "id": "SPECIES_XERNEAS_NEUTRAL",
+   "name": "Xerneas",
+   "class": "Legendary (restricted)",
+   "dex": 716
+  },
+  {
+   "id": "SPECIES_YVELTAL",
+   "name": "Yveltal",
+   "class": "Legendary (restricted)",
+   "dex": 717
+  },
+  {
+   "id": "SPECIES_ZYGARDE_50",
+   "name": "Zygarde",
+   "class": "Legendary (restricted)",
+   "dex": 718
+  },
+  {
+   "id": "SPECIES_DIANCIE",
+   "name": "Diancie",
+   "class": "Mythical",
+   "dex": 719
+  },
+  {
+   "id": "SPECIES_HOOPA_CONFINED",
+   "name": "Hoopa",
+   "class": "Mythical",
+   "dex": 720
+  },
+  {
+   "id": "SPECIES_VOLCANION",
+   "name": "Volcanion",
+   "class": "Mythical",
+   "dex": 721
+  },
+  {
+   "id": "SPECIES_TYPE_NULL",
+   "name": "Type: Null",
+   "class": "Legendary",
+   "dex": 772
+  },
+  {
+   "id": "SPECIES_SILVALLY_NORMAL",
+   "name": "Silvally",
+   "class": "Legendary",
+   "dex": 773
+  },
+  {
+   "id": "SPECIES_COSMOG",
+   "name": "Cosmog",
+   "class": "Legendary (restricted)",
+   "dex": 789
+  },
+  {
+   "id": "SPECIES_COSMOEM",
+   "name": "Cosmoem",
+   "class": "Legendary (restricted)",
+   "dex": 790
+  },
+  {
+   "id": "SPECIES_SOLGALEO",
+   "name": "Solgaleo",
+   "class": "Legendary (restricted)",
+   "dex": 791
+  },
+  {
+   "id": "SPECIES_LUNALA",
+   "name": "Lunala",
+   "class": "Legendary (restricted)",
+   "dex": 792
+  },
+  {
+   "id": "SPECIES_NECROZMA",
+   "name": "Necrozma",
+   "class": "Legendary (restricted)",
+   "dex": 800
+  },
+  {
+   "id": "SPECIES_MAGEARNA",
+   "name": "Magearna",
+   "class": "Mythical",
+   "dex": 801
+  },
+  {
+   "id": "SPECIES_MARSHADOW",
+   "name": "Marshadow",
+   "class": "Mythical",
+   "dex": 802
+  },
+  {
+   "id": "SPECIES_ZERAORA",
+   "name": "Zeraora",
+   "class": "Mythical",
+   "dex": 807
+  },
+  {
+   "id": "SPECIES_MELTAN",
+   "name": "Meltan",
+   "class": "Mythical",
+   "dex": 808
+  },
+  {
+   "id": "SPECIES_MELMETAL",
+   "name": "Melmetal",
+   "class": "Mythical",
+   "dex": 809
+  },
+  {
+   "id": "SPECIES_ZACIAN_HERO",
+   "name": "Zacian",
+   "class": "Legendary (restricted)",
+   "dex": 888
+  },
+  {
+   "id": "SPECIES_ZAMAZENTA_HERO",
+   "name": "Zamazenta",
+   "class": "Legendary (restricted)",
+   "dex": 889
+  },
+  {
+   "id": "SPECIES_ETERNATUS",
+   "name": "Eternatus",
+   "class": "Legendary (restricted)",
+   "dex": 890
+  },
+  {
+   "id": "SPECIES_KUBFU",
+   "name": "Kubfu",
+   "class": "Legendary",
+   "dex": 891
+  },
+  {
+   "id": "SPECIES_URSHIFU_SINGLE_STRIKE",
+   "name": "Urshifu",
+   "class": "Legendary",
+   "dex": 892
+  },
+  {
+   "id": "SPECIES_ZARUDE",
+   "name": "Zarude",
+   "class": "Mythical",
+   "dex": 893
+  },
+  {
+   "id": "SPECIES_GLASTRIER",
+   "name": "Glastrier",
+   "class": "Legendary",
+   "dex": 896
+  },
+  {
+   "id": "SPECIES_SPECTRIER",
+   "name": "Spectrier",
+   "class": "Legendary",
+   "dex": 897
+  },
+  {
+   "id": "SPECIES_CALYREX",
+   "name": "Calyrex",
+   "class": "Legendary (restricted)",
+   "dex": 898
+  },
+  {
+   "id": "SPECIES_ENAMORUS_INCARNATE",
+   "name": "Enamorus",
+   "class": "Legendary",
+   "dex": 905
+  },
+  {
+   "id": "SPECIES_WO_CHIEN",
+   "name": "Wo-Chien",
+   "class": "Legendary",
+   "dex": 1001
+  },
+  {
+   "id": "SPECIES_CHIEN_PAO",
+   "name": "Chien-Pao",
+   "class": "Legendary",
+   "dex": 1002
+  },
+  {
+   "id": "SPECIES_TING_LU",
+   "name": "Ting-Lu",
+   "class": "Legendary",
+   "dex": 1003
+  },
+  {
+   "id": "SPECIES_CHI_YU",
+   "name": "Chi-Yu",
+   "class": "Legendary",
+   "dex": 1004
+  },
+  {
+   "id": "SPECIES_KORAIDON",
+   "name": "Koraidon",
+   "class": "Legendary (restricted)",
+   "dex": 1007
+  },
+  {
+   "id": "SPECIES_MIRAIDON",
+   "name": "Miraidon",
+   "class": "Legendary (restricted)",
+   "dex": 1008
+  },
+  {
+   "id": "SPECIES_OKIDOGI",
+   "name": "Okidogi",
+   "class": "Legendary",
+   "dex": 1014
+  },
+  {
+   "id": "SPECIES_MUNKIDORI",
+   "name": "Munkidori",
+   "class": "Legendary",
+   "dex": 1015
+  },
+  {
+   "id": "SPECIES_FEZANDIPITI",
+   "name": "Fezandipiti",
+   "class": "Legendary",
+   "dex": 1016
+  },
+  {
+   "id": "SPECIES_OGERPON_TEAL",
+   "name": "Ogerpon",
+   "class": "Legendary",
+   "dex": 1017
+  },
+  {
+   "id": "SPECIES_TERAPAGOS_NORMAL",
+   "name": "Terapagos",
+   "class": "Legendary (restricted)",
+   "dex": 1024
+  },
+  {
+   "id": "SPECIES_PECHARUNT",
+   "name": "Pecharunt",
+   "class": "Mythical",
+   "dex": 1025
+  }
+ ],
+ "ultra_beasts": [
+  {
+   "id": "SPECIES_NIHILEGO",
+   "name": "Nihilego",
+   "dex": 793
+  },
+  {
+   "id": "SPECIES_BUZZWOLE",
+   "name": "Buzzwole",
+   "dex": 794
+  },
+  {
+   "id": "SPECIES_PHEROMOSA",
+   "name": "Pheromosa",
+   "dex": 795
+  },
+  {
+   "id": "SPECIES_XURKITREE",
+   "name": "Xurkitree",
+   "dex": 796
+  },
+  {
+   "id": "SPECIES_CELESTEELA",
+   "name": "Celesteela",
+   "dex": 797
+  },
+  {
+   "id": "SPECIES_KARTANA",
+   "name": "Kartana",
+   "dex": 798
+  },
+  {
+   "id": "SPECIES_GUZZLORD",
+   "name": "Guzzlord",
+   "dex": 799
+  },
+  {
+   "id": "SPECIES_POIPOLE",
+   "name": "Poipole",
+   "dex": 803
+  },
+  {
+   "id": "SPECIES_NAGANADEL",
+   "name": "Naganadel",
+   "dex": 804
+  },
+  {
+   "id": "SPECIES_STAKATAKA",
+   "name": "Stakataka",
+   "dex": 805
+  },
+  {
+   "id": "SPECIES_BLACEPHALON",
+   "name": "Blacephalon",
+   "dex": 806
+  }
+ ],
+ "form_rows": [
+  {
+   "id": "SPECIES_MEWTWO_MEGA_X",
+   "name": "Mewtwo",
+   "class": "Legendary (restricted)",
+   "forms": [
+    "Mega"
+   ]
+  },
+  {
+   "id": "SPECIES_MEWTWO_MEGA_Y",
+   "name": "Mewtwo",
+   "class": "Legendary (restricted)",
+   "forms": [
+    "Mega"
+   ]
+  },
+  {
+   "id": "SPECIES_LATIAS_MEGA",
+   "name": "Latias",
+   "class": "Legendary",
+   "forms": [
+    "Mega"
+   ]
+  },
+  {
+   "id": "SPECIES_LATIOS_MEGA",
+   "name": "Latios",
+   "class": "Legendary",
+   "forms": [
+    "Mega"
+   ]
+  },
+  {
+   "id": "SPECIES_RAYQUAZA_MEGA",
+   "name": "Rayquaza",
+   "class": "Legendary (restricted)",
+   "forms": [
+    "Mega"
+   ]
+  },
+  {
+   "id": "SPECIES_DEOXYS_ATTACK",
+   "name": "Deoxys",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_DEOXYS_DEFENSE",
+   "name": "Deoxys",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_DEOXYS_SPEED",
+   "name": "Deoxys",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_DIALGA_ORIGIN",
+   "name": "Dialga",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_PALKIA_ORIGIN",
+   "name": "Palkia",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_GIRATINA_ORIGIN",
+   "name": "Giratina",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SHAYMIN_SKY",
+   "name": "Shaymin",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_FIGHTING",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_FLYING",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_POISON",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_GROUND",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_ROCK",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_BUG",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_GHOST",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_STEEL",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_FIRE",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_WATER",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_GRASS",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_ELECTRIC",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_PSYCHIC",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_ICE",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_DRAGON",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_DARK",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ARCEUS_FAIRY",
+   "name": "Arceus",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_TORNADUS_THERIAN",
+   "name": "Tornadus",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_THUNDURUS_THERIAN",
+   "name": "Thundurus",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_LANDORUS_THERIAN",
+   "name": "Landorus",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ENAMORUS_THERIAN",
+   "name": "Enamorus",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_KELDEO_RESOLUTE",
+   "name": "Keldeo",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_MELOETTA_PIROUETTE",
+   "name": "Meloetta",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_GENESECT_DOUSE",
+   "name": "Genesect",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_GENESECT_SHOCK",
+   "name": "Genesect",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_GENESECT_BURN",
+   "name": "Genesect",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_GENESECT_CHILL",
+   "name": "Genesect",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_XERNEAS_ACTIVE",
+   "name": "Xerneas",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZYGARDE_10_AURA_BREAK",
+   "name": "Zygarde",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZYGARDE_10_POWER_CONSTRUCT",
+   "name": "Zygarde",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZYGARDE_50_POWER_CONSTRUCT",
+   "name": "Zygarde",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZYGARDE_COMPLETE",
+   "name": "Zygarde",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_HOOPA_UNBOUND",
+   "name": "Hoopa",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_FIGHTING",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_FLYING",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_POISON",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_GROUND",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_ROCK",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_BUG",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_GHOST",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_STEEL",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_FIRE",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_WATER",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_GRASS",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_ELECTRIC",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_PSYCHIC",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_ICE",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_DRAGON",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_DARK",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_SILVALLY_FAIRY",
+   "name": "Silvally",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_MAGEARNA_ORIGINAL",
+   "name": "Magearna",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZACIAN_CROWNED",
+   "name": "Zacian",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZAMAZENTA_CROWNED",
+   "name": "Zamazenta",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ETERNATUS_ETERNAMAX",
+   "name": "Eternatus",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_URSHIFU_RAPID_STRIKE",
+   "name": "Urshifu",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_ZARUDE_DADA",
+   "name": "Zarude",
+   "class": "Mythical",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_OGERPON_WELLSPRING",
+   "name": "Ogerpon",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_OGERPON_HEARTHFLAME",
+   "name": "Ogerpon",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_OGERPON_CORNERSTONE",
+   "name": "Ogerpon",
+   "class": "Legendary",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_TERAPAGOS_TERASTAL",
+   "name": "Terapagos",
+   "class": "Legendary (restricted)",
+   "forms": []
+  },
+  {
+   "id": "SPECIES_TERAPAGOS_STELLAR",
+   "name": "Terapagos",
+   "class": "Legendary (restricted)",
+   "forms": [
+    "Tera"
+   ]
+  }
+ ],
+ "blocked": [
+  {
+   "species": "SPECIES_RAYQUAZA",
+   "why": "source retired in Project Blonde",
+   "where": "EmbeddedTower_hns",
+   "evidence": "data/maps/EmbeddedTower_hns/scripts.inc:EmbeddedTower_EventScript_Rayquaza",
+   "name": "Rayquaza",
+   "place": "Embedded Tower"
+  },
+  {
+   "species": "SPECIES_KYOGRE",
+   "why": "source retired in Project Blonde",
+   "where": "Route19_Cave_hns",
+   "evidence": "data/maps/Route19_Cave_hns/scripts.inc:Route19Cave_EventScript_Kyogre",
+   "name": "Kyogre",
+   "place": "Route 19 Cave"
+  },
+  {
+   "species": "SPECIES_GROUDON",
+   "why": "source retired in Project Blonde",
+   "where": "SeafoamIslands_SecretCave_hns",
+   "evidence": "data/maps/SeafoamIslands_SecretCave_hns/scripts.inc:SeafoamIslands_SecretCave_EventScript_Groudon",
+   "name": "Groudon",
+   "place": "Seafoam Islands Secret Cave"
+  },
+  {
+   "species": "SPECIES_ARCEUS_STEEL",
+   "why": "scripted battle with catching disabled (FLAG_NO_WILD_CATCHING)",
+   "where": "SinjohRuins_ArceusRoom_hns",
+   "evidence": "data/maps/SinjohRuins_ArceusRoom_hns/scripts.inc:SinjohRuins_ArceusRoom_EventScript_Arceus",
+   "name": "Arceus (Steel form)",
+   "place": "Sinjoh Ruins Arceus Room"
+  }
+ ],
+ "checks": [
+  {
+   "ok": true,
+   "what": "every flagged ROM row maps to a Pokédex record"
+  },
+  {
+   "ok": true,
+   "what": "no flagged entry is left 'uncertain' by the availability audit"
+  },
+  {
+   "ok": true,
+   "what": "no Ultra Beast is obtainable (none needs a guide)"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "lugia: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "raikou: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "entei: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "suicune: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "celebi: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "articuno: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "moltres: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "mew: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "latias: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "latios: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "regirock: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "regice: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "registeel: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "arceus: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "groudon: one entry per Pokémon"
+  },
+  {
+   "ok": true,
+   "what": "every obtainable Legendary / Mythical Pokémon has a guide entry"
+  },
+  {
+   "ok": true,
+   "what": "no guide entry for a Pokémon that is not obtainable"
+  },
+  {
+   "ok": true,
+   "what": "every guide entry is a species the ROM flags as Legendary or Mythical"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: has every section"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: states every level the availability audit records ([50, 70])"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: ROM symbol TinTower_RoofDay_EventScript_HoOh exists"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: SPECIES_HO_OH Level 50 found in the ROM at TinTower_RoofDay_EventScript_HoOh (0x9f1f082)"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: ROM symbol TinTower_RoofDay_EventScript_HoOhPostgame exists"
+  },
+  {
+   "ok": true,
+   "what": "ho-oh: SPECIES_HO_OH Level 70 found in the ROM at TinTower_RoofDay_EventScript_HoOhPostgame (0x9f1f110)"
+  },
+  {
+   "ok": true,
+   "what": "lugia: has every section"
+  },
+  {
+   "ok": true,
+   "what": "lugia: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "lugia: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "lugia: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "lugia: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "lugia: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "lugia: states every level the availability audit records ([50, 70])"
+  },
+  {
+   "ok": true,
+   "what": "lugia: ROM symbol WhirlIslands_LugiaChamber_EventScript_Lugia exists"
+  },
+  {
+   "ok": true,
+   "what": "lugia: SPECIES_LUGIA Level 50 found in the ROM at WhirlIslands_LugiaChamber_EventScript_Lugia (0x9f1df3b)"
+  },
+  {
+   "ok": true,
+   "what": "lugia: ROM symbol WhirlIslands_LugiaChamber_EventScript_LugiaPostgame exists"
+  },
+  {
+   "ok": true,
+   "what": "lugia: SPECIES_LUGIA Level 70 found in the ROM at WhirlIslands_LugiaChamber_EventScript_LugiaPostgame (0x9f1dfc9)"
+  },
+  {
+   "ok": true,
+   "what": "raikou: has every section"
+  },
+  {
+   "ok": true,
+   "what": "raikou: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "raikou: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "raikou: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "raikou: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "raikou: guide type \"roaming\" agrees with the availability audit (roamer)"
+  },
+  {
+   "ok": true,
+   "what": "raikou: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "raikou: ROM symbol InitRoamer exists"
+  },
+  {
+   "ok": true,
+   "what": "raikou: SPECIES_RAIKOU Level 40 found in the ROM at InitRoamer (0x81fbf58)"
+  },
+  {
+   "ok": true,
+   "what": "entei: has every section"
+  },
+  {
+   "ok": true,
+   "what": "entei: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "entei: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "entei: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "entei: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "entei: guide type \"roaming\" agrees with the availability audit (roamer)"
+  },
+  {
+   "ok": true,
+   "what": "entei: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "entei: ROM symbol InitRoamer exists"
+  },
+  {
+   "ok": true,
+   "what": "entei: SPECIES_ENTEI Level 40 found in the ROM at InitRoamer (0x81fbf58)"
+  },
+  {
+   "ok": true,
+   "what": "suicune: has every section"
+  },
+  {
+   "ok": true,
+   "what": "suicune: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "suicune: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "suicune: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "suicune: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "suicune: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "suicune: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "suicune: ROM symbol Route25_EventScript_Suicune exists"
+  },
+  {
+   "ok": true,
+   "what": "suicune: SPECIES_SUICUNE Level 50 found in the ROM at Route25_EventScript_Suicune (0x9eda1f0)"
+  },
+  {
+   "ok": true,
+   "what": "celebi: has every section"
+  },
+  {
+   "ok": true,
+   "what": "celebi: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "celebi: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "celebi: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "celebi: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "celebi: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "celebi: states every level the availability audit records ([40])"
+  },
+  {
+   "ok": true,
+   "what": "celebi: ROM symbol IlexForest_EventScript_Celebi_Event exists"
+  },
+  {
+   "ok": true,
+   "what": "celebi: SPECIES_CELEBI Level 40 found in the ROM at IlexForest_EventScript_Celebi_Event (0x9f18809)"
+  },
+  {
+   "ok": true,
+   "what": "celebi: ROM symbol IlexForest_EventScript_SecondCelebi exists"
+  },
+  {
+   "ok": true,
+   "what": "celebi: SPECIES_CELEBI Level 40 found in the ROM at IlexForest_EventScript_SecondCelebi (0x9f188d2)"
+  },
+  {
+   "ok": true,
+   "what": "articuno: has every section"
+  },
+  {
+   "ok": true,
+   "what": "articuno: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "articuno: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "articuno: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "articuno: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "articuno: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "articuno: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "articuno: ROM symbol SeafoamIslands_B1F_EventScript_Articuno exists"
+  },
+  {
+   "ok": true,
+   "what": "articuno: SPECIES_ARTICUNO Level 50 found in the ROM at SeafoamIslands_B1F_EventScript_Articuno (0x9f22f68)"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: has every section"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: ROM symbol Route10_EventScript_Zapdos exists"
+  },
+  {
+   "ok": true,
+   "what": "zapdos: SPECIES_ZAPDOS Level 50 found in the ROM at Route10_EventScript_Zapdos (0x9ed5711)"
+  },
+  {
+   "ok": true,
+   "what": "moltres: has every section"
+  },
+  {
+   "ok": true,
+   "what": "moltres: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "moltres: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "moltres: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "moltres: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "moltres: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "moltres: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "moltres: ROM symbol MtSilver_1F_MoltresRoom_EventScript_Moltres exists"
+  },
+  {
+   "ok": true,
+   "what": "moltres: SPECIES_MOLTRES Level 50 found in the ROM at MtSilver_1F_MoltresRoom_EventScript_Moltres (0x9f23120)"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: has every section"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: guide type \"special\" agrees with the availability audit (converter)"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: ROM symbol sRegionalFormTable exists"
+  },
+  {
+   "ok": true,
+   "what": "articuno-galar: SPECIES_ARTICUNO → SPECIES_ARTICUNO_GALAR pair in sRegionalFormTable found in the ROM (0x84e0e5c)"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: has every section"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: guide type \"special\" agrees with the availability audit (converter)"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: ROM symbol sRegionalFormTable exists"
+  },
+  {
+   "ok": true,
+   "what": "zapdos-galar: SPECIES_ZAPDOS → SPECIES_ZAPDOS_GALAR pair in sRegionalFormTable found in the ROM (0x84e0e5c)"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: has every section"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: guide type \"special\" agrees with the availability audit (converter)"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: ROM symbol sRegionalFormTable exists"
+  },
+  {
+   "ok": true,
+   "what": "moltres-galar: SPECIES_MOLTRES → SPECIES_MOLTRES_GALAR pair in sRegionalFormTable found in the ROM (0x84e0e5c)"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: has every section"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: ROM symbol CeruleanCave3_EventScript_MewtwoNew exists"
+  },
+  {
+   "ok": true,
+   "what": "mewtwo: SPECIES_MEWTWO Level 80 found in the ROM at CeruleanCave3_EventScript_MewtwoNew (0x9f22822)"
+  },
+  {
+   "ok": true,
+   "what": "mew: has every section"
+  },
+  {
+   "ok": true,
+   "what": "mew: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "mew: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "mew: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "mew: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "mew: guide type \"ticket\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "mew: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "mew: ROM symbol FarawayIsland_Interior_hns_EventScript_Mew exists"
+  },
+  {
+   "ok": true,
+   "what": "mew: SPECIES_MEW Level 50 found in the ROM at FarawayIsland_Interior_hns_EventScript_Mew (0x9f28f03)"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: has every section"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: ROM symbol MtMoon_Outside_EventScript_Jirachi exists"
+  },
+  {
+   "ok": true,
+   "what": "jirachi: SPECIES_JIRACHI Level 50 found in the ROM at MtMoon_Outside_EventScript_Jirachi (0x9f226f1)"
+  },
+  {
+   "ok": true,
+   "what": "latias: has every section"
+  },
+  {
+   "ok": true,
+   "what": "latias: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "latias: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "latias: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "latias: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "latias: guide type \"roaming\" agrees with the availability audit (static, roamer)"
+  },
+  {
+   "ok": true,
+   "what": "latias: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "latias: ROM symbol InitKantoRoamers exists"
+  },
+  {
+   "ok": true,
+   "what": "latias: SPECIES_LATIAS Level 60 found in the ROM at InitKantoRoamers (0x81fc000)"
+  },
+  {
+   "ok": true,
+   "what": "latias: ROM symbol SouthernIsland_Interior_hns_EventScript_Latias exists"
+  },
+  {
+   "ok": true,
+   "what": "latias: SPECIES_LATIAS Level 50 found in the ROM at SouthernIsland_Interior_hns_EventScript_Latias (0x9f28cae)"
+  },
+  {
+   "ok": true,
+   "what": "latios: has every section"
+  },
+  {
+   "ok": true,
+   "what": "latios: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "latios: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "latios: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "latios: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "latios: guide type \"roaming\" agrees with the availability audit (static, roamer)"
+  },
+  {
+   "ok": true,
+   "what": "latios: states every level the availability audit records ([50])"
+  },
+  {
+   "ok": true,
+   "what": "latios: ROM symbol InitKantoRoamers exists"
+  },
+  {
+   "ok": true,
+   "what": "latios: SPECIES_LATIOS Level 60 found in the ROM at InitKantoRoamers (0x81fc000)"
+  },
+  {
+   "ok": true,
+   "what": "latios: ROM symbol SouthernIsland_Interior_hns_EventScript_Latios exists"
+  },
+  {
+   "ok": true,
+   "what": "latios: SPECIES_LATIOS Level 50 found in the ROM at SouthernIsland_Interior_hns_EventScript_Latios (0x9f28c70)"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: has every section"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: guide type \"ticket\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: states every level the availability audit records ([70])"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: ROM symbol BirthIsland_Exterior_hns_EventScript_Deoxys exists"
+  },
+  {
+   "ok": true,
+   "what": "deoxys: SPECIES_DEOXYS_NORMAL Level 70 found in the ROM at BirthIsland_Exterior_hns_EventScript_Deoxys (0x9f290d4)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: has every section"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: states every level the availability audit records ([60])"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: ROM symbol Alola_Melemele_BattleVsTapuKoko exists"
+  },
+  {
+   "ok": true,
+   "what": "tapu-koko: SPECIES_TAPU_KOKO Level 60 found in the ROM at Alola_Melemele_BattleVsTapuKoko (0x9f5a397)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: has every section"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: states every level the availability audit records ([60])"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: ROM symbol Alola_Akala_BattleVsTapuLele exists"
+  },
+  {
+   "ok": true,
+   "what": "tapu-lele: SPECIES_TAPU_LELE Level 60 found in the ROM at Alola_Akala_BattleVsTapuLele (0x9f5b226)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: has every section"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: states every level the availability audit records ([60])"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: ROM symbol Alola_Ulaula_BattleVsTapuBulu exists"
+  },
+  {
+   "ok": true,
+   "what": "tapu-bulu: SPECIES_TAPU_BULU Level 60 found in the ROM at Alola_Ulaula_BattleVsTapuBulu (0x9f61b76)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: has every section"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: states every level the availability audit records ([60])"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: ROM symbol Alola_Poni_BattleVsTapuFini exists"
+  },
+  {
+   "ok": true,
+   "what": "tapu-fini: SPECIES_TAPU_FINI Level 60 found in the ROM at Alola_Poni_BattleVsTapuFini (0x9f599b0)"
+  },
+  {
+   "ok": true,
+   "what": "regirock: has every section"
+  },
+  {
+   "ok": true,
+   "what": "regirock: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "regirock: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "regirock: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "regirock: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "regirock: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "regirock: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "regirock: ROM symbol SinjohRuins_RegirockRoom_EventScript_Regirock exists"
+  },
+  {
+   "ok": true,
+   "what": "regirock: SPECIES_REGIROCK Level 80 found in the ROM at SinjohRuins_RegirockRoom_EventScript_Regirock (0x9f5492a)"
+  },
+  {
+   "ok": true,
+   "what": "regice: has every section"
+  },
+  {
+   "ok": true,
+   "what": "regice: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "regice: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "regice: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "regice: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "regice: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "regice: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "regice: ROM symbol SinjohRuins_RegiceRoom_EventScript_Regice exists"
+  },
+  {
+   "ok": true,
+   "what": "regice: SPECIES_REGICE Level 80 found in the ROM at SinjohRuins_RegiceRoom_EventScript_Regice (0x9f548eb)"
+  },
+  {
+   "ok": true,
+   "what": "registeel: has every section"
+  },
+  {
+   "ok": true,
+   "what": "registeel: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "registeel: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "registeel: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "registeel: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "registeel: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "registeel: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "registeel: ROM symbol SinjohRuins_RegisteelRoom_EventScript_Registeel exists"
+  },
+  {
+   "ok": true,
+   "what": "registeel: SPECIES_REGISTEEL Level 80 found in the ROM at SinjohRuins_RegisteelRoom_EventScript_Registeel (0x9f54969)"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: has every section"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: ROM symbol SinjohRuins_RegielekiRoom_EventScript_Regieleki exists"
+  },
+  {
+   "ok": true,
+   "what": "regieleki: SPECIES_REGIELEKI Level 80 found in the ROM at SinjohRuins_RegielekiRoom_EventScript_Regieleki (0x9f54bfa)"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: has every section"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: ROM symbol SinjohRuins_RegidragoRoom_EventScript_Regidrago exists"
+  },
+  {
+   "ok": true,
+   "what": "regidrago: SPECIES_REGIDRAGO Level 80 found in the ROM at SinjohRuins_RegidragoRoom_EventScript_Regidrago (0x9f54bbb)"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: has every section"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: states every level the availability audit records ([80])"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: ROM symbol SinjohRuins_RegigigasRoom_EventScript_Regigigas exists"
+  },
+  {
+   "ok": true,
+   "what": "regigigas: SPECIES_REGIGIGAS Level 80 found in the ROM at SinjohRuins_RegigigasRoom_EventScript_Regigigas (0x9f55c55)"
+  },
+  {
+   "ok": true,
+   "what": "arceus: has every section"
+  },
+  {
+   "ok": true,
+   "what": "arceus: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "arceus: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "arceus: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "arceus: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "arceus: guide type \"quest\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "arceus: states every level the availability audit records ([])"
+  },
+  {
+   "ok": true,
+   "what": "arceus: ROM symbol SinjohRuins_ArceusRoom_EventScript_Arceus exists"
+  },
+  {
+   "ok": true,
+   "what": "arceus: SPECIES_ARCEUS_STEEL Level 100 found in the ROM at SinjohRuins_ArceusRoom_EventScript_Arceus (0x9f58823)"
+  },
+  {
+   "ok": true,
+   "what": "arceus: ROM symbol SinjohRuins_ArceusRoom_EventScript_ArceusPhase2 exists"
+  },
+  {
+   "ok": true,
+   "what": "arceus: SPECIES_ARCEUS_NORMAL Level 80 found in the ROM at SinjohRuins_ArceusRoom_EventScript_ArceusPhase2 (0x9f588aa)"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: has every section"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: states every level the availability audit records ([85])"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: ROM symbol HoC1_SkyPillar_Top_EventScript_Rayquaza exists"
+  },
+  {
+   "ok": true,
+   "what": "rayquaza: SPECIES_RAYQUAZA Level 85 found in the ROM at HoC1_SkyPillar_Top_EventScript_Rayquaza (0x9077765)"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: has every section"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: states every level the availability audit records ([85])"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: ROM symbol HoC1_MarineCave_End_EventScript_Kyogre exists"
+  },
+  {
+   "ok": true,
+   "what": "kyogre: SPECIES_KYOGRE Level 85 found in the ROM at HoC1_MarineCave_End_EventScript_Kyogre (0x90745e8)"
+  },
+  {
+   "ok": true,
+   "what": "groudon: has every section"
+  },
+  {
+   "ok": true,
+   "what": "groudon: at least three steps, one prerequisite, one encounter line, one aftermath line"
+  },
+  {
+   "ok": true,
+   "what": "groudon: answers repeat / flee / defeat / missable"
+  },
+  {
+   "ok": true,
+   "what": "groudon: its maps exist in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "groudon: shared sections it points to exist"
+  },
+  {
+   "ok": true,
+   "what": "groudon: guide type \"static\" agrees with the availability audit (static)"
+  },
+  {
+   "ok": true,
+   "what": "groudon: states every level the availability audit records ([85])"
+  },
+  {
+   "ok": true,
+   "what": "groudon: ROM symbol HoC1_TerraCave_End_EventScript_Groudon exists"
+  },
+  {
+   "ok": true,
+   "what": "groudon: SPECIES_GROUDON Level 85 found in the ROM at HoC1_TerraCave_End_EventScript_Groudon (0x907453b)"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_ARTICUNO (0x40) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_ZAPDOS (0x41) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_MOLTRES (0x42) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_MEWTWO (0x43) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_LUGIA (0x3e) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_HO_OH (0x3d) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_LATIOS (0x48) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_HIDE_LATIAS (0x47) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_DEFEATED_MEW (0x239) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_CAUGHT_MEW (0x241) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_BATTLED_DEOXYS (0x1da) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_DEFEATED_DEOXYS (0x23a) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_SUMMONED_MTMOON_JIRACHI (0x1e1) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset clears FLAG_ITEM_GS_BALL (0x1d1) in the ROM"
+  },
+  {
+   "ok": true,
+   "what": "the first Hall of Fame entry resets none of them"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset returns the six Regis of Sinjoh"
+  },
+  {
+   "ok": true,
+   "what": "Hall of Fame reset returns the four Tapu"
+  },
+  {
+   "ok": true,
+   "what": "flag numbers in flags_hns.h match the ROM (Mewtwo's own script sets FLAG_HIDE_MEWTWO)"
+  },
+  {
+   "ok": true,
+   "what": "Arceus, first battle: catching is switched off, then on again before the second battle begins"
+  },
+  {
+   "ok": true,
+   "what": "Arceus, second battle: catching is not switched off"
+  },
+  {
+   "ok": true,
+   "what": "no script gives the Red Orb or the Blue Orb (Primal forms unavailable)"
+  },
+  {
+   "ok": true,
+   "what": "exactly one Legendary / Mythical battle is fought with catching disabled (Arceus, first battle)"
+  }
+ ]
+}
