@@ -6,7 +6,7 @@
 Inputs : data/** (romx.py, dex.py, statics.py, megastones.py, worldmap.py, plates.py), content/**, site/assets/*
 Output : dist/ and CONTENT-COVERAGE.md, WALKTHROUGH-CHAPTER-MAP.md
 """
-import argparse, shutil, sys
+import argparse, gzip, hashlib, shutil, sys, zlib
 from site_core import *
 import legend_page
 import dexnav_page
@@ -958,15 +958,23 @@ def patcher_html(rel):
     assert (T["public_version"], T["internal_build"]) == (rel["public_version"], rel["internal_build"]) and PATCHER["release"] == rel["version"], "patcher.json does not target the current release"
     assert T["sha256"] and all(x["sha256"] and x["patch"] for x in PATCHER["inputs"]), "patcher.json has no hashes: run tools/patches.py build"
     assert len({x["sha256"] for x in PATCHER["inputs"]} | {T["sha256"]}) == len(PATCHER["inputs"]) + 1, "patcher.json: two entries share a hash"
-    src, dst = ROOT / "private/patches" / T["public_version"], DIST / "assets/patches" / T["public_version"]
+    # a released version serves the patches committed under site/assets/patches/ (already copied with the assets); a prototype build takes them from private/
+    dst = DIST / "assets/patches" / T["public_version"]
+    src = dst if PATCHER["enabled"] else ROOT / "private/patches" / T["public_version"]
     dst.mkdir(parents=True, exist_ok=True)
+    served = {n for x in PATCHER["inputs"] if x["status"] == "supported" for n in (x["patch"]["file"], x["patch"]["file"] + ".gz")}
+    if PATCHER["enabled"]:
+        assert {f.name for f in dst.iterdir()} == served, "site/assets/patches holds a different set of files than the registry's supported inputs"
     pub = {"target": {k: T[k] for k in ("public_version", "internal_build", "sha256", "size", "file_name")}, "inputs": []}
     for x in PATCHER["inputs"]:
         e = {k: x[k] for k in ("id", "kind", "status", "label", "sha256", "size") } | ({"save": x["save"]} if x.get("save") else {})
         if x["status"] == "supported":       # only these can be applied; a recognised build gets its name and a refusal, and no patch is shipped for it
             e["patch"] = x["patch"]
             for n in (x["patch"]["file"], x["patch"]["file"] + ".gz"):
-                shutil.copyfile(src / n, dst / n)
+                if src != dst: shutil.copyfile(src / n, dst / n)
+            raw = (dst / x["patch"]["file"]).read_bytes()
+            assert hashlib.sha256(raw).hexdigest() == x["patch"]["sha256"] and gzip.decompress((dst / (x["patch"]["file"] + ".gz")).read_bytes()) == raw, f'patch {x["patch"]["file"]} does not match the registry'
+            assert zlib.crc32(raw[:-4]) == int.from_bytes(raw[-4:], "little") and int.from_bytes(raw[-8:-4], "little") == T["crc32"], f'patch {x["patch"]["file"]} does not produce the registry target'
         pub["inputs"].append(e)
     base = next(x for x in PATCHER["inputs"] if x["kind"] == "base" and x["status"] == "supported")
     proto = '<p class="mk-proto"><b>Private prototype.</b> Project Blonde is not released. This page is for testing by the owner and must not be shared.</p>' if CFG.get("prototype") else ""
@@ -1007,9 +1015,11 @@ def build_play():
         needs = f'Your own copy of {esc(pt["base_game"])} (<code>{esc(pt["base_checksum"])}</code>) and <a href="{esc(pt["tool_url"])}" rel="noopener">{esc(pt["tool"])}</a>'
     else:
         filetype, needs = esc(rel["file"]["type"]), ("Nothing else: one file" if state == "direct" else "Announced with the release")
+    if state == "patcher":
+        needs = "Your own copy of " + esc(next(x["label"] for x in PATCHER["inputs"] if x["kind"] == "base" and x["status"] == "supported")) + ". This page makes the game from it."
     rows = [("Game", "Pokémon Project Blonde"), ("Version", f'{pv} <span class="muted">· build {esc(rel["internal_build"])}</span>'), ("Status", esc(rel["status_short"]) + ("" if live else " · not released")),
             ("Released", esc(rel["date"]) if live else "Not announced"), ("File", f'{filetype} · {esc(rel["file"]["size"])}'), ("You need", needs),
-            ("SHA-256", f'<code class="sum">{esc(rel["sha256"])}</code>' if live else "Published with the release"),
+            ("SHA-256", f'<code class="sum">{esc(rel["sha256"])}</code>' + (" (the finished game)" if state == "patcher" else "") if live else "Published with the release"),
             ("Saves", esc(rel["save_compatibility_short"]) + f' <a href="#update">How to update</a>'), ("Link version", f'<code>{esc(rel["link_protocol"])}</code>')]
     dl = "".join(f'<div><dt>{k}</dt><dd>{v}</dd></div>' for k, v in rows)
     hl = "".join(f"<li>{esc(x)}</li>" for x in rel["highlights"])
@@ -1044,6 +1054,7 @@ def build_play():
     if make:
         get = patcher_html(rel)
         if state == "prerelease":
+            assert not CFG["base"], "--prototype is for local testing only and cannot be combined with --base"
             primary, hero_note = f'<a class="btn" href="#get">Make your game{ARROW}</a>', "Private prototype for the owner’s testing. Project Blonde is not released."
     devs = "".join(f'<a href="{u("/play/setup/" + d["id"] + "/")}"><b>{d["name"]}</b><span class="ok">{esc(d["emulator"])}</span>{ARROW}</a>' for d in PLAY["devices"])
     sv, up = PLAY["save"], PLAY["update"]

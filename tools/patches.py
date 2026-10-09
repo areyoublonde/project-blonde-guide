@@ -123,7 +123,7 @@ def pdir(reg):
 def build():
     reg, roms = load()
     tgt = roms[reg["target"]["rom"]].read_bytes()
-    reg["target"].update(sha256=sha256(tgt), size=len(tgt))
+    reg["target"].update(sha256=sha256(tgt), size=len(tgt), crc32=zlib.crc32(tgt))
     out = pdir(reg); out.mkdir(parents=True, exist_ok=True)
     seen = {reg["target"]["sha256"]}
     for x in reg["inputs"]:
@@ -144,7 +144,7 @@ def build():
 def verify():
     reg, roms = load(); bad, rows = [], []
     T = reg["target"]; tgt = roms[T["rom"]].read_bytes()
-    if (sha256(tgt), len(tgt)) != (T["sha256"], T["size"]): bad.append("target ROM does not match the registry")
+    if (sha256(tgt), len(tgt), zlib.crc32(tgt)) != (T["sha256"], T["size"], T["crc32"]): bad.append("target ROM does not match the registry")
     for x in reg["inputs"]:
         src = roms[x["rom"]].read_bytes(); p = (pdir(reg) / x["patch"]["file"]).read_bytes()
         gz = gzip.decompress((pdir(reg) / (x["patch"]["file"] + ".gz")).read_bytes())

@@ -70,6 +70,10 @@ def run(c, mobile):
         ok(f"[{tag}] pre-release: no link to a game or patch file anywhere on the page", c.js(GAMEFILE) == [], c.js(GAMEFILE))
         ok(f"[{tag}] pre-release: the primary action is the Discord invite", c.js("(a=>a&&a.matches('a.btn[data-discord]')&&a.href)(document.querySelector('.relhero .actions > :first-child'))") == DC["url"])
         ok(f"[{tag}] pre-release: Get the game says plainly that nothing is released", "is not released yet" in txt("#get"))
+    elif state == "patcher":
+        ok(f"[{tag}] released: status, date and the finished game's checksum come from the release record", "Released" in txt(".relline") and REL["date"] in kv["Released"] and REL["sha256"] in kv["SHA-256"] and "Emerald" in kv["You need"], (kv["Released"], kv["Status"]))
+        ok(f"[{tag}] released: the primary action leads to the in-page patcher, with one file selector", c.js("document.querySelector('.relhero .actions > :first-child').getAttribute('href')") == "#get" and c.js("document.querySelectorAll('#get [data-patcher] [data-mk-file]').length") == 1)
+        ok(f"[{tag}] released: no link to a complete game file anywhere on the page", c.js("[...document.querySelectorAll('a')].filter(a=>/\\.(gba|zip|7z|rar)(\\?|#|$)/i.test(a.href)).length") == 0)
     else:
         ok(f"[{tag}] released: one primary download pointing at the approved URL, with date and checksum", c.js("document.querySelector('.relhero a.btn[data-download]').href") == REL["download"]["url"] and REL["sha256"] in kv["SHA-256"] and REL["date"] in kv["Released"])
 

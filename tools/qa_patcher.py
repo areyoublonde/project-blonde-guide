@@ -15,6 +15,7 @@ import cdp
 ROOT = Path(__file__).resolve().parent.parent
 BASE = (sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8951").rstrip("/")
 OUT = ROOT / "qa-evidence" / "patcher"
+LABEL = "live" if "github.io" in BASE else "local"
 REG = json.loads((ROOT / "content/patcher.json").read_text(encoding="utf-8")); T = REG["target"]
 ROMS = json.loads((ROOT / "private/roms.json").read_text(encoding="utf-8"))["roms"]
 BY = {x["id"]: x for x in REG["inputs"]}
@@ -79,7 +80,7 @@ def main():
     saved = lambda: c.js("(async()=>{const a=document.querySelector('[data-mk-save]');const b=await (await fetch(a.href)).arrayBuffer();const h=await crypto.subtle.digest('SHA-256',b);return [a.download,b.byteLength,[...new Uint8Array(h)].map(x=>x.toString(16).padStart(2,'0')).join('')]})()")
     reqs = lambda: [(e["params"]["request"]["method"], e["params"]["request"]["url"].rsplit("/", 1)[-1], "postData" in e["params"]["request"] or e["params"]["request"].get("hasPostData", False)) for e in c.events if e.get("method") == "Network.requestWillBeSent" and not e["params"]["request"]["url"].startswith("blob:")]
     def snap(name):
-        c.js("document.documentElement.style.scrollBehavior='auto';document.getElementById('get').scrollIntoView()"); time.sleep(.3); c.shot(str(OUT / name))
+        c.js("document.documentElement.style.scrollBehavior='auto';document.getElementById('get').scrollIntoView()"); time.sleep(.3); c.shot(str(OUT / f"{LABEL}-{name}"))
 
     try:
         c.send("Network.enable")
@@ -87,7 +88,10 @@ def main():
         load()
         ok("one file selector, labelled 'Choose your game file', and no New / Updating choice", c.js("document.querySelector('.mk-pick span').textContent") == "Choose your game file" and c.js("document.querySelectorAll('[data-mk-file]').length") == 1 and c.js("document.querySelectorAll('[data-mk-path]').length") == 0)
         ok("nothing technical is visible before a file is chosen", not vis("[data-mk-found]") and not vis("[data-mk-ready]") and not c.js("document.querySelector('.mk-adv').open") and not c.js("document.querySelector('[data-mk-adv]').checkVisibility()"))
-        ok("the prototype is labelled private and the page still says release candidate, not released", vis(".mk-proto") and "Not released yet" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease")
+        if REG["enabled"]:
+            ok("released: no prototype notice, the page says Released and the primary action leads to the patcher", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.relhero .actions a.btn').getAttribute('href')") == "#get")
+        else:
+            ok("the prototype is labelled private and the page still says release candidate, not released", vis(".mk-proto") and "Not released yet" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease")
         ok("the file selector takes any file (no type filter that could grey out a .gba on iOS)", c.js("document.querySelector('[data-mk-file]').getAttribute('accept')") is None)
         ok("no sideways scroll at phone width", c.js("document.documentElement.scrollWidth <= window.innerWidth"))
 
@@ -179,7 +183,7 @@ def main():
     finally:
         c.close()
     bad = [r for r in res if not r["ok"]]
-    (OUT / "local.json").write_text(json.dumps({"base": BASE, "checked": time.strftime("%Y-%m-%d %H:%M"), "passed": len(res) - len(bad), "failed": len(bad), "performance": perf, "results": res}, indent=1, ensure_ascii=False))
+    (OUT / f"{LABEL}.json").write_text(json.dumps({"base": BASE, "checked": time.strftime("%Y-%m-%d %H:%M"), "passed": len(res) - len(bad), "failed": len(bad), "performance": perf, "results": res}, indent=1, ensure_ascii=False))
     print(json.dumps(perf, indent=1)); print(f"{len(res) - len(bad)} of {len(res)} checks passed")
     sys.exit(1 if bad else 0)
 
