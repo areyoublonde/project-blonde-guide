@@ -64,7 +64,7 @@ def build_home():
  <p class="aside" data-if="known">Stuck somewhere? <a href="{u("/stuck/")}">Get unstuck</a>. Setting up a new device? <a href="{u("/play/")}">Download &amp; Play</a>.</p>
  <p class="aside" data-if="none">{counts}. Written for {esc(VERSION)}.</p>
  <nav class="homelinks" aria-label="Sections"><a href="{u("/walkthrough/")}"><b>Walkthrough</b><span>{TOTAL} chapters in order</span></a><a href="{u("/pokemon/")}"><b>Pokédex</b><span>Where to find every Pokémon</span></a>
-  <a href="{u("/world/")}"><b>World atlas</b><span>{BUILD["maps"]} area maps</span></a><a href="{u("/trainers/")}"><b>Trainers</b><span>Leaders, rivals, bosses</span></a>
+  <a href="{u("/world/")}"><b>World Atlas</b><span>{BUILD["maps"]} area maps</span></a><a href="{u("/trainers/")}"><b>Trainers</b><span>Leaders, rivals, bosses</span></a>
   <a href="{u("/items/")}"><b>Items &amp; HMs</b><span>Every pick-up and shop</span></a><a href="{u("/items/mega-stones/")}"><b>Mega Stones</b><span>All {len(MEGASTONES["offered"])} and how to get them</span></a>
   <a href="{u("/features/")}"><b>Features</b><span>How this game differs</span></a><a href="{u("/stuck/")}"><b>Stuck?</b><span>Next step from where you are</span></a></nav>
 </div></section>"""
@@ -605,14 +605,14 @@ def build_world():
     body = f"""
 <div class="journey atlas"><aside class="stage" data-view="jk" data-leg="all" aria-label="Town Map"><div class="wm">{town_map("jk", dots["jk"])}{town_map("hoenn", dots["hoenn"])}</div>
   <p class="caption"><span data-stage-label>Johto &amp; Kanto · the game's Town Map</span><span data-place-readout>{len(PLACES)} places</span></p></aside>
- <div class="roadcol"><div class="now"><p class="label">World atlas</p><h1>What is here?</h1><p class="goal">Every place in the game with its area maps, wild Pokémon, items, Trainers and shops, read from the game’s own data. {BUILD["maps"]} maps in {len(PLACES)} places.</p></div>
+ <div class="roadcol"><div class="now"><p class="label">World Atlas</p><h1>What is here?</h1><p class="goal">Every place in the game with its area maps, wild Pokémon, items, Trainers and shops, read from the game’s own data. {BUILD["maps"]} maps in {len(PLACES)} places.</p></div>
   <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter places</span><input type="search" data-filter-list=".places" placeholder="Find a place" autocomplete="off"></label>
    <div class="seg" role="group" aria-label="Map"><button data-atlas="jk" aria-pressed="true">Johto, Kanto &amp; far-off</button><button data-atlas="hoenn" aria-pressed="false">Hoenn</button></div></div>
   <div data-atlas-panel="jk">{panels["jk"]}</div>
   <div data-atlas-panel="hoenn" hidden>{panels["hoenn"]}</div>
   <p class="empty" data-filter-empty hidden>No place matches that.</p>
  </div></div>"""
-    write("/world/", layout("World atlas", body, desc="An atlas of Project Blonde: every place on the Town Map and what is there.", path="/world/"))
+    write("/world/", layout("World Atlas", body, desc="An atlas of Project Blonde: every place on the Town Map and what is there.", path="/world/"))
     for p in PLACES.values():
         build_place(p)
 
@@ -1215,7 +1215,7 @@ def write_reports(n_search, n_stuck):
     pages = WRITTEN_PAGES
     kinds = [("Home", lambda p: p == "/"), ("Walkthrough index and region pages", lambda p: p in ("/walkthrough/", "/postgame/") or re.fullmatch(r"/walkthrough/\w+/", p)),
              ("Chapters", lambda p: re.fullmatch(r"/(walkthrough/\w+|postgame)/[\w-]+/", p) and p not in ("/walkthrough/",)), ("Pokédex index", lambda p: p == "/pokemon/"), ("Pokémon entries", lambda p: re.fullmatch(r"/pokemon/[^/]+/", p)),
-             ("Trainers index", lambda p: p == "/trainers/"), ("Trainer pages", lambda p: re.fullmatch(r"/trainers/\w+/[^/]+/", p)), ("World atlas", lambda p: p == "/world/"), ("Place pages", lambda p: re.fullmatch(r"/world/\w+/[^/]+/", p)),
+             ("Trainers index", lambda p: p == "/trainers/"), ("Trainer pages", lambda p: re.fullmatch(r"/trainers/\w+/[^/]+/", p)), ("World Atlas", lambda p: p == "/world/"), ("Place pages", lambda p: re.fullmatch(r"/world/\w+/[^/]+/", p)),
              ("Items index", lambda p: p == "/items/"), ("Mega Stones", lambda p: p == "/items/mega-stones/"), ("Item pages", lambda p: re.fullmatch(r"/items/[^/]+/", p) and p != "/items/mega-stones/"),
              ("Features hub", lambda p: p == "/features/"), ("Feature guides", lambda p: re.fullmatch(r"/features/[^/]+/", p)), ("Stuck?", lambda p: p == "/stuck/"), ("Progress", lambda p: p == "/progress/"),
              ("Play", lambda p: p == "/play/"), ("Device setup", lambda p: p.startswith("/play/setup/")), ("Search", lambda p: p == "/search/"), ("About", lambda p: p == "/about/")]

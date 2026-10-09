@@ -196,7 +196,7 @@ def build(Jn, journey_bar):
 <link rel="stylesheet" href="{u("/assets/legends.css")}">
 <header class="phead lg-head"><div class="wrap"><p class="label">Postgame · Chapter {Jn["n"]} of {TOTAL} · Field guide</p><h1>Legendary &amp; Mythical Pokémon</h1>
  <p class="lead">{fmt(GUIDE["intro"][0])}</p><p class="lead lg-lead2">{fmt(GUIDE["intro"][1])}</p>{stat}
- <p class="headlinks"><a class="link" href="{u("/pokemon/")}">Pokédex{ARROW}</a><a class="link" href="{u("/world/")}">World atlas{ARROW}</a><a class="link" href="{u("/postgame/after-the-credits/")}">After the credits{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a></p></div></header>
+ <p class="headlinks"><a class="link" href="{u("/pokemon/")}">Pokédex{ARROW}</a><a class="link" href="{u("/world/")}">World Atlas{ARROW}</a><a class="link" href="{u("/postgame/after-the-credits/")}">After the credits{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a></p></div></header>
 <div class="wrap listpage" data-legends>
  <section id="rules" class="lg-rules"><p class="label">Before you go</p><dl>{rules}</dl></section>
  <section id="find">

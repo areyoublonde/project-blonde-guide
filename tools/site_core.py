@@ -281,8 +281,8 @@ def layout(title, body, desc="", path="/", dock="continue", attrs=""):
 </div></header>
 <nav class="menu-sheet" id="menu" aria-label="Menu" hidden>{sheet}</nav>
 <main id="main">{body}</main>
-<footer class="foot"><div class="wrap"><span>An unofficial, non-commercial fan guide to Pokémon Project Blonde, written for {VERSION}. Not affiliated with Nintendo, Creatures, GAME FREAK or The Pokémon Company.</span>
- <nav aria-label="Footer"><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/search/")}">Search</a><a href="{u("/about/")}">About</a>{discord_link("dc")}<button class="link" data-spoiler-toggle>Spoilers: hidden</button></nav></div></footer>
+<footer class="foot"><div class="wrap"><p class="foot-note">An unofficial, non-commercial fan guide to Pokémon Project Blonde, written for {VERSION}. Not affiliated with Nintendo, Creatures, GAME FREAK or The Pokémon Company.</p>
+ <nav aria-label="Footer"><div class="foot-links"><a href="{u("/progress/")}">My progress</a><a href="{u("/play/")}">Download &amp; Play</a><a href="{u("/search/")}">Search</a><a href="{u("/about/")}">About</a>{discord_link("dc")}</div><button class="link" data-spoiler-toggle>Spoilers: hidden</button></nav></div></footer>
 {dock_html}
 <dialog class="search" aria-label="Search the guide"><div class="search-top"><label class="field">{SEARCH}<span class="sr">Search</span><input type="search" placeholder="A place, a Pokémon, a Trainer, an item, a question…" autocomplete="off" spellcheck="false"></label><button class="esc" data-search-close>esc</button></div>
 <div class="results" role="listbox"></div><div class="search-foot"><span><kbd>↑↓</kbd> move</span><span><kbd>↵</kbd> open</span><span><kbd>esc</kbd> close</span></div></dialog>

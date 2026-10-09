@@ -151,7 +151,11 @@ figure{margin:0}figcaption{margin-top:12px}
 .big:hover{color:var(--ink-2);border-color:var(--ink-2)}.big svg{width:20px;height:20px}.big kbd{margin-left:auto}
 .aside{margin:22px 0 0;color:var(--ink-3);font-size:.94rem}.aside a{color:var(--ink)}
 .foot{margin-top:var(--s8);padding:32px 0 48px;border-top:1px solid var(--hair);color:var(--ink-3);font-size:.84rem}
-.foot .wrap{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between}.foot a{color:var(--ink-2);text-decoration:none}.foot nav{display:flex;gap:24px;flex-wrap:wrap}
+.foot .wrap{display:grid;gap:20px}.foot a{color:var(--ink-2);text-decoration:none}.foot-note{margin:0;max-width:78ch;line-height:1.6}
+.foot nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:0 32px;padding-top:12px;border-top:1px solid var(--hair)}.foot-links{display:flex;flex-wrap:wrap;align-items:center;gap:0 28px}
+.foot nav a,.foot nav button.link{display:inline-flex;align-items:center;min-height:44px;font:inherit;font-size:.9rem;line-height:1;color:var(--ink-2);background:none;border:0;padding:0;cursor:pointer;text-decoration:none}
+.foot nav a:hover,.foot nav button.link:hover{color:var(--ink)}
+@media (max-width:640px){.foot-links{gap:0 24px;width:100%}.foot nav{gap:0}.foot nav button.link{width:100%;border-top:1px solid var(--hair);margin-top:8px;padding-top:8px}}
 
 /* ---------- the road */
 .journey{display:grid;padding-top:var(--head)}
@@ -570,7 +574,6 @@ code{font:400 .86em var(--mono);color:var(--ink-2);word-break:break-all}
 .chapdone .milestones{columns:2 280px;column-gap:40px}.check.small{font-size:.88rem;padding:8px 0;break-inside:avoid}
 .credits dt{white-space:normal}.credits dd{color:var(--ink-2)}
 .about section{margin-top:var(--s7);max-width:900px}.about h2{margin:8px 0 16px}
-.foot nav button.link{font:inherit;color:var(--ink-2)}
 .trainers+h3{margin-top:30px}
 .kv dd a{text-decoration-color:var(--hair-2)}
 .tbl td small{display:block;color:var(--ink-3);font-size:.78rem}
