@@ -261,11 +261,11 @@ def layout(title, body, desc="", path="/", dock="continue", attrs=""):
 <title>{esc(full)}</title>
 <meta name="description" content="{esc(desc or site["tagline"])}">
 <meta name="theme-color" content="#0e0d0c">
-<link rel="icon" href="{u("/assets/favicon/favicon.ico")}" sizes="48x48">
-<link rel="icon" type="image/png" sizes="32x32" href="{u("/assets/favicon/favicon-32x32.png")}">
-<link rel="icon" type="image/png" sizes="16x16" href="{u("/assets/favicon/favicon-16x16.png")}">
-<link rel="apple-touch-icon" sizes="180x180" href="{u("/assets/favicon/apple-touch-icon.png")}">
-<link rel="manifest" href="{u("/assets/favicon/site.webmanifest")}">
+<link rel="icon" href="{u("/assets/site-icon/favicon.ico")}" sizes="48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="{u("/assets/site-icon/favicon-32x32.png")}">
+<link rel="icon" type="image/png" sizes="16x16" href="{u("/assets/site-icon/favicon-16x16.png")}">
+<link rel="apple-touch-icon" sizes="180x180" href="{u("/assets/site-icon/apple-touch-icon.png")}">
+<link rel="manifest" href="{u("/assets/site-icon/site.webmanifest")}">
 <link rel="preload" href="{u("/assets/fonts/instrument-var.woff2")}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{u("/assets/app.css")}">
 <script>try{{document.documentElement.dataset.pos=JSON.parse(localStorage.getItem("pb-guide:v1")||"{{}}").pos?"known":"none"}}catch(e){{document.documentElement.dataset.pos="none"}}</script>
