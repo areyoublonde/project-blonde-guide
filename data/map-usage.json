@@ -1,0 +1,1464 @@
+{
+"AbandonedShip_CaptainsOffice": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Corridors_1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Corridors_B1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Deck": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_HiddenFloorCorridors": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_HiddenFloorRooms": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Room_B1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Rooms_1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Rooms_B1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Rooms2_1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Rooms2_B1F": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Underwater1": [
+"world/hoenn/abandoned-ship"
+],
+"AbandonedShip_Underwater2": [
+"world/hoenn/abandoned-ship"
+],
+"Akala_Cave_hns": [
+"world/far/akala-cave"
+],
+"Akala_Forest_hns": [
+"world/kanto/akala-forest"
+],
+"Akala_House_hns": [
+"world/far/akala-isle"
+],
+"AkalaIsle_hns": [
+"postgame/legendaries",
+"world/far/akala-isle"
+],
+"AlolaWater_hns": [
+"world/far/melemele-sea"
+],
+"AquaHideout_1F": [
+"world/hoenn/aqua-hideout"
+],
+"AquaHideout_B1F": [
+"world/hoenn/aqua-hideout"
+],
+"AquaHideout_B2F": [
+"world/hoenn/aqua-hideout"
+],
+"AzaleaTown_hns": [
+"walkthrough/johto/azalea-town",
+"world/johto/azalea-town"
+],
+"AzaleaTown_Gym_hns": [
+"world/johto/azalea-town"
+],
+"BattleFrontier_OutsideEast_hns": [
+"world/kanto/battle-frontier"
+],
+"BattleFrontier_OutsideWest_hns": [
+"postgame/battle-facilities",
+"world/kanto/battle-frontier"
+],
+"BellchimeTrail_hns": [
+"world/johto/ecruteak-city"
+],
+"BirthIsland_Exterior_hns": [
+"world/kanto/birth-island"
+],
+"BlackthornCity_hns": [
+"walkthrough/johto/blackthorn-city",
+"world/johto/blackthorn-city"
+],
+"BlackthornCity_Gym_hns": [
+"world/johto/blackthorn-city"
+],
+"BurnedTower_1F_hns": [
+"world/johto/burned-tower"
+],
+"BurnedTower_B1F_hns": [
+"postgame/legendaries",
+"world/johto/burned-tower"
+],
+"CaveOfOrigin_1F": [
+"world/hoenn/cave-of-origin"
+],
+"CaveOfOrigin_B1F": [
+"world/hoenn/cave-of-origin"
+],
+"CaveOfOrigin_Entrance": [
+"world/hoenn/cave-of-origin"
+],
+"CeladonCity_hns": [
+"walkthrough/kanto/celadon-city",
+"world/kanto/celadon-city"
+],
+"CeladonCity_Apartments_RoofDay_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_Apartments_RoofNight_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_DepartmentStore_RoofDay_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_DepartmentStore_RoofNight_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_Gym_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_House1_hns": [
+"world/kanto/celadon-city"
+],
+"CeladonCity_House2_hns": [
+"world/kanto/celadon-city"
+],
+"CeruleanCave_1F_hns": [
+"world/kanto/cerulean-cave"
+],
+"CeruleanCave_B1F_hns": [
+"world/kanto/cerulean-cave"
+],
+"CeruleanCave_B2F_hns": [
+"postgame/legendaries",
+"world/kanto/cerulean-cave"
+],
+"CeruleanCity_hns": [
+"walkthrough/kanto/cerulean-city",
+"world/kanto/cerulean-city"
+],
+"CeruleanCity_Gym_hns": [
+"world/kanto/cerulean-city"
+],
+"CherrygroveCity_hns": [
+"walkthrough/johto/cherrygrove-city",
+"world/johto/cherrygrove-city"
+],
+"CianwoodCity_hns": [
+"walkthrough/johto/cianwood-city",
+"world/johto/cianwood-city"
+],
+"CianwoodGym_hns": [
+"world/johto/cianwood-city"
+],
+"CinnabarIsland_hns": [
+"world/kanto/cinnabar-island"
+],
+"CliffEdgeCave_hns": [
+"world/johto/cliff-cave"
+],
+"CliffEdgeGate_hns": [
+"world/johto/cliff-cave"
+],
+"DarkCave_NorthSide_hns": [
+"world/johto/dark-cave"
+],
+"DarkCave_SouthSide_hns": [
+"world/johto/dark-cave"
+],
+"DesertUnderpass": [
+"world/hoenn/desert-underpass"
+],
+"DewfordTown": [
+"walkthrough/hoenn/dewford-town",
+"world/hoenn/dewford-town"
+],
+"DewfordTown_Gym": [
+"world/hoenn/dewford-town"
+],
+"DewfordTown_PokemonCenter_1F": [
+"world/hoenn/dewford-town"
+],
+"DiglettsCave_EntranceNorth_hns": [
+"world/kanto/digletts-cave"
+],
+"DiglettsCave_EntranceSouth_hns": [
+"world/kanto/digletts-cave"
+],
+"DiglettsCave_Tunnel_hns": [
+"world/kanto/digletts-cave"
+],
+"DragonsDen_Cavern_hns": [
+"world/johto/dragons-den"
+],
+"DragonsDen_Entrance_hns": [
+"world/johto/dragons-den"
+],
+"DragonsDen_Shrine_hns": [
+"world/johto/dragons-den"
+],
+"EcruteakCity_hns": [
+"walkthrough/johto/ecruteak-city",
+"world/johto/ecruteak-city"
+],
+"EcruteakCity_Gym_hns": [
+"world/johto/ecruteak-city"
+],
+"EmbeddedTower_hns": [
+"world/johto/embedded-tower"
+],
+"EverGrandeCity": [
+"walkthrough/hoenn/ever-grande-city",
+"world/hoenn/ever-grande-city"
+],
+"EverGrandeCity_PokemonLeague_1F": [
+"walkthrough/hoenn/hoenn-league"
+],
+"FallarborTown": [
+"walkthrough/hoenn/fallarbor-town",
+"world/hoenn/fallarbor-town"
+],
+"FarawayIsland_Entrance_hns": [
+"world/kanto/faraway-island"
+],
+"FarawayIsland_Interior_hns": [
+"world/kanto/faraway-island"
+],
+"FieryPath": [
+"world/hoenn/fiery-path"
+],
+"FortreeCity": [
+"walkthrough/hoenn/fortree-city",
+"world/hoenn/fortree-city"
+],
+"FortreeCity_DecorationShop": [
+"world/hoenn/fortree-city"
+],
+"FortreeCity_Gym": [
+"world/hoenn/fortree-city"
+],
+"FuchsiaCity_hns": [
+"walkthrough/kanto/fuchsia-city",
+"world/kanto/fuchsia-city"
+],
+"FuchsiaCity_SafariZoneBeach_hns": [
+"world/kanto/fuchsia-city"
+],
+"FuchsiaCity_SafariZoneBrush_hns": [
+"world/kanto/fuchsia-city"
+],
+"FuchsiaCity_SafariZoneCave_hns": [
+"world/kanto/fuchsia-city"
+],
+"FuchsiaCity_SafariZoneEntrance_hns": [
+"postgame/legendaries"
+],
+"FuchsiaCity_SafariZoneMountain_hns": [
+"world/kanto/fuchsia-city"
+],
+"GoldenrodCity_hns": [
+"walkthrough/johto/goldenrod-city",
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_DepartmentStore_7F_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_DepartmentStore_7FNight_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_DepartmentStoreBasement_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_Gym_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_RadioTower_1F_hns": [
+"walkthrough/johto/radio-tower"
+],
+"GoldenrodCity_RadioTower_2F_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_RadioTower_3F_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_RadioTower_4F_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_RadioTower_5F_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_UndergroundStorage_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_UndergroundSwitches_hns": [
+"world/johto/goldenrod-city"
+],
+"GoldenrodCity_UndergroundTunnel_hns": [
+"world/johto/goldenrod-city"
+],
+"GraniteCave_1F": [
+"world/hoenn/granite-cave"
+],
+"GraniteCave_B1F": [
+"world/hoenn/granite-cave"
+],
+"GraniteCave_B2F": [
+"world/hoenn/granite-cave"
+],
+"GraniteCave_StevensRoom": [
+"world/hoenn/granite-cave"
+],
+"IcePath_1F_hns": [
+"world/johto/ice-path"
+],
+"IcePath_B1F_hns": [
+"world/johto/ice-path"
+],
+"IcePath_B2F_hns": [
+"world/johto/ice-path"
+],
+"IcePath_B3F_hns": [
+"world/johto/ice-path"
+],
+"IcePath_B4F_hns": [
+"world/johto/ice-path"
+],
+"IlexForest_hns": [
+"postgame/legendaries",
+"walkthrough/johto/ilex-forest",
+"world/johto/ilex-forest"
+],
+"IndigoPlateau_hns": [
+"walkthrough/johto/indigo-plateau",
+"world/kanto/indigo-plateau"
+],
+"IndigoPlateau_PokemonCenter_hns": [
+"walkthrough/kanto/kanto-league"
+],
+"JaggedPass": [
+"world/hoenn/jagged-pass"
+],
+"LakeOfRage_hns": [
+"world/johto/lake-of-rage"
+],
+"LakeOfRageLowTide_hns": [
+"world/johto/lake-of-rage"
+],
+"LavaridgeTown": [
+"walkthrough/hoenn/lavaridge-town",
+"world/hoenn/lavaridge-town"
+],
+"LavaridgeTown_Gym_1F": [
+"world/hoenn/lavaridge-town"
+],
+"LavaridgeTown_Gym_B1F": [
+"world/hoenn/lavaridge-town"
+],
+"LavaridgeTown_HerbShop": [
+"world/hoenn/lavaridge-town"
+],
+"LavenderTown_hns": [
+"walkthrough/kanto/lavender-town",
+"world/kanto/lavender-town"
+],
+"LilycoveCity": [
+"walkthrough/hoenn/team-hideouts",
+"world/hoenn/lilycove-city"
+],
+"LittlerootTown": [
+"postgame/after-the-credits",
+"walkthrough/hoenn/littleroot-town",
+"world/hoenn/littleroot-town"
+],
+"MagmaHideout_1F": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_2F_1R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_2F_2R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_2F_3R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_3F_1R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_3F_2R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_3F_3R": [
+"world/hoenn/magma-hideout"
+],
+"MagmaHideout_4F": [
+"world/hoenn/magma-hideout"
+],
+"Mahoganytown_hns": [
+"walkthrough/johto/mahogany-town",
+"world/johto/mahogany-town"
+],
+"MahoganyTown_Gym_hns": [
+"walkthrough/johto/mahogany-gym",
+"world/johto/mahogany-town"
+],
+"MarineCave_End": [
+"world/hoenn/marine-cave"
+],
+"MarineCave_Entrance": [
+"world/hoenn/marine-cave"
+],
+"MauvilleCity": [
+"walkthrough/hoenn/mauville-city",
+"world/hoenn/mauville-city"
+],
+"MauvilleCity_Gym": [
+"world/hoenn/mauville-city"
+],
+"Melemele_House_hns": [
+"world/far/melemele-isle"
+],
+"Melemele_House_2_hns": [
+"postgame/lillie",
+"world/far/melemele-isle"
+],
+"Melemele_House_3_hns": [
+"world/far/melemele-isle"
+],
+"Melemele_House_4_hns": [
+"world/far/melemele-isle"
+],
+"Melemele_House_5_hns": [
+"world/far/melemele-isle"
+],
+"Melemele_House_6_hns": [
+"world/far/melemele-isle"
+],
+"MelemeleIsle_hns": [
+"postgame/alola-isles",
+"postgame/far-off-places",
+"postgame/legendaries",
+"world/far/melemele-isle"
+],
+"MeteorFalls_1F_1R": [
+"postgame/rival-rematches",
+"world/hoenn/meteor-falls"
+],
+"MeteorFalls_1F_2R": [
+"world/hoenn/meteor-falls"
+],
+"MeteorFalls_B1F_1R": [
+"world/hoenn/meteor-falls"
+],
+"MeteorFalls_B1F_2R": [
+"world/hoenn/meteor-falls"
+],
+"MeteorFalls_StevensCave": [
+"world/hoenn/meteor-falls"
+],
+"MirageTower_1F": [
+"world/hoenn/mirage-tower"
+],
+"MirageTower_2F": [
+"world/hoenn/mirage-tower"
+],
+"MirageTower_3F": [
+"world/hoenn/mirage-tower"
+],
+"MirageTower_4F": [
+"world/hoenn/mirage-tower"
+],
+"MossdeepCity": [
+"walkthrough/hoenn/mossdeep-city",
+"world/hoenn/mossdeep-city"
+],
+"MossdeepCity_Gym": [
+"world/hoenn/mossdeep-city"
+],
+"MossdeepCity_SpaceCenter_1F": [
+"world/hoenn/mossdeep-city"
+],
+"MtChimney": [
+"world/hoenn/mt-chimney"
+],
+"MtMoon_Cave_hns": [
+"world/kanto/mt-moon"
+],
+"MtMoon_Outside_hns": [
+"postgame/legendaries",
+"world/kanto/mt-moon"
+],
+"MtMortar_1F_North_hns": [
+"world/johto/mt-mortar"
+],
+"MtMortar_1F_South_hns": [
+"world/johto/mt-mortar"
+],
+"MtMortar_2F_hns": [
+"world/johto/mt-mortar"
+],
+"MtMortar_B1F_hns": [
+"world/johto/mt-mortar"
+],
+"MtPyre_1F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_2F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_3F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_4F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_5F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_6F": [
+"world/hoenn/mt-pyre"
+],
+"MtPyre_Exterior": [
+"walkthrough/hoenn/lilycove-city",
+"world/hoenn/mt-pyre"
+],
+"MtPyre_Summit": [
+"world/hoenn/mt-pyre"
+],
+"MtSilver_1F_ItemRoom_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_1F_MoltresRoom_hns": [
+"postgame/legendaries",
+"world/johto/mt-silver"
+],
+"MtSilver_1F_WaterfallRoom_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_2F_hns": [
+"postgame/legendaries",
+"world/johto/mt-silver"
+],
+"MtSilver_3F_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_MountainSide_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_Outside_hns": [
+"walkthrough/kanto/mt-silver",
+"world/johto/mt-silver"
+],
+"MtSilver_Snow_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_SummitDay_hns": [
+"world/johto/mt-silver"
+],
+"MtSilver_SummitNight_hns": [
+"world/johto/mt-silver"
+],
+"NationalPark_BugContest_hns": [
+"world/johto/national-park"
+],
+"NationalPark_Normal_hns": [
+"walkthrough/johto/route-35-national-park",
+"world/johto/national-park"
+],
+"NewBarkTown_hns": [
+"walkthrough/johto/new-bark-town",
+"world/johto/new-bark-town"
+],
+"NewBarkTown_Lab_hns": [
+"world/johto/new-bark-town"
+],
+"NewMauville_Entrance": [
+"world/hoenn/new-mauville"
+],
+"NewMauville_Inside": [
+"world/hoenn/new-mauville"
+],
+"NewSinjoh_hns": [
+"world/far/new-sinjoh"
+],
+"NewSinjoh_HotSprings_hns": [
+"world/far/new-sinjoh"
+],
+"NewSinjoh_House1_hns": [
+"world/far/new-sinjoh"
+],
+"NewSinjoh_House2_hns": [
+"world/far/new-sinjoh"
+],
+"NewSinjoh_House4_hns": [
+"world/far/new-sinjoh"
+],
+"NewSinjoh_PokemonCenter_hns": [
+"world/far/new-sinjoh"
+],
+"OldaleTown": [
+"world/hoenn/oldale-town"
+],
+"OlivineCity_hns": [
+"postgame/legendaries",
+"walkthrough/johto/olivine-city",
+"world/johto/olivine-city"
+],
+"OlivineCity_Gym_hns": [
+"walkthrough/johto/olivine-gym"
+],
+"OlivineCity_Lighthouse_hns": [
+"world/johto/olivine-lighthouse"
+],
+"OlivineCity_PortOutside_hns": [
+"walkthrough/kanto/ss-aqua",
+"world/johto/olivine-city"
+],
+"PacifidlogTown": [
+"world/hoenn/pacifidlog-town"
+],
+"PalletTown_hns": [
+"walkthrough/hoenn/road-to-hoenn",
+"world/kanto/pallet-town"
+],
+"PetalburgCity": [
+"walkthrough/hoenn/petalburg-gym",
+"world/hoenn/petalburg-city"
+],
+"PetalburgCity_Gym": [
+"world/hoenn/petalburg-city"
+],
+"PetalburgWoods": [
+"world/hoenn/petalburg-woods"
+],
+"PewterCity_hns": [
+"walkthrough/kanto/pewter-city",
+"world/kanto/pewter-city"
+],
+"PewterCity_Gym_hns": [
+"world/kanto/pewter-city"
+],
+"PewterCity_House1_hns": [
+"world/kanto/pewter-city"
+],
+"PewterCity_House2_hns": [
+"world/kanto/pewter-city"
+],
+"PewterCity_Mart_hns": [
+"world/kanto/pewter-city"
+],
+"Poni_Cave_hns": [
+"world/kanto/poni-cave"
+],
+"PoniIsle_hns": [
+"postgame/legendaries",
+"world/far/poni-isle"
+],
+"RockTunnel_1F_hns": [
+"world/kanto/rock-tunnel"
+],
+"RockTunnel_B1F_hns": [
+"world/kanto/rock-tunnel"
+],
+"RocketHideout_B1F_hns": [
+"world/johto/rocket-hideout"
+],
+"RocketHideout_B2F_hns": [
+"world/johto/rocket-hideout"
+],
+"RocketHideout_B3F_hns": [
+"world/johto/rocket-hideout"
+],
+"Route1_hns": [
+"world/kanto/route-1"
+],
+"Route10_hns": [
+"postgame/legendaries",
+"world/kanto/route-10"
+],
+"Route101": [
+"world/hoenn/route-101"
+],
+"Route102": [
+"world/hoenn/route-102"
+],
+"Route103": [
+"world/hoenn/route-103"
+],
+"Route104": [
+"world/hoenn/route-104"
+],
+"Route105": [
+"world/hoenn/route-105"
+],
+"Route106": [
+"world/hoenn/route-106"
+],
+"Route107": [
+"world/hoenn/route-107"
+],
+"Route108": [
+"world/hoenn/route-108"
+],
+"Route109": [
+"world/hoenn/route-109"
+],
+"Route109_SeashoreHouse": [
+"world/hoenn/route-109"
+],
+"Route11_hns": [
+"world/kanto/route-11"
+],
+"Route110": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHouseEnd": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle1": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle2": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle3": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle4": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle5": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle6": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle7": [
+"world/hoenn/route-110"
+],
+"Route110_TrickHousePuzzle8": [
+"world/hoenn/route-110"
+],
+"Route111": [
+"world/hoenn/route-111"
+],
+"Route112": [
+"world/hoenn/route-112"
+],
+"Route112_CableCarStation": [
+"world/hoenn/route-112"
+],
+"Route113": [
+"world/hoenn/route-113"
+],
+"Route114": [
+"postgame/legendaries",
+"world/hoenn/route-114"
+],
+"Route115": [
+"world/hoenn/route-115"
+],
+"Route116": [
+"world/hoenn/route-116"
+],
+"Route117": [
+"world/hoenn/route-117"
+],
+"Route118": [
+"world/hoenn/route-118"
+],
+"Route119": [
+"world/hoenn/route-119"
+],
+"Route119_House": [
+"world/hoenn/route-119"
+],
+"Route119_WeatherInstitute_1F": [
+"world/hoenn/route-119"
+],
+"Route119_WeatherInstitute_2F": [
+"world/hoenn/route-119"
+],
+"Route12_hns": [
+"world/kanto/route-12"
+],
+"Route12_House_hns": [
+"world/kanto/route-12"
+],
+"Route120": [
+"world/hoenn/route-120"
+],
+"Route121": [
+"world/hoenn/route-121"
+],
+"Route122": [
+"world/hoenn/route-122"
+],
+"Route123": [
+"world/hoenn/route-123"
+],
+"Route124": [
+"world/hoenn/route-124"
+],
+"Route125": [
+"world/hoenn/route-125"
+],
+"Route126": [
+"world/hoenn/route-126"
+],
+"Route127": [
+"postgame/legendaries",
+"world/hoenn/route-127"
+],
+"Route128": [
+"world/hoenn/route-128"
+],
+"Route129": [
+"world/hoenn/route-129"
+],
+"Route13_hns": [
+"world/kanto/route-13"
+],
+"Route130": [
+"world/hoenn/route-130"
+],
+"Route131": [
+"world/hoenn/route-131"
+],
+"Route132": [
+"world/hoenn/route-132"
+],
+"Route133": [
+"world/hoenn/route-133"
+],
+"Route134": [
+"world/hoenn/route-134"
+],
+"Route14_hns": [
+"world/kanto/route-14"
+],
+"Route15_hns": [
+"world/kanto/route-15"
+],
+"Route16_hns": [
+"world/kanto/route-16"
+],
+"Route17_hns": [
+"world/kanto/route-17"
+],
+"Route18_hns": [
+"world/kanto/route-18"
+],
+"Route19_hns": [
+"world/kanto/route-19"
+],
+"Route19_Cave_hns": [
+"world/kanto/route-19"
+],
+"Route2_hns": [
+"world/kanto/route-2"
+],
+"Route20_hns": [
+"world/kanto/route-20"
+],
+"Route21_hns": [
+"world/kanto/route-21"
+],
+"Route22_hns": [
+"world/kanto/route-22"
+],
+"Route23_hns": [
+"world/kanto/indigo-plateau"
+],
+"Route24_hns": [
+"world/kanto/route-24"
+],
+"Route25_hns": [
+"postgame/legendaries",
+"world/kanto/route-25"
+],
+"Route25_BillsHouse_hns": [
+"postgame/legendaries"
+],
+"Route26_hns": [
+"world/johto/route-26"
+],
+"Route26North_hns": [
+"world/johto/route-26"
+],
+"Route27_hns": [
+"world/johto/route-27"
+],
+"Route28_hns": [
+"world/johto/route-28"
+],
+"Route29_hns": [
+"world/johto/route-29"
+],
+"Route3_hns": [
+"world/kanto/route-3"
+],
+"Route30_hns": [
+"world/johto/route-30"
+],
+"Route31_hns": [
+"world/johto/route-31"
+],
+"Route32_hns": [
+"walkthrough/johto/route-32-union-cave",
+"world/johto/route-32"
+],
+"Route33_hns": [
+"world/johto/route-33"
+],
+"Route34_hns": [
+"world/johto/route-34"
+],
+"Route35_hns": [
+"world/johto/route-35"
+],
+"Route36_hns": [
+"world/johto/route-36"
+],
+"Route37_hns": [
+"world/johto/route-37"
+],
+"Route38_hns": [
+"world/johto/route-38"
+],
+"Route39_hns": [
+"world/johto/route-39"
+],
+"Route4_hns": [
+"world/kanto/route-4"
+],
+"Route40_hns": [
+"world/johto/route-40"
+],
+"Route41_hns": [
+"world/johto/route-41"
+],
+"Route42_hns": [
+"world/johto/route-42"
+],
+"Route43_hns": [
+"world/johto/route-43"
+],
+"Route44_hns": [
+"world/johto/route-44"
+],
+"Route45_hns": [
+"world/johto/route-45"
+],
+"Route46_hns": [
+"world/johto/route-46"
+],
+"Route47_hns": [
+"world/johto/route-47"
+],
+"Route48_hns": [
+"world/johto/route-48"
+],
+"Route49_hns": [
+"world/far/route-49"
+],
+"Route5_hns": [
+"world/kanto/route-5"
+],
+"Route50_hns": [
+"world/far/route-50"
+],
+"Route6_hns": [
+"world/kanto/route-6"
+],
+"Route7_hns": [
+"world/kanto/route-7"
+],
+"Route8_hns": [
+"world/kanto/route-8"
+],
+"Route9_hns": [
+"world/kanto/route-9"
+],
+"RuinsOfAlph_B1F_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_Outside_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_PuzzleAndRewardChambers_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_WordsRoom1_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_WordsRoom2_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_WordsRoom3_hns": [
+"world/johto/ruins-of-alph"
+],
+"RuinsOfAlph_WordsRoom4_hns": [
+"world/johto/ruins-of-alph"
+],
+"RustboroCity": [
+"walkthrough/hoenn/rustboro-city",
+"world/hoenn/rustboro-city"
+],
+"RustboroCity_Gym": [
+"postgame/gym-rematches",
+"world/hoenn/rustboro-city"
+],
+"RusturfTunnel": [
+"world/hoenn/rusturf-tunnel"
+],
+"SafariZone1_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone2_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone3_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Enterance_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZoneGate_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Low_Left_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Low_Mid_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Low_Right_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_North": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_Northeast": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_Northwest": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_South": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_Southeast": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_Southwest": [
+"world/hoenn/safari-zone"
+],
+"SafariZone_Top_Left_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Top_Mid_hns": [
+"world/johto/safari-zone-gate"
+],
+"SafariZone_Top_Right_hns": [
+"world/johto/safari-zone-gate"
+],
+"SaffronCity_hns": [
+"walkthrough/kanto/saffron-city",
+"world/kanto/saffron-city"
+],
+"SaffronCity_FightingDojo_hns": [
+"postgame/johto-rematches",
+"world/kanto/saffron-city"
+],
+"SaffronCity_Gym_hns": [
+"world/kanto/saffron-city"
+],
+"Saffron_Temp_hns": [
+"world/kanto/abandoned-ship"
+],
+"SeafloorCavern_Entrance": [
+"walkthrough/hoenn/seafloor-cavern",
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room1": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room2": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room3": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room4": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room5": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room6": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room7": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room8": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafloorCavern_Room9": [
+"world/hoenn/seafloor-cavern"
+],
+"SeafoamIslands_1F_hns": [
+"walkthrough/kanto/cinnabar-seafoam",
+"world/kanto/seafoam-islands"
+],
+"SeafoamIslands_B1F_hns": [
+"postgame/legendaries",
+"world/kanto/seafoam-islands"
+],
+"SeafoamIslands_Gym_hns": [
+"world/kanto/seafoam-islands"
+],
+"SeafoamIslands_SecretCave_hns": [
+"world/kanto/seafoam-islands"
+],
+"ShoalCave_LowTideEntranceRoom": [
+"world/hoenn/shoal-cave"
+],
+"ShoalCave_LowTideIceRoom": [
+"world/hoenn/shoal-cave"
+],
+"ShoalCave_LowTideInnerRoom": [
+"world/hoenn/shoal-cave"
+],
+"ShoalCave_LowTideLowerRoom": [
+"world/hoenn/shoal-cave"
+],
+"ShoalCave_LowTideStairsRoom": [
+"world/hoenn/shoal-cave"
+],
+"SinjohRuins_hns": [
+"postgame/legendaries",
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_ArceusRoom_hns": [
+"postgame/legendaries",
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_House1_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegiceRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegidracoRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegielekiRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegigigasRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegirockRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_RegisteelRoom_hns": [
+"world/far/sinjoh-ruins"
+],
+"SinjohRuins_Temple_hns": [
+"postgame/legendaries",
+"world/far/sinjoh-ruins"
+],
+"SkyPillar_1F": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_2F": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_3F": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_4F": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_5F": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_Entrance": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_Outside": [
+"world/hoenn/sky-pillar"
+],
+"SkyPillar_Top": [
+"postgame/legendaries",
+"world/hoenn/sky-pillar"
+],
+"SlateportCity": [
+"walkthrough/hoenn/slateport-city",
+"world/hoenn/slateport-city"
+],
+"SlateportCity_Harbor": [
+"postgame/ss-tidal"
+],
+"SlowpokeWell_B1F_hns": [
+"world/johto/slowpoke-well"
+],
+"SlowpokeWell_B2F_hns": [
+"world/johto/slowpoke-well"
+],
+"SnowsweptCavern_hns": [
+"world/far/snowswept-cavern"
+],
+"SootopolisCity": [
+"walkthrough/hoenn/sootopolis-city",
+"world/hoenn/sootopolis-city"
+],
+"SootopolisCity_Gym_1F": [
+"world/hoenn/sootopolis-city"
+],
+"SootopolisCity_Gym_B1F": [
+"world/hoenn/sootopolis-city"
+],
+"SootopolisCity_PokemonCenter_1F": [
+"world/hoenn/sootopolis-city"
+],
+"SouthernIsland_Exterior_hns": [
+"world/kanto/southern-island"
+],
+"SouthernIsland_Interior_hns": [
+"world/kanto/southern-island"
+],
+"SproutTower_1F_hns": [
+"world/johto/sprout-tower"
+],
+"SproutTower_2F_hns": [
+"world/johto/sprout-tower"
+],
+"SproutTower_3F_hns": [
+"world/johto/sprout-tower"
+],
+"SSAqua_1F_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_B1F_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomNE_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomNNE_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomNW_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomSE_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomSSE_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomSSW_hns": [
+"world/johto/s-s-aqua"
+],
+"SSAqua_RoomSW_hns": [
+"world/johto/s-s-aqua"
+],
+"SSTidalLowerDeck": [
+"world/hoenn/slateport-city"
+],
+"SSTidalRooms": [
+"world/hoenn/slateport-city"
+],
+"TerraCave_End": [
+"world/hoenn/terra-cave"
+],
+"TerraCave_Entrance": [
+"world/hoenn/terra-cave"
+],
+"TestMap1_hns": [
+"world/johto/new-bark-town"
+],
+"TestMap2_hns": [
+"world/johto/new-bark-town"
+],
+"TinTower_1F_hns": [
+"walkthrough/johto/kimono-girls",
+"world/johto/tin-tower"
+],
+"TinTower_2F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_3F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_4F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_5F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_6F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_7F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_8F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_9F_hns": [
+"world/johto/tin-tower"
+],
+"TinTower_RoofDay_hns": [
+"postgame/legendaries",
+"world/johto/tin-tower"
+],
+"TinTower_RoofNight_hns": [
+"world/johto/tin-tower"
+],
+"TohjoFalls_Cavern_hns": [
+"world/johto/tohjo-falls"
+],
+"TohjoFalls_GiovanniRoom_hns": [
+"world/johto/tohjo-falls"
+],
+"TrainerHill_Courtyard_hns": [
+"world/kanto/trainer-hill"
+],
+"Trees_hns": [
+"world/kanto/abandoned-ship"
+],
+"UlaUla_Cave_hns": [
+"world/kanto/mt-lanikala"
+],
+"UlaUla_Cave_2_hns": [
+"world/kanto/ulaula-cave"
+],
+"UlaUla_Forest_hns": [
+"postgame/legendaries",
+"world/far/ulaula-isle"
+],
+"UlaulaIsle_hns": [
+"world/far/ulaula-isle"
+],
+"Underwater_MarineCave": [
+"world/hoenn/underwater-198"
+],
+"Underwater_Route124": [
+"world/hoenn/underwater"
+],
+"Underwater_Route126": [
+"world/hoenn/underwater-185"
+],
+"Underwater_Route127": [
+"world/hoenn/underwater-186"
+],
+"Underwater_Route128": [
+"world/hoenn/underwater-187"
+],
+"Underwater_SeafloorCavern": [
+"world/hoenn/underwater-189"
+],
+"Underwater_SootopolisCity": [
+"world/hoenn/underwater-188"
+],
+"UnionCave_1F_hns": [
+"world/johto/union-cave"
+],
+"UnionCave_B1F_hns": [
+"world/johto/union-cave"
+],
+"UnionCave_B2F_hns": [
+"world/johto/union-cave"
+],
+"VerdanturfTown": [
+"world/hoenn/verdanturf-town"
+],
+"VermilionCity_hns": [
+"postgame/legendaries",
+"walkthrough/kanto/vermilion-city",
+"world/kanto/vermilion-city"
+],
+"VermilionCity_Gym_hns": [
+"world/kanto/vermilion-city"
+],
+"VermilionCity_PortOutside_hns": [
+"world/kanto/vermilion-city"
+],
+"VictoryRoad_1F": [
+"world/hoenn/victory-road"
+],
+"VictoryRoad_B1F": [
+"world/hoenn/victory-road"
+],
+"VictoryRoad_B2F": [
+"world/hoenn/victory-road"
+],
+"VictoryRoadKanto_1F_hns": [
+"world/johto/victory-road"
+],
+"VictoryRoadKanto_B1F_hns": [
+"world/johto/victory-road"
+],
+"VictoryRoadKanto_B2F_hns": [
+"walkthrough/johto/victory-road",
+"world/johto/victory-road"
+],
+"VioletCity_hns": [
+"walkthrough/johto/violet-city",
+"world/johto/violet-city"
+],
+"VioletCity_Gym_hns": [
+"world/johto/violet-city"
+],
+"VioletCity_House2_hns": [
+"world/johto/violet-city"
+],
+"ViridianCity_hns": [
+"walkthrough/kanto/viridian-pallet",
+"world/kanto/viridian-city"
+],
+"ViridianCity_Gym_hns": [
+"walkthrough/kanto/viridian-gym"
+],
+"ViridianCity_PokemonCenter_hns": [
+"world/kanto/viridian-city"
+],
+"ViridianForest_hns": [
+"walkthrough/kanto/ash",
+"world/kanto/viridian-forest"
+],
+"WhirlIslands_1F_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_B1F_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_B1F_Inner_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_B2F_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_B3F_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_Descent_hns": [
+"world/johto/whirl-islands"
+],
+"WhirlIslands_LugiaChamber_hns": [
+"postgame/legendaries",
+"world/johto/whirl-islands"
+]
+}

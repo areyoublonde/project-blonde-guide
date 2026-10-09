@@ -95,7 +95,12 @@ def main():
             continue
         rom_only[v] = k
     by_num.update(rom_only)
-    ITEM, ABIL, TYPE = R.enum("ITEM_"), R.enum("ABILITY_"), R.enum("TYPE_")
+    ITEM, ABIL = R.enum("ITEM_"), R.enum("ABILITY_")
+    # Types come from the game's own `enum Type`, never from the TYPE_ symbol prefix: battle.h aliases
+    # TYPE_SIDE_HAZARD_SHARP_STEEL = TYPE_STEEL (and ..._POINTED_STONES = TYPE_ROCK), and a prefix lookup returned the alias for every Steel-type.
+    body = re.search(r"enum\s+(?:__attribute__\(\(packed\)\)\s+)?Type\s*\{(.*?)NUMBER_OF_MON_TYPES", (game / "include/constants/pokemon.h").read_text(), re.S).group(1)
+    TYPE = {int(v): k for k, v in re.findall(r"(TYPE_\w+)\s*=\s*(\d+)", body)}
+    assert len(TYPE) == 21 and TYPE[9] == "TYPE_STEEL" and all(S.get(k) == v for v, k in TYPE.items()), TYPE
     mv = (game / "include/constants/moves.h").read_text()
     MOVE = {S[n]: n for n in re.findall(r"^\s+(MOVE_\w+)(?:\s*=\s*\w+)?,", mv, re.M) if isinstance(S.get(n), int)}
     REGION = dict(enumerate(["", "Kanto", "Johto", "Hoenn", "Sinnoh", "Unova", "Kalos", "Alola", "Galar", "Hisui", "Paldea"]))   # include/constants/regions.h

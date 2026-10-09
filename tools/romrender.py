@@ -48,8 +48,9 @@ class Renderer:
         self.dirs = {}
         if game:
             import re
-            for m in re.finditer(r'gTilesetTiles_(\w+)\[\] = INCBIN_U32\("([^"]+)/tiles\.', (game / "src/data/tilesets/graphics.h").read_text()):
-                self.dirs["gTilesetTiles_" + m.group(1)] = game / m.group(2)
+            for f in ("src/data/tilesets/graphics.h", "src/graphics.c"):                # the General primary tileset is declared in graphics.c
+                for m in re.finditer(r'gTilesetTiles_(\w+)\[\] = INCBIN_U32\("([^"]+)/tiles\.', (game / f).read_text(errors="replace")):
+                    self.dirs.setdefault("gTilesetTiles_" + m.group(1), game / m.group(2))
         self.ts = {}      # tileset addr -> (tile bytes 4bpp, palettes, metatile u16s)
         self.mt = {}      # (primary, secondary, split) -> {metatile id: Image}
 
@@ -57,8 +58,8 @@ class Renderer:
         if a not in self.ts:
             R = self.R
             comp, tiles, pals, metas = R.u8(a) & 1, R.u32(a + 4), R.u32(a + 8), R.u32(a + 12)
-            if R.b[tiles - B] == 0x10 and R.rev.get(tiles, "") not in self.dirs:
-                d = lz77(R.b, tiles - B)
+            if not comp or (R.b[tiles - B] == 0x10 and R.rev.get(tiles, "") not in self.dirs):
+                d = lz77(R.b, tiles - B) if comp else R.b[tiles - B: tiles - B + 0x4000]   # a tileset stored uncompressed is plain 4bpp, 512 tiles at most
                 raw = bytes(x for byte in d for x in (byte & 15, byte >> 4))          # one palette index per pixel, 64 per tile
             else:                                                                     # H&S tiles are smol-compressed in the ROM: read the same art from the source tileset
                 src = self.dirs.get(R.rev.get(tiles, ""))

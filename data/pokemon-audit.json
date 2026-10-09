@@ -1,0 +1,8467 @@
+{
+ "build": "v105",
+ "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+ "entries": {
+  "SPECIES_BULBASAUR": {
+   "num": 1,
+   "slug": "bulbasaur",
+   "name": "BULBASAUR",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Chlorophyll"
+  },
+  "SPECIES_IVYSAUR": {
+   "num": 2,
+   "slug": "ivysaur",
+   "name": "IVYSAUR",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Chlorophyll"
+  },
+  "SPECIES_VENUSAUR": {
+   "num": 3,
+   "slug": "venusaur",
+   "name": "VENUSAUR",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Chlorophyll"
+  },
+  "SPECIES_CHARMANDER": {
+   "num": 4,
+   "slug": "charmander",
+   "name": "CHARMANDER",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Solar Power"
+  },
+  "SPECIES_CHARMELEON": {
+   "num": 5,
+   "slug": "charmeleon",
+   "name": "CHARMELEON",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Solar Power"
+  },
+  "SPECIES_CHARIZARD": {
+   "num": 6,
+   "slug": "charizard",
+   "name": "CHARIZARD",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "source_types": [
+    "Fire",
+    "Flying"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Solar Power"
+  },
+  "SPECIES_SQUIRTLE": {
+   "num": 7,
+   "slug": "squirtle",
+   "name": "SQUIRTLE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_WARTORTLE": {
+   "num": 8,
+   "slug": "wartortle",
+   "name": "WARTORTLE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_BLASTOISE": {
+   "num": 9,
+   "slug": "blastoise",
+   "name": "BLASTOISE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_CATERPIE": {
+   "num": 10,
+   "slug": "caterpie",
+   "name": "CATERPIE",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_METAPOD": {
+   "num": 11,
+   "slug": "metapod",
+   "name": "METAPOD",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BUTTERFREE": {
+   "num": 12,
+   "slug": "butterfree",
+   "name": "BUTTERFREE",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden_ability": "Tinted Lens"
+  },
+  "SPECIES_WEEDLE": {
+   "num": 13,
+   "slug": "weedle",
+   "name": "WEEDLE",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_KAKUNA": {
+   "num": 14,
+   "slug": "kakuna",
+   "name": "KAKUNA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BEEDRILL": {
+   "num": 15,
+   "slug": "beedrill",
+   "name": "BEEDRILL",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden_ability": "Sniper"
+  },
+  "SPECIES_PIDGEY": {
+   "num": 16,
+   "slug": "pidgey",
+   "name": "PIDGEY",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden_ability": "Big Pecks"
+  },
+  "SPECIES_PIDGEOTTO": {
+   "num": 17,
+   "slug": "pidgeotto",
+   "name": "PIDGEOTTO",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden_ability": "Big Pecks"
+  },
+  "SPECIES_PIDGEOT": {
+   "num": 18,
+   "slug": "pidgeot",
+   "name": "PIDGEOT",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Tangled Feet"
+   ],
+   "hidden_ability": "Big Pecks"
+  },
+  "SPECIES_RATTATA": {
+   "num": 19,
+   "slug": "rattata",
+   "name": "RATTATA",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_RATICATE": {
+   "num": 20,
+   "slug": "raticate",
+   "name": "RATICATE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Guts"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_SPEAROW": {
+   "num": 21,
+   "slug": "spearow",
+   "name": "SPEAROW",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye"
+   ],
+   "hidden_ability": "Sniper"
+  },
+  "SPECIES_FEAROW": {
+   "num": 22,
+   "slug": "fearow",
+   "name": "FEAROW",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye"
+   ],
+   "hidden_ability": "Sniper"
+  },
+  "SPECIES_EKANS": {
+   "num": 23,
+   "slug": "ekans",
+   "name": "EKANS",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_ARBOK": {
+   "num": 24,
+   "slug": "arbok",
+   "name": "ARBOK",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Shed Skin"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_PIKACHU": {
+   "num": 25,
+   "slug": "pikachu",
+   "name": "PIKACHU",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_RAICHU": {
+   "num": 26,
+   "slug": "raichu",
+   "name": "RAICHU",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_SANDSHREW": {
+   "num": 27,
+   "slug": "sandshrew",
+   "name": "SANDSHREW",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden_ability": "Sand Rush"
+  },
+  "SPECIES_SANDSLASH": {
+   "num": 28,
+   "slug": "sandslash",
+   "name": "SANDSLASH",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden_ability": "Sand Rush"
+  },
+  "SPECIES_NIDORAN_F": {
+   "num": 29,
+   "slug": "nidoran-f",
+   "name": "NIDORAN♀",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_NIDORINA": {
+   "num": 30,
+   "slug": "nidorina",
+   "name": "NIDORINA",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_NIDOQUEEN": {
+   "num": 31,
+   "slug": "nidoqueen",
+   "name": "NIDOQUEEN",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Ground"
+   ],
+   "source_types": [
+    "Poison",
+    "Ground"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_NIDORAN_M": {
+   "num": 32,
+   "slug": "nidoran-m",
+   "name": "NIDORAN♂",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_NIDORINO": {
+   "num": 33,
+   "slug": "nidorino",
+   "name": "NIDORINO",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Hustle"
+  },
+  "SPECIES_NIDOKING": {
+   "num": 34,
+   "slug": "nidoking",
+   "name": "NIDOKING",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Ground"
+   ],
+   "source_types": [
+    "Poison",
+    "Ground"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Rivalry"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_CLEFAIRY": {
+   "num": 35,
+   "slug": "clefairy",
+   "name": "CLEFAIRY",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden_ability": "Friend Guard"
+  },
+  "SPECIES_CLEFABLE": {
+   "num": 36,
+   "slug": "clefable",
+   "name": "CLEFABLE",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden_ability": "Unaware"
+  },
+  "SPECIES_VULPIX": {
+   "num": 37,
+   "slug": "vulpix",
+   "name": "VULPIX",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden_ability": "Drought"
+  },
+  "SPECIES_NINETALES": {
+   "num": 38,
+   "slug": "ninetales",
+   "name": "NINETALES",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flash Fire"
+   ],
+   "hidden_ability": "Drought"
+  },
+  "SPECIES_JIGGLYPUFF": {
+   "num": 39,
+   "slug": "jigglypuff",
+   "name": "JIGGLYPUFF",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden_ability": "Friend Guard"
+  },
+  "SPECIES_WIGGLYTUFF": {
+   "num": 40,
+   "slug": "wigglytuff",
+   "name": "WIGGLYTUFF",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_ZUBAT": {
+   "num": 41,
+   "slug": "zubat",
+   "name": "ZUBAT",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Flying"
+   ],
+   "source_types": [
+    "Poison",
+    "Flying"
+   ],
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_GOLBAT": {
+   "num": 42,
+   "slug": "golbat",
+   "name": "GOLBAT",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Flying"
+   ],
+   "source_types": [
+    "Poison",
+    "Flying"
+   ],
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_ODDISH": {
+   "num": 43,
+   "slug": "oddish",
+   "name": "ODDISH",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_GLOOM": {
+   "num": 44,
+   "slug": "gloom",
+   "name": "GLOOM",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Stench"
+  },
+  "SPECIES_VILEPLUME": {
+   "num": 45,
+   "slug": "vileplume",
+   "name": "VILEPLUME",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Effect Spore"
+  },
+  "SPECIES_PARAS": {
+   "num": 46,
+   "slug": "paras",
+   "name": "PARAS",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Grass"
+   ],
+   "source_types": [
+    "Bug",
+    "Grass"
+   ],
+   "abilities": [
+    "Effect Spore",
+    "Dry Skin"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_PARASECT": {
+   "num": 47,
+   "slug": "parasect",
+   "name": "PARASECT",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Grass"
+   ],
+   "source_types": [
+    "Bug",
+    "Grass"
+   ],
+   "abilities": [
+    "Effect Spore",
+    "Dry Skin"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_VENONAT": {
+   "num": 48,
+   "slug": "venonat",
+   "name": "VENONAT",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Compound Eyes",
+    "Tinted Lens"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_VENOMOTH": {
+   "num": 49,
+   "slug": "venomoth",
+   "name": "VENOMOTH",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Shield Dust",
+    "Tinted Lens"
+   ],
+   "hidden_ability": "Wonder Skin"
+  },
+  "SPECIES_DIGLETT": {
+   "num": 50,
+   "slug": "diglett",
+   "name": "DIGLETT",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_DUGTRIO": {
+   "num": 51,
+   "slug": "dugtrio",
+   "name": "DUGTRIO",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Sand Veil",
+    "Arena Trap"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_MEOWTH": {
+   "num": 52,
+   "slug": "meowth",
+   "name": "MEOWTH",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_PERSIAN": {
+   "num": 53,
+   "slug": "persian",
+   "name": "PERSIAN",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Limber",
+    "Technician"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_PSYDUCK": {
+   "num": 54,
+   "slug": "psyduck",
+   "name": "PSYDUCK",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_GOLDUCK": {
+   "num": 55,
+   "slug": "golduck",
+   "name": "GOLDUCK",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Damp",
+    "Cloud Nine"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_MANKEY": {
+   "num": 56,
+   "slug": "mankey",
+   "name": "MANKEY",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden_ability": "Defiant"
+  },
+  "SPECIES_PRIMEAPE": {
+   "num": 57,
+   "slug": "primeape",
+   "name": "PRIMEAPE",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Vital Spirit",
+    "Anger Point"
+   ],
+   "hidden_ability": "Defiant"
+  },
+  "SPECIES_GROWLITHE": {
+   "num": 58,
+   "slug": "growlithe",
+   "name": "GROWLITHE",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Justified"
+  },
+  "SPECIES_ARCANINE": {
+   "num": 59,
+   "slug": "arcanine",
+   "name": "ARCANINE",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Justified"
+  },
+  "SPECIES_POLIWAG": {
+   "num": 60,
+   "slug": "poliwag",
+   "name": "POLIWAG",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_POLIWHIRL": {
+   "num": 61,
+   "slug": "poliwhirl",
+   "name": "POLIWHIRL",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_POLIWRATH": {
+   "num": 62,
+   "slug": "poliwrath",
+   "name": "POLIWRATH",
+   "regional": null,
+   "types": [
+    "Water",
+    "Fighting"
+   ],
+   "source_types": [
+    "Water",
+    "Fighting"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_ABRA": {
+   "num": 63,
+   "slug": "abra",
+   "name": "ABRA",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden_ability": "Magic Guard"
+  },
+  "SPECIES_KADABRA": {
+   "num": 64,
+   "slug": "kadabra",
+   "name": "KADABRA",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden_ability": "Magic Guard"
+  },
+  "SPECIES_ALAKAZAM": {
+   "num": 65,
+   "slug": "alakazam",
+   "name": "ALAKAZAM",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Inner Focus"
+   ],
+   "hidden_ability": "Magic Guard"
+  },
+  "SPECIES_MACHOP": {
+   "num": 66,
+   "slug": "machop",
+   "name": "MACHOP",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden_ability": "Steadfast"
+  },
+  "SPECIES_MACHOKE": {
+   "num": 67,
+   "slug": "machoke",
+   "name": "MACHOKE",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden_ability": "Steadfast"
+  },
+  "SPECIES_MACHAMP": {
+   "num": 68,
+   "slug": "machamp",
+   "name": "MACHAMP",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Guts",
+    "No Guard"
+   ],
+   "hidden_ability": "Steadfast"
+  },
+  "SPECIES_BELLSPROUT": {
+   "num": 69,
+   "slug": "bellsprout",
+   "name": "BELLSPROUT",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_WEEPINBELL": {
+   "num": 70,
+   "slug": "weepinbell",
+   "name": "WEEPINBELL",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_VICTREEBEL": {
+   "num": 71,
+   "slug": "victreebel",
+   "name": "VICTREEBEL",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_TENTACOOL": {
+   "num": 72,
+   "slug": "tentacool",
+   "name": "TENTACOOL",
+   "regional": null,
+   "types": [
+    "Water",
+    "Poison"
+   ],
+   "source_types": [
+    "Water",
+    "Poison"
+   ],
+   "abilities": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_TENTACRUEL": {
+   "num": 73,
+   "slug": "tentacruel",
+   "name": "TENTACRUEL",
+   "regional": null,
+   "types": [
+    "Water",
+    "Poison"
+   ],
+   "source_types": [
+    "Water",
+    "Poison"
+   ],
+   "abilities": [
+    "Clear Body",
+    "Liquid Ooze"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_GEODUDE": {
+   "num": 74,
+   "slug": "geodude",
+   "name": "GEODUDE",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_GRAVELER": {
+   "num": 75,
+   "slug": "graveler",
+   "name": "GRAVELER",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_GOLEM": {
+   "num": 76,
+   "slug": "golem",
+   "name": "GOLEM",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_PONYTA": {
+   "num": 77,
+   "slug": "ponyta",
+   "name": "PONYTA",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Flame Body"
+  },
+  "SPECIES_RAPIDASH": {
+   "num": 78,
+   "slug": "rapidash",
+   "name": "RAPIDASH",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Run Away",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Flame Body"
+  },
+  "SPECIES_SLOWPOKE": {
+   "num": 79,
+   "slug": "slowpoke",
+   "name": "SLOWPOKE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "source_types": [
+    "Water",
+    "Psychic"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_SLOWBRO": {
+   "num": 80,
+   "slug": "slowbro",
+   "name": "SLOWBRO",
+   "regional": null,
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "source_types": [
+    "Water",
+    "Psychic"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_MAGNEMITE": {
+   "num": 81,
+   "slug": "magnemite",
+   "name": "MAGNEMITE",
+   "regional": null,
+   "types": [
+    "Electric",
+    "Steel"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_MAGNETON": {
+   "num": 82,
+   "slug": "magneton",
+   "name": "MAGNETON",
+   "regional": null,
+   "types": [
+    "Electric",
+    "Steel"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_FARFETCHD": {
+   "num": 83,
+   "slug": "farfetch-d",
+   "name": "FARFETCH'D",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Inner Focus"
+   ],
+   "hidden_ability": "Defiant"
+  },
+  "SPECIES_DODUO": {
+   "num": 84,
+   "slug": "doduo",
+   "name": "DODUO",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Run Away",
+    "Early Bird"
+   ],
+   "hidden_ability": "Tangled Feet"
+  },
+  "SPECIES_DODRIO": {
+   "num": 85,
+   "slug": "dodrio",
+   "name": "DODRIO",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Run Away",
+    "Early Bird"
+   ],
+   "hidden_ability": "Tangled Feet"
+  },
+  "SPECIES_SEEL": {
+   "num": 86,
+   "slug": "seel",
+   "name": "SEEL",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_DEWGONG": {
+   "num": 87,
+   "slug": "dewgong",
+   "name": "DEWGONG",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ice"
+   ],
+   "source_types": [
+    "Water",
+    "Ice"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Hydration"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_GRIMER": {
+   "num": 88,
+   "slug": "grimer",
+   "name": "GRIMER",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Stench",
+    "Sticky Hold"
+   ],
+   "hidden_ability": "Poison Touch"
+  },
+  "SPECIES_MUK": {
+   "num": 89,
+   "slug": "muk",
+   "name": "MUK",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Stench",
+    "Sticky Hold"
+   ],
+   "hidden_ability": "Poison Touch"
+  },
+  "SPECIES_SHELLDER": {
+   "num": 90,
+   "slug": "shellder",
+   "name": "SHELLDER",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden_ability": "Overcoat"
+  },
+  "SPECIES_CLOYSTER": {
+   "num": 91,
+   "slug": "cloyster",
+   "name": "CLOYSTER",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ice"
+   ],
+   "source_types": [
+    "Water",
+    "Ice"
+   ],
+   "abilities": [
+    "Shell Armor",
+    "Skill Link"
+   ],
+   "hidden_ability": "Overcoat"
+  },
+  "SPECIES_GASTLY": {
+   "num": 92,
+   "slug": "gastly",
+   "name": "GASTLY",
+   "regional": null,
+   "types": [
+    "Ghost",
+    "Poison"
+   ],
+   "source_types": [
+    "Ghost",
+    "Poison"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_HAUNTER": {
+   "num": 93,
+   "slug": "haunter",
+   "name": "HAUNTER",
+   "regional": null,
+   "types": [
+    "Ghost",
+    "Poison"
+   ],
+   "source_types": [
+    "Ghost",
+    "Poison"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_GENGAR": {
+   "num": 94,
+   "slug": "gengar",
+   "name": "GENGAR",
+   "regional": null,
+   "types": [
+    "Ghost",
+    "Poison"
+   ],
+   "source_types": [
+    "Ghost",
+    "Poison"
+   ],
+   "abilities": [
+    "Levitate",
+    "Cursed Body"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_ONIX": {
+   "num": 95,
+   "slug": "onix",
+   "name": "ONIX",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_DROWZEE": {
+   "num": 96,
+   "slug": "drowzee",
+   "name": "DROWZEE",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_HYPNO": {
+   "num": 97,
+   "slug": "hypno",
+   "name": "HYPNO",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Forewarn"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_KRABBY": {
+   "num": 98,
+   "slug": "krabby",
+   "name": "KRABBY",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_KINGLER": {
+   "num": 99,
+   "slug": "kingler",
+   "name": "KINGLER",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_VOLTORB": {
+   "num": 100,
+   "slug": "voltorb",
+   "name": "VOLTORB",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden_ability": "Aftermath"
+  },
+  "SPECIES_ELECTRODE": {
+   "num": 101,
+   "slug": "electrode",
+   "name": "ELECTRODE",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden_ability": "Aftermath"
+  },
+  "SPECIES_EXEGGCUTE": {
+   "num": 102,
+   "slug": "exeggcute",
+   "name": "EXEGGCUTE",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Psychic"
+   ],
+   "source_types": [
+    "Grass",
+    "Psychic"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Harvest"
+  },
+  "SPECIES_EXEGGUTOR": {
+   "num": 103,
+   "slug": "exeggutor",
+   "name": "EXEGGUTOR",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Psychic"
+   ],
+   "source_types": [
+    "Grass",
+    "Psychic"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Harvest"
+  },
+  "SPECIES_CUBONE": {
+   "num": 104,
+   "slug": "cubone",
+   "name": "CUBONE",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden_ability": "Battle Armor"
+  },
+  "SPECIES_MAROWAK": {
+   "num": 105,
+   "slug": "marowak",
+   "name": "MAROWAK",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Lightning Rod"
+   ],
+   "hidden_ability": "Battle Armor"
+  },
+  "SPECIES_HITMONLEE": {
+   "num": 106,
+   "slug": "hitmonlee",
+   "name": "HITMONLEE",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Limber",
+    "Reckless"
+   ],
+   "hidden_ability": "Unburden"
+  },
+  "SPECIES_HITMONCHAN": {
+   "num": 107,
+   "slug": "hitmonchan",
+   "name": "HITMONCHAN",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Iron Fist"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_LICKITUNG": {
+   "num": 108,
+   "slug": "lickitung",
+   "name": "LICKITUNG",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Own Tempo",
+    "Oblivious"
+   ],
+   "hidden_ability": "Cloud Nine"
+  },
+  "SPECIES_KOFFING": {
+   "num": 109,
+   "slug": "koffing",
+   "name": "KOFFING",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden_ability": "Stench"
+  },
+  "SPECIES_WEEZING": {
+   "num": 110,
+   "slug": "weezing",
+   "name": "WEEZING",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden_ability": "Stench"
+  },
+  "SPECIES_RHYHORN": {
+   "num": 111,
+   "slug": "rhyhorn",
+   "name": "RHYHORN",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Rock"
+   ],
+   "source_types": [
+    "Ground",
+    "Rock"
+   ],
+   "abilities": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden_ability": "Reckless"
+  },
+  "SPECIES_RHYDON": {
+   "num": 112,
+   "slug": "rhydon",
+   "name": "RHYDON",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Rock"
+   ],
+   "source_types": [
+    "Ground",
+    "Rock"
+   ],
+   "abilities": [
+    "Lightning Rod",
+    "Rock Head"
+   ],
+   "hidden_ability": "Reckless"
+  },
+  "SPECIES_CHANSEY": {
+   "num": 113,
+   "slug": "chansey",
+   "name": "CHANSEY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Healer"
+  },
+  "SPECIES_TANGELA": {
+   "num": 114,
+   "slug": "tangela",
+   "name": "TANGELA",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_KANGASKHAN": {
+   "num": 115,
+   "slug": "kangaskhan",
+   "name": "KANGASKHAN",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Early Bird",
+    "Scrappy"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_HORSEA": {
+   "num": 116,
+   "slug": "horsea",
+   "name": "HORSEA",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_SEADRA": {
+   "num": 117,
+   "slug": "seadra",
+   "name": "SEADRA",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Sniper"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_GOLDEEN": {
+   "num": 118,
+   "slug": "goldeen",
+   "name": "GOLDEEN",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Water Veil"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_SEAKING": {
+   "num": 119,
+   "slug": "seaking",
+   "name": "SEAKING",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Water Veil"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_STARYU": {
+   "num": 120,
+   "slug": "staryu",
+   "name": "STARYU",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_STARMIE": {
+   "num": 121,
+   "slug": "starmie",
+   "name": "STARMIE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "source_types": [
+    "Water",
+    "Psychic"
+   ],
+   "abilities": [
+    "Illuminate",
+    "Natural Cure"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_MR_MIME": {
+   "num": 122,
+   "slug": "mr-mime",
+   "name": "MR. MIME",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden_ability": "Technician"
+  },
+  "SPECIES_SCYTHER": {
+   "num": 123,
+   "slug": "scyther",
+   "name": "SCYTHER",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden_ability": "Steadfast"
+  },
+  "SPECIES_JYNX": {
+   "num": 124,
+   "slug": "jynx",
+   "name": "JYNX",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ice",
+    "Psychic"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden_ability": "Dry Skin"
+  },
+  "SPECIES_ELECTABUZZ": {
+   "num": 125,
+   "slug": "electabuzz",
+   "name": "ELECTABUZZ",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_MAGMAR": {
+   "num": 126,
+   "slug": "magmar",
+   "name": "MAGMAR",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_PINSIR": {
+   "num": 127,
+   "slug": "pinsir",
+   "name": "PINSIR",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Mold Breaker"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_TAUROS": {
+   "num": 128,
+   "slug": "tauros",
+   "name": "TAUROS",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_MAGIKARP": {
+   "num": 129,
+   "slug": "magikarp",
+   "name": "MAGIKARP",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_GYARADOS": {
+   "num": 130,
+   "slug": "gyarados",
+   "name": "GYARADOS",
+   "regional": null,
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "source_types": [
+    "Water",
+    "Flying"
+   ],
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_LAPRAS": {
+   "num": 131,
+   "slug": "lapras",
+   "name": "LAPRAS",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ice"
+   ],
+   "source_types": [
+    "Water",
+    "Ice"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_DITTO": {
+   "num": 132,
+   "slug": "ditto",
+   "name": "DITTO",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Limber"
+   ],
+   "hidden_ability": "Imposter"
+  },
+  "SPECIES_EEVEE": {
+   "num": 133,
+   "slug": "eevee",
+   "name": "EEVEE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Adaptability"
+   ],
+   "hidden_ability": "Anticipation"
+  },
+  "SPECIES_VAPOREON": {
+   "num": 134,
+   "slug": "vaporeon",
+   "name": "VAPOREON",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_JOLTEON": {
+   "num": 135,
+   "slug": "jolteon",
+   "name": "JOLTEON",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Volt Absorb",
+    "Volt Absorb"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_FLAREON": {
+   "num": 136,
+   "slug": "flareon",
+   "name": "FLAREON",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flash Fire",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Guts"
+  },
+  "SPECIES_PORYGON": {
+   "num": 137,
+   "slug": "porygon",
+   "name": "PORYGON",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Trace",
+    "Download"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_OMANYTE": {
+   "num": 138,
+   "slug": "omanyte",
+   "name": "OMANYTE",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Water"
+   ],
+   "source_types": [
+    "Rock",
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_OMASTAR": {
+   "num": 139,
+   "slug": "omastar",
+   "name": "OMASTAR",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Water"
+   ],
+   "source_types": [
+    "Rock",
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_KABUTO": {
+   "num": 140,
+   "slug": "kabuto",
+   "name": "KABUTO",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Water"
+   ],
+   "source_types": [
+    "Rock",
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_KABUTOPS": {
+   "num": 141,
+   "slug": "kabutops",
+   "name": "KABUTOPS",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Water"
+   ],
+   "source_types": [
+    "Rock",
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Battle Armor"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_AERODACTYL": {
+   "num": 142,
+   "slug": "aerodactyl",
+   "name": "AERODACTYL",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Flying"
+   ],
+   "source_types": [
+    "Rock",
+    "Flying"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Pressure"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_SNORLAX": {
+   "num": 143,
+   "slug": "snorlax",
+   "name": "SNORLAX",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Immunity",
+    "Thick Fat"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_ARTICUNO": {
+   "num": 144,
+   "slug": "articuno",
+   "name": "ARTICUNO",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Flying"
+   ],
+   "source_types": [
+    "Ice",
+    "Flying"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Snow Cloak"
+  },
+  "SPECIES_ZAPDOS": {
+   "num": 145,
+   "slug": "zapdos",
+   "name": "ZAPDOS",
+   "regional": null,
+   "types": [
+    "Electric",
+    "Flying"
+   ],
+   "source_types": [
+    "Electric",
+    "Flying"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Static"
+  },
+  "SPECIES_MOLTRES": {
+   "num": 146,
+   "slug": "moltres",
+   "name": "MOLTRES",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "source_types": [
+    "Fire",
+    "Flying"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Flame Body"
+  },
+  "SPECIES_DRATINI": {
+   "num": 147,
+   "slug": "dratini",
+   "name": "DRATINI",
+   "regional": null,
+   "types": [
+    "Dragon"
+   ],
+   "source_types": [
+    "Dragon"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": "Marvel Scale"
+  },
+  "SPECIES_DRAGONAIR": {
+   "num": 148,
+   "slug": "dragonair",
+   "name": "DRAGONAIR",
+   "regional": null,
+   "types": [
+    "Dragon"
+   ],
+   "source_types": [
+    "Dragon"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": "Marvel Scale"
+  },
+  "SPECIES_DRAGONITE": {
+   "num": 149,
+   "slug": "dragonite",
+   "name": "DRAGONITE",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "source_types": [
+    "Dragon",
+    "Flying"
+   ],
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden_ability": "Multiscale"
+  },
+  "SPECIES_MEWTWO": {
+   "num": 150,
+   "slug": "mewtwo",
+   "name": "MEWTWO",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_MEW": {
+   "num": 151,
+   "slug": "mew",
+   "name": "MEW",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Synchronize"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_CHIKORITA": {
+   "num": 152,
+   "slug": "chikorita",
+   "name": "CHIKORITA",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Leaf Guard"
+  },
+  "SPECIES_BAYLEEF": {
+   "num": 153,
+   "slug": "bayleef",
+   "name": "BAYLEEF",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Leaf Guard"
+  },
+  "SPECIES_MEGANIUM": {
+   "num": 154,
+   "slug": "meganium",
+   "name": "MEGANIUM",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Leaf Guard"
+  },
+  "SPECIES_CYNDAQUIL": {
+   "num": 155,
+   "slug": "cyndaquil",
+   "name": "CYNDAQUIL",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Flash Fire"
+  },
+  "SPECIES_QUILAVA": {
+   "num": 156,
+   "slug": "quilava",
+   "name": "QUILAVA",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Flash Fire"
+  },
+  "SPECIES_TYPHLOSION": {
+   "num": 157,
+   "slug": "typhlosion",
+   "name": "TYPHLOSION",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Flash Fire"
+  },
+  "SPECIES_TOTODILE": {
+   "num": 158,
+   "slug": "totodile",
+   "name": "TOTODILE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_CROCONAW": {
+   "num": 159,
+   "slug": "croconaw",
+   "name": "CROCONAW",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_FERALIGATR": {
+   "num": 160,
+   "slug": "feraligatr",
+   "name": "FERALIGATR",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_SENTRET": {
+   "num": 161,
+   "slug": "sentret",
+   "name": "SENTRET",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_FURRET": {
+   "num": 162,
+   "slug": "furret",
+   "name": "FURRET",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_HOOTHOOT": {
+   "num": 163,
+   "slug": "hoothoot",
+   "name": "HOOTHOOT",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Tinted Lens"
+  },
+  "SPECIES_NOCTOWL": {
+   "num": 164,
+   "slug": "noctowl",
+   "name": "NOCTOWL",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Tinted Lens"
+  },
+  "SPECIES_LEDYBA": {
+   "num": 165,
+   "slug": "ledyba",
+   "name": "LEDYBA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Swarm",
+    "Early Bird"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_LEDIAN": {
+   "num": 166,
+   "slug": "ledian",
+   "name": "LEDIAN",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Swarm",
+    "Early Bird"
+   ],
+   "hidden_ability": "Iron Fist"
+  },
+  "SPECIES_SPINARAK": {
+   "num": 167,
+   "slug": "spinarak",
+   "name": "SPINARAK",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Swarm",
+    "Insomnia"
+   ],
+   "hidden_ability": "Sniper"
+  },
+  "SPECIES_ARIADOS": {
+   "num": 168,
+   "slug": "ariados",
+   "name": "ARIADOS",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Swarm",
+    "Insomnia"
+   ],
+   "hidden_ability": "Sniper"
+  },
+  "SPECIES_CROBAT": {
+   "num": 169,
+   "slug": "crobat",
+   "name": "CROBAT",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Flying"
+   ],
+   "source_types": [
+    "Poison",
+    "Flying"
+   ],
+   "abilities": [
+    "Inner Focus"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_CHINCHOU": {
+   "num": 170,
+   "slug": "chinchou",
+   "name": "CHINCHOU",
+   "regional": null,
+   "types": [
+    "Water",
+    "Electric"
+   ],
+   "source_types": [
+    "Water",
+    "Electric"
+   ],
+   "abilities": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden_ability": "Water Absorb"
+  },
+  "SPECIES_LANTURN": {
+   "num": 171,
+   "slug": "lanturn",
+   "name": "LANTURN",
+   "regional": null,
+   "types": [
+    "Water",
+    "Electric"
+   ],
+   "source_types": [
+    "Water",
+    "Electric"
+   ],
+   "abilities": [
+    "Volt Absorb",
+    "Illuminate"
+   ],
+   "hidden_ability": "Water Absorb"
+  },
+  "SPECIES_PICHU": {
+   "num": 172,
+   "slug": "pichu",
+   "name": "PICHU",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_CLEFFA": {
+   "num": 173,
+   "slug": "cleffa",
+   "name": "CLEFFA",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Magic Guard"
+   ],
+   "hidden_ability": "Friend Guard"
+  },
+  "SPECIES_IGGLYBUFF": {
+   "num": 174,
+   "slug": "igglybuff",
+   "name": "IGGLYBUFF",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Cute Charm",
+    "Competitive"
+   ],
+   "hidden_ability": "Friend Guard"
+  },
+  "SPECIES_TOGEPI": {
+   "num": 175,
+   "slug": "togepi",
+   "name": "TOGEPI",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Super Luck"
+  },
+  "SPECIES_TOGETIC": {
+   "num": 176,
+   "slug": "togetic",
+   "name": "TOGETIC",
+   "regional": null,
+   "types": [
+    "Fairy",
+    "Flying"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Super Luck"
+  },
+  "SPECIES_NATU": {
+   "num": 177,
+   "slug": "natu",
+   "name": "NATU",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Flying"
+   ],
+   "source_types": [
+    "Psychic",
+    "Flying"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Early Bird"
+   ],
+   "hidden_ability": "Magic Bounce"
+  },
+  "SPECIES_XATU": {
+   "num": 178,
+   "slug": "xatu",
+   "name": "XATU",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Flying"
+   ],
+   "source_types": [
+    "Psychic",
+    "Flying"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Early Bird"
+   ],
+   "hidden_ability": "Magic Bounce"
+  },
+  "SPECIES_MAREEP": {
+   "num": 179,
+   "slug": "mareep",
+   "name": "MAREEP",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Plus"
+  },
+  "SPECIES_FLAAFFY": {
+   "num": 180,
+   "slug": "flaaffy",
+   "name": "FLAAFFY",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Plus"
+  },
+  "SPECIES_AMPHAROS": {
+   "num": 181,
+   "slug": "ampharos",
+   "name": "AMPHAROS",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Plus"
+  },
+  "SPECIES_BELLOSSOM": {
+   "num": 182,
+   "slug": "bellossom",
+   "name": "BELLOSSOM",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll"
+   ],
+   "hidden_ability": "Healer"
+  },
+  "SPECIES_MARILL": {
+   "num": 183,
+   "slug": "marill",
+   "name": "MARILL",
+   "regional": null,
+   "types": [
+    "Water",
+    "Fairy"
+   ],
+   "source_types": [
+    "Water",
+    "Fairy"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_AZUMARILL": {
+   "num": 184,
+   "slug": "azumarill",
+   "name": "AZUMARILL",
+   "regional": null,
+   "types": [
+    "Water",
+    "Fairy"
+   ],
+   "source_types": [
+    "Water",
+    "Fairy"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_SUDOWOODO": {
+   "num": 185,
+   "slug": "sudowoodo",
+   "name": "SUDOWOODO",
+   "regional": null,
+   "types": [
+    "Rock"
+   ],
+   "source_types": [
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_POLITOED": {
+   "num": 186,
+   "slug": "politoed",
+   "name": "POLITOED",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Absorb",
+    "Damp"
+   ],
+   "hidden_ability": "Drizzle"
+  },
+  "SPECIES_HOPPIP": {
+   "num": 187,
+   "slug": "hoppip",
+   "name": "HOPPIP",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "source_types": [
+    "Grass",
+    "Flying"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_SKIPLOOM": {
+   "num": 188,
+   "slug": "skiploom",
+   "name": "SKIPLOOM",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "source_types": [
+    "Grass",
+    "Flying"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_JUMPLUFF": {
+   "num": 189,
+   "slug": "jumpluff",
+   "name": "JUMPLUFF",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "source_types": [
+    "Grass",
+    "Flying"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_AIPOM": {
+   "num": 190,
+   "slug": "aipom",
+   "name": "AIPOM",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Run Away",
+    "Pickup"
+   ],
+   "hidden_ability": "Skill Link"
+  },
+  "SPECIES_SUNKERN": {
+   "num": 191,
+   "slug": "sunkern",
+   "name": "SUNKERN",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden_ability": "Early Bird"
+  },
+  "SPECIES_SUNFLORA": {
+   "num": 192,
+   "slug": "sunflora",
+   "name": "SUNFLORA",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden_ability": "Early Bird"
+  },
+  "SPECIES_YANMA": {
+   "num": 193,
+   "slug": "yanma",
+   "name": "YANMA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Speed Boost",
+    "Compound Eyes"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_WOOPER": {
+   "num": 194,
+   "slug": "wooper",
+   "name": "WOOPER",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Damp",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Unaware"
+  },
+  "SPECIES_QUAGSIRE": {
+   "num": 195,
+   "slug": "quagsire",
+   "name": "QUAGSIRE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Damp",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Unaware"
+  },
+  "SPECIES_ESPEON": {
+   "num": 196,
+   "slug": "espeon",
+   "name": "ESPEON",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Synchronize"
+   ],
+   "hidden_ability": "Magic Bounce"
+  },
+  "SPECIES_UMBREON": {
+   "num": 197,
+   "slug": "umbreon",
+   "name": "UMBREON",
+   "regional": null,
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Synchronize",
+    "Synchronize"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_MURKROW": {
+   "num": 198,
+   "slug": "murkrow",
+   "name": "MURKROW",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "source_types": [
+    "Dark",
+    "Flying"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Super Luck"
+   ],
+   "hidden_ability": "Prankster"
+  },
+  "SPECIES_SLOWKING": {
+   "num": 199,
+   "slug": "slowking",
+   "name": "SLOWKING",
+   "regional": null,
+   "types": [
+    "Water",
+    "Psychic"
+   ],
+   "source_types": [
+    "Water",
+    "Psychic"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_MISDREAVUS": {
+   "num": 200,
+   "slug": "misdreavus",
+   "name": "MISDREAVUS",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_UNOWN": {
+   "num": 201,
+   "slug": "unown",
+   "name": "UNOWN",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_WOBBUFFET": {
+   "num": 202,
+   "slug": "wobbuffet",
+   "name": "WOBBUFFET",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Shadow Tag"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_GIRAFARIG": {
+   "num": 203,
+   "slug": "girafarig",
+   "name": "GIRAFARIG",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "source_types": [
+    "Normal",
+    "Psychic"
+   ],
+   "abilities": [
+    "Inner Focus",
+    "Early Bird"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_PINECO": {
+   "num": 204,
+   "slug": "pineco",
+   "name": "PINECO",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden_ability": "Overcoat"
+  },
+  "SPECIES_FORRETRESS": {
+   "num": 205,
+   "slug": "forretress",
+   "name": "FORRETRESS",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Steel"
+   ],
+   "source_types": [
+    "Bug",
+    "Steel"
+   ],
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden_ability": "Overcoat"
+  },
+  "SPECIES_DUNSPARCE": {
+   "num": 206,
+   "slug": "dunsparce",
+   "name": "DUNSPARCE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Serene Grace",
+    "Run Away"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_GLIGAR": {
+   "num": 207,
+   "slug": "gligar",
+   "name": "GLIGAR",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Flying"
+   ],
+   "source_types": [
+    "Ground",
+    "Flying"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Sand Veil"
+   ],
+   "hidden_ability": "Immunity"
+  },
+  "SPECIES_STEELIX": {
+   "num": 208,
+   "slug": "steelix",
+   "name": "STEELIX",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Ground"
+   ],
+   "source_types": [
+    "Steel",
+    "Ground"
+   ],
+   "abilities": [
+    "Rock Head",
+    "Sturdy"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_SNUBBULL": {
+   "num": 209,
+   "slug": "snubbull",
+   "name": "SNUBBULL",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": [
+    "Fairy"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Run Away"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_GRANBULL": {
+   "num": 210,
+   "slug": "granbull",
+   "name": "GRANBULL",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": [
+    "Fairy"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Quick Feet"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_QWILFISH": {
+   "num": 211,
+   "slug": "qwilfish",
+   "name": "QWILFISH",
+   "regional": null,
+   "types": [
+    "Water",
+    "Poison"
+   ],
+   "source_types": [
+    "Water",
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden_ability": "Intimidate"
+  },
+  "SPECIES_SCIZOR": {
+   "num": 212,
+   "slug": "scizor",
+   "name": "SCIZOR",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Steel"
+   ],
+   "source_types": [
+    "Bug",
+    "Steel"
+   ],
+   "abilities": [
+    "Swarm",
+    "Technician"
+   ],
+   "hidden_ability": "Light Metal"
+  },
+  "SPECIES_SHUCKLE": {
+   "num": 213,
+   "slug": "shuckle",
+   "name": "SHUCKLE",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Rock"
+   ],
+   "source_types": [
+    "Bug",
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Gluttony"
+   ],
+   "hidden_ability": "Contrary"
+  },
+  "SPECIES_HERACROSS": {
+   "num": 214,
+   "slug": "heracross",
+   "name": "HERACROSS",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Fighting"
+   ],
+   "source_types": [
+    "Bug",
+    "Fighting"
+   ],
+   "abilities": [
+    "Swarm",
+    "Guts"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_SNEASEL": {
+   "num": 215,
+   "slug": "sneasel",
+   "name": "SNEASEL",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Ice"
+   ],
+   "source_types": [
+    "Dark",
+    "Ice"
+   ],
+   "abilities": [
+    "Inner Focus",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_TEDDIURSA": {
+   "num": 216,
+   "slug": "teddiursa",
+   "name": "TEDDIURSA",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Quick Feet"
+   ],
+   "hidden_ability": "Honey Gather"
+  },
+  "SPECIES_URSARING": {
+   "num": 217,
+   "slug": "ursaring",
+   "name": "URSARING",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Guts",
+    "Quick Feet"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_SLUGMA": {
+   "num": 218,
+   "slug": "slugma",
+   "name": "SLUGMA",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_MAGCARGO": {
+   "num": 219,
+   "slug": "magcargo",
+   "name": "MAGCARGO",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Rock"
+   ],
+   "source_types": [
+    "Fire",
+    "Rock"
+   ],
+   "abilities": [
+    "Magma Armor",
+    "Flame Body"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_SWINUB": {
+   "num": 220,
+   "slug": "swinub",
+   "name": "SWINUB",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Ground"
+   ],
+   "source_types": [
+    "Ice",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Thick Fat"
+  },
+  "SPECIES_PILOSWINE": {
+   "num": 221,
+   "slug": "piloswine",
+   "name": "PILOSWINE",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Ground"
+   ],
+   "source_types": [
+    "Ice",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Thick Fat"
+  },
+  "SPECIES_CORSOLA": {
+   "num": 222,
+   "slug": "corsola",
+   "name": "CORSOLA",
+   "regional": null,
+   "types": [
+    "Water",
+    "Rock"
+   ],
+   "source_types": [
+    "Water",
+    "Rock"
+   ],
+   "abilities": [
+    "Hustle",
+    "Natural Cure"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_REMORAID": {
+   "num": 223,
+   "slug": "remoraid",
+   "name": "REMORAID",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Hustle",
+    "Sniper"
+   ],
+   "hidden_ability": "Moody"
+  },
+  "SPECIES_OCTILLERY": {
+   "num": 224,
+   "slug": "octillery",
+   "name": "OCTILLERY",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Suction Cups",
+    "Sniper"
+   ],
+   "hidden_ability": "Moody"
+  },
+  "SPECIES_DELIBIRD": {
+   "num": 225,
+   "slug": "delibird",
+   "name": "DELIBIRD",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Flying"
+   ],
+   "source_types": [
+    "Ice",
+    "Flying"
+   ],
+   "abilities": [
+    "Vital Spirit",
+    "Hustle"
+   ],
+   "hidden_ability": "Insomnia"
+  },
+  "SPECIES_MANTINE": {
+   "num": 226,
+   "slug": "mantine",
+   "name": "MANTINE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "source_types": [
+    "Water",
+    "Flying"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Water Veil"
+  },
+  "SPECIES_SKARMORY": {
+   "num": 227,
+   "slug": "skarmory",
+   "name": "SKARMORY",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Flying"
+   ],
+   "source_types": [
+    "Steel",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Sturdy"
+   ],
+   "hidden_ability": "Weak Armor"
+  },
+  "SPECIES_HOUNDOUR": {
+   "num": 228,
+   "slug": "houndour",
+   "name": "HOUNDOUR",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Fire"
+   ],
+   "source_types": [
+    "Dark",
+    "Fire"
+   ],
+   "abilities": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_HOUNDOOM": {
+   "num": 229,
+   "slug": "houndoom",
+   "name": "HOUNDOOM",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Fire"
+   ],
+   "source_types": [
+    "Dark",
+    "Fire"
+   ],
+   "abilities": [
+    "Early Bird",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_KINGDRA": {
+   "num": 230,
+   "slug": "kingdra",
+   "name": "KINGDRA",
+   "regional": null,
+   "types": [
+    "Water",
+    "Dragon"
+   ],
+   "source_types": [
+    "Water",
+    "Dragon"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Sniper"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_PHANPY": {
+   "num": 231,
+   "slug": "phanpy",
+   "name": "PHANPY",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Pickup"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_DONPHAN": {
+   "num": 232,
+   "slug": "donphan",
+   "name": "DONPHAN",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Sturdy"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_PORYGON2": {
+   "num": 233,
+   "slug": "porygon2",
+   "name": "PORYGON2",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Trace",
+    "Download"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_STANTLER": {
+   "num": 234,
+   "slug": "stantler",
+   "name": "STANTLER",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Frisk"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_SMEARGLE": {
+   "num": 235,
+   "slug": "smeargle",
+   "name": "SMEARGLE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Own Tempo",
+    "Technician"
+   ],
+   "hidden_ability": "Moody"
+  },
+  "SPECIES_TYROGUE": {
+   "num": 236,
+   "slug": "tyrogue",
+   "name": "TYROGUE",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Guts",
+    "Steadfast"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_HITMONTOP": {
+   "num": 237,
+   "slug": "hitmontop",
+   "name": "HITMONTOP",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Technician"
+   ],
+   "hidden_ability": "Steadfast"
+  },
+  "SPECIES_SMOOCHUM": {
+   "num": 238,
+   "slug": "smoochum",
+   "name": "SMOOCHUM",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ice",
+    "Psychic"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Forewarn"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_ELEKID": {
+   "num": 239,
+   "slug": "elekid",
+   "name": "ELEKID",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_MAGBY": {
+   "num": 240,
+   "slug": "magby",
+   "name": "MAGBY",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_MILTANK": {
+   "num": 241,
+   "slug": "miltank",
+   "name": "MILTANK",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Scrappy"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_BLISSEY": {
+   "num": 242,
+   "slug": "blissey",
+   "name": "BLISSEY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Healer"
+  },
+  "SPECIES_RAIKOU": {
+   "num": 243,
+   "slug": "raikou",
+   "name": "RAIKOU",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_ENTEI": {
+   "num": 244,
+   "slug": "entei",
+   "name": "ENTEI",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_SUICUNE": {
+   "num": 245,
+   "slug": "suicune",
+   "name": "SUICUNE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Inner Focus"
+  },
+  "SPECIES_LARVITAR": {
+   "num": 246,
+   "slug": "larvitar",
+   "name": "LARVITAR",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Guts"
+   ],
+   "hidden_ability": "Sand Veil"
+  },
+  "SPECIES_PUPITAR": {
+   "num": 247,
+   "slug": "pupitar",
+   "name": "PUPITAR",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Ground"
+   ],
+   "source_types": [
+    "Rock",
+    "Ground"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_TYRANITAR": {
+   "num": 248,
+   "slug": "tyranitar",
+   "name": "TYRANITAR",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Dark"
+   ],
+   "source_types": [
+    "Rock",
+    "Dark"
+   ],
+   "abilities": [
+    "Sand Stream"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_LUGIA": {
+   "num": 249,
+   "slug": "lugia",
+   "name": "LUGIA",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Flying"
+   ],
+   "source_types": [
+    "Psychic",
+    "Flying"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Multiscale"
+  },
+  "SPECIES_HO_OH": {
+   "num": 250,
+   "slug": "ho-oh",
+   "name": "HO-OH",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Flying"
+   ],
+   "source_types": [
+    "Fire",
+    "Flying"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_CELEBI": {
+   "num": 251,
+   "slug": "celebi",
+   "name": "CELEBI",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Grass"
+   ],
+   "source_types": [
+    "Psychic",
+    "Grass"
+   ],
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_TREECKO": {
+   "num": 252,
+   "slug": "treecko",
+   "name": "TREECKO",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Unburden"
+  },
+  "SPECIES_GROVYLE": {
+   "num": 253,
+   "slug": "grovyle",
+   "name": "GROVYLE",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Unburden"
+  },
+  "SPECIES_SCEPTILE": {
+   "num": 254,
+   "slug": "sceptile",
+   "name": "SCEPTILE",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Overgrow"
+   ],
+   "hidden_ability": "Unburden"
+  },
+  "SPECIES_TORCHIC": {
+   "num": 255,
+   "slug": "torchic",
+   "name": "TORCHIC",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Speed Boost"
+  },
+  "SPECIES_COMBUSKEN": {
+   "num": 256,
+   "slug": "combusken",
+   "name": "COMBUSKEN",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Fighting"
+   ],
+   "source_types": [
+    "Fire",
+    "Fighting"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Speed Boost"
+  },
+  "SPECIES_BLAZIKEN": {
+   "num": 257,
+   "slug": "blaziken",
+   "name": "BLAZIKEN",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Fighting"
+   ],
+   "source_types": [
+    "Fire",
+    "Fighting"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Speed Boost"
+  },
+  "SPECIES_MUDKIP": {
+   "num": 258,
+   "slug": "mudkip",
+   "name": "MUDKIP",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_MARSHTOMP": {
+   "num": 259,
+   "slug": "marshtomp",
+   "name": "MARSHTOMP",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_SWAMPERT": {
+   "num": 260,
+   "slug": "swampert",
+   "name": "SWAMPERT",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Torrent"
+   ],
+   "hidden_ability": "Damp"
+  },
+  "SPECIES_POOCHYENA": {
+   "num": 261,
+   "slug": "poochyena",
+   "name": "POOCHYENA",
+   "regional": null,
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Run Away",
+    "Quick Feet"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_MIGHTYENA": {
+   "num": 262,
+   "slug": "mightyena",
+   "name": "MIGHTYENA",
+   "regional": null,
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Quick Feet"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_ZIGZAGOON": {
+   "num": 263,
+   "slug": "zigzagoon",
+   "name": "ZIGZAGOON",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_LINOONE": {
+   "num": 264,
+   "slug": "linoone",
+   "name": "LINOONE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_WURMPLE": {
+   "num": 265,
+   "slug": "wurmple",
+   "name": "WURMPLE",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_SILCOON": {
+   "num": 266,
+   "slug": "silcoon",
+   "name": "SILCOON",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BEAUTIFLY": {
+   "num": 267,
+   "slug": "beautifly",
+   "name": "BEAUTIFLY",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Swarm"
+   ],
+   "hidden_ability": "Rivalry"
+  },
+  "SPECIES_CASCOON": {
+   "num": 268,
+   "slug": "cascoon",
+   "name": "CASCOON",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_DUSTOX": {
+   "num": 269,
+   "slug": "dustox",
+   "name": "DUSTOX",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Poison"
+   ],
+   "source_types": [
+    "Bug",
+    "Poison"
+   ],
+   "abilities": [
+    "Shield Dust"
+   ],
+   "hidden_ability": "Compound Eyes"
+  },
+  "SPECIES_LOTAD": {
+   "num": 270,
+   "slug": "lotad",
+   "name": "LOTAD",
+   "regional": null,
+   "types": [
+    "Water",
+    "Grass"
+   ],
+   "source_types": [
+    "Water",
+    "Grass"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden_ability": "Own Tempo"
+  },
+  "SPECIES_LOMBRE": {
+   "num": 271,
+   "slug": "lombre",
+   "name": "LOMBRE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Grass"
+   ],
+   "source_types": [
+    "Water",
+    "Grass"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden_ability": "Own Tempo"
+  },
+  "SPECIES_LUDICOLO": {
+   "num": 272,
+   "slug": "ludicolo",
+   "name": "LUDICOLO",
+   "regional": null,
+   "types": [
+    "Water",
+    "Grass"
+   ],
+   "source_types": [
+    "Water",
+    "Grass"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Rain Dish"
+   ],
+   "hidden_ability": "Own Tempo"
+  },
+  "SPECIES_SEEDOT": {
+   "num": 273,
+   "slug": "seedot",
+   "name": "SEEDOT",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Early Bird"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_NUZLEAF": {
+   "num": 274,
+   "slug": "nuzleaf",
+   "name": "NUZLEAF",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "source_types": [
+    "Grass",
+    "Dark"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Early Bird"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_SHIFTRY": {
+   "num": 275,
+   "slug": "shiftry",
+   "name": "SHIFTRY",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "source_types": [
+    "Grass",
+    "Dark"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Wind Rider"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_TAILLOW": {
+   "num": 276,
+   "slug": "taillow",
+   "name": "TAILLOW",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Guts"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_SWELLOW": {
+   "num": 277,
+   "slug": "swellow",
+   "name": "SWELLOW",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Guts"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_WINGULL": {
+   "num": 278,
+   "slug": "wingull",
+   "name": "WINGULL",
+   "regional": null,
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "source_types": [
+    "Water",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Hydration"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_PELIPPER": {
+   "num": 279,
+   "slug": "pelipper",
+   "name": "PELIPPER",
+   "regional": null,
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "source_types": [
+    "Water",
+    "Flying"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Drizzle"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_RALTS": {
+   "num": 280,
+   "slug": "ralts",
+   "name": "RALTS",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_KIRLIA": {
+   "num": 281,
+   "slug": "kirlia",
+   "name": "KIRLIA",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_GARDEVOIR": {
+   "num": 282,
+   "slug": "gardevoir",
+   "name": "GARDEVOIR",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Synchronize",
+    "Trace"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_SURSKIT": {
+   "num": 283,
+   "slug": "surskit",
+   "name": "SURSKIT",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Water"
+   ],
+   "source_types": [
+    "Bug",
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden_ability": "Rain Dish"
+  },
+  "SPECIES_MASQUERAIN": {
+   "num": 284,
+   "slug": "masquerain",
+   "name": "MASQUERAIN",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_SHROOMISH": {
+   "num": 285,
+   "slug": "shroomish",
+   "name": "SHROOMISH",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_BRELOOM": {
+   "num": 286,
+   "slug": "breloom",
+   "name": "BRELOOM",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Fighting"
+   ],
+   "source_types": [
+    "Grass",
+    "Fighting"
+   ],
+   "abilities": [
+    "Effect Spore",
+    "Poison Heal"
+   ],
+   "hidden_ability": "Technician"
+  },
+  "SPECIES_SLAKOTH": {
+   "num": 287,
+   "slug": "slakoth",
+   "name": "SLAKOTH",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Truant"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_VIGOROTH": {
+   "num": 288,
+   "slug": "vigoroth",
+   "name": "VIGOROTH",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Vital Spirit"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_SLAKING": {
+   "num": 289,
+   "slug": "slaking",
+   "name": "SLAKING",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Truant"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_NINCADA": {
+   "num": 290,
+   "slug": "nincada",
+   "name": "NINCADA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Ground"
+   ],
+   "source_types": [
+    "Bug",
+    "Ground"
+   ],
+   "abilities": [
+    "Compound Eyes"
+   ],
+   "hidden_ability": "Run Away"
+  },
+  "SPECIES_NINJASK": {
+   "num": 291,
+   "slug": "ninjask",
+   "name": "NINJASK",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Speed Boost"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_SHEDINJA": {
+   "num": 292,
+   "slug": "shedinja",
+   "name": "SHEDINJA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Ghost"
+   ],
+   "source_types": [
+    "Bug",
+    "Ghost"
+   ],
+   "abilities": [
+    "Wonder Guard"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_WHISMUR": {
+   "num": 293,
+   "slug": "whismur",
+   "name": "WHISMUR",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_LOUDRED": {
+   "num": 294,
+   "slug": "loudred",
+   "name": "LOUDRED",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_EXPLOUD": {
+   "num": 295,
+   "slug": "exploud",
+   "name": "EXPLOUD",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Soundproof"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_MAKUHITA": {
+   "num": 296,
+   "slug": "makuhita",
+   "name": "MAKUHITA",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Guts"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_HARIYAMA": {
+   "num": 297,
+   "slug": "hariyama",
+   "name": "HARIYAMA",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Guts"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_AZURILL": {
+   "num": 298,
+   "slug": "azurill",
+   "name": "AZURILL",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Fairy"
+   ],
+   "source_types": [
+    "Normal",
+    "Fairy"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Huge Power"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_NOSEPASS": {
+   "num": 299,
+   "slug": "nosepass",
+   "name": "NOSEPASS",
+   "regional": null,
+   "types": [
+    "Rock"
+   ],
+   "source_types": [
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Magnet Pull"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_SKITTY": {
+   "num": 300,
+   "slug": "skitty",
+   "name": "SKITTY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Cute Charm",
+    "Normalize"
+   ],
+   "hidden_ability": "Wonder Skin"
+  },
+  "SPECIES_DELCATTY": {
+   "num": 301,
+   "slug": "delcatty",
+   "name": "DELCATTY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Cute Charm",
+    "Normalize"
+   ],
+   "hidden_ability": "Wonder Skin"
+  },
+  "SPECIES_SABLEYE": {
+   "num": 302,
+   "slug": "sableye",
+   "name": "SABLEYE",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Ghost"
+   ],
+   "source_types": [
+    "Dark",
+    "Ghost"
+   ],
+   "abilities": [
+    "Keen Eye",
+    "Stall"
+   ],
+   "hidden_ability": "Prankster"
+  },
+  "SPECIES_MAWILE": {
+   "num": 303,
+   "slug": "mawile",
+   "name": "MAWILE",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Fairy"
+   ],
+   "source_types": [
+    "Steel",
+    "Fairy"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Intimidate"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_ARON": {
+   "num": 304,
+   "slug": "aron",
+   "name": "ARON",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Rock"
+   ],
+   "source_types": [
+    "Steel",
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden_ability": "Heavy Metal"
+  },
+  "SPECIES_LAIRON": {
+   "num": 305,
+   "slug": "lairon",
+   "name": "LAIRON",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Rock"
+   ],
+   "source_types": [
+    "Steel",
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden_ability": "Heavy Metal"
+  },
+  "SPECIES_AGGRON": {
+   "num": 306,
+   "slug": "aggron",
+   "name": "AGGRON",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Rock"
+   ],
+   "source_types": [
+    "Steel",
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden_ability": "Heavy Metal"
+  },
+  "SPECIES_MEDITITE": {
+   "num": 307,
+   "slug": "meditite",
+   "name": "MEDITITE",
+   "regional": null,
+   "types": [
+    "Fighting",
+    "Psychic"
+   ],
+   "source_types": [
+    "Fighting",
+    "Psychic"
+   ],
+   "abilities": [
+    "Pure Power"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_MEDICHAM": {
+   "num": 308,
+   "slug": "medicham",
+   "name": "MEDICHAM",
+   "regional": null,
+   "types": [
+    "Fighting",
+    "Psychic"
+   ],
+   "source_types": [
+    "Fighting",
+    "Psychic"
+   ],
+   "abilities": [
+    "Pure Power"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_ELECTRIKE": {
+   "num": 309,
+   "slug": "electrike",
+   "name": "ELECTRIKE",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden_ability": "Minus"
+  },
+  "SPECIES_MANECTRIC": {
+   "num": 310,
+   "slug": "manectric",
+   "name": "MANECTRIC",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Static",
+    "Lightning Rod"
+   ],
+   "hidden_ability": "Minus"
+  },
+  "SPECIES_PLUSLE": {
+   "num": 311,
+   "slug": "plusle",
+   "name": "PLUSLE",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Plus"
+   ],
+   "hidden_ability": "Lightning Rod"
+  },
+  "SPECIES_MINUN": {
+   "num": 312,
+   "slug": "minun",
+   "name": "MINUN",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Minus"
+   ],
+   "hidden_ability": "Volt Absorb"
+  },
+  "SPECIES_VOLBEAT": {
+   "num": 313,
+   "slug": "volbeat",
+   "name": "VOLBEAT",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Illuminate",
+    "Swarm"
+   ],
+   "hidden_ability": "Prankster"
+  },
+  "SPECIES_ILLUMISE": {
+   "num": 314,
+   "slug": "illumise",
+   "name": "ILLUMISE",
+   "regional": null,
+   "types": [
+    "Bug"
+   ],
+   "source_types": [
+    "Bug"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Tinted Lens"
+   ],
+   "hidden_ability": "Prankster"
+  },
+  "SPECIES_ROSELIA": {
+   "num": 315,
+   "slug": "roselia",
+   "name": "ROSELIA",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden_ability": "Leaf Guard"
+  },
+  "SPECIES_GULPIN": {
+   "num": 316,
+   "slug": "gulpin",
+   "name": "GULPIN",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Liquid Ooze",
+    "Sticky Hold"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_SWALOT": {
+   "num": 317,
+   "slug": "swalot",
+   "name": "SWALOT",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Liquid Ooze",
+    "Sticky Hold"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_CARVANHA": {
+   "num": 318,
+   "slug": "carvanha",
+   "name": "CARVANHA",
+   "regional": null,
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "source_types": [
+    "Water",
+    "Dark"
+   ],
+   "abilities": [
+    "Rough Skin"
+   ],
+   "hidden_ability": "Speed Boost"
+  },
+  "SPECIES_SHARPEDO": {
+   "num": 319,
+   "slug": "sharpedo",
+   "name": "SHARPEDO",
+   "regional": null,
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "source_types": [
+    "Water",
+    "Dark"
+   ],
+   "abilities": [
+    "Rough Skin"
+   ],
+   "hidden_ability": "Speed Boost"
+  },
+  "SPECIES_WAILMER": {
+   "num": 320,
+   "slug": "wailmer",
+   "name": "WAILMER",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Veil",
+    "Oblivious"
+   ],
+   "hidden_ability": "Pressure"
+  },
+  "SPECIES_WAILORD": {
+   "num": 321,
+   "slug": "wailord",
+   "name": "WAILORD",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Water Veil",
+    "Oblivious"
+   ],
+   "hidden_ability": "Pressure"
+  },
+  "SPECIES_NUMEL": {
+   "num": 322,
+   "slug": "numel",
+   "name": "NUMEL",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Ground"
+   ],
+   "source_types": [
+    "Fire",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Simple"
+   ],
+   "hidden_ability": "Own Tempo"
+  },
+  "SPECIES_CAMERUPT": {
+   "num": 323,
+   "slug": "camerupt",
+   "name": "CAMERUPT",
+   "regional": null,
+   "types": [
+    "Fire",
+    "Ground"
+   ],
+   "source_types": [
+    "Fire",
+    "Ground"
+   ],
+   "abilities": [
+    "Magma Armor",
+    "Solid Rock"
+   ],
+   "hidden_ability": "Anger Point"
+  },
+  "SPECIES_TORKOAL": {
+   "num": 324,
+   "slug": "torkoal",
+   "name": "TORKOAL",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "White Smoke",
+    "Drought"
+   ],
+   "hidden_ability": "Shell Armor"
+  },
+  "SPECIES_SPOINK": {
+   "num": 325,
+   "slug": "spoink",
+   "name": "SPOINK",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_GRUMPIG": {
+   "num": 326,
+   "slug": "grumpig",
+   "name": "GRUMPIG",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_SPINDA": {
+   "num": 327,
+   "slug": "spinda",
+   "name": "SPINDA",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Own Tempo",
+    "Tangled Feet"
+   ],
+   "hidden_ability": "Contrary"
+  },
+  "SPECIES_TRAPINCH": {
+   "num": 328,
+   "slug": "trapinch",
+   "name": "TRAPINCH",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Arena Trap"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_VIBRAVA": {
+   "num": 329,
+   "slug": "vibrava",
+   "name": "VIBRAVA",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Dragon"
+   ],
+   "source_types": [
+    "Ground",
+    "Dragon"
+   ],
+   "abilities": [
+    "Levitate",
+    "Levitate"
+   ],
+   "hidden_ability": "Levitate"
+  },
+  "SPECIES_FLYGON": {
+   "num": 330,
+   "slug": "flygon",
+   "name": "FLYGON",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Dragon"
+   ],
+   "source_types": [
+    "Ground",
+    "Dragon"
+   ],
+   "abilities": [
+    "Levitate",
+    "Levitate"
+   ],
+   "hidden_ability": "Levitate"
+  },
+  "SPECIES_CACNEA": {
+   "num": 331,
+   "slug": "cacnea",
+   "name": "CACNEA",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden_ability": "Water Absorb"
+  },
+  "SPECIES_CACTURNE": {
+   "num": 332,
+   "slug": "cacturne",
+   "name": "CACTURNE",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Dark"
+   ],
+   "source_types": [
+    "Grass",
+    "Dark"
+   ],
+   "abilities": [
+    "Sand Veil"
+   ],
+   "hidden_ability": "Water Absorb"
+  },
+  "SPECIES_SWABLU": {
+   "num": 333,
+   "slug": "swablu",
+   "name": "SWABLU",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Flying"
+   ],
+   "source_types": [
+    "Normal",
+    "Flying"
+   ],
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden_ability": "Cloud Nine"
+  },
+  "SPECIES_ALTARIA": {
+   "num": 334,
+   "slug": "altaria",
+   "name": "ALTARIA",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "source_types": [
+    "Dragon",
+    "Flying"
+   ],
+   "abilities": [
+    "Natural Cure"
+   ],
+   "hidden_ability": "Cloud Nine"
+  },
+  "SPECIES_ZANGOOSE": {
+   "num": 335,
+   "slug": "zangoose",
+   "name": "ZANGOOSE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Immunity"
+   ],
+   "hidden_ability": "Toxic Boost"
+  },
+  "SPECIES_SEVIPER": {
+   "num": 336,
+   "slug": "seviper",
+   "name": "SEVIPER",
+   "regional": null,
+   "types": [
+    "Poison"
+   ],
+   "source_types": [
+    "Poison"
+   ],
+   "abilities": [
+    "Shed Skin"
+   ],
+   "hidden_ability": "Infiltrator"
+  },
+  "SPECIES_LUNATONE": {
+   "num": 337,
+   "slug": "lunatone",
+   "name": "LUNATONE",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Psychic"
+   ],
+   "source_types": [
+    "Rock",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_SOLROCK": {
+   "num": 338,
+   "slug": "solrock",
+   "name": "SOLROCK",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Psychic"
+   ],
+   "source_types": [
+    "Rock",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BARBOACH": {
+   "num": 339,
+   "slug": "barboach",
+   "name": "BARBOACH",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Anticipation"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_WHISCASH": {
+   "num": 340,
+   "slug": "whiscash",
+   "name": "WHISCASH",
+   "regional": null,
+   "types": [
+    "Water",
+    "Ground"
+   ],
+   "source_types": [
+    "Water",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Anticipation"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_CORPHISH": {
+   "num": 341,
+   "slug": "corphish",
+   "name": "CORPHISH",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Adaptability"
+  },
+  "SPECIES_CRAWDAUNT": {
+   "num": 342,
+   "slug": "crawdaunt",
+   "name": "CRAWDAUNT",
+   "regional": null,
+   "types": [
+    "Water",
+    "Dark"
+   ],
+   "source_types": [
+    "Water",
+    "Dark"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Shell Armor"
+   ],
+   "hidden_ability": "Adaptability"
+  },
+  "SPECIES_BALTOY": {
+   "num": 343,
+   "slug": "baltoy",
+   "name": "BALTOY",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ground",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_CLAYDOL": {
+   "num": 344,
+   "slug": "claydol",
+   "name": "CLAYDOL",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ground",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_LILEEP": {
+   "num": 345,
+   "slug": "lileep",
+   "name": "LILEEP",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Grass"
+   ],
+   "source_types": [
+    "Rock",
+    "Grass"
+   ],
+   "abilities": [
+    "Suction Cups"
+   ],
+   "hidden_ability": "Storm Drain"
+  },
+  "SPECIES_CRADILY": {
+   "num": 346,
+   "slug": "cradily",
+   "name": "CRADILY",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Grass"
+   ],
+   "source_types": [
+    "Rock",
+    "Grass"
+   ],
+   "abilities": [
+    "Suction Cups"
+   ],
+   "hidden_ability": "Storm Drain"
+  },
+  "SPECIES_ANORITH": {
+   "num": 347,
+   "slug": "anorith",
+   "name": "ANORITH",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Bug"
+   ],
+   "source_types": [
+    "Rock",
+    "Bug"
+   ],
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_ARMALDO": {
+   "num": 348,
+   "slug": "armaldo",
+   "name": "ARMALDO",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Bug"
+   ],
+   "source_types": [
+    "Rock",
+    "Bug"
+   ],
+   "abilities": [
+    "Battle Armor"
+   ],
+   "hidden_ability": "Swift Swim"
+  },
+  "SPECIES_FEEBAS": {
+   "num": 349,
+   "slug": "feebas",
+   "name": "FEEBAS",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Oblivious"
+   ],
+   "hidden_ability": "Adaptability"
+  },
+  "SPECIES_MILOTIC": {
+   "num": 350,
+   "slug": "milotic",
+   "name": "MILOTIC",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Marvel Scale",
+    "Competitive"
+   ],
+   "hidden_ability": "Cute Charm"
+  },
+  "SPECIES_CASTFORM_NORMAL": {
+   "num": 351,
+   "slug": "castform",
+   "name": "CASTFORM",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Forecast"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_KECLEON": {
+   "num": 352,
+   "slug": "kecleon",
+   "name": "KECLEON",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Color Change"
+   ],
+   "hidden_ability": "Protean"
+  },
+  "SPECIES_SHUPPET": {
+   "num": 353,
+   "slug": "shuppet",
+   "name": "SHUPPET",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Frisk"
+   ],
+   "hidden_ability": "Cursed Body"
+  },
+  "SPECIES_BANETTE": {
+   "num": 354,
+   "slug": "banette",
+   "name": "BANETTE",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Frisk"
+   ],
+   "hidden_ability": "Cursed Body"
+  },
+  "SPECIES_DUSKULL": {
+   "num": 355,
+   "slug": "duskull",
+   "name": "DUSKULL",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_DUSCLOPS": {
+   "num": 356,
+   "slug": "dusclops",
+   "name": "DUSCLOPS",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_TROPIUS": {
+   "num": 357,
+   "slug": "tropius",
+   "name": "TROPIUS",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Flying"
+   ],
+   "source_types": [
+    "Grass",
+    "Flying"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Solar Power"
+   ],
+   "hidden_ability": "Harvest"
+  },
+  "SPECIES_CHIMECHO": {
+   "num": 358,
+   "slug": "chimecho",
+   "name": "CHIMECHO",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_ABSOL": {
+   "num": 359,
+   "slug": "absol",
+   "name": "ABSOL",
+   "regional": null,
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Pressure",
+    "Super Luck"
+   ],
+   "hidden_ability": "Justified"
+  },
+  "SPECIES_WYNAUT": {
+   "num": 360,
+   "slug": "wynaut",
+   "name": "WYNAUT",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Shadow Tag"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_SNORUNT": {
+   "num": 361,
+   "slug": "snorunt",
+   "name": "SNORUNT",
+   "regional": null,
+   "types": [
+    "Ice"
+   ],
+   "source_types": [
+    "Ice"
+   ],
+   "abilities": [
+    "Inner Focus",
+    "Ice Body"
+   ],
+   "hidden_ability": "Moody"
+  },
+  "SPECIES_GLALIE": {
+   "num": 362,
+   "slug": "glalie",
+   "name": "GLALIE",
+   "regional": null,
+   "types": [
+    "Ice"
+   ],
+   "source_types": [
+    "Ice"
+   ],
+   "abilities": [
+    "Inner Focus",
+    "Ice Body"
+   ],
+   "hidden_ability": "Moody"
+  },
+  "SPECIES_SPHEAL": {
+   "num": 363,
+   "slug": "spheal",
+   "name": "SPHEAL",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Water"
+   ],
+   "source_types": [
+    "Ice",
+    "Water"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden_ability": "Oblivious"
+  },
+  "SPECIES_SEALEO": {
+   "num": 364,
+   "slug": "sealeo",
+   "name": "SEALEO",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Water"
+   ],
+   "source_types": [
+    "Ice",
+    "Water"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden_ability": "Oblivious"
+  },
+  "SPECIES_WALREIN": {
+   "num": 365,
+   "slug": "walrein",
+   "name": "WALREIN",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Water"
+   ],
+   "source_types": [
+    "Ice",
+    "Water"
+   ],
+   "abilities": [
+    "Thick Fat",
+    "Ice Body"
+   ],
+   "hidden_ability": "Oblivious"
+  },
+  "SPECIES_CLAMPERL": {
+   "num": 366,
+   "slug": "clamperl",
+   "name": "CLAMPERL",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Shell Armor"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_HUNTAIL": {
+   "num": 367,
+   "slug": "huntail",
+   "name": "HUNTAIL",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden_ability": "Water Veil"
+  },
+  "SPECIES_GOREBYSS": {
+   "num": 368,
+   "slug": "gorebyss",
+   "name": "GOREBYSS",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_RELICANTH": {
+   "num": 369,
+   "slug": "relicanth",
+   "name": "RELICANTH",
+   "regional": null,
+   "types": [
+    "Water",
+    "Rock"
+   ],
+   "source_types": [
+    "Water",
+    "Rock"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Rock Head"
+   ],
+   "hidden_ability": "Sturdy"
+  },
+  "SPECIES_LUVDISC": {
+   "num": 370,
+   "slug": "luvdisc",
+   "name": "LUVDISC",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Swift Swim"
+   ],
+   "hidden_ability": "Hydration"
+  },
+  "SPECIES_BAGON": {
+   "num": 371,
+   "slug": "bagon",
+   "name": "BAGON",
+   "regional": null,
+   "types": [
+    "Dragon"
+   ],
+   "source_types": [
+    "Dragon"
+   ],
+   "abilities": [
+    "Rock Head"
+   ],
+   "hidden_ability": "Sheer Force"
+  },
+  "SPECIES_SHELGON": {
+   "num": 372,
+   "slug": "shelgon",
+   "name": "SHELGON",
+   "regional": null,
+   "types": [
+    "Dragon"
+   ],
+   "source_types": [
+    "Dragon"
+   ],
+   "abilities": [
+    "Rock Head"
+   ],
+   "hidden_ability": "Overcoat"
+  },
+  "SPECIES_SALAMENCE": {
+   "num": 373,
+   "slug": "salamence",
+   "name": "SALAMENCE",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "source_types": [
+    "Dragon",
+    "Flying"
+   ],
+   "abilities": [
+    "Intimidate"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_BELDUM": {
+   "num": 374,
+   "slug": "beldum",
+   "name": "BELDUM",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "source_types": [
+    "Steel",
+    "Psychic"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Light Metal"
+  },
+  "SPECIES_METANG": {
+   "num": 375,
+   "slug": "metang",
+   "name": "METANG",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "source_types": [
+    "Steel",
+    "Psychic"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Light Metal"
+  },
+  "SPECIES_METAGROSS": {
+   "num": 376,
+   "slug": "metagross",
+   "name": "METAGROSS",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "source_types": [
+    "Steel",
+    "Psychic"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Light Metal"
+  },
+  "SPECIES_REGIROCK": {
+   "num": 377,
+   "slug": "regirock",
+   "name": "REGIROCK",
+   "regional": null,
+   "types": [
+    "Rock"
+   ],
+   "source_types": [
+    "Rock"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Sturdy"
+  },
+  "SPECIES_REGICE": {
+   "num": 378,
+   "slug": "regice",
+   "name": "REGICE",
+   "regional": null,
+   "types": [
+    "Ice"
+   ],
+   "source_types": [
+    "Ice"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_REGISTEEL": {
+   "num": 379,
+   "slug": "registeel",
+   "name": "REGISTEEL",
+   "regional": null,
+   "types": [
+    "Steel"
+   ],
+   "source_types": [
+    "Steel"
+   ],
+   "abilities": [
+    "Clear Body"
+   ],
+   "hidden_ability": "Light Metal"
+  },
+  "SPECIES_LATIAS": {
+   "num": 380,
+   "slug": "latias",
+   "name": "LATIAS",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Psychic"
+   ],
+   "source_types": [
+    "Dragon",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_LATIOS": {
+   "num": 381,
+   "slug": "latios",
+   "name": "LATIOS",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Psychic"
+   ],
+   "source_types": [
+    "Dragon",
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_KYOGRE": {
+   "num": 382,
+   "slug": "kyogre",
+   "name": "KYOGRE",
+   "regional": null,
+   "types": [
+    "Water"
+   ],
+   "source_types": [
+    "Water"
+   ],
+   "abilities": [
+    "Drizzle"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_GROUDON": {
+   "num": 383,
+   "slug": "groudon",
+   "name": "GROUDON",
+   "regional": null,
+   "types": [
+    "Ground"
+   ],
+   "source_types": [
+    "Ground"
+   ],
+   "abilities": [
+    "Drought"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_RAYQUAZA": {
+   "num": 384,
+   "slug": "rayquaza",
+   "name": "RAYQUAZA",
+   "regional": null,
+   "types": [
+    "Dragon",
+    "Flying"
+   ],
+   "source_types": [
+    "Dragon",
+    "Flying"
+   ],
+   "abilities": [
+    "Air Lock"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_JIRACHI": {
+   "num": 385,
+   "slug": "jirachi",
+   "name": "JIRACHI",
+   "regional": null,
+   "types": [
+    "Steel",
+    "Psychic"
+   ],
+   "source_types": [
+    "Steel",
+    "Psychic"
+   ],
+   "abilities": [
+    "Serene Grace"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_DEOXYS_NORMAL": {
+   "num": 386,
+   "slug": "deoxys",
+   "name": "DEOXYS",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BUDEW": {
+   "num": 406,
+   "slug": "budew",
+   "name": "BUDEW",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden_ability": "Leaf Guard"
+  },
+  "SPECIES_ROSERADE": {
+   "num": 407,
+   "slug": "roserade",
+   "name": "ROSERADE",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Poison"
+   ],
+   "source_types": [
+    "Grass",
+    "Poison"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Poison Point"
+   ],
+   "hidden_ability": "Technician"
+  },
+  "SPECIES_AMBIPOM": {
+   "num": 424,
+   "slug": "ambipom",
+   "name": "AMBIPOM",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Technician",
+    "Pickup"
+   ],
+   "hidden_ability": "Skill Link"
+  },
+  "SPECIES_MISMAGIUS": {
+   "num": 429,
+   "slug": "mismagius",
+   "name": "MISMAGIUS",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_HONCHKROW": {
+   "num": 430,
+   "slug": "honchkrow",
+   "name": "HONCHKROW",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "source_types": [
+    "Dark",
+    "Flying"
+   ],
+   "abilities": [
+    "Insomnia",
+    "Super Luck"
+   ],
+   "hidden_ability": "Moxie"
+  },
+  "SPECIES_CHINGLING": {
+   "num": 433,
+   "slug": "chingling",
+   "name": "CHINGLING",
+   "regional": null,
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Levitate"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_BONSLY": {
+   "num": 438,
+   "slug": "bonsly",
+   "name": "BONSLY",
+   "regional": null,
+   "types": [
+    "Rock"
+   ],
+   "source_types": [
+    "Rock"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Rock Head"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_MIME_JR": {
+   "num": 439,
+   "slug": "mime-jr",
+   "name": "MIME JR.",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Filter"
+   ],
+   "hidden_ability": "Technician"
+  },
+  "SPECIES_HAPPINY": {
+   "num": 440,
+   "slug": "happiny",
+   "name": "HAPPINY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Natural Cure",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Friend Guard"
+  },
+  "SPECIES_MUNCHLAX": {
+   "num": 446,
+   "slug": "munchlax",
+   "name": "MUNCHLAX",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Thick Fat"
+   ],
+   "hidden_ability": "Gluttony"
+  },
+  "SPECIES_MANTYKE": {
+   "num": 458,
+   "slug": "mantyke",
+   "name": "MANTYKE",
+   "regional": null,
+   "types": [
+    "Water",
+    "Flying"
+   ],
+   "source_types": [
+    "Water",
+    "Flying"
+   ],
+   "abilities": [
+    "Swift Swim",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Water Veil"
+  },
+  "SPECIES_WEAVILE": {
+   "num": 461,
+   "slug": "weavile",
+   "name": "WEAVILE",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Ice"
+   ],
+   "source_types": [
+    "Dark",
+    "Ice"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_MAGNEZONE": {
+   "num": 462,
+   "slug": "magnezone",
+   "name": "MAGNEZONE",
+   "regional": null,
+   "types": [
+    "Electric",
+    "Steel"
+   ],
+   "source_types": [
+    "Electric",
+    "Steel"
+   ],
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_LICKILICKY": {
+   "num": 463,
+   "slug": "lickilicky",
+   "name": "LICKILICKY",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Own Tempo",
+    "Oblivious"
+   ],
+   "hidden_ability": "Cloud Nine"
+  },
+  "SPECIES_RHYPERIOR": {
+   "num": 464,
+   "slug": "rhyperior",
+   "name": "RHYPERIOR",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Rock"
+   ],
+   "source_types": [
+    "Ground",
+    "Rock"
+   ],
+   "abilities": [
+    "Lightning Rod",
+    "Solid Rock"
+   ],
+   "hidden_ability": "Reckless"
+  },
+  "SPECIES_TANGROWTH": {
+   "num": 465,
+   "slug": "tangrowth",
+   "name": "TANGROWTH",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Chlorophyll",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_ELECTIVIRE": {
+   "num": 466,
+   "slug": "electivire",
+   "name": "ELECTIVIRE",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Motor Drive"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_MAGMORTAR": {
+   "num": 467,
+   "slug": "magmortar",
+   "name": "MAGMORTAR",
+   "regional": null,
+   "types": [
+    "Fire"
+   ],
+   "source_types": [
+    "Fire"
+   ],
+   "abilities": [
+    "Flame Body"
+   ],
+   "hidden_ability": "Vital Spirit"
+  },
+  "SPECIES_TOGEKISS": {
+   "num": 468,
+   "slug": "togekiss",
+   "name": "TOGEKISS",
+   "regional": null,
+   "types": [
+    "Fairy",
+    "Flying"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Hustle",
+    "Serene Grace"
+   ],
+   "hidden_ability": "Super Luck"
+  },
+  "SPECIES_YANMEGA": {
+   "num": 469,
+   "slug": "yanmega",
+   "name": "YANMEGA",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Flying"
+   ],
+   "source_types": [
+    "Bug",
+    "Flying"
+   ],
+   "abilities": [
+    "Speed Boost",
+    "Tinted Lens"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_LEAFEON": {
+   "num": 470,
+   "slug": "leafeon",
+   "name": "LEAFEON",
+   "regional": null,
+   "types": [
+    "Grass"
+   ],
+   "source_types": [
+    "Grass"
+   ],
+   "abilities": [
+    "Leaf Guard",
+    "Leaf Guard"
+   ],
+   "hidden_ability": "Chlorophyll"
+  },
+  "SPECIES_GLACEON": {
+   "num": 471,
+   "slug": "glaceon",
+   "name": "GLACEON",
+   "regional": null,
+   "types": [
+    "Ice"
+   ],
+   "source_types": [
+    "Ice"
+   ],
+   "abilities": [
+    "Snow Cloak",
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_GLISCOR": {
+   "num": 472,
+   "slug": "gliscor",
+   "name": "GLISCOR",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Flying"
+   ],
+   "source_types": [
+    "Ground",
+    "Flying"
+   ],
+   "abilities": [
+    "Hyper Cutter",
+    "Sand Veil"
+   ],
+   "hidden_ability": "Poison Heal"
+  },
+  "SPECIES_MAMOSWINE": {
+   "num": 473,
+   "slug": "mamoswine",
+   "name": "MAMOSWINE",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Ground"
+   ],
+   "source_types": [
+    "Ice",
+    "Ground"
+   ],
+   "abilities": [
+    "Oblivious",
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Thick Fat"
+  },
+  "SPECIES_PORYGON_Z": {
+   "num": 474,
+   "slug": "porygon-z",
+   "name": "PORYGON-Z",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Adaptability",
+    "Download"
+   ],
+   "hidden_ability": "Analytic"
+  },
+  "SPECIES_GALLADE": {
+   "num": 475,
+   "slug": "gallade",
+   "name": "GALLADE",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fighting"
+   ],
+   "source_types": [
+    "Psychic",
+    "Fighting"
+   ],
+   "abilities": [
+    "Steadfast",
+    "Sharpness"
+   ],
+   "hidden_ability": "Justified"
+  },
+  "SPECIES_PROBOPASS": {
+   "num": 476,
+   "slug": "probopass",
+   "name": "PROBOPASS",
+   "regional": null,
+   "types": [
+    "Rock",
+    "Steel"
+   ],
+   "source_types": [
+    "Rock",
+    "Steel"
+   ],
+   "abilities": [
+    "Sturdy",
+    "Magnet Pull"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_DUSKNOIR": {
+   "num": 477,
+   "slug": "dusknoir",
+   "name": "DUSKNOIR",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Pressure"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_FROSLASS": {
+   "num": 478,
+   "slug": "froslass",
+   "name": "FROSLASS",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Ghost"
+   ],
+   "source_types": [
+    "Ice",
+    "Ghost"
+   ],
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Cursed Body"
+  },
+  "SPECIES_REGIGIGAS": {
+   "num": 486,
+   "slug": "regigigas",
+   "name": "REGIGIGAS",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Slow Start"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_ARCEUS_NORMAL": {
+   "num": 493,
+   "slug": "arceus",
+   "name": "ARCEUS",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": null,
+   "abilities": [
+    "Multitype"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_SYLVEON": {
+   "num": 700,
+   "slug": "sylveon",
+   "name": "SYLVEON",
+   "regional": null,
+   "types": [
+    "Fairy"
+   ],
+   "source_types": [
+    "Fairy"
+   ],
+   "abilities": [
+    "Cute Charm",
+    "Cute Charm"
+   ],
+   "hidden_ability": "Pixilate"
+  },
+  "SPECIES_NOIBAT": {
+   "num": 714,
+   "slug": "noibat",
+   "name": "NOIBAT",
+   "regional": null,
+   "types": [
+    "Flying",
+    "Dragon"
+   ],
+   "source_types": [
+    "Flying",
+    "Dragon"
+   ],
+   "abilities": [
+    "Frisk",
+    "Infiltrator"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_NOIVERN": {
+   "num": 715,
+   "slug": "noivern",
+   "name": "NOIVERN",
+   "regional": null,
+   "types": [
+    "Flying",
+    "Dragon"
+   ],
+   "source_types": [
+    "Flying",
+    "Dragon"
+   ],
+   "abilities": [
+    "Frisk",
+    "Infiltrator"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_TAPU_KOKO": {
+   "num": 785,
+   "slug": "tapu-koko",
+   "name": "TAPU KOKO",
+   "regional": null,
+   "types": [
+    "Electric",
+    "Fairy"
+   ],
+   "source_types": [
+    "Electric",
+    "Fairy"
+   ],
+   "abilities": [
+    "Electric Surge"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_TAPU_LELE": {
+   "num": 786,
+   "slug": "tapu-lele",
+   "name": "TAPU LELE",
+   "regional": null,
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "abilities": [
+    "Psychic Surge"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_TAPU_BULU": {
+   "num": 787,
+   "slug": "tapu-bulu",
+   "name": "TAPU BULU",
+   "regional": null,
+   "types": [
+    "Grass",
+    "Fairy"
+   ],
+   "source_types": [
+    "Grass",
+    "Fairy"
+   ],
+   "abilities": [
+    "Grassy Surge"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_TAPU_FINI": {
+   "num": 788,
+   "slug": "tapu-fini",
+   "name": "TAPU FINI",
+   "regional": null,
+   "types": [
+    "Water",
+    "Fairy"
+   ],
+   "source_types": [
+    "Water",
+    "Fairy"
+   ],
+   "abilities": [
+    "Misty Surge"
+   ],
+   "hidden_ability": "Telepathy"
+  },
+  "SPECIES_OBSTAGOON": {
+   "num": 862,
+   "slug": "obstagoon",
+   "name": "OBSTAGOON",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Normal"
+   ],
+   "source_types": [
+    "Dark",
+    "Normal"
+   ],
+   "abilities": [
+    "Reckless",
+    "Guts"
+   ],
+   "hidden_ability": "Defiant"
+  },
+  "SPECIES_PERRSERKER": {
+   "num": 863,
+   "slug": "perrserker",
+   "name": "PERRSERKER",
+   "regional": null,
+   "types": [
+    "Steel"
+   ],
+   "source_types": [
+    "Steel"
+   ],
+   "abilities": [
+    "Battle Armor",
+    "Tough Claws"
+   ],
+   "hidden_ability": "Steely Spirit"
+  },
+  "SPECIES_CURSOLA": {
+   "num": 864,
+   "slug": "cursola",
+   "name": "CURSOLA",
+   "regional": null,
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden_ability": "Perish Body"
+  },
+  "SPECIES_SIRFETCHD": {
+   "num": 865,
+   "slug": "sirfetch-d",
+   "name": "SIRFETCH'D",
+   "regional": null,
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Steadfast"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_MR_RIME": {
+   "num": 866,
+   "slug": "mr-rime",
+   "name": "MR. RIME",
+   "regional": null,
+   "types": [
+    "Ice",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ice",
+    "Psychic"
+   ],
+   "abilities": [
+    "Tangled Feet",
+    "Screen Cleaner"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_REGIELEKI": {
+   "num": 894,
+   "slug": "regieleki",
+   "name": "REGIELEKI",
+   "regional": null,
+   "types": [
+    "Electric"
+   ],
+   "source_types": [
+    "Electric"
+   ],
+   "abilities": [
+    "Transistor"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_REGIDRAGO": {
+   "num": 895,
+   "slug": "regidrago",
+   "name": "REGIDRAGO",
+   "regional": null,
+   "types": [
+    "Dragon"
+   ],
+   "source_types": [
+    "Dragon"
+   ],
+   "abilities": [
+    "Dragons Maw"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_WYRDEER": {
+   "num": 899,
+   "slug": "wyrdeer",
+   "name": "WYRDEER",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "source_types": [
+    "Normal",
+    "Psychic"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Frisk"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_KLEAVOR": {
+   "num": 900,
+   "slug": "kleavor",
+   "name": "KLEAVOR",
+   "regional": null,
+   "types": [
+    "Bug",
+    "Rock"
+   ],
+   "source_types": [
+    "Bug",
+    "Rock"
+   ],
+   "abilities": [
+    "Swarm",
+    "Sheer Force"
+   ],
+   "hidden_ability": "Sharpness"
+  },
+  "SPECIES_URSALUNA": {
+   "num": 901,
+   "slug": "ursaluna",
+   "name": "URSALUNA",
+   "regional": null,
+   "types": [
+    "Ground",
+    "Normal"
+   ],
+   "source_types": [
+    "Ground",
+    "Normal"
+   ],
+   "abilities": [
+    "Guts",
+    "Bulletproof"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_SNEASLER": {
+   "num": 903,
+   "slug": "sneasler",
+   "name": "SNEASLER",
+   "regional": null,
+   "types": [
+    "Fighting",
+    "Poison"
+   ],
+   "source_types": [
+    "Fighting",
+    "Poison"
+   ],
+   "abilities": [
+    "Pressure",
+    "Unburden"
+   ],
+   "hidden_ability": "Poison Touch"
+  },
+  "SPECIES_OVERQWIL": {
+   "num": 904,
+   "slug": "overqwil",
+   "name": "OVERQWIL",
+   "regional": null,
+   "types": [
+    "Dark",
+    "Poison"
+   ],
+   "source_types": [
+    "Dark",
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden_ability": "Intimidate"
+  },
+  "SPECIES_RATTATA_ALOLA": {
+   "num": 956,
+   "slug": "rattata-alola",
+   "name": "RATTATA (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Dark",
+    "Normal"
+   ],
+   "source_types": [
+    "Dark",
+    "Normal"
+   ],
+   "abilities": [
+    "Gluttony",
+    "Hustle"
+   ],
+   "hidden_ability": "Thick Fat"
+  },
+  "SPECIES_RATICATE_ALOLA": {
+   "num": 957,
+   "slug": "raticate-alola",
+   "name": "RATICATE (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Dark",
+    "Normal"
+   ],
+   "source_types": [
+    "Dark",
+    "Normal"
+   ],
+   "abilities": [
+    "Gluttony",
+    "Hustle"
+   ],
+   "hidden_ability": "Thick Fat"
+  },
+  "SPECIES_RAICHU_ALOLA": {
+   "num": 958,
+   "slug": "raichu-alola",
+   "name": "RAICHU (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Electric",
+    "Psychic"
+   ],
+   "source_types": [
+    "Electric",
+    "Psychic"
+   ],
+   "abilities": [
+    "Surge Surfer"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_SANDSHREW_ALOLA": {
+   "num": 959,
+   "slug": "sandshrew-alola",
+   "name": "SANDSHREW (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ice",
+    "Steel"
+   ],
+   "source_types": [
+    "Ice",
+    "Steel"
+   ],
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Slush Rush"
+  },
+  "SPECIES_SANDSLASH_ALOLA": {
+   "num": 960,
+   "slug": "sandslash-alola",
+   "name": "SANDSLASH (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ice",
+    "Steel"
+   ],
+   "source_types": [
+    "Ice",
+    "Steel"
+   ],
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Slush Rush"
+  },
+  "SPECIES_VULPIX_ALOLA": {
+   "num": 961,
+   "slug": "vulpix-alola",
+   "name": "VULPIX (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ice"
+   ],
+   "source_types": [
+    "Ice"
+   ],
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Snow Warning"
+  },
+  "SPECIES_NINETALES_ALOLA": {
+   "num": 962,
+   "slug": "ninetales-alola",
+   "name": "NINETALES (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ice",
+    "Fairy"
+   ],
+   "source_types": [
+    "Ice",
+    "Fairy"
+   ],
+   "abilities": [
+    "Snow Cloak"
+   ],
+   "hidden_ability": "Snow Warning"
+  },
+  "SPECIES_DIGLETT_ALOLA": {
+   "num": 963,
+   "slug": "diglett-alola",
+   "name": "DIGLETT (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ground",
+    "Steel"
+   ],
+   "source_types": [
+    "Ground",
+    "Steel"
+   ],
+   "abilities": [
+    "Sand Veil",
+    "Tangling Hair"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_DUGTRIO_ALOLA": {
+   "num": 964,
+   "slug": "dugtrio-alola",
+   "name": "DUGTRIO (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Ground",
+    "Steel"
+   ],
+   "source_types": [
+    "Ground",
+    "Steel"
+   ],
+   "abilities": [
+    "Sand Veil",
+    "Tangling Hair"
+   ],
+   "hidden_ability": "Sand Force"
+  },
+  "SPECIES_MEOWTH_ALOLA": {
+   "num": 965,
+   "slug": "meowth-alola",
+   "name": "MEOWTH (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Pickup",
+    "Technician"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_PERSIAN_ALOLA": {
+   "num": 966,
+   "slug": "persian-alola",
+   "name": "PERSIAN (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Dark"
+   ],
+   "source_types": [
+    "Dark"
+   ],
+   "abilities": [
+    "Fur Coat",
+    "Technician"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_GEODUDE_ALOLA": {
+   "num": 967,
+   "slug": "geodude-alola",
+   "name": "GEODUDE (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Rock",
+    "Electric"
+   ],
+   "source_types": [
+    "Rock",
+    "Electric"
+   ],
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Galvanize"
+  },
+  "SPECIES_GRAVELER_ALOLA": {
+   "num": 968,
+   "slug": "graveler-alola",
+   "name": "GRAVELER (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Rock",
+    "Electric"
+   ],
+   "source_types": [
+    "Rock",
+    "Electric"
+   ],
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Galvanize"
+  },
+  "SPECIES_GOLEM_ALOLA": {
+   "num": 969,
+   "slug": "golem-alola",
+   "name": "GOLEM (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Rock",
+    "Electric"
+   ],
+   "source_types": [
+    "Rock",
+    "Electric"
+   ],
+   "abilities": [
+    "Magnet Pull",
+    "Sturdy"
+   ],
+   "hidden_ability": "Galvanize"
+  },
+  "SPECIES_GRIMER_ALOLA": {
+   "num": 970,
+   "slug": "grimer-alola",
+   "name": "GRIMER (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Poison",
+    "Dark"
+   ],
+   "source_types": [
+    "Poison",
+    "Dark"
+   ],
+   "abilities": [
+    "Poison Touch",
+    "Gluttony"
+   ],
+   "hidden_ability": "Power Of Alchemy"
+  },
+  "SPECIES_MUK_ALOLA": {
+   "num": 971,
+   "slug": "muk-alola",
+   "name": "MUK (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Poison",
+    "Dark"
+   ],
+   "source_types": [
+    "Poison",
+    "Dark"
+   ],
+   "abilities": [
+    "Poison Touch",
+    "Gluttony"
+   ],
+   "hidden_ability": "Power Of Alchemy"
+  },
+  "SPECIES_EXEGGUTOR_ALOLA": {
+   "num": 972,
+   "slug": "exeggutor-alola",
+   "name": "EXEGGUTOR (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Grass",
+    "Dragon"
+   ],
+   "source_types": [
+    "Grass",
+    "Dragon"
+   ],
+   "abilities": [
+    "Frisk"
+   ],
+   "hidden_ability": "Harvest"
+  },
+  "SPECIES_MAROWAK_ALOLA": {
+   "num": 973,
+   "slug": "marowak-alola",
+   "name": "MAROWAK (Alola)",
+   "regional": "Alola",
+   "types": [
+    "Fire",
+    "Ghost"
+   ],
+   "source_types": [
+    "Fire",
+    "Ghost"
+   ],
+   "abilities": [
+    "Cursed Body",
+    "Lightning Rod"
+   ],
+   "hidden_ability": "Rock Head"
+  },
+  "SPECIES_MEOWTH_GALAR": {
+   "num": 974,
+   "slug": "meowth-galar",
+   "name": "MEOWTH (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Steel"
+   ],
+   "source_types": [
+    "Steel"
+   ],
+   "abilities": [
+    "Pickup",
+    "Tough Claws"
+   ],
+   "hidden_ability": "Unnerve"
+  },
+  "SPECIES_PONYTA_GALAR": {
+   "num": 975,
+   "slug": "ponyta-galar",
+   "name": "PONYTA (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Run Away",
+    "Pastel Veil"
+   ],
+   "hidden_ability": "Anticipation"
+  },
+  "SPECIES_RAPIDASH_GALAR": {
+   "num": 976,
+   "slug": "rapidash-galar",
+   "name": "RAPIDASH (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "source_types": [
+    "Psychic",
+    "Fairy"
+   ],
+   "abilities": [
+    "Run Away",
+    "Pastel Veil"
+   ],
+   "hidden_ability": "Anticipation"
+  },
+  "SPECIES_SLOWPOKE_GALAR": {
+   "num": 977,
+   "slug": "slowpoke-galar",
+   "name": "SLOWPOKE (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Psychic"
+   ],
+   "source_types": [
+    "Psychic"
+   ],
+   "abilities": [
+    "Gluttony",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_SLOWBRO_GALAR": {
+   "num": 978,
+   "slug": "slowbro-galar",
+   "name": "SLOWBRO (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Poison",
+    "Psychic"
+   ],
+   "source_types": [
+    "Poison",
+    "Psychic"
+   ],
+   "abilities": [
+    "Quick Draw",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_FARFETCHD_GALAR": {
+   "num": 979,
+   "slug": "farfetch-d-galar",
+   "name": "FARFETCH'D (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Steadfast"
+   ],
+   "hidden_ability": "Scrappy"
+  },
+  "SPECIES_WEEZING_GALAR": {
+   "num": 980,
+   "slug": "weezing-galar",
+   "name": "WEEZING (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Poison",
+    "Fairy"
+   ],
+   "source_types": [
+    "Poison",
+    "Fairy"
+   ],
+   "abilities": [
+    "Levitate",
+    "Neutralizing Gas"
+   ],
+   "hidden_ability": "Misty Surge"
+  },
+  "SPECIES_MR_MIME_GALAR": {
+   "num": 981,
+   "slug": "mr-mime-galar",
+   "name": "MR. MIME (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Ice",
+    "Psychic"
+   ],
+   "source_types": [
+    "Ice",
+    "Psychic"
+   ],
+   "abilities": [
+    "Vital Spirit",
+    "Screen Cleaner"
+   ],
+   "hidden_ability": "Ice Body"
+  },
+  "SPECIES_ARTICUNO_GALAR": {
+   "num": 982,
+   "slug": "articuno-galar",
+   "name": "ARTICUNO (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Psychic",
+    "Flying"
+   ],
+   "source_types": [
+    "Psychic",
+    "Flying"
+   ],
+   "abilities": [
+    "Competitive"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_ZAPDOS_GALAR": {
+   "num": 983,
+   "slug": "zapdos-galar",
+   "name": "ZAPDOS (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Fighting",
+    "Flying"
+   ],
+   "source_types": [
+    "Fighting",
+    "Flying"
+   ],
+   "abilities": [
+    "Defiant"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_MOLTRES_GALAR": {
+   "num": 984,
+   "slug": "moltres-galar",
+   "name": "MOLTRES (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Dark",
+    "Flying"
+   ],
+   "source_types": [
+    "Dark",
+    "Flying"
+   ],
+   "abilities": [
+    "Berserk"
+   ],
+   "hidden_ability": null
+  },
+  "SPECIES_SLOWKING_GALAR": {
+   "num": 985,
+   "slug": "slowking-galar",
+   "name": "SLOWKING (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Poison",
+    "Psychic"
+   ],
+   "source_types": [
+    "Poison",
+    "Psychic"
+   ],
+   "abilities": [
+    "Curious Medicine",
+    "Own Tempo"
+   ],
+   "hidden_ability": "Regenerator"
+  },
+  "SPECIES_CORSOLA_GALAR": {
+   "num": 986,
+   "slug": "corsola-galar",
+   "name": "CORSOLA (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Ghost"
+   ],
+   "source_types": [
+    "Ghost"
+   ],
+   "abilities": [
+    "Weak Armor"
+   ],
+   "hidden_ability": "Cursed Body"
+  },
+  "SPECIES_ZIGZAGOON_GALAR": {
+   "num": 987,
+   "slug": "zigzagoon-galar",
+   "name": "ZIGZAGOON (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Dark",
+    "Normal"
+   ],
+   "source_types": [
+    "Dark",
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_LINOONE_GALAR": {
+   "num": 988,
+   "slug": "linoone-galar",
+   "name": "LINOONE (Galar)",
+   "regional": "Galar",
+   "types": [
+    "Dark",
+    "Normal"
+   ],
+   "source_types": [
+    "Dark",
+    "Normal"
+   ],
+   "abilities": [
+    "Pickup",
+    "Gluttony"
+   ],
+   "hidden_ability": "Quick Feet"
+  },
+  "SPECIES_GROWLITHE_HISUI": {
+   "num": 993,
+   "slug": "growlithe-hisui",
+   "name": "GROWLITHE (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Fire",
+    "Rock"
+   ],
+   "source_types": [
+    "Fire",
+    "Rock"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Rock Head"
+  },
+  "SPECIES_ARCANINE_HISUI": {
+   "num": 994,
+   "slug": "arcanine-hisui",
+   "name": "ARCANINE (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Fire",
+    "Rock"
+   ],
+   "source_types": [
+    "Fire",
+    "Rock"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Flash Fire"
+   ],
+   "hidden_ability": "Rock Head"
+  },
+  "SPECIES_VOLTORB_HISUI": {
+   "num": 995,
+   "slug": "voltorb-hisui",
+   "name": "VOLTORB (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Electric",
+    "Grass"
+   ],
+   "source_types": [
+    "Electric",
+    "Grass"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden_ability": "Aftermath"
+  },
+  "SPECIES_ELECTRODE_HISUI": {
+   "num": 996,
+   "slug": "electrode-hisui",
+   "name": "ELECTRODE (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Electric",
+    "Grass"
+   ],
+   "source_types": [
+    "Electric",
+    "Grass"
+   ],
+   "abilities": [
+    "Soundproof",
+    "Static"
+   ],
+   "hidden_ability": "Aftermath"
+  },
+  "SPECIES_TYPHLOSION_HISUI": {
+   "num": 997,
+   "slug": "typhlosion-hisui",
+   "name": "TYPHLOSION (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Fire",
+    "Ghost"
+   ],
+   "source_types": [
+    "Fire",
+    "Ghost"
+   ],
+   "abilities": [
+    "Blaze"
+   ],
+   "hidden_ability": "Frisk"
+  },
+  "SPECIES_QWILFISH_HISUI": {
+   "num": 998,
+   "slug": "qwilfish-hisui",
+   "name": "QWILFISH (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Dark",
+    "Poison"
+   ],
+   "source_types": [
+    "Dark",
+    "Poison"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Swift Swim"
+   ],
+   "hidden_ability": "Intimidate"
+  },
+  "SPECIES_SNEASEL_HISUI": {
+   "num": 999,
+   "slug": "sneasel-hisui",
+   "name": "SNEASEL (Hisui)",
+   "regional": "Hisui",
+   "types": [
+    "Fighting",
+    "Poison"
+   ],
+   "source_types": [
+    "Fighting",
+    "Poison"
+   ],
+   "abilities": [
+    "Inner Focus",
+    "Keen Eye"
+   ],
+   "hidden_ability": "Pickpocket"
+  },
+  "SPECIES_ANNIHILAPE": {
+   "num": 1370,
+   "slug": "annihilape",
+   "name": "ANNIHILAPE",
+   "regional": null,
+   "types": [
+    "Fighting",
+    "Ghost"
+   ],
+   "source_types": [
+    "Fighting",
+    "Ghost"
+   ],
+   "abilities": [
+    "Vital Spirit",
+    "Inner Focus"
+   ],
+   "hidden_ability": "Defiant"
+  },
+  "SPECIES_CLODSIRE": {
+   "num": 1371,
+   "slug": "clodsire",
+   "name": "CLODSIRE",
+   "regional": null,
+   "types": [
+    "Poison",
+    "Ground"
+   ],
+   "source_types": [
+    "Poison",
+    "Ground"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Unaware"
+  },
+  "SPECIES_FARIGIRAF": {
+   "num": 1372,
+   "slug": "farigiraf",
+   "name": "FARIGIRAF",
+   "regional": null,
+   "types": [
+    "Normal",
+    "Psychic"
+   ],
+   "source_types": [
+    "Normal",
+    "Psychic"
+   ],
+   "abilities": [
+    "Cud Chew",
+    "Armor Tail"
+   ],
+   "hidden_ability": "Sap Sipper"
+  },
+  "SPECIES_DUDUNSPARCE_TWO_SEGMENT": {
+   "num": 1373,
+   "slug": "dudunsparce",
+   "name": "DUDUNSPARCE",
+   "regional": null,
+   "types": [
+    "Normal"
+   ],
+   "source_types": [
+    "Normal"
+   ],
+   "abilities": [
+    "Serene Grace",
+    "Run Away"
+   ],
+   "hidden_ability": "Rattled"
+  },
+  "SPECIES_TAUROS_PALDEA_COMBAT": {
+   "num": 1402,
+   "slug": "tauros-paldea",
+   "name": "TAUROS (Paldea)",
+   "regional": "Paldea",
+   "types": [
+    "Fighting"
+   ],
+   "source_types": [
+    "Fighting"
+   ],
+   "abilities": [
+    "Intimidate",
+    "Anger Point"
+   ],
+   "hidden_ability": "Cud Chew"
+  },
+  "SPECIES_WOOPER_PALDEA": {
+   "num": 1405,
+   "slug": "wooper-paldea",
+   "name": "WOOPER (Paldea)",
+   "regional": "Paldea",
+   "types": [
+    "Poison",
+    "Ground"
+   ],
+   "source_types": [
+    "Poison",
+    "Ground"
+   ],
+   "abilities": [
+    "Poison Point",
+    "Water Absorb"
+   ],
+   "hidden_ability": "Unaware"
+  }
+ }
+}

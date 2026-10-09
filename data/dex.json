@@ -8631,7 +8631,7 @@
   "text": "The units at its sides are extremely powerful magnets. They generate enough magnetism to draw in iron objects from over 300 feet away.",
   "types": [
    "Electric",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 25,
@@ -8745,7 +8745,7 @@
   "text": "It is actually three Magnemite linked by magnetism. It generates powerful radio waves that raise temperatures by 3.6 degrees F within a 3,300-foot radius.",
   "types": [
    "Electric",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 50,
@@ -22417,7 +22417,7 @@
   "text": "It keeps itself inside its steel shell. The shell is opened when it is catching prey, but it is so quick that the shell's inside cannot be seen.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 75,
@@ -22815,7 +22815,7 @@
   "category": "Iron Snake",
   "text": "Steelix live even further underground than Onix. This Pokémon is known to dig toward the earth's core, reaching a depth of over six-tenths of a mile underground.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ground"
   ],
   "stats": {
@@ -23307,7 +23307,7 @@
   "text": "A Scizor has a body with the hardness of steel. It is not easily fazed by ordinary sorts of attacks. It flaps its wings to regulate its body temperature.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -24943,7 +24943,7 @@
   "category": "Armor Bird",
   "text": "A Pokémon that has a body and wings of steel. People in the past used feathers fallen from Skarmory to make swords and knives.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Flying"
   ],
   "stats": {
@@ -32752,7 +32752,7 @@
   "category": "Deceiver",
   "text": "Its giant jaws are actually steel horns that transformed. It fools foes into complacency with its adorable gestures, then chomps them with its huge jaws.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fairy"
   ],
   "stats": {
@@ -32869,7 +32869,7 @@
   "category": "Iron Armor",
   "text": "A Pokémon that is clad in steel armor. A new suit of armor is made when it evolves. The old, discarded armor is salvaged as metal for making iron products.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Rock"
   ],
   "stats": {
@@ -32983,7 +32983,7 @@
   "category": "Iron Armor",
   "text": "When two Lairon meet in the wild, they fight for territory by bashing into each other with their steel bodies. The sound of their collision carries for miles.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Rock"
   ],
   "stats": {
@@ -33109,7 +33109,7 @@
   "category": "Iron Armor",
   "text": "Its iron horns grow longer a little at a time. They are used to determine the Aggron's age. The gouges in its armor are worn with pride as mementos from battles.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Rock"
   ],
   "stats": {
@@ -40606,7 +40606,7 @@
   "category": "Iron Ball",
   "text": "When Beldum gather in a swarm, they move in perfect unison as if they were but one Pokémon. They communicate with each other using brain waves.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -40651,7 +40651,7 @@
   "category": "Iron Claw",
   "text": "The claws tipping its arms pack the destructive power to tear through thick iron sheets as if they were silk. It flies at over 60 miles per hour.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -40760,7 +40760,7 @@
   "category": "Iron Leg",
   "text": "Metagross has four brains that are joined by a complex neural network. As a result of integration, this Pokémon is smarter than a supercomputer.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -41070,7 +41070,7 @@
   "category": "Iron",
   "text": "Its body is harder than any other kind of metal. The body metal is composed of a mysterious substance. Not only is it hard, it shrinks and stretches flexibly.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 80,
@@ -41687,7 +41687,7 @@
   "category": "Wish",
   "text": "Jirachi is said to make wishes come true. While it sleeps, a tough crystalline shell envelops the body to protect it from enemies.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -42696,7 +42696,7 @@
   "text": "The three horns that extend from its beak attest to its power. It avoids unnecessary disputes, but it will decimate anything that threatens its pride.",
   "types": [
    "Water",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 84,
@@ -44087,7 +44087,7 @@
   "text": "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it's thought.",
   "types": [
    "Rock",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 30,
@@ -44176,7 +44176,7 @@
   "text": "Their rock-hard faces serve to protect them from any frontral attacks. When attacked, they form a wall. They shielded their young in that way.",
   "types": [
    "Rock",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 60,
@@ -46668,7 +46668,7 @@
   "category": "Bronze",
   "text": "Implements shaped like it were discovered in ancient tombs. There are researchers who believe this Pokémon reflected like a mirror in the distant past.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -46774,7 +46774,7 @@
   "category": "Bronze Bell",
   "text": "In ages past, this Pokémon was revered as a bringer of rain. One caused a news stir when it was dug up at a construction site after a 2000-year sleep.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -47897,7 +47897,7 @@
   "text": "It understands human speech. It is said that no foe can remain invisible to Lucario, since it can detect Auras. Even foes it could not otherwise see.",
   "types": [
    "Fighting",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -49378,7 +49378,7 @@
   "text": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin, while transmitting its own signals of unknown purpose.",
   "types": [
    "Electric",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -51091,7 +51091,7 @@
   "text": "It freely controls three units called Mini-Noses using magnetic force. With them, it can attack its foes from three directions.",
   "types": [
    "Rock",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 60,
@@ -51867,7 +51867,7 @@
   "category": "Temporal",
   "text": "A Pokémon spoken of in legend. It completely controls the flow of time. It uses its power to travel at will through the past and future.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Dragon"
   ],
   "stats": {
@@ -52044,7 +52044,7 @@
   "text": "Boiling blood, like magma, circulates through its body. It dwells in volcanic caves, using its cross-shaped feet to crawl on ceilings and walls.",
   "types": [
    "Fire",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 91,
@@ -56598,7 +56598,7 @@
   "text": "More than 300 feet below the surface, they build mazelike nests. Their activity can be destructive to subway tunnels, but it can also help with construction.",
   "types": [
    "Ground",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 110,
@@ -63019,7 +63019,7 @@
   "text": "Wearing the shell covering they stole from Shelmet, they defend themselves and attack with two lances. The steel armor protects their whole body.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -63919,7 +63919,7 @@
   "text": "It absorbs the iron it finds in the rock while clinging to the ceiling of caves. When threatened, it attacks by shooting a barrage of spikes.",
   "types": [
    "Grass",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 44,
@@ -64020,7 +64020,7 @@
   "text": "It fights by swinging around its three spiky feelers and shooting spikes. A hit from these steel spikes can reduce a boulder to rubble.",
   "types": [
    "Grass",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 74,
@@ -64139,7 +64139,7 @@
   "category": "Gear",
   "text": "Two bodies comprise a fixed pair. The two minigears that mesh together are predetermined. Each will rebound from other minigears without meshing.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 40,
@@ -64240,7 +64240,7 @@
   "category": "Gear",
   "text": "A minigear and big gear comprise its body. Spinning minigears are rotated at high speed and repeatedly fired away. It is dangerous if the gears don't return.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 60,
@@ -64357,7 +64357,7 @@
   "category": "Gear",
   "text": "Its red core functions as an energy tank. It is rotated at high speed for a rapid energy charge. It fires the charged energy through its spikes into an area.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 60,
@@ -66883,7 +66883,7 @@
   "text": "Ignoring their injuries, groups attack by sinking the blades that cover their bodies into their prey. If battling dulls them, it sharpens them on stones by the river.",
   "types": [
    "Dark",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 45,
@@ -66989,7 +66989,7 @@
   "text": "This pitiless Pokémon commands a group of Pawniard to hound prey into immobility. It battles to become the boss, but will be driven from the group if it loses.",
   "types": [
    "Dark",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 65,
@@ -67817,7 +67817,7 @@
   "text": "Durant dig nests in mountains. Individuals each play different roles in driving Heatmor, their natural predator, away from their colony.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 58,
@@ -68492,7 +68492,7 @@
   "category": "Iron Will",
   "text": "It has a body and heart of steel. This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fighting"
   ],
   "stats": {
@@ -69640,7 +69640,7 @@
   "text": null,
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 71,
@@ -72832,7 +72832,7 @@
   "category": "Sword",
   "text": "If anyone dares to grab its hilt, it wraps a blue cloth around that person's arm and drains that person's life energy completely.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ghost"
   ],
   "stats": {
@@ -72933,7 +72933,7 @@
   "category": "Sword",
   "text": "When Honedge evolves, it divides into two swords. The complex attack patterns of its two swords are unstoppable, even against those skilled at swordplay.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ghost"
   ],
   "stats": {
@@ -73042,7 +73042,7 @@
   "category": "Royal Sword",
   "text": "In this defensive stance, Aegislash uses its steel body and a force field of spectral power to reduce the damage of any attack.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ghost"
   ],
   "stats": {
@@ -75857,7 +75857,7 @@
   "category": "Key Ring",
   "text": "These key collectors threaten any attackers by fiercely jingling their keys at them. It will sneak into people's homes to steal their keys.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fairy"
   ],
   "stats": {
@@ -83309,7 +83309,7 @@
   "text": null,
   "types": [
    "Electric",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 65,
@@ -84696,7 +84696,7 @@
   "text": "It is said to live in another world. The intense light it radiates from the surface of its body can make the darkest of nights light up like midday.",
   "types": [
    "Psychic",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 137,
@@ -85366,7 +85366,7 @@
   "category": "Launch",
   "text": "It appeared from the Ultra Wormhole. One kind of Ultra Beast, witnesses saw it flying across the sky by expelling gas from its two arms.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Flying"
   ],
   "stats": {
@@ -85479,7 +85479,7 @@
   "text": "This Ultra Beast came from the Ultra Wormhole. It seems not to attack enemies on its own, but its sharp body is a dangerous weapon in itself.",
   "types": [
    "Grass",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 59,
@@ -85813,7 +85813,7 @@
   "category": "Artificial",
   "text": "This artificial Pokémon, constructed more than 500 years ago, can understand human speech but cannot itself speak. Its true self is its Soul-Heart, an artificial soul.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fairy"
   ],
   "stats": {
@@ -86250,7 +86250,7 @@
   "text": "It appeared from an Ultra Wormhole. Each one appears to be made up of many life- forms stacked one on top of each other.",
   "types": [
    "Rock",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 61,
@@ -86520,7 +86520,7 @@
   "category": "Hex Nut",
   "text": "It melts particles of iron and other metals found in the subsoil, so it can absorb them into its body of molten steel.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 46,
@@ -86583,7 +86583,7 @@
   "category": "Hex Nut",
   "text": "Revered long ago for its capacity to create iron from nothing, for some reason it has come back to life after 3,000 years.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 135,
@@ -87877,7 +87877,7 @@
   "text": "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
   "types": [
    "Flying",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 98,
@@ -91614,7 +91614,7 @@
   "category": "Viking",
   "text": "What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -93134,7 +93134,7 @@
   "category": "Copperderm",
   "text": "It digs up the ground with its trunk. It's also very strong, being able to carry loads of over five tons without any problem at all.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 72,
@@ -93226,7 +93226,7 @@
   "category": "Copperderm",
   "text": "They came over from another region long ago and worked together with humans. Their green skin is resistant to water.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 122,
@@ -93681,7 +93681,7 @@
   "category": "Alloy",
   "text": "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Dragon"
   ],
   "stats": {
@@ -97520,7 +97520,7 @@
   "category": "Iron Snake",
   "text": "The cells within its body, crystallized by the energy produced from Mega Evolution, are stronger than any mineral and able to withstand any temperature.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ground"
   ],
   "stats": {
@@ -97660,7 +97660,7 @@
   "text": "The excess energy that bathes this Pokémon keeps it in constant danger of overflow. It can't sustain a battle over long periods of time.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -98746,7 +98746,7 @@
   "category": "Deceiver",
   "text": "Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fairy"
   ],
   "stats": {
@@ -98865,7 +98865,7 @@
   "category": "Iron Armor",
   "text": "When Aggron Mega Evolves into Mega Aggron, the destructive ability of its fearsome horns can turn a steel-clad tank into so much scrap metal.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -100102,7 +100102,7 @@
   "category": "Iron Leg",
   "text": "When it knows it can't win, it digs the claws on its legs into its opponent and starts the countdown to a big explosion.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -100820,7 +100820,7 @@
   "text": "Life on mountains covered with deep snow has granted this Pokémon a body of ice that's as hard as steel. Predators go after its soft belly.",
   "types": [
    "Ice",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 50,
@@ -100931,7 +100931,7 @@
   "text": "It uses large, hooked claws to cut a path through deep snow as it runs. On snowy mountains, this Sandslash is faster than any other Pokémon.",
   "types": [
    "Ice",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 75,
@@ -101201,7 +101201,7 @@
   "text": "The metal-rich geology of its habitat caused it to develop steel whiskers on its head that change shape depending on its mood and when communicating with others.",
   "types": [
    "Ground",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 10,
@@ -101301,7 +101301,7 @@
   "text": "Their beautiful, metallic whiskers create a sort of protective helmet on heir heads, and they also function as highly precise sensors.",
   "types": [
    "Ground",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 35,
@@ -102451,7 +102451,7 @@
   "category": "Scratch Cat",
   "text": "Living with a savage, seafaring people has hardened its body so much that parts of it turned to iron. Darker coins are harder and garner more respect among Meowth.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 50,
@@ -104453,7 +104453,7 @@
   "text": "Its conspicuous lips lure prey in as it lies in wait in the mud. When prey gets close, Stunfisk clamps its jagged steel fins down on them.",
   "types": [
    "Ground",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 109,
@@ -105520,7 +105520,7 @@
   "text": "A creature given to melancholy. Its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
   "types": [
    "Dragon",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 58,
@@ -105604,7 +105604,7 @@
   "text": "It loathes solitude and is extremely clingy--it will fume and run riot if those dearest to it ever leave its side.",
   "types": [
    "Dragon",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 80,
@@ -109458,7 +109458,7 @@
   "text": "Its body, composed of refuse, blends in to the scenery enough to be inconspicuous. This seems to be the perfect way for it to evade the detection of predators.",
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 60,
@@ -110368,7 +110368,7 @@
   "category": "Temporal",
   "text": "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. It wields such a colossal strength that this might be its true form.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Dragon"
   ],
   "stats": {
@@ -111375,7 +111375,7 @@
   "category": "Alpha",
   "text": null,
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 120,
@@ -114035,7 +114035,7 @@
   "text": null,
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 71,
@@ -114153,7 +114153,7 @@
   "text": null,
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 71,
@@ -114271,7 +114271,7 @@
   "text": null,
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 71,
@@ -114389,7 +114389,7 @@
   "text": null,
   "types": [
    "Bug",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 71,
@@ -119087,7 +119087,7 @@
   "category": "Royal Sword",
   "text": "Once upon a time, a king with an Aegislash reigned over the land. His Pokémon eventually drained him of life, and his kingdom fell with him.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ghost"
   ],
   "stats": {
@@ -122224,7 +122224,7 @@
   "category": "Synthetic",
   "text": null,
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 95,
@@ -125050,7 +125050,7 @@
   "category": "Artificial",
   "text": "This is its form from almost 500 years ago. Its body is nothing more than a container-its artificial heart is the actual life-form.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Fairy"
   ],
   "stats": {
@@ -126741,7 +126741,7 @@
   "text": "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
   "types": [
    "Fairy",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 92,
@@ -126835,7 +126835,7 @@
   "text": "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
   "types": [
    "Fighting",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 92,
@@ -138055,7 +138055,7 @@
   "text": "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it's satisfied with the result.",
   "types": [
    "Fairy",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 50,
@@ -138161,7 +138161,7 @@
   "text": "These Pokémon make their homes in piles of scrap metal. They test the strength of each other's hammers by smashing them together.",
   "types": [
    "Fairy",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 65,
@@ -138271,7 +138271,7 @@
   "text": "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home.",
   "types": [
    "Fairy",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 85,
@@ -138965,7 +138965,7 @@
   "category": "Single-Cyl",
   "text": "The steel section is Varoom's actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Poison"
   ],
   "stats": {
@@ -139066,7 +139066,7 @@
   "category": "Multi-Cyl",
   "text": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders- now numbering eight-to generate energy.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Poison"
   ],
   "stats": {
@@ -139266,7 +139266,7 @@
   "category": "Earthworm",
   "text": "When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.",
   "types": [
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 70,
@@ -141077,7 +141077,7 @@
   "text": "Though it commands a massive army in battle, it's not skilled at devising complex strategies. It just uses brute strength to keep pushing.",
   "types": [
    "Dark",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 100,
@@ -141814,7 +141814,7 @@
   "text": "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal.",
   "types": [
    "Ground",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 90,
@@ -142837,7 +142837,7 @@
   "category": "Coin Entity",
   "text": "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Ghost"
   ],
   "stats": {
@@ -145712,7 +145712,7 @@
   "category": "Alloy",
   "text": "It gathers static electricity from its surroundings. The beams it launches when down on all fours are tremendously powerful.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Dragon"
   ],
   "stats": {
@@ -146242,7 +146242,7 @@
   "category": "Paradox",
   "text": "It resembles a mysterious object introduced in a paranormal magazine as a cutting-edge weapon shaped like Cobalion.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Psychic"
   ],
   "stats": {
@@ -150281,7 +150281,7 @@
   "text": null,
   "types": [
    "Electric",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 65,
@@ -151441,7 +151441,7 @@
   "category": "Armor Bird",
   "text": "Due to the effects of Mega Evolution, its pincers have taken a more diabolical form, ripping anything they pierce to shreds.",
   "types": [
-   "Side Hazard Sharp Steel",
+   "Steel",
    "Flying"
   ],
   "stats": {
@@ -151759,7 +151759,7 @@
   "text": "It vibrates its entire body to attack in all directions using sound waves. Any who hear the vibrations get so confused, they forget who they are.",
   "types": [
    "Psychic",
-   "Side Hazard Sharp Steel"
+   "Steel"
   ],
   "stats": {
    "hp": 75,

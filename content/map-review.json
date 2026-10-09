@@ -1,0 +1,39 @@
+{
+ "note": "Hand-kept record for tools/qa_maps.py. `fixed`: maps that were once drawn wrongly and must stay drawn. `accepted`: structural findings that are properties of the game data, not of the renderer, with the reason. `runtime`: maps compared with an mGBA screenshot. Everything else in data/map-audit.json is structurally checked and was looked at on the contact sheets (2026-10-09), which is not proof of pixel accuracy.",
+ "fixed": {
+  "FarawayIsland_Interior_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "FarawayIsland_Entrance_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "SouthernIsland_Exterior_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "SouthernIsland_Interior_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BirthIsland_Exterior_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BirthIsland_Harbor_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BattleFrontier_OutsideWest_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BattleFrontier_OutsideEast_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BattleFrontier_BattlePalaceCorridor_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BattleFrontier_BattlePalaceBattleRoom_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "BattleFrontier_ReceptionGate_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "VerdanturfTown_BattleTentBattleRoom_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "FuchsiaCity_SafariZoneBeach_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "FuchsiaCity_SafariZoneBrush_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "FuchsiaCity_SafariZoneMountain_hns": "primary tileset General was not found by the renderer (declared in src/graphics.c, not graphics.h): every primary tile was blank",
+  "PetalburgCity_Gym": "secondary tileset is stored uncompressed in the ROM; the renderer only read LZ77 tiles, so the rooms were blank"
+ },
+ "accepted": {
+  "MelemeleIsle_hns": "57 blocks (greenhouse roofs, a statue) carry an overlay entry pointing at tile slots 588-627, past the 576 tiles of the Alola primary sheet. The ROM has no art there either; the picture draws those overlay entries as transparent. Same on Akala, Poni and Ula'ula (below the 2% reporting line).",
+  "FuchsiaCity_SafariZoneBeach_hns": "54 blocks of the gate building use tile slots 588-623 while the map's primary tileset (General) has 512 tiles: the game data itself points past the sheet. Drawn as transparent; in play the building may look different.",
+  "UnionRoom_hns": "Leftover link-room layout: an Emerald-format layout paired with a Johto tileset, so its metatiles point at the wrong tiles in the game data too. Not reachable and not shown on the site."
+ },
+ "runtime": {
+  "PetalburgCity_Gym": "qa/natural-run-v102/evidence/326-norman-01.png and -05.png (mGBA, v102): 36 and 42 of the visible 16x16 blocks pixel-identical at one consistent alignment; the old image matched none of the room."
+ },
+ "reference": {
+  "FarawayIsland_Interior_hns": "747 of 754 blocks identical to qa/hoenn-frlg-design-v7/reference-maps/layout_faraway_island_interior.png, an independent render of the Emerald layout kept in the game project (the 7 others are animated flower / water frames). Not an in-game capture."
+ },
+ "limits": [
+  "A picture is one still: animated tiles (water, flowers, waterfalls) show the frame stored in the tile sheet.",
+  "No time-of-day tint, weather, fog or underwater blending: colours are the stored palettes.",
+  "No people, item balls, berry trees, boulders or other objects, and no doors opened or tiles changed by scripts: the layout as stored in the ROM.",
+  "Maps the game fills while you play (Battle Pyramid floors, Trainer Hill floors, Secret Bases) show only their stored template.",
+  "Faraway Island Entrance and Southern Island (both maps) use the Rustboro secondary tileset in the game data (data/layouts/layouts.json), where Emerald uses other tilesets. The site shows what the ROM defines; whether these look right in play was not checked."
+ ]
+}

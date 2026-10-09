@@ -623,7 +623,8 @@ DIRN = {"up": "North", "down": "South", "left": "West", "right": "East", "dive":
 def rich(mk):
     m = world[mk]
     return (m["type"] != "indoor" or mk in enc or m["trainers"] or any(o.get("item") for o in m["events"]["objects"]) or m["events"]["hidden"]
-            or sum(1 for w in m["events"]["warps"] if w["to"] == mk) >= 6)
+            or sum(1 for w in m["events"]["warps"] if w["to"] == mk) >= 6
+            or any(x["map"] == mk and x["kind"] == "battle" for x in STATICS))      # a fixed encounter is somewhere you have to walk to: show the map (Mew's clearing is typed indoor)
 
 
 def build_place(p):
