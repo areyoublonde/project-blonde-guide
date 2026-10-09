@@ -1,6 +1,6 @@
 # In-browser patcher ("Make your game"): private prototype
 
-Status: **prototype, not deployed, not enabled.** Project Blonde v1.0 (build v105) is a release candidate. `content/patcher.json` has `enabled: false`; a normal build contains no patcher, no registry and no patch file.
+Status on branch `launch-v1.0`: **enabled for v1.0, prepared but not published** (see `DEPLOYMENT-STATUS.md`). On `main` there is no patcher. A registry with `enabled: false` builds no patcher, registry or patch file.
 
 ## What it does
 

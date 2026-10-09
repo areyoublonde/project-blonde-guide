@@ -1,19 +1,19 @@
 {
- "base": "http://localhost:8951",
- "checked": "2026-10-09 20:43",
+ "base": "http://localhost:8953",
+ "checked": "2026-10-09 20:52",
  "passed": 49,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.15,
-  "emerald: download + build + check (s, CPU 6x slower)": 1.09,
+  "emerald: recognise (s, CPU 6x slower)": 0.19,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.16,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1226,
-   1236
+   1237,
+   1348
   ],
-  "emerald: recognise with the plain-JS hash (s)": 0.11,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.46,
+  "emerald: recognise with the plain-JS hash (s)": 0.12,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.44,
   "v104: update (s)": 0.09,
-  "v103: update (s)": 0.08
+  "v103: update (s)": 0.1
  },
  "results": [
   {
@@ -27,7 +27,7 @@
    "detail": ""
   },
   {
-   "name": "the prototype is labelled private and the page still says release candidate, not released",
+   "name": "released: no prototype notice, the page says Released and the primary action leads to the patcher",
    "ok": true,
    "detail": ""
   },

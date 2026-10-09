@@ -407,7 +407,7 @@
    "detail": ""
   },
   {
-   "name": "Play: pre-release state, with no download control at all",
+   "name": "Play: pre-release state with no download control, or the released in-page patcher",
    "ok": true,
    "detail": ""
   },

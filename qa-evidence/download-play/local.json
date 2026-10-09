@@ -1,7 +1,7 @@
 {
- "base": "http://localhost:8931",
- "checked": "2026-10-09 19:56",
- "passed": 134,
+ "base": "http://localhost:8953",
+ "checked": "2026-10-09 20:54",
+ "passed": 130,
  "failed": 0,
  "results": [
   {
@@ -27,7 +27,7 @@
   {
    "name": "[desktop] status shown is the recorded one",
    "ok": true,
-   "detail": "Release candidate · not released"
+   "detail": "Released"
   },
   {
    "name": "[desktop] file format, size, save compatibility and link version shown",
@@ -40,27 +40,17 @@
    "detail": ""
   },
   {
-   "name": "[desktop] pre-release: state, 'not released' wording, no date and no checksum invented",
+   "name": "[desktop] released: status, date and the finished game's checksum come from the release record",
    "ok": true,
-   "detail": "('prerelease', 'Not announced', 'Published with the release')"
+   "detail": "('2026-10-09', 'Released')"
   },
   {
-   "name": "[desktop] pre-release: no download control of any kind, enabled or disabled",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "name": "[desktop] pre-release: no link to a game or patch file anywhere on the page",
-   "ok": true,
-   "detail": "[]"
-  },
-  {
-   "name": "[desktop] pre-release: the primary action is the Discord invite",
+   "name": "[desktop] released: the primary action leads to the in-page patcher, with one file selector",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] pre-release: Get the game says plainly that nothing is released",
+   "name": "[desktop] released: no link to a complete game file anywhere on the page",
    "ok": true,
    "detail": ""
   },
@@ -152,7 +142,7 @@
   {
    "name": "[desktop] /: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /: Discord in the footer",
@@ -177,7 +167,7 @@
   {
    "name": "[desktop] /play/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /play/: Discord in the footer",
@@ -202,7 +192,7 @@
   {
    "name": "[desktop] /stuck/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /stuck/: Discord in the footer",
@@ -227,7 +217,7 @@
   {
    "name": "[desktop] /walkthrough/johto/new-bark-town/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /walkthrough/johto/new-bark-town/: Discord in the footer",
@@ -252,7 +242,7 @@
   {
    "name": "[desktop] /pokemon/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /pokemon/: Discord in the footer",
@@ -277,7 +267,7 @@
   {
    "name": "[desktop] /postgame/legendaries/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[desktop] /postgame/legendaries/: Discord in the footer",
@@ -312,7 +302,7 @@
   {
    "name": "[desktop] keyboard: Tab reaches the header Discord link and the primary action",
    "ok": true,
-   "detail": "['skip', 'mark', 'A', 'A', 'A', 'A', 'SUMMARY', 'cont', 'BUTTON', 'discord:dc', 'stuck', 'play', 'discord:btn dcbtn', 'link']"
+   "detail": "['skip', 'mark', 'A', 'A', 'A', 'A', 'SUMMARY', 'cont', 'BUTTON', 'discord:dc', 'stuck', 'play', 'btn', 'link']"
   },
   {
    "name": "[desktop] keyboard: Space on a device opens its update steps",
@@ -367,7 +357,7 @@
   {
    "name": "[phone] status shown is the recorded one",
    "ok": true,
-   "detail": "Release candidate · not released"
+   "detail": "Released"
   },
   {
    "name": "[phone] file format, size, save compatibility and link version shown",
@@ -380,27 +370,17 @@
    "detail": ""
   },
   {
-   "name": "[phone] pre-release: state, 'not released' wording, no date and no checksum invented",
+   "name": "[phone] released: status, date and the finished game's checksum come from the release record",
    "ok": true,
-   "detail": "('prerelease', 'Not announced', 'Published with the release')"
+   "detail": "('2026-10-09', 'Released')"
   },
   {
-   "name": "[phone] pre-release: no download control of any kind, enabled or disabled",
-   "ok": true,
-   "detail": ""
-  },
-  {
-   "name": "[phone] pre-release: no link to a game or patch file anywhere on the page",
-   "ok": true,
-   "detail": "[]"
-  },
-  {
-   "name": "[phone] pre-release: the primary action is the Discord invite",
+   "name": "[phone] released: the primary action leads to the in-page patcher, with one file selector",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] pre-release: Get the game says plainly that nothing is released",
+   "name": "[phone] released: no link to a complete game file anywhere on the page",
    "ok": true,
    "detail": ""
   },
@@ -492,7 +472,7 @@
   {
    "name": "[phone] /: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /: Discord in the footer",
@@ -517,7 +497,7 @@
   {
    "name": "[phone] /play/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /play/: Discord in the footer",
@@ -542,7 +522,7 @@
   {
    "name": "[phone] /stuck/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /stuck/: Discord in the footer",
@@ -567,7 +547,7 @@
   {
    "name": "[phone] /walkthrough/johto/new-bark-town/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /walkthrough/johto/new-bark-town/: Discord in the footer",
@@ -592,7 +572,7 @@
   {
    "name": "[phone] /pokemon/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /pokemon/: Discord in the footer",
@@ -617,7 +597,7 @@
   {
    "name": "[phone] /postgame/legendaries/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
    "ok": true,
-   "detail": "[['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/vNRqevNHGd', '_blank', 'noopener', True, 'Join our Discord', True]]"
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
   },
   {
    "name": "[phone] /postgame/legendaries/: Discord in the footer",

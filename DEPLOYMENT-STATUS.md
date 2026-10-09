@@ -90,3 +90,15 @@ Not approved, so nothing is offered. If the owner chooses a patch release: a pat
 - Commit `3b36fc6` on `main` (branch `fix/map-rendering-pokemon-ui`, merged over `68426d5`: Download & Play, permanent Discord invite, favicon). Fast-forward push, Pages run 37931625494 succeeded.
 - Live checks, in a real browser: `qa_mapview.py` 159 of 159 (Faraway Island Interior anchor, image, zoom, pan, fit, markers, full screen; nine other maps; Probopass ROCK / STEEL; trainer teams), `qa_play.py` 134 of 134, `qa_pokedex.py` 136 of 136. The live `faraway-island-interior.png` has the audited hash `5c8284dd7f001f81`. Evidence: `qa-evidence/map-rendering/live*`.
 - Reports: `MAP-RENDERING-AUDIT.md`, `MAP-RENDERING-DEFECTS.md`, `MAP-RENDERING-REGRESSION.md`, `POKEMON-DATA-UI-AUDIT.md`.
+
+## v1.0 launch (2026-10-09)
+
+Published on the owner's instruction: the in-browser patcher on Download & Play, the release record set to released, the enabled registry and three patches under `site/assets/patches/v1.0/`. No complete game file is in the repository or the site.
+
+**Verified before publishing:** v105 ROM = manifest SHA-256 `d76ce7db…513a`, title label v1.0 (`version_label.py verify`); `tools/patches.py verify` (every patch reproduces v105 exactly and refuses every other input); `qa_patcher.py` 49 / 49; `qa_play.py` 130 / 130; `qa_browser.py` 107 / 107, sweep 0 failures; `qa_static.py` 0 failures; `qa_availability.py`, `qa_story.py` pass. Not tested: a physical iPhone, iOS Safari, Delta.
+
+**Supported inputs:** Pokémon Emerald (USA, Europe); pre-release builds v103 and v104. v100 to v102 are recognised and refused: no direct save test into v105 exists.
+
+**Live checks after a publish:** `tools/qa_patcher.py https://areyoublonde.github.io/project-blonde-guide` (needs `private/roms.json`), `tools/qa_play.py <same>`.
+
+To withdraw: set `enabled` to false in `content/patcher.json`, `status` back to `candidate` and `distribution.method` to `undecided`, delete `site/assets/patches/`, push.
