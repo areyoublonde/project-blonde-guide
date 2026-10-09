@@ -28,6 +28,12 @@ jobs:
       # Item aliases, NPC gifts and branch-opened shops in the availability audit (the Porygon2 / Porygon-Z regression)
       - name: Check availability regressions
         run: python3 tools/qa_availability.py
+      # Every map image is the audited one, at the size its layout needs, and every map the pages show exists
+      - name: Check map images
+        run: python3 tools/qa_maps.py
+      # Types on every page are the ROM's (the "Side Hazard Sharp Steel" regression); the public Pokédex stays 440 + 42
+      - name: Check Pokémon types and fields
+        run: python3 tools/qa_pokemon_data.py
       - name: Check every link and asset
         run: python3 tools/qa_static.py --base "${{ steps.pages.outputs.base_path }}"
       # Every major story line must be on the road or be a listed gap (content/storylines.json)

@@ -737,15 +737,14 @@
 "FallarborTown_BattleTentBattleRoom_hns",
 "FallarborTown_BattleTentCorridor_hns",
 "FallarborTown_BattleTentLobby_hns",
-"FarawayIsland_Interior_hns",
 "FuchsiaCity_Gym_hns",
 "FuchsiaCity_House1_hns",
 "FuchsiaCity_House2_hns",
 "FuchsiaCity_Mart_hns",
-"FuchsiaCity_PokemonCenter_hns"
+"FuchsiaCity_PokemonCenter_hns",
+"FuchsiaCity_Route15_Gate_hns"
 ],
 "kanto-reference-03.png": [
-"FuchsiaCity_Route15_Gate_hns",
 "FuchsiaCity_Route19_Gate_hns",
 "Gate_CeladonCity_Route16_hns",
 "Gate_FuchsiaCity_Route18_hns",
@@ -792,10 +791,10 @@
 "Route8_TunnelEntrance_hns",
 "Route9_PokemonCenter_hns",
 "SaffronCity_CopyCatsHouse_1F_hns",
-"SaffronCity_CopyCatsHouse_2F_hns"
+"SaffronCity_CopyCatsHouse_2F_hns",
+"SaffronCity_FightingDojoVIP_hns"
 ],
 "kanto-reference-04.png": [
-"SaffronCity_FightingDojoVIP_hns",
 "SaffronCity_House1_hns",
 "SaffronCity_Mart_hns",
 "SaffronCity_PokemonCenter_hns",
@@ -848,6 +847,7 @@
 "CeladonCity_Gym_hns",
 "CeruleanCity_Gym_hns",
 "FarawayIsland_Entrance_hns",
+"FarawayIsland_Interior_hns",
 "FuchsiaCity_SafariZoneEntrance_hns",
 "IndigoPlateau_PokemonCenter_hns",
 "PewterCity_Gym_hns",
@@ -882,10 +882,10 @@
 "Route11_hns",
 "Route12_hns",
 "Route13_hns",
-"Route14_hns",
-"Route15_hns"
+"Route14_hns"
 ],
 "kanto-shown-02.png": [
+"Route15_hns",
 "Route16_hns",
 "Route17_hns",
 "Route18_hns",
@@ -932,10 +932,10 @@
 ],
 "sinjoh-reference-01.png": [
 "NewSinjoh_House3_hns",
-"NewSinjoh_KimonoHideout_hns",
-"SinjohRuins_RegisteelRoom_hns"
+"NewSinjoh_KimonoHideout_hns"
 ],
 "sinjoh-shown-01.png": [
+"SinjohRuins_RegisteelRoom_hns",
 "NewSinjoh_House1_hns",
 "NewSinjoh_House2_hns",
 "NewSinjoh_House4_hns",

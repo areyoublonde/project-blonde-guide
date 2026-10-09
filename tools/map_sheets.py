@@ -38,7 +38,7 @@ def main():
                 sheet.paste(im, (x + (CELL - im.width) // 2, y + (CELL - im.height) // 2))
                 d.text((x, y + CELL + 1), name[:34], fill=(200, 205, 215))
             name = f"{region}-{kind}-{n // (COLS * ROWS) + 1:02d}.png"
-            sheet.save(OUT / name, optimize=True)
+            sheet.quantize(255, method=Image.MEDIANCUT, dither=Image.NONE).save(OUT / name, optimize=True)   # palette PNG: a third of the size
             index[name] = [k for _, _, k in page]
     (OUT / "index.json").write_text(json.dumps(index, indent=0))
     print(len(index), "sheets,", sum(len(v) for v in index.values()), "maps")
