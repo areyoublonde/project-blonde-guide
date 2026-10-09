@@ -1,0 +1,265 @@
+{
+ "base": "http://localhost:8951",
+ "checked": "2026-10-09 20:43",
+ "passed": 49,
+ "failed": 0,
+ "performance": {
+  "emerald: recognise (s, CPU 6x slower)": 0.15,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.09,
+  "emerald: browser memory before / peak (MB, all Chrome processes)": [
+   1226,
+   1236
+  ],
+  "emerald: recognise with the plain-JS hash (s)": 0.11,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.46,
+  "v104: update (s)": 0.09,
+  "v103: update (s)": 0.08
+ },
+ "results": [
+  {
+   "name": "one file selector, labelled 'Choose your game file', and no New / Updating choice",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "nothing technical is visible before a file is chosen",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the prototype is labelled private and the page still says release candidate, not released",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "the file selector takes any file (no type filter that could grey out a .gba on iOS)",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no sideways scroll at phone width",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Emerald: recognised automatically as the clean base game",
+   "ok": true,
+   "detail": "('found', '')"
+  },
+  {
+   "name": "Emerald: shows what the file is and what it will become, before anything is made",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Emerald: no save-backup tick box for a new game, and the button is ready",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Emerald: game built",
+   "ok": true,
+   "detail": "('ready', '')"
+  },
+  {
+   "name": "Emerald: the file offered for saving is the approved release, byte for byte",
+   "ok": true,
+   "detail": "['Pokemon Project Blonde v1.0.gba', 33554432, 'd76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a']"
+  },
+  {
+   "name": "Emerald: a clear save action, with setup pointer; no save-transfer wording for a new game",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "Emerald: the only network traffic is one download of the patch; nothing is sent",
+   "ok": true,
+   "detail": "[('GET', 'emerald-usa-to-v105.bps.gz', False)]"
+  },
+  {
+   "name": "the right game under a meaningless file name is still recognised",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "fallbacks (no crypto.subtle, no DecompressionStream): same exact result from the uncompressed patch",
+   "ok": true,
+   "detail": "('ready', [('GET', 'emerald-usa-to-v105.bps', False)])"
+  },
+  {
+   "name": "v104: recognised automatically as an earlier Project Blonde build",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v104: save-backup reminder shown, with the link to the backup steps and no promise",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v104: cannot update until the backup box is ticked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v104: clicking the disabled button does nothing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v104: updated file is the approved release, byte for byte",
+   "ok": true,
+   "detail": "('ready', ['Pokemon Project Blonde v1.0.gba', 33554432, 'd76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a'], '')"
+  },
+  {
+   "name": "v104: afterwards explains that the save must be restored separately",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v104: only its own patch was downloaded",
+   "ok": true,
+   "detail": "[('GET', 'v104-to-v105.bps.gz', False)]"
+  },
+  {
+   "name": "v103: recognised automatically as an earlier Project Blonde build",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v103: save-backup reminder shown, with the link to the backup steps and no promise",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v103: cannot update until the backup box is ticked",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v103: clicking the disabled button does nothing",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v103: updated file is the approved release, byte for byte",
+   "ok": true,
+   "detail": "('ready', ['Pokemon Project Blonde v1.0.gba', 33554432, 'd76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a'], '')"
+  },
+  {
+   "name": "v103: afterwards explains that the save must be restored separately",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "v103: only its own patch was downloaded",
+   "ok": true,
+   "detail": "[('GET', 'v103-to-v105.bps.gz', False)]"
+  },
+  {
+   "name": "current release: says it is already up to date and offers no patching",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "refused: recognised but unsupported build (v100)",
+   "ok": true,
+   "detail": "('rejected', 'v100', 'This is Project Blonde pre-release build v100. This page cannot update that build. Your fi')"
+  },
+  {
+   "name": "refused: unsupported build renamed to the release's file name",
+   "ok": true,
+   "detail": "('rejected', 'v100', 'This is Project Blonde pre-release build v100. This page cannot update that build. Your fi')"
+  },
+  {
+   "name": "refused: unknown Project Blonde / Heart & Soul build (Heart & Soul 2.0)",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'This looks like Project Blonde or Heart & Soul, but it is not a version this page knows. I')"
+  },
+  {
+   "name": "refused: modified Emerald (Recharged Emerald 2.2.5)",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is Pokémon Emerald, but not an unchanged copy. It may be a hack, a randomised or alre')"
+  },
+  {
+   "name": "refused: Emerald with one byte changed",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is Pokémon Emerald, but not an unchanged copy. It may be a hack, a randomised or alre')"
+  },
+  {
+   "name": "refused: Emerald with another language code (synthetic)",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is Pokémon Emerald in another language. Project Blonde needs the English version, the')"
+  },
+  {
+   "name": "refused: Emerald cut short",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is Pokémon Emerald, but the file is not the right size. It may be cut short or padded')"
+  },
+  {
+   "name": "refused: zip file",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is a zip file. Unpack it first, then choose the .gba file inside it.')"
+  },
+  {
+   "name": "refused: save-sized file",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That looks like a save file, not the game. Choose the game file, the one ending in .gba. K')"
+  },
+  {
+   "name": "refused: not a game at all",
+   "ok": true,
+   "detail": "('rejected', 'unknown', 'That is not a Game Boy Advance game file. Choose your own Pokémon Emerald (USA, Europe) fi')"
+  },
+  {
+   "name": "after a refusal the visitor can simply choose another file",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "patch check: the wrong patch is delivered -> nothing is built or offered, with a plain message",
+   "ok": true,
+   "detail": "('error', 'damaged', 'The download arrived damaged, so nothing was built. Please try again in a moment')"
+  },
+  {
+   "name": "patch check: the download is cut off -> nothing is built or offered, with a plain message",
+   "ok": true,
+   "detail": "('error', 'Failed to fetch', 'Something went wrong while building the game, so nothing was saved. Please try a')"
+  },
+  {
+   "name": "out of memory: a clear message, nothing offered",
+   "ok": true,
+   "detail": "This device ran out of memory, so nothing was built and your file has not been c"
+  },
+  {
+   "name": "advanced details (opened on request) show the checksums and the patch used",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "checksums and patch names appear nowhere outside advanced details",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard: Space ticks the backup box and enables Update",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "keyboard: the file selector takes focus and shows a focus ring",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "device guides and the update guide are still on the page",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "no source ROM file was changed by the test",
+   "ok": true,
+   "detail": ""
+  }
+ ]
+}

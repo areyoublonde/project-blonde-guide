@@ -1,0 +1,131 @@
+{
+ "_about": "The one registry behind the in-browser patcher (Download & Play, 'Make your game'). A file is identified ONLY by its SHA-256, never by name. `kind`: `base` = the clean game a new player starts from, `release` = an earlier Project Blonde build. Each input maps to one direct patch to the target; there are no patch chains. `status`: `supported` = offered to players; `recognised` = identified by name but refused (patch may exist and be verified, awaiting the owner's decision); anything not listed is unknown and refused. Hashes, sizes and patch checksums are written by `tools/patches.py build` from the real files and re-checked by `tools/patches.py verify`; do not type them by hand. `enabled` stays false until the owner approves the release and this distribution method: while false, the public build contains no patcher and no patch file.",
+ "enabled": false,
+ "release": "1.0-rc",
+ "target": {
+  "rom": "v105",
+  "public_version": "v1.0",
+  "internal_build": "v105",
+  "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+  "size": 33554432,
+  "file_name": "Pokemon Project Blonde v1.0.gba",
+  "release_notes_url": "/play/#changelog"
+ },
+ "inputs": [
+  {
+   "id": "emerald-usa",
+   "kind": "base",
+   "rom": "emerald-usa",
+   "status": "supported",
+   "label": "Pokémon Emerald (USA, Europe)",
+   "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+   "size": 16777216,
+   "patch": {
+    "file": "emerald-usa-to-v105.bps",
+    "sha256": "9d7065c507ced9b1532e2b9790cc1262090c07cbc061173b02e86c62c83e62d7",
+    "size": 23786788,
+    "size_gz": 17552068
+   }
+  },
+  {
+   "id": "v104",
+   "kind": "release",
+   "rom": "v104",
+   "status": "supported",
+   "label": "Project Blonde pre-release build v104",
+   "internal_build": "v104",
+   "sha256": "2b254f96e644e33c35dcf1719715481f96b87057e5ae1d22a98332e928907582",
+   "size": 33554432,
+   "patch": {
+    "file": "v104-to-v105.bps",
+    "sha256": "ab5a19abb217e6546d02c67749af5c369e4e354e2e8672da8e3f49286f2531e8",
+    "size": 526,
+    "size_gz": 435
+   },
+   "save": {
+    "status": "tested",
+    "note": "A save from this build was continued in v1.0 in the project’s own testing."
+   }
+  },
+  {
+   "id": "v103",
+   "kind": "release",
+   "rom": "v103",
+   "status": "supported",
+   "label": "Project Blonde pre-release build v103",
+   "internal_build": "v103",
+   "sha256": "eb7ba7f4bfecd7f500d0221d56282e0c815bfcaaedd871d1c3b2e1c61f39a442",
+   "size": 33554432,
+   "patch": {
+    "file": "v103-to-v105.bps",
+    "sha256": "03e6947f4a9d032f65665d883730020626fcb494e3a10875525442e1d3e940f8",
+    "size": 1267,
+    "size_gz": 918
+   },
+   "save": {
+    "status": "tested",
+    "note": "A save from this build was continued in v1.0 in the project’s own testing."
+   }
+  },
+  {
+   "id": "v102",
+   "kind": "release",
+   "rom": "v102",
+   "status": "recognised",
+   "label": "Project Blonde pre-release build v102",
+   "internal_build": "v102",
+   "sha256": "e555b37cc98b3c11c04dfa9d87c3858af27b28a8abd5231fa3890151ec47607d",
+   "size": 33554432,
+   "patch": {
+    "file": "v102-to-v105.bps",
+    "sha256": "92fe0637378c98ea2512292df1586309a21282c6103f6acc20960ee05372b1b8",
+    "size": 1770,
+    "size_gz": 1221
+   },
+   "save": {
+    "status": "untested",
+    "note": "Not tested directly from this build to v1.0."
+   }
+  },
+  {
+   "id": "v101",
+   "kind": "release",
+   "rom": "v101",
+   "status": "recognised",
+   "label": "Project Blonde pre-release build v101",
+   "internal_build": "v101",
+   "sha256": "d7ccec923df5be0a4276c42fd959806d0682547cd3795b332d4b1e85883ecafd",
+   "size": 33554432,
+   "patch": {
+    "file": "v101-to-v105.bps",
+    "sha256": "cc5782940ab758d10b72f3be5fb28b2ee0b179042a977125214ef6bec0625349",
+    "size": 1856,
+    "size_gz": 1290
+   },
+   "save": {
+    "status": "untested",
+    "note": "Not tested directly from this build to v1.0."
+   }
+  },
+  {
+   "id": "v100",
+   "kind": "release",
+   "rom": "v100",
+   "status": "recognised",
+   "label": "Project Blonde pre-release build v100",
+   "internal_build": "v100",
+   "sha256": "b67a9211d66b04ab9fc263328c0d177386c353aa1b977882282bfaeec5b74aec",
+   "size": 33554432,
+   "patch": {
+    "file": "v100-to-v105.bps",
+    "sha256": "f4c55d0f863beabca30227d5bd3205634764c9c41cb3ee6e9288bb1f7260275f",
+    "size": 1860,
+    "size_gz": 1296
+   },
+   "save": {
+    "status": "untested",
+    "note": "Not tested directly from this build to v1.0."
+   }
+  }
+ ]
+}

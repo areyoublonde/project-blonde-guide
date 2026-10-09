@@ -452,6 +452,19 @@ a.enc-row:hover b{color:#fff}
 .notice.wide{max-width:72ch;margin-top:32px}
 .support{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between;margin-top:36px}.support p:not(.label){margin:8px 0 0;color:var(--ink-2);max-width:56ch}
 @media (max-width:999px){.kv.wide.rules div{grid-template-columns:1fr;gap:4px}.relline b{font-size:1.4rem}}
+/* ---------- make your game (in-browser patcher) */
+.mkgame{max-width:720px}.mkgame>.lead b{color:var(--ink);font-weight:500}.mkgame h3{font-size:1.35rem;margin:10px 0 10px}
+.mk-proto{margin:0 0 22px;padding:12px 16px;border-radius:8px;box-shadow:0 0 0 1px var(--danger) inset;color:var(--ink-2);font-size:.9rem}.mk-proto b{color:var(--danger)}
+.mk-pick{margin-top:22px;cursor:pointer;position:relative}.mk-pick:focus-within{outline:2px solid var(--accent);outline-offset:3px}
+.mk-msg{margin:18px 0 0;color:var(--ink-2);max-width:60ch}.mk-msg:empty{display:none}.mk-msg.bad{padding-left:16px;border-left:1px solid var(--danger);color:var(--ink)}
+.mk-found,.mk-ready,.mk-current{margin-top:26px}.mk-found .kv{margin:0 0 22px}.mk-found dd{font-weight:500}
+.mk-warn{margin:0 0 14px;padding-left:16px;border-left:1px solid var(--accent);color:var(--ink-2);max-width:60ch}.mk-warn b{color:var(--ink);font-weight:500}
+.mk-save{font-size:.9rem;color:var(--ink-3);max-width:60ch;margin:0 0 16px}
+.mk-check{display:flex;gap:12px;align-items:center;min-height:44px;margin:0 0 20px;cursor:pointer}.mk-check input{width:20px;height:20px;accent-color:var(--accent);flex:none}
+.mkgame button.btn{border:0;font-family:inherit;cursor:pointer}.mkgame .btn:disabled{background:var(--surface-2);color:var(--ink-3);cursor:default}.mkgame .btn:disabled:hover{gap:10px}
+.mk-ready:focus{outline:none}.mk-ready .actions{margin-top:20px}.mk-ready .notice{max-width:60ch}.mk-ready .mk-warn{margin-top:22px}
+.mk-foot{display:flex;flex-wrap:wrap;gap:0 28px;align-items:center;margin-top:22px}.mk-foot button{background:none;border:0;padding:0;cursor:pointer;font-family:inherit}
+[data-state=ask] .mk-foot [data-mk-reset]{display:none}.mk-adv{margin-top:18px}.mk-adv dd{font-size:.86rem;color:var(--ink-2);word-break:break-all}
 .play section{padding-top:var(--s7)}.play section h2{margin:14px 0 12px}
 .cmp{margin-top:20px}.cmp td:first-child{font-weight:500;white-space:nowrap}
 .topics{display:grid;gap:0 48px;border-top:1px solid var(--hair-2);margin-top:16px}

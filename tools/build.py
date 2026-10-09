@@ -930,18 +930,70 @@ def build_progress():
 
 
 # ============================================================ 17-18  PLAY
+PATCHER = J(CONTENT / "patcher.json")
+
+
 def release_state(rel):
     """The one decision about whether a download may be shown. Anything short of a complete, released record is the pre-release state."""
     dist, dl, pt = RELEASES["distribution"], rel["download"], rel["patch"]
     assert BUILD["build"]["public"].startswith(rel["public_version"]) and BUILD["build"]["version"] == rel["internal_build"], "releases.json does not describe the build the guide was extracted from"
     if rel["status"] != "released":
         assert not dl["url"], "releases.json: a download URL is set but the release is not marked released"
+        assert not PATCHER["enabled"], "patcher.json is enabled but the release is not marked released"
         return "prerelease"
+    if dist["method"] == "patcher":       # no file is linked: the game is made in the visitor's browser from the registry's verified patches
+        assert PATCHER["enabled"] and rel["date"] and rel["sha256"] == PATCHER["target"]["sha256"], "patcher distribution needs an enabled registry whose target is this release, and a date"
+        return "patcher"
     assert dl["url"] and rel["sha256"] and rel["date"] and dist["method"] in ("direct", "patch"), "releases.json: a released version needs date, download.url, sha256 and a distribution method"
     assert dl["url"].startswith("https://"), "releases.json: download.url must be https"
     if dist["method"] == "patch":
         assert all(pt[k] for k in ("format", "base_game", "base_checksum", "tool", "tool_url")), "releases.json: patch distribution needs every patch field"
     return dist["method"]
+
+
+def patcher_html(rel):
+    """Make your game: the two-path in-browser patcher. Registry content/patcher.json; logic site/assets/patcher.js.
+    Rendered only in a --prototype build, or once the owner has enabled the registry for a released version."""
+    T = PATCHER["target"]
+    assert (T["public_version"], T["internal_build"]) == (rel["public_version"], rel["internal_build"]) and PATCHER["release"] == rel["version"], "patcher.json does not target the current release"
+    assert T["sha256"] and all(x["sha256"] and x["patch"] for x in PATCHER["inputs"]), "patcher.json has no hashes: run tools/patches.py build"
+    assert len({x["sha256"] for x in PATCHER["inputs"]} | {T["sha256"]}) == len(PATCHER["inputs"]) + 1, "patcher.json: two entries share a hash"
+    src, dst = ROOT / "private/patches" / T["public_version"], DIST / "assets/patches" / T["public_version"]
+    dst.mkdir(parents=True, exist_ok=True)
+    pub = {"target": {k: T[k] for k in ("public_version", "internal_build", "sha256", "size", "file_name")}, "inputs": []}
+    for x in PATCHER["inputs"]:
+        e = {k: x[k] for k in ("id", "kind", "status", "label", "sha256", "size") } | ({"save": x["save"]} if x.get("save") else {})
+        if x["status"] == "supported":       # only these can be applied; a recognised build gets its name and a refusal, and no patch is shipped for it
+            e["patch"] = x["patch"]
+            for n in (x["patch"]["file"], x["patch"]["file"] + ".gz"):
+                shutil.copyfile(src / n, dst / n)
+        pub["inputs"].append(e)
+    base = next(x for x in PATCHER["inputs"] if x["kind"] == "base" and x["status"] == "supported")
+    proto = '<p class="mk-proto"><b>Private prototype.</b> Project Blonde is not released. This page is for testing by the owner and must not be shared.</p>' if CFG.get("prototype") else ""
+    dc = discord_link("link dc", "Ask on Discord")
+    return f"""<div class="mkgame" data-patcher data-state="ask" data-patches="{u("/assets/patches/" + T["public_version"] + "/")}">{proto}
+ <p class="lead">Choose <b>your own {esc(base["label"])}</b> file, or the <b>Project Blonde</b> file you already play. This page works out which it is and makes Project Blonde {esc(T["public_version"])} from it on your device. Your file is not changed and nothing is uploaded.</p>
+ <div data-mk-pickrow><label class="btn mk-pick"><span>Choose your game file</span><input type="file" data-mk-file class="sr"></label></div>
+ <p class="mk-msg" data-mk-msg role="status" aria-live="polite"></p>
+ <div class="mk-current" data-mk-current hidden><p class="label accent">Up to date</p><h3>You already have Project Blonde {esc(T["public_version"])}</h3>
+  <p class="lead">This file is the latest version, so there is nothing to make or update. Open it in your emulator and play: <a href="#devices">setup for your device</a>.</p></div>
+ <div class="mk-found" data-mk-found hidden><dl class="kv wide"><div><dt>Your file</dt><dd data-mk-from></dd></div><div><dt>Will become</dt><dd data-mk-to></dd></div></dl>
+  <div data-mk-only="release"><p class="mk-warn"><b>Back up your save first.</b> Your progress is a separate save file. This page never sees it, and updating the game does not update or move your save. Make a copy of it now: <a href="#update">how to back up and restore on your device</a>.</p>
+   <p class="mk-save"><span data-mk-savenote></span> A game that updates cleanly does not prove that a save will carry over, so keep the backup until you have checked your adventure.</p>
+   <label class="mk-check"><input type="checkbox" data-mk-backup><span>I have made a backup copy of my save file</span></label></div>
+  <p><button type="button" class="btn" data-mk-go disabled><span>Make my game</span>{ARROW}</button></p></div>
+ <div class="mk-ready" data-mk-ready tabindex="-1" hidden><p class="label accent">Done</p><h3>Project Blonde {esc(T["public_version"])} is ready</h3>
+  <p class="lead">It was built on this device and checked against the official release.</p>
+  <div class="actions"><button type="button" class="btn" data-mk-share hidden>Open in Delta</button><a class="btn" data-mk-save><span>Save game file</span></a></div>
+  <p class="notice" data-mk-ios hidden><b>Open in Delta</b> shows the share sheet: choose Delta. If Delta is not listed, tap <b>Save to Files</b>, then in Delta tap <b>+</b>, choose <b>Files</b> and pick “{esc(T["file_name"])}” in Downloads. If nothing happens when you tap, open this page in Safari first.</p>
+  <p class="notice" data-mk-notios>The file is saved as “{esc(T["file_name"])}”, usually in your Downloads folder. Open it in your emulator: <a href="#devices">setup for your device</a>.</p>
+  <div data-mk-only="release"><p class="mk-warn"><b>Now bring your save across.</b> The new game file starts without one. Follow <a href="#update">the restore steps for your device</a>, choose Continue, and check your adventure before you save again. Keep the old game file and your backup until you have.</p></div></div>
+ <p class="mk-foot"><button type="button" class="link" data-mk-reset>Start again</button>{dc}</p>
+ <details class="qa mk-adv"><summary><b>Advanced details</b></summary><div><dl class="kv wide" data-mk-adv></dl><p>Files are recognised by their SHA-256 checksum, never by name. The finished game must match SHA-256 <code class="sum">{esc(T["sha256"])}</code> or it is not offered for saving.</p></div></details>
+ <noscript><p class="notice">This step needs JavaScript switched on.</p></noscript>
+ <script type="application/json" id="patcher-registry">{json.dumps(pub, ensure_ascii=False, separators=(",", ":"))}</script>
+ <script src="{u("/assets/patcher.js")}" defer></script>
+</div>"""
 
 
 def build_play():
@@ -962,7 +1014,12 @@ def build_play():
     dl = "".join(f'<div><dt>{k}</dt><dd>{v}</dd></div>' for k, v in rows)
     hl = "".join(f"<li>{esc(x)}</li>" for x in rel["highlights"])
     # --- the primary action: a real download when released, otherwise the place where the release will be announced
-    if live:
+    make = CFG.get("prototype") or state == "patcher"
+    if state == "patcher":
+        primary = f'<a class="btn" href="#get">Make your game{ARROW}</a>'
+        status_line = f'<b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span>'
+        hero_note = "Made on your own device from your own copy of Pokémon Emerald. No game file is downloaded."
+    elif live:
         what = "patch" if state == "patch" else "game"
         primary = f'<a class="btn" data-download href="{esc(rel["download"]["url"])}">Download {pv} {what}{ARROW}</a>'
         status_line = f'<b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span>'
@@ -984,6 +1041,10 @@ def build_play():
         get = (f'<p class="lead"><b>{pv} is not released yet.</b> It is a release candidate still being checked, so this page offers no file, and how the game will be distributed has not been announced.</p>'
                f'<p class="notice">When it is released, this step will carry the download, its checksum and any patching steps. Only a file whose checksum matches the one published here is the real release.</p>'
                + (f'<div class="actions">{discord_link("btn ghost dcbtn", "Hear about the release on Discord")}</div>' if DISCORD.get("url") else ""))
+    if make:
+        get = patcher_html(rel)
+        if state == "prerelease":
+            primary, hero_note = f'<a class="btn" href="#get">Make your game{ARROW}</a>', "Private prototype for the owner’s testing. Project Blonde is not released."
     devs = "".join(f'<a href="{u("/play/setup/" + d["id"] + "/")}"><b>{d["name"]}</b><span class="ok">{esc(d["emulator"])}</span>{ARROW}</a>' for d in PLAY["devices"])
     sv, up = PLAY["save"], PLAY["update"]
     cmp_rows = "".join("<tr>" + "".join(f'<td data-l="{l}">{c}</td>' for l, c in zip(["", "How", "Makes", "Portable", "Use it for"], r)) + "</tr>" for r in sv["rows"])
@@ -1306,7 +1367,9 @@ def write_availability_audit(checks):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default="")
-    CFG["base"] = ap.parse_args().base.rstrip("/")
+    ap.add_argument("--prototype", action="store_true", help="LOCAL TEST ONLY: show the in-browser patcher and copy private/patches into dist/. Never deploy this build.")
+    args = ap.parse_args()
+    CFG["base"], CFG["prototype"] = args.base.rstrip("/"), args.prototype
     expand_refs()
     for j in JOURNEY:       # every key item named in a chapter must be an item the game defines
         for n, _ in j["ch"].get("items", []):

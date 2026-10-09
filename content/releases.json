@@ -5,7 +5,8 @@
   "notes": {
    "direct": "One file. Download it and open it in your emulator.",
    "patch": "A patch file that you apply to your own legally obtained copy of the base game. No complete game file is distributed.",
-   "undecided": "Not announced. How Project Blonde will be distributed has not been decided."
+   "undecided": "Not announced. How Project Blonde will be distributed has not been decided.",
+   "patcher": "Made in your browser from your own legally obtained copy of the base game. No complete game file is distributed."
   }
  },
  "notice": "No game file is distributed from this site. The download opens only when a public release has been announced. Your progress lives in a separate save file, so a later update never means starting again.",

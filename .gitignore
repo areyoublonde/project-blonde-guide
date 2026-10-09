@@ -12,3 +12,6 @@ design-archive/
 *.zip
 *.bps
 *.ips
+# private prototype inputs and generated patches: never committed, never deployed
+private/
+*.bps.gz
