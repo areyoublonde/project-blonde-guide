@@ -1,0 +1,678 @@
+{
+ "base": "https://areyoublonde.github.io/project-blonde-guide",
+ "checked": "2026-10-09 20:44",
+ "passed": 134,
+ "failed": 0,
+ "results": [
+  {
+   "name": "Discord: the configured invite resolves to the official server and never expires",
+   "ok": true,
+   "detail": "('POKÉMON: PROJECT BLONDE', None)"
+  },
+  {
+   "name": "[desktop] page is Download & Play for Pokémon Project Blonde",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] title-screen artwork is loaded and shown crisp",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] version and build come from the release record",
+   "ok": true,
+   "detail": "v1.0 · build v105"
+  },
+  {
+   "name": "[desktop] status shown is the recorded one",
+   "ok": true,
+   "detail": "Release candidate · not released"
+  },
+  {
+   "name": "[desktop] file format, size, save compatibility and link version shown",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] every release highlight is listed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] pre-release: state, 'not released' wording, no date and no checksum invented",
+   "ok": true,
+   "detail": "('prerelease', 'Not announced', 'Published with the release')"
+  },
+  {
+   "name": "[desktop] pre-release: no download control of any kind, enabled or disabled",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] pre-release: no link to a game or patch file anywhere on the page",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] pre-release: the primary action is the Discord invite",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] pre-release: Get the game says plainly that nothing is released",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] four devices with their emulators",
+   "ok": true,
+   "detail": "[['iPhone & iPad', 'Delta', '/project-blonde-guide/play/setup/iphone/'], ['Android', 'RetroArch', '/project-blonde-guide/play/setup/android/'], ['Windows', 'mGBA', '/project-blonde-guide/play/setup/windows/'], ['macOS', 'mGBA', '/project-blonde-guide/play/setup/mac/']]"
+  },
+  {
+   "name": "[desktop] 'Set up your device' jumps to the device list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] a device opens its setup guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] setup · iphone: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] setup · android: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] setup · windows: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] setup · mac: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update section has the exact title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: all devices collapsed at first, each with its own steps",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: choosing a device shows its steps and closes the other",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: a direct link opens that device's steps",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: covers in-game save vs save state, backup, restore, checking and rollback",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: does not promise future save compatibility",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] old #update / #backup / #restore / #move / #link / #save / #trouble / #changelog anchors all exist",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] troubleshooting lists every written problem",
+   "ok": true,
+   "detail": "15"
+  },
+  {
+   "name": "[desktop] troubleshooting: an answer opens",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] troubleshooting ends with Discord support",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] /play/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /play/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /play/: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /play/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /play/: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] /stuck/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /stuck/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /stuck/: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /stuck/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /stuck/: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] /walkthrough/johto/new-bark-town/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /walkthrough/johto/new-bark-town/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /walkthrough/johto/new-bark-town/: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /walkthrough/johto/new-bark-town/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /walkthrough/johto/new-bark-town/: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] /pokemon/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /pokemon/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /pokemon/: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /pokemon/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /pokemon/: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: header has the Discord icon and Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: no sideways scroll",
+   "ok": true,
+   "detail": "1440"
+  },
+  {
+   "name": "[desktop] Stuck?: points to Download & Play troubleshooting and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Home: Get started leads to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] keyboard: Tab reaches the header Discord link and the primary action",
+   "ok": true,
+   "detail": "['skip', 'mark', 'A', 'A', 'A', 'A', 'SUMMARY', 'cont', 'BUTTON', 'discord:dc', 'stuck', 'play', 'discord:btn dcbtn', 'link']"
+  },
+  {
+   "name": "[desktop] keyboard: Space on a device opens its update steps",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] keyboard: focus ring is visible on the primary action",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] search finds the update guide",
+   "ok": true,
+   "detail": "Stuck?I updated the game and my save is goneYour save lives in a separate .sav file. Give the new game file the same nam"
+  },
+  {
+   "name": "[desktop] search still finds a Pokémon",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] progress tracking still remembers the chapter opened",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Pokédex still lists 482 entries",
+   "ok": true,
+   "detail": "482"
+  },
+  {
+   "name": "[desktop] Legendary guide still lists 32 of 32",
+   "ok": true,
+   "detail": "32 of 32"
+  },
+  {
+   "name": "[phone] page is Download & Play for Pokémon Project Blonde",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] title-screen artwork is loaded and shown crisp",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] version and build come from the release record",
+   "ok": true,
+   "detail": "v1.0 · build v105"
+  },
+  {
+   "name": "[phone] status shown is the recorded one",
+   "ok": true,
+   "detail": "Release candidate · not released"
+  },
+  {
+   "name": "[phone] file format, size, save compatibility and link version shown",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] every release highlight is listed",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] pre-release: state, 'not released' wording, no date and no checksum invented",
+   "ok": true,
+   "detail": "('prerelease', 'Not announced', 'Published with the release')"
+  },
+  {
+   "name": "[phone] pre-release: no download control of any kind, enabled or disabled",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] pre-release: no link to a game or patch file anywhere on the page",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] pre-release: the primary action is the Discord invite",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] pre-release: Get the game says plainly that nothing is released",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] four devices with their emulators",
+   "ok": true,
+   "detail": "[['iPhone & iPad', 'Delta', '/project-blonde-guide/play/setup/iphone/'], ['Android', 'RetroArch', '/project-blonde-guide/play/setup/android/'], ['Windows', 'mGBA', '/project-blonde-guide/play/setup/windows/'], ['macOS', 'mGBA', '/project-blonde-guide/play/setup/mac/']]"
+  },
+  {
+   "name": "[phone] 'Set up your device' jumps to the device list",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] a device opens its setup guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] setup · iphone: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] setup · android: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] setup · windows: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] setup · mac: 6 steps, update link and Discord help",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update section has the exact title",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: all devices collapsed at first, each with its own steps",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: choosing a device shows its steps and closes the other",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: a direct link opens that device's steps",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: covers in-game save vs save state, backup, restore, checking and rollback",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: does not promise future save compatibility",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] old #update / #backup / #restore / #move / #link / #save / #trouble / #changelog anchors all exist",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] troubleshooting lists every written problem",
+   "ok": true,
+   "detail": "15"
+  },
+  {
+   "name": "[phone] troubleshooting: an answer opens",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] troubleshooting ends with Discord support",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] /play/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /play/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /play/: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /play/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /play/: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] /stuck/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /stuck/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /stuck/: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /stuck/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /stuck/: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] /walkthrough/johto/new-bark-town/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /walkthrough/johto/new-bark-town/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /walkthrough/johto/new-bark-town/: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /walkthrough/johto/new-bark-town/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /walkthrough/johto/new-bark-town/: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] /pokemon/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /pokemon/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /pokemon/: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /pokemon/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /pokemon/: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: every Discord link is the configured invite, opens in a new tab, has the icon and a name",
+   "ok": true,
+   "detail": "[['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True], ['https://discord.gg/Mhhh9kE4Kf', '_blank', 'noopener', True, 'Join our Discord', True]]"
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: Discord in the footer",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: menu offers Download & Play and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: footer links to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: no sideways scroll",
+   "ok": true,
+   "detail": "390"
+  },
+  {
+   "name": "[phone] Stuck?: points to Download & Play troubleshooting and Discord",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Home: Get started leads to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] search finds the update guide",
+   "ok": true,
+   "detail": "Stuck?I updated the game and my save is goneYour save lives in a separate .sav file. Give the new game file the same nam"
+  },
+  {
+   "name": "[phone] search still finds a Pokémon",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] progress tracking still remembers the chapter opened",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Pokédex still lists 482 entries",
+   "ok": true,
+   "detail": "482"
+  },
+  {
+   "name": "[phone] Legendary guide still lists 32 of 32",
+   "ok": true,
+   "detail": "32 of 32"
+  }
+ ]
+}
