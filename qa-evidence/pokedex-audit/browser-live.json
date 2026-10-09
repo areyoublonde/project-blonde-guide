@@ -6,9 +6,9 @@
  "total": 136,
  "checks": [
   {
-   "name": "[desktop] index lists exactly the 480 obtainable entries",
+   "name": "[desktop] index lists exactly the 482 obtainable entries",
    "ok": true,
-   "detail": "480 rows; extra []; missing []"
+   "detail": "482 rows; extra []; missing []"
   },
   {
    "name": "[desktop] no excluded species is in the index",
@@ -26,9 +26,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[desktop] “pikachu”: result count reads 1 of 480",
+   "name": "[desktop] “pikachu”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “Pikachu” filters at once to 1 row(s) incl. pikachu",
@@ -36,9 +36,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[desktop] “Pikachu”: result count reads 1 of 480",
+   "name": "[desktop] “Pikachu”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “PIKA” filters at once to 1 row(s) incl. pikachu",
@@ -46,9 +46,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[desktop] “PIKA”: result count reads 1 of 480",
+   "name": "[desktop] “PIKA”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “eevee” filters at once to 1 row(s) incl. eevee",
@@ -56,9 +56,9 @@
    "detail": "['eevee']"
   },
   {
-   "name": "[desktop] “eevee”: result count reads 1 of 480",
+   "name": "[desktop] “eevee”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “ninetales” filters at once to 2 row(s) incl. ninetales",
@@ -66,9 +66,9 @@
    "detail": "['ninetales', 'ninetales-alola']"
   },
   {
-   "name": "[desktop] “ninetales”: result count reads 2 of 480",
+   "name": "[desktop] “ninetales”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[desktop] typing “alolan” filters at once to 18 row(s) incl. vulpix-alola",
@@ -76,9 +76,9 @@
    "detail": "['rattata-alola', 'raticate-alola', 'raichu-alola', 'sandshrew-alola', 'sandslash-alola', 'vulpix-alola']"
   },
   {
-   "name": "[desktop] “alolan”: result count reads 18 of 480",
+   "name": "[desktop] “alolan”: result count reads 18 of 482",
    "ok": true,
-   "detail": "18 of 480"
+   "detail": "18 of 482"
   },
   {
    "name": "[desktop] typing “vulpix alola” filters at once to 1 row(s) incl. vulpix-alola",
@@ -86,9 +86,9 @@
    "detail": "['vulpix-alola']"
   },
   {
-   "name": "[desktop] “vulpix alola”: result count reads 1 of 480",
+   "name": "[desktop] “vulpix alola”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “galarian” filters at once to 15 row(s) incl. meowth-galar",
@@ -96,9 +96,9 @@
    "detail": "['meowth-galar', 'ponyta-galar', 'rapidash-galar', 'slowpoke-galar', 'slowbro-galar', 'slowking-galar']"
   },
   {
-   "name": "[desktop] “galarian”: result count reads 15 of 480",
+   "name": "[desktop] “galarian”: result count reads 15 of 482",
    "ok": true,
-   "detail": "15 of 480"
+   "detail": "15 of 482"
   },
   {
    "name": "[desktop] typing “hisui” filters at once to 7 row(s) incl. growlithe-hisui",
@@ -106,9 +106,9 @@
    "detail": "['growlithe-hisui', 'arcanine-hisui', 'voltorb-hisui', 'electrode-hisui', 'typhlosion-hisui', 'qwilfish-hisui']"
   },
   {
-   "name": "[desktop] “hisui”: result count reads 7 of 480",
+   "name": "[desktop] “hisui”: result count reads 7 of 482",
    "ok": true,
-   "detail": "7 of 480"
+   "detail": "7 of 482"
   },
   {
    "name": "[desktop] typing “char” filters at once to 3 row(s) incl. charmander",
@@ -116,9 +116,9 @@
    "detail": "['charmander', 'charmeleon', 'charizard']"
   },
   {
-   "name": "[desktop] “char”: result count reads 3 of 480",
+   "name": "[desktop] “char”: result count reads 3 of 482",
    "ok": true,
-   "detail": "3 of 480"
+   "detail": "3 of 482"
   },
   {
    "name": "[desktop] typing “mr. mime” filters at once to 2 row(s) incl. mr-mime",
@@ -126,9 +126,9 @@
    "detail": "['mr-mime', 'mr-mime-galar']"
   },
   {
-   "name": "[desktop] “mr. mime”: result count reads 2 of 480",
+   "name": "[desktop] “mr. mime”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[desktop] typing “farfetch'd” filters at once to 2 row(s) incl. farfetch-d",
@@ -136,9 +136,9 @@
    "detail": "['farfetch-d', 'farfetch-d-galar']"
   },
   {
-   "name": "[desktop] “farfetch'd”: result count reads 2 of 480",
+   "name": "[desktop] “farfetch'd”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[desktop] typing “ho-oh” filters at once to 1 row(s) incl. ho-oh",
@@ -146,9 +146,9 @@
    "detail": "['ho-oh']"
   },
   {
-   "name": "[desktop] “ho-oh”: result count reads 1 of 480",
+   "name": "[desktop] “ho-oh”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “Ho Oh” filters at once to 1 row(s) incl. ho-oh",
@@ -156,9 +156,9 @@
    "detail": "['ho-oh']"
   },
   {
-   "name": "[desktop] “Ho Oh”: result count reads 1 of 480",
+   "name": "[desktop] “Ho Oh”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] typing “nidoran” filters at once to 2 row(s) incl. nidoran-f",
@@ -166,19 +166,19 @@
    "detail": "['nidoran-f', 'nidoran-m']"
   },
   {
-   "name": "[desktop] “nidoran”: result count reads 2 of 480",
+   "name": "[desktop] “nidoran”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
-   "name": "[desktop] typing “porygon” filters at once to 1 row(s) incl. porygon",
+   "name": "[desktop] typing “porygon” filters at once to 3 row(s) incl. porygon",
    "ok": true,
-   "detail": "['porygon']"
+   "detail": "['porygon', 'porygon2', 'porygon-z']"
   },
   {
-   "name": "[desktop] “porygon”: result count reads 1 of 480",
+   "name": "[desktop] “porygon”: result count reads 3 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "3 of 482"
   },
   {
    "name": "[desktop] typing “unown” filters at once to 1 row(s) incl. unown",
@@ -186,29 +186,19 @@
    "detail": "['unown']"
   },
   {
-   "name": "[desktop] “unown”: result count reads 1 of 480",
+   "name": "[desktop] “unown”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[desktop] no match: zero rows and the empty state is shown",
    "ok": true,
-   "detail": "{'shown': [], 'count': '0 of 480', 'empty': True, 'value': 'zzzzqq'}"
+   "detail": "{'shown': [], 'count': '0 of 482', 'empty': True, 'value': 'zzzzqq'}"
   },
   {
-   "name": "[desktop] clearing the search restores all 480 entries",
+   "name": "[desktop] clearing the search restores all 482 entries",
    "ok": true,
-   "detail": "480"
-  },
-  {
-   "name": "[desktop] unobtainable “porygon2” is not listed",
-   "ok": true,
-   "detail": "[]"
-  },
-  {
-   "name": "[desktop] unobtainable “porygon-z” is not listed",
-   "ok": true,
-   "detail": "[]"
+   "detail": "482"
   },
   {
    "name": "[desktop] unobtainable “greninja” is not listed",
@@ -236,7 +226,7 @@
    "detail": ""
   },
   {
-   "name": "[desktop] method filter ‘Evolution or egg only’ works (105)",
+   "name": "[desktop] method filter ‘Evolution or egg only’ works (107)",
    "ok": true,
    "detail": ""
   },
@@ -281,6 +271,16 @@
    "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
   },
   {
+   "name": "[desktop] /pokemon/porygon2/ loads and explains how to obtain it (Use Upgrade)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[desktop] /pokemon/porygon-z/ loads and explains how to obtain it (Use Dubious Disc)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
    "name": "[desktop] /pokemon/cleffa/ loads and explains how to obtain it (Day Care)",
    "ok": true,
    "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
@@ -306,12 +306,12 @@
    "detail": ""
   },
   {
-   "name": "[desktop] an unobtainable evolution is shown unlinked and marked",
+   "name": "[desktop] Porygon's family links Porygon2 and Porygon-Z, none marked not obtainable",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] no public page exists for unobtainable porygon2",
+   "name": "[desktop] no public page exists for unobtainable turtwig",
    "ok": true,
    "detail": "404"
   },
@@ -336,9 +336,9 @@
    "detail": "[]"
   },
   {
-   "name": "[phone] index lists exactly the 480 obtainable entries",
+   "name": "[phone] index lists exactly the 482 obtainable entries",
    "ok": true,
-   "detail": "480 rows; extra []; missing []"
+   "detail": "482 rows; extra []; missing []"
   },
   {
    "name": "[phone] no excluded species is in the index",
@@ -356,9 +356,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[phone] “pikachu”: result count reads 1 of 480",
+   "name": "[phone] “pikachu”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “Pikachu” filters at once to 1 row(s) incl. pikachu",
@@ -366,9 +366,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[phone] “Pikachu”: result count reads 1 of 480",
+   "name": "[phone] “Pikachu”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “PIKA” filters at once to 1 row(s) incl. pikachu",
@@ -376,9 +376,9 @@
    "detail": "['pikachu']"
   },
   {
-   "name": "[phone] “PIKA”: result count reads 1 of 480",
+   "name": "[phone] “PIKA”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “eevee” filters at once to 1 row(s) incl. eevee",
@@ -386,9 +386,9 @@
    "detail": "['eevee']"
   },
   {
-   "name": "[phone] “eevee”: result count reads 1 of 480",
+   "name": "[phone] “eevee”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “ninetales” filters at once to 2 row(s) incl. ninetales",
@@ -396,9 +396,9 @@
    "detail": "['ninetales', 'ninetales-alola']"
   },
   {
-   "name": "[phone] “ninetales”: result count reads 2 of 480",
+   "name": "[phone] “ninetales”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[phone] typing “alolan” filters at once to 18 row(s) incl. vulpix-alola",
@@ -406,9 +406,9 @@
    "detail": "['rattata-alola', 'raticate-alola', 'raichu-alola', 'sandshrew-alola', 'sandslash-alola', 'vulpix-alola']"
   },
   {
-   "name": "[phone] “alolan”: result count reads 18 of 480",
+   "name": "[phone] “alolan”: result count reads 18 of 482",
    "ok": true,
-   "detail": "18 of 480"
+   "detail": "18 of 482"
   },
   {
    "name": "[phone] typing “vulpix alola” filters at once to 1 row(s) incl. vulpix-alola",
@@ -416,9 +416,9 @@
    "detail": "['vulpix-alola']"
   },
   {
-   "name": "[phone] “vulpix alola”: result count reads 1 of 480",
+   "name": "[phone] “vulpix alola”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “galarian” filters at once to 15 row(s) incl. meowth-galar",
@@ -426,9 +426,9 @@
    "detail": "['meowth-galar', 'ponyta-galar', 'rapidash-galar', 'slowpoke-galar', 'slowbro-galar', 'slowking-galar']"
   },
   {
-   "name": "[phone] “galarian”: result count reads 15 of 480",
+   "name": "[phone] “galarian”: result count reads 15 of 482",
    "ok": true,
-   "detail": "15 of 480"
+   "detail": "15 of 482"
   },
   {
    "name": "[phone] typing “hisui” filters at once to 7 row(s) incl. growlithe-hisui",
@@ -436,9 +436,9 @@
    "detail": "['growlithe-hisui', 'arcanine-hisui', 'voltorb-hisui', 'electrode-hisui', 'typhlosion-hisui', 'qwilfish-hisui']"
   },
   {
-   "name": "[phone] “hisui”: result count reads 7 of 480",
+   "name": "[phone] “hisui”: result count reads 7 of 482",
    "ok": true,
-   "detail": "7 of 480"
+   "detail": "7 of 482"
   },
   {
    "name": "[phone] typing “char” filters at once to 3 row(s) incl. charmander",
@@ -446,9 +446,9 @@
    "detail": "['charmander', 'charmeleon', 'charizard']"
   },
   {
-   "name": "[phone] “char”: result count reads 3 of 480",
+   "name": "[phone] “char”: result count reads 3 of 482",
    "ok": true,
-   "detail": "3 of 480"
+   "detail": "3 of 482"
   },
   {
    "name": "[phone] typing “mr. mime” filters at once to 2 row(s) incl. mr-mime",
@@ -456,9 +456,9 @@
    "detail": "['mr-mime', 'mr-mime-galar']"
   },
   {
-   "name": "[phone] “mr. mime”: result count reads 2 of 480",
+   "name": "[phone] “mr. mime”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[phone] typing “farfetch'd” filters at once to 2 row(s) incl. farfetch-d",
@@ -466,9 +466,9 @@
    "detail": "['farfetch-d', 'farfetch-d-galar']"
   },
   {
-   "name": "[phone] “farfetch'd”: result count reads 2 of 480",
+   "name": "[phone] “farfetch'd”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
    "name": "[phone] typing “ho-oh” filters at once to 1 row(s) incl. ho-oh",
@@ -476,9 +476,9 @@
    "detail": "['ho-oh']"
   },
   {
-   "name": "[phone] “ho-oh”: result count reads 1 of 480",
+   "name": "[phone] “ho-oh”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “Ho Oh” filters at once to 1 row(s) incl. ho-oh",
@@ -486,9 +486,9 @@
    "detail": "['ho-oh']"
   },
   {
-   "name": "[phone] “Ho Oh”: result count reads 1 of 480",
+   "name": "[phone] “Ho Oh”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] typing “nidoran” filters at once to 2 row(s) incl. nidoran-f",
@@ -496,19 +496,19 @@
    "detail": "['nidoran-f', 'nidoran-m']"
   },
   {
-   "name": "[phone] “nidoran”: result count reads 2 of 480",
+   "name": "[phone] “nidoran”: result count reads 2 of 482",
    "ok": true,
-   "detail": "2 of 480"
+   "detail": "2 of 482"
   },
   {
-   "name": "[phone] typing “porygon” filters at once to 1 row(s) incl. porygon",
+   "name": "[phone] typing “porygon” filters at once to 3 row(s) incl. porygon",
    "ok": true,
-   "detail": "['porygon']"
+   "detail": "['porygon', 'porygon2', 'porygon-z']"
   },
   {
-   "name": "[phone] “porygon”: result count reads 1 of 480",
+   "name": "[phone] “porygon”: result count reads 3 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "3 of 482"
   },
   {
    "name": "[phone] typing “unown” filters at once to 1 row(s) incl. unown",
@@ -516,29 +516,19 @@
    "detail": "['unown']"
   },
   {
-   "name": "[phone] “unown”: result count reads 1 of 480",
+   "name": "[phone] “unown”: result count reads 1 of 482",
    "ok": true,
-   "detail": "1 of 480"
+   "detail": "1 of 482"
   },
   {
    "name": "[phone] no match: zero rows and the empty state is shown",
    "ok": true,
-   "detail": "{'shown': [], 'count': '0 of 480', 'empty': True, 'value': 'zzzzqq'}"
+   "detail": "{'shown': [], 'count': '0 of 482', 'empty': True, 'value': 'zzzzqq'}"
   },
   {
-   "name": "[phone] clearing the search restores all 480 entries",
+   "name": "[phone] clearing the search restores all 482 entries",
    "ok": true,
-   "detail": "480"
-  },
-  {
-   "name": "[phone] unobtainable “porygon2” is not listed",
-   "ok": true,
-   "detail": "[]"
-  },
-  {
-   "name": "[phone] unobtainable “porygon-z” is not listed",
-   "ok": true,
-   "detail": "[]"
+   "detail": "482"
   },
   {
    "name": "[phone] unobtainable “greninja” is not listed",
@@ -566,7 +556,7 @@
    "detail": ""
   },
   {
-   "name": "[phone] method filter ‘Evolution or egg only’ works (105)",
+   "name": "[phone] method filter ‘Evolution or egg only’ works (107)",
    "ok": true,
    "detail": ""
   },
@@ -611,6 +601,16 @@
    "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
   },
   {
+   "name": "[phone] /pokemon/porygon2/ loads and explains how to obtain it (Use Upgrade)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
+   "name": "[phone] /pokemon/porygon-z/ loads and explains how to obtain it (Use Dubious Disc)",
+   "ok": true,
+   "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
+  },
+  {
    "name": "[phone] /pokemon/cleffa/ loads and explains how to obtain it (Day Care)",
    "ok": true,
    "detail": "Where to findIn the gameNot a wild encounter: no encounter table lists it. It is obtained as shown below.How to obtain i"
@@ -636,12 +636,12 @@
    "detail": ""
   },
   {
-   "name": "[phone] an unobtainable evolution is shown unlinked and marked",
+   "name": "[phone] Porygon's family links Porygon2 and Porygon-Z, none marked not obtainable",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] no public page exists for unobtainable porygon2",
+   "name": "[phone] no public page exists for unobtainable turtwig",
    "ok": true,
    "detail": "404"
   },
@@ -666,7 +666,7 @@
    "detail": "[]"
   },
   {
-   "name": "[desktop] /items/ filter “surf” visibly narrows 438 rows to 1",
+   "name": "[desktop] /items/ filter “surf” visibly narrows 445 rows to 1",
    "ok": true,
    "detail": ""
   },
@@ -685,9 +685,5 @@
    "ok": true,
    "detail": ""
   }
- ],
- "routes_200": 1296,
- "removed_pages_sampled": 49,
- "removed_pages_still_served": 0,
- "commit": "b1a5a88a38f8c081a0db42be19ef71dca714177a"
+ ]
 }

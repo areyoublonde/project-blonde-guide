@@ -25,6 +25,8 @@ _Last run on 2026-10-09 against the local production build for v1.0 release cand
 | Chrome, every route at phone width (`qa_browser.py --all`) | 1,296 pages, 0 failures |
 | Chrome, Pokédex test (`qa_pokedex.py`), local | 136 of 136 |
 | Chrome, Pokédex test, **live site** | 136 of 136; all 1,296 live routes return 200; 49 sampled removed Pokémon pages return 404 |
+| Availability regressions (`qa_availability.py`): item aliases, NPC gifts, branch-opened shops; 2026-10-09 after the Porygon2 / Porygon-Z correction | 36 of 36 local (data, site, ROM); 31 of 31 in the Pages workflow (no ROM there) |
+| Chrome, Pokédex test after that correction (482 entries) | 136 of 136 local; 136 of 136 **live** |
 | Safari / WebKit | **not run**: `safaridriver` could not create a session on this machine (first "Allow remote automation" disabled, later a session timeout) |
 | Firefox | not run: not installed |
 

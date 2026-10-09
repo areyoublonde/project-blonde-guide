@@ -1,6 +1,8 @@
 # Deployment status
 
-**Latest deploy 2026-10-09:** commit `b1a5a88a38f8c081a0db42be19ef71dca714177a` (Pokédex availability correction and list-filter fix), workflow run 37819378668, verified live with `tools/qa_pokedex.py` (136 of 136).
+**Latest deploy 2026-10-09 (Porygon2 / Porygon-Z correction):** commit `55dd5d4`, workflow run 37862342026 (build 1,305 pages; availability regressions 31 of 31; links 0 failures). Verified live in Chrome: `tools/qa_pokedex.py` 136 of 136, Pokédex index 482 rows, `/pokemon/porygon2/` and `/pokemon/porygon-z/` open with their evolution methods, `/items/upgrade/` lists the Silph Co gift and the Mahogany Town shop.
+
+**Earlier deploy 2026-10-09:** commit `b1a5a88a38f8c081a0db42be19ef71dca714177a` (Pokédex availability correction and list-filter fix), workflow run 37819378668, verified live with `tools/qa_pokedex.py` (136 of 136).
 
 **LIVE since 2026-10-09:** https://areyoublonde.github.io/project-blonde-guide/ — repository https://github.com/areyoublonde/project-blonde-guide, branch `main`, commit `4305a20ea29869118717e0b00fe355fac5d77056`, deployed by the `Deploy guide to GitHub Pages` workflow (run 37811686043, success). Live verification: all 1,883 routes return 200; 26 of 26 smoke checks (`data/qa-live.json`). To update the site: commit and push to `main`; the workflow rebuilds and redeploys. This note and `data/qa-live.json` were written after the deploy and are not yet pushed.
 
