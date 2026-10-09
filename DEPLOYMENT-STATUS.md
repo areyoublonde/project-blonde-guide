@@ -67,7 +67,7 @@ To take the site down again: `gh repo edit --visibility private` (Pages stops se
 
 ## Content the owner should look at before it is public
 
-- **No game download.** `content/releases.json` has `download.url: null` and distribution `undecided`; the Play page shows a disabled button. Nothing in the repository or the build is a ROM, patch or save.
+- **No game download.** `content/releases.json` has `download.url: null` and distribution `undecided`; Download & Play shows a pre-release state with no download control (see below). Nothing in the repository or the build is a ROM, patch or save.
 - **Version wording.** The site says "v1.0 release candidate (build v105)" and, on Play, "not yet owner-verified and not a public release". It never presents the game as released.
 - **Credits.** The About page prints the project and source credits from the game's credits roll. The personal dedication and family acknowledgement sections are excluded at extraction (`PRIVATE` in `tools/credits.py`), so they are in neither `data/credits.json` nor the built site. The game keeps its full roll.
 - **Game assets.** The site shows maps, sprites, Town Maps and trainer pictures rendered from the game. That is normal for a fan guide but is still Nintendo / GAME FREAK artwork; the footer and About page state the non-affiliation. The owner's call.
@@ -76,3 +76,11 @@ To take the site down again: `gh repo edit --visibility private` (Pages stops se
 ## Distribution of the game (separate decision)
 
 Not approved, so nothing is offered. If the owner chooses a patch release: a patch must be made against a specific clean base ROM that the owner names and holds legitimately, and verified by applying it and matching the v105 hash. No base ROM was available or assumed here, so **no patch was created**. When a release artifact and destination exist, set `distribution.method`, `releases[0].download.url`, `sha256`, `date` and `file.name` in `content/releases.json` and rebuild; the Play page switches from the disabled state by itself.
+
+## Download & Play and Discord (2026-10-09)
+
+- **Discord.** The invite is written once, in `content/site.json` → `community.discord.url` (`https://discord.gg/vNRqevNHGd`, supplied by the owner; Discord's public invite API reports server POKÉMON: PROJECT BLONDE, no expiry). `discord_link()` in `tools/site_core.py` builds every link from it: header icon (desktop), menu (phone), footer, Download & Play (primary action while pre-release, Get the game, troubleshooting), each device setup page and Stuck?. Set the URL to `null` and all of them disappear.
+- **Release record.** `content/releases.json` is the only place release facts are written. `release_state()` in `tools/build.py` refuses to build if a download URL is present while `status` is not `released`, or if a released version lacks date, URL, SHA-256, distribution method or (for a patch) any patch field.
+- **To publish a release (owner approval required):** set `status` to `released`, `status_short`, `date`, `sha256`, `download.url`, `distribution.method` (`direct` or `patch`) and, for a patch, every field under `patch`; rebuild. The page then shows one primary download and, for a patch, the patching steps.
+- **Current state:** v1.0 release candidate, build v105, not released, no download, distribution undecided.
+- **Test:** `tools/qa_play.py [base-url]` → `qa-evidence/download-play/`.

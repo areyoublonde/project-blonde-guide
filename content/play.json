@@ -419,21 +419,6 @@
    ]
   },
   {
-   "id": "update",
-   "label": "Update",
-   "title": "Updating without losing progress",
-   "text": [
-    "A new version of Project Blonde is a new game file. Your save is separate and carries over; the last three builds were continued one into the next in testing."
-   ],
-   "steps": [
-    "Back up your save file first.",
-    "<b>mGBA:</b> put the new .gba in the same folder and give it <b>exactly the same name</b> as the old one (or rename the .sav to match the new file).",
-    "<b>Delta:</b> export the save, import the new game with <b>+</b>, then touch and hold it and choose <b>Import Save File</b>.",
-    "<b>RetroArch:</b> keep the same file name, or rename the .srm to match the new .gba.",
-    "Start the game and choose <b>Continue</b>."
-   ]
-  },
-  {
    "id": "restore",
    "label": "Restore",
    "title": "Restoring a save",
@@ -464,12 +449,40 @@
  ],
  "trouble": [
   [
+   "The game doesn’t appear in my emulator",
+   "Emulators list a game only after you open or import it. <b>mGBA:</b> File → Load ROM… and browse to the file. <b>Delta:</b> tap + and choose Files; it then sits on the Game Boy Advance page. <b>RetroArch:</b> Load Content, then browse. If the file cannot be picked, it is probably still zipped or has the wrong ending."
+  ],
+  [
+   "The file has the wrong ending",
+   "The game must end in <b>.gba</b>, not .zip, .gba.zip or .gba.txt. Unpack a .zip first. A save ends in <b>.sav</b> (mGBA, Delta) or <b>.srm</b> (RetroArch). Computers hide file endings by default: on Windows switch on File name extensions in File Explorer’s View menu; on a Mac tick Show all filename extensions in Finder’s Advanced settings."
+  ],
+  [
+   "The patch won’t apply, or the patched game won’t start",
+   "A patch fits exactly one base game. If the patching tool reports a checksum mismatch, your base file is a different release or revision, or has already been modified; use an untouched copy of the base game named under Current release. After patching, compare your file’s SHA-256 with the one published on this page."
+  ],
+  [
    "The game shows a white or black screen",
    "Check that the file ends in .gba and is the full 32 MB. A partly downloaded or still-zipped file will not start."
   ],
   [
    "Continue is missing from the title menu",
    "The emulator did not find your save. It is matched by file name: the save must have the same name as the game file and be where that emulator expects it."
+  ],
+  [
+   "How do I check the SHA-256 checksum?",
+   "<b>Windows:</b> in PowerShell run <code>Get-FileHash</code> followed by the file’s path. <b>macOS:</b> in Terminal run <code>shasum -a 256</code> followed by the file’s path. The result must match the checksum under Current release exactly."
+  ],
+  [
+   "There is no sound",
+   "Check the device volume first. <b>iPhone:</b> the silent switch can mute Delta; Delta’s Settings has a <b>Respect Silent Mode</b> switch. <b>mGBA:</b> see that <b>Audio/Video → Mute</b> is not ticked. <b>RetroArch:</b> see that <b>Settings → Audio → Mute</b> is off."
+  ],
+  [
+   "Delta: I can’t import my save",
+   "In Delta the <b>+</b> button imports games only. A save goes in through the game itself: touch and hold Project Blonde in the library and choose <b>Import Save File</b>. The file must be a .sav of exactly 131,072 bytes; one written by mGBA is 16 bytes longer and has to be trimmed first."
+  ],
+  [
+   "I updated and my progress is gone",
+   "Nothing is lost while you have the save file. The new game simply has not been given it: follow <a href=\"#update\">the update steps for your device</a>. If the new version shows a damaged or empty save, do not save over it; go back to the old version with your backup."
   ],
   [
    "The in-game clock is wrong or stuck",
@@ -495,5 +508,94 @@
    "A grunt blocks the Space Center stairs again",
    "Fixed in v103. On an older build, leave the building and walk back in."
   ]
- ]
+ ],
+ "update": {
+  "title": "How to Update Project Blonde Without Losing Your Save",
+  "lead": "A new version is a new game file. Your progress is a separate save file, so updating means: back the save up, put the new game in place, and hand the save to it.",
+  "rules": [
+   [
+    "Save in the game first",
+    "Press START and choose <b>SAVE</b>. Only this in-game save moves to a new version. A save state is tied to one emulator and one game version and may not load after an update."
+   ],
+   [
+    "Back up before you touch anything",
+    "Copy the save file somewhere else and leave that copy alone. It is your way back."
+   ],
+   [
+    "Keep the old game file",
+    "Do not delete the old version until you have checked the new one."
+   ]
+  ],
+  "devices": [
+   {
+    "id": "iphone",
+    "name": "iPhone & iPad",
+    "emulator": "Delta",
+    "steps": [
+     "Open Project Blonde in Delta, press START and choose <b>SAVE</b>. Return to Delta’s library.",
+     "<b>Back up:</b> touch and hold Project Blonde and choose <b>Export Save File</b>. Save the <b>.sav</b> file to the Files app or iCloud Drive.",
+     "Get the new version from <a href=\"#get\">Get the game</a> on this page. If it comes as a patch, apply it to your base game as described there, so that you end up with a new <b>.gba</b> file. Save it to the Files app.",
+     "In Delta tap <b>+</b>, choose <b>Files</b> and pick the new .gba. Delta adds it as a second game and leaves the old one where it is. If both show the same name, touch and hold one and choose <b>Rename</b>.",
+     "<b>Restore:</b> touch and hold the <b>new</b> game, choose <b>Import Save File</b> and pick the .sav you exported in step 2.",
+     "Open the new game and choose <b>Continue</b>."
+    ]
+   },
+   {
+    "id": "android",
+    "name": "Android",
+    "emulator": "RetroArch",
+    "steps": [
+     "In the game press START and choose <b>SAVE</b>. Then open RetroArch’s Quick Menu and choose <b>Close Content</b>, which writes the save file.",
+     "<b>Back up:</b> with a file manager, open RetroArch’s Save folder (shown under <b>Settings → Directory → Save Files</b>) and copy the file ending in <b>.srm</b> that has the game’s name to another folder.",
+     "Get the new version from <a href=\"#get\">Get the game</a> on this page. If it comes as a patch, apply it to your base game as described there, so that you end up with a new <b>.gba</b> file. Put it in the folder where you keep the game.",
+     "<b>Restore:</b> RetroArch matches the save by name. If the new game file has a different name, make a copy of the .srm in the Save folder and rename the copy to the new game’s name, keeping <b>.srm</b> at the end.",
+     "Choose <b>Load Content</b>, pick the new .gba and choose the mGBA core if asked.",
+     "On the title menu choose <b>Continue</b>."
+    ]
+   },
+   {
+    "id": "windows",
+    "name": "Windows",
+    "emulator": "mGBA",
+    "steps": [
+     "In the game press START and choose <b>SAVE</b>, then close mGBA.",
+     "<b>Back up:</b> open your Project Blonde folder. Copy the file with the game’s name ending in <b>.sav</b> into another folder. To see file endings, switch on <b>File name extensions</b> in File Explorer’s View menu.",
+     "Get the new version from <a href=\"#get\">Get the game</a> on this page. If it comes as a patch, apply it to your base game as described there, so that you end up with a new <b>.gba</b> file. Put the new .gba in your Project Blonde folder, next to the old one.",
+     "<b>Restore:</b> mGBA matches the save by name. Make a copy of your .sav and give the copy exactly the same name as the new game file, ending in <b>.sav</b> instead of .gba.",
+     "In mGBA choose <b>File → Load ROM…</b> and open the new game.",
+     "On the title menu choose <b>Continue</b>."
+    ]
+   },
+   {
+    "id": "mac",
+    "name": "macOS",
+    "emulator": "mGBA",
+    "steps": [
+     "In the game press START and choose <b>SAVE</b>, then quit mGBA.",
+     "<b>Back up:</b> open your Project Blonde folder in Finder. Copy the file with the game’s name ending in <b>.sav</b> into another folder. To see file endings, open <b>Finder → Settings → Advanced</b> and tick <b>Show all filename extensions</b>.",
+     "Get the new version from <a href=\"#get\">Get the game</a> on this page. If it comes as a patch, apply it to your base game as described there, so that you end up with a new <b>.gba</b> file. Put the new .gba in your Project Blonde folder, next to the old one.",
+     "<b>Restore:</b> mGBA matches the save by name. Duplicate your .sav and give the copy exactly the same name as the new game file, ending in <b>.sav</b> instead of .gba.",
+     "In mGBA choose <b>File → Load ROM…</b> and open the new game.",
+     "On the title menu choose <b>Continue</b>."
+    ]
+   }
+  ],
+  "check_title": "Check your adventure before you save again",
+  "check": [
+   "The title screen shows the new version number under PRESS START.",
+   "The title menu offers <b>Continue</b>, with your name, play time and Badges.",
+   "You are standing where you last saved.",
+   "Your party, and your Pokémon in the PC boxes, are all there.",
+   "Your Trainer Card shows your Badges, and your Bag and Pokédex look right."
+  ],
+  "check_after": "All good? Save in the game once. From here on you are playing the new version; keep the backup from before the update anyway.",
+  "rollback_title": "If something is wrong, go back",
+  "rollback": [
+   "<b>Do not save</b> in the new version. Close the game.",
+   "Open the <b>old</b> game file again. It still has its own save beside it (mGBA, RetroArch) or attached to it (Delta), untouched.",
+   "If the old save was changed too, put your backup back: copy it in beside the old game with the old game’s name, or use <b>Import Save File</b> on the old game in Delta.",
+   "Tell us what happened on Discord, with the two version numbers and your device."
+  ],
+  "caveat": "Saves have carried over between every build tested so far, but that is not a promise for every future version. Each release states its own save compatibility under Current release; read it before you update. A save that has been saved in a newer version may not open in an older one, which is why the backup comes first."
+ }
 }

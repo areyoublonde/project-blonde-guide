@@ -1,10 +1,10 @@
 {
- "_about": "Single source for everything release-related. The download stays disabled until the owner sets `download.url` to a legitimate release artifact and chooses a distribution method. No URL, checksum or public version is invented here.",
+ "_about": "Single authoritative release record; every page reads release facts from here. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `download.url` and `sha256` must all be set (the build refuses anything else). While `status` is anything other than \"released\" the build refuses a download URL. `public_version` must equal blonde/release/public-version.json and the title screen. No URL, date, checksum or patch detail is invented here.",
  "distribution": {
   "method": "undecided",
   "notes": {
    "direct": "One file. Download it and open it in your emulator.",
-   "patch": "A patch file applied to your own legally obtained copy of the base game.",
+   "patch": "A patch file that you apply to your own legally obtained copy of the base game. No complete game file is distributed.",
    "undecided": "Not announced. How Project Blonde will be distributed has not been decided."
   }
  },
@@ -13,7 +13,10 @@
  "releases": [
   {
    "version": "1.0-rc",
+   "public_version": "v1.0",
+   "internal_build": "v105",
    "status": "candidate",
+   "status_short": "Release candidate",
    "status_label": "release candidate, not yet owner-verified and not a public release",
    "date": null,
    "file": {
@@ -23,10 +26,27 @@
    },
    "sha256": null,
    "download": {
-    "url": null
+    "url": null,
+    "file_name": null
    },
+   "patch": {
+    "_about": "Filled in only if the owner chooses patch distribution.",
+    "format": null,
+    "base_game": null,
+    "base_checksum": null,
+    "tool": null,
+    "tool_url": null
+   },
+   "release_notes_url": "/play/#changelog",
    "save_compatibility": "Saves carry forward by ordinary Continue. Tested across v100 → v101 → v102 in the full playthrough, and both ways between v103, v104 and v105.",
+   "save_compatibility_short": "Saves from earlier builds continue with an ordinary Continue.",
    "link_protocol": "PB-LINK-0001",
+   "highlights": [
+    "Johto, Kanto and Hoenn in one adventure, on one save file.",
+    "482 Pokémon to find, including 42 regional forms.",
+    "Mega Evolution, the DexNav and Pokémon that follow you.",
+    "Cable-link trading and battles between two copies."
+   ],
    "notes": [
     "Public version <b>v1.0 release candidate</b>, internal build v105. The title screen shows v1.0.",
     "It is a candidate: the owner has not yet verified it or announced a public release, and no download exists.",

@@ -407,7 +407,7 @@
    "detail": ""
   },
   {
-   "name": "Play: download is present but disabled",
+   "name": "Play: pre-release state, with no download control at all",
    "ok": true,
    "detail": ""
   },
