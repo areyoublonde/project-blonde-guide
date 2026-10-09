@@ -1,0 +1,727 @@
+{
+ "base": "https://areyoublonde.github.io/project-blonde-guide",
+ "checks": 144,
+ "failed": 0,
+ "results": [
+  {
+   "name": "[desktop] the ROM-side audit passed all its checks",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] every obtainable Legendary / Mythical Pokémon in the availability dataset has a row",
+   "ok": true,
+   "detail": "32"
+  },
+  {
+   "name": "[desktop] page lists exactly the 32 guide entries, in order",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'suicune']"
+  },
+  {
+   "name": "[desktop] no unobtainable species has a guide row",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] every row carries its region, encounter type and availability",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] every row is visible before any search",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] counter reads 32 of 32",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] every entry has all five sections with real content, 3+ steps and its fact sheet",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] each entry shows every level the availability audit records for it",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] search “suicune” shows 1",
+   "ok": true,
+   "detail": "['suicune']"
+  },
+  {
+   "name": "[desktop] search “ho-oh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[desktop] search “hooh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[desktop] search “Ho Oh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[desktop] search “mew” shows 2",
+   "ok": true,
+   "detail": "['mewtwo', 'mew']"
+  },
+  {
+   "name": "[desktop] search “regi” shows 6",
+   "ok": true,
+   "detail": "['regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas']"
+  },
+  {
+   "name": "[desktop] search “tapu” shows 4",
+   "ok": true,
+   "detail": "['tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[desktop] search “galarian” shows 3",
+   "ok": true,
+   "detail": "['articuno-galar', 'zapdos-galar', 'moltres-galar']"
+  },
+  {
+   "name": "[desktop] search “ARCEUS” shows 1",
+   "ok": true,
+   "detail": "['arceus']"
+  },
+  {
+   "name": "[desktop] search “eon ticket” shows 2",
+   "ok": true,
+   "detail": "['latias', 'latios']"
+  },
+  {
+   "name": "[desktop] search “roaming” shows 4",
+   "ok": true,
+   "detail": "['raikou', 'entei', 'latias', 'latios']"
+  },
+  {
+   "name": "[desktop] search “dialga” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] search “cosmog” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] search “zzzz” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] clearing restores all rows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] filters start open on a desktop",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] filter region=alola shows 4",
+   "ok": true,
+   "detail": "['tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[desktop] filter region=hoenn shows 3",
+   "ok": true,
+   "detail": "['rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[desktop] filter region=johto shows 6",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'celebi', 'moltres']"
+  },
+  {
+   "name": "[desktop] filter region=kanto shows 12",
+   "ok": true,
+   "detail": "['suicune', 'articuno', 'zapdos', 'articuno-galar', 'zapdos-galar', 'moltres-galar', 'mewtwo', 'mew', 'jirachi', 'latias', 'latios', 'deoxys']"
+  },
+  {
+   "name": "[desktop] filter region=sinjoh shows 7",
+   "ok": true,
+   "detail": "['regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[desktop] filter type=quest shows 12",
+   "ok": true,
+   "detail": "['celebi', 'tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini', 'regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[desktop] filter type=roaming shows 4",
+   "ok": true,
+   "detail": "['raikou', 'entei', 'latias', 'latios']"
+  },
+  {
+   "name": "[desktop] filter type=special shows 3",
+   "ok": true,
+   "detail": "['articuno-galar', 'zapdos-galar', 'moltres-galar']"
+  },
+  {
+   "name": "[desktop] filter type=static shows 11",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'suicune', 'articuno', 'zapdos', 'moltres', 'mewtwo', 'jirachi', 'rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[desktop] filter type=ticket shows 2",
+   "ok": true,
+   "detail": "['mew', 'deoxys']"
+  },
+  {
+   "name": "[desktop] filter stage=milestone shows 11",
+   "ok": true,
+   "detail": "['moltres', 'moltres-galar', 'mewtwo', 'deoxys', 'regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[desktop] filter stage=postgame shows 3",
+   "ok": true,
+   "detail": "['rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[desktop] filter stage=story shows 18",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'suicune', 'celebi', 'articuno', 'zapdos', 'articuno-galar', 'zapdos-galar', 'mew', 'jirachi', 'latias', 'latios', 'tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[desktop] filters combine (Kanto + roaming = Latias, Latios)",
+   "ok": true,
+   "detail": "['latias', 'latios']"
+  },
+  {
+   "name": "[desktop] active filters are named in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] search and filters combine",
+   "ok": true,
+   "detail": "['latios']"
+  },
+  {
+   "name": "[desktop] no hidden row is still on screen (CSS regression)",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[desktop] reset clears search and all three filters",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] locations are blurred by default",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] the spoiler switch reveals every location",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] the choice is remembered on reload",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] switching back hides them again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] opening an entry shows its own location",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Arceus keeps its story details behind tap-to-reveal",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "name": "[desktop] tapping a hidden detail reveals it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Arceus: first battle is stated as not catchable, second as catchable",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] a link to #mew opens that entry",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Mew’s map loads with the Old Sea Map marked and in view",
+   "ok": true,
+   "detail": "{'img': 1136, 'marks': 1, 'inside': True, 'label': 'Old Sea Map'}"
+  },
+  {
+   "name": "[desktop] selecting the marker explains it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] the map zooms",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] “How legendaries return” opens the shared section",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] a link to an entry hidden by a filter clears the filter and opens it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] all 128 links in the guide resolve, anchors included",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] the guide links to Pokédex pages, atlas places, chapters and items",
+   "ok": true,
+   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 27}"
+  },
+  {
+   "name": "[desktop] Arceus’s Pokédex page links to its guide entry",
+   "ok": true,
+   "detail": "/project-blonde-guide/postgame/legendaries/#arceus"
+  },
+  {
+   "name": "[desktop] an ordinary Pokémon’s page has no legendary link",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] the Sinjoh Ruins atlas page links back to the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] the Pokédex index links to the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Pokédex index unchanged: 482 obtainable entries, and its search still hides rows",
+   "ok": true,
+   "detail": "482 ['mewtwo']"
+  },
+  {
+   "name": "[desktop] the menu offers the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] global search “how to get suicune” offers the guide at #suicune",
+   "ok": true,
+   "detail": "['/project-blonde-guide/postgame/legendaries/#suicune', '/project-blonde-guide/pokemon/suicune/']"
+  },
+  {
+   "name": "[desktop] global search “arceus” offers the guide at #arceus",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/arceus/', '/project-blonde-guide/postgame/legendaries/#arceus', '/project-blonde-guide/postgame/legendaries/#league-reset', '/project-blonde-guide/postgame/legendaries/#sinjoh']"
+  },
+  {
+   "name": "[desktop] global search “legendary” offers the guide",
+   "ok": true,
+   "detail": "['/project-blonde-guide/postgame/legendaries/', '/project-blonde-guide/postgame/legendaries/', '/project-blonde-guide/postgame/legendaries/#ho-oh', '/project-blonde-guide/postgame/legendaries/#lugia']"
+  },
+  {
+   "name": "[desktop] no horizontal overflow, entries closed",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[desktop] no horizontal overflow with every entry open",
+   "ok": true,
+   "detail": "0px, 0 elements"
+  },
+  {
+   "name": "[desktop] no JavaScript errors",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] the ROM-side audit passed all its checks",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] every obtainable Legendary / Mythical Pokémon in the availability dataset has a row",
+   "ok": true,
+   "detail": "32"
+  },
+  {
+   "name": "[phone] page lists exactly the 32 guide entries, in order",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'suicune']"
+  },
+  {
+   "name": "[phone] no unobtainable species has a guide row",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] every row carries its region, encounter type and availability",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] every row is visible before any search",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] counter reads 32 of 32",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] every entry has all five sections with real content, 3+ steps and its fact sheet",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] each entry shows every level the availability audit records for it",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] search “suicune” shows 1",
+   "ok": true,
+   "detail": "['suicune']"
+  },
+  {
+   "name": "[phone] search “ho-oh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[phone] search “hooh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[phone] search “Ho Oh” shows 1",
+   "ok": true,
+   "detail": "['ho-oh']"
+  },
+  {
+   "name": "[phone] search “mew” shows 2",
+   "ok": true,
+   "detail": "['mewtwo', 'mew']"
+  },
+  {
+   "name": "[phone] search “regi” shows 6",
+   "ok": true,
+   "detail": "['regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas']"
+  },
+  {
+   "name": "[phone] search “tapu” shows 4",
+   "ok": true,
+   "detail": "['tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[phone] search “galarian” shows 3",
+   "ok": true,
+   "detail": "['articuno-galar', 'zapdos-galar', 'moltres-galar']"
+  },
+  {
+   "name": "[phone] search “ARCEUS” shows 1",
+   "ok": true,
+   "detail": "['arceus']"
+  },
+  {
+   "name": "[phone] search “eon ticket” shows 2",
+   "ok": true,
+   "detail": "['latias', 'latios']"
+  },
+  {
+   "name": "[phone] search “roaming” shows 4",
+   "ok": true,
+   "detail": "['raikou', 'entei', 'latias', 'latios']"
+  },
+  {
+   "name": "[phone] search “dialga” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] search “cosmog” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] search “zzzz” shows nothing and says so",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] clearing restores all rows",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] filters start collapsed on a phone",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] filter region=alola shows 4",
+   "ok": true,
+   "detail": "['tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[phone] filter region=hoenn shows 3",
+   "ok": true,
+   "detail": "['rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[phone] filter region=johto shows 6",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'celebi', 'moltres']"
+  },
+  {
+   "name": "[phone] filter region=kanto shows 12",
+   "ok": true,
+   "detail": "['suicune', 'articuno', 'zapdos', 'articuno-galar', 'zapdos-galar', 'moltres-galar', 'mewtwo', 'mew', 'jirachi', 'latias', 'latios', 'deoxys']"
+  },
+  {
+   "name": "[phone] filter region=sinjoh shows 7",
+   "ok": true,
+   "detail": "['regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[phone] filter type=quest shows 12",
+   "ok": true,
+   "detail": "['celebi', 'tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini', 'regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[phone] filter type=roaming shows 4",
+   "ok": true,
+   "detail": "['raikou', 'entei', 'latias', 'latios']"
+  },
+  {
+   "name": "[phone] filter type=special shows 3",
+   "ok": true,
+   "detail": "['articuno-galar', 'zapdos-galar', 'moltres-galar']"
+  },
+  {
+   "name": "[phone] filter type=static shows 11",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'suicune', 'articuno', 'zapdos', 'moltres', 'mewtwo', 'jirachi', 'rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[phone] filter type=ticket shows 2",
+   "ok": true,
+   "detail": "['mew', 'deoxys']"
+  },
+  {
+   "name": "[phone] filter stage=milestone shows 11",
+   "ok": true,
+   "detail": "['moltres', 'moltres-galar', 'mewtwo', 'deoxys', 'regirock', 'regice', 'registeel', 'regieleki', 'regidrago', 'regigigas', 'arceus']"
+  },
+  {
+   "name": "[phone] filter stage=postgame shows 3",
+   "ok": true,
+   "detail": "['rayquaza', 'kyogre', 'groudon']"
+  },
+  {
+   "name": "[phone] filter stage=story shows 18",
+   "ok": true,
+   "detail": "['ho-oh', 'lugia', 'raikou', 'entei', 'suicune', 'celebi', 'articuno', 'zapdos', 'articuno-galar', 'zapdos-galar', 'mew', 'jirachi', 'latias', 'latios', 'tapu-koko', 'tapu-lele', 'tapu-bulu', 'tapu-fini']"
+  },
+  {
+   "name": "[phone] filters combine (Kanto + roaming = Latias, Latios)",
+   "ok": true,
+   "detail": "['latias', 'latios']"
+  },
+  {
+   "name": "[phone] active filters are named in the panel",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] search and filters combine",
+   "ok": true,
+   "detail": "['latios']"
+  },
+  {
+   "name": "[phone] no hidden row is still on screen (CSS regression)",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[phone] reset clears search and all three filters",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] locations are blurred by default",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] the spoiler switch reveals every location",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] the choice is remembered on reload",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] switching back hides them again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] opening an entry shows its own location",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Arceus keeps its story details behind tap-to-reveal",
+   "ok": true,
+   "detail": "3"
+  },
+  {
+   "name": "[phone] tapping a hidden detail reveals it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Arceus: first battle is stated as not catchable, second as catchable",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] a link to #mew opens that entry",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Mew’s map loads with the Old Sea Map marked and in view",
+   "ok": true,
+   "detail": "{'img': 1136, 'marks': 1, 'inside': True, 'label': 'Old Sea Map'}"
+  },
+  {
+   "name": "[phone] selecting the marker explains it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] the map zooms",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] “How legendaries return” opens the shared section",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] a link to an entry hidden by a filter clears the filter and opens it",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] all 128 links in the guide resolve, anchors included",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] the guide links to Pokédex pages, atlas places, chapters and items",
+   "ok": true,
+   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 27}"
+  },
+  {
+   "name": "[phone] Arceus’s Pokédex page links to its guide entry",
+   "ok": true,
+   "detail": "/project-blonde-guide/postgame/legendaries/#arceus"
+  },
+  {
+   "name": "[phone] an ordinary Pokémon’s page has no legendary link",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] the Sinjoh Ruins atlas page links back to the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] the Pokédex index links to the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Pokédex index unchanged: 482 obtainable entries, and its search still hides rows",
+   "ok": true,
+   "detail": "482 ['mewtwo']"
+  },
+  {
+   "name": "[phone] the menu offers the guide",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] global search “how to get suicune” offers the guide at #suicune",
+   "ok": true,
+   "detail": "['/project-blonde-guide/postgame/legendaries/#suicune', '/project-blonde-guide/pokemon/suicune/']"
+  },
+  {
+   "name": "[phone] global search “arceus” offers the guide at #arceus",
+   "ok": true,
+   "detail": "['/project-blonde-guide/pokemon/arceus/', '/project-blonde-guide/postgame/legendaries/#arceus', '/project-blonde-guide/postgame/legendaries/#league-reset', '/project-blonde-guide/postgame/legendaries/#sinjoh']"
+  },
+  {
+   "name": "[phone] global search “legendary” offers the guide",
+   "ok": true,
+   "detail": "['/project-blonde-guide/postgame/legendaries/', '/project-blonde-guide/postgame/legendaries/', '/project-blonde-guide/postgame/legendaries/#ho-oh', '/project-blonde-guide/postgame/legendaries/#lugia']"
+  },
+  {
+   "name": "[phone] no horizontal overflow, entries closed",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[phone] no horizontal overflow with every entry open",
+   "ok": true,
+   "detail": "0px, 0 elements"
+  },
+  {
+   "name": "[phone] the dock is on screen with its four controls",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] every control is at least 44px tall",
+   "ok": true,
+   "detail": "0"
+  },
+  {
+   "name": "[phone] no JavaScript errors",
+   "ok": true,
+   "detail": "[]"
+  }
+ ]
+}

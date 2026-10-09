@@ -27,6 +27,10 @@ _Last run on 2026-10-09 against the local production build for v1.0 release cand
 | Chrome, Pokédex test, **live site** | 136 of 136; all 1,296 live routes return 200; 49 sampled removed Pokémon pages return 404 |
 | Availability regressions (`qa_availability.py`): item aliases, NPC gifts, branch-opened shops; 2026-10-09 after the Porygon2 / Porygon-Z correction | 36 of 36 local (data, site, ROM); 31 of 31 in the Pages workflow (no ROM there) |
 | Chrome, Pokédex test after that correction (482 entries) | 136 of 136 local; 136 of 136 **live** |
+| Legendary guide completeness (`tools/legendaries.py`): ROM flags vs availability dataset vs guide, species and level verified in the ROM per entry | 360 of 360; 97 audited, 32 obtainable, 32 entries |
+| Static links and assets with the Legendary guide, root and `/project-blonde-guide/` sub-path | 1,305 pages, 81,218 links, 32,166 assets, 0 failures |
+| Chrome, Legendary guide (`qa_legendaries.py`), desktop and phone | 144 of 144 local; 144 of 144 **live** |
+| Chrome, general suite and Pokédex test on the same build | 183 pages × 2 viewports clean, 107 of 107; Pokédex 136 of 136 |
 | Safari / WebKit | **not run**: `safaridriver` could not create a session on this machine (first "Allow remote automation" disabled, later a session timeout) |
 | Firefox | not run: not installed |
 
