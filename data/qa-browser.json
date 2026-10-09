@@ -2,12 +2,12 @@
  "sweep": [],
  "checks": [
   {
-   "name": "Desktop sweep: 182 pages clean",
+   "name": "Desktop sweep: 185 pages clean",
    "ok": true,
    "detail": "0 pages failed"
   },
   {
-   "name": "Phone sweep: 182 pages clean",
+   "name": "Phone sweep: 185 pages clean",
    "ok": true,
    "detail": "0 pages failed"
   },
@@ -37,7 +37,7 @@
    "detail": ""
   },
   {
-   "name": "Road: 58 stops, every one a link",
+   "name": "Road: 60 stops, every one a link",
    "ok": true,
    "detail": ""
   },
@@ -212,9 +212,9 @@
    "detail": ""
   },
   {
-   "name": "Pokédex: lists exactly the 480 obtainable entries",
+   "name": "Pokédex: lists exactly the 482 obtainable entries",
    "ok": true,
-   "detail": "480"
+   "detail": "482"
   },
   {
    "name": "Pokédex: typing a type filters the list",
@@ -538,6 +538,6 @@
   }
  ],
  "fail": 0,
- "sweep_pages": 182,
+ "sweep_pages": 185,
  "passed": 107
 }

@@ -82,7 +82,7 @@
    "id": "postgame",
    "name": "Postgame",
    "tagline": "Three regions down.",
-   "blurb": "Rematches, the ferry, and everything that has no fixed order once the credits have rolled.",
+   "blurb": "Rematches, the ferry, side stories and everything that has no fixed order. The Alola isles and Lillie’s story are open from Kanto onwards.",
    "map": null,
    "chapters": [
     "after-the-credits",
@@ -91,6 +91,8 @@
     "rival-rematches",
     "johto-rematches",
     "legendaries",
+    "alola-isles",
+    "lillie",
     "far-off-places",
     "battle-facilities"
    ]

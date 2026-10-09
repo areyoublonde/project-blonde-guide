@@ -1,0 +1,232 @@
+{
+ "_about": "Registry of Project Blonde's major story lines and where the guide covers them. tools/qa_story.py checks it: every covered story must have its chapter and stages on the road and its scripts in the game; every known gap is listed in STORY-COVERAGE.md; and any new family of story scripts in a future build fails the check until it is registered here.",
+ "storylines": [
+  {
+   "id": "red",
+   "title": "Red on Mt. Silver",
+   "kind": "mandatory",
+   "status": "covered",
+   "chapter": "kanto/mt-silver",
+   "stages": [
+    "climb",
+    "red"
+   ],
+   "symbols": [],
+   "evidence": "played",
+   "note": "Gate for Ash's story."
+  },
+  {
+   "id": "ash",
+   "title": "A Promise to Butterfree (Ash, Misty, Brock)",
+   "kind": "mandatory",
+   "status": "covered",
+   "chapter": "kanto/ash",
+   "stages": [
+    "meet",
+    "search",
+    "pink",
+    "battle",
+    "gift",
+    "oak"
+   ],
+   "family": "Ash",
+   "symbols": [
+    "Ash_CheckScene",
+    "Ash_Talk",
+    "Ash_Pink",
+    "Ash_Companion"
+   ],
+   "evidence": "played",
+   "note": "Required for Hoenn: Oak's call follows the Pikachu gift."
+  },
+  {
+   "id": "road-to-hoenn",
+   "title": "Oak, Birch and the truck",
+   "kind": "mandatory",
+   "status": "covered",
+   "chapter": "hoenn/road-to-hoenn",
+   "stages": [
+    "pallet",
+    "truck",
+    "littleroot"
+   ],
+   "family": "HoOpening",
+   "symbols": [
+    "HoOpening_OakCall",
+    "HoOpening_Birch",
+    "HoOpening_PalletPickup",
+    "HoOpening_LittlerootPickup"
+   ],
+   "evidence": "played"
+  },
+  {
+   "id": "alola-access",
+   "title": "The Alola isles: boat, Samson Oak, survey",
+   "kind": "optional",
+   "status": "covered",
+   "chapter": "postgame/alola-isles",
+   "stages": [
+    "souvenir",
+    "boat",
+    "samson",
+    "fly",
+    "survey"
+   ],
+   "symbols": [
+    "Route13_TravelToAlola",
+    "Alola_Melemele_SamsonOak_Trigger_Beginning",
+    "Alola_Melemele_SamsonOakVillaIntro_Trigger",
+    "Alola_Melemele_SamsonOakVilla_Dialogue"
+   ],
+   "evidence": "script"
+  },
+  {
+   "id": "lillie",
+   "title": "Something in Her Bag (Lillie)",
+   "kind": "optional",
+   "status": "covered",
+   "chapter": "postgame/lillie",
+   "stages": [
+    "shop",
+    "vulpix",
+    "samson",
+    "trail",
+    "cave",
+    "aether",
+    "hearing",
+    "reward"
+   ],
+   "family": "Lillie",
+   "symbols": [
+    "Lillie_Shop",
+    "Lillie_Beach",
+    "Lillie_SamsonTopic",
+    "Lillie_Trail",
+    "Lillie_FindFox",
+    "Lillie_FirstBattle",
+    "Lillie_Villa",
+    "Lillie_GiveReward"
+   ],
+   "evidence": "script"
+  },
+  {
+   "id": "alola-tapu",
+   "title": "Alola isles: the four Tapu guardians",
+   "kind": "optional",
+   "status": "covered",
+   "chapter": "postgame/legendaries",
+   "symbols": [
+    "Alola_Melemele_BattleVsTapuKoko",
+    "Alola_Akala_BattleVsTapuLele",
+    "Alola_Ulaula_BattleVsTapuBulu",
+    "Alola_Poni_BattleVsTapuFini"
+   ],
+   "evidence": "script",
+   "note": "Covered by the Legendary & Mythical guide's Tapu Koko, Tapu Lele, Tapu Bulu and Tapu Fini entries: the condition (Samson's survey, Totems and battle), each flyover, the pillar encounter, the Beast Ball and their return after a League win. Not played."
+  },
+  {
+   "id": "alola-totems",
+   "title": "Alola isles: Totem Pokémon and Phantonomy",
+   "kind": "optional",
+   "status": "gap",
+   "chapter": "postgame/alola-isles",
+   "symbols": [
+    "Alola_Melemele_TotemBattle",
+    "Alola_Ulaula_House_Phant"
+   ],
+   "note": "Outlined in the Alola chapter from Samson's dialogue. Pillar positions, day and night Totem pairs and Phantonomy's house (script contains an Egg gift) are not written up. The Tapu encounters that follow are covered: see alola-tapu."
+  },
+  {
+   "id": "sinjoh",
+   "title": "Sinjoh: Meara, the Azure Flute, the nobles, Steven and Arceus",
+   "kind": "optional",
+   "status": "covered",
+   "chapter": "postgame/legendaries",
+   "symbols": [
+    "MtSilver_PokemonCenter_EventScript_Meara",
+    "SinjohRuins_EventScript_Steven",
+    "SinjohRuins_EventScript_StevenBattle",
+    "SinjohRuins_ArceusRoom_EventScript_Arceus",
+    "SinjohRuins_ArceusRoom_EventScript_ArceusPhase2"
+   ],
+   "note": "Covered by the Legendary & Mythical guide: 'The seventeen plates of Sinjoh' (Azure Flute item ball on Mt. Silver 2F, the researcher at the Pokémon Center, the Machamp, seven Trainers, eight Nobles, Steven's calls and battle) plus the six Regi entries and Arceus. Read from scripts (VAR_SINJOH_STORYLINE, VAR_PLATECOUNTER), not played; the exact tile of each Noble was not walked.",
+   "evidence": "script"
+  },
+  {
+   "id": "lilycove-islands",
+   "title": "Southern Island, Birth Island and Faraway Island (Lilycove Harbor tickets)",
+   "kind": "optional",
+   "status": "gap",
+   "chapter": "postgame/far-off-places",
+   "symbols": [],
+   "note": "The harbor script warps to all three; ticket sources are not traced."
+  }
+ ],
+ "engine_families": {
+  "_about": "Script families present in the v105 symbol table that are engine or donor systems, not Project Blonde story lines. A family not listed here and not claimed by a storyline fails the check.",
+  "names": [
+   "ApricornTree",
+   "BattlePyramid",
+   "BerryBlender",
+   "BillHouse",
+   "BlackthornGym",
+   "Braille",
+   "BravoTrainerBattleTower",
+   "BugContest",
+   "CableClub",
+   "CeladonDeptStore",
+   "CeladonDeptStore6F",
+   "CeladonGameCorner",
+   "CeladonMansion2F",
+   "CeruleanGym",
+   "CharcoalKiln",
+   "ContestLiveUpdates",
+   "Copycat",
+   "Debug",
+   "Ecruteak",
+   "EcruteakTinTowerEntrance",
+   "EventTicket",
+   "GabbyAndTy",
+   "GameFreak",
+   "GoldenrodDeptStore",
+   "GoldenrodUnderground",
+   "HnsAbility",
+   "HnsMega",
+   "Ho12Woods",
+   "Ho41",
+   "Ho9",
+   "Ho9BerryTree",
+   "KurtsHouse",
+   "MahoganyMart1F",
+   "MatchCall",
+   "MountMortar2",
+   "MountMortar4",
+   "MoveRelearner",
+   "MoveTutor",
+   "MrPokemonHouse",
+   "NationalParkBugContest",
+   "OlivineLighthouse",
+   "OlivinePort",
+   "PokedexRating",
+   "PokefanM",
+   "PokemonFanClub",
+   "ProfileMan",
+   "Questionnaire",
+   "RadioTower1F",
+   "RadioTowerBasement",
+   "Roulette",
+   "Route35GoldenrodGate",
+   "Route35NationalParkGate",
+   "SaffronMagnetTrainStation",
+   "SecretBase",
+   "SmartShopper",
+   "TVSecretBaseSecrets",
+   "TVSpotTheCuties",
+   "TrendWatcher",
+   "VermilionGym",
+   "VermilionPort",
+   "VictoryRoadGate",
+   "VioletGym"
+  ]
+ }
+}

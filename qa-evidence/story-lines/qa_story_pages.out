@@ -1,0 +1,34 @@
+  ok   desktop /walkthrough/kanto/ash/: one h1, no sideways scroll, images decoded
+  ok   desktop /walkthrough/kanto/ash/: 8 walkthrough stages shown with evidence tags
+  ok   desktop /postgame/alola-isles/: one h1, no sideways scroll, images decoded
+  ok   desktop /postgame/alola-isles/: 5 walkthrough stages shown with evidence tags
+  ok   desktop /postgame/lillie/: one h1, no sideways scroll, images decoded
+  ok   desktop /postgame/lillie/: 10 walkthrough stages shown with evidence tags
+  ok   desktop Lillie: 4 story spoilers start blurred, one tap reveals only that one
+  ok   desktop Lillie: both Aether battles listed with teams
+  ok   desktop Lillie → prerequisite link opens The Alola Isles
+  ok   desktop Alola Isles → Lillie link works
+  ok   desktop Road: Mt. Silver → Ash → Road to Hoenn in order; Alola and Lillie in the last leg
+  ok   desktop Road → Lillie by normal navigation
+  ok   desktop Next / Next from Mt. Silver reaches Ash then The Road to Hoenn
+  ok   desktop Fuchsia chapter (Route 13) links to The Alola Isles
+  ok   desktop Road to Hoenn ‘stuck’ entry links back to Ash
+  ok   desktop Stuck? page carries the new Ash, Alola and Lillie answers
+  ok   phone /walkthrough/kanto/ash/: one h1, no sideways scroll, images decoded
+  ok   phone /walkthrough/kanto/ash/: 8 walkthrough stages shown with evidence tags
+  ok   phone /postgame/alola-isles/: one h1, no sideways scroll, images decoded
+  ok   phone /postgame/alola-isles/: 5 walkthrough stages shown with evidence tags
+  ok   phone /postgame/lillie/: one h1, no sideways scroll, images decoded
+  ok   phone /postgame/lillie/: 10 walkthrough stages shown with evidence tags
+  ok   phone Lillie: 4 story spoilers start blurred, one tap reveals only that one
+  ok   phone Lillie: both Aether battles listed with teams
+  ok   phone Lillie → prerequisite link opens The Alola Isles
+  ok   phone Alola Isles → Lillie link works
+  ok   phone Road: Mt. Silver → Ash → Road to Hoenn in order; Alola and Lillie in the last leg
+  ok   phone Road → Lillie by normal navigation
+  ok   phone Next / Next from Mt. Silver reaches Ash then The Road to Hoenn
+  ok   phone Fuchsia chapter (Route 13) links to The Alola Isles
+  ok   phone Road to Hoenn ‘stuck’ entry links back to Ash
+  ok   phone Stuck? page carries the new Ash, Alola and Lillie answers
+  ok   Search index: ‘lillie’, ‘ash’ and ‘alola isles’ reach the new chapters
+new-page checks: 0 failed

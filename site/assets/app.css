@@ -496,7 +496,7 @@ dialog.search::backdrop{background:rgba(8,7,7,.62);backdrop-filter:blur(8px)}
 /* ---------- full-site additions (complete walkthrough, Pokédex, atlas, items, Mega Stones). Same language: rows, hairlines, mono labels. */
 code{font:400 .86em var(--mono);color:var(--ink-2);word-break:break-all}
 .basis{display:inline-block;font:400 .64rem var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--ink-2);border:1px solid var(--hair-2);border-radius:99px;padding:2px 9px;vertical-align:middle;white-space:nowrap}
-.basis.b-played{color:var(--ok);border-color:rgba(143,169,122,.4)}.basis.b-source,.basis.b-mixed{color:#c9a86a;border-color:rgba(201,168,106,.4)}
+.basis.b-played{color:var(--ok);border-color:rgba(143,169,122,.4)}.basis.b-source,.basis.b-mixed,.basis.b-script,.basis.b-fixture{color:#c9a86a;border-color:rgba(201,168,106,.4)}
 .basisnote{max-width:none;border-left:1px solid #c9a86a;padding-left:14px;color:var(--ink-2)}
 .evline{font-size:.8rem;margin-top:22px;max-width:80ch}
 .dbl{font:400 .6rem var(--mono);letter-spacing:.07em;text-transform:uppercase;color:var(--accent);margin-left:6px}

@@ -119,7 +119,7 @@ def main():
         ok("Home: Get started opens Play", c.url().endswith("/play/"))
 
         go(c, "/walkthrough/")
-        ok("Road: 58 stops, every one a link", c.js("document.querySelectorAll('.road li a.t').length") == 58)
+        ok("Road: 60 stops, every one a link", c.js("document.querySelectorAll('.road li a.t').length") == 60)
         ok("Road: four regions in order", c.js("[...document.querySelectorAll('.leg h2')].map(e=>e.textContent.trim()).join()") == "Johto,Kanto,Hoenn,Postgame")
         c.click(".road li a.t"); c.wait("location.pathname.includes('new-bark-town')", 4)
         ok("Road: first stop opens Chapter 1", "new-bark-town" in c.url())
@@ -273,7 +273,7 @@ def main():
         ok("Progress: a wrong file is refused with a message", "isn't a Project Blonde progress export" in c.js("document.querySelector('[data-io-msg]').textContent"))
         ok("Progress: says plainly that nothing is synced", c.js("document.querySelector('.keep').textContent.includes('nothing is synced')"))
         go(c, "/")
-        ok("Home (returning): You are here with place, chapter and Continue", c.js("[...document.querySelectorAll('h1')].find(e=>e.offsetParent).textContent") == "Saffron City" and c.js("document.querySelector('.hero [data-now=meta]').textContent").startswith("Kanto · Chapter 22 of 58"))
+        ok("Home (returning): You are here with place, chapter and Continue", c.js("[...document.querySelectorAll('h1')].find(e=>e.offsetParent).textContent") == "Saffron City" and c.js("document.querySelector('.hero [data-now=meta]').textContent").startswith("Kanto · Chapter 22 of 60"))
         ok("Home (returning): Badge progress and next Badge", "Badges" in c.js("document.querySelector('.hero [data-now=badges]').textContent"))
         ok("Header: Continue chip returns to the chapter", c.js("document.querySelector('.cont').getAttribute('href')").endswith("/walkthrough/kanto/saffron-city/"))
 

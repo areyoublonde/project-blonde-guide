@@ -16,7 +16,9 @@ BASIS = {"played": ("Played", "Every step on this page was carried out in the co
          "mixed": ("Partly played", "Part of this page was played in the natural playthrough; the rest comes from game data and is marked."),
          "source": ("From game data", "This page is built from the game’s data and the project’s audits. It was not reached in the natural playthrough, so routes and conditions are not confirmed."),
          "accepted": ("Owner-accepted", "Described from the build the owner accepted; not re-opened in the natural playthrough."),
-         "data": ("From game data", "Read from the game’s own tables and text.")}
+         "data": ("From game data", "Read from the game’s own tables and text."),
+         "script": ("From game scripts", "This page is confirmed from the story scripts and text in the release build, and from the project’s automated tests where marked. It was not reached in the natural playthrough, so directions on the ground were not walked."),
+         "fixture": ("Fixture-tested", "Read from the game’s scripts and exercised by the project’s automated tests, which set each stage up directly. Not reached in the natural playthrough.")}
 REGION_ORDER = ["johto", "kanto", "hoenn", "far"]
 ilink = lambda name: (f'<a href="{u(ITEMS[name]["url"])}">{esc(ITEMS[name]["display"])}</a>' if name in ITEMS else esc(name))
 plink = lambda p: f'<a href="{u(p["url"])}">{esc(p["name"])}</a>'
@@ -130,6 +132,27 @@ def journey_bar(Jn):
     return bar, pv, nx, here
 
 
+def expand_refs():
+    """Editorial shorthand in chapter prose: [[region/slug|text]] links another chapter, ||text|| hides a story spoiler until tapped."""
+    by_k = {j["k"]: j for j in JOURNEY}
+
+    def fix(s):
+        def link(m):
+            if not check(m[1] in by_k, f"content links to chapter '{m[1]}', which is not on the road"):
+                return m[2]
+            return f'<a href="{jhref(by_k[m[1]])}">{m[2]}</a>'
+        s = re.sub(r"\[\[([a-z0-9/-]+)\|([^\]]+)\]\]", link, s)
+        return re.sub(r"\|\|(.+?)\|\|", r'<span class="blur" tabindex="0" role="button" aria-label="Reveal spoiler">\1</span>', s)
+
+    for j in JOURNEY:
+        c = j["ch"]
+        c["need"] = [fix(x) for x in c.get("need", [])]
+        c["quick"] = [[q[0], fix(q[1])] for q in c["quick"]]
+        c["stuck"] = [[q, fix(a)] for q, a in c.get("stuck", [])]
+        for s in c["steps"]:
+            s["p"] = [fix(x) for x in s["p"]]
+
+
 def chapter_boss_ids(c):
     return {(v[1] if isinstance(v, list) else v) for b in c.get("bosses", []) for v in b["ids"]}
 
@@ -171,7 +194,7 @@ def build_chapter(Jn):
     toc = "".join(f'<a href="#{i}">{esc(t)}</a>' for i, t in sections)
     steps = ""
     for n, s in enumerate(c["steps"], 1):
-        steps += f'<section class="step" id="{s["id"]}"><p class="label"><b>{n:02d}</b> Walkthrough</p><h2>{esc(s["t"])}</h2><div class="prose">' + "".join(f"<p>{p}</p>" for p in s["p"]) + "</div></section>"
+        steps += f'<section class="step" id="{s["id"]}"><p class="label"><b>{n:02d}</b> Walkthrough{" " + basis_tag(s["basis"]) if s.get("basis") else ""}</p><h2>{esc(s["t"])}</h2><div class="prose">' + "".join(f"<p>{p}</p>" for p in s["p"]) + "</div></section>"
     battles = "".join(battle(b) for b in bosses)
     stuck = "".join(f'<details class="qa" id="q-{slug(q)[:48]}"><summary><b>{esc(q)}</b></summary><div><p>{a}</p></div></details>' for q, a in c.get("stuck", []))
     wild = "".join(enc_rows(m) for m in wild_maps)
@@ -1212,6 +1235,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base", default="")
     CFG["base"] = ap.parse_args().base.rstrip("/")
+    expand_refs()
     for j in JOURNEY:       # every key item named in a chapter must be an item the game defines
         for n, _ in j["ch"].get("items", []):
             check(ITEMS[n].get("desc") or ITEMS[n]["sources"] or n in NOT_ITEMS, f'chapter {j["k"]}: item "{n}" is not an item in the game data')

@@ -92,3 +92,12 @@ python3 -m http.server 8765 -d dist
 - Browser test: `python3 tools/qa_legendaries.py [base-url]` → `qa-evidence/legendary-guide/`. It picks a free DevTools port; several sessions share this machine, so never assume 9377 is yours.
 - Only Ho-Oh was caught in the natural playthrough. Every other entry is marked *From game scripts* or *Partly played* and gives a marked map instead of turn-by-turn directions. The audit's *Unresolved* section lists what a future playthrough should confirm, and one possible defect (Arceus's first battle and a blackout) for the owner.
 - A chapter's `maps` also decide which chapter a wild Pokémon is credited to, so the guide's atlas back-links come from `legend_page.place_note`, not from the chapter record.
+
+## Custom story lines: Ash, Alola, Lillie (2026-10-09)
+
+- **Ash** (`kanto/ash`) rewritten as six stages with every Yes / No branch, the gift rules and the Hoenn dependency (Oak's call follows the Pikachu gift). Played evidence: natural-run-v101 trace 154–163.
+- **The Alola Isles** (`postgame/alola-isles`, new) and **Something in Her Bag** (`postgame/lillie`, new): Strange Souvenir (Mt. Moon shop) → Route 13 captain → Samson Oak → Lillie's eight stages. Basis `script`: read from the v105 ROM's scripts and text plus the Lillie builds' fixture tests; the natural playthrough never visited Alola, so on-the-ground directions are from map data.
+- Builder: chapter prose accepts `[[region/slug|text]]` (chapter link) and `||text||` (tap-to-reveal spoiler); steps accept an optional `basis`; new basis labels `script` and `fixture`.
+- **Story completeness check:** `content/storylines.json` (registry) + `tools/qa_story.py` → `STORY-COVERAGE.md`; also a step in `pages.yml`. With the game folder present it fails when a registered script disappears or a new script family (≥ 6 `*_Text_*` symbols) is not registered. Rerun on every new build.
+- Integrated with the Legendary guide (2026-10-09): the registry now marks **Sinjoh** (the guide's "seventeen plates of Sinjoh" quest, the six Regis and Arceus) and the **four Tapu** as covered by `postgame/legendaries`, evidence `script`. The Alola and Far-off Places chapters link there.
+- Known gaps (listed in the registry, not written): Alola Totem pillars, day / night Totem pairs and Phantonomy's house; Lilycove Harbor islands (ticket sources).
