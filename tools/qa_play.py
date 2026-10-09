@@ -136,10 +136,10 @@ def run(c, mobile):
         for _ in range(14):
             c.key("Tab"); time.sleep(.05)
             seen.append(c.js("(e=>e?(e.dataset.discord!==undefined?'discord:':'')+(e.className||e.tagName):'')(document.activeElement)"))
-        ok("[desktop] keyboard: Tab reaches the header Discord link and the primary action", any(s.startswith("discord:dc") for s in seen) and any("dcbtn" in s or "data-download" in s for s in seen), seen)
+        ok("[desktop] keyboard: Tab reaches the header Discord link and the primary action", any(s.startswith("discord:dc") for s in seen) and any("dcbtn" in s or s.strip() == "btn" for s in seen), seen)
         c.js("document.querySelector('#update-mac summary').focus()"); c.key(" ", "Space", 32); time.sleep(.3)
         ok("[desktop] keyboard: Space on a device opens its update steps", c.js("document.getElementById('update-mac').open"))
-        c.js("document.querySelector('.relhero .dcbtn').focus()")
+        c.js("document.querySelector('.relhero .actions .btn').focus()")
         ok("[desktop] keyboard: focus ring is visible on the primary action", c.js("getComputedStyle(document.activeElement).outlineStyle") != "none" or c.js("getComputedStyle(document.activeElement).boxShadow") != "none")
 
     # ---- regressions: search, progress, Pokédex, Legendary guide

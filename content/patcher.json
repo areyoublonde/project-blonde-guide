@@ -1,6 +1,6 @@
 {
  "_about": "The one registry behind the in-browser patcher (Download & Play, 'Make your game'). A file is identified ONLY by its SHA-256, never by name. `kind`: `base` = the clean game a new player starts from, `release` = an earlier Project Blonde build. Each input maps to one direct patch to the target; there are no patch chains. `status`: `supported` = offered to players; `recognised` = identified by name but refused (patch may exist and be verified, awaiting the owner's decision); anything not listed is unknown and refused. Hashes, sizes and patch checksums are written by `tools/patches.py build` from the real files and re-checked by `tools/patches.py verify`; do not type them by hand. `enabled` stays false until the owner approves the release and this distribution method: while false, the public build contains no patcher and no patch file.",
- "enabled": false,
+ "enabled": true,
  "release": "1.0-rc",
  "target": {
   "rom": "v105",

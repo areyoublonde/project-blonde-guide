@@ -1,7 +1,7 @@
 {
  "build": {
   "version": "v105",
-  "public": "v1.0 release candidate",
+  "public": "v1.0",
   "folder": "Heart & Soul - Hoenn Dialogue Events v105 Title Version v1.0 and Wattson Line",
   "rom": "Pokemon - Heart & Soul (Blonde).gba",
   "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
