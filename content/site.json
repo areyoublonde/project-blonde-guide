@@ -77,7 +77,7 @@
    "a": "Your save lives in a separate <b>.sav</b> file. Give the new game file the same name as the old one, or import the save in your emulator.",
    "link": [
     "/play/#update",
-    "Updating without losing progress"
+    "How to update without losing your save"
    ]
   }
  ],
@@ -315,5 +315,13 @@
    "label": "About",
    "href": "/about/"
   }
- ]
+ ],
+ "community": {
+  "_about": "The only place the Discord invite is written. Every Discord link on the site is built from `discord.url`; set it to null to hide them all. Invite checked 2026-10-09 against Discord's public invite API: server POKÉMON: PROJECT BLONDE, never expires.",
+  "discord": {
+   "server": "POKÉMON: PROJECT BLONDE",
+   "url": "https://discord.gg/vNRqevNHGd",
+   "label": "Join our Discord"
+  }
+ }
 }

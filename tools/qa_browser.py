@@ -279,10 +279,10 @@ def main():
 
         # play
         go(c, "/play/")
-        ok("Play: download is present but disabled", c.js("document.querySelector('[data-download]').getAttribute('aria-disabled')") == "true" and c.js("document.querySelector('[data-download]').tagName") == "SPAN")
+        ok("Play: pre-release state, with no download control at all", c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease" and c.js("document.querySelectorAll('[data-download],[aria-disabled]').length") == 0)
         ok("Play: no game file link anywhere on the page", c.js("![...document.querySelectorAll('a')].some(a=>/\\.(gba|zip|bps|ips)(\\?|$)/i.test(a.href))"))
         ok("Play: four devices offered", c.js("document.querySelectorAll('.devices a').length") == 4)
-        ok("Play: saving, backup, update, restore, link and troubleshooting are all there", c.js("['save','backup','update','restore','move','link','trouble'].every(i=>!!document.getElementById(i))"))
+        ok("Play: saving, backup, update, restore, link and troubleshooting are all there", c.js("['release','save','backup','update','rollback','restore','move','link','trouble'].every(i=>!!document.getElementById(i))"))
         ok("Play: link section names the compatibility id and the unsupported modes", c.js("(t=>t.includes('PB-LINK-0001')&&t.includes('Record Mixing')&&t.includes('Not verified'))(document.getElementById('link').textContent)"))
         for dev, emu in (("iphone", "Delta"), ("android", "RetroArch"), ("windows", "mGBA"), ("mac", "mGBA")):
             go(c, f"/play/setup/{dev}/")
