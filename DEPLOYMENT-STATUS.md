@@ -84,3 +84,9 @@ Not approved, so nothing is offered. If the owner chooses a patch release: a pat
 - **To publish a release (owner approval required):** set `status` to `released`, `status_short`, `date`, `sha256`, `download.url`, `distribution.method` (`direct` or `patch`) and, for a patch, every field under `patch`; rebuild. The page then shows one primary download and, for a patch, the patching steps.
 - **Current state:** v1.0 release candidate, build v105, not released, no download, distribution undecided.
 - **Test:** `tools/qa_play.py [base-url]` → `qa-evidence/download-play/`.
+
+## 2026-10-09 — Map rendering and Pokémon type fixes
+
+- Commit `3b36fc6` on `main` (branch `fix/map-rendering-pokemon-ui`, merged over `68426d5`: Download & Play, permanent Discord invite, favicon). Fast-forward push, Pages run 37931625494 succeeded.
+- Live checks, in a real browser: `qa_mapview.py` 159 of 159 (Faraway Island Interior anchor, image, zoom, pan, fit, markers, full screen; nine other maps; Probopass ROCK / STEEL; trainer teams), `qa_play.py` 134 of 134, `qa_pokedex.py` 136 of 136. The live `faraway-island-interior.png` has the audited hash `5c8284dd7f001f81`. Evidence: `qa-evidence/map-rendering/live*`.
+- Reports: `MAP-RENDERING-AUDIT.md`, `MAP-RENDERING-DEFECTS.md`, `MAP-RENDERING-REGRESSION.md`, `POKEMON-DATA-UI-AUDIT.md`.

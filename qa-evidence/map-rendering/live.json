@@ -1,0 +1,802 @@
+{
+ "base": "https://areyoublonde.github.io/project-blonde-guide",
+ "checks": 159,
+ "failed": 0,
+ "results": [
+  {
+   "name": "[desktop] Faraway Island Interior: anchor #m-faraway-island-interior lands on its own section",
+   "ok": true,
+   "detail": "176.109375"
+  },
+  {
+   "name": "[desktop] Faraway Island Interior: image decoded at 464×416",
+   "ok": true,
+   "detail": "(464, 416)"
+  },
+  {
+   "name": "[desktop] Faraway Island Interior: picture has real content (20 colours sampled)",
+   "ok": true,
+   "detail": "20"
+  },
+  {
+   "name": "[desktop] Faraway Island Interior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 464, 416, 0)"
+  },
+  {
+   "name": "[desktop] Faraway Island Interior: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Faraway Island Entrance: anchor #m-faraway-island-entrance lands on its own section",
+   "ok": true,
+   "detail": "175.671875"
+  },
+  {
+   "name": "[desktop] Faraway Island Entrance: image decoded at 544×736",
+   "ok": true,
+   "detail": "(544, 736)"
+  },
+  {
+   "name": "[desktop] Faraway Island Entrance: picture has real content (42 colours sampled)",
+   "ok": true,
+   "detail": "42"
+  },
+  {
+   "name": "[desktop] Faraway Island Entrance: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 544, 736, 0)"
+  },
+  {
+   "name": "[desktop] Faraway Island Entrance: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Southern Island Interior: anchor #m-southern-island-interior lands on its own section",
+   "ok": true,
+   "detail": "176.078125"
+  },
+  {
+   "name": "[desktop] Southern Island Interior: image decoded at 432×384",
+   "ok": true,
+   "detail": "(432, 384)"
+  },
+  {
+   "name": "[desktop] Southern Island Interior: picture has real content (25 colours sampled)",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "name": "[desktop] Southern Island Interior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 432, 384, 0)"
+  },
+  {
+   "name": "[desktop] Southern Island Interior: 2 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Birth Island Exterior: anchor #m-birth-island-exterior lands on its own section",
+   "ok": true,
+   "detail": "176.4375"
+  },
+  {
+   "name": "[desktop] Birth Island Exterior: image decoded at 480×480",
+   "ok": true,
+   "detail": "(480, 480)"
+  },
+  {
+   "name": "[desktop] Birth Island Exterior: picture has real content (38 colours sampled)",
+   "ok": true,
+   "detail": "38"
+  },
+  {
+   "name": "[desktop] Birth Island Exterior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 480, 480, 0)"
+  },
+  {
+   "name": "[desktop] Birth Island Exterior: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Battle Frontier Outside East: anchor #m-battle-frontier-outside-east lands on its own section",
+   "ok": true,
+   "detail": "175.78125"
+  },
+  {
+   "name": "[desktop] Battle Frontier Outside East: image decoded at 1152×1152",
+   "ok": true,
+   "detail": "(1152, 1152)"
+  },
+  {
+   "name": "[desktop] Battle Frontier Outside East: picture has real content (75 colours sampled)",
+   "ok": true,
+   "detail": "75"
+  },
+  {
+   "name": "[desktop] Battle Frontier Outside East: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 1152, 1152, 0)"
+  },
+  {
+   "name": "[desktop] Battle Frontier Outside East: 14 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Fuchsia City Safari Zone Brush: anchor #m-fuchsia-city-safari-zone-brush lands on its own section",
+   "ok": true,
+   "detail": "176.203125"
+  },
+  {
+   "name": "[desktop] Fuchsia City Safari Zone Brush: image decoded at 800×480",
+   "ok": true,
+   "detail": "(800, 480)"
+  },
+  {
+   "name": "[desktop] Fuchsia City Safari Zone Brush: picture has real content (22 colours sampled)",
+   "ok": true,
+   "detail": "22"
+  },
+  {
+   "name": "[desktop] Fuchsia City Safari Zone Brush: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 800, 480, 0)"
+  },
+  {
+   "name": "[desktop] Fuchsia City Safari Zone Brush: 0 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Petalburg City Gym: anchor #m-petalburg-city-gym lands on its own section",
+   "ok": true,
+   "detail": "176.015625"
+  },
+  {
+   "name": "[desktop] Petalburg City Gym: image decoded at 144×1792",
+   "ok": true,
+   "detail": "(144, 1792)"
+  },
+  {
+   "name": "[desktop] Petalburg City Gym: picture has real content (34 colours sampled)",
+   "ok": true,
+   "detail": "34"
+  },
+  {
+   "name": "[desktop] Petalburg City Gym: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 144, 1792, 0)"
+  },
+  {
+   "name": "[desktop] Petalburg City Gym: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] New Bark Town: anchor #m-new-bark-town lands on its own section",
+   "ok": true,
+   "detail": "176.359375"
+  },
+  {
+   "name": "[desktop] New Bark Town: image decoded at 480×624",
+   "ok": true,
+   "detail": "(480, 624)"
+  },
+  {
+   "name": "[desktop] New Bark Town: picture has real content (70 colours sampled)",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "name": "[desktop] New Bark Town: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 480, 624, 0)"
+  },
+  {
+   "name": "[desktop] New Bark Town: 7 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Littleroot Town: anchor #m-littleroot-town lands on its own section",
+   "ok": true,
+   "detail": "175.640625"
+  },
+  {
+   "name": "[desktop] Littleroot Town: image decoded at 320×320",
+   "ok": true,
+   "detail": "(320, 320)"
+  },
+  {
+   "name": "[desktop] Littleroot Town: picture has real content (46 colours sampled)",
+   "ok": true,
+   "detail": "46"
+  },
+  {
+   "name": "[desktop] Littleroot Town: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 320, 320, 0)"
+  },
+  {
+   "name": "[desktop] Littleroot Town: 3 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] Melemele Isle: anchor #m-melemele-isle lands on its own section",
+   "ok": true,
+   "detail": "175.828125"
+  },
+  {
+   "name": "[desktop] Melemele Isle: image decoded at 912×608",
+   "ok": true,
+   "detail": "(912, 608)"
+  },
+  {
+   "name": "[desktop] Melemele Isle: picture has real content (79 colours sampled)",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "name": "[desktop] Melemele Isle: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 912, 608, 0)"
+  },
+  {
+   "name": "[desktop] Melemele Isle: 8 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] zoom in enlarges the map (1.00 → 1.96)",
+   "ok": true,
+   "detail": "(464, 909.4375)"
+  },
+  {
+   "name": "[desktop] the zoomed map pans",
+   "ok": true,
+   "detail": "fits the frame at this zoom"
+  },
+  {
+   "name": "[desktop] zoom out reduces the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] fit shows the whole width in the frame",
+   "ok": true,
+   "detail": "(1192, 1192, 464)"
+  },
+  {
+   "name": "[desktop] selecting a marker names it",
+   "ok": true,
+   "detail": "Faraway Island Entrance"
+  },
+  {
+   "name": "[desktop] a layer button hides its markers",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "name": "[desktop] expand opens the map full screen",
+   "ok": true,
+   "detail": "(True, 1440)"
+  },
+  {
+   "name": "[desktop] Escape closes it again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] probopass: the page shows ROCK / STEEL",
+   "ok": true,
+   "detail": "['ROCK', 'STEEL']"
+  },
+  {
+   "name": "[desktop] probopass: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Rock', 'shown': 'ROCK', 'top': 275, 'h': 14, 'lh': 16, 'l': 372, 'r': 413.171875}, {'t': 'Steel', 'shown': 'STEEL', 'top': 275, 'h': 14, 'lh': 16, 'l': 425.171875, 'r': 473.625}]"
+  },
+  {
+   "name": "[desktop] probopass: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] pikachu: the page shows ELECTRIC",
+   "ok": true,
+   "detail": "['ELECTRIC']"
+  },
+  {
+   "name": "[desktop] pikachu: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Electric', 'shown': 'ELECTRIC', 'top': 275, 'h': 14, 'lh': 16, 'l': 372, 'r': 442.328125}]"
+  },
+  {
+   "name": "[desktop] pikachu: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] sandslash-alola: the page shows ICE / STEEL",
+   "ok": true,
+   "detail": "['ICE', 'STEEL']"
+  },
+  {
+   "name": "[desktop] sandslash-alola: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Ice', 'shown': 'ICE', 'top': 275, 'h': 14, 'lh': 16, 'l': 372, 'r': 405.875}, {'t': 'Steel', 'shown': 'STEEL', 'top': 275, 'h': 14, 'lh': 16, 'l': 417.875, 'r': 466.328125}]"
+  },
+  {
+   "name": "[desktop] sandslash-alola: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] meowth-galar: the page shows STEEL",
+   "ok": true,
+   "detail": "['STEEL']"
+  },
+  {
+   "name": "[desktop] meowth-galar: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Steel', 'shown': 'STEEL', 'top': 275, 'h': 14, 'lh': 16, 'l': 372, 'r': 420.453125}]"
+  },
+  {
+   "name": "[desktop] meowth-galar: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] steelix: the page shows STEEL / GROUND",
+   "ok": true,
+   "detail": "['STEEL', 'GROUND']"
+  },
+  {
+   "name": "[desktop] steelix: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Steel', 'shown': 'STEEL', 'top': 275, 'h': 14, 'lh': 16, 'l': 372, 'r': 420.453125}, {'t': 'Ground', 'shown': 'GROUND', 'top': 275, 'h': 14, 'lh': 16, 'l': 432.453125, 'r': 488.203125}]"
+  },
+  {
+   "name": "[desktop] steelix: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] /postgame/gym-rematches/: all 74 type labels are Pokémon types",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] /postgame/gym-rematches/: no type label wraps or leaves the screen",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: all 49 type labels are Pokémon types",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] /postgame/legendaries/: no type label wraps or leaves the screen",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] Pokédex search “steel” → 23 entries",
+   "ok": true,
+   "detail": "['magnemite', 'magneton', 'forretress', 'steelix', 'scizor']"
+  },
+  {
+   "name": "[desktop] Pokédex search “hazard” → 0 entries",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] Faraway Island Interior: anchor #m-faraway-island-interior lands on its own section",
+   "ok": true,
+   "detail": "159.640625"
+  },
+  {
+   "name": "[phone] Faraway Island Interior: image decoded at 464×416",
+   "ok": true,
+   "detail": "(464, 416)"
+  },
+  {
+   "name": "[phone] Faraway Island Interior: picture has real content (20 colours sampled)",
+   "ok": true,
+   "detail": "20"
+  },
+  {
+   "name": "[phone] Faraway Island Interior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 350, 313.78125, 0)"
+  },
+  {
+   "name": "[phone] Faraway Island Interior: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Faraway Island Entrance: anchor #m-faraway-island-entrance lands on its own section",
+   "ok": true,
+   "detail": "159.515625"
+  },
+  {
+   "name": "[phone] Faraway Island Entrance: image decoded at 544×736",
+   "ok": true,
+   "detail": "(544, 736)"
+  },
+  {
+   "name": "[phone] Faraway Island Entrance: picture has real content (42 colours sampled)",
+   "ok": true,
+   "detail": "42"
+  },
+  {
+   "name": "[phone] Faraway Island Entrance: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 350, 473.515625, 0)"
+  },
+  {
+   "name": "[phone] Faraway Island Entrance: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Southern Island Interior: anchor #m-southern-island-interior lands on its own section",
+   "ok": true,
+   "detail": "159.796875"
+  },
+  {
+   "name": "[phone] Southern Island Interior: image decoded at 432×384",
+   "ok": true,
+   "detail": "(432, 384)"
+  },
+  {
+   "name": "[phone] Southern Island Interior: picture has real content (25 colours sampled)",
+   "ok": true,
+   "detail": "25"
+  },
+  {
+   "name": "[phone] Southern Island Interior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 350, 311.109375, 0)"
+  },
+  {
+   "name": "[phone] Southern Island Interior: 2 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Birth Island Exterior: anchor #m-birth-island-exterior lands on its own section",
+   "ok": true,
+   "detail": "159.8125"
+  },
+  {
+   "name": "[phone] Birth Island Exterior: image decoded at 480×480",
+   "ok": true,
+   "detail": "(480, 480)"
+  },
+  {
+   "name": "[phone] Birth Island Exterior: picture has real content (38 colours sampled)",
+   "ok": true,
+   "detail": "38"
+  },
+  {
+   "name": "[phone] Birth Island Exterior: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 350, 350, 0)"
+  },
+  {
+   "name": "[phone] Birth Island Exterior: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Battle Frontier Outside East: anchor #m-battle-frontier-outside-east lands on its own section",
+   "ok": true,
+   "detail": "160.0625"
+  },
+  {
+   "name": "[phone] Battle Frontier Outside East: image decoded at 1152×1152",
+   "ok": true,
+   "detail": "(1152, 1152)"
+  },
+  {
+   "name": "[phone] Battle Frontier Outside East: picture has real content (75 colours sampled)",
+   "ok": true,
+   "detail": "75"
+  },
+  {
+   "name": "[phone] Battle Frontier Outside East: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 714.234375, 714.234375, 0)"
+  },
+  {
+   "name": "[phone] Battle Frontier Outside East: 14 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Fuchsia City Safari Zone Brush: anchor #m-fuchsia-city-safari-zone-brush lands on its own section",
+   "ok": true,
+   "detail": "220.921875"
+  },
+  {
+   "name": "[phone] Fuchsia City Safari Zone Brush: image decoded at 800×480",
+   "ok": true,
+   "detail": "(800, 480)"
+  },
+  {
+   "name": "[phone] Fuchsia City Safari Zone Brush: picture has real content (22 colours sampled)",
+   "ok": true,
+   "detail": "22"
+  },
+  {
+   "name": "[phone] Fuchsia City Safari Zone Brush: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 496, 297.59375, 0)"
+  },
+  {
+   "name": "[phone] Fuchsia City Safari Zone Brush: 0 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Petalburg City Gym: anchor #m-petalburg-city-gym lands on its own section",
+   "ok": true,
+   "detail": "159.875"
+  },
+  {
+   "name": "[phone] Petalburg City Gym: image decoded at 144×1792",
+   "ok": true,
+   "detail": "(144, 1792)"
+  },
+  {
+   "name": "[phone] Petalburg City Gym: picture has real content (34 colours sampled)",
+   "ok": true,
+   "detail": "34"
+  },
+  {
+   "name": "[phone] Petalburg City Gym: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 144, 1792, 0)"
+  },
+  {
+   "name": "[phone] Petalburg City Gym: 1 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] New Bark Town: anchor #m-new-bark-town lands on its own section",
+   "ok": true,
+   "detail": "159.640625"
+  },
+  {
+   "name": "[phone] New Bark Town: image decoded at 480×624",
+   "ok": true,
+   "detail": "(480, 624)"
+  },
+  {
+   "name": "[phone] New Bark Town: picture has real content (70 colours sampled)",
+   "ok": true,
+   "detail": "70"
+  },
+  {
+   "name": "[phone] New Bark Town: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 350, 455, 0)"
+  },
+  {
+   "name": "[phone] New Bark Town: 7 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Littleroot Town: anchor #m-littleroot-town lands on its own section",
+   "ok": true,
+   "detail": "159.609375"
+  },
+  {
+   "name": "[phone] Littleroot Town: image decoded at 320×320",
+   "ok": true,
+   "detail": "(320, 320)"
+  },
+  {
+   "name": "[phone] Littleroot Town: picture has real content (46 colours sampled)",
+   "ok": true,
+   "detail": "46"
+  },
+  {
+   "name": "[phone] Littleroot Town: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 320, 320, 0)"
+  },
+  {
+   "name": "[phone] Littleroot Town: 3 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Melemele Isle: anchor #m-melemele-isle lands on its own section",
+   "ok": true,
+   "detail": "159.640625"
+  },
+  {
+   "name": "[phone] Melemele Isle: image decoded at 912×608",
+   "ok": true,
+   "detail": "(912, 608)"
+  },
+  {
+   "name": "[phone] Melemele Isle: picture has real content (79 colours sampled)",
+   "ok": true,
+   "detail": "79"
+  },
+  {
+   "name": "[phone] Melemele Isle: drawn with hard pixels, in proportion, inside the page",
+   "ok": true,
+   "detail": "('pixelated', 565.4375, 376.953125, 0)"
+  },
+  {
+   "name": "[phone] Melemele Isle: 8 markers sit on the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] zoom in enlarges the map (0.75 → 1.48)",
+   "ok": true,
+   "detail": "(350, 686)"
+  },
+  {
+   "name": "[phone] the zoomed map pans (scroll)",
+   "ok": true,
+   "detail": "(168, 258, 12, 24)"
+  },
+  {
+   "name": "[phone] zoom out reduces the map",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] fit shows the whole width in the frame",
+   "ok": true,
+   "detail": "(350, 350, 350)"
+  },
+  {
+   "name": "[phone] selecting a marker names it",
+   "ok": true,
+   "detail": "Faraway Island Entrance"
+  },
+  {
+   "name": "[phone] a layer button hides its markers",
+   "ok": true,
+   "detail": "1"
+  },
+  {
+   "name": "[phone] expand opens the map full screen",
+   "ok": true,
+   "detail": "(True, 390)"
+  },
+  {
+   "name": "[phone] Escape closes it again",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] probopass: the page shows ROCK / STEEL",
+   "ok": true,
+   "detail": "['ROCK', 'STEEL']"
+  },
+  {
+   "name": "[phone] probopass: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Rock', 'shown': 'ROCK', 'top': 406, 'h': 14, 'lh': 16, 'l': 20, 'r': 61.171875}, {'t': 'Steel', 'shown': 'STEEL', 'top': 406, 'h': 14, 'lh': 16, 'l': 73.171875, 'r': 121.625}]"
+  },
+  {
+   "name": "[phone] probopass: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] pikachu: the page shows ELECTRIC",
+   "ok": true,
+   "detail": "['ELECTRIC']"
+  },
+  {
+   "name": "[phone] pikachu: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Electric', 'shown': 'ELECTRIC', 'top': 406, 'h': 14, 'lh': 16, 'l': 20, 'r': 90.328125}]"
+  },
+  {
+   "name": "[phone] pikachu: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] sandslash-alola: the page shows ICE / STEEL",
+   "ok": true,
+   "detail": "['ICE', 'STEEL']"
+  },
+  {
+   "name": "[phone] sandslash-alola: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Ice', 'shown': 'ICE', 'top': 406, 'h': 14, 'lh': 16, 'l': 20, 'r': 53.875}, {'t': 'Steel', 'shown': 'STEEL', 'top': 406, 'h': 14, 'lh': 16, 'l': 65.875, 'r': 114.328125}]"
+  },
+  {
+   "name": "[phone] sandslash-alola: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] meowth-galar: the page shows STEEL",
+   "ok": true,
+   "detail": "['STEEL']"
+  },
+  {
+   "name": "[phone] meowth-galar: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Steel', 'shown': 'STEEL', 'top': 406, 'h': 14, 'lh': 16, 'l': 20, 'r': 68.453125}]"
+  },
+  {
+   "name": "[phone] meowth-galar: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] steelix: the page shows STEEL / GROUND",
+   "ok": true,
+   "detail": "['STEEL', 'GROUND']"
+  },
+  {
+   "name": "[phone] steelix: type labels on one line, unbroken, on screen",
+   "ok": true,
+   "detail": "[{'t': 'Steel', 'shown': 'STEEL', 'top': 406, 'h': 14, 'lh': 16, 'l': 20, 'r': 68.453125}, {'t': 'Ground', 'shown': 'GROUND', 'top': 406, 'h': 14, 'lh': 16, 'l': 80.453125, 'r': 136.203125}]"
+  },
+  {
+   "name": "[phone] steelix: no page overflow",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] /postgame/gym-rematches/: all 74 type labels are Pokémon types",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] /postgame/gym-rematches/: no type label wraps or leaves the screen",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: all 49 type labels are Pokémon types",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] /postgame/legendaries/: no type label wraps or leaves the screen",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] Pokédex search “steel” → 23 entries",
+   "ok": true,
+   "detail": "['magnemite', 'magneton', 'forretress', 'steelix', 'scizor']"
+  },
+  {
+   "name": "[phone] Pokédex search “hazard” → 0 entries",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "resizing the window keeps the map inside its frame",
+   "ok": true,
+   "detail": "(350, 1192)"
+  }
+ ]
+}
