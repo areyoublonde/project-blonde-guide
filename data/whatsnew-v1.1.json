@@ -41,6 +41,25 @@
    "overworld": 273,
    "portrait": 42,
    "battle": 10
+  },
+  "release_assignments": {
+   "overworld": 273,
+   "portrait": 49,
+   "battle": 10
+  },
+  "identical": {
+   "portrait": {
+    "assignments": 7,
+    "names": [
+     "Kenji",
+     "Kiyo",
+     "Lao",
+     "Lung",
+     "Nob",
+     "Wai",
+     "Yoshi"
+    ]
+   }
   }
  },
  "palms": {

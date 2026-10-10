@@ -1044,10 +1044,11 @@ def build_previous(r, cur):
     """A previous public release, kept in the version history with everything it was released with."""
     state, pv = release_state(r), esc(r["public_version"])
     rows = [("Version", f'{pv} <span class="muted">· build {esc(r["internal_build"])}</span>'), ("Status", f'Previous release · replaced by {esc(cur["public_version"])}'), ("Released", esc(r["date"])),
-            ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'), ("SHA-256", f'<code class="sum">{esc(r["sha256"])}</code>'), ("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
+            ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'), ("SHA-256", f'<code class="sum">{esc(r["sha256"])}</code>')] + ([("In-browser patcher", f'{pv} only. It does not make {esc(cur["public_version"])}.')] if state == "patcher" else []) + [("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
     post = (f'<p class="lead">The original {pv} download post is still on the Project Blonde Discord.</p><div class="actions">{release_post(r, "btn ghost dcbtn", pv + " download post", r["discord_post"])}</div>' if r.get("discord_post") else "")
-    make = (f'<section id="get"><p class="label">Make {pv} in your browser</p><h2>From your own game file</h2>'
-            f'<p class="notice wide">This makes <b>{pv}</b>, not the current release. It builds the game on your device from your own copy of the base game, or from a supported earlier build.</p><div class="getbody">{patcher_html(r)}</div></section>' if state == "patcher" else "")
+    make = (f'<section id="get"><p class="label">In-browser patcher · {pv} only</p><h2>Make {pv} from your own game file</h2>'
+            f'<p class="notice wide only"><b>{pv} only.</b> This patcher makes Project Blonde {pv}. It does not make {esc(cur["public_version"])} and cannot update a game to {esc(cur["public_version"])}: '
+            f'<a href="{u("/play/")}#get">get {esc(cur["public_version"])} from its release post</a>. It builds {pv} on your device from your own copy of the base game, or from a supported earlier build.</p><div class="getbody">{patcher_html(r)}</div></section>' if state == "patcher" else "")
     fixed = "".join(f"<li><b>{esc(a)}</b> — {b}</li>" for a, b in RELEASES["fixed"])
     body = head("Version history", f"Project Blonde {r['public_version']}", f'{r["summary"]} Released on {r["date"]}. The current release is {cur["public_version"]}.',
                 f'<div class="actions"><a class="btn" href="{u("/play/")}#get">Get {esc(cur["public_version"])} instead{ARROW}</a><a class="link" href="{u("/play/")}#history">All versions{ARROW}</a></div>') + f"""
@@ -1077,6 +1078,10 @@ def build_whatsnew(rel, primary):
                               f'<span class="m">{esc(who(c))}</span>{"<p>" + esc(", ".join(c["names"])) + "</p>" if c["names"] else ""}</li>' for c in by(k))
     seg = "".join(f'<button type="button" data-wn-face="{i}" aria-pressed="{"true" if i == 0 else "false"}">{n}</button>' for i, n in enumerate(["Front", "Left", "Right", "Back"]))
     n = G["counts"]
+    idn = n["identical"]["portrait"]
+    assert n["assignments"]["portrait"] + idn["assignments"] == n["release_assignments"]["portrait"] and all(n["assignments"][k] == n["release_assignments"][k] for k in ("overworld", "battle"))
+    pnote = (f'<p class="wn-note">The release contains {n["release_assignments"]["portrait"]} portrait assignments. {n["assignments"]["portrait"]} of them look different in {pv} and are shown here, grouped into {n["portrait"]} comparisons '
+             f'because several characters share a portrait. The other {idn["assignments"]} ({esc(", ".join(idn["names"]))}) are pixel-identical in {old} and {pv}, so there is nothing to compare.</p>')
     body = f"""
 <div class="wrap play wn" data-release="{pv}" style="--ow:url('{u(art + O["file"])}');--oh:{O["h"]};--fa:url('{u(art + F["file"])}');--fw:{F["w"]};--fh:{F["h"]}">
  <link rel="stylesheet" href="{u("/assets/whatsnew.css")}">
@@ -1087,14 +1092,14 @@ def build_whatsnew(rel, primary):
   <figure class="titleart"><img class="px" src="{u("/assets/game/title/title-" + rel["public_version"] + ".png")}" width="240" height="160" alt="The Project Blonde title screen: Gold and Wigglytuff on the road, with {pv} under PRESS START">
    <figcaption>The title screen now shows {pv} beneath PRESS START. The Gold and Wigglytuff artwork and its animation are the same as in {old}.</figcaption></figure></header>
  <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul></div>
-  <div><p class="label">On this page</p><nav class="wn-toc"><a href="#overworld"><b>Overworld sprites</b><span class="m">{n["overworld"]} comparisons</span></a><a href="#portraits"><b>Dialogue portraits</b><span class="m">{n["portrait"]} comparisons</span></a>
+  <div><p class="label">On this page</p><nav class="wn-toc"><a href="#overworld"><b>Overworld sprites</b><span class="m">{n["overworld"]} comparisons</span></a><a href="#portraits"><b>Dialogue portraits</b><span class="m">{n["assignments"]["portrait"]} of {n["release_assignments"]["portrait"]} changed</span></a>
    <a href="#battle"><b>Battle artwork</b><span class="m">Lass · Firebreather</span></a><a href="#alola"><b>Alola</b><span class="m">Palm trees</span></a><a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA</span></a></nav></div></section>
  <section id="gallery"><p class="label">Before and after</p><h2>Characters, {old} and {pv}</h2>
   <p class="lead">In every pair, {old} is on the left and {pv} is on the right. Each picture is drawn at a whole-number scale of the game’s own pixels.</p>
   <div id="overworld" class="wn-block"><div class="wn-head"><h3>Overworld sprites</h3><p class="m">{n["overworld"]} comparisons · {n["assignments"]["overworld"]} characters</p><div class="seg" role="group" aria-label="Facing" data-wn-seg>{seg}</div></div>
    <ul class="wn-grid ow" data-wn-ow style="--f:0">{ow}</ul></div>
-  <div id="portraits" class="wn-block"><div class="wn-head"><h3>Dialogue portraits</h3><p class="m">{n["portrait"]} comparisons · {n["assignments"]["portrait"]} characters</p></div>
-   <ul class="wn-grid fa">{faces("portrait")}</ul></div>
+  <div id="portraits" class="wn-block"><div class="wn-head"><h3>Dialogue portraits</h3><p class="m">{n["portrait"]} comparisons · {n["assignments"]["portrait"]} of {n["release_assignments"]["portrait"]} assignments</p></div>
+   {pnote}<ul class="wn-grid fa">{faces("portrait")}</ul></div>
   <div id="battle" class="wn-block"><div class="wn-head"><h3>Battle artwork</h3><p class="m">Lass · Firebreather</p></div>
    <ul class="wn-grid fa">{faces("battle")}</ul></div>
  </section>
@@ -1200,7 +1205,7 @@ def build_play():
         fixed = "".join(f"<li><b>{esc(a)}</b> — {b}</li>" for a, b in RELEASES["fixed"])
         whats = (f'<div><p class="label">This version</p><h2>What this build is</h2><ul class="plain bullets">{notes}</ul></div>'
                  f'<div><p class="label">Fixed since earlier builds</p><ul class="plain bullets">{fixed}</ul><p class="label lbl2">Known quirks in this version</p><ul class="plain bullets">{known}</ul></div>')
-    hist = "".join(f'<a href="{u(r["page"])}"><b>{esc(r["public_version"])}</b><span class="m{" ok" if r is rel else ""}">{"Current" if r is rel else "Previous"} · {esc(r["date"])}</span><span>{esc(r["summary"])}</span>{ARROW}</a>'
+    hist = "".join(f'<a href="{u(r["page"])}"><b>{esc(r["public_version"])}</b><span class="m{" ok" if r is rel else ""}">{"Current" if r is rel else "Previous"} · {esc(r["date"])}</span><span>{esc(r["summary"])}{" The in-browser patcher on its page makes " + esc(r["public_version"]) + " only." if r is not rel and r.get("method") == "patcher" else ""}</span>{ARROW}</a>'
                    for r in RELEASES["releases"] if r["status"] == "released" and r.get("page"))
     history = f'<section id="history"><p class="label">Version history</p><h2>Every public release</h2><div class="history">{hist}</div></section>' if hist else ""
     body = f"""

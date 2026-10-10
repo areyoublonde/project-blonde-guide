@@ -611,7 +611,7 @@ code{font:400 .86em var(--mono);color:var(--ink-2);word-break:break-all}
 .upgrade{margin:var(--s6) 0;padding:28px;border-radius:12px;background:var(--surface);box-shadow:0 0 0 1px var(--hair) inset;scroll-margin-top:calc(var(--head) + 16px)}
 .upgrade h2,.upgrade h3{margin:12px 0 10px}.upgrade h3{font-size:1.4rem}.upgrade .lead,.upgrade .quick{max-width:72ch}.upgrade .quick b{color:var(--ink);font-weight:500}
 .upgrade .label.pick{margin-top:30px}.upg>div{max-width:none}.upg .quick{margin-top:0;border-top:0}.upg .notice{max-width:72ch}.upgrade>.bullets{margin-top:22px}.upgrade>.bullets b{color:var(--ink);font-weight:500}
-.play.prev #get .notice.wide{margin:14px 0 26px}.play.prev .relgrid .actions{margin-top:18px}
+.play.prev #get .notice.wide{margin:14px 0 26px}.notice.only{color:var(--ink-2)}.notice.only b{color:var(--accent);font-weight:500}.notice.only a{color:var(--ink)}.play.prev .relgrid .actions{margin-top:18px}
 @media (max-width:700px){
   .history a{grid-template-columns:auto 1fr auto}.history a>span:not(.m){grid-column:1/-1;grid-row:2}
   .upgrade{padding:20px 16px}

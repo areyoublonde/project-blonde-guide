@@ -1,7 +1,7 @@
 {
  "base": "http://localhost:8911",
- "checked": "2026-10-10 23:31",
- "passed": 184,
+ "checked": "2026-10-10 23:40",
+ "passed": 192,
  "failed": 0,
  "results": [
   {
@@ -77,7 +77,7 @@
   {
    "name": "[desktop] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file.']]"
+   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file. The in-browser patcher on its page makes v1.0 only.']]"
   },
   {
    "name": "[desktop] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -365,6 +365,11 @@
    "detail": "[48, 14, 2]"
   },
   {
+   "name": "[desktop] gallery: portraits are explained as 42 changed of 49 assignments, 7 pixel-identical",
+   "ok": true,
+   "detail": "The release contains 49 portrait assignments. 42 of them look different in v1.1 and are shown here, grouped into 14 comparisons because several characters share a portrait. The other 7 (Kenji, Kiyo, Lao, Lung, Nob, Wai, Yoshi) are pixel-identical in v1.0 and v1.1, so there is nothing to compare."
+  },
+  {
    "name": "[desktop] gallery: titles and atlas cells match the generated data",
    "ok": true,
    "detail": ""
@@ -426,6 +431,21 @@
   },
   {
    "name": "[desktop] v1.0: the in-browser patcher is still offered, for that version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.0: nothing in the patcher says it makes v1.1",
+   "ok": true,
+   "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
+  },
+  {
+   "name": "[desktop] Download & Play: no patcher on the v1.1 page, and the history row says the patcher is v1.0 only",
    "ok": true,
    "detail": ""
   },
@@ -542,7 +562,7 @@
   {
    "name": "[phone] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file.']]"
+   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file. The in-browser patcher on its page makes v1.0 only.']]"
   },
   {
    "name": "[phone] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -830,6 +850,11 @@
    "detail": "[48, 14, 2]"
   },
   {
+   "name": "[phone] gallery: portraits are explained as 42 changed of 49 assignments, 7 pixel-identical",
+   "ok": true,
+   "detail": "The release contains 49 portrait assignments. 42 of them look different in v1.1 and are shown here, grouped into 14 comparisons because several characters share a portrait. The other 7 (Kenji, Kiyo, Lao, Lung, Nob, Wai, Yoshi) are pixel-identical in v1.0 and v1.1, so there is nothing to compare."
+  },
+  {
    "name": "[phone] gallery: titles and atlas cells match the generated data",
    "ok": true,
    "detail": ""
@@ -891,6 +916,21 @@
   },
   {
    "name": "[phone] v1.0: the in-browser patcher is still offered, for that version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.1",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.0: nothing in the patcher says it makes v1.1",
+   "ok": true,
+   "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
+  },
+  {
+   "name": "[phone] Download & Play: no patcher on the v1.1 page, and the history row says the patcher is v1.0 only",
    "ok": true,
    "detail": ""
   },

@@ -163,6 +163,15 @@ def run(c, mobile):
                and c.js("document.querySelector('.phead .actions a.btn').getAttribute('href')").endswith("/play/#get") and REL["public_version"] in txt(".phead .actions a.btn"))
             ok(f"[{tag}] {r['public_version']}: its original download post and its notes are still there", c.js("(a=>a&&a.href)(document.querySelector('#release a[data-release-post]'))") == r.get("discord_post") and all(a in txt("#notes") for a, _ in REL_ALL["fixed"]))
             ok(f"[{tag}] {r['public_version']}: the in-browser patcher is still offered, for that version", r.get("method") != "patcher" or c.js("document.querySelectorAll('#get [data-patcher] [data-mk-file]').length") == 1 and r["public_version"] in txt("#get .lead"))
+            if r.get("method") == "patcher":
+                only, cur = r["public_version"] + " only", REL["public_version"]
+                ok(f"[{tag}] {r['public_version']}: the patcher is labelled {only} in its heading, its notice and the release record, and says it does not make {cur}", only in txt("#get > .label") and txt("#get .notice.only b") == only + "." and f"does not make {cur}" in txt("#get .notice.only")
+                   and only in txt("#release dl") and c.js("document.querySelector('#get .notice.only a').getAttribute('href')").endswith("/play/#get") and c.js(SHOWN + "('#get .notice.only')"))
+                made = c.js("[...document.querySelectorAll('#get [data-patcher] h3, #get [data-patcher] .lead, #get h2')].map(e=>e.textContent).join(' | ')")
+                ok(f"[{tag}] {r['public_version']}: nothing in the patcher says it makes {cur}", f"Blonde {cur}" not in made and f"Make {cur}" not in made and f"makes {cur}" not in made.replace("does not make", ""), made[:200])
+                go(c, "/play/")
+                ok(f"[{tag}] Download & Play: no patcher on the {cur} page, and the history row says the patcher is {only}", c.js("document.querySelectorAll('[data-patcher]').length") == 0 and only in c.js("[...document.querySelectorAll('#history .history a')].map(a=>a.textContent).join(' | ')"))
+                go(c, r["page"])
             ok(f"[{tag}] {r['public_version']}: no sideways scroll", c.js("document.documentElement.scrollWidth <= window.innerWidth"))
 
     # ---- keyboard
@@ -213,6 +222,9 @@ def whatsnew(c, tag):
     n = c.js("[document.querySelectorAll('#overworld li').length,document.querySelectorAll('#portraits li').length,document.querySelectorAll('#battle li').length]")
     ok(f"[{tag}] gallery: {G['counts']['overworld']} overworld, {G['counts']['portrait']} portrait and {G['counts']['battle']} battle comparisons, each a before and an after", n == [G["counts"][k] for k in ("overworld", "portrait", "battle")]
        and c.js("[...document.querySelectorAll('.wn-grid li')].every(li=>li.querySelectorAll('.wn-s,.wn-f').length===2)"), n)
+    N = G["counts"]
+    ok(f"[{tag}] gallery: portraits are explained as {N['assignments']['portrait']} changed of {N['release_assignments']['portrait']} assignments, {N['identical']['portrait']['assignments']} pixel-identical", (lambda t: f"{N['release_assignments']['portrait']} portrait assignments" in t and f"{N['assignments']['portrait']} of them" in t
+       and f"other {N['identical']['portrait']['assignments']}" in t and "pixel-identical" in t and all(x in t for x in N["identical"]["portrait"]["names"]))(txt("#portraits .wn-note")) and f"{N['assignments']['portrait']} of {N['release_assignments']['portrait']} assignments" in txt("#portraits .wn-head") and c.js(SHOWN + "('#portraits .wn-note')"), txt("#portraits .wn-note"))
     ok(f"[{tag}] gallery: titles and atlas cells match the generated data", c.js("[...document.querySelectorAll('.wn-grid li')].map(li=>li.querySelector('b').textContent)") == [x["title"] for k in ("overworld", "portrait", "battle") for x in G["comparisons"] if x["kind"] == k]
        and c.js("[...document.querySelectorAll('#overworld li')].map(li=>[...li.querySelectorAll('.wn-s')].map(e=>+e.style.getPropertyValue('--r')))") == [[x["before"], x["after"]] for x in G["comparisons"] if x["kind"] == "overworld"])
     atl = c.js("""Promise.all(['--ow','--fa'].map(v=>new Promise(r=>{const m=/url\\(['"]?(.*?)['"]?\\)/.exec(getComputedStyle(document.querySelector('.wn')).getPropertyValue(v));const i=new Image();i.onload=()=>r([i.naturalWidth,i.naturalHeight]);i.onerror=()=>r(null);i.src=m[1]})))""")
