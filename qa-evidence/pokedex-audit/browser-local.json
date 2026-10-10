@@ -1,7 +1,7 @@
 {
- "base": "http://localhost:8791",
+ "base": "http://localhost:8911",
  "browser": "Chrome (headless)",
- "date": "2026-10-09",
+ "date": "2026-10-10",
  "passed": 136,
  "total": 136,
  "checks": [
@@ -328,7 +328,7 @@
   {
    "name": "[desktop] global search finds Pikachu",
    "ok": true,
-   "detail": "['/pokemon/pikachu/', '/pokemon/raichu/', '/items/ashs-pikachu/']"
+   "detail": "['/pokemon/pikachu/', '/pokemon/raichu/', '/stuck/#ash-i-cant-find-pikachu-or-the-pink-butterfr']"
   },
   {
    "name": "[desktop] global search does not offer a page for unobtainable Greninja",
@@ -658,7 +658,7 @@
   {
    "name": "[phone] global search finds Pikachu",
    "ok": true,
-   "detail": "['/pokemon/pikachu/', '/pokemon/raichu/', '/items/ashs-pikachu/']"
+   "detail": "['/pokemon/pikachu/', '/pokemon/raichu/', '/stuck/#ash-i-cant-find-pikachu-or-the-pink-butterfr']"
   },
   {
    "name": "[phone] global search does not offer a page for unobtainable Greninja",
@@ -666,12 +666,12 @@
    "detail": "[]"
   },
   {
-   "name": "[desktop] /items/ filter “surf” visibly narrows 445 rows to 1",
+   "name": "[desktop] /items/ filter “surf” visibly narrows 447 rows to 1",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] /trainers/ filter “wallace” visibly narrows 85 rows to 1",
+   "name": "[desktop] /trainers/ filter “wallace” visibly narrows 88 rows to 1",
    "ok": true,
    "detail": ""
   },

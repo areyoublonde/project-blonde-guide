@@ -1,10 +1,10 @@
 {
  "build": {
-  "version": "v105",
-  "public": "v1.0",
-  "folder": "Heart & Soul - Hoenn Dialogue Events v105 Title Version v1.0 and Wattson Line",
-  "rom": "Pokemon - Heart & Soul (Blonde).gba",
-  "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+  "version": "v111",
+  "public": "v1.1",
+  "folder": "../output/project-blonde-v1.1-rc-v111-20261010",
+  "rom": "Pokemon - Project Blonde.gba",
+  "sha256": "2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33",
   "symbols": "qa/natural-run-v102/harness/sym-v84.json"
  },
  "maps": 908,

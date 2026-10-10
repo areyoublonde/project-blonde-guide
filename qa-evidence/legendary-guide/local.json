@@ -1,5 +1,5 @@
 {
- "base": "http://localhost:8772",
+ "base": "http://localhost:8911",
  "checks": 144,
  "failed": 0,
  "results": [
@@ -289,14 +289,14 @@
    "detail": ""
   },
   {
-   "name": "[desktop] all 128 links in the guide resolve, anchors included",
+   "name": "[desktop] all 130 links in the guide resolve, anchors included",
    "ok": true,
    "detail": "[]"
   },
   {
    "name": "[desktop] the guide links to Pokédex pages, atlas places, chapters and items",
    "ok": true,
-   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 27}"
+   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 28}"
   },
   {
    "name": "[desktop] Arceus’s Pokédex page links to its guide entry",
@@ -644,14 +644,14 @@
    "detail": ""
   },
   {
-   "name": "[phone] all 128 links in the guide resolve, anchors included",
+   "name": "[phone] all 130 links in the guide resolve, anchors included",
    "ok": true,
    "detail": "[]"
   },
   {
    "name": "[phone] the guide links to Pokédex pages, atlas places, chapters and items",
    "ok": true,
-   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 27}"
+   "detail": "{'pokemon': 33, 'world': 37, 'walkthrough': 18, 'items': 28}"
   },
   {
    "name": "[phone] Arceus’s Pokédex page links to its guide entry",

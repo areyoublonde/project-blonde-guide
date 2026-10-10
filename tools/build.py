@@ -39,6 +39,8 @@ def basis_tag(b):
 # ============================================================ 1-2  HOME (new / returning)
 def build_home():
     rel = next(r for r in RELEASES["releases"] if r["version"] == RELEASES["current"])
+    news = (f'<section class="relnews"><div class="wrap"><p><span class="chip ok">New</span><b>{esc(rel["public_version"])} is out</b><span>{esc(rel["summary"])}</span></p>'
+            f'<div class="actions"><a class="link" href="{u(rel["page"])}">What’s new{ARROW}</a><a class="link" href="{u("/play/")}#get">Download{ARROW}</a></div></div></section>' if rel["status"] == "released" and rel.get("changelog") else "")
     legs = ""
     for rid, r in REGIONS.items():
         js = [j for j in JOURNEY if j["r"] == rid]
@@ -54,7 +56,7 @@ def build_home():
     body = f"""
 <section class="hero">{plate("new-bark-town", cls="p-new")}<div class="plate p-pos" data-pos-plate aria-hidden="true"><img alt="" data-plates="{u("/assets/game/plates/")}"><div class="mist"></div></div>
  <div class="wrap"><div class="hero-text now">{now_known(extra=region_line)}{new}</div>{stage}</div>
-</section>
+</section>{news}
 <section class="rail"><div class="wrap">
  <header class="rowhead"><p class="label">The road</p><p class="readout" data-readout data-default="{TOTAL} chapters · Johto to Kanto by sea · Kanto to Hoenn by road">{TOTAL} chapters · Johto to Kanto by sea · Kanto to Hoenn by road</p></header>
  <div class="legs">{legs}</div>
@@ -936,26 +938,60 @@ PATCHER = J(CONTENT / "patcher.json")
 def release_state(rel):
     """The one decision about whether a download may be shown. Anything short of a complete, released record is the pre-release state."""
     dist, dl, pt = RELEASES["distribution"], rel["download"], rel["patch"]
-    assert BUILD["build"]["public"].startswith(rel["public_version"]) and BUILD["build"]["version"] == rel["internal_build"], "releases.json does not describe the build the guide was extracted from"
+    method = rel.get("method", dist["method"])
+    if rel["version"] == RELEASES["current"]:
+        assert BUILD["build"]["public"].startswith(rel["public_version"]) and BUILD["build"]["version"] == rel["internal_build"], "releases.json does not describe the build the guide was extracted from"
+        assert method == dist["method"], "releases.json: distribution.method is not the current release's method"
     if rel["status"] != "released":
         assert not dl["url"], "releases.json: a download URL is set but the release is not marked released"
         assert not PATCHER["enabled"], "patcher.json is enabled but the release is not marked released"
         return "prerelease"
-    if dist["method"] == "patcher":       # no file is linked: the game is made in the visitor's browser from the registry's verified patches
-        assert PATCHER["enabled"] and rel["date"] and rel["sha256"] == PATCHER["target"]["sha256"], "patcher distribution needs an enabled registry whose target is this release, and a date"
+    if method == "patcher":       # no file is linked: the game is made in the visitor's browser from the registry's verified patches
+        assert PATCHER["enabled"] and PATCHER["release"] == rel["version"] and rel["date"] and rel["sha256"] == PATCHER["target"]["sha256"], "patcher distribution needs an enabled registry whose target is this release, and a date"
         return "patcher"
-    assert dl["url"] and rel["sha256"] and rel["date"] and dist["method"] in ("direct", "patch"), "releases.json: a released version needs date, download.url, sha256 and a distribution method"
+    if method == "discord":       # the official release post on the project's Discord; the signed attachment URL expires and is never linked
+        ar = rel["archive"]
+        assert rel["date"] and len(rel["sha256"]) == 64 and len(ar["sha256"]) == 64 and ar["name"] and rel["file"]["name"], "releases.json: a Discord release needs date, both checksums and both file names"
+        assert re.fullmatch(r"https://discord\.com/channels/\d+/\d+/\d+", dl["url"] or ""), "releases.json: download.url must be the release post's permanent link"
+        assert DISCORD.get("url"), "a Discord release needs the server invite in content/site.json"
+        return "discord"
+    assert dl["url"] and rel["sha256"] and rel["date"] and method in ("direct", "patch"), "releases.json: a released version needs date, download.url, sha256 and a distribution method"
     assert dl["url"].startswith("https://"), "releases.json: download.url must be https"
-    if dist["method"] == "patch":
+    if method == "patch":
         assert all(pt[k] for k in ("format", "base_game", "base_checksum", "tool", "tool_url")), "releases.json: patch distribution needs every patch field"
-    return dist["method"]
+    return method
+
+
+def release_post(rel, cls, label, url=None):
+    """A link to a release's official Discord post. Not the invite: these are the only Discord links that are not `data-discord`."""
+    return f'<a class="{cls}" data-release-post href="{esc(url or rel["download"]["url"])}" target="_blank" rel="noopener">{DISCORD_ICON}<span>{esc(label)}</span></a>'
+
+
+def current_release():
+    return next(r for r in RELEASES["releases"] if r["version"] == RELEASES["current"])
+
+
+def upgrade_html(rel, h="h3"):
+    """Save compatibility and the update steps published with this release (releases.json `upgrade`, copied from the release's own guides)."""
+    up = rel.get("upgrade")
+    if not up:
+        return ""
+    pv = esc(rel["public_version"])
+    guides = "".join(f'<details class="qa upg" name="upgrade-guide" id="upgrade-{g["id"]}"><summary><b>{esc(g["name"])}</b><span class="m">{esc(g["emulator"])}</span></summary>'
+                     f'<div><ol class="quick">{"".join(f"<li>{x}</li>" for x in g["steps"])}</ol><p class="notice">{esc(g["note"])}</p></div></details>' for g in up["guides"])
+    return (f'<div class="upgrade" id="update-{pv}"><p class="label accent">{esc(up["from"])} → {pv}</p><{h}>Updating to {pv}</{h}><p class="lead">{esc(rel["save_compatibility"])}</p>'
+            f'<ol class="quick">{"".join(f"<li>{esc(x)}</li>" for x in up["instructions"])}</ol>'
+            f'<p class="label pick">Steps for your emulator</p>{guides}<ul class="plain bullets">{"".join(f"<li>{x}</li>" for x in up["facts"])}</ul></div>')
 
 
 def patcher_html(rel):
     """Make your game: the two-path in-browser patcher. Registry content/patcher.json; logic site/assets/patcher.js.
     Rendered only in a --prototype build, or once the owner has enabled the registry for a released version."""
     T = PATCHER["target"]
-    assert (T["public_version"], T["internal_build"]) == (rel["public_version"], rel["internal_build"]) and PATCHER["release"] == rel["version"], "patcher.json does not target the current release"
+    assert (T["public_version"], T["internal_build"]) == (rel["public_version"], rel["internal_build"]) and PATCHER["release"] == rel["version"], "patcher.json does not target this release"
+    cur = current_release()
+    newest = (f'This file is the latest version, so there is nothing to make or update. Open it in your emulator and play: <a href="{u("/play/")}#devices">setup for your device</a>.' if cur is rel else
+              f'This file is {esc(T["public_version"])} already, so there is nothing to make here. The current release is {esc(cur["public_version"])}: <a href="{u("/play/")}#get">get it on Download &amp; Play</a>.')
     assert T["sha256"] and all(x["sha256"] and x["patch"] for x in PATCHER["inputs"]), "patcher.json has no hashes: run tools/patches.py build"
     assert len({x["sha256"] for x in PATCHER["inputs"]} | {T["sha256"]}) == len(PATCHER["inputs"]) + 1, "patcher.json: two entries share a hash"
     # a released version serves the patches committed under site/assets/patches/ (already copied with the assets); a prototype build takes them from private/
@@ -984,9 +1020,9 @@ def patcher_html(rel):
  <div data-mk-pickrow><label class="btn mk-pick"><span>Choose your game file</span><input type="file" data-mk-file class="sr"></label></div>
  <p class="mk-msg" data-mk-msg role="status" aria-live="polite"></p>
  <div class="mk-current" data-mk-current hidden><p class="label accent">Up to date</p><h3>You already have Project Blonde {esc(T["public_version"])}</h3>
-  <p class="lead">This file is the latest version, so there is nothing to make or update. Open it in your emulator and play: <a href="#devices">setup for your device</a>.</p></div>
+  <p class="lead">{newest}</p></div>
  <div class="mk-found" data-mk-found hidden><dl class="kv wide"><div><dt>Your file</dt><dd data-mk-from></dd></div><div><dt>Will become</dt><dd data-mk-to></dd></div></dl>
-  <div data-mk-only="release"><p class="mk-warn"><b>Back up your save first.</b> Your progress is a separate save file. This page never sees it, and updating the game does not update or move your save. Make a copy of it now: <a href="#update">how to back up and restore on your device</a>.</p>
+  <div data-mk-only="release"><p class="mk-warn"><b>Back up your save first.</b> Your progress is a separate save file. This page never sees it, and updating the game does not update or move your save. Make a copy of it now: <a href="{u("/play/")}#update">how to back up and restore on your device</a>.</p>
    <p class="mk-save"><span data-mk-savenote></span> A game that updates cleanly does not prove that a save will carry over, so keep the backup until you have checked your adventure.</p>
    <label class="mk-check"><input type="checkbox" data-mk-backup><span>I have made a backup copy of my save file</span></label></div>
   <p><button type="button" class="btn" data-mk-go disabled><span>Make my game</span>{ARROW}</button></p></div>
@@ -994,8 +1030,8 @@ def patcher_html(rel):
   <p class="lead">It was built on this device and checked against the official release.</p>
   <div class="actions"><button type="button" class="btn" data-mk-share hidden>Open in Delta</button><a class="btn" data-mk-save><span>Save game file</span></a></div>
   <p class="notice" data-mk-ios hidden><b>Open in Delta</b> shows the share sheet: choose Delta. If Delta is not listed, tap <b>Save to Files</b>, then in Delta tap <b>+</b>, choose <b>Files</b> and pick “{esc(T["file_name"])}” in Downloads. If nothing happens when you tap, open this page in Safari first.</p>
-  <p class="notice" data-mk-notios>The file is saved as “{esc(T["file_name"])}”, usually in your Downloads folder. Open it in your emulator: <a href="#devices">setup for your device</a>.</p>
-  <div data-mk-only="release"><p class="mk-warn"><b>Now bring your save across.</b> The new game file starts without one. Follow <a href="#update">the restore steps for your device</a>, choose Continue, and check your adventure before you save again. Keep the old game file and your backup until you have.</p></div></div>
+  <p class="notice" data-mk-notios>The file is saved as “{esc(T["file_name"])}”, usually in your Downloads folder. Open it in your emulator: <a href="{u("/play/")}#devices">setup for your device</a>.</p>
+  <div data-mk-only="release"><p class="mk-warn"><b>Now bring your save across.</b> The new game file starts without one. Follow <a href="{u("/play/")}#update">the restore steps for your device</a>, choose Continue, and check your adventure before you save again. Keep the old game file and your backup until you have.</p></div></div>
  <p class="mk-foot"><button type="button" class="link" data-mk-reset>Start again</button>{dc}</p>
  <details class="qa mk-adv"><summary><b>Advanced details</b></summary><div><dl class="kv wide" data-mk-adv></dl><p>Files are recognised by their SHA-256 checksum, never by name. The finished game must match SHA-256 <code class="sum">{esc(T["sha256"])}</code> or it is not offered for saving.</p></div></details>
  <noscript><p class="notice">This step needs JavaScript switched on.</p></noscript>
@@ -1004,8 +1040,77 @@ def patcher_html(rel):
 </div>"""
 
 
+def build_previous(r, cur):
+    """A previous public release, kept in the version history with everything it was released with."""
+    state, pv = release_state(r), esc(r["public_version"])
+    rows = [("Version", f'{pv} <span class="muted">· build {esc(r["internal_build"])}</span>'), ("Status", f'Previous release · replaced by {esc(cur["public_version"])}'), ("Released", esc(r["date"])),
+            ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'), ("SHA-256", f'<code class="sum">{esc(r["sha256"])}</code>'), ("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
+    post = (f'<p class="lead">The original {pv} download post is still on the Project Blonde Discord.</p><div class="actions">{release_post(r, "btn ghost dcbtn", pv + " download post", r["discord_post"])}</div>' if r.get("discord_post") else "")
+    make = (f'<section id="get"><p class="label">Make {pv} in your browser</p><h2>From your own game file</h2>'
+            f'<p class="notice wide">This makes <b>{pv}</b>, not the current release. It builds the game on your device from your own copy of the base game, or from a supported earlier build.</p><div class="getbody">{patcher_html(r)}</div></section>' if state == "patcher" else "")
+    fixed = "".join(f"<li><b>{esc(a)}</b> — {b}</li>" for a, b in RELEASES["fixed"])
+    body = head("Version history", f"Project Blonde {r['public_version']}", f'{r["summary"]} Released on {r["date"]}. The current release is {cur["public_version"]}.',
+                f'<div class="actions"><a class="btn" href="{u("/play/")}#get">Get {esc(cur["public_version"])} instead{ARROW}</a><a class="link" href="{u("/play/")}#history">All versions{ARROW}</a></div>') + f"""
+<div class="wrap play prev" data-release-state="{state}" data-release="{pv}">
+ <section id="release" class="relgrid"><div><p class="label">Previous release</p><h2>{pv}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in r["highlights"])}</ul>{post}</div><dl class="kv wide release">{"".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in rows)}</dl></section>
+ {make}
+ <section id="notes" class="entry-cols"><div><p class="label">This version</p><h2>What {pv} was</h2><ul class="plain bullets">{"".join(f"<li>{n}</li>" for n in r["notes"])}</ul><p class="muted">{esc(r["save_compatibility"])}</p></div>
+  <div><p class="label">Fixed since earlier builds</p><ul class="plain bullets">{fixed}</ul></div></section>
+</div>"""
+    write(r["page"], layout(f"Version {r['public_version']}", body, desc=f"Pokémon Project Blonde {r['public_version']}, a previous public release: release record, checksum and notes.", path="/play/", dock="none"))
+
+
+def build_whatsnew(rel, primary):
+    """What's new: the release's changelog with the before / after gallery (data/whatsnew-<version>.json, tools/whatsnew.py)."""
+    pv = esc(rel["public_version"])
+    G = J(DATA / f"whatsnew-{rel['public_version']}.json")
+    assert G["after"]["sha256"] == rel["sha256"] == BUILD["build"]["sha256"], "the before / after gallery was not generated for this release: run tools/whatsnew.py"
+    art = "/assets/game/whatsnew/" + rel["public_version"] + "/"
+    O, F = G["atlas"]["overworld"], G["atlas"]["faces"]
+    old, by = esc(G["before"]["public"]), lambda k: [c for c in G["comparisons"] if c["kind"] == k]
+    who = lambda c: " · ".join(c["regions"]) + (f' · {c["assignments"]} character{"s" if c["assignments"] != 1 else ""}' if c["assignments"] else "")
+    spr = lambda c, side: f'<span class="wn-s" style="--r:{c[side]}" role="img" aria-label="{esc(c["title"])}, {old if side == "before" else pv}"></span>'
+    fc = lambda c, side: (f'<figure><span class="wn-f" style="--c:{c[side] % F["cols"]};--r:{c[side] // F["cols"]}" role="img" aria-label="{esc(c["title"])}, {old if side == "before" else pv}"></span>'
+                          f'<figcaption class="m">{old if side == "before" else pv}</figcaption></figure>')
+    ow = "".join(f'<li><div class="wn-pair">{spr(c, "before")}<i aria-hidden="true">→</i>{spr(c, "after")}</div><b>{esc(c["title"])}</b><span class="m">{esc(who(c))}</span></li>' for c in by("overworld"))
+    faces = lambda k: "".join(f'<li><div class="wn-pair">{fc(c, "before")}<i aria-hidden="true">→</i>{fc(c, "after")}</div><b>{esc(c["title"])}</b>'
+                              f'<span class="m">{esc(who(c))}</span>{"<p>" + esc(", ".join(c["names"])) + "</p>" if c["names"] else ""}</li>' for c in by(k))
+    seg = "".join(f'<button type="button" data-wn-face="{i}" aria-pressed="{"true" if i == 0 else "false"}">{n}</button>' for i, n in enumerate(["Front", "Left", "Right", "Back"]))
+    n = G["counts"]
+    body = f"""
+<div class="wrap play wn" data-release="{pv}" style="--ow:url('{u(art + O["file"])}');--oh:{O["h"]};--fa:url('{u(art + F["file"])}');--fw:{F["w"]};--fh:{F["h"]}">
+ <link rel="stylesheet" href="{u("/assets/whatsnew.css")}">
+ <header class="relhero"><div><p class="label accent"><a href="{u("/play/")}">Download &amp; Play</a> · Release notes</p><h1>What’s new in {pv}</h1>
+   <p class="relline"><b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span></p>
+   <p class="lead">{esc(rel["summary"])} Every comparison below is the game’s own artwork, read from the {old} and {pv} game files.</p>
+   <div class="actions">{primary}<a class="link" href="#gallery">See the sprites{ARROW}</a></div></div>
+  <figure class="titleart"><img class="px" src="{u("/assets/game/title/title-" + rel["public_version"] + ".png")}" width="240" height="160" alt="The Project Blonde title screen: Gold and Wigglytuff on the road, with {pv} under PRESS START">
+   <figcaption>The title screen now shows {pv} beneath PRESS START. The Gold and Wigglytuff artwork and its animation are the same as in {old}.</figcaption></figure></header>
+ <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul></div>
+  <div><p class="label">On this page</p><nav class="wn-toc"><a href="#overworld"><b>Overworld sprites</b><span class="m">{n["overworld"]} comparisons</span></a><a href="#portraits"><b>Dialogue portraits</b><span class="m">{n["portrait"]} comparisons</span></a>
+   <a href="#battle"><b>Battle artwork</b><span class="m">Lass · Firebreather</span></a><a href="#alola"><b>Alola</b><span class="m">Palm trees</span></a><a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA</span></a></nav></div></section>
+ <section id="gallery"><p class="label">Before and after</p><h2>Characters, {old} and {pv}</h2>
+  <p class="lead">In every pair, {old} is on the left and {pv} is on the right. Each picture is drawn at a whole-number scale of the game’s own pixels.</p>
+  <div id="overworld" class="wn-block"><div class="wn-head"><h3>Overworld sprites</h3><p class="m">{n["overworld"]} comparisons · {n["assignments"]["overworld"]} characters</p><div class="seg" role="group" aria-label="Facing" data-wn-seg>{seg}</div></div>
+   <ul class="wn-grid ow" data-wn-ow style="--f:0">{ow}</ul></div>
+  <div id="portraits" class="wn-block"><div class="wn-head"><h3>Dialogue portraits</h3><p class="m">{n["portrait"]} comparisons · {n["assignments"]["portrait"]} characters</p></div>
+   <ul class="wn-grid fa">{faces("portrait")}</ul></div>
+  <div id="battle" class="wn-block"><div class="wn-head"><h3>Battle artwork</h3><p class="m">Lass · Firebreather</p></div>
+   <ul class="wn-grid fa">{faces("battle")}</ul></div>
+ </section>
+ <section id="alola"><p class="label">Alola</p><h2>Palm trees</h2><p class="lead">The same corner of Melemele Isle, drawn from each version’s own map data. Alola’s DexNav grass animation also gained a pulsing glint.</p>
+  <div class="wn-shots"><figure><img class="px" src="{u(art + "palms-" + G["before"]["public"] + ".png")}" width="240" height="160" loading="lazy" alt="Melemele Isle in {old}: the earlier palm trees"><figcaption class="m">{old}</figcaption></figure>
+   <figure><img class="px" src="{u(art + "palms-" + rel["public_version"] + ".png")}" width="240" height="160" loading="lazy" alt="Melemele Isle in {pv}: the refreshed palm trees"><figcaption class="m">{pv}</figcaption></figure></div></section>
+ <section id="update">{upgrade_html(rel, "h2")}<p><a class="link" href="{u("/play/")}#update">The full update guide, with every device{ARROW}</a></p></section>
+ <section id="known" class="entry-cols"><div><p class="label">Known limitations</p><h2>What was not tested</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["known_limitations"])}</ul></div>
+  <div><p class="label">Get {pv}</p><h2>Download</h2><p class="lead">{esc(RELEASES["distribution"]["notes"]["discord"])}</p><div class="actions">{primary}<a class="link" href="{u("/play/")}#get">How to get the game{ARROW}</a></div></div></section>
+</div>
+<script src="{u("/assets/whatsnew.js")}" defer></script>"""
+    write(rel["page"], layout(f"What’s new in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: the changelog, before and after character sprites, dialogue portraits and battle artwork, and how to update from {G['before']['public']}.", path="/play/", dock="none"))
+
+
 def build_play():
-    rel = next(r for r in RELEASES["releases"] if r["version"] == RELEASES["current"])
+    rel = current_release()
     dist, pt, state = RELEASES["distribution"], rel["patch"], release_state(rel)
     pv, live = esc(rel["public_version"]), state != "prerelease"
     help_dc = discord_link("btn ghost dcbtn", "Ask on Discord")
@@ -1017,9 +1122,14 @@ def build_play():
         filetype, needs = esc(rel["file"]["type"]), ("Nothing else: one file" if state == "direct" else "Announced with the release")
     if state == "patcher":
         needs = "Your own copy of " + esc(next(x["label"] for x in PATCHER["inputs"] if x["kind"] == "base" and x["status"] == "supported")) + ". This page makes the game from it."
+    sums = f'<code class="sum">{esc(rel["sha256"])}</code>' + (" (the finished game)" if state == "patcher" else "")
+    if state == "discord":
+        needs = "A Discord account, to open the official download post"
+        sums = (f'<span class="sumrow"><span class="m">{esc(rel["file"]["name"])}</span><code class="sum">{esc(rel["sha256"])}</code></span>'
+                f'<span class="sumrow"><span class="m">{esc(rel["archive"]["name"])}</span><code class="sum">{esc(rel["archive"]["sha256"])}</code></span>')
     rows = [("Game", "Pokémon Project Blonde"), ("Version", f'{pv} <span class="muted">· build {esc(rel["internal_build"])}</span>'), ("Status", esc(rel["status_short"]) + ("" if live else " · not released")),
             ("Released", esc(rel["date"]) if live else "Not announced"), ("File", f'{filetype} · {esc(rel["file"]["size"])}'), ("You need", needs),
-            ("SHA-256", f'<code class="sum">{esc(rel["sha256"])}</code>' + (" (the finished game)" if state == "patcher" else "") if live else "Published with the release"),
+            ("SHA-256", sums if live else "Published with the release"),
             ("Saves", esc(rel["save_compatibility_short"]) + f' <a href="#update">How to update</a>'), ("Link version", f'<code>{esc(rel["link_protocol"])}</code>')]
     dl = "".join(f'<div><dt>{k}</dt><dd>{v}</dd></div>' for k, v in rows)
     hl = "".join(f"<li>{esc(x)}</li>" for x in rel["highlights"])
@@ -1029,6 +1139,10 @@ def build_play():
         primary = f'<a class="btn" href="#get">Make your game{ARROW}</a>'
         status_line = f'<b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span>'
         hero_note = "Made on your own device from your own copy of Pokémon Emerald. No game file is downloaded."
+    elif state == "discord":
+        primary = release_post(rel, "btn dcbtn", f'Get {rel["public_version"]} on Discord')
+        status_line = f'<b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span>'
+        hero_note = esc(dist["notes"]["discord"])
     elif live:
         what = "patch" if state == "patch" else "game"
         primary = f'<a class="btn" data-download href="{esc(rel["download"]["url"])}">Download {pv} {what}{ARROW}</a>'
@@ -1044,6 +1158,15 @@ def build_play():
                f'<li>Download the Project Blonde {pv} patch ({esc(pt["format"])}): <a data-download href="{esc(rel["download"]["url"])}">{esc(rel["download"]["file_name"] or "download")}</a>.</li>'
                f'<li>Open <a href="{esc(pt["tool_url"])}" rel="noopener">{esc(pt["tool"])}</a>, choose your base game and the patch, and apply it.</li>'
                f'<li>Check that the new .gba file’s SHA-256 is <code class="sum">{esc(rel["sha256"])}</code>.</li><li>Open the new .gba in your emulator: <a href="#devices">device setup</a>.</li></ol>')
+    elif state == "discord":
+        get = (f'<p class="lead">{esc(dist["notes"]["discord"])}</p><ol class="quick">'
+               f'<li><b>Join the {esc(DISCORD["server"])} Discord server</b> if you have not yet. The download post is inside the server, so it opens only once you have joined. {discord_link("link dc inl", "Open the invite")}</li>'
+               f'<li>Open the <b>{pv} download post</b> with the button below and download <b>{esc(rel["archive"]["name"])}</b> ({esc(rel["file"]["size"].split(" · ")[0])}).</li>'
+               f'<li>Extract the ZIP. Inside is one file, <b>{esc(rel["file"]["name"])}</b>.</li>'
+               f'<li>Open or import that .gba file in your emulator: <a href="#devices">setup for your device</a>.</li>'
+               f'<li>Already playing {esc(rel["upgrade"]["from"])}? Back up your save first, then follow <a href="#update">Updating to {pv}</a>.</li></ol>'
+               f'<div class="actions">{primary}</div>'
+               f'<p class="notice">To check your download, compare its SHA-256 with the checksums under <a href="#release">Current release</a>. Only trust the official download post; do not download copies offered anywhere else.</p>')
     elif state == "direct":
         get = (f'<p class="lead">{esc(dist["notes"]["direct"])}</p><div class="actions">{primary}</div>'
                f'<p class="notice">After downloading, check that the file’s SHA-256 is <code class="sum">{esc(rel["sha256"])}</code>.</p>')
@@ -1064,10 +1187,22 @@ def build_play():
     updev = "".join(f'<details class="qa upd" name="update-device" id="update-{d["id"]}"><summary><b>{esc(d["name"])}</b><span class="m">{esc(d["emulator"])}</span></summary>'
                     f'<div><ol class="quick">{"".join(f"<li>{x}</li>" for x in d["steps"])}</ol><p><a class="link" href="{u("/play/setup/" + d["id"] + "/")}">Full {esc(d["name"])} setup guide{ARROW}</a></p></div></details>' for d in up["devices"])
     notes = "".join(f"<li>{n}</li>" for n in rel["notes"])
-    fixed = "".join(f"<li><b>{esc(a)}</b> — {b}</li>" for a, b in RELEASES["fixed"])
     known = "".join(f"<li>{x}</li>" for x in RELEASES["known"])
     trouble = "".join(f'<details class="qa"><summary><b>{a}</b></summary><div><p>{b}</p></div></details>' for a, b in PLAY["trouble"])
     support = (f'<div class="support"><div><p class="label">Still stuck?</p><p>Ask in the {esc(DISCORD["server"])} Discord server. Say which device and emulator you use and which version the title screen shows.</p></div>{help_dc}</div>' if help_dc else "")
+    upgrade = upgrade_html(rel)
+    if rel.get("changelog"):
+        whats = (f'<div><p class="label">New in {pv}</p><h2>What changed in {pv}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul>'
+                 f'<p><a class="link" href="{u(rel["page"])}">Before and after gallery{ARROW}</a></p><p class="label lbl2">This version</p><ul class="plain bullets">{notes}</ul></div>'
+                 f'<div><p class="label">Known limitations in {pv}</p><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["known_limitations"])}</ul>'
+                 f'<p class="label lbl2">Gameplay quirks</p><ul class="plain bullets">{known}</ul></div>')
+    else:
+        fixed = "".join(f"<li><b>{esc(a)}</b> — {b}</li>" for a, b in RELEASES["fixed"])
+        whats = (f'<div><p class="label">This version</p><h2>What this build is</h2><ul class="plain bullets">{notes}</ul></div>'
+                 f'<div><p class="label">Fixed since earlier builds</p><ul class="plain bullets">{fixed}</ul><p class="label lbl2">Known quirks in this version</p><ul class="plain bullets">{known}</ul></div>')
+    hist = "".join(f'<a href="{u(r["page"])}"><b>{esc(r["public_version"])}</b><span class="m{" ok" if r is rel else ""}">{"Current" if r is rel else "Previous"} · {esc(r["date"])}</span><span>{esc(r["summary"])}</span>{ARROW}</a>'
+                   for r in RELEASES["releases"] if r["status"] == "released" and r.get("page"))
+    history = f'<section id="history"><p class="label">Version history</p><h2>Every public release</h2><div class="history">{hist}</div></section>' if hist else ""
     body = f"""
 <div class="wrap play" data-release-state="{state}">
  <header class="relhero"><div><p class="label accent">Download &amp; Play</p><h1>Pokémon Project Blonde</h1>
@@ -1077,7 +1212,7 @@ def build_play():
    <p class="notice">{hero_note}</p></div>
   <figure class="titleart"><img class="px" src="{u("/assets/game/title/title-" + rel["public_version"] + ".png")}" width="240" height="160" alt="The Project Blonde title screen, showing version {pv} under PRESS START"></figure></header>
  <section id="release" class="relgrid"><div><p class="label">Current release</p><h2>{pv} {esc(rel["status_short"]).lower()}</h2><ul class="plain bullets">{hl}</ul>
-   <p><a class="link" href="{u(rel["release_notes_url"])}">Release notes{ARROW}</a></p></div><dl class="kv wide release">{dl}</dl></section>
+   <p><a class="link" href="{u(rel["release_notes_url"])}">{"What’s new in " + pv if rel.get("changelog") else "Release notes"}{ARROW}</a></p></div><dl class="kv wide release">{dl}</dl></section>
  <ol class="stages">
   <li id="devices"><p class="label"><b>01</b> Choose your device</p><div class="devices">{devs}</div></li>
   <li id="get"><p class="label"><b>02</b> Get the game</p><div class="getbody">{get}</div></li>
@@ -1086,17 +1221,23 @@ def build_play():
  <section id="save"><p class="label">Save your game</p><h2>{sv["title"]}</h2><p class="lead">{sv["lead"]}</p>
   <table class="tbl cmp"><thead><tr><th></th><th>How</th><th>What it makes</th><th>Portable?</th><th>Use it for</th></tr></thead><tbody>{cmp_rows}</tbody></table></section>
  <section id="update"><p class="label">Updating</p><h2>{esc(up["title"])}</h2><p class="lead">{up["lead"]}</p>
+  {upgrade}
   <dl class="kv wide rules">{rules}</dl>
-  <p class="label pick">Steps for your device</p>{updev}
+  <p class="label pick">{"General steps for any update, by device" if upgrade else "Steps for your device"}</p>{updev}
   <div class="entry-cols aftercare"><div><h3>{esc(up["check_title"])}</h3><ul class="plain bullets">{"".join(f"<li>{x}</li>" for x in up["check"])}</ul><p class="muted">{up["check_after"]}</p></div>
    <div id="rollback"><h3>{esc(up["rollback_title"])}</h3><ol class="quick">{"".join(f"<li>{x}</li>" for x in up["rollback"])}</ol></div></div>
   <p class="notice wide">{up["caveat"]}</p></section>
  <section><p class="label">Keep playing</p><div class="topics">{topics}</div></section>
  <section id="trouble"><p class="label">Troubleshooting</p><h2>Common problems</h2>{trouble}{support}</section>
- <section id="changelog" class="entry-cols"><div><p class="label">This version</p><h2>What this build is</h2><ul class="plain bullets">{notes}</ul></div>
-  <div><p class="label">Fixed since earlier builds</p><ul class="plain bullets">{fixed}</ul><p class="label" style="margin-top:28px">Known quirks in this version</p><ul class="plain bullets">{known}</ul></div></section>
+ <section id="changelog" class="entry-cols">{whats}</section>
+ {history}
 </div>"""
     write("/play/", layout("Download & Play", body, desc="Download and play Pokémon Project Blonde on iPhone, Android, Windows or Mac: current release, emulator setup, saving, and updating without losing your save.", path="/play/", dock="none"))
+    for r in RELEASES["releases"]:
+        if r is not rel and r["status"] == "released" and r.get("page"):
+            build_previous(r, rel)
+    if rel.get("changelog"):
+        build_whatsnew(rel, primary)
     for d in PLAY["devices"]:
         devnav = "".join(f'<a href="{u("/play/setup/" + x["id"] + "/")}" {"aria-current=page" if x is d else ""}>{x["name"]}</a>' for x in PLAY["devices"])
         n = len(d["steps"])
@@ -1191,6 +1332,10 @@ def build_search_index():
     for t in PLAY["topics"]:
         add(re.sub(r"<[^>]+>", "", t["title"]), "Play", f"/play/#{t['id']}", t["label"], "save backup update restore link " + t["id"], 3)
     add("Download & Play", "Play", "/play/", "Current release, setup, saving and updating", "download install rom emulator save backup update release version patch discord play project blonde", 5)
+    for r in RELEASES["releases"]:
+        if r["status"] == "released" and r.get("page"):
+            cur = r["version"] == RELEASES["current"]
+            add(f'What’s new in {r["public_version"]}' if cur else f'Version {r["public_version"]}', "Play", r["page"], r["summary"], "release notes changelog version history update sprites portraits before after " + r["public_version"] + " " + r["internal_build"], 4 if cur else 2)
     add("How to update without losing your save", "Play", "/play/#update", "Back up, update, restore, roll back", "update new version save backup restore rollback patch sav", 4)
     idx.extend(legend_page.search_entries())
     idx.extend(dexnav_page.search_entries())

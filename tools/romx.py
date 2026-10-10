@@ -18,12 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "rom"
 B = 0x08000000
 BUILD = {
-    "version": "v105",
-    "public": "v1.0",
-    "folder": "Heart & Soul - Hoenn Dialogue Events v105 Title Version v1.0 and Wattson Line",
-    "rom": "Pokemon - Heart & Soul (Blonde).gba",
-    "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
-    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v105 are binary layers on top of it (v103..v105 change script, text and the title sheet only, no table)
+    "version": "v111",
+    "public": "v1.1",
+    "folder": "../output/project-blonde-v1.1-rc-v111-20261010",            # relative to the game folder: the published release folder, not a qa build folder
+    "rom": "Pokemon - Project Blonde.gba",
+    "sha256": "2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33",
+    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v111 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; no table)
 }
 TRAINER_SZ, MON_SZ, HNS_ROWS = 52, 36, 635
 HO_LEGACY_FIRST, HO_EXT_FIRST = 634, 1152                     # qa/gym-rematch-yes-no-v84/trainer_capacity.h

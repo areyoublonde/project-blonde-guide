@@ -2,6 +2,17 @@
 
 Resume file for the full-site completion task (brief received 2026-10-08). Update after every milestone.
 
+## v1.1 update (2026-10-10)
+
+- **Game baseline: v111 = public v1.1, RELEASED 2026-10-10 on Discord** (`2a3299a0…ac33`). Release facts come from
+  `output/project-blonde-v1.1-rc-v111-20261010/release-information.json` and are held in `content/releases.json` (`current: "1.1"`, method `discord`).
+- Extractors re-run on v111 (`romx`, `worldmap`, `dex`, `availability`, `statics`, `megastones`, `credits`, `pics`, `plates`, `qa_maps --audit`). Result: availability
+  identical (482 entries); `data/rom/world.json` differs only in 273 object graphics ids (the overworld sprite assignments; the new ids have no constant name, so they
+  are numbers); three Alola map images changed (palms); Firebreather trainer picture changed. Nothing else in `data/` changed.
+- New pages: `/play/v1.1/` (What's new: changelog, title screen, before / after gallery, update steps) and `/play/v1.0/` (previous release, with the in-browser
+  patcher, which still makes v1.0 only). Home carries a one-line release notice. `tools/whatsnew.py` builds the gallery and byte-checks every asset against both public ROMs.
+- Not done, owner's call: patches that make v1.1 in the browser (none were created); artist credits for the new sprites (none are stated on the site).
+
 ## Baseline decisions (audit, done)
 
 - **Game baseline: v105 = public v1.0 RELEASE CANDIDATE, NOT USER VERIFIED** (`d76ce7db…513a`, owner instruction 2026-10-09). v105 = v104 + 473 bytes

@@ -1,6 +1,6 @@
 {
- "build": "v105",
- "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+ "build": "v111",
+ "sha256": "2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33",
  "tilesets": [
   {
    "sym": "HoRe_BattleFrontier",
@@ -265,7 +265,7 @@
   {
    "sym": "gTileset_AlolaIsland",
    "tiles": 576,
-   "art": "source=rom"
+   "art": "rom-lz77"
   },
   {
    "sym": "gTileset_AlolaIslandSecondary",
@@ -13525,7 +13525,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -13541,7 +13541,7 @@
     ],
     "flat": 0.001,
     "flat_top": 0.001,
-    "sha": "51cca0770aa0c44e"
+    "sha": "b685b9f02049c6e6"
    }
   },
   "AkalaIsle_hns": {
@@ -13557,7 +13557,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -13589,7 +13589,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -13605,7 +13605,7 @@
     ],
     "flat": 0.0,
     "flat_top": 0.0,
-    "sha": "54ee52b34a91553d"
+    "sha": "18901b70a961488d"
    },
    "problems": [
     "57 blocks reference tiles outside the art"
@@ -13624,7 +13624,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -13656,7 +13656,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -13672,7 +13672,7 @@
     ],
     "flat": 0.0,
     "flat_top": 0.0,
-    "sha": "5415ba5c610c5c25"
+    "sha": "890cf81f9eeb64ee"
    }
   },
   "Melemele_PlayerHouse_hns": {
@@ -14008,7 +14008,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {
@@ -14072,7 +14072,7 @@
    "secondary": "gTileset_AlolaIslandSecondary",
    "version": 2,
    "art": [
-    "source=rom",
+    "rom-lz77",
     "source=rom"
    ],
    "unresolved": {

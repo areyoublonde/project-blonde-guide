@@ -5,7 +5,7 @@ Where every kind of fact comes from. Game root: `../blonde` (read-only; the guid
 ## 1. Order of authority
 
 1. **The completed natural playthrough** — `blonde/qa/natural-run-v100`, `-v101`, `-v102` (blank save to Hoenn credits, postgame and link smoke). Authority for progression order, gates, NPC steps, puzzles and common mistakes.
-2. **The v105 ROM** (`d76ce7db…513a`, public version v1.0 release candidate, not yet owner-verified) — authority for every number and list: teams, encounters, items, shops, maps, species data.
+2. **The v111 ROM** (`2a3299a0…ac33`, public version v1.1, released 2026-10-10; before that v105 = public v1.0, `d76ce7db…513a`) — authority for every number and list: teams, encounters, items, shops, maps, species data.
 3. **The source tree and build layers** — used where the ROM's strings and art were built from them (names, Pokédex text, sprites, event scripts).
 4. **The project's audits** — only for content the run did not play, and labelled as such on the page.
 

@@ -34,7 +34,8 @@ def main():
     base = ap.parse_args().base.rstrip("/")
     pages = {}
     for f in DIST.rglob("index.html"):
-        url = "/" + str(f.parent.relative_to(DIST)).replace(".", "") + "/"
+        rel = str(f.parent.relative_to(DIST))
+        url = "/" + ("" if rel == "." else rel) + "/"       # only the root is "."; a folder may have a dot in its name (/play/v1.1/)
         url = url.replace("//", "/")
         p = P(); p.feed(f.read_text(encoding="utf-8")); pages[url] = p
     bad, n_links, n_src, titles = [], 0, 0, {}

@@ -597,3 +597,22 @@ code{font:400 .86em var(--mono);color:var(--ink-2);word-break:break-all}
 .enc,.enc-list,.enc-row{min-width:0}.enc-row b{min-width:0;overflow-wrap:anywhere}
 .megapage>.q4.three{margin-top:0}.megapage>.q4.three section{padding-top:8px}
 .howh{margin:28px 0 8px;font-size:1.05rem}.howlist li small,.evo small.na{color:var(--ink-3);font-size:.78rem}.evo small.na{display:block;font:400 .62rem var(--mono);letter-spacing:.06em;text-transform:uppercase}.availline{margin-top:18px;max-width:70ch}
+
+/* ---- releases: home news line, version history, the update published with a release */
+.relnews{border-bottom:1px solid var(--hair)}
+.relnews .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:2px 28px;padding-top:10px;padding-bottom:10px}
+.relnews p{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:0;font-size:.94rem;color:var(--ink-2)}.relnews b{font-weight:500;color:var(--ink)}
+.relnews .chip{font:400 .66rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.label.lbl2{margin-top:28px}.sumrow{display:grid;gap:3px}.sumrow+.sumrow{margin-top:10px}.sumrow .m{white-space:normal;text-transform:none;letter-spacing:.02em}
+.link.inl{min-height:32px;margin-left:4px;color:var(--ink);vertical-align:middle}
+.history{display:grid;max-width:940px;margin-top:18px;border-top:1px solid var(--hair-2)}
+.history a{display:grid;grid-template-columns:64px 200px 1fr auto;align-items:center;gap:4px 20px;min-height:64px;padding:14px 0;border-bottom:1px solid var(--hair);text-decoration:none;color:var(--ink-2)}
+.history a:hover{color:var(--ink)}.history b{font-size:1.25rem;font-weight:500;letter-spacing:-.02em;color:var(--ink)}.history svg{width:14px;height:14px}
+.upgrade{margin:var(--s6) 0;padding:28px;border-radius:12px;background:var(--surface);box-shadow:0 0 0 1px var(--hair) inset;scroll-margin-top:calc(var(--head) + 16px)}
+.upgrade h2,.upgrade h3{margin:12px 0 10px}.upgrade h3{font-size:1.4rem}.upgrade .lead,.upgrade .quick{max-width:72ch}.upgrade .quick b{color:var(--ink);font-weight:500}
+.upgrade .label.pick{margin-top:30px}.upg>div{max-width:none}.upg .quick{margin-top:0;border-top:0}.upg .notice{max-width:72ch}.upgrade>.bullets{margin-top:22px}.upgrade>.bullets b{color:var(--ink);font-weight:500}
+.play.prev #get .notice.wide{margin:14px 0 26px}.play.prev .relgrid .actions{margin-top:18px}
+@media (max-width:700px){
+  .history a{grid-template-columns:auto 1fr auto}.history a>span:not(.m){grid-column:1/-1;grid-row:2}
+  .upgrade{padding:20px 16px}
+}

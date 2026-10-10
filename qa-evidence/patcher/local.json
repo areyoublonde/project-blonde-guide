@@ -1,18 +1,18 @@
 {
- "base": "http://localhost:8953",
- "checked": "2026-10-09 20:52",
+ "base": "http://localhost:8911",
+ "checked": "2026-10-10 23:12",
  "passed": 49,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.19,
-  "emerald: download + build + check (s, CPU 6x slower)": 1.16,
+  "emerald: recognise (s, CPU 6x slower)": 0.37,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.49,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1237,
-   1348
+   1063,
+   1267
   ],
-  "emerald: recognise with the plain-JS hash (s)": 0.12,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.44,
-  "v104: update (s)": 0.09,
+  "emerald: recognise with the plain-JS hash (s)": 0.14,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.48,
+  "v104: update (s)": 0.1,
   "v103: update (s)": 0.1
  },
  "results": [
@@ -27,7 +27,7 @@
    "detail": ""
   },
   {
-   "name": "released: no prototype notice, the page says Released and the primary action leads to the patcher",
+   "name": "previous release: no prototype notice, the page names its version as a previous release and points to the current one",
    "ok": true,
    "detail": ""
   },
@@ -252,7 +252,7 @@
    "detail": ""
   },
   {
-   "name": "device guides and the update guide are still on the page",
+   "name": "device guides and the update guide are still on Download & Play",
    "ok": true,
    "detail": ""
   },

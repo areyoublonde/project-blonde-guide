@@ -279,7 +279,8 @@ def main():
 
         # play
         go(c, "/play/")
-        ok("Play: pre-release state with no download control, or the released in-page patcher", c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("!!document.querySelector('#get [data-patcher]')") or c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease" and c.js("document.querySelectorAll('[data-download],[aria-disabled]').length") == 0)
+        ok("Play: pre-release state with no download control, the released in-page patcher, or the official Discord release post", c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("!!document.querySelector('#get [data-patcher]')") or c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease" and c.js("document.querySelectorAll('[data-download],[aria-disabled]').length") == 0
+           or c.js("document.querySelector('.wrap.play').dataset.releaseState") == "discord" and c.js("/^https:\\/\\/discord\\.com\\/channels\\/\\d+\\/\\d+\\/\\d+$/.test(document.querySelector('#get a.btn[data-release-post]').href)"))
         ok("Play: no game file link anywhere on the page", c.js("![...document.querySelectorAll('a')].some(a=>/\\.(gba|zip|bps|ips)(\\?|$)/i.test(a.href))"))
         ok("Play: four devices offered", c.js("document.querySelectorAll('.devices a').length") == 4)
         ok("Play: saving, backup, update, restore, link and troubleshooting are all there", c.js("['release','save','backup','update','rollback','restore','move','link','trouble'].every(i=>!!document.getElementById(i))"))

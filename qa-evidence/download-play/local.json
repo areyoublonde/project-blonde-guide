@@ -1,7 +1,7 @@
 {
- "base": "http://localhost:8953",
- "checked": "2026-10-09 20:54",
- "passed": 130,
+ "base": "http://localhost:8911",
+ "checked": "2026-10-10 23:31",
+ "passed": 184,
  "failed": 0,
  "results": [
   {
@@ -22,7 +22,7 @@
   {
    "name": "[desktop] version and build come from the release record",
    "ok": true,
-   "detail": "v1.0 · build v105"
+   "detail": "v1.1 · build v111"
   },
   {
    "name": "[desktop] status shown is the recorded one",
@@ -40,17 +40,57 @@
    "detail": ""
   },
   {
-   "name": "[desktop] released: status, date and the finished game's checksum come from the release record",
+   "name": "[desktop] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "('2026-10-09', 'Released')"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener']]"
   },
   {
-   "name": "[desktop] released: the primary action leads to the in-page patcher, with one file selector",
+   "name": "[desktop] released: date, game checksum and ZIP checksum come from the release record",
+   "ok": true,
+   "detail": "Pokemon - Project Blonde.gba2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33Pokemon_-_Project_Blonde.zip3736455285dabe5d755cac0e312208745fd966c9bc2161072843a2f0260ecaae"
+  },
+  {
+   "name": "[desktop] released: no link to a game file and no expiring attachment link anywhere on the page",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] released: Get the game has five steps, starting with the server invite",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] released: no link to a complete game file anywhere on the page",
+   "name": "[desktop] changelog: every line of the release's changelog, word for word",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] changelog: every known limitation, word for word, and a link to the gallery",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] changelog: says nothing about the ending, the credits or the habitat project",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] version history lists every public release, current first, each with its date and page",
+   "ok": true,
+   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file.']]"
+  },
+  {
+   "name": "[desktop] update: the release's own save compatibility, five instructions and both emulator guides",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: the Delta guide opens and says what was not tested",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] update: the mGBA guide opens and closes the other",
    "ok": true,
    "detail": ""
   },
@@ -300,9 +340,104 @@
    "detail": ""
   },
   {
+   "name": "[desktop] Home: announces v1.1 with links to what's new and the download",
+   "ok": true,
+   "detail": "['/play/v1.1/', '/play/#get']"
+  },
+  {
+   "name": "[desktop] What's new: reached from Current release",
+   "ok": true,
+   "detail": "/play/v1.1/"
+  },
+  {
+   "name": "[desktop] What's new: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] What's new: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] gallery: 48 overworld, 14 portrait and 2 battle comparisons, each a before and an after",
+   "ok": true,
+   "detail": "[48, 14, 2]"
+  },
+  {
+   "name": "[desktop] gallery: titles and atlas cells match the generated data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] gallery: both atlases load at their recorded native size",
+   "ok": true,
+   "detail": "[[128, 1888], [512, 256]]"
+  },
+  {
+   "name": "[desktop] gallery: every sprite is a whole-number enlargement of the game's pixels with no smoothing",
+   "ok": true,
+   "detail": "['96px', '384px 5664px']"
+  },
+  {
+   "name": "[desktop] gallery: every sprite fits inside its card",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] gallery: the facing switch turns every overworld sprite",
+   "ok": true,
+   "detail": "('0px', '-288px')"
+  },
+  {
+   "name": "[desktop] Alola: both palm screenshots load at native size and are drawn crisp",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] What's new: update steps for Delta and mGBA, known limitations and the release post",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] What's new: says nothing about the ending, the credits or the habitat project",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] What's new: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] What's new: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] v1.0: its own page, with version, date, checksum and a way to the current release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.0: its original download post and its notes are still there",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.0: the in-browser patcher is still offered, for that version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.0: no sideways scroll",
+   "ok": true,
+   "detail": ""
+  },
+  {
    "name": "[desktop] keyboard: Tab reaches the header Discord link and the primary action",
    "ok": true,
-   "detail": "['skip', 'mark', 'A', 'A', 'A', 'A', 'SUMMARY', 'cont', 'BUTTON', 'discord:dc', 'stuck', 'play', 'btn', 'link']"
+   "detail": "['skip', 'mark', 'A', 'A', 'A', 'A', 'SUMMARY', 'cont', 'BUTTON', 'discord:dc', 'stuck', 'play', 'btn dcbtn', 'link']"
   },
   {
    "name": "[desktop] keyboard: Space on a device opens its update steps",
@@ -352,7 +487,7 @@
   {
    "name": "[phone] version and build come from the release record",
    "ok": true,
-   "detail": "v1.0 · build v105"
+   "detail": "v1.1 · build v111"
   },
   {
    "name": "[phone] status shown is the recorded one",
@@ -370,17 +505,57 @@
    "detail": ""
   },
   {
-   "name": "[phone] released: status, date and the finished game's checksum come from the release record",
+   "name": "[phone] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "('2026-10-09', 'Released')"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener']]"
   },
   {
-   "name": "[phone] released: the primary action leads to the in-page patcher, with one file selector",
+   "name": "[phone] released: date, game checksum and ZIP checksum come from the release record",
+   "ok": true,
+   "detail": "Pokemon - Project Blonde.gba2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33Pokemon_-_Project_Blonde.zip3736455285dabe5d755cac0e312208745fd966c9bc2161072843a2f0260ecaae"
+  },
+  {
+   "name": "[phone] released: no link to a game file and no expiring attachment link anywhere on the page",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] released: Get the game has five steps, starting with the server invite",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] released: no link to a complete game file anywhere on the page",
+   "name": "[phone] changelog: every line of the release's changelog, word for word",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] changelog: every known limitation, word for word, and a link to the gallery",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] changelog: says nothing about the ending, the credits or the habitat project",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] version history lists every public release, current first, each with its date and page",
+   "ok": true,
+   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file.']]"
+  },
+  {
+   "name": "[phone] update: the release's own save compatibility, five instructions and both emulator guides",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: the Delta guide opens and says what was not tested",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] update: the mGBA guide opens and closes the other",
    "ok": true,
    "detail": ""
   },
@@ -626,6 +801,101 @@
   },
   {
    "name": "[phone] Home: Get started leads to Download & Play",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] Home: announces v1.1 with links to what's new and the download",
+   "ok": true,
+   "detail": "['/play/v1.1/', '/play/#get']"
+  },
+  {
+   "name": "[phone] What's new: reached from Current release",
+   "ok": true,
+   "detail": "/play/v1.1/"
+  },
+  {
+   "name": "[phone] What's new: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] What's new: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] gallery: 48 overworld, 14 portrait and 2 battle comparisons, each a before and an after",
+   "ok": true,
+   "detail": "[48, 14, 2]"
+  },
+  {
+   "name": "[phone] gallery: titles and atlas cells match the generated data",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] gallery: both atlases load at their recorded native size",
+   "ok": true,
+   "detail": "[[128, 1888], [512, 256]]"
+  },
+  {
+   "name": "[phone] gallery: every sprite is a whole-number enlargement of the game's pixels with no smoothing",
+   "ok": true,
+   "detail": "['64px', '256px 3776px']"
+  },
+  {
+   "name": "[phone] gallery: every sprite fits inside its card",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] gallery: the facing switch turns every overworld sprite",
+   "ok": true,
+   "detail": "('0px', '-192px')"
+  },
+  {
+   "name": "[phone] Alola: both palm screenshots load at native size and are drawn crisp",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] What's new: update steps for Delta and mGBA, known limitations and the release post",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] What's new: says nothing about the ending, the credits or the habitat project",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] What's new: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] What's new: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] v1.0: its own page, with version, date, checksum and a way to the current release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.0: its original download post and its notes are still there",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.0: the in-browser patcher is still offered, for that version",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.0: no sideways scroll",
    "ok": true,
    "detail": ""
   },

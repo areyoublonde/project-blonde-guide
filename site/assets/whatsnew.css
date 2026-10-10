@@ -1,0 +1,29 @@
+/* What's new: before / after gallery. Every sprite is one cell of a native-size atlas, drawn at a whole-number scale (--k, --kf). */
+.wn{--k:3;--kf:2;--stage:#bdb7aa}
+.wn .relhero .label a{color:inherit;text-decoration:none}.wn .relhero .label a:hover{color:var(--ink)}
+.wn .titleart figcaption{margin:0;padding:12px 16px;font:400 .84rem var(--sans);letter-spacing:0;text-transform:none;line-height:1.45;color:var(--ink-2);background:var(--surface)}
+.wn-toc{display:grid;border-top:1px solid var(--hair-2);margin-top:14px;max-width:520px}
+.wn-toc a{display:flex;align-items:baseline;justify-content:space-between;gap:16px;min-height:44px;padding:11px 0;border-bottom:1px solid var(--hair);text-decoration:none;color:var(--ink-2)}
+.wn-toc a:hover{color:var(--ink)}.wn-toc b{font-weight:500;color:var(--ink)}
+.wn-block{margin-top:var(--s6);scroll-margin-top:calc(var(--head) + 16px)}
+.wn-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 20px;margin-bottom:18px}.wn-head h3{margin:0;font-size:1.3rem}.wn-head .seg{margin-left:auto}
+.wn-grid{display:grid;gap:12px;margin:0;padding:0;list-style:none}
+.wn-grid.ow{grid-template-columns:repeat(auto-fill,minmax(252px,1fr))}.wn-grid.fa{grid-template-columns:repeat(auto-fill,minmax(min(100%,318px),1fr))}
+.wn-grid li{display:grid;align-content:start;gap:4px;padding:12px;border-radius:10px;background:var(--surface);box-shadow:0 0 0 1px var(--hair) inset;min-width:0}
+.wn-grid li b{font-weight:500;font-size:.95rem}.wn-grid li .m{white-space:normal}.wn-grid li p{margin:4px 0 0;font-size:.82rem;line-height:1.45;color:var(--ink-3)}
+.wn-pair{display:flex;align-items:flex-end;justify-content:center;gap:10px;padding:14px 4px 12px;margin-bottom:8px;border-radius:7px;background:var(--stage)}
+.wn-pair i{align-self:center;font-style:normal;font-size:.9rem;color:rgba(14,13,12,.5)}
+.wn-pair figure{margin:0;display:grid;justify-items:center;gap:6px}.wn-pair figcaption{color:rgba(14,13,12,.62)}
+.wn-s,.wn-f{display:block;flex:none;background-repeat:no-repeat;image-rendering:pixelated}
+.wn-s{width:calc(32px*var(--k));height:calc(32px*var(--k));background-image:var(--ow);background-size:calc(128px*var(--k)) calc(var(--oh)*1px*var(--k));background-position:calc(-32px*var(--k)*var(--f)) calc(-32px*var(--k)*var(--r))}
+.wn-f{width:calc(64px*var(--kf));height:calc(64px*var(--kf));background-image:var(--fa);background-size:calc(var(--fw)*1px*var(--kf)) calc(var(--fh)*1px*var(--kf));background-position:calc(-64px*var(--kf)*var(--c)) calc(-64px*var(--kf)*var(--r))}
+.wn-shots{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));max-width:976px;margin-top:22px}
+.wn-shots figure{margin:0;display:grid;gap:8px}.wn-shots img{display:block;width:100%;height:auto;border-radius:8px}
+.wn #update .upgrade{margin-top:0}
+@media (max-width:620px){
+  .wn{--k:2}
+  .wn-grid{gap:8px}.wn-grid.ow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .wn-grid.ow li{padding:8px}.wn-grid.ow .wn-pair{gap:4px;padding:10px 0 8px}.wn-grid.ow .wn-pair i{font-size:.7rem}
+  .wn-head .seg{margin-left:0;flex:1 1 100%}
+}
+@media (max-width:359px){.wn{--kf:1}}

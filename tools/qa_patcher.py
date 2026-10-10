@@ -17,6 +17,8 @@ BASE = (sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8951").rstrip("/
 OUT = ROOT / "qa-evidence" / "patcher"
 LABEL = "live" if "github.io" in BASE else "local"
 REG = json.loads((ROOT / "content/patcher.json").read_text(encoding="utf-8")); T = REG["target"]
+_REL = json.loads((ROOT / "content/releases.json").read_text(encoding="utf-8"))
+PAGE = next(("/play/" if r["version"] == _REL["current"] else r["page"]) for r in _REL["releases"] if r["version"] == json.loads((ROOT / "content/patcher.json").read_text(encoding="utf-8"))["release"])   # the page that carries the patcher
 ROMS = json.loads((ROOT / "private/roms.json").read_text(encoding="utf-8"))["roms"]
 BY = {x["id"]: x for x in REG["inputs"]}
 res, perf = [], {}
@@ -61,7 +63,7 @@ def main():
 
     def load(mobile=True):
         c.viewport(390 if mobile else 1440, 844 if mobile else 900, 1, mobile)
-        c.nav(BASE + "/play/"); c.wait("document.readyState==='complete' && " + R + ".dataset.state==='ask'", 20); c.events.clear()
+        c.nav(BASE + PAGE); c.wait("document.readyState==='complete' && " + R + ".dataset.state==='ask'", 20); c.events.clear()
 
     def choose(path):
         doc = c.send("DOM.getDocument"); node = c.send("DOM.querySelector", nodeId=doc["root"]["nodeId"], selector="[data-mk-file]")
@@ -89,7 +91,11 @@ def main():
         ok("one file selector, labelled 'Choose your game file', and no New / Updating choice", c.js("document.querySelector('.mk-pick span').textContent") == "Choose your game file" and c.js("document.querySelectorAll('[data-mk-file]').length") == 1 and c.js("document.querySelectorAll('[data-mk-path]').length") == 0)
         ok("nothing technical is visible before a file is chosen", not vis("[data-mk-found]") and not vis("[data-mk-ready]") and not c.js("document.querySelector('.mk-adv').open") and not c.js("document.querySelector('[data-mk-adv]').checkVisibility()"))
         if REG["enabled"]:
-            ok("released: no prototype notice, the page says Released and the primary action leads to the patcher", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.relhero .actions a.btn').getAttribute('href')") == "#get")
+            if PAGE == "/play/":
+                ok("released: no prototype notice, the page says Released and the primary action leads to the patcher", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.relhero .actions a.btn').getAttribute('href')") == "#get")
+            else:
+                ok("previous release: no prototype notice, the page names its version as a previous release and points to the current one", not vis(".mk-proto") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.wrap.play').dataset.release") == T["public_version"]
+                   and "Previous release" in c.js("document.querySelector('#release').textContent") and c.js("document.querySelector('.phead .actions a.btn').getAttribute('href')").endswith("/play/#get"))
         else:
             ok("the prototype is labelled private and the page still says release candidate, not released", vis(".mk-proto") and "Not released yet" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "prerelease")
         ok("the file selector takes any file (no type filter that could grey out a .gba on iOS)", c.js("document.querySelector('[data-mk-file]').getAttribute('accept')") is None)
@@ -122,7 +128,7 @@ def main():
         for vid in [x["id"] for x in REG["inputs"] if x["kind"] == "release" and x["status"] == "supported"]:
             load(); s1 = choose(ROMS[BY[vid]["rom"]])
             ok(f"{vid}: recognised automatically as an earlier Project Blonde build", s1 == "found" and c.js(R + ".dataset.detected") == vid and c.js("document.querySelector('[data-mk-from]').textContent") == BY[vid]["label"] and c.js("document.querySelector('[data-mk-to]').textContent") == f'Project Blonde {T["public_version"]}')
-            ok(f"{vid}: save-backup reminder shown, with the link to the backup steps and no promise", vis(".mk-found .mk-warn") and "does not update or move your save" in c.js("document.querySelector('.mk-found .mk-warn').textContent") and c.js("!!document.querySelector('.mk-found .mk-warn a[href=\"#update\"]')") and "does not prove that a save will carry over" in c.js("document.querySelector('.mk-save').textContent") and BY[vid]["save"]["note"] in c.js("document.querySelector('.mk-save').textContent"))
+            ok(f"{vid}: save-backup reminder shown, with the link to the backup steps and no promise", vis(".mk-found .mk-warn") and "does not update or move your save" in c.js("document.querySelector('.mk-found .mk-warn').textContent") and c.js("!!document.querySelector('.mk-found .mk-warn a[href$=\"#update\"]')") and "does not prove that a save will carry over" in c.js("document.querySelector('.mk-save').textContent") and BY[vid]["save"]["note"] in c.js("document.querySelector('.mk-save').textContent"))
             ok(f"{vid}: cannot update until the backup box is ticked", c.js("document.querySelector('[data-mk-go]').disabled") and c.js("document.querySelector('[data-mk-go] span').textContent") == "Update my game")
             c.js("document.querySelector('[data-mk-go]').click()"); time.sleep(.3)
             ok(f"{vid}: clicking the disabled button does nothing", st() == "found")
@@ -130,7 +136,7 @@ def main():
             dt, _ = go(); perf[f"{vid}: update (s)"] = dt
             sv = saved() if st() == "ready" else None
             ok(f"{vid}: updated file is the approved release, byte for byte", sv == [T["file_name"], T["size"], T["sha256"]], (st(), sv, msg()))
-            ok(f"{vid}: afterwards explains that the save must be restored separately", vis(".mk-ready .mk-warn") and "starts without one" in c.js("document.querySelector('.mk-ready .mk-warn').textContent") and c.js("!!document.querySelector('.mk-ready .mk-warn a[href=\"#update\"]')"))
+            ok(f"{vid}: afterwards explains that the save must be restored separately", vis(".mk-ready .mk-warn") and "starts without one" in c.js("document.querySelector('.mk-ready .mk-warn').textContent") and c.js("!!document.querySelector('.mk-ready .mk-warn a[href$=\"#update\"]')"))
             ok(f"{vid}: only its own patch was downloaded", [x[:2] for x in reqs()] == [("GET", BY[vid]["patch"]["file"] + ".gz")], reqs())
         snap("phone-ready-update.png")
         load(); choose(ROMS["v104"]); snap("phone-found-update.png")
@@ -177,7 +183,8 @@ def main():
         c.js("document.querySelector('[data-mk-file]').focus()")
         ok("keyboard: the file selector takes focus and shows a focus ring", c.js("document.activeElement===document.querySelector('[data-mk-file]') && getComputedStyle(document.querySelector('.mk-pick')).outlineStyle!=='none'"))
         snap("desktop-found-update.png")
-        ok("device guides and the update guide are still on the page", c.js("document.querySelectorAll('.devices a').length") == 4 and c.js("document.querySelectorAll('#update details.upd').length") == 4)
+        c.nav(BASE + "/play/"); c.wait("document.readyState==='complete'", 20)
+        ok("device guides and the update guide are still on Download & Play", c.js("document.querySelectorAll('.devices a').length") == 4 and c.js("document.querySelectorAll('#update details.upd').length") == 4)
         after = {k: sha(p) for k, p in ROMS.items()}
         ok("no source ROM file was changed by the test", after == before)
     finally:
