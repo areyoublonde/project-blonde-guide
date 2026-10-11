@@ -2,7 +2,7 @@
 
 Player-facing walkthrough and reference site for Pokémon Project Blonde. Static, generated from the game's own data.
 
-**Status:** live at https://areyoublonde.github.io/project-blonde-guide/ (see `DEPLOYMENT-STATUS.md`). Game baseline: **public v1.1 (build v111)**, released 2026-10-10. No game file is hosted here: Download & Play links the official release post on the Project Blonde Discord; v1.0 stays in the version history at `/play/v1.0/` with its in-browser patcher.
+**Status:** live at https://areyoublonde.github.io/project-blonde-guide/ (see `DEPLOYMENT-STATUS.md`). Game baseline: **public v1.2 (build v113)**, released 2026-10-11. No game file is hosted here: Download & Play links the official release post on the Project Blonde Discord; v1.1 stays in the version history at `/play/v1.1/` with its gallery, and v1.0 at `/play/v1.0/` with its in-browser patcher (v1.0 only).
 
 ## Permanent rule: the Pokédex is an availability list
 
@@ -34,7 +34,7 @@ python3 tools/worldmap.py && python3 tools/romx.py && python3 tools/dex.py && py
 
 To move to a newer game build, change the four lines of `BUILD` at the top of `tools/romx.py`; the extractor refuses to run if the ROM hash differs.
 
-A new public release also needs, in this order: the release record in `content/releases.json` (facts copied from the release's own `release-information.json`, never typed from memory; the previous release stays in `releases` with its `page`), the title screenshot `site/assets/game/title/title-<version>.png` (native 240x160), `python3 tools/qa_maps.py --audit` if any map image changed, and, when the release changes artwork, a before / after gallery (`tools/whatsnew.py` → `data/whatsnew-<version>.json` and `site/assets/game/whatsnew/<version>/`, shown at `/play/<version>/`).
+A new public release also needs, in this order: the release record in `content/releases.json` (facts copied from the release's own `release-information.json`, never typed from memory; the previous release stays in `releases` with its `page`), the title screenshot `site/assets/game/title/title-<version>.png` (native 240x160), `python3 tools/qa_maps.py --audit` if any map image changed, and, when the release changes artwork, a before / after gallery (`data/whatsnew-<version>.json` and `site/assets/game/whatsnew/<version>/`, shown at `/play/<version>/`; `tools/whatsnew.py` made the v1.1 character gallery, `tools/whatsnew_towns.py` the v1.2 town gallery). The Discord carries the current release only: when a release is replaced, give its record `post_removed` and remove any link to its post.
 
 ## Read first
 

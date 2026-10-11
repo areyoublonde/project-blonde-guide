@@ -1,5 +1,5 @@
 {
- "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.1 facts are copied from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. No URL, date, checksum or patch detail is invented here.",
+ "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.2 facts are copied from output/project-blonde-v1.2-rc2-20261011/release-information.json and its guides, v1.1 facts from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. The Discord carries the current release only: a previous release keeps its record here with `post_removed` (the day its download post was removed) and its post is never linked. No URL, date, checksum or patch detail is invented here.",
  "distribution": {
   "method": "discord",
   "notes": {
@@ -11,8 +11,124 @@
   }
  },
  "notice": "No game file is hosted on this site. The download is the official release post on the Project Blonde Discord. Your progress lives in a separate save file.",
- "current": "1.1",
+ "current": "1.2",
  "releases": [
+  {
+   "version": "1.2",
+   "public_version": "v1.2",
+   "internal_build": "v113",
+   "method": "discord",
+   "status": "released",
+   "status_short": "Released",
+   "status_label": "public release",
+   "date": "2026-10-11",
+   "page": "/play/v1.2/",
+   "summary": "Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.",
+   "file": {
+    "type": "ZIP with one Game Boy Advance game (.gba)",
+    "size": "18.6 MB download · 32 MB game",
+    "name": "Pokemon - Project Blonde.gba"
+   },
+   "sha256": "7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097",
+   "archive": {
+    "name": "Pokemon_-_Project_Blonde.zip",
+    "bytes": 19524995,
+    "sha256": "21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
+   },
+   "download": {
+    "url": "https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430",
+    "file_name": "Pokemon_-_Project_Blonde.zip"
+   },
+   "patch": {
+    "format": null,
+    "base_game": null,
+    "base_checksum": null,
+    "tool": null,
+    "tool_url": null
+   },
+   "release_notes_url": "/play/v1.2/",
+   "save_compatibility": "No save-format change: v1.2 adds map objects and graphics only. Three saves written by public v1.1 inside Hoenn towns (Oldale, Lilycove and Pacifidlog), and saves from the eight-Badge and Hoenn-champion points of the test playthrough, were continued in v1.2, saved in the game and loaded again after a cold restart with the same party and location. Tested in mGBA; not tested on Delta on a device or on physical hardware.",
+   "save_compatibility_short": "Saves from v1.1 continue with an ordinary Continue. Back up first.",
+   "link_protocol": "PB-LINK-0001",
+   "highlights": [
+    "Hoenn’s 16 towns and cities are alive with 125 ambient Pokémon, on rooftops, in treetops, on the ground and in the water.",
+    "Johto, Kanto and Hoenn in one adventure, on one save file.",
+    "482 Pokémon to find, including 42 regional forms.",
+    "Mega Evolution, the DexNav and Pokémon that follow you.",
+    "Cable-link trading and battles between two copies."
+   ],
+   "changelog": [
+    "Hoenn's towns and cities are now alive with Pokémon: 125 ambient Pokémon across all 16, each chosen for its town.",
+    "They perch on rooftops, treetops and sea rocks, wander lawns, beaches and gardens, and gather in pairs and small groups.",
+    "41 of them can be spoken to and answer with their cry and a line.",
+    "Every Hoenn Gym has its Leader's Pokémon on the roof.",
+    "14 swim in open water in Petalburg, Lilycove, Mossdeep, Sootopolis, Pacifidlog and Ever Grande: Wailmer, Corsola, Luvdisc, Marill and Spheal.",
+    "The title screen now displays v1.2 beneath PRESS START."
+   ],
+   "known_limitations": [
+    "33 of the new Pokémon stand close to a town entrance and can be seen appearing at the moment you walk or Surf into the town. This is cosmetic.",
+    "A save made inside a Hoenn town shows that town as it was until you leave and re-enter it; the new Pokémon are there from then on. Some NPC graphics also remain cached in older saves until the map is re-entered.",
+    "Testing used headless mGBA 0.10.5 and the VBA-M core with disposable save copies. A complete story playthrough, Delta on an iPhone/iPad and physical hardware were not tested for this release candidate.",
+    "Only some Hoenn story scenes could be replayed from the available checkpoint saves; the rest were checked against the map data, not played.",
+    "Six of the new land Pokémon first appear facing down rather than the direction they were designed to face.",
+    "Martin on Route 12 and Jake/Joyce on Route 26 retain inherited off-map placements (unchanged from v1.1).",
+    "Audio was not listened to or captured during these tests."
+   ],
+   "upgrade": {
+    "from": "v1.1",
+    "instructions": [
+     "Back up the old game and its normal in-game save.",
+     "Use the Delta import/export guide or matching mGBA filenames and save path.",
+     "Cold launch and choose CONTINUE; do not transfer an old save state.",
+     "If you saved inside a Hoenn town, leave and re-enter it to see the new Pokémon.",
+     "Verify party, bag, badges, money and location, then save and back up again."
+    ],
+    "facts": [
+     "Use <b>Continue</b> from a cold launch. Do not carry an emulator save state across this update. If you only have a save state, load it in the old version and make a normal in-game save first.",
+     "A save made inside a Hoenn town shows that town as it was in the old version. Leave the town, or enter and leave a building, and the new Pokémon appear. This is how the game stores the map you saved on; nothing is lost.",
+     "The game file is still named <b>Pokemon - Project Blonde.gba</b>. A normal mGBA save uses the matching name <b>Pokemon - Project Blonde.sav</b>. If your files use another name, keep that matching pair on copies; do not rename or overwrite your only backup.",
+     "If <b>Continue</b> is missing, stop and check the imported save or the save path before starting a new game.",
+     "To go back, restore the old game with its own pre-update save backup. Do not rely on a newer save or a save state for downgrading."
+    ],
+    "guides": [
+     {
+      "id": "delta",
+      "name": "iPhone & iPad",
+      "emulator": "Delta",
+      "steps": [
+       "In the old game, use the game’s <b>SAVE</b> command. Return to Delta’s library.",
+       "Long-press the old game: <b>Manage Save File → Export Save File</b>. Save a dated backup in Files. Keep the old game and this backup.",
+       "Download the ZIP from the official Discord downloads post. Extract it in Files. In Delta, tap <b>+</b> and import the extracted <b>Pokemon - Project Blonde.gba</b>.",
+       "Long-press the updated game: <b>Manage Save File → Import Save File</b>. Select a copy of your exported normal save. The changed game may appear as a separate library entry.",
+       "Cold-launch the updated game, check the <b>v1.2</b> label, then choose <b>Continue</b>. Check party, bag, Badges, money and location. If you saved inside a Hoenn town, leave and re-enter it to see the new Pokémon.",
+       "Save inside the game and export a fresh backup. Keep the pre-update backup too."
+      ],
+      "note": "Use the normal save, not an old emulator save state. If Continue is missing, check the save import before starting New Game. A save must be exactly 131,072 bytes for Delta to accept it; a save exported from Delta already is. This procedure was written from Delta’s official controls. v1.2 was started on the VBA-M core that Delta uses, on a computer; it was not tested on an iPhone or iPad."
+     },
+     {
+      "id": "mgba",
+      "name": "Windows & macOS",
+      "emulator": "mGBA",
+      "steps": [
+       "Save inside the old game, then close mGBA. Copy the old <b>.gba</b> and normal <b>.sav</b> into a dated backup folder. Keep that backup unchanged.",
+       "Check <b>mGBA Settings → Paths</b> for your Save games location. By default, saves are beside the game file; a custom path overrides this.",
+       "Download and extract the official Discord ZIP into a new folder. Keep the filename <b>Pokemon - Project Blonde.gba</b>.",
+       "Copy your backed-up normal save into the configured save location with the matching name <b>Pokemon - Project Blonde.sav</b>. If that path already has a save, back it up before replacing it. If you use a custom save path, make sure the backup is outside that active path.",
+       "Open the extracted .gba in mGBA, confirm <b>v1.2</b> on the title, then select <b>Continue</b>. Do not load an old save state. Check party, bag, Badges, money and location. If you saved inside a Hoenn town, leave and re-enter it to see the new Pokémon.",
+       "Save inside the game, close mGBA, reopen and confirm Continue loads your progress. Keep both the old backup and a fresh v1.2 save backup."
+      ],
+      "note": "If your old game file uses a personal name, keep a matching .gba / .sav pair on copies. If Continue is missing, recheck filenames and Settings → Paths before starting New Game. Save migration was tested with the mGBA 0.10.5 engine; the mGBA application window itself was not automated."
+     }
+    ]
+   },
+   "notes": [
+    "Public version <b>v1.2</b>, internal build v113. The title screen shows v1.2.",
+    "Released on 11 October 2026 on the Project Blonde Discord.",
+    "Everything from v1.1 is retained: the character sprite overhaul, portraits, battle artwork, the Alola improvements, the animated Gold and Wigglytuff title, the ending and the credits are unchanged. No gameplay system, encounter table or story event was changed.",
+    "This guide’s data was read again from v1.2: the 125 new town Pokémon are the only difference. Pokémon, encounters, items, Trainers and shops are the same as in v1.1.",
+    "The walkthrough was played to the end on builds v100 to v102. A complete story playthrough was not repeated for v1.2."
+   ]
+  },
   {
    "version": "1.1",
    "public_version": "v1.1",
@@ -122,7 +238,9 @@
     "Released on 10 October 2026 on the Project Blonde Discord.",
     "This guide’s data was read again from v1.1: Pokémon, encounters, items, Trainers and shops are the same as in v1.0.",
     "The walkthrough was played to the end on builds v100 to v102. A complete story playthrough was not repeated for v1.1."
-   ]
+   ],
+   "post_removed": "2026-10-11",
+   "retained": "Everything shown here is still in the game."
   },
   {
    "version": "1.0-rc",
@@ -169,7 +287,7 @@
    "method": "patcher",
    "page": "/play/v1.0/",
    "summary": "The first public release: Johto, Kanto and Hoenn on one save file.",
-   "discord_post": "https://discord.com/channels/1557763721051512932/1557776605844217866/1557778275672129711"
+   "post_removed": "2026-10-10"
   }
  ],
  "fixed": [

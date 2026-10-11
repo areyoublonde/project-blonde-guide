@@ -82588,6 +82588,76 @@
      "tt": 0,
      "trainers": [],
      "item": "Ether"
+    },
+    {
+     "n": 10,
+     "x": 14,
+     "y": 5,
+     "gfx": "16671",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 7,
+     "y": 2,
+     "gfx": "16671",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 16,
+     "y": 26,
+     "gfx": "16671",
+     "script": "0x9fae5de",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 26,
+     "y": 8,
+     "gfx": "16671",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 29,
+     "y": 9,
+     "gfx": "16649",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 15,
+     "x": 13,
+     "y": 21,
+     "gfx": "16664",
+     "script": "0x9fae604",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 16,
+     "x": 6,
+     "y": 25,
+     "gfx": "391",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -83022,6 +83092,96 @@
      "flag": 19,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 36,
+     "x": 32,
+     "y": 53,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 37,
+     "x": 4,
+     "y": 10,
+     "gfx": "16695",
+     "script": "0x9fae714",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 38,
+     "x": 37,
+     "y": 58,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 39,
+     "x": 23,
+     "y": 7,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 40,
+     "x": 13,
+     "y": 7,
+     "gfx": "16696",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 41,
+     "x": 22,
+     "y": 7,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 42,
+     "x": 38,
+     "y": 5,
+     "gfx": "16663",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 43,
+     "x": 27,
+     "y": 58,
+     "gfx": "16725",
+     "script": "0x9fae73e",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 44,
+     "x": 25,
+     "y": 58,
+     "gfx": "16725",
+     "script": "0x9fae73e",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -83305,6 +83465,66 @@
      "tt": 0,
      "trainers": [],
      "item": "X Speed"
+    },
+    {
+     "n": 11,
+     "x": 8,
+     "y": 11,
+     "gfx": "16465",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 22,
+     "y": 17,
+     "gfx": "16693",
+     "script": "0x9fae768",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 3,
+     "y": 2,
+     "gfx": "16693",
+     "script": "0x9fae768",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 7,
+     "y": 2,
+     "gfx": "16484",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 15,
+     "x": 4,
+     "y": 15,
+     "gfx": "16693",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 16,
+     "x": 2,
+     "y": 15,
+     "gfx": "16693",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -83578,6 +83798,166 @@
      "tt": 0,
      "trainers": [],
      "item": "X Defend"
+    },
+    {
+     "n": 17,
+     "x": 2,
+     "y": 7,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 18,
+     "x": 5,
+     "y": 20,
+     "gfx": "16683",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 19,
+     "x": 39,
+     "y": 21,
+     "gfx": "16677",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 20,
+     "x": 24,
+     "y": 41,
+     "gfx": "16684",
+     "script": "0x9fae626",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 21,
+     "x": 32,
+     "y": 16,
+     "gfx": "16683",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 22,
+     "x": 26,
+     "y": 16,
+     "gfx": "16683",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 23,
+     "x": 34,
+     "y": 27,
+     "gfx": "16683",
+     "script": "0x9fae64b",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 24,
+     "x": 26,
+     "y": 11,
+     "gfx": "16683",
+     "script": "0x9fae64b",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 25,
+     "x": 20,
+     "y": 8,
+     "gfx": "16688",
+     "script": "0x9fae66f",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 26,
+     "x": 34,
+     "y": 53,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 28,
+     "x": 37,
+     "y": 23,
+     "gfx": "16677",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 29,
+     "x": 2,
+     "y": 36,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 30,
+     "x": 3,
+     "y": 31,
+     "gfx": "16688",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 31,
+     "x": 2,
+     "y": 31,
+     "gfx": "16688",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 32,
+     "x": 35,
+     "y": 52,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 33,
+     "x": 37,
+     "y": 24,
+     "gfx": "16677",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -83876,6 +84256,86 @@
      "gfx": "KECLEON",
      "script": "HoC1_FortreeCity_EventScript_Kecleon",
      "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 20,
+     "y": 17,
+     "gfx": "16741",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 13,
+     "y": 1,
+     "gfx": "16717",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 10,
+     "y": 10,
+     "gfx": "16717",
+     "script": "0x9fae853",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 37,
+     "y": 8,
+     "gfx": "16717",
+     "script": "0x9fae853",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 21,
+     "y": 8,
+     "gfx": "16717",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 8,
+     "y": 6,
+     "gfx": "16736",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 29,
+     "y": 8,
+     "gfx": "16736",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 15,
+     "x": 3,
+     "y": 4,
+     "gfx": "16741",
+     "script": null,
+     "flag": null,
      "tt": 0,
      "trainers": []
     }
@@ -84225,6 +84685,146 @@
      "tt": 0,
      "trainers": [],
      "item": "Max Repel"
+    },
+    {
+     "n": 23,
+     "x": 36,
+     "y": 4,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 24,
+     "x": 48,
+     "y": 18,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 25,
+     "x": 61,
+     "y": 4,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 26,
+     "x": 63,
+     "y": 21,
+     "gfx": "16682",
+     "script": "0x9fae876",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 27,
+     "x": 40,
+     "y": 17,
+     "gfx": "16684",
+     "script": "0x9fae89d",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 28,
+     "x": 54,
+     "y": 18,
+     "gfx": "16682",
+     "script": "0x9fae876",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 29,
+     "x": 25,
+     "y": 26,
+     "gfx": "16684",
+     "script": "0x9fae89d",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 30,
+     "x": 51,
+     "y": 15,
+     "gfx": "16682",
+     "script": "0x9fae876",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 31,
+     "x": 20,
+     "y": 4,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 32,
+     "x": 19,
+     "y": 4,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 33,
+     "x": 47,
+     "y": 17,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 34,
+     "x": 24,
+     "y": 39,
+     "gfx": "388",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 35,
+     "x": 67,
+     "y": 11,
+     "gfx": "388",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 36,
+     "x": 69,
+     "y": 13,
+     "gfx": "388",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -84589,6 +85189,136 @@
      "tt": 0,
      "trainers": [],
      "item": "Net Ball"
+    },
+    {
+     "n": 17,
+     "x": 4,
+     "y": 23,
+     "gfx": "16722",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 18,
+     "x": 53,
+     "y": 1,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 19,
+     "x": 5,
+     "y": 28,
+     "gfx": "16722",
+     "script": "0x9fae8c4",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 20,
+     "x": 36,
+     "y": 6,
+     "gfx": "16722",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 21,
+     "x": 39,
+     "y": 6,
+     "gfx": "16721",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 22,
+     "x": 33,
+     "y": 22,
+     "gfx": "16722",
+     "script": "0x9fae8c4",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 23,
+     "x": 41,
+     "y": 32,
+     "gfx": "16758",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 24,
+     "x": 49,
+     "y": 4,
+     "gfx": "16721",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 25,
+     "x": 36,
+     "y": 33,
+     "gfx": "16758",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 26,
+     "x": 5,
+     "y": 3,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 27,
+     "x": 6,
+     "y": 2,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 28,
+     "x": 35,
+     "y": 32,
+     "gfx": "16758",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 29,
+     "x": 6,
+     "y": 11,
+     "gfx": "392",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -84954,6 +85684,66 @@
      "flag": 29,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 19,
+     "x": 45,
+     "y": 42,
+     "gfx": "16654",
+     "script": "0x9fae8eb",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 20,
+     "x": 30,
+     "y": 29,
+     "gfx": "16747",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 21,
+     "x": 12,
+     "y": 45,
+     "gfx": "16657",
+     "script": "0x9fae912",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 22,
+     "x": 44,
+     "y": 41,
+     "gfx": "16657",
+     "script": "0x9fae912",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 23,
+     "x": 27,
+     "y": 40,
+     "gfx": "390",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 24,
+     "x": 21,
+     "y": 41,
+     "gfx": "390",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -85097,7 +85887,108 @@
    }
   ],
   "events": {
-   "objects": [],
+   "objects": [
+    {
+     "n": 1,
+     "x": 10,
+     "y": 12,
+     "gfx": "16699",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 2,
+     "x": 28,
+     "y": 10,
+     "gfx": "16699",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 3,
+     "x": 21,
+     "y": 77,
+     "gfx": "16718",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 25,
+     "y": 53,
+     "gfx": "16699",
+     "script": "0x9fae939",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 25,
+     "y": 7,
+     "gfx": "16718",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 31,
+     "y": 32,
+     "gfx": "16699",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 11,
+     "y": 6,
+     "gfx": "16718",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 6,
+     "y": 77,
+     "gfx": "16718",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 26,
+     "y": 6,
+     "gfx": "16718",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 35,
+     "y": 77,
+     "gfx": "390",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    }
+   ],
    "warps": [
     {
      "n": 0,
@@ -85296,6 +86187,56 @@
      "flag": 25,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 2,
+     "y": 13,
+     "gfx": "16647",
+     "script": "0x9fae586",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 15,
+     "y": 1,
+     "gfx": "16649",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 18,
+     "y": 7,
+     "gfx": "16645",
+     "script": "0x9fae5b3",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 9,
+     "y": 18,
+     "gfx": "16647",
+     "script": "0x9fae586",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 11,
+     "y": 18,
+     "gfx": "16647",
+     "script": "0x9fae586",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -85411,6 +86352,46 @@
      "y": 9,
      "gfx": "10279",
      "script": "HoRe_OldaleTown_Talk_3",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 1,
+     "y": 7,
+     "gfx": "16649",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 11,
+     "y": 12,
+     "gfx": "16647",
+     "script": "0x9fae3c6",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 2,
+     "y": 17,
+     "gfx": "16650",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 18,
+     "y": 12,
+     "gfx": "16652",
+     "script": null,
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -85543,6 +86524,66 @@
      "gfx": "10328",
      "script": null,
      "flag": 19,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 9,
+     "y": 6,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 10,
+     "y": 12,
+     "gfx": "16680",
+     "script": "0x9fae698",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 7,
+     "y": 14,
+     "gfx": "16450",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 3,
+     "y": 16,
+     "gfx": "16680",
+     "script": "0x9fae698",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 4,
+     "y": 16,
+     "gfx": "16450",
+     "script": "0x9fae6c2",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 2,
+     "y": 13,
+     "gfx": "16691",
+     "script": "0x9fae6e8",
+     "flag": null,
      "tt": 0,
      "trainers": []
     }
@@ -85729,6 +86770,36 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 7,
+     "y": 10,
+     "gfx": "16706",
+     "script": "0x9fae82d",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 12,
+     "y": 4,
+     "gfx": "16708",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 5,
+     "y": 12,
+     "gfx": "16602",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -85895,6 +86966,56 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 2,
+     "y": 18,
+     "gfx": "16711",
+     "script": "0x9fae7e1",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 17,
+     "y": 3,
+     "gfx": "16611",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 17,
+     "y": 17,
+     "gfx": "16602",
+     "script": "0x9fae808",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 18,
+     "y": 4,
+     "gfx": "16611",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 16,
+     "y": 11,
+     "gfx": "16711",
+     "script": "0x9fae7e1",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -86049,6 +87170,56 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 5,
+     "y": 13,
+     "gfx": "16699",
+     "script": "0x9fae790",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 9,
+     "y": 4,
+     "gfx": "16677",
+     "script": "0x9fae7b6",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 8,
+     "y": 16,
+     "gfx": "16699",
+     "script": "0x9fae790",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 7,
+     "y": 18,
+     "gfx": "16684",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 6,
+     "y": 14,
+     "gfx": "16699",
+     "script": "0x9fae790",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -86200,6 +87371,86 @@
      "y": 16,
      "gfx": "10245",
      "script": "HoC1_PacifidlogTown_EventScript_NinjaBoy",
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 2,
+     "y": 11,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 18,
+     "y": 9,
+     "gfx": "16662",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 10,
+     "y": 10,
+     "gfx": "388",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 15,
+     "y": 9,
+     "gfx": "389",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 16,
+     "y": 9,
+     "gfx": "389",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 10,
+     "y": 19,
+     "gfx": "389",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 11,
+     "y": 20,
+     "gfx": "389",
+     "script": null,
+     "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 9,
+     "y": 29,
+     "gfx": "389",
+     "script": null,
      "flag": null,
      "tt": 0,
      "trainers": []

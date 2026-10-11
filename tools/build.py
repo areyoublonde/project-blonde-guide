@@ -1045,7 +1045,8 @@ def build_previous(r, cur):
     state, pv = release_state(r), esc(r["public_version"])
     rows = [("Version", f'{pv} <span class="muted">· build {esc(r["internal_build"])}</span>'), ("Status", f'Previous release · replaced by {esc(cur["public_version"])}'), ("Released", esc(r["date"])),
             ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'), ("SHA-256", f'<code class="sum">{esc(r["sha256"])}</code>')] + ([("In-browser patcher", f'{pv} only. It does not make {esc(cur["public_version"])}.')] if state == "patcher" else []) + [("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
-    post = (f'<p class="lead">The original {pv} download post is still on the Project Blonde Discord.</p><div class="actions">{release_post(r, "btn ghost dcbtn", pv + " download post", r["discord_post"])}</div>' if r.get("discord_post") else "")
+    post = (f'<p class="lead">The original {pv} download post is still on the Project Blonde Discord.</p><div class="actions">{release_post(r, "btn ghost dcbtn", pv + " download post", r["discord_post"])}</div>' if r.get("discord_post") else
+            f'<p class="notice gone">The {pv} download post is no longer on the Project Blonde Discord, which carries the current release only.</p>' if r.get("post_removed") else "")
     make = (f'<section id="get"><p class="label">In-browser patcher · {pv} only</p><h2>Make {pv} from your own game file</h2>'
             f'<p class="notice wide only"><b>{pv} only.</b> This patcher makes Project Blonde {pv}. It does not make {esc(cur["public_version"])} and cannot update a game to {esc(cur["public_version"])}: '
             f'<a href="{u("/play/")}#get">get {esc(cur["public_version"])} from its release post</a>. It builds {pv} on your device from your own copy of the base game, or from a supported earlier build.</p><div class="getbody">{patcher_html(r)}</div></section>' if state == "patcher" else "")
@@ -1061,11 +1062,49 @@ def build_previous(r, cur):
     write(r["page"], layout(f"Version {r['public_version']}", body, desc=f"Pokémon Project Blonde {r['public_version']}, a previous public release: release record, checksum and notes.", path="/play/", dock="none"))
 
 
-def build_whatsnew(rel, primary):
-    """What's new: the release's changelog with the before / after gallery (data/whatsnew-<version>.json, tools/whatsnew.py)."""
-    pv = esc(rel["public_version"])
+def previous_record(r, cur):
+    """The release record a previous release keeps on its What's new page."""
+    pv, cv, ar = esc(r["public_version"]), esc(cur["public_version"]), r["archive"]
+    rows = [("Version", f'{pv} <span class="muted">· build {esc(r["internal_build"])}</span>'), ("Status", f'Previous release · replaced by {cv}'), ("Released", esc(r["date"])),
+            ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'),
+            ("SHA-256", f'<span class="sumrow"><span class="m">{esc(r["file"]["name"])}</span><code class="sum">{esc(r["sha256"])}</code></span><span class="sumrow"><span class="m">{esc(ar["name"])}</span><code class="sum">{esc(ar["sha256"])}</code></span>'),
+            ("Download", f'No longer offered. <a href="{u("/play/")}#get">Get {cv}</a>'), ("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
+    gone = f'<p class="notice gone">The {pv} download post is no longer on the Project Blonde Discord, which carries the current release only.</p>' if r.get("post_removed") else ""
+    return (f'<section id="release" class="relgrid"><div><p class="label">Previous release</p><h2>What {pv} was</h2><ul class="plain bullets">{"".join(f"<li>{n}</li>" for n in r["notes"])}</ul>'
+            f'<p class="muted">{esc(r["save_compatibility"])}</p>{gone}</div><dl class="kv wide release">{"".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in rows)}</dl></section>')
+
+
+def whatsnew_head(rel, cur, G, primary, see, caption):
+    """The header every What's new page shares: release line, lead, primary action and the title screenshot."""
+    pv, old, prev = esc(rel["public_version"]), esc(G["before"]["public"]), rel is not cur
+    chip = '<span class="chip">Previous release</span>' if prev else f'<span class="chip ok">{esc(rel["status_short"])}</span>'
+    lead = esc(rel["summary"]) + " " + caption + (f' The current release is {esc(cur["public_version"])}.' + (" " + esc(rel["retained"]) if rel.get("retained") else "") if prev else "")
+    return f"""<header class="relhero"><div><p class="label accent"><a href="{u("/play/")}">Download &amp; Play</a> · {"Version history" if prev else "Release notes"}</p><h1>{"What was new" if prev else "What’s new"} in {pv}</h1>
+   <p class="relline"><b>{pv}</b>{chip}<span>{esc(rel["date"])}</span></p>
+   <p class="lead">{lead}</p>
+   <div class="actions">{primary}<a class="link" href="#gallery">{see}{ARROW}</a></div></div>
+  <figure class="titleart"><img class="px" src="{u("/assets/game/title/title-" + rel["public_version"] + ".png")}" width="240" height="160" alt="The Project Blonde title screen: Gold and Wigglytuff on the road, with {pv} under PRESS START">
+   <figcaption>{f"The {pv} title screen shows" if prev else "The title screen now shows"} {pv} beneath PRESS START. The Gold and Wigglytuff artwork and its animation are the same as in {old}.</figcaption></figure></header>"""
+
+
+def whatsnew_foot(rel, cur, primary):
+    """Update steps (current release) or the release record (previous release), then known limitations and the way to the current download."""
+    pv, cv, prev = esc(rel["public_version"]), esc(cur["public_version"]), rel is not cur
+    mid = previous_record(rel, cur) if prev else f'<section id="update">{upgrade_html(rel, "h2")}<p><a class="link" href="{u("/play/")}#update">The full update guide, with every device{ARROW}</a></p></section>'
+    return f"""{mid}
+ <section id="known" class="entry-cols"><div><p class="label">Known limitations{" in " + pv if prev else ""}</p><h2>What was not tested</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["known_limitations"])}</ul></div>
+  <div><p class="label">Get {cv}</p><h2>Download</h2><p class="lead">{esc(RELEASES["distribution"]["notes"]["discord"])}</p><div class="actions">{primary}<a class="link" href="{u("/play/")}#get">How to get the game{ARROW}</a></div></div></section>"""
+
+
+def build_whatsnew(rel, cur, primary):
+    """What's new: the release's changelog with its before / after gallery (data/whatsnew-<version>.json). A previous release keeps this page as its entry in the version history."""
+    pv, prev = esc(rel["public_version"]), rel is not cur
     G = J(DATA / f"whatsnew-{rel['public_version']}.json")
-    assert G["after"]["sha256"] == rel["sha256"] == BUILD["build"]["sha256"], "the before / after gallery was not generated for this release: run tools/whatsnew.py"
+    assert G["after"]["sha256"] == rel["sha256"] and (prev or rel["sha256"] == BUILD["build"]["sha256"]), "the before / after gallery was not generated for this release: run tools/whatsnew.py"
+    if prev:
+        assert release_state(rel) == "discord" and rel.get("post_removed") and not rel.get("discord_post"), "a previous Discord release must record that its download post was removed"
+    if G.get("kind") == "towns":
+        return build_whatsnew_towns(rel, cur, primary, G)
     art = "/assets/game/whatsnew/" + rel["public_version"] + "/"
     O, F = G["atlas"]["overworld"], G["atlas"]["faces"]
     old, by = esc(G["before"]["public"]), lambda k: [c for c in G["comparisons"] if c["kind"] == k]
@@ -1082,18 +1121,14 @@ def build_whatsnew(rel, primary):
     assert n["assignments"]["portrait"] + idn["assignments"] == n["release_assignments"]["portrait"] and all(n["assignments"][k] == n["release_assignments"][k] for k in ("overworld", "battle"))
     pnote = (f'<p class="wn-note">The release contains {n["release_assignments"]["portrait"]} portrait assignments. {n["assignments"]["portrait"]} of them look different in {pv} and are shown here, grouped into {n["portrait"]} comparisons '
              f'because several characters share a portrait. The other {idn["assignments"]} ({esc(", ".join(idn["names"]))}) are pixel-identical in {old} and {pv}, so there is nothing to compare.</p>')
+    last = (f'<a href="#release"><b>Release record</b><span class="m">Checksums</span></a>' if prev else f'<a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA</span></a>')
     body = f"""
-<div class="wrap play wn" data-release="{pv}" style="--ow:url('{u(art + O["file"])}');--oh:{O["h"]};--fa:url('{u(art + F["file"])}');--fw:{F["w"]};--fh:{F["h"]}">
+<div class="wrap play wn" data-release="{pv}" data-release-role="{"previous" if prev else "current"}" style="--ow:url('{u(art + O["file"])}');--oh:{O["h"]};--fa:url('{u(art + F["file"])}');--fw:{F["w"]};--fh:{F["h"]}">
  <link rel="stylesheet" href="{u("/assets/whatsnew.css")}">
- <header class="relhero"><div><p class="label accent"><a href="{u("/play/")}">Download &amp; Play</a> · Release notes</p><h1>What’s new in {pv}</h1>
-   <p class="relline"><b>{pv}</b><span class="chip ok">{esc(rel["status_short"])}</span><span>{esc(rel["date"])}</span></p>
-   <p class="lead">{esc(rel["summary"])} Every comparison below is the game’s own artwork, read from the {old} and {pv} game files.</p>
-   <div class="actions">{primary}<a class="link" href="#gallery">See the sprites{ARROW}</a></div></div>
-  <figure class="titleart"><img class="px" src="{u("/assets/game/title/title-" + rel["public_version"] + ".png")}" width="240" height="160" alt="The Project Blonde title screen: Gold and Wigglytuff on the road, with {pv} under PRESS START">
-   <figcaption>The title screen now shows {pv} beneath PRESS START. The Gold and Wigglytuff artwork and its animation are the same as in {old}.</figcaption></figure></header>
+ {whatsnew_head(rel, cur, G, primary, "See the sprites", f"Every comparison below is the game’s own artwork, read from the {old} and {pv} game files.")}
  <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul></div>
   <div><p class="label">On this page</p><nav class="wn-toc"><a href="#overworld"><b>Overworld sprites</b><span class="m">{n["overworld"]} comparisons</span></a><a href="#portraits"><b>Dialogue portraits</b><span class="m">{n["assignments"]["portrait"]} of {n["release_assignments"]["portrait"]} changed</span></a>
-   <a href="#battle"><b>Battle artwork</b><span class="m">Lass · Firebreather</span></a><a href="#alola"><b>Alola</b><span class="m">Palm trees</span></a><a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA</span></a></nav></div></section>
+   <a href="#battle"><b>Battle artwork</b><span class="m">Lass · Firebreather</span></a><a href="#alola"><b>Alola</b><span class="m">Palm trees</span></a>{last}</nav></div></section>
  <section id="gallery"><p class="label">Before and after</p><h2>Characters, {old} and {pv}</h2>
   <p class="lead">In every pair, {old} is on the left and {pv} is on the right. Each picture is drawn at a whole-number scale of the game’s own pixels.</p>
   <div id="overworld" class="wn-block"><div class="wn-head"><h3>Overworld sprites</h3><p class="m">{n["overworld"]} comparisons · {n["assignments"]["overworld"]} characters</p><div class="seg" role="group" aria-label="Facing" data-wn-seg>{seg}</div></div>
@@ -1106,12 +1141,43 @@ def build_whatsnew(rel, primary):
  <section id="alola"><p class="label">Alola</p><h2>Palm trees</h2><p class="lead">The same corner of Melemele Isle, drawn from each version’s own map data. Alola’s DexNav grass animation also gained a pulsing glint.</p>
   <div class="wn-shots"><figure><img class="px" src="{u(art + "palms-" + G["before"]["public"] + ".png")}" width="240" height="160" loading="lazy" alt="Melemele Isle in {old}: the earlier palm trees"><figcaption class="m">{old}</figcaption></figure>
    <figure><img class="px" src="{u(art + "palms-" + rel["public_version"] + ".png")}" width="240" height="160" loading="lazy" alt="Melemele Isle in {pv}: the refreshed palm trees"><figcaption class="m">{pv}</figcaption></figure></div></section>
- <section id="update">{upgrade_html(rel, "h2")}<p><a class="link" href="{u("/play/")}#update">The full update guide, with every device{ARROW}</a></p></section>
- <section id="known" class="entry-cols"><div><p class="label">Known limitations</p><h2>What was not tested</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["known_limitations"])}</ul></div>
-  <div><p class="label">Get {pv}</p><h2>Download</h2><p class="lead">{esc(RELEASES["distribution"]["notes"]["discord"])}</p><div class="actions">{primary}<a class="link" href="{u("/play/")}#get">How to get the game{ARROW}</a></div></div></section>
+ {whatsnew_foot(rel, cur, primary)}
 </div>
 <script src="{u("/assets/whatsnew.js")}" defer></script>"""
-    write(rel["page"], layout(f"What’s new in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: the changelog, before and after character sprites, dialogue portraits and battle artwork, and how to update from {G['before']['public']}.", path="/play/", dock="none"))
+    write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: the changelog, before and after character sprites, dialogue portraits and battle artwork" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
+
+
+def build_whatsnew_towns(rel, cur, primary, G):
+    """What's new, town gallery: the same spot of a town in the previous release and in this one (data from tools/whatsnew_towns.py)."""
+    pv, old, prev, n = esc(rel["public_version"]), esc(G["before"]["public"]), rel is not cur, G["counts"]
+    art = "/assets/game/whatsnew/" + rel["public_version"] + "/"
+    assert sum(t["count"] for t in G["towns"]) == n["total"] and len(G["towns"]) == n["towns"] and all(f'{n[k]} ' in " ".join(rel["changelog"]) for k in ("total", "talkers", "swimmers")), "the town gallery and the changelog disagree"
+    shot = lambda s, side, v: (f'<figure><img class="px" src="{u(art + s[side])}" width="240" height="160" loading="lazy" alt="{esc(s["town"])} in {v}{": " + esc(s["caption"]) if side == "after" else ", before the town Pokémon"}">'
+                               f'<figcaption class="m">{v}</figcaption></figure>')
+    card = lambda s: f'<li data-shot="{s["id"]}"><div class="wn-two">{shot(s, "before", old)}{shot(s, "after", pv)}</div><b>{maplink(s["map"])}</b><p>{esc(s["caption"])}</p></li>'
+    blocks = "".join(f'<div id="{g["id"]}" class="wn-block"><div class="wn-head"><h3>{esc(g["title"])}</h3><p class="m">{esc(g["text"])}</p></div>'
+                     f'<ul class="wn-grid tw">{"".join(card(s) for s in G["shots"] if s["group"] == g["id"])}</ul></div>' for g in G["groups"])
+    toc = "".join(f'<a href="#{g["id"]}"><b>{esc(g["title"])}</b><span class="m">{sum(s["group"] == g["id"] for s in G["shots"])} towns</span></a>' for g in G["groups"])
+    stats = "".join(f'<div><dt>{esc(k)}</dt><dd>{v}</dd></div>' for k, v in (("Ambient Pokémon", n["total"]), ("Towns and cities", n["towns"]), ("Answer when spoken to", n["talkers"]), ("Swim in open water", n["swimmers"])))
+    who = lambda t: ", ".join(esc(s) + (f" ×{c}" if c > 1 else "") for s, c in t["species"])
+    rows = "".join(f'<tr data-town="{t["map"]}"><td data-l="">{maplink(t["map"])}</td><td data-l="New">{t["count"]}</td><td data-l="Who">{who(t)}</td><td data-l="Talk">{t["talk"] or "–"}</td><td data-l="Swim">{t["swim"] or "–"}</td></tr>' for t in G["towns"])
+    last = (f'<a href="#release"><b>Release record</b><span class="m">Checksums</span></a>' if prev else f'<a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA</span></a>')
+    body = f"""
+<div class="wrap play wn" data-release="{pv}" data-release-role="{"previous" if prev else "current"}">
+ <link rel="stylesheet" href="{u("/assets/whatsnew.css")}">
+ {whatsnew_head(rel, cur, G, primary, "See the towns", f"Every pair below was taken in the game from the same spot: {old} first, then {pv}.")}
+ <dl class="wn-stats">{stats}</dl>
+ <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul></div>
+  <div><p class="label">On this page</p><nav class="wn-toc">{toc}<a href="#towns"><b>Town by town</b><span class="m">{n["towns"]} towns · {n["total"]} Pokémon</span></a>{last}</nav></div></section>
+ <section id="gallery"><p class="label">Before and after</p><h2>Hoenn’s towns, {old} and {pv}</h2>
+  <p class="lead">Each pair shows one spot in a Hoenn town: {old} above, {pv} below. The screenshots are the game’s own picture, with nothing added.</p>
+  {blocks}
+ </section>
+ <section id="towns"><p class="label">Town by town</p><h2>Who moved in where</h2><p class="lead">All {n["total"]} Pokémon, counted from the {pv} game file: {n["species"]} species across {n["towns"]} towns and cities.</p>
+  <table class="tbl wn-towns"><thead><tr><th>Town</th><th>New Pokémon</th><th>Who lives there</th><th>Answer when spoken to</th><th>Swimming</th></tr></thead><tbody>{rows}</tbody></table></section>
+ {whatsnew_foot(rel, cur, primary)}
+</div>"""
+    write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: {n['total']} ambient Pokémon in Hoenn’s {n['towns']} towns and cities, on rooftops, in treetops, on the ground and in the water. Changelog, before and after screenshots" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
 
 
 def build_play():
@@ -1240,9 +1306,12 @@ def build_play():
     write("/play/", layout("Download & Play", body, desc="Download and play Pokémon Project Blonde on iPhone, Android, Windows or Mac: current release, emulator setup, saving, and updating without losing your save.", path="/play/", dock="none"))
     for r in RELEASES["releases"]:
         if r is not rel and r["status"] == "released" and r.get("page"):
-            build_previous(r, rel)
+            if r.get("changelog"):      # it was released with a What's new page: that page stays, as its entry in the version history
+                build_whatsnew(r, rel, primary)
+            else:
+                build_previous(r, rel)
     if rel.get("changelog"):
-        build_whatsnew(rel, primary)
+        build_whatsnew(rel, rel, primary)
     for d in PLAY["devices"]:
         devnav = "".join(f'<a href="{u("/play/setup/" + x["id"] + "/")}" {"aria-current=page" if x is d else ""}>{x["name"]}</a>' for x in PLAY["devices"])
         n = len(d["steps"])

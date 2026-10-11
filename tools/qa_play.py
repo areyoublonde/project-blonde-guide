@@ -87,7 +87,10 @@ def run(c, mobile):
         cl = txt("#changelog")
         ok(f"[{tag}] changelog: every line of the release's changelog, word for word", all(x in cl for x in REL["changelog"]), [x for x in REL["changelog"] if x not in cl])
         ok(f"[{tag}] changelog: every known limitation, word for word, and a link to the gallery", all(x in cl for x in REL["known_limitations"]) and c.js("!!document.querySelector('#changelog a[href$=\"" + REL["page"] + "\"]')"))
-        ok(f"[{tag}] changelog: says nothing about the ending, the credits or the habitat project", not any(w in (cl + txt("#release")).lower() for w in ("credits", "ending", "habitat")))
+        if REL["public_version"] == "v1.1":      # a v1.1 rule: that release did not touch them, and the town Pokémon were not public yet
+            ok(f"[{tag}] changelog: says nothing about the ending, the credits or the habitat project", not any(w in (cl + txt("#release")).lower() for w in ("credits", "ending", "habitat")))
+        else:
+            ok(f"[{tag}] changelog: the listed changes are the release's own, in order", c.js("[...document.querySelectorAll('#changelog > div:first-child > ul:first-of-type li')].map(l=>l.textContent)") == REL["changelog"])
         hist = c.js("[...document.querySelectorAll('#history .history a')].map(a=>[a.querySelector('b').textContent,a.getAttribute('href'),a.textContent])")
         want = [r for r in REL_ALL["releases"] if r["status"] == "released"]
         ok(f"[{tag}] version history lists every public release, current first, each with its date and page", [h[0] for h in hist] == [r["public_version"] for r in want] and all(r["date"] in h[2] and h[1].endswith(r["page"]) for r, h in zip(want, hist))
@@ -155,13 +158,21 @@ def run(c, mobile):
     ok(f"[{tag}] Home: Get started leads to Download & Play", c.js("!!document.querySelector('.hero a.btn[href$=\"/play/\"]')"))
 
     if PUBLIC and REL.get("changelog"):
-        whatsnew(c, tag)
+        whatsnew(c, tag, REL)
+    go(c, "/play/")
+    hist = c.js("[...document.querySelectorAll('#history .history a')].map(a=>[a.getAttribute('href'),a.querySelector('b').textContent,a.querySelector('.m').textContent])")
+    rels = [r for r in REL_ALL["releases"] if r["status"] == "released" and r.get("page")]
+    ok(f"[{tag}] Download & Play: version history lists every public release, newest first, the current one marked", [(h[1], h[2]) for h in hist] == [(r["public_version"], ("Current" if r is REL else "Previous") + " · " + r["date"]) for r in rels]
+       and all(h[0].endswith(r["page"]) for h, r in zip(hist, rels)), hist)
     for r in REL_ALL["releases"]:
-        if r is not REL and r["status"] == "released" and r.get("page"):
+        if r is not REL and r["status"] == "released" and r.get("page") and r.get("changelog"):
+            whatsnew(c, tag, r)
+        elif r is not REL and r["status"] == "released" and r.get("page"):
             go(c, r["page"])
             ok(f"[{tag}] {r['public_version']}: its own page, with version, date, checksum and a way to the current release", r["public_version"] in txt("h1") and r["sha256"] in txt("#release") and r["date"] in txt("#release")
                and c.js("document.querySelector('.phead .actions a.btn').getAttribute('href')").endswith("/play/#get") and REL["public_version"] in txt(".phead .actions a.btn"))
-            ok(f"[{tag}] {r['public_version']}: its original download post and its notes are still there", c.js("(a=>a&&a.href)(document.querySelector('#release a[data-release-post]'))") == r.get("discord_post") and all(a in txt("#notes") for a, _ in REL_ALL["fixed"]))
+            ok(f"[{tag}] {r['public_version']}: its notes are still there, and its removed download post is not linked", all(a in txt("#notes") for a, _ in REL_ALL["fixed"]) and c.js("(a=>a&&a.href)(document.querySelector('#release a[data-release-post]'))") == r.get("discord_post")
+               and (not r.get("post_removed") or "no longer on the Project Blonde Discord" in txt("#release .notice.gone") and c.js("document.querySelectorAll('a[data-release-post]').length") == 0))
             ok(f"[{tag}] {r['public_version']}: the in-browser patcher is still offered, for that version", r.get("method") != "patcher" or c.js("document.querySelectorAll('#get [data-patcher] [data-mk-file]').length") == 1 and r["public_version"] in txt("#get .lead"))
             if r.get("method") == "patcher":
                 only, cur = r["public_version"] + " only", REL["public_version"]
@@ -206,19 +217,74 @@ def run(c, mobile):
     c.js("window.scrollTo(0,0)"); time.sleep(.2); c.shot(str(OUT / f"{LABEL}-{tag}-top.png"))
 
 
-def whatsnew(c, tag):
-    """The release-notes page: changelog, title screen and the before / after gallery, measured as drawn."""
-    G = J(f"data/whatsnew-{REL['public_version']}.json")
+def whatsnew(c, tag, rel):
+    """A release's What's new page: changelog, title screen and its before / after gallery, measured as drawn. A previous release keeps the page, with its release record in place of the update steps."""
+    G, prev, pv, cur = J(f"data/whatsnew-{rel['public_version']}.json"), rel is not REL, rel["public_version"], REL["public_version"]
     txt = lambda sel: c.js(f"(document.querySelector({json.dumps(sel)})||{{}}).textContent||''")
-    go(c, "/"); news = c.js("[...document.querySelectorAll('.relnews a')].map(a=>a.getAttribute('href'))")
-    ok(f"[{tag}] Home: announces {REL['public_version']} with links to what's new and the download", REL["public_version"] + " is out" in txt(".relnews") and len(news) == 2 and news[0].endswith(REL["page"]) and news[1].endswith("/play/#get"), news)
-    go(c, "/play/"); c.js("document.querySelector('#release a.link').click()"); c.wait("location.pathname.endsWith(" + json.dumps(REL["page"]) + ")", 6)
-    ok(f"[{tag}] What's new: reached from Current release", c.url().endswith(REL["page"]) and txt("h1") == "What’s new in " + REL["public_version"], c.url())
-    c.events.clear(); c.send("Runtime.enable"); c.send("Log.enable"); go(c, REL["page"])
+    name = "What was new" if prev else "What’s new"
+    if not prev:
+        go(c, "/"); news = c.js("[...document.querySelectorAll('.relnews a')].map(a=>a.getAttribute('href'))")
+        ok(f"[{tag}] Home: announces {pv} with links to what's new and the download", pv + " is out" in txt(".relnews") and rel["summary"] in txt(".relnews") and len(news) == 2 and news[0].endswith(rel["page"]) and news[1].endswith("/play/#get"), news)
+        go(c, "/play/"); c.js("document.querySelector('#release a.link').click()"); c.wait("location.pathname.endsWith(" + json.dumps(rel["page"]) + ") && !!document.querySelector('.wn h1')", 10)
+        ok(f"[{tag}] What's new: reached from Current release", c.url().endswith(rel["page"]) and txt("h1") == "What’s new in " + pv, c.url())
+    c.events.clear(); c.send("Runtime.enable"); c.send("Log.enable"); go(c, rel["page"])
     c.js("window.scrollTo(0,document.body.scrollHeight)"); time.sleep(.8)
-    ok(f"[{tag}] What's new: title screen is the {REL['public_version']} screenshot at native size, drawn crisp, and not called new artwork", c.js("(i=>i.complete&&i.naturalWidth===240&&i.naturalHeight===160&&i.src.endsWith('title-" + REL["public_version"] + ".png')&&getComputedStyle(i).imageRendering==='pixelated')(document.querySelector('.titleart img'))")
+    ok(f"[{tag}] {pv}: page is '{name} in {pv}', marked {'previous' if prev else 'current'}", txt("h1") == f"{name} in {pv}" and c.js("document.querySelector('.wn').dataset.releaseRole") == ("previous" if prev else "current")
+       and (("Previous release" in txt(".relline") and f"The current release is {cur}" in txt(".relhero .lead")) if prev else rel["status_short"] in txt(".relline")) and rel["date"] in txt(".relline"), txt(".relline"))
+    ok(f"[{tag}] {pv}: title screen is the {pv} screenshot at native size, drawn crisp, and not called new artwork", c.js("(i=>i.complete&&i.naturalWidth===240&&i.naturalHeight===160&&i.src.endsWith('title-" + pv + ".png')&&getComputedStyle(i).imageRendering==='pixelated')(document.querySelector('.titleart img'))")
        and "same as in " + G["before"]["public"] in txt(".titleart figcaption"))
-    ok(f"[{tag}] What's new: the changelog, word for word", all(x in txt("#changes") for x in REL["changelog"]))
+    ok(f"[{tag}] {pv}: the changelog, word for word", all(x in txt("#changes") for x in rel["changelog"]))
+    if G.get("kind") == "towns":
+        towns(c, tag, rel, G, txt)
+    else:
+        sprites(c, tag, rel, G, txt)
+    t = txt(".wn")
+    posts = c.js("[...document.querySelectorAll('.wn a[data-release-post]')].map(a=>a.href)")
+    ok(f"[{tag}] {pv}: known limitations, and every release-post button opens the {cur} post", all(x in t for x in rel["known_limitations"]) and len(posts) >= 2 and all(h == REL["download"]["url"] for h in posts) and f"Get {cur} on Discord" in txt(".relhero .actions"), posts)
+    if prev:
+        ok(f"[{tag}] {pv}: release record with version, date, both checksums, its notes and a way to the current release", all(x in txt("#release") for x in (pv, rel["internal_build"], rel["date"], rel["sha256"], rel["archive"]["sha256"], f"replaced by {cur}", "No longer offered", rel["save_compatibility"]))
+           and c.js("document.querySelector('#release dl a').getAttribute('href')").endswith("/play/#get") and c.js("document.querySelectorAll('#release ul li').length") == len(rel["notes"]))
+        ok(f"[{tag}] {pv}: says its download post is gone, links it nowhere, and offers no update steps to {pv}", "no longer on the Project Blonde Discord" in txt("#release .notice.gone") and c.js(SHOWN + "('#release .notice.gone')")
+           and c.js("[...document.querySelectorAll('a')].filter(a=>a.href===" + json.dumps(rel["download"]["url"]) + ").length") == 0 and c.js("document.querySelectorAll('details.upg').length") == 0 and not c.js("!!document.getElementById('update')"))
+    else:
+        ok(f"[{tag}] {pv}: update steps for Delta and mGBA with the save-compatibility statement", c.js("document.querySelectorAll('#update details.upg').length") == 2 and rel["save_compatibility"] in t and all(x in txt("#update") for x in rel["upgrade"]["instructions"]))
+    ok(f"[{tag}] {pv}: no sideways scroll, no broken image", c.js("document.documentElement.scrollWidth <= window.innerWidth") and c.js("[...document.images].filter(i=>!i.complete||!i.naturalWidth).length") == 0)
+    errs = [e for e in c.events if e.get("method") in ("Runtime.exceptionThrown", "Network.loadingFailed") or e.get("method") == "Log.entryAdded" and e["params"]["entry"]["level"] == "error"
+            or e.get("method") == "Runtime.consoleAPICalled" and e["params"]["type"] == "error"]
+    ok(f"[{tag}] {pv}: no script error and nothing logged to the console as an error", not errs, errs[:2])
+    sfx = f"-{pv}" if prev else ""
+    c.js("window.scrollTo(0,0)"); c.shot(str(OUT / f"{LABEL}-{tag}-whatsnew{sfx}.png"), full=True)
+    c.js("document.getElementById('gallery').scrollIntoView()"); time.sleep(.3); c.shot(str(OUT / f"{LABEL}-{tag}-gallery{sfx}.png"))
+
+
+def towns(c, tag, rel, G, txt):
+    """The town gallery: the same spot in the previous release and in this one, the four numbers and the town table."""
+    N, pv, old = G["counts"], rel["public_version"], G["before"]["public"]
+    c.js("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')"); c.wait("[...document.images].every(i=>i.complete)", 15)
+    ok(f"[{tag}] towns: the four numbers are the release's: {N['total']} Pokémon, {N['towns']} towns, {N['talkers']} talk, {N['swimmers']} swim", c.js("[...document.querySelectorAll('.wn-stats dd')].map(d=>+d.textContent)") == [N[k] for k in ("total", "towns", "talkers", "swimmers")]
+       and c.js(SHOWN + "('.wn-stats dd')") and all(f"{N[k]} " in txt("#changes") for k in ("total", "talkers", "swimmers")))
+    ok(f"[{tag}] towns: rooftops, treetops, ground and water, three pairs each, in the generated order", c.js("[...document.querySelectorAll('#gallery .wn-block')].map(b=>[b.id,b.querySelector('h3').textContent,[...b.querySelectorAll('li')].map(l=>l.dataset.shot)])")
+       == [[g["id"], g["title"], [s["id"] for s in G["shots"] if s["group"] == g["id"]]] for g in G["groups"]] and [g["id"] for g in G["groups"]] == ["rooftops", "treetops", "ground", "water"])
+    pairs = c.js("[...document.querySelectorAll('#gallery li')].map(l=>[...l.querySelectorAll('figure')].map(f=>[f.querySelector('img').getAttribute('src').split('/').pop(),f.querySelector('figcaption').textContent]).concat([[l.querySelector('b').textContent,l.querySelector('p').textContent]]))")
+    ok(f"[{tag}] towns: every pair is the {old} screenshot, then the {pv} one, with its town and caption", pairs == [[[s["before"], old], [s["after"], pv], [s["town"], s["caption"]]] for s in G["shots"]], pairs[:1])
+    ok(f"[{tag}] towns: all {2 * N['shots']} screenshots load at native 240x160, are drawn crisp, and each {pv} one differs from its {old} one", c.js("[...document.querySelectorAll('#gallery img')].map(i=>i.complete&&i.naturalWidth===240&&i.naturalHeight===160&&getComputedStyle(i).imageRendering==='pixelated')") == [True] * (2 * N["shots"])
+       and c.js("""Promise.all([...document.querySelectorAll('#gallery li')].map(async l=>{const d=await Promise.all([...l.querySelectorAll('img')].map(async i=>{const k=document.createElement('canvas');k.width=240;k.height=160;const x=k.getContext('2d');x.drawImage(i,0,0);return x.getImageData(0,0,240,160).data.join()}));return d[0]!==d[1]})).then(a=>a.every(Boolean))"""))
+    ok(f"[{tag}] towns: every screenshot fits inside its card and is shown at its own proportions", c.js("[...document.querySelectorAll('#gallery li')].every(li=>{const a=li.getBoundingClientRect();return [...li.querySelectorAll('img')].every(e=>{const b=e.getBoundingClientRect();return b.left>=a.left&&b.right<=a.right+.5&&Math.abs(b.width/b.height-1.5)<.01&&b.width>=240})})"))
+    rows = c.js("[...document.querySelectorAll('#towns tbody tr')].map(r=>[r.dataset.town,...[...r.cells].map(d=>d.textContent)])")
+    ok(f"[{tag}] towns: the table lists all {N['towns']} towns with their counts, adding up to {N['total']} Pokémon, {N['talkers']} that talk and {N['swimmers']} swimmers", [r[:3] for r in rows] == [[t["map"], t["town"], str(t["count"])] for t in G["towns"]]
+       and sum(int(r[2]) for r in rows) == N["total"] and sum(int(r[4]) for r in rows if r[4].isdigit()) == N["talkers"] and sum(int(r[5]) for r in rows if r[5].isdigit()) == N["swimmers"]
+       and all(all(sp in r[3] for sp, _ in t["species"]) for r, t in zip(rows, G["towns"])), rows[:2])
+    links = c.js("[...document.querySelectorAll('#towns tbody td:first-child a, #gallery li b a')].map(a=>a.getAttribute('href'))")
+    ok(f"[{tag}] towns: every town name opens its place in the World Atlas", len(links) == N["towns"] + N["shots"] and all("/world/" in h for h in links), links[:2])
+    c.js("document.querySelector('#towns tbody a').click()"); c.wait("location.pathname.includes('/world/')", 8)
+    ok(f"[{tag}] towns: a town link lands on an existing place page", "/world/" in c.url() and c.js("!!document.querySelector('h1')") and G["towns"][0]["town"].split(" ")[0] in c.js("document.body.textContent"), c.url())
+    go(c, rel["page"]); c.js("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')"); c.wait("[...document.images].every(i=>i.complete)", 15)
+    t = txt(".wn").lower()
+    ok(f"[{tag}] towns: does not present {old}'s changes as new", not any(w in t for w in ("sprite overhaul", "portrait", "battle artwork", "palm", "dexnav")), [w for w in ("sprite overhaul", "portrait", "battle artwork", "palm", "dexnav") if w in t])
+
+
+def sprites(c, tag, rel, G, txt):
+    """The character gallery: overworld sprites, dialogue portraits, battle pictures and the Alola palms."""
     n = c.js("[document.querySelectorAll('#overworld li').length,document.querySelectorAll('#portraits li').length,document.querySelectorAll('#battle li').length]")
     ok(f"[{tag}] gallery: {G['counts']['overworld']} overworld, {G['counts']['portrait']} portrait and {G['counts']['battle']} battle comparisons, each a before and an after", n == [G["counts"][k] for k in ("overworld", "portrait", "battle")]
        and c.js("[...document.querySelectorAll('.wn-grid li')].every(li=>li.querySelectorAll('.wn-s,.wn-f').length===2)"), n)
@@ -238,16 +304,7 @@ def whatsnew(c, tag):
     ok(f"[{tag}] gallery: the facing switch turns every overworld sprite", p0 != p3 and c.js("document.querySelector('[data-wn-face=\"3\"]').getAttribute('aria-pressed')") == "true" and c.js("document.querySelector('[data-wn-face=\"0\"]').getAttribute('aria-pressed')") == "false", (p0, p3))
     c.js("document.querySelector('[data-wn-face=\"0\"]').click()")
     ok(f"[{tag}] Alola: both palm screenshots load at native size and are drawn crisp", c.js("[...document.querySelectorAll('#alola img')].map(i=>i.complete&&i.naturalWidth===240&&i.naturalHeight===160&&getComputedStyle(i).imageRendering==='pixelated')") == [True, True])
-    t = txt(".wn")
-    ok(f"[{tag}] What's new: update steps for Delta and mGBA, known limitations and the release post", all(x in t for x in REL["known_limitations"]) and c.js("document.querySelectorAll('#update details.upg').length") == 2 and REL["save_compatibility"] in t
-       and c.js("[...document.querySelectorAll('.wn a[data-release-post]')].every(a=>a.href===" + json.dumps(REL["download"]["url"]) + ")") and c.js("document.querySelectorAll('.wn a[data-release-post]').length") >= 1)
-    ok(f"[{tag}] What's new: says nothing about the ending, the credits or the habitat project", not any(w in t.lower() for w in ("credits", "ending", "habitat")))
-    ok(f"[{tag}] What's new: no sideways scroll, no broken image", c.js("document.documentElement.scrollWidth <= window.innerWidth") and c.js("[...document.images].filter(i=>!i.complete||!i.naturalWidth).length") == 0)
-    errs = [e for e in c.events if e.get("method") in ("Runtime.exceptionThrown", "Network.loadingFailed") or e.get("method") == "Log.entryAdded" and e["params"]["entry"]["level"] == "error"
-            or e.get("method") == "Runtime.consoleAPICalled" and e["params"]["type"] == "error"]
-    ok(f"[{tag}] What's new: no script error and nothing logged to the console as an error", not errs, errs[:2])
-    c.js("window.scrollTo(0,0)"); c.shot(str(OUT / f"{LABEL}-{tag}-whatsnew.png"), full=True)
-    c.js("document.getElementById('gallery').scrollIntoView()"); time.sleep(.3); c.shot(str(OUT / f"{LABEL}-{tag}-gallery.png"))
+    ok(f"[{tag}] sprites: says nothing about the ending, the credits or the habitat project", not any(w in txt(".wn").lower() for w in ("credits", "ending", "habitat")))
 
 
 def main():

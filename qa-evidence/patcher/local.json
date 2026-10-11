@@ -1,19 +1,19 @@
 {
- "base": "http://localhost:8911",
- "checked": "2026-10-10 23:40",
+ "base": "http://127.0.0.1:8931",
+ "checked": "2026-10-11 12:17",
  "passed": 49,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.21,
-  "emerald: download + build + check (s, CPU 6x slower)": 1.41,
+  "emerald: recognise (s, CPU 6x slower)": 0.19,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.21,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1085,
-   1176
+   1115,
+   1175
   ],
-  "emerald: recognise with the plain-JS hash (s)": 0.12,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.52,
-  "v104: update (s)": 0.09,
-  "v103: update (s)": 0.08
+  "emerald: recognise with the plain-JS hash (s)": 0.13,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.45,
+  "v104: update (s)": 0.11,
+  "v103: update (s)": 0.09
  },
  "results": [
   {

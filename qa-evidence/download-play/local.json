@@ -1,7 +1,7 @@
 {
- "base": "http://localhost:8911",
- "checked": "2026-10-10 23:40",
- "passed": 192,
+ "base": "http://127.0.0.1:8931",
+ "checked": "2026-10-11 12:14",
+ "passed": 232,
  "failed": 0,
  "results": [
   {
@@ -22,7 +22,7 @@
   {
    "name": "[desktop] version and build come from the release record",
    "ok": true,
-   "detail": "v1.1 · build v111"
+   "detail": "v1.2 · build v113"
   },
   {
    "name": "[desktop] status shown is the recorded one",
@@ -42,12 +42,12 @@
   {
    "name": "[desktop] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener']]"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener']]"
   },
   {
    "name": "[desktop] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33Pokemon_-_Project_Blonde.zip3736455285dabe5d755cac0e312208745fd966c9bc2161072843a2f0260ecaae"
+   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
   },
   {
    "name": "[desktop] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -70,14 +70,14 @@
    "detail": ""
   },
   {
-   "name": "[desktop] changelog: says nothing about the ending, the credits or the habitat project",
+   "name": "[desktop] changelog: the listed changes are the release's own, in order",
    "ok": true,
    "detail": ""
   },
   {
    "name": "[desktop] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file. The in-browser patcher on its page makes v1.0 only.']]"
+   "detail": "[['v1.2', '/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous "
   },
   {
    "name": "[desktop] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -340,22 +340,112 @@
    "detail": ""
   },
   {
-   "name": "[desktop] Home: announces v1.1 with links to what's new and the download",
+   "name": "[desktop] Home: announces v1.2 with links to what's new and the download",
    "ok": true,
-   "detail": "['/play/v1.1/', '/play/#get']"
+   "detail": "['/play/v1.2/', '/play/#get']"
   },
   {
    "name": "[desktop] What's new: reached from Current release",
    "ok": true,
-   "detail": "/play/v1.1/"
+   "detail": "/play/v1.2/"
   },
   {
-   "name": "[desktop] What's new: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "name": "[desktop] v1.2: page is 'What’s new in v1.2', marked current",
+   "ok": true,
+   "detail": "v1.2Released2026-10-11"
+  },
+  {
+   "name": "[desktop] v1.2: title screen is the v1.2 screenshot at native size, drawn crisp, and not called new artwork",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] What's new: the changelog, word for word",
+   "name": "[desktop] v1.2: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] towns: the four numbers are the release's: 125 Pokémon, 16 towns, 41 talk, 14 swim",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] towns: rooftops, treetops, ground and water, three pairs each, in the generated order",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] towns: every pair is the v1.1 screenshot, then the v1.2 one, with its town and caption",
+   "ok": true,
+   "detail": "[[['dewford-town-02-v1.1.png', 'v1.1'], ['dewford-town-02-v1.2.png', 'v1.2'], ['Dewford Town', 'A Wingull on a rooftop by the water.']]]"
+  },
+  {
+   "name": "[desktop] towns: all 24 screenshots load at native 240x160, are drawn crisp, and each v1.2 one differs from its v1.1 one",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] towns: every screenshot fits inside its card and is shown at its own proportions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] towns: the table lists all 16 towns with their counts, adding up to 125 Pokémon, 41 that talk and 14 swimmers",
+   "ok": true,
+   "detail": "[['OldaleTown', 'Oldale Town', '4', 'Wurmple, Zigzagoon, Silcoon, Cascoon', '1', '–'], ['PetalburgCity', 'Petalburg City', '7', 'Slakoth ×4, Wurmple, Ralts, Marill', '2', '1']]"
+  },
+  {
+   "name": "[desktop] towns: every town name opens its place in the World Atlas",
+   "ok": true,
+   "detail": "['/world/hoenn/dewford-town/#m-dewford-town', '/world/hoenn/mossdeep-city/#m-mossdeep-city']"
+  },
+  {
+   "name": "[desktop] towns: a town link lands on an existing place page",
+   "ok": true,
+   "detail": "/world/hoenn/oldale-town/#m-oldale-town"
+  },
+  {
+   "name": "[desktop] towns: does not present v1.1's changes as new",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] v1.2: known limitations, and every release-post button opens the v1.2 post",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+  },
+  {
+   "name": "[desktop] v1.2: update steps for Delta and mGBA with the save-compatibility statement",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.2: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.2: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] Download & Play: version history lists every public release, newest first, the current one marked",
+   "ok": true,
+   "detail": "[['/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+  },
+  {
+   "name": "[desktop] v1.1: page is 'What was new in v1.1', marked previous",
+   "ok": true,
+   "detail": "v1.1Previous release2026-10-10"
+  },
+  {
+   "name": "[desktop] v1.1: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.1: the changelog, word for word",
    "ok": true,
    "detail": ""
   },
@@ -400,22 +490,32 @@
    "detail": ""
   },
   {
-   "name": "[desktop] What's new: update steps for Delta and mGBA, known limitations and the release post",
+   "name": "[desktop] sprites: says nothing about the ending, the credits or the habitat project",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] What's new: says nothing about the ending, the credits or the habitat project",
+   "name": "[desktop] v1.1: known limitations, and every release-post button opens the v1.2 post",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+  },
+  {
+   "name": "[desktop] v1.1: release record with version, date, both checksums, its notes and a way to the current release",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] What's new: no sideways scroll, no broken image",
+   "name": "[desktop] v1.1: says its download post is gone, links it nowhere, and offers no update steps to v1.1",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] What's new: no script error and nothing logged to the console as an error",
+   "name": "[desktop] v1.1: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.1: no script error and nothing logged to the console as an error",
    "ok": true,
    "detail": "[]"
   },
@@ -425,7 +525,7 @@
    "detail": ""
   },
   {
-   "name": "[desktop] v1.0: its original download post and its notes are still there",
+   "name": "[desktop] v1.0: its notes are still there, and its removed download post is not linked",
    "ok": true,
    "detail": ""
   },
@@ -435,17 +535,17 @@
    "detail": ""
   },
   {
-   "name": "[desktop] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.1",
+   "name": "[desktop] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.2",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] v1.0: nothing in the patcher says it makes v1.1",
+   "name": "[desktop] v1.0: nothing in the patcher says it makes v1.2",
    "ok": true,
    "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
   },
   {
-   "name": "[desktop] Download & Play: no patcher on the v1.1 page, and the history row says the patcher is v1.0 only",
+   "name": "[desktop] Download & Play: no patcher on the v1.2 page, and the history row says the patcher is v1.0 only",
    "ok": true,
    "detail": ""
   },
@@ -507,7 +607,7 @@
   {
    "name": "[phone] version and build come from the release record",
    "ok": true,
-   "detail": "v1.1 · build v111"
+   "detail": "v1.2 · build v113"
   },
   {
    "name": "[phone] status shown is the recorded one",
@@ -527,12 +627,12 @@
   {
    "name": "[phone] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558491247516061707', '_blank', 'noopener']]"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener']]"
   },
   {
    "name": "[phone] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33Pokemon_-_Project_Blonde.zip3736455285dabe5d755cac0e312208745fd966c9bc2161072843a2f0260ecaae"
+   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
   },
   {
    "name": "[phone] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -555,14 +655,14 @@
    "detail": ""
   },
   {
-   "name": "[phone] changelog: says nothing about the ending, the credits or the habitat project",
+   "name": "[phone] changelog: the listed changes are the release's own, in order",
    "ok": true,
    "detail": ""
   },
   {
    "name": "[phone] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.1', '/play/v1.1/', 'v1.1Current · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous · 2026-10-09The first public release: Johto, Kanto and Hoenn on one save file. The in-browser patcher on its page makes v1.0 only.']]"
+   "detail": "[['v1.2', '/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous "
   },
   {
    "name": "[phone] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -825,22 +925,112 @@
    "detail": ""
   },
   {
-   "name": "[phone] Home: announces v1.1 with links to what's new and the download",
+   "name": "[phone] Home: announces v1.2 with links to what's new and the download",
    "ok": true,
-   "detail": "['/play/v1.1/', '/play/#get']"
+   "detail": "['/play/v1.2/', '/play/#get']"
   },
   {
    "name": "[phone] What's new: reached from Current release",
    "ok": true,
-   "detail": "/play/v1.1/"
+   "detail": "/play/v1.2/"
   },
   {
-   "name": "[phone] What's new: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "name": "[phone] v1.2: page is 'What’s new in v1.2', marked current",
+   "ok": true,
+   "detail": "v1.2Released2026-10-11"
+  },
+  {
+   "name": "[phone] v1.2: title screen is the v1.2 screenshot at native size, drawn crisp, and not called new artwork",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] What's new: the changelog, word for word",
+   "name": "[phone] v1.2: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] towns: the four numbers are the release's: 125 Pokémon, 16 towns, 41 talk, 14 swim",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] towns: rooftops, treetops, ground and water, three pairs each, in the generated order",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] towns: every pair is the v1.1 screenshot, then the v1.2 one, with its town and caption",
+   "ok": true,
+   "detail": "[[['dewford-town-02-v1.1.png', 'v1.1'], ['dewford-town-02-v1.2.png', 'v1.2'], ['Dewford Town', 'A Wingull on a rooftop by the water.']]]"
+  },
+  {
+   "name": "[phone] towns: all 24 screenshots load at native 240x160, are drawn crisp, and each v1.2 one differs from its v1.1 one",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] towns: every screenshot fits inside its card and is shown at its own proportions",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] towns: the table lists all 16 towns with their counts, adding up to 125 Pokémon, 41 that talk and 14 swimmers",
+   "ok": true,
+   "detail": "[['OldaleTown', 'Oldale Town', '4', 'Wurmple, Zigzagoon, Silcoon, Cascoon', '1', '–'], ['PetalburgCity', 'Petalburg City', '7', 'Slakoth ×4, Wurmple, Ralts, Marill', '2', '1']]"
+  },
+  {
+   "name": "[phone] towns: every town name opens its place in the World Atlas",
+   "ok": true,
+   "detail": "['/world/hoenn/dewford-town/#m-dewford-town', '/world/hoenn/mossdeep-city/#m-mossdeep-city']"
+  },
+  {
+   "name": "[phone] towns: a town link lands on an existing place page",
+   "ok": true,
+   "detail": "/world/hoenn/oldale-town/#m-oldale-town"
+  },
+  {
+   "name": "[phone] towns: does not present v1.1's changes as new",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] v1.2: known limitations, and every release-post button opens the v1.2 post",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+  },
+  {
+   "name": "[phone] v1.2: update steps for Delta and mGBA with the save-compatibility statement",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.2: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.2: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] Download & Play: version history lists every public release, newest first, the current one marked",
+   "ok": true,
+   "detail": "[['/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+  },
+  {
+   "name": "[phone] v1.1: page is 'What was new in v1.1', marked previous",
+   "ok": true,
+   "detail": "v1.1Previous release2026-10-10"
+  },
+  {
+   "name": "[phone] v1.1: title screen is the v1.1 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.1: the changelog, word for word",
    "ok": true,
    "detail": ""
   },
@@ -885,22 +1075,32 @@
    "detail": ""
   },
   {
-   "name": "[phone] What's new: update steps for Delta and mGBA, known limitations and the release post",
+   "name": "[phone] sprites: says nothing about the ending, the credits or the habitat project",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] What's new: says nothing about the ending, the credits or the habitat project",
+   "name": "[phone] v1.1: known limitations, and every release-post button opens the v1.2 post",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+  },
+  {
+   "name": "[phone] v1.1: release record with version, date, both checksums, its notes and a way to the current release",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] What's new: no sideways scroll, no broken image",
+   "name": "[phone] v1.1: says its download post is gone, links it nowhere, and offers no update steps to v1.1",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] What's new: no script error and nothing logged to the console as an error",
+   "name": "[phone] v1.1: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.1: no script error and nothing logged to the console as an error",
    "ok": true,
    "detail": "[]"
   },
@@ -910,7 +1110,7 @@
    "detail": ""
   },
   {
-   "name": "[phone] v1.0: its original download post and its notes are still there",
+   "name": "[phone] v1.0: its notes are still there, and its removed download post is not linked",
    "ok": true,
    "detail": ""
   },
@@ -920,17 +1120,17 @@
    "detail": ""
   },
   {
-   "name": "[phone] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.1",
+   "name": "[phone] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.2",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] v1.0: nothing in the patcher says it makes v1.1",
+   "name": "[phone] v1.0: nothing in the patcher says it makes v1.2",
    "ok": true,
    "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
   },
   {
-   "name": "[phone] Download & Play: no patcher on the v1.1 page, and the history row says the patcher is v1.0 only",
+   "name": "[phone] Download & Play: no patcher on the v1.2 page, and the history row says the patcher is v1.0 only",
    "ok": true,
    "detail": ""
   },
