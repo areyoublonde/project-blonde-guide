@@ -1,6 +1,6 @@
 {
- "base": "http://127.0.0.1:8931",
- "checked": "2026-10-11 12:14",
+ "base": "http://127.0.0.1:8791/project-blonde-guide",
+ "checked": "2026-10-11 13:01",
  "passed": 232,
  "failed": 0,
  "results": [
@@ -22,7 +22,7 @@
   {
    "name": "[desktop] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v113"
+   "detail": "v1.2 · build v115"
   },
   {
    "name": "[desktop] status shown is the recorded one",
@@ -47,7 +47,7 @@
   {
    "name": "[desktop] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
+   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
   },
   {
    "name": "[desktop] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -77,7 +77,7 @@
   {
    "name": "[desktop] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.2', '/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous "
+   "detail": "[['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/project-blonde-guide/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork."
   },
   {
    "name": "[desktop] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -97,7 +97,7 @@
   {
    "name": "[desktop] four devices with their emulators",
    "ok": true,
-   "detail": "[['iPhone & iPad', 'Delta', '/play/setup/iphone/'], ['Android', 'RetroArch', '/play/setup/android/'], ['Windows', 'mGBA', '/play/setup/windows/'], ['macOS', 'mGBA', '/play/setup/mac/']]"
+   "detail": "[['iPhone & iPad', 'Delta', '/project-blonde-guide/play/setup/iphone/'], ['Android', 'RetroArch', '/project-blonde-guide/play/setup/android/'], ['Windows', 'mGBA', '/project-blonde-guide/play/setup/windows/'], ['macOS', 'mGBA', '/project-blonde-guide/play/setup/mac/']]"
   },
   {
    "name": "[desktop] 'Set up your device' jumps to the device list",
@@ -342,12 +342,12 @@
   {
    "name": "[desktop] Home: announces v1.2 with links to what's new and the download",
    "ok": true,
-   "detail": "['/play/v1.2/', '/play/#get']"
+   "detail": "['/project-blonde-guide/play/v1.2/', '/project-blonde-guide/play/#get']"
   },
   {
    "name": "[desktop] What's new: reached from Current release",
    "ok": true,
-   "detail": "/play/v1.2/"
+   "detail": "/project-blonde-guide/play/v1.2/"
   },
   {
    "name": "[desktop] v1.2: page is 'What’s new in v1.2', marked current",
@@ -397,12 +397,12 @@
   {
    "name": "[desktop] towns: every town name opens its place in the World Atlas",
    "ok": true,
-   "detail": "['/world/hoenn/dewford-town/#m-dewford-town', '/world/hoenn/mossdeep-city/#m-mossdeep-city']"
+   "detail": "['/project-blonde-guide/world/hoenn/dewford-town/#m-dewford-town', '/project-blonde-guide/world/hoenn/mossdeep-city/#m-mossdeep-city']"
   },
   {
    "name": "[desktop] towns: a town link lands on an existing place page",
    "ok": true,
-   "detail": "/world/hoenn/oldale-town/#m-oldale-town"
+   "detail": "/project-blonde-guide/world/hoenn/oldale-town/#m-oldale-town"
   },
   {
    "name": "[desktop] towns: does not present v1.1's changes as new",
@@ -432,7 +432,7 @@
   {
    "name": "[desktop] Download & Play: version history lists every public release, newest first, the current one marked",
    "ok": true,
-   "detail": "[['/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+   "detail": "[['/project-blonde-guide/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
   },
   {
    "name": "[desktop] v1.1: page is 'What was new in v1.1', marked previous",
@@ -607,7 +607,7 @@
   {
    "name": "[phone] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v113"
+   "detail": "v1.2 · build v115"
   },
   {
    "name": "[phone] status shown is the recorded one",
@@ -632,7 +632,7 @@
   {
    "name": "[phone] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
+   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
   },
   {
    "name": "[phone] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -662,7 +662,7 @@
   {
    "name": "[phone] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.2', '/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork.'], ['v1.0', '/play/v1.0/', 'v1.0Previous "
+   "detail": "[['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/project-blonde-guide/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork."
   },
   {
    "name": "[phone] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -682,7 +682,7 @@
   {
    "name": "[phone] four devices with their emulators",
    "ok": true,
-   "detail": "[['iPhone & iPad', 'Delta', '/play/setup/iphone/'], ['Android', 'RetroArch', '/play/setup/android/'], ['Windows', 'mGBA', '/play/setup/windows/'], ['macOS', 'mGBA', '/play/setup/mac/']]"
+   "detail": "[['iPhone & iPad', 'Delta', '/project-blonde-guide/play/setup/iphone/'], ['Android', 'RetroArch', '/project-blonde-guide/play/setup/android/'], ['Windows', 'mGBA', '/project-blonde-guide/play/setup/windows/'], ['macOS', 'mGBA', '/project-blonde-guide/play/setup/mac/']]"
   },
   {
    "name": "[phone] 'Set up your device' jumps to the device list",
@@ -927,12 +927,12 @@
   {
    "name": "[phone] Home: announces v1.2 with links to what's new and the download",
    "ok": true,
-   "detail": "['/play/v1.2/', '/play/#get']"
+   "detail": "['/project-blonde-guide/play/v1.2/', '/project-blonde-guide/play/#get']"
   },
   {
    "name": "[phone] What's new: reached from Current release",
    "ok": true,
-   "detail": "/play/v1.2/"
+   "detail": "/project-blonde-guide/play/v1.2/"
   },
   {
    "name": "[phone] v1.2: page is 'What’s new in v1.2', marked current",
@@ -982,12 +982,12 @@
   {
    "name": "[phone] towns: every town name opens its place in the World Atlas",
    "ok": true,
-   "detail": "['/world/hoenn/dewford-town/#m-dewford-town', '/world/hoenn/mossdeep-city/#m-mossdeep-city']"
+   "detail": "['/project-blonde-guide/world/hoenn/dewford-town/#m-dewford-town', '/project-blonde-guide/world/hoenn/mossdeep-city/#m-mossdeep-city']"
   },
   {
    "name": "[phone] towns: a town link lands on an existing place page",
    "ok": true,
-   "detail": "/world/hoenn/oldale-town/#m-oldale-town"
+   "detail": "/project-blonde-guide/world/hoenn/oldale-town/#m-oldale-town"
   },
   {
    "name": "[phone] towns: does not present v1.1's changes as new",
@@ -1017,7 +1017,7 @@
   {
    "name": "[phone] Download & Play: version history lists every public release, newest first, the current one marked",
    "ok": true,
-   "detail": "[['/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+   "detail": "[['/project-blonde-guide/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
   },
   {
    "name": "[phone] v1.1: page is 'What was new in v1.1', marked previous",

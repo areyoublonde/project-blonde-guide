@@ -4,7 +4,8 @@ Resume file for the full-site completion task (brief received 2026-10-08). Updat
 
 ## v1.2 update (2026-10-11)
 
-- **Game baseline: v113 = public v1.2, RELEASED 2026-10-11 on Discord** (`7a17f42f…6097`). Release facts come from
+- **Game baseline: v115 = public v1.2 with the hotfix of 2026-10-11** (`b15f98da…22eb`; Ability Capsule / Ability Patch cannot be sold). It replaced v113 (`7a17f42f…6097`), the first v1.2 build, on the same Discord post. `romx` and `availability` re-run on v115: no data difference.
+- Earlier baseline: v113 = public v1.2, RELEASED 2026-10-11 on Discord (`7a17f42f…6097`). Release facts come from
   `output/project-blonde-v1.2-rc2-20261011/release-information.json` (and its update guides) and are held in `content/releases.json` (`current: "1.2"`, method `discord`).
 - Extractors re-run on v113 (`romx`, `worldmap`, `dex`, `availability`, `statics`, `megastones`, `plates`; `credits` and `pics` read the source tree, which v1.2 does not
   change). Result: `data/rom/world.json` differs only by 125 added object events in the 16 Hoenn town maps, nothing removed or moved; availability identical (482

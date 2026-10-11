@@ -18,12 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "rom"
 B = 0x08000000
 BUILD = {
-    "version": "v113",
+    "version": "v115",
     "public": "v1.2",
-    "folder": "../output/project-blonde-v1.2-rc2-20261011",            # relative to the game folder: the published release folder, not a qa build folder
+    "folder": "../output/project-blonde-v1.2-hotfix-v115-20261011",            # relative to the game folder: the published release folder, not a qa build folder
     "rom": "Pokemon - Project Blonde.gba",
-    "sha256": "7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097",
-    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v113 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; v112..v113 Hoenn town object events, their scripts and graphics, and the title sheet; no data table)
+    "sha256": "b15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22eb",
+    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v115 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; v112..v113 Hoenn town object events, their scripts and graphics, and the title sheet; v115 = v113 + the sell-menu hotfix, 41 bytes of code; no data table)
 }
 TRAINER_SZ, MON_SZ, HNS_ROWS = 52, 36, 635
 HO_LEGACY_FIRST, HO_EXT_FIRST = 634, 1152                     # qa/gym-rematch-yes-no-v84/trainer_capacity.h

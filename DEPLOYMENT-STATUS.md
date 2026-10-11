@@ -1,5 +1,7 @@
 # Deployment status
 
+**v1.2 hotfix record, 2026-10-11.** The v1.2 download on Discord now carries the hotfix build (internal v115, game `b15f98da…22eb`, ZIP `c93d2d31…e7fd`): Ability Capsules and Ability Patches can no longer be sold. The ZIP was replaced on the same pinned post, so the download link did not change; the first v1.2 build (v113) is archived with the release records. This update changes the release record (`content/releases.json`: build, both checksums, ZIP size, one changelog line, two notes), the build record (`tools/romx.py`, `data/rom/manifest.json`, `data/availability.json`) and the gallery provenance (`tools/whatsnew_towns.py`, `data/whatsnew-v1.2.json`: screenshots taken on v113, whose maps and graphics are byte-identical in v115). No page design, guide, Pokédex, map or patcher change; the patcher stays v1.0 only. Local: build 1,315 pages, links 82,690 and assets 39,495 with 0 failures, `qa_play.py` 232 of 232.
+
 **Latest deploy 2026-10-11 (v1.2 website update):** commit `848aa60` on `main`, workflow run 38111891002, success (build 1,315 pages and every CI check). Verified
 live: `tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 232 of 232, `tools/qa_patcher.py <live>` 49 of 49 on `/play/v1.0/`, a gallery screenshot
 byte-identical to the committed file, and the only release-post link on `/play/` is the v1.2 post. Evidence: `qa-evidence/download-play/live.json`,

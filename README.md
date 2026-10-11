@@ -2,7 +2,7 @@
 
 Player-facing walkthrough and reference site for Pokémon Project Blonde. Static, generated from the game's own data.
 
-**Status:** live at https://areyoublonde.github.io/project-blonde-guide/ (see `DEPLOYMENT-STATUS.md`). Game baseline: **public v1.2 (build v113)**, released 2026-10-11. No game file is hosted here: Download & Play links the official release post on the Project Blonde Discord; v1.1 stays in the version history at `/play/v1.1/` with its gallery, and v1.0 at `/play/v1.0/` with its in-browser patcher (v1.0 only).
+**Status:** live at https://areyoublonde.github.io/project-blonde-guide/ (see `DEPLOYMENT-STATUS.md`). Game baseline: **public v1.2 (build v115, the hotfix build of 2026-10-11; first published as build v113)**, released 2026-10-11. No game file is hosted here: Download & Play links the official release post on the Project Blonde Discord; v1.1 stays in the version history at `/play/v1.1/` with its gallery, and v1.0 at `/play/v1.0/` with its in-browser patcher (v1.0 only).
 
 ## Permanent rule: the Pokédex is an availability list
 
