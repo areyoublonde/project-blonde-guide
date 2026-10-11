@@ -1,5 +1,11 @@
 # Deployment status
 
+**Latest deploy 2026-10-11 (v1.2 website update):** commit `848aa60` on `main`, workflow run 38111891002, success (build 1,315 pages and every CI check). Verified
+live: `tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 232 of 232, `tools/qa_patcher.py <live>` 49 of 49 on `/play/v1.0/`, a gallery screenshot
+byte-identical to the committed file, and the only release-post link on `/play/` is the v1.2 post. Evidence: `qa-evidence/download-play/live.json`,
+`qa-evidence/patcher/live.json`. This note and the live evidence are committed locally only (owner rule: no deployment solely for documentation); push them with
+the next website update.
+
 **v1.2 website update: PREPARED 2026-10-11, owner approved deployment once every check passes.** Branch `release-v1.2` on `origin/main` `c249cc0` (it also carries
 the v1.1 deployment record). The game itself is already public: v1.2 (build v113) was published on Discord on 2026-10-11, and nothing in that release was touched here.
 Local results: build 1,315 pages (also with `--base /project-blonde-guide`); links 82,690 and assets 39,495, 0 failures; `qa_play.py` 232 of 232; `qa_patcher.py`

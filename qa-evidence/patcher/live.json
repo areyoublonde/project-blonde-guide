@@ -1,19 +1,19 @@
 {
  "base": "https://areyoublonde.github.io/project-blonde-guide",
- "checked": "2026-10-10 23:44",
+ "checked": "2026-10-11 12:35",
  "passed": 49,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.19,
-  "emerald: download + build + check (s, CPU 6x slower)": 2.31,
+  "emerald: recognise (s, CPU 6x slower)": 0.2,
+  "emerald: download + build + check (s, CPU 6x slower)": 3.06,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1151,
-   1495
+   1117,
+   1424
   ],
-  "emerald: recognise with the plain-JS hash (s)": 0.12,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 2.3,
-  "v104: update (s)": 0.32,
-  "v103: update (s)": 0.33
+  "emerald: recognise with the plain-JS hash (s)": 0.11,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 2.05,
+  "v104: update (s)": 0.38,
+  "v103: update (s)": 0.89
  },
  "results": [
   {
