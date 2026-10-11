@@ -1,6 +1,6 @@
 {
  "base": "https://areyoublonde.github.io/project-blonde-guide",
- "checked": "2026-10-11 12:34",
+ "checked": "2026-10-11 13:04",
  "passed": 232,
  "failed": 0,
  "results": [
@@ -22,7 +22,7 @@
   {
    "name": "[desktop] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v113"
+   "detail": "v1.2 · build v115"
   },
   {
    "name": "[desktop] status shown is the recorded one",
@@ -47,7 +47,7 @@
   {
    "name": "[desktop] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
+   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
   },
   {
    "name": "[desktop] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -607,7 +607,7 @@
   {
    "name": "[phone] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v113"
+   "detail": "v1.2 · build v115"
   },
   {
    "name": "[phone] status shown is the recorded one",
@@ -632,7 +632,7 @@
   {
    "name": "[phone] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gba7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097Pokemon_-_Project_Blonde.zip21f4f9465657ca06b307eaa7fd9a03ba0c7c96da37f3c89f59e10a8e42cc3ec2"
+   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
   },
   {
    "name": "[phone] released: no link to a game file and no expiring attachment link anywhere on the page",
