@@ -50,7 +50,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -108,7 +108,7 @@
   "src": "gWildMonHeaders[0] @ 0x8ff84e4",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "Route46_hns": {
@@ -155,7 +155,13 @@
       "rate": 50
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[1] @ 0x8ff8538",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -199,11 +205,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[1] @ 0x8ff8538",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "Route30_hns": {
   "map": "Route30_hns",
@@ -292,7 +294,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -453,7 +455,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -570,7 +572,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -731,7 +733,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -977,7 +979,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -1035,7 +1037,7 @@
   "src": "gWildMonHeaders[7] @ 0x8ff8730",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "RuinsOfAlph_B1F_hns": {
@@ -1126,7 +1128,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_SMEARGLE",
@@ -1243,7 +1245,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -1351,6 +1353,48 @@
       "min": 20,
       "max": 24,
       "rate": 4
+     }
+    ]
+   },
+   "headbutt": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 10,
+      "max": 10,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 10,
+      "max": 10,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_EKANS",
+      "min": 10,
+      "max": 10,
+      "rate": 10
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 10,
+      "max": 10,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 10,
+      "max": 10,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_EKANS",
+      "min": 10,
+      "max": 10,
+      "rate": 10
      }
     ]
    },
@@ -1515,6 +1559,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
+   "headbutt": 60,
    "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -1947,7 +1992,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -1993,7 +2038,7 @@
   "src": "gWildMonHeaders[14] @ 0x8ff897c",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "SlowpokeWell_B1F_hns": {
@@ -2305,7 +2350,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -2466,7 +2511,7 @@
   "density": {
    "walk": 10,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -2583,7 +2628,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -2768,7 +2813,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -2873,7 +2918,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -3034,7 +3079,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -3207,7 +3252,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[21] @ 0x8ff8bc8",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -3263,11 +3314,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[21] @ 0x8ff8bc8",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "BurnedTower_1F_hns": {
   "map": "BurnedTower_1F_hns",
@@ -3476,7 +3523,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -3534,7 +3581,7 @@
   "src": "gWildMonHeaders[24] @ 0x8ff8cc4",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "Route39_hns": {
@@ -3606,7 +3653,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -3664,7 +3711,7 @@
   "src": "gWildMonHeaders[25] @ 0x8ff8d18",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "Route40_hns": {
@@ -4740,7 +4787,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -4827,7 +4874,7 @@
   "density": {
    "walk": 20,
    "surf": 4,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -4888,7 +4935,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -4914,7 +4961,7 @@
   "src": "gWildMonHeaders[33] @ 0x8ff8fb8",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "CliffEdgeCave_hns": {
@@ -5124,7 +5171,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -5273,7 +5320,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -6318,7 +6365,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -6455,7 +6502,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -6480,7 +6527,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -6548,7 +6595,7 @@
   "src": "gWildMonHeaders[41] @ 0x8ff9258",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -6647,7 +6694,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -6784,7 +6831,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -7266,7 +7313,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -7347,7 +7394,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -7669,7 +7716,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_FORRETRESS",
@@ -7830,7 +7877,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -8633,7 +8680,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_FORRETRESS",
@@ -8745,7 +8792,7 @@
   "src": "gWildMonHeaders[55] @ 0x8ff96f0",
   "density": {
    "walk": 20,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -9115,7 +9162,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -9264,7 +9311,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -9387,7 +9434,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -9516,7 +9563,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -9953,60 +10000,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -10114,11 +10107,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "Route5_hns": {
   "map": "Route5_hns",
@@ -10206,7 +10255,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[63] @ 0x8ff9990",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -10262,11 +10317,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[63] @ 0x8ff9990",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "Route6_hns": {
   "map": "Route6_hns",
@@ -10397,7 +10448,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -10558,7 +10609,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -10656,7 +10707,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[65] @ 0x8ff9a38",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -10712,11 +10769,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[65] @ 0x8ff9a38",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "Route8_hns": {
   "map": "Route8_hns",
@@ -10810,7 +10863,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[66] @ 0x8ff9a8c",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -10866,11 +10925,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[66] @ 0x8ff9a8c",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "Route9_hns": {
   "map": "Route9_hns",
@@ -10983,60 +11038,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -11144,11 +11145,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "Route10_hns": {
   "map": "Route10_hns",
@@ -11273,60 +11330,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -11434,11 +11437,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "RockTunnel_B1F_hns": {
   "map": "RockTunnel_B1F_hns",
@@ -11707,7 +11766,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -11765,7 +11824,7 @@
   "src": "gWildMonHeaders[71] @ 0x8ff9c30",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "Route12_hns": {
@@ -11879,7 +11938,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -12064,7 +12123,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -12178,60 +12237,6 @@
       "min": 47,
       "max": 47,
       "rate": 10
-     }
-    ]
-   },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SEEDOT",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SEEDOT",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
      }
     ]
    },
@@ -12366,11 +12371,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SEEDOT",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SEEDOT",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "Route14_hns": {
   "map": "Route14_hns",
@@ -13681,60 +13742,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -13842,11 +13849,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "Route2_hns": {
   "map": "Route2_hns",
@@ -13959,60 +14022,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -14120,11 +14129,67 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "Route3_hns": {
   "map": "Route3_hns",
@@ -14206,7 +14271,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[84] @ 0x8ffa074",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -14262,11 +14333,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[84] @ 0x8ffa074",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "MtMoon_Cave_hns": {
   "map": "MtMoon_Cave_hns",
@@ -15459,7 +15526,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_FORRETRESS",
@@ -15620,7 +15687,7 @@
   "density": {
    "walk": 20,
    "surf": 7,
-   "rock-smash": 20,
+   "headbutt": 20,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15647,7 +15714,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -15831,7 +15898,7 @@
   "src": "gWildMonHeaders[92] @ 0x8ffa314",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15870,7 +15937,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -16042,7 +16109,7 @@
   "src": "gWildMonHeaders[93] @ 0x8ffa368",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -16081,7 +16148,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_BELLSPROUT",
@@ -16241,7 +16308,7 @@
   "src": "gWildMonHeaders[94] @ 0x8ffa3bc",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -16277,60 +16344,6 @@
       "min": 20,
       "max": 24,
       "rate": 4
-     }
-    ]
-   },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 10,
-      "max": 10,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 10,
-      "max": 10,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 10,
-      "max": 10,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 10,
-      "max": 10,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 10,
-      "max": 10,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 10,
-      "max": 10,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 10,
-      "max": 10,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 10,
-      "max": 10,
-      "rate": 5
      }
     ]
    },
@@ -16440,11 +16453,67 @@
   "src": "gWildMonHeaders[95] @ 0x8ffa410",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 10,
+      "max": 10,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 10,
+      "max": 10,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 10,
+      "max": 10,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 10,
+      "max": 10,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 10,
+      "max": 10,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 10,
+      "max": 10,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 10,
+      "max": 10,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 10,
+      "max": 10,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "OlivineCity_hns": {
   "map": "OlivineCity_hns",
@@ -16479,7 +16548,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -16651,7 +16720,7 @@
   "src": "gWildMonHeaders[96] @ 0x8ffa464",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -17025,48 +17094,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_AIPOM",
-      "min": 15,
-      "max": 15,
-      "rate": 90
-     },
-     {
-      "id": "SPECIES_PINECO",
-      "min": 15,
-      "max": 15,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_HERACROSS",
-      "min": 15,
-      "max": 15,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_AIPOM",
-      "min": 15,
-      "max": 15,
-      "rate": 90
-     },
-     {
-      "id": "SPECIES_PINECO",
-      "min": 15,
-      "max": 15,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_HERACROSS",
-      "min": 15,
-      "max": 15,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -17173,11 +17200,55 @@
   "src": "gWildMonHeaders[99] @ 0x8ffa560",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_AIPOM",
+      "min": 15,
+      "max": 15,
+      "rate": 90
+     },
+     {
+      "id": "SPECIES_PINECO",
+      "min": 15,
+      "max": 15,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_HERACROSS",
+      "min": 15,
+      "max": 15,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_AIPOM",
+      "min": 15,
+      "max": 15,
+      "rate": 90
+     },
+     {
+      "id": "SPECIES_PINECO",
+      "min": 15,
+      "max": 15,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_HERACROSS",
+      "min": 15,
+      "max": 15,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "VermilionCity_hns": {
   "map": "VermilionCity_hns",
@@ -17209,6 +17280,36 @@
       "min": 48,
       "max": 48,
       "rate": 4
+     }
+    ]
+   },
+   "headbutt": {
+    "day": [
+     {
+      "id": "SPECIES_GEODUDE",
+      "min": 42,
+      "max": 46,
+      "rate": 95
+     },
+     {
+      "id": "SPECIES_SHUCKLE",
+      "min": 42,
+      "max": 46,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_GEODUDE",
+      "min": 42,
+      "max": 46,
+      "rate": 95
+     },
+     {
+      "id": "SPECIES_SHUCKLE",
+      "min": 42,
+      "max": 46,
+      "rate": 5
      }
     ]
    },
@@ -17372,6 +17473,7 @@
   "src": "gWildMonHeaders[100] @ 0x8ffa5b4",
   "density": {
    "surf": 7,
+   "headbutt": 60,
    "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -17579,60 +17681,6 @@
      }
     ]
    },
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -17739,45 +17787,11 @@
   "src": "gWildMonHeaders[102] @ 0x8ffa65c",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
- },
- "CeladonCity_hns": {
-  "map": "CeladonCity_hns",
-  "tables": {
-   "surf": {
-    "day": [
-     {
-      "id": "SPECIES_GRIMER",
-      "min": 46,
-      "max": 48,
-      "rate": 99
-     },
-     {
-      "id": "SPECIES_MUK",
-      "min": 46,
-      "max": 46,
-      "rate": 1
-     }
-    ],
-    "night": [
-     {
-      "id": "SPECIES_GRIMER",
-      "min": 46,
-      "max": 48,
-      "rate": 99
-     },
-     {
-      "id": "SPECIES_MUK",
-      "min": 46,
-      "max": 46,
-      "rate": 1
-     }
-    ]
-   },
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -17829,6 +17843,42 @@
       "min": 41,
       "max": 43,
       "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
+ },
+ "CeladonCity_hns": {
+  "map": "CeladonCity_hns",
+  "tables": {
+   "surf": {
+    "day": [
+     {
+      "id": "SPECIES_GRIMER",
+      "min": 46,
+      "max": 48,
+      "rate": 99
+     },
+     {
+      "id": "SPECIES_MUK",
+      "min": 46,
+      "max": 46,
+      "rate": 1
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_GRIMER",
+      "min": 46,
+      "max": 48,
+      "rate": 99
+     },
+     {
+      "id": "SPECIES_MUK",
+      "min": 46,
+      "max": 46,
+      "rate": 1
      }
     ]
    },
@@ -17890,11 +17940,67 @@
   "src": "gWildMonHeaders[103] @ 0x8ffa6b0",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
    "old-rod": 0,
    "good-rod": 0,
    "super-rod": 0
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ],
+    "night": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "FuchsiaCity_hns": {
   "map": "FuchsiaCity_hns",
@@ -17917,7 +18023,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -18053,7 +18159,7 @@
   "src": "gWildMonHeaders[104] @ 0x8ffa704",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -18092,7 +18198,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -18252,7 +18358,7 @@
   "src": "gWildMonHeaders[105] @ 0x8ffa758",
   "density": {
    "surf": 7,
-   "rock-smash": 60,
+   "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -18782,7 +18888,7 @@
  "Mahoganytown_hns": {
   "map": "Mahoganytown_hns",
   "tables": {
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_AIPOM",
@@ -18807,7 +18913,7 @@
   },
   "src": "gWildMonHeaders[113] @ 0x8ffa9f8",
   "density": {
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "SeafoamIslands_B1F_hns": {
@@ -21062,7 +21168,7 @@
  "AzaleaTown_hns": {
   "map": "AzaleaTown_hns",
   "tables": {
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -21093,13 +21199,13 @@
   },
   "src": "gWildMonHeaders[139] @ 0x8ffb280",
   "density": {
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "GoldenrodCity_hns": {
   "map": "GoldenrodCity_hns",
   "tables": {
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -21130,13 +21236,13 @@
   },
   "src": "gWildMonHeaders[140] @ 0x8ffb2d4",
   "density": {
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "SafariZoneGate_hns": {
   "map": "SafariZoneGate_hns",
   "tables": {
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_PINECO",
@@ -21167,40 +21273,12 @@
   },
   "src": "gWildMonHeaders[141] @ 0x8ffb328",
   "density": {
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "PalletTown_hns": {
   "map": "PalletTown_hns",
   "tables": {
-   "rock-smash": {
-    "day": [
-     {
-      "id": "SPECIES_PINECO",
-      "min": 41,
-      "max": 43,
-      "rate": 60
-     },
-     {
-      "id": "SPECIES_EXEGGCUTE",
-      "min": 41,
-      "max": 43,
-      "rate": 30
-     },
-     {
-      "id": "SPECIES_SPINARAK",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     },
-     {
-      "id": "SPECIES_LEDYBA",
-      "min": 41,
-      "max": 43,
-      "rate": 5
-     }
-    ]
-   },
    "old-rod": {
     "day": [
      {
@@ -21258,15 +21336,48 @@
   },
   "src": "gWildMonHeaders[142] @ 0x8ffb37c",
   "density": {
-   "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
-  }
+  },
+  "unavailable_tables": {
+   "rock-smash": {
+    "day": [
+     {
+      "id": "SPECIES_PINECO",
+      "min": 41,
+      "max": 43,
+      "rate": 60
+     },
+     {
+      "id": "SPECIES_EXEGGCUTE",
+      "min": 41,
+      "max": 43,
+      "rate": 30
+     },
+     {
+      "id": "SPECIES_SPINARAK",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     },
+     {
+      "id": "SPECIES_LEDYBA",
+      "min": 41,
+      "max": 43,
+      "rate": 5
+     }
+    ]
+   }
+  },
+  "unavailable_density": 60
  },
  "PewterCity_hns": {
   "map": "PewterCity_hns",
-  "tables": {
+  "tables": {},
+  "src": "gWildMonHeaders[143] @ 0x8ffb3d0",
+  "density": {},
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -21296,14 +21407,14 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[143] @ 0x8ffb3d0",
-  "density": {
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "LavenderTown_hns": {
   "map": "LavenderTown_hns",
-  "tables": {
+  "tables": {},
+  "src": "gWildMonHeaders[144] @ 0x8ffb424",
+  "density": {},
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -21333,14 +21444,14 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[144] @ 0x8ffb424",
-  "density": {
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "SaffronCity_hns": {
   "map": "SaffronCity_hns",
-  "tables": {
+  "tables": {},
+  "src": "gWildMonHeaders[145] @ 0x8ffb478",
+  "density": {},
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -21370,10 +21481,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[145] @ 0x8ffb478",
-  "density": {
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "WhirlIslands_B1F_Inner_hns": {
   "map": "WhirlIslands_B1F_Inner_hns",
@@ -23036,7 +23144,7 @@
      }
     ]
    },
-   "rock-smash": {
+   "headbutt": {
     "day": [
      {
       "id": "SPECIES_SCYTHER",
@@ -23068,7 +23176,7 @@
   "src": "gWildMonHeaders[162] @ 0x8ffba0c",
   "density": {
    "walk": 20,
-   "rock-smash": 60
+   "headbutt": 60
   }
  },
  "NewSinjoh_hns": {
@@ -23479,7 +23587,13 @@
       "rate": 5
      }
     ]
-   },
+   }
+  },
+  "src": "gWildMonHeaders[167] @ 0x8ffbbb0",
+  "density": {
+   "walk": 20
+  },
+  "unavailable_tables": {
    "rock-smash": {
     "day": [
      {
@@ -23535,11 +23649,7 @@
     ]
    }
   },
-  "src": "gWildMonHeaders[167] @ 0x8ffbbb0",
-  "density": {
-   "walk": 20,
-   "rock-smash": 60
-  }
+  "unavailable_density": 60
  },
  "Route101": {
   "map": "Route101",

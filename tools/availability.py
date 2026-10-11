@@ -7,7 +7,7 @@ The public Pokédex must list Pokémon obtainable in the approved build, not eve
 This tool decides that from evidence and writes data/availability.json plus AVAILABILITY-AUDIT.md.
 
 Evidence, in the order it is gathered:
-  1. Wild tables of the shipped ROM (data/rom/encounters.json: land, Surf, Rock Smash, three rods, four times of day),
+  1. Wild tables of the shipped ROM (data/rom/encounters.json: land, Surf, Headbutt, Rock Smash, three rods, four times of day),
      counted only on maps that can be reached from the player's bedroom through warps, map connections and script warps.
   2. Event scripts the ROM was built from (H&S map scripts, shared scripts, the Hoenn overlay): gift Pokémon, eggs,
      fixed and boss encounters; in-game trades a script actually starts; roamers; the regional-form converter in Bill's house.

@@ -1,0 +1,1068 @@
+{
+ "build": {
+  "version": "v115",
+  "public": "v1.2",
+  "folder": "../output/project-blonde-v1.2-hotfix-v115-20261011",
+  "rom": "Pokemon - Project Blonde.gba",
+  "sha256": "b15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22eb",
+  "symbols": "qa/natural-run-v102/harness/sym-v84.json"
+ },
+ "verification": "ROM tables, metatile behaviours and object scripts; not a gameplay test",
+ "maps": {
+  "Route29_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 27,
+   "first_headbutt_tile": [
+    19,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbd10",
+   "layout": "0x912ad2c",
+   "table": "gWildMonHeaders[0] @ 0x8ff84e4"
+  },
+  "Route46_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbeec",
+   "layout": "0x91435c0",
+   "table": "gWildMonHeaders[1] @ 0x8ff8538"
+  },
+  "Route30_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 86,
+   "first_headbutt_tile": [
+    45,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbd2c",
+   "layout": "0x912c8c0",
+   "table": "gWildMonHeaders[2] @ 0x8ff858c"
+  },
+  "Route31_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 36,
+   "first_headbutt_tile": [
+    24,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbd48",
+   "layout": "0x912d5d4",
+   "table": "gWildMonHeaders[3] @ 0x8ff85e0"
+  },
+  "Route36_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 93,
+   "first_headbutt_tile": [
+    32,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbdd4",
+   "layout": "0x91351c8",
+   "table": "gWildMonHeaders[7] @ 0x8ff8730"
+  },
+  "RuinsOfAlph_Outside_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 22,
+   "first_headbutt_tile": [
+    23,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91ddd8c",
+   "layout": "0x914aa34",
+   "table": "gWildMonHeaders[9] @ 0x8ff87d8"
+  },
+  "Route32_hns": {
+   "methods": [
+    "headbutt",
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 32,
+   "first_headbutt_tile": [
+    19,
+    20
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 1,
+   "first_rock_smash_object": [
+    27,
+    97
+   ],
+   "map_header": "0x91dbd64",
+   "layout": "0x912f7c4",
+   "table": "gWildMonHeaders[10] @ 0x8ff882c"
+  },
+  "Route33_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 1,
+   "first_headbutt_tile": [
+    0,
+    10
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbd80",
+   "layout": "0x913070c",
+   "table": "gWildMonHeaders[14] @ 0x8ff897c"
+  },
+  "IlexForest_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 210,
+   "first_headbutt_tile": [
+    65,
+    4
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dde6c",
+   "layout": "0x90fecf4",
+   "table": "gWildMonHeaders[17] @ 0x8ff8a78"
+  },
+  "Route34_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 9,
+   "first_headbutt_tile": [
+    26,
+    26
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbd9c",
+   "layout": "0x9133160",
+   "table": "gWildMonHeaders[18] @ 0x8ff8acc"
+  },
+  "Route35_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 69,
+   "first_headbutt_tile": [
+    30,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbdb8",
+   "layout": "0x913422c",
+   "table": "gWildMonHeaders[19] @ 0x8ff8b20"
+  },
+  "Route37_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbdf0",
+   "layout": "0x9136004",
+   "table": "gWildMonHeaders[21] @ 0x8ff8bc8"
+  },
+  "Route38_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 18,
+   "first_headbutt_tile": [
+    5,
+    11
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbe0c",
+   "layout": "0x9137478",
+   "table": "gWildMonHeaders[24] @ 0x8ff8cc4"
+  },
+  "Route39_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 17,
+   "first_headbutt_tile": [
+    26,
+    31
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbe28",
+   "layout": "0x913857c",
+   "table": "gWildMonHeaders[25] @ 0x8ff8d18"
+  },
+  "Route47_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 4,
+   "first_headbutt_tile": [
+    39,
+    9
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf08",
+   "layout": "0x9146f14",
+   "table": "gWildMonHeaders[32] @ 0x8ff8f64"
+  },
+  "Route48_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 11,
+   "first_headbutt_tile": [
+    35,
+    3
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf24",
+   "layout": "0x9147cf8",
+   "table": "gWildMonHeaders[33] @ 0x8ff8fb8"
+  },
+  "CliffEdgeCave_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 10,
+   "first_rock_smash_object": [
+    21,
+    25
+   ],
+   "map_header": "0x91de5dc",
+   "layout": "0x90dc9a0",
+   "table": "gWildMonHeaders[34] @ 0x8ff900c"
+  },
+  "Route42_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 28,
+   "first_headbutt_tile": [
+    16,
+    8
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbe7c",
+   "layout": "0x913e388",
+   "table": "gWildMonHeaders[35] @ 0x8ff9060"
+  },
+  "Route43_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 45,
+   "first_headbutt_tile": [
+    10,
+    3
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbe98",
+   "layout": "0x913f1c0",
+   "table": "gWildMonHeaders[40] @ 0x8ff9204"
+  },
+  "LakeOfRage_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 71,
+   "first_headbutt_tile": [
+    36,
+    1
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91ddf84",
+   "layout": "0x9100d8c",
+   "table": "gWildMonHeaders[41] @ 0x8ff9258"
+  },
+  "Route44_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 15,
+   "first_headbutt_tile": [
+    34,
+    6
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbeb4",
+   "layout": "0x91407d4",
+   "table": "gWildMonHeaders[42] @ 0x8ff92ac"
+  },
+  "Route45_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 16,
+   "first_headbutt_tile": [
+    22,
+    79
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbed0",
+   "layout": "0x9142be8",
+   "table": "gWildMonHeaders[49] @ 0x8ff94f8"
+  },
+  "MtSilver_Outside_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 20,
+   "first_headbutt_tile": [
+    21,
+    12
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91de4c4",
+   "layout": "0x911421c",
+   "table": "gWildMonHeaders[51] @ 0x8ff95a0"
+  },
+  "MtSilver_MountainSide_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 58,
+   "first_headbutt_tile": [
+    32,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91de534",
+   "layout": "0x9113598",
+   "table": "gWildMonHeaders[55] @ 0x8ff96f0"
+  },
+  "Route27_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 22,
+   "first_headbutt_tile": [
+    76,
+    23
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc368",
+   "layout": "0x912863c",
+   "table": "gWildMonHeaders[57] @ 0x8ff9798"
+  },
+  "Route26_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 7,
+   "first_headbutt_tile": [
+    23,
+    7
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc330",
+   "layout": "0x9124880",
+   "table": "gWildMonHeaders[58] @ 0x8ff97ec"
+  },
+  "Route4_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc0ac",
+   "layout": "0x91a090c",
+   "table": "gWildMonHeaders[62] @ 0x8ff993c"
+  },
+  "Route5_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc0c8",
+   "layout": "0x91a21a0",
+   "table": "gWildMonHeaders[63] @ 0x8ff9990"
+  },
+  "Route6_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 1,
+   "first_headbutt_tile": [
+    28,
+    5
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc0e4",
+   "layout": "0x91a337c",
+   "table": "gWildMonHeaders[64] @ 0x8ff99e4"
+  },
+  "Route7_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc100",
+   "layout": "0x91a3800",
+   "table": "gWildMonHeaders[65] @ 0x8ff9a38"
+  },
+  "Route8_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc11c",
+   "layout": "0x91a4d64",
+   "table": "gWildMonHeaders[66] @ 0x8ff9a8c"
+  },
+  "Route9_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc138",
+   "layout": "0x91a6c00",
+   "table": "gWildMonHeaders[67] @ 0x8ff9ae0"
+  },
+  "Route10_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc154",
+   "layout": "0x9189f10",
+   "table": "gWildMonHeaders[68] @ 0x8ff9b34"
+  },
+  "Route11_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 14,
+   "first_headbutt_tile": [
+    1,
+    26
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc170",
+   "layout": "0x918b5b4",
+   "table": "gWildMonHeaders[71] @ 0x8ff9c30"
+  },
+  "Route12_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 2,
+   "first_headbutt_tile": [
+    2,
+    74
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc18c",
+   "layout": "0x918d090",
+   "table": "gWildMonHeaders[72] @ 0x8ff9c84"
+  },
+  "Route13_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc1a8",
+   "layout": "0x918eab4",
+   "table": "gWildMonHeaders[73] @ 0x8ff9cd8"
+  },
+  "Route1_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc058",
+   "layout": "0x9197744",
+   "table": "gWildMonHeaders[82] @ 0x8ff9fcc"
+  },
+  "Route2_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc074",
+   "layout": "0x919eac4",
+   "table": "gWildMonHeaders[83] @ 0x8ffa020"
+  },
+  "Route3_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc090",
+   "layout": "0x919f808",
+   "table": "gWildMonHeaders[84] @ 0x8ffa074"
+  },
+  "Route28_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 15,
+   "first_headbutt_tile": [
+    4,
+    10
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc384",
+   "layout": "0x9129a60",
+   "table": "gWildMonHeaders[91] @ 0x8ffa2c0"
+  },
+  "NewBarkTown_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 22,
+   "first_headbutt_tile": [
+    4,
+    1
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbbdc",
+   "layout": "0x9119bdc",
+   "table": "gWildMonHeaders[92] @ 0x8ffa314"
+  },
+  "CherrygroveCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 5,
+   "first_headbutt_tile": [
+    50,
+    2
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbbf8",
+   "layout": "0x90d9ae8",
+   "table": "gWildMonHeaders[93] @ 0x8ffa368"
+  },
+  "VioletCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 58,
+   "first_headbutt_tile": [
+    4,
+    2
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbc14",
+   "layout": "0x916c70c",
+   "table": "gWildMonHeaders[94] @ 0x8ffa3bc"
+  },
+  "EcruteakCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbc68",
+   "layout": "0x90e78ac",
+   "table": "gWildMonHeaders[95] @ 0x8ffa410"
+  },
+  "OlivineCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 59,
+   "first_headbutt_tile": [
+    0,
+    0
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbc84",
+   "layout": "0x911c6f8",
+   "table": "gWildMonHeaders[96] @ 0x8ffa464"
+  },
+  "CianwoodCity_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 6,
+   "first_rock_smash_object": [
+    10,
+    26
+   ],
+   "map_header": "0x91dbca0",
+   "layout": "0x90db2ac",
+   "table": "gWildMonHeaders[98] @ 0x8ffa50c"
+  },
+  "BlackthornCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbcf4",
+   "layout": "0x90d4064",
+   "table": "gWildMonHeaders[99] @ 0x8ffa560"
+  },
+  "VermilionCity_hns": {
+   "methods": [
+    "headbutt",
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 14,
+   "first_headbutt_tile": [
+    70,
+    29
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 9,
+   "first_rock_smash_object": [
+    50,
+    12
+   ],
+   "map_header": "0x91dbfb0",
+   "layout": "0x91ae8f4",
+   "table": "gWildMonHeaders[100] @ 0x8ffa5b4"
+  },
+  "CeruleanCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf94",
+   "layout": "0x917e67c",
+   "table": "gWildMonHeaders[102] @ 0x8ffa65c"
+  },
+  "CeladonCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbfe8",
+   "layout": "0x917b75c",
+   "table": "gWildMonHeaders[103] @ 0x8ffa6b0"
+  },
+  "FuchsiaCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 22,
+   "first_headbutt_tile": [
+    13,
+    13
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc020",
+   "layout": "0x918146c",
+   "table": "gWildMonHeaders[104] @ 0x8ffa704"
+  },
+  "ViridianCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 8,
+   "first_headbutt_tile": [
+    11,
+    34
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf5c",
+   "layout": "0x91b0100",
+   "table": "gWildMonHeaders[105] @ 0x8ffa758"
+  },
+  "Mahoganytown_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 7,
+   "first_headbutt_tile": [
+    18,
+    5
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbcd8",
+   "layout": "0x9103ca4",
+   "table": "gWildMonHeaders[113] @ 0x8ffa9f8"
+  },
+  "CeruleanCave_1F_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 9,
+   "first_rock_smash_object": [
+    16,
+    21
+   ],
+   "map_header": "0x91de3ac",
+   "layout": "0x917c0c8",
+   "table": "gWildMonHeaders[115] @ 0x8ffaaa0"
+  },
+  "CeruleanCave_B1F_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 10,
+   "first_rock_smash_object": [
+    5,
+    13
+   ],
+   "map_header": "0x91de3c8",
+   "layout": "0x917c920",
+   "table": "gWildMonHeaders[116] @ 0x8ffaaf4"
+  },
+  "CeruleanCave_B2F_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 5,
+   "first_rock_smash_object": [
+    14,
+    6
+   ],
+   "map_header": "0x91de3e4",
+   "layout": "0x90d820c",
+   "table": "gWildMonHeaders[117] @ 0x8ffab48"
+  },
+  "AzaleaTown_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 10,
+   "first_headbutt_tile": [
+    46,
+    4
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbc30",
+   "layout": "0x90cedb8",
+   "table": "gWildMonHeaders[139] @ 0x8ffb280"
+  },
+  "GoldenrodCity_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 4,
+   "first_headbutt_tile": [
+    48,
+    4
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbc4c",
+   "layout": "0x90f046c",
+   "table": "gWildMonHeaders[140] @ 0x8ffb2d4"
+  },
+  "SafariZoneGate_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 5,
+   "first_headbutt_tile": [
+    9,
+    9
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbcbc",
+   "layout": "0x914f794",
+   "table": "gWildMonHeaders[141] @ 0x8ffb328"
+  },
+  "PalletTown_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf40",
+   "layout": "0x91821a8",
+   "table": "gWildMonHeaders[142] @ 0x8ffb37c"
+  },
+  "PewterCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbf78",
+   "layout": "0x918399c",
+   "table": "gWildMonHeaders[143] @ 0x8ffb3d0"
+  },
+  "LavenderTown_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dbfcc",
+   "layout": "0x9181dc4",
+   "table": "gWildMonHeaders[144] @ 0x8ffb424"
+  },
+  "SaffronCity_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91dc004",
+   "layout": "0x91a8e50",
+   "table": "gWildMonHeaders[145] @ 0x8ffb478"
+  },
+  "SnowsweptCavern_hns": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 10,
+   "first_rock_smash_object": [
+    24,
+    66
+   ],
+   "map_header": "0x91de940",
+   "layout": "0x91cd994",
+   "table": "gWildMonHeaders[159] @ 0x8ffb910"
+  },
+  "Route50_hns": {
+   "methods": [
+    "headbutt"
+   ],
+   "headbutt_tile_count": 116,
+   "first_headbutt_tile": [
+    28,
+    1
+   ],
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91de994",
+   "layout": "0x91d55d8",
+   "table": "gWildMonHeaders[162] @ 0x8ffba0c"
+  },
+  "SinjohRuins_hns": {
+   "methods": [],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 0,
+   "first_rock_smash_object": null,
+   "map_header": "0x91de9cc",
+   "layout": "0x91d7348",
+   "table": "gWildMonHeaders[167] @ 0x8ffbbb0"
+  },
+  "GraniteCave_B2F": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 7,
+   "first_rock_smash_object": [
+    5,
+    14
+   ],
+   "map_header": "0x91e2df0",
+   "layout": "0x9d944c0",
+   "table": "gWildMonHeaders[184] @ 0x8ffc144"
+  },
+  "Route111": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 2,
+   "first_rock_smash_object": [
+    18,
+    101
+   ],
+   "map_header": "0x91e32f8",
+   "layout": "0x9d940a4",
+   "table": "gWildMonHeaders[189] @ 0x8ffc2e8"
+  },
+  "Route114": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 5,
+   "first_rock_smash_object": [
+    12,
+    43
+   ],
+   "map_header": "0x91e3534",
+   "layout": "0x9d93f68",
+   "table": "gWildMonHeaders[193] @ 0x8ffc438"
+  },
+  "VictoryRoad_B1F": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 6,
+   "first_rock_smash_object": [
+    19,
+    5
+   ],
+   "map_header": "0x91e4bec",
+   "layout": "0x9d925b8",
+   "table": "gWildMonHeaders[255] @ 0x8ffd890"
+  },
+  "SafariZone_North": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 6,
+   "first_rock_smash_object": [
+    25,
+    10
+   ],
+   "map_header": "0x91e500c",
+   "layout": "0x9d91f04",
+   "table": "gWildMonHeaders[272] @ 0x8ffde24"
+  },
+  "SafariZone_Northeast": {
+   "methods": [
+    "rock-smash"
+   ],
+   "headbutt_tile_count": 0,
+   "first_headbutt_tile": null,
+   "headbutt_objects": [],
+   "rock_smash_object_count": 5,
+   "first_rock_smash_object": [
+    11,
+    11
+   ],
+   "map_header": "0x91e50e8",
+   "layout": "0x9d91e38",
+   "table": "gWildMonHeaders[275] @ 0x8ffdf20"
+  }
+ }
+}

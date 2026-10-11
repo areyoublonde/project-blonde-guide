@@ -460,7 +460,11 @@ def main():
     dump = lambda name, obj: (OUT / name).write_text(json.dumps(obj, indent=1, ensure_ascii=False))
     dump("world.json", world)
     dump("trainers.json", trainers)
+    from field_encounters import resolve
+    field_evidence = resolve(R, enc, world)
     dump("encounters.json", enc)
+    dump("field-encounters.json", {"build": BUILD,
+         "verification": "ROM tables, metatile behaviours and object scripts; not a gameplay test", "maps": field_evidence})
     dump("sections.json", {"names": secs, "coords": coords})
     dump("gives.json", gives)
     dump("marts.json", marts)

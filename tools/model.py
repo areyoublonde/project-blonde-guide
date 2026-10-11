@@ -41,7 +41,7 @@ MEGA_SRC = J(CONTENT / "mega-stones.json") if (CONTENT / "mega-stones.json").exi
 TYPE_COLOR = {"Normal": "#9a9a7a", "Fire": "#d9652b", "Water": "#4f8fd0", "Grass": "#5a9a3e", "Electric": "#c9a21a", "Ice": "#5fb3b3",
               "Fighting": "#b8473e", "Poison": "#9b4faa", "Ground": "#b08a3c", "Flying": "#8d84d9", "Psychic": "#d6497c", "Bug": "#8a9a1f",
               "Rock": "#9a8236", "Ghost": "#7d6aaa", "Dragon": "#6a4fe0", "Dark": "#6b5a52", "Steel": "#8a8aa3", "Fairy": "#c9739a"}
-METHOD = {"walk": "Walking", "surf": "Surfing", "rock-smash": "Rock Smash", "old-rod": "Old Rod", "good-rod": "Good Rod", "super-rod": "Super Rod"}
+METHOD = {"walk": "Walking", "surf": "Surfing", "headbutt": "Headbutt", "rock-smash": "Rock Smash", "old-rod": "Old Rod", "good-rod": "Good Rod", "super-rod": "Super Rod"}
 TODS = ["morning", "day", "evening", "night"]
 REGION_NAME = {"johto": "Johto", "kanto": "Kanto", "hoenn": "Hoenn", "alola": "Alola isles", "sinjoh": "Sinjoh", "far": "Far-off places"}
 SMALL = {"Of", "The", "And", "To", "In", "On", "At"}

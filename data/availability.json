@@ -2926,14 +2926,14 @@
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
@@ -3125,14 +3125,14 @@
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
@@ -3663,14 +3663,14 @@
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
@@ -4280,6 +4280,20 @@
      "kind": "wild",
      "where": "Route 32",
      "map": "Route32_hns",
+     "detail": "headbutt, day, Lv. 10–10, 10%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
+     "detail": "headbutt, night, Lv. 10–10, 10%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
      "detail": "rock-smash, day, Lv. 10–10, 10%",
      "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
     },
@@ -4308,14 +4322,14 @@
      "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 10%",
+     "detail": "headbutt, day, Lv. 10–10, 10%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
      "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 10%",
+     "detail": "headbutt, night, Lv. 10–10, 10%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
@@ -4329,14 +4343,14 @@
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 10%",
+     "detail": "headbutt, day, Lv. 10–10, 10%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 10%",
+     "detail": "headbutt, night, Lv. 10–10, 10%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
@@ -4374,7 +4388,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 13
+   "n_sources": 15
   },
   "SPECIES_ARBOK": {
    "status": "obtainable",
@@ -7055,21 +7069,21 @@
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 10%",
+     "detail": "headbutt, day, Lv. 20–20, 10%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 10%",
+     "detail": "headbutt, night, Lv. 20–20, 10%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Lake Of Rage",
      "map": "LakeOfRage_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 10%",
+     "detail": "headbutt, day, Lv. 20–20, 10%",
      "evidence": "gWildMonHeaders[41] @ 0x8ff9258"
     },
     {
@@ -9667,14 +9681,14 @@
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
@@ -10819,6 +10833,20 @@
      "kind": "wild",
      "where": "Vermilion City",
      "map": "VermilionCity_hns",
+     "detail": "headbutt, day, Lv. 42–46, 95%",
+     "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
+    },
+    {
+     "kind": "wild",
+     "where": "Vermilion City",
+     "map": "VermilionCity_hns",
+     "detail": "headbutt, night, Lv. 42–46, 95%",
+     "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
+    },
+    {
+     "kind": "wild",
+     "where": "Vermilion City",
+     "map": "VermilionCity_hns",
      "detail": "rock-smash, day, Lv. 42–46, 95%",
      "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
     },
@@ -10884,20 +10912,6 @@
      "map": "SnowsweptCavern_hns",
      "detail": "rock-smash, day, Lv. 50–60, 30%",
      "evidence": "gWildMonHeaders[159] @ 0x8ffb910"
-    },
-    {
-     "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, day, Lv. 45–50, 60%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, night, Lv. 45–50, 60%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
     },
     {
      "kind": "wild",
@@ -11208,20 +11222,6 @@
     },
     {
      "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, day, Lv. 45–50, 30%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, night, Lv. 45–50, 30%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
      "where": "Magma Hideout 1F",
      "map": "MagmaHideout_1F",
      "detail": "walk, morning, Lv. 78–83, 15%",
@@ -11496,7 +11496,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 55
+   "n_sources": 53
   },
   "SPECIES_GOLEM": {
    "status": "obtainable",
@@ -14488,62 +14488,76 @@
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 32",
      "map": "Route32_hns",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
      "detail": "rock-smash, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
     },
@@ -14558,351 +14572,254 @@
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 30%",
+     "detail": "headbutt, day, Lv. 15–15, 30%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 30%",
+     "detail": "headbutt, day, Lv. 15–15, 30%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 30%",
+     "detail": "headbutt, day, Lv. 20–20, 30%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 30%",
+     "detail": "headbutt, night, Lv. 20–20, 30%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Lake Of Rage",
      "map": "LakeOfRage_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 30%",
+     "detail": "headbutt, day, Lv. 20–20, 30%",
      "evidence": "gWildMonHeaders[41] @ 0x8ff9258"
     },
     {
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
      "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
+     "detail": "headbutt, day, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
+     "detail": "headbutt, night, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
+     "detail": "headbutt, day, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
+     "detail": "headbutt, night, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
+     "detail": "headbutt, day, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
+     "detail": "headbutt, night, Lv. 41–43, 30%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 30%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
-    },
-    {
-     "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
-    },
-    {
-     "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
     },
     {
      "kind": "wild",
      "where": "Olivine City",
      "map": "OlivineCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
+    },
+    {
+     "kind": "wild",
+     "where": "Olivine City",
+     "map": "OlivineCity_hns",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
+    },
+    {
+     "kind": "wild",
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 30%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
+    },
+    {
+     "kind": "wild",
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 30%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 30%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 30%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Top Right",
+     "map": "SafariZone_Top_Right_hns",
+     "detail": "walk, day, Lv. 19–26, 15%",
+     "evidence": "gWildMonHeaders[131] @ 0x8ffafe0"
+    },
+    {
+     "kind": "wild",
+     "where": "Goldenrod City",
+     "map": "GoldenrodCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[140] @ 0x8ffb2d4"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Gate",
+     "map": "SafariZoneGate_hns",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[141] @ 0x8ffb328"
+    },
+    {
+     "kind": "wild",
+     "where": "Poni Isle",
+     "map": "PoniIsle_hns",
+     "detail": "walk, day, Lv. 43–45, 25%",
+     "evidence": "gWildMonHeaders[150] @ 0x8ffb61c"
+    },
+    {
+     "kind": "breeding",
+     "where": "Day Care",
+     "map": null,
+     "from": "SPECIES_EXEGGCUTE",
+     "detail": "Day Care egg",
+     "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
    ],
    "kinds": [
@@ -14918,7 +14835,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 78
+   "n_sources": 48
   },
   "SPECIES_EXEGGUTOR": {
    "status": "obtainable",
@@ -17342,42 +17259,42 @@
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
@@ -17419,7 +17336,7 @@
      "kind": "wild",
      "where": "Route 50",
      "map": "Route50_hns",
-     "detail": "rock-smash, day, Lv. 45–60, 60%",
+     "detail": "headbutt, day, Lv. 45–60, 60%",
      "evidence": "gWildMonHeaders[162] @ 0x8ffba0c"
     },
     {
@@ -20051,14 +19968,14 @@
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
@@ -20072,14 +19989,14 @@
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
@@ -20093,253 +20010,127 @@
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
      "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
     },
     {
      "kind": "wild",
@@ -20350,122 +20141,137 @@
     },
     {
      "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
-    },
-    {
-     "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
-    },
-    {
-     "kind": "wild",
      "where": "Olivine City",
      "map": "OlivineCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
     },
     {
      "kind": "wild",
      "where": "Olivine City",
      "map": "OlivineCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
     },
     {
      "kind": "wild",
-     "where": "Cerulean City",
-     "map": "CeruleanCity_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[102] @ 0x8ffa65c"
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
     },
     {
      "kind": "wild",
-     "where": "Cerulean City",
-     "map": "CeruleanCity_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[102] @ 0x8ffa65c"
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
     },
     {
      "kind": "wild",
-     "where": "Celadon City",
-     "map": "CeladonCity_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[103] @ 0x8ffa6b0"
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Goldenrod City",
+     "map": "GoldenrodCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
+     "evidence": "gWildMonHeaders[140] @ 0x8ffb2d4"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Gate",
+     "map": "SafariZoneGate_hns",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
+     "evidence": "gWildMonHeaders[141] @ 0x8ffb328"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, morning, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, day, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, evening, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, night, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "breeding",
+     "where": "Day Care",
+     "map": null,
+     "from": "SPECIES_LEDYBA",
+     "detail": "Day Care egg",
+     "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
    ],
    "kinds": [
@@ -20481,7 +20287,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 76
+   "n_sources": 44
   },
   "SPECIES_LEDIAN": {
    "status": "obtainable",
@@ -20531,14 +20337,14 @@
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
@@ -20552,14 +20358,14 @@
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
@@ -20573,56 +20379,56 @@
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
@@ -20641,185 +20447,73 @@
     },
     {
      "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
     },
     {
      "kind": "wild",
@@ -20830,122 +20524,144 @@
     },
     {
      "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 2",
-     "map": "Route2_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[83] @ 0x8ffa020"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 3",
-     "map": "Route3_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[84] @ 0x8ffa074"
-    },
-    {
-     "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "New Bark Town",
      "map": "NewBarkTown_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
     },
     {
      "kind": "wild",
      "where": "Cherrygrove City",
      "map": "CherrygroveCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
      "where": "Violet City",
      "map": "VioletCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[94] @ 0x8ffa3bc"
     },
     {
      "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
-    },
-    {
-     "kind": "wild",
-     "where": "Ecruteak City",
-     "map": "EcruteakCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
-     "evidence": "gWildMonHeaders[95] @ 0x8ffa410"
-    },
-    {
-     "kind": "wild",
      "where": "Olivine City",
      "map": "OlivineCity_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
     },
     {
      "kind": "wild",
      "where": "Olivine City",
      "map": "OlivineCity_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 5%",
+     "detail": "headbutt, night, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
     },
     {
      "kind": "wild",
-     "where": "Cerulean City",
-     "map": "CeruleanCity_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[102] @ 0x8ffa65c"
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
     },
     {
      "kind": "wild",
-     "where": "Cerulean City",
-     "map": "CeruleanCity_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[102] @ 0x8ffa65c"
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
     },
     {
      "kind": "wild",
-     "where": "Celadon City",
-     "map": "CeladonCity_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[103] @ 0x8ffa6b0"
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 5%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Azalea Town",
+     "map": "AzaleaTown_hns",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
+     "evidence": "gWildMonHeaders[139] @ 0x8ffb280"
+    },
+    {
+     "kind": "wild",
+     "where": "Goldenrod City",
+     "map": "GoldenrodCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
+     "evidence": "gWildMonHeaders[140] @ 0x8ffb2d4"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Gate",
+     "map": "SafariZoneGate_hns",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
+     "evidence": "gWildMonHeaders[141] @ 0x8ffb328"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Southeast",
+     "map": "SafariZone_Southeast",
+     "detail": "walk, morning, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[276] @ 0x8ffdf74"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Southeast",
+     "map": "SafariZone_Southeast",
+     "detail": "walk, day, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[276] @ 0x8ffdf74"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Southeast",
+     "map": "SafariZone_Southeast",
+     "detail": "walk, evening, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[276] @ 0x8ffdf74"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Southeast",
+     "map": "SafariZone_Southeast",
+     "detail": "walk, night, Lv. 80–85, 10%",
+     "evidence": "gWildMonHeaders[276] @ 0x8ffdf74"
+    },
+    {
+     "kind": "breeding",
+     "where": "Day Care",
+     "map": null,
+     "from": "SPECIES_SPINARAK",
+     "detail": "Day Care egg",
+     "evidence": "ROM egg groups and evolution table; Day Care on Route117_PokemonDayCare, Route34_DayCare_hns"
     }
    ],
    "kinds": [
@@ -20961,7 +20677,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 77
+   "n_sources": 47
   },
   "SPECIES_ARIADOS": {
    "status": "obtainable",
@@ -22735,107 +22451,79 @@
    "methods": [
     {
      "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 35%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 30%",
+     "detail": "headbutt, day, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
      "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 30%",
+     "detail": "headbutt, night, Lv. 10–10, 30%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
      "kind": "wild",
      "where": "Route 47",
      "map": "Route47_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
+     "detail": "headbutt, day, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[32] @ 0x8ff8f64"
     },
     {
      "kind": "wild",
      "where": "Route 48",
      "map": "Route48_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
+     "detail": "headbutt, day, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[33] @ 0x8ff8fb8"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 35%",
+     "detail": "headbutt, day, Lv. 15–15, 35%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, night, Lv. 15–15, 35%",
+     "detail": "headbutt, night, Lv. 15–15, 35%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
+     "detail": "headbutt, day, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 35%",
+     "detail": "headbutt, night, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 45",
      "map": "Route45_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
+     "detail": "headbutt, day, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[49] @ 0x8ff94f8"
     },
     {
      "kind": "wild",
      "where": "Route 26",
      "map": "Route26_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 35%",
+     "detail": "headbutt, day, Lv. 20–20, 35%",
      "evidence": "gWildMonHeaders[58] @ 0x8ff97ec"
-    },
-    {
-     "kind": "wild",
-     "where": "Blackthorn City",
-     "map": "BlackthornCity_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 90%",
-     "evidence": "gWildMonHeaders[99] @ 0x8ffa560"
-    },
-    {
-     "kind": "wild",
-     "where": "Blackthorn City",
-     "map": "BlackthornCity_hns",
-     "detail": "rock-smash, night, Lv. 15–15, 90%",
-     "evidence": "gWildMonHeaders[99] @ 0x8ffa560"
     },
     {
      "kind": "wild",
      "where": "Mahogany Town",
      "map": "Mahoganytown_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 90%",
+     "detail": "headbutt, day, Lv. 15–15, 90%",
      "evidence": "gWildMonHeaders[113] @ 0x8ffa9f8"
     },
     {
@@ -22877,7 +22565,7 @@
      "kind": "wild",
      "where": "Azalea Town",
      "map": "AzaleaTown_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[139] @ 0x8ffb280"
     },
     {
@@ -22965,7 +22653,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 31
+   "n_sources": 27
   },
   "SPECIES_SUNKERN": {
    "status": "obtainable",
@@ -24457,71 +24145,71 @@
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
      "where": "Route 29",
      "map": "Route29_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[0] @ 0x8ff84e4"
     },
     {
      "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 60%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 30",
      "map": "Route30_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[2] @ 0x8ff858c"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 31",
      "map": "Route31_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[3] @ 0x8ff85e0"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
     },
     {
      "kind": "wild",
      "where": "Route 36",
      "map": "Route36_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[7] @ 0x8ff8730"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
+    },
+    {
+     "kind": "wild",
+     "where": "Route 32",
+     "map": "Route32_hns",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[10] @ 0x8ff882c"
     },
     {
      "kind": "wild",
@@ -24541,337 +24229,337 @@
      "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
      "kind": "wild",
      "where": "Route 33",
      "map": "Route33_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[14] @ 0x8ff897c"
     },
     {
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Ilex Forest",
      "map": "IlexForest_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[17] @ 0x8ff8a78"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 34",
      "map": "Route34_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[18] @ 0x8ff8acc"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
     },
     {
      "kind": "wild",
      "where": "Route 35",
      "map": "Route35_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[19] @ 0x8ff8b20"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 37",
-     "map": "Route37_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
-     "evidence": "gWildMonHeaders[21] @ 0x8ff8bc8"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 60%",
+     "detail": "headbutt, day, Lv. 15–15, 60%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 38",
      "map": "Route38_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[24] @ 0x8ff8cc4"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 60%",
+     "detail": "headbutt, day, Lv. 15–15, 60%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 39",
      "map": "Route39_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[25] @ 0x8ff8d18"
     },
     {
      "kind": "wild",
      "where": "Route 47",
      "map": "Route47_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[32] @ 0x8ff8f64"
     },
     {
      "kind": "wild",
      "where": "Route 48",
      "map": "Route48_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[33] @ 0x8ff8fb8"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 60%",
+     "detail": "headbutt, day, Lv. 15–15, 60%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, night, Lv. 15–15, 60%",
+     "detail": "headbutt, night, Lv. 15–15, 60%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Route 43",
      "map": "Route43_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 60%",
+     "detail": "headbutt, night, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[40] @ 0x8ff9204"
     },
     {
      "kind": "wild",
      "where": "Lake Of Rage",
      "map": "LakeOfRage_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[41] @ 0x8ff9258"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 60%",
+     "detail": "headbutt, night, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 45",
      "map": "Route45_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[49] @ 0x8ff94f8"
     },
     {
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 60%",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
      "kind": "wild",
      "where": "Route 27",
      "map": "Route27_hns",
-     "detail": "rock-smash, night, Lv. 10–10, 60%",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
      "evidence": "gWildMonHeaders[57] @ 0x8ff9798"
     },
     {
      "kind": "wild",
      "where": "Route 26",
      "map": "Route26_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 60%",
+     "detail": "headbutt, day, Lv. 20–20, 60%",
      "evidence": "gWildMonHeaders[58] @ 0x8ff97ec"
     },
     {
      "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 4",
-     "map": "Route4_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[62] @ 0x8ff993c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 5",
-     "map": "Route5_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[63] @ 0x8ff9990"
-    },
-    {
-     "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
+     "detail": "headbutt, day, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
      "where": "Route 6",
      "map": "Route6_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
+     "detail": "headbutt, night, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[64] @ 0x8ff99e4"
     },
     {
      "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 7",
-     "map": "Route7_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[65] @ 0x8ff9a38"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 8",
-     "map": "Route8_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[66] @ 0x8ff9a8c"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 9",
-     "map": "Route9_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[67] @ 0x8ff9ae0"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 10",
-     "map": "Route10_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[68] @ 0x8ff9b34"
-    },
-    {
-     "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
+     "detail": "headbutt, day, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 11",
      "map": "Route11_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
+     "detail": "headbutt, night, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[71] @ 0x8ff9c30"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
+     "detail": "headbutt, day, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
      "where": "Route 12",
      "map": "Route12_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
+     "detail": "headbutt, night, Lv. 41–43, 60%",
      "evidence": "gWildMonHeaders[72] @ 0x8ff9c84"
     },
     {
      "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
+     "where": "New Bark Town",
+     "map": "NewBarkTown_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
+     "where": "New Bark Town",
+     "map": "NewBarkTown_hns",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[92] @ 0x8ffa314"
     },
     {
      "kind": "wild",
-     "where": "Route 1",
-     "map": "Route1_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 60%",
-     "evidence": "gWildMonHeaders[82] @ 0x8ff9fcc"
+     "where": "Cherrygrove City",
+     "map": "CherrygroveCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
+    },
+    {
+     "kind": "wild",
+     "where": "Cherrygrove City",
+     "map": "CherrygroveCity_hns",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[93] @ 0x8ffa368"
+    },
+    {
+     "kind": "wild",
+     "where": "Olivine City",
+     "map": "OlivineCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
+    },
+    {
+     "kind": "wild",
+     "where": "Olivine City",
+     "map": "OlivineCity_hns",
+     "detail": "headbutt, night, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[96] @ 0x8ffa464"
+    },
+    {
+     "kind": "wild",
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 60%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
+    },
+    {
+     "kind": "wild",
+     "where": "Fuchsia City",
+     "map": "FuchsiaCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 60%",
+     "evidence": "gWildMonHeaders[104] @ 0x8ffa704"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, day, Lv. 41–43, 60%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Viridian City",
+     "map": "ViridianCity_hns",
+     "detail": "headbutt, night, Lv. 41–43, 60%",
+     "evidence": "gWildMonHeaders[105] @ 0x8ffa758"
+    },
+    {
+     "kind": "wild",
+     "where": "Mahogany Town",
+     "map": "Mahoganytown_hns",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
+     "evidence": "gWildMonHeaders[113] @ 0x8ffa9f8"
+    },
+    {
+     "kind": "wild",
+     "where": "Azalea Town",
+     "map": "AzaleaTown_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[139] @ 0x8ffb280"
+    },
+    {
+     "kind": "wild",
+     "where": "Goldenrod City",
+     "map": "GoldenrodCity_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[140] @ 0x8ffb2d4"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Gate",
+     "map": "SafariZoneGate_hns",
+     "detail": "headbutt, day, Lv. 10–10, 60%",
+     "evidence": "gWildMonHeaders[141] @ 0x8ffb328"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, morning, Lv. 80–85, 5%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, day, Lv. 80–85, 5%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
+    },
+    {
+     "kind": "wild",
+     "where": "Safari Zone Northeast",
+     "map": "SafariZone_Northeast",
+     "detail": "walk, evening, Lv. 80–85, 5%",
+     "evidence": "gWildMonHeaders[275] @ 0x8ffdf20"
     }
    ],
    "kinds": [
@@ -24887,7 +24575,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 96
+   "n_sources": 62
   },
   "SPECIES_FORRETRESS": {
    "status": "obtainable",
@@ -24896,49 +24584,49 @@
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 60%",
+     "detail": "headbutt, day, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 60%",
+     "detail": "headbutt, night, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 60%",
+     "detail": "headbutt, day, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 60%",
+     "detail": "headbutt, night, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 60%",
+     "detail": "headbutt, day, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 60%",
+     "detail": "headbutt, night, Lv. 40–40, 60%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
      "kind": "wild",
      "where": "Route 50",
      "map": "Route50_hns",
-     "detail": "rock-smash, day, Lv. 45–60, 30%",
+     "detail": "headbutt, day, Lv. 45–60, 30%",
      "evidence": "gWildMonHeaders[162] @ 0x8ffba0c"
     },
     {
@@ -25368,6 +25056,20 @@
      "kind": "wild",
      "where": "Vermilion City",
      "map": "VermilionCity_hns",
+     "detail": "headbutt, day, Lv. 42–46, 5%",
+     "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
+    },
+    {
+     "kind": "wild",
+     "where": "Vermilion City",
+     "map": "VermilionCity_hns",
+     "detail": "headbutt, night, Lv. 42–46, 5%",
+     "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
+    },
+    {
+     "kind": "wild",
+     "where": "Vermilion City",
+     "map": "VermilionCity_hns",
      "detail": "rock-smash, day, Lv. 42–46, 5%",
      "evidence": "gWildMonHeaders[100] @ 0x8ffa5b4"
     },
@@ -25428,149 +25130,121 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 8
+   "n_sources": 10
   },
   "SPECIES_HERACROSS": {
    "status": "obtainable",
    "methods": [
     {
      "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 46",
-     "map": "Route46_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 5%",
-     "evidence": "gWildMonHeaders[1] @ 0x8ff8538"
-    },
-    {
-     "kind": "wild",
      "where": "Route 47",
      "map": "Route47_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
+     "detail": "headbutt, day, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[32] @ 0x8ff8f64"
     },
     {
      "kind": "wild",
      "where": "Route 48",
      "map": "Route48_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
+     "detail": "headbutt, day, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[33] @ 0x8ff8fb8"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 42",
      "map": "Route42_hns",
-     "detail": "rock-smash, night, Lv. 15–15, 5%",
+     "detail": "headbutt, night, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[35] @ 0x8ff9060"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
+     "detail": "headbutt, day, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 44",
      "map": "Route44_hns",
-     "detail": "rock-smash, night, Lv. 20–20, 5%",
+     "detail": "headbutt, night, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[42] @ 0x8ff92ac"
     },
     {
      "kind": "wild",
      "where": "Route 45",
      "map": "Route45_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
+     "detail": "headbutt, day, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[49] @ 0x8ff94f8"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Route 26",
      "map": "Route26_hns",
-     "detail": "rock-smash, day, Lv. 20–20, 5%",
+     "detail": "headbutt, day, Lv. 20–20, 5%",
      "evidence": "gWildMonHeaders[58] @ 0x8ff97ec"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 5%",
+     "detail": "headbutt, day, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 5%",
+     "detail": "headbutt, night, Lv. 40–40, 5%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
-    },
-    {
-     "kind": "wild",
-     "where": "Blackthorn City",
-     "map": "BlackthornCity_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
-     "evidence": "gWildMonHeaders[99] @ 0x8ffa560"
-    },
-    {
-     "kind": "wild",
-     "where": "Blackthorn City",
-     "map": "BlackthornCity_hns",
-     "detail": "rock-smash, night, Lv. 15–15, 5%",
-     "evidence": "gWildMonHeaders[99] @ 0x8ffa560"
     },
     {
      "kind": "wild",
      "where": "Mahogany Town",
      "map": "Mahoganytown_hns",
-     "detail": "rock-smash, day, Lv. 15–15, 5%",
+     "detail": "headbutt, day, Lv. 15–15, 5%",
      "evidence": "gWildMonHeaders[113] @ 0x8ffa9f8"
     },
     {
      "kind": "wild",
      "where": "Azalea Town",
      "map": "AzaleaTown_hns",
-     "detail": "rock-smash, day, Lv. 10–10, 5%",
+     "detail": "headbutt, day, Lv. 10–10, 5%",
      "evidence": "gWildMonHeaders[139] @ 0x8ffb280"
     },
     {
@@ -25638,7 +25312,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 27
+   "n_sources": 23
   },
   "SPECIES_SNEASEL": {
    "status": "obtainable",
@@ -27399,7 +27073,7 @@
      "kind": "wild",
      "where": "Ruins Of Alph Outside",
      "map": "RuinsOfAlph_Outside_hns",
-     "detail": "rock-smash, day, Lv. 30–40, 100%",
+     "detail": "headbutt, day, Lv. 30–40, 100%",
      "evidence": "gWildMonHeaders[9] @ 0x8ff87d8"
     },
     {
@@ -29553,20 +29227,6 @@
     },
     {
      "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, day, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
-     "where": "Route 13",
-     "map": "Route13_hns",
-     "detail": "rock-smash, night, Lv. 41–43, 5%",
-     "evidence": "gWildMonHeaders[73] @ 0x8ff9cd8"
-    },
-    {
-     "kind": "wild",
      "where": "Route 102",
      "map": "Route102",
      "detail": "walk, morning, Lv. 70–73, 1%",
@@ -29678,7 +29338,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 20
+   "n_sources": 18
   },
   "SPECIES_NUZLEAF": {
    "status": "obtainable",
@@ -31329,7 +30989,7 @@
      "kind": "wild",
      "where": "Route 50",
      "map": "Route50_hns",
-     "detail": "rock-smash, day, Lv. 45–60, 5%",
+     "detail": "headbutt, day, Lv. 45–60, 5%",
      "evidence": "gWildMonHeaders[162] @ 0x8ffba0c"
     },
     {
@@ -31988,20 +31648,6 @@
     },
     {
      "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, day, Lv. 45–50, 5%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, night, Lv. 45–50, 5%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
      "where": "Granite Cave B2F",
      "map": "GraniteCave_B2F",
      "detail": "rock-smash, morning, Lv. 72–76, 30%",
@@ -32059,7 +31705,7 @@
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 12
+   "n_sources": 10
   },
   "SPECIES_SKITTY": {
    "status": "obtainable",
@@ -37122,20 +36768,6 @@
     },
     {
      "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, day, Lv. 45–50, 5%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
-     "where": "Sinjoh Ruins",
-     "map": "SinjohRuins_hns",
-     "detail": "rock-smash, night, Lv. 45–50, 5%",
-     "evidence": "gWildMonHeaders[167] @ 0x8ffbbb0"
-    },
-    {
-     "kind": "wild",
      "where": "Route 111",
      "map": "Route111",
      "detail": "walk, morning, Lv. 74–78, 24%",
@@ -37178,13 +36810,12 @@
    "primary": "Wild encounter",
    "regions": [
     "hoenn",
-    "kanto",
-    "sinjoh"
+    "kanto"
    ],
    "in_game_dex": true,
    "reason": null,
    "uncertain": null,
-   "n_sources": 8
+   "n_sources": 6
   },
   "SPECIES_CLAYDOL": {
    "status": "obtainable",
@@ -40371,42 +40002,42 @@
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 30%",
+     "detail": "headbutt, day, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Outside",
      "map": "MtSilver_Outside_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 30%",
+     "detail": "headbutt, night, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[51] @ 0x8ff95a0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 30%",
+     "detail": "headbutt, day, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Mt. Silver Mountain Side",
      "map": "MtSilver_MountainSide_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 30%",
+     "detail": "headbutt, night, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[55] @ 0x8ff96f0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, day, Lv. 40–40, 30%",
+     "detail": "headbutt, day, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
      "kind": "wild",
      "where": "Route 28",
      "map": "Route28_hns",
-     "detail": "rock-smash, night, Lv. 40–40, 30%",
+     "detail": "headbutt, night, Lv. 40–40, 30%",
      "evidence": "gWildMonHeaders[91] @ 0x8ffa2c0"
     },
     {
@@ -46538,7 +46169,7 @@
      "kind": "wild",
      "where": "Route 50",
      "map": "Route50_hns",
-     "detail": "rock-smash, day, Lv. 45–60, 5%",
+     "detail": "headbutt, day, Lv. 45–60, 5%",
      "evidence": "gWildMonHeaders[162] @ 0x8ffba0c"
     },
     {

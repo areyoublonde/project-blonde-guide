@@ -36,6 +36,8 @@ jobs:
         run: python3 tools/qa_pokemon_data.py
       - name: Check every link and asset
         run: python3 tools/qa_static.py --base "${{ steps.pages.outputs.base_path }}"
+      - name: Check Headbutt and Rock Smash encounters
+        run: python3 tools/qa_field_encounters.py
       # Every major story line must be on the road or be a listed gap (content/storylines.json)
       - name: Check story coverage
         run: python3 tools/qa_story.py

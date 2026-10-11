@@ -27,7 +27,7 @@ The total was not chosen in advance. It is what the evidence below produces, and
 ## How availability is decided
 
 1. **Reachable maps.** 862 of 908 maps can be reached from the player's bedroom through warp tiles, map connections, script warps (boats, lifts, events) and 10 hand-recorded links (each with its evidence in `content/availability-rules.json`). A source on any other map does not count.
-2. **Wild tables** of the shipped ROM on those maps: land, Surf, Rock Smash and the three rods, in all four times of day. The ROM has no populated hidden (DexNav) slot.
+2. **Wild tables** of the shipped ROM on those maps: land, Surf, Headbutt, Rock Smash and the three rods, in all four times of day. Shared tree/rock tables count only where the map contains the corresponding interaction. The ROM has no populated hidden (DexNav) slot.
 3. **Event scripts** the ROM was built from: `givemon`, `giveegg`, `setwildbattle`, `seteventmon`, `setwildbossbattle`; in-game trades that a script starts; roamers; the regional-form converter in Bill's house. A scripted battle that runs while `FLAG_NO_WILD_CATCHING` is set is **not** a source.
 4. **Hand-verified sources** in the rules file, used only where a script names the species in a variable (the Game Corner prize counter).
 5. **Closure**, repeated until nothing changes: every evolution in the ROM's own tables whose level, item, place, partner, region and contest-stat conditions can be met in this game, and Day Care eggs (the egg species is found the way the engine finds it, by walking back through the evolution tables).
@@ -54,9 +54,9 @@ A species named only in a script variable, menu or text buffer is *weak evidence
 |---|---|
 | Kanto | 231 |
 | Johto | 181 |
-| Hoenn | 135 |
-| Alola isles | 67 |
-| Sinjoh | 67 |
+| Hoenn | 138 |
+| Alola isles | 68 |
+| Sinjoh | 66 |
 
 Gated areas (the item's source is in the scripts; none of these was reached in the natural playthrough):
 
@@ -483,7 +483,7 @@ Turtwig, Grotle, Torterra, Chimchar, Monferno, Infernape, Piplup, Prinplup, Empo
 | 340 | Whiscash | Wild encounter, Evolution | hoenn, kanto |
 | 341 | Corphish | Wild encounter, Breeding | alola, hoenn, kanto |
 | 342 | Crawdaunt | Wild encounter, Evolution | alola |
-| 343 | Baltoy | Wild encounter, Breeding | hoenn, kanto, sinjoh |
+| 343 | Baltoy | Wild encounter, Breeding | hoenn, kanto |
 | 344 | Claydol | Wild encounter, Evolution | hoenn |
 | 345 | Lileep | Wild encounter, Gift Pokémon, Breeding | johto, sinjoh |
 | 346 | Cradily | Evolution | — |
