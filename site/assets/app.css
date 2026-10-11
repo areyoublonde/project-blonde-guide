@@ -285,6 +285,7 @@ body[data-mode=quick] .full-only{display:none}
 .facts{display:flex;flex-wrap:wrap;gap:14px 40px;padding:18px 0;margin:0;font-size:.94rem}
 .facts dt{font:400 .66rem var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}.facts dd{margin:0}
 .battle .tabs{margin:2px 0 8px}
+.battle .tabs button{max-width:100%;white-space:normal;text-align:left}
 .team-list{border-top:1px solid var(--hair)}
 .mon{display:grid;grid-template-columns:56px 1fr;gap:2px 18px;padding:14px 0;border-bottom:1px solid var(--hair);align-items:center}
 .mon>:first-child{grid-row:span 3;width:56px}.mon img{width:56px;height:56px}
