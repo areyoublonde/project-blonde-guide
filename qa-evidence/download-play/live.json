@@ -1,7 +1,7 @@
 {
  "base": "https://areyoublonde.github.io/project-blonde-guide",
- "checked": "2026-10-11 13:04",
- "passed": 232,
+ "checked": "2026-10-17 11:44",
+ "passed": 256,
  "failed": 0,
  "results": [
   {
@@ -22,7 +22,7 @@
   {
    "name": "[desktop] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v115"
+   "detail": "v1.3 · build v116"
   },
   {
    "name": "[desktop] status shown is the recorded one",
@@ -42,12 +42,12 @@
   {
    "name": "[desktop] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener']]"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', '_blank', 'noopener']]"
   },
   {
    "name": "[desktop] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
+   "detail": "Pokemon - Project Blonde.gbae851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3Pokemon_-_Project_Blonde.zip5376be940f37490e62472554878e56e1ffcd5702e18b89ef34490e546ffd9405"
   },
   {
    "name": "[desktop] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -77,7 +77,7 @@
   {
    "name": "[desktop] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/project-blonde-guide/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork."
+   "detail": "[['v1.3', '/project-blonde-guide/play/v1.3/', 'v1.3Current · 2026-10-17The Silph Conspiracy: a new postgame story after the Hoenn League, and a new member of the Elite Four.'], ['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Previous · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon ac"
   },
   {
    "name": "[desktop] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -340,19 +340,79 @@
    "detail": ""
   },
   {
-   "name": "[desktop] Home: announces v1.2 with links to what's new and the download",
+   "name": "[desktop] Home: announces v1.3 with links to what's new and the download",
    "ok": true,
-   "detail": "['/project-blonde-guide/play/v1.2/', '/project-blonde-guide/play/#get']"
+   "detail": "['/project-blonde-guide/play/v1.3/', '/project-blonde-guide/play/#get']"
   },
   {
    "name": "[desktop] What's new: reached from Current release",
    "ok": true,
-   "detail": "/project-blonde-guide/play/v1.2/"
+   "detail": "/project-blonde-guide/play/v1.3/"
   },
   {
-   "name": "[desktop] v1.2: page is 'What’s new in v1.2', marked current",
+   "name": "[desktop] v1.3: page is 'What’s new in v1.3', marked current",
    "ok": true,
-   "detail": "v1.2Released2026-10-11"
+   "detail": "v1.3Released2026-10-17"
+  },
+  {
+   "name": "[desktop] v1.3: title screen is the v1.3 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.3: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] story: 6 screenshots in the generated order, each with its title and caption",
+   "ok": true,
+   "detail": "[['lab', 'lab.png', 'Professor Birch’s Lab', 'After the Hoenn League, Brendan’s call brings you back to Littleroot Town, where the trail begins.']]"
+  },
+  {
+   "name": "[desktop] story: every screenshot loads at native 240x160, drawn crisp, inside its card",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] story: the page keeps the story's twists out (no resignation, betrayal or Giovanni's defeat)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] story: links into the walkthrough's first Silph Conspiracy chapter",
+   "ok": true,
+   "detail": "/project-blonde-guide/postgame/silph-call/"
+  },
+  {
+   "name": "[desktop] v1.3: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
+  },
+  {
+   "name": "[desktop] v1.3: update steps for every listed emulator (Delta, mGBA, RetroArch) with the save-compatibility statement",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.3: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.3: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[desktop] Download & Play: version history lists every public release, newest first, the current one marked",
+   "ok": true,
+   "detail": "[['/project-blonde-guide/play/v1.3/', 'v1.3', 'Current · 2026-10-17'], ['/project-blonde-guide/play/v1.2/', 'v1.2', 'Previous · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+  },
+  {
+   "name": "[desktop] v1.2: page is 'What was new in v1.2', marked previous",
+   "ok": true,
+   "detail": "v1.2Previous release2026-10-11"
   },
   {
    "name": "[desktop] v1.2: title screen is the v1.2 screenshot at native size, drawn crisp, and not called new artwork",
@@ -410,12 +470,17 @@
    "detail": "[]"
   },
   {
-   "name": "[desktop] v1.2: known limitations, and every release-post button opens the v1.2 post",
+   "name": "[desktop] v1.2: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
    "ok": true,
-   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
   },
   {
-   "name": "[desktop] v1.2: update steps for Delta and mGBA with the save-compatibility statement",
+   "name": "[desktop] v1.2: release record with version, date, both checksums, its notes, its still-available post and a way to the current release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[desktop] v1.2: says its download post is still on the Discord, and offers no update steps to v1.2",
    "ok": true,
    "detail": ""
   },
@@ -428,11 +493,6 @@
    "name": "[desktop] v1.2: no script error and nothing logged to the console as an error",
    "ok": true,
    "detail": "[]"
-  },
-  {
-   "name": "[desktop] Download & Play: version history lists every public release, newest first, the current one marked",
-   "ok": true,
-   "detail": "[['/project-blonde-guide/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
   },
   {
    "name": "[desktop] v1.1: page is 'What was new in v1.1', marked previous",
@@ -495,9 +555,9 @@
    "detail": ""
   },
   {
-   "name": "[desktop] v1.1: known limitations, and every release-post button opens the v1.2 post",
+   "name": "[desktop] v1.1: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
    "ok": true,
-   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
   },
   {
    "name": "[desktop] v1.1: release record with version, date, both checksums, its notes and a way to the current release",
@@ -535,19 +595,19 @@
    "detail": ""
   },
   {
-   "name": "[desktop] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.2",
+   "name": "[desktop] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.3",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] v1.0: nothing in the patcher says it makes v1.2",
+   "name": "[desktop] v1.0: nothing in the patcher says it makes v1.3",
    "ok": true,
    "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
   },
   {
-   "name": "[desktop] Download & Play: no patcher on the v1.2 page, and the history row says the patcher is v1.0 only",
+   "name": "[desktop] Download & Play: the v1.3 page carries only a v1.3 patcher (if one is registered), never the v1.0 one, and the history row says the old patcher is v1.0 only",
    "ok": true,
-   "detail": ""
+   "detail": "[['/project-blonde-guide/assets/patches/v1.3/', 'v1.3']]"
   },
   {
    "name": "[desktop] v1.0: no sideways scroll",
@@ -607,7 +667,7 @@
   {
    "name": "[phone] version and build come from the release record",
    "ok": true,
-   "detail": "v1.2 · build v115"
+   "detail": "v1.3 · build v116"
   },
   {
    "name": "[phone] status shown is the recorded one",
@@ -627,12 +687,12 @@
   {
    "name": "[phone] released: the primary action is the official release post (permanent link, new tab), in the hero and in Get the game",
    "ok": true,
-   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', '_blank', 'noopener']]"
+   "detail": "[['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', '_blank', 'noopener'], ['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', '_blank', 'noopener']]"
   },
   {
    "name": "[phone] released: date, game checksum and ZIP checksum come from the release record",
    "ok": true,
-   "detail": "Pokemon - Project Blonde.gbab15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22ebPokemon_-_Project_Blonde.zipc93d2d3193e556c9806b1c2eae546f4141d09c7069109f92f9a77b2cf7dbe7fd"
+   "detail": "Pokemon - Project Blonde.gbae851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3Pokemon_-_Project_Blonde.zip5376be940f37490e62472554878e56e1ffcd5702e18b89ef34490e546ffd9405"
   },
   {
    "name": "[phone] released: no link to a game file and no expiring attachment link anywhere on the page",
@@ -662,7 +722,7 @@
   {
    "name": "[phone] version history lists every public release, current first, each with its date and page",
    "ok": true,
-   "detail": "[['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Current · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon across its 16 towns and cities.'], ['v1.1', '/project-blonde-guide/play/v1.1/', 'v1.1Previous · 2026-10-10Refreshed trainer and NPC sprites, dialogue portraits and battle artwork."
+   "detail": "[['v1.3', '/project-blonde-guide/play/v1.3/', 'v1.3Current · 2026-10-17The Silph Conspiracy: a new postgame story after the Hoenn League, and a new member of the Elite Four.'], ['v1.2', '/project-blonde-guide/play/v1.2/', 'v1.2Previous · 2026-10-11Living Pokémon come to Hoenn: 125 ambient Pokémon ac"
   },
   {
    "name": "[phone] update: the release's own save compatibility, five instructions and both emulator guides",
@@ -925,19 +985,79 @@
    "detail": ""
   },
   {
-   "name": "[phone] Home: announces v1.2 with links to what's new and the download",
+   "name": "[phone] Home: announces v1.3 with links to what's new and the download",
    "ok": true,
-   "detail": "['/project-blonde-guide/play/v1.2/', '/project-blonde-guide/play/#get']"
+   "detail": "['/project-blonde-guide/play/v1.3/', '/project-blonde-guide/play/#get']"
   },
   {
    "name": "[phone] What's new: reached from Current release",
    "ok": true,
-   "detail": "/project-blonde-guide/play/v1.2/"
+   "detail": "/project-blonde-guide/play/v1.3/"
   },
   {
-   "name": "[phone] v1.2: page is 'What’s new in v1.2', marked current",
+   "name": "[phone] v1.3: page is 'What’s new in v1.3', marked current",
    "ok": true,
-   "detail": "v1.2Released2026-10-11"
+   "detail": "v1.3Released2026-10-17"
+  },
+  {
+   "name": "[phone] v1.3: title screen is the v1.3 screenshot at native size, drawn crisp, and not called new artwork",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.3: the changelog, word for word",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] story: 6 screenshots in the generated order, each with its title and caption",
+   "ok": true,
+   "detail": "[['lab', 'lab.png', 'Professor Birch’s Lab', 'After the Hoenn League, Brendan’s call brings you back to Littleroot Town, where the trail begins.']]"
+  },
+  {
+   "name": "[phone] story: every screenshot loads at native 240x160, drawn crisp, inside its card",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] story: the page keeps the story's twists out (no resignation, betrayal or Giovanni's defeat)",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] story: links into the walkthrough's first Silph Conspiracy chapter",
+   "ok": true,
+   "detail": "/project-blonde-guide/postgame/silph-call/"
+  },
+  {
+   "name": "[phone] v1.3: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
+   "ok": true,
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
+  },
+  {
+   "name": "[phone] v1.3: update steps for every listed emulator (Delta, mGBA, RetroArch) with the save-compatibility statement",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.3: no sideways scroll, no broken image",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.3: no script error and nothing logged to the console as an error",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "name": "[phone] Download & Play: version history lists every public release, newest first, the current one marked",
+   "ok": true,
+   "detail": "[['/project-blonde-guide/play/v1.3/', 'v1.3', 'Current · 2026-10-17'], ['/project-blonde-guide/play/v1.2/', 'v1.2', 'Previous · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
+  },
+  {
+   "name": "[phone] v1.2: page is 'What was new in v1.2', marked previous",
+   "ok": true,
+   "detail": "v1.2Previous release2026-10-11"
   },
   {
    "name": "[phone] v1.2: title screen is the v1.2 screenshot at native size, drawn crisp, and not called new artwork",
@@ -995,12 +1115,17 @@
    "detail": "[]"
   },
   {
-   "name": "[phone] v1.2: known limitations, and every release-post button opens the v1.2 post",
+   "name": "[phone] v1.2: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
    "ok": true,
-   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
   },
   {
-   "name": "[phone] v1.2: update steps for Delta and mGBA with the save-compatibility statement",
+   "name": "[phone] v1.2: release record with version, date, both checksums, its notes, its still-available post and a way to the current release",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "name": "[phone] v1.2: says its download post is still on the Discord, and offers no update steps to v1.2",
    "ok": true,
    "detail": ""
   },
@@ -1013,11 +1138,6 @@
    "name": "[phone] v1.2: no script error and nothing logged to the console as an error",
    "ok": true,
    "detail": "[]"
-  },
-  {
-   "name": "[phone] Download & Play: version history lists every public release, newest first, the current one marked",
-   "ok": true,
-   "detail": "[['/project-blonde-guide/play/v1.2/', 'v1.2', 'Current · 2026-10-11'], ['/project-blonde-guide/play/v1.1/', 'v1.1', 'Previous · 2026-10-10'], ['/project-blonde-guide/play/v1.0/', 'v1.0', 'Previous · 2026-10-09']]"
   },
   {
    "name": "[phone] v1.1: page is 'What was new in v1.1', marked previous",
@@ -1080,9 +1200,9 @@
    "detail": ""
   },
   {
-   "name": "[phone] v1.1: known limitations, and every release-post button opens the v1.2 post",
+   "name": "[phone] v1.1: known limitations, and every release-post button opens the v1.3 post (or, for a previous release whose post is kept, its own post)",
    "ok": true,
-   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430']"
+   "detail": "['https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480', 'https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480']"
   },
   {
    "name": "[phone] v1.1: release record with version, date, both checksums, its notes and a way to the current release",
@@ -1120,19 +1240,19 @@
    "detail": ""
   },
   {
-   "name": "[phone] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.2",
+   "name": "[phone] v1.0: the patcher is labelled v1.0 only in its heading, its notice and the release record, and says it does not make v1.3",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[phone] v1.0: nothing in the patcher says it makes v1.2",
+   "name": "[phone] v1.0: nothing in the patcher says it makes v1.3",
    "ok": true,
    "detail": "Make v1.0 from your own game file | Choose your own Pokémon Emerald (USA, Europe) file, or the Project Blonde file you already play. This page works out which it is and makes Project Blonde v1.0 from "
   },
   {
-   "name": "[phone] Download & Play: no patcher on the v1.2 page, and the history row says the patcher is v1.0 only",
+   "name": "[phone] Download & Play: the v1.3 page carries only a v1.3 patcher (if one is registered), never the v1.0 one, and the history row says the old patcher is v1.0 only",
    "ok": true,
-   "detail": ""
+   "detail": "[['/project-blonde-guide/assets/patches/v1.3/', 'v1.3']]"
   },
   {
    "name": "[phone] v1.0: no sideways scroll",

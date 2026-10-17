@@ -1,5 +1,10 @@
 # Deployment status
 
+**Latest deploy 2026-10-17 (v1.3 website update):** commit `1e54e15` on `main` (with `51a3da6`, whose CI run 38999664135 failed the availability step and deployed nothing),
+workflow run 38999767895, success. Verified live: `tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 256 of 256; `PB_PATCHER=v1.3 tools/qa_patcher.py <live>`
+63 of 63 (Emerald, v1.0, v1.1, v1.2 v113 and v115 each made into the exact v1.3 in the browser); the nine Silph chapters and After the Credits at phone width with no
+sideways scroll or broken image; `/play/v1.2/` links its kept Discord post. This note and the live evidence are committed locally only; push them with the next update.
+
 **v1.3 website update, 2026-10-17 (owner approved publication and the website update in the release instruction).** Branch `release-v1.3` on `origin/main` `8bcaf46`
 (with the v1.2 hotfix evidence commit). The game is public: v1.3 (build v116, game `e851f80d…87c3`, ZIP `5376be94…9405`) was published on Discord on 2026-10-17
 (`https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480`); the v1.2 post stays up (owner: preserve v1.2), so `releases.json` gives v1.2
