@@ -55,7 +55,9 @@ def main():
 
     print("NPC gifts")
     g = [x for x in gives if x["item"] == "Upgrade" and x["how"] == "gift"]
-    ok("the ROM gift list has the Silph Co Up-Grade", [x["sym"] for x in g] == ["SaffronCity_SilphCo_EventScript_Officer"], g)
+    # v1.3 (v116): the Silph Conspiracy layer wraps the lobby officer's script; its copy of his one-time souvenir gift has no symbol ("__rom_end"),
+    # is ignored by the site like every unattributed gift, and gives the same Up-Grade under the same FLAG_GOT_UP_GRADE
+    ok("the ROM gift list has the Silph Co Up-Grade", [x["sym"] for x in g if x["sym"] != "__rom_end"] == ["SaffronCity_SilphCo_EventScript_Officer"], g)
     src = lambda i: {(s["how"], s["map"]) for s in ev[str(i)]["sources"]}
     ok("the audit counts that gift as an Up-Grade source", ("gift", "SaffronCity_SilphCo_hns") in src(228), src(228))
     ok("the audit counts the Route 42 hidden Dubious Disc", ("hidden item", "Route42_hns") in src(232), src(232))
