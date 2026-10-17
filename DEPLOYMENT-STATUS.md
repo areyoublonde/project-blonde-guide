@@ -1,5 +1,7 @@
 # Deployment status
 
+**2026-10-18 reproducible-search follow-up:** The Kanto update deployed successfully as `bd3a679` (Pages run `39047288067`). Artifact comparison found only Pokemon search-row ordering varied between Python processes. Sorted that iteration; independent hash-seed builds now match all 5,552 files, and six desktop/phone search checks pass. All HTML, navigation, progress code and assets are unchanged from the verified Kanto deployment.
+
 **Kanto walkthrough update — owner approved publication, final local checks passed.** Fifteen Kanto chapters (20–34), with Surge → Erika → Misty → Janine → Sabrina → Brock → Blaine → Blue. Existing chapter URLs and saved progress identities preserved; new Snorlax/Diglett chapter. All six deployment checks pass (1,334 pages, 83,530 links, 39,495 asset references). Chrome verified 21 pages at desktop, phone and narrow-phone widths, all chapter navigation, progress persistence/export/import, maps/search and mobile controls. See `KANTO-PROGRESSION-REVIEW.txt` for the content/gameplay evidence and test limits. The owner explicitly authorized publication after these checks; no ROM/save/Discord changes.
 
 **Latest deploy 2026-10-17 (v1.3 website update):** commit `1e54e15` on `main` (with `51a3da6`, whose CI run 38999664135 failed the availability step and deployed nothing),

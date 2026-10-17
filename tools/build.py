@@ -1425,7 +1425,7 @@ def build_search_index():
             add(q, "Stuck?", f"/stuck/#{c['slug']}-{slug(q)[:40]}", re.sub(r"<[^>]+>", "", a)[:120], c["title"], 3)
     for q in site["stuck"]:
         add(q["q"], "Stuck?", f"/stuck/#{q['id']}", re.sub(r"<[^>]+>", "", q.get("a", ""))[:120], q["tags"], 4)
-    for k in PAGES:
+    for k in sorted(PAGES):
         d = DEX[k]
         names = where_summary(d)
         add(d["display_full"], "Pokémon", f"/pokemon/{d['slug']}/", ("Found at " + ", ".join(names[:3]) + ("…" if len(names) > 3 else "")) if names else how_summary(d), " ".join(d["types"]) + " " + (d.get("regional") or ""), 3 if names else 2)

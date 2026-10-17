@@ -169,3 +169,7 @@ Two harness expectations were corrected and independently retested: open Chapter
 All 5,552 generated files hashed for comparison with the deployment artifact; live verification follows publication.
 Evidence: output/kanto-walkthrough-final-20261017 in the workspace.
 Limitations: Chrome responsive emulation, not physical devices or Safari/Firefox. Gameplay evidence remains the previously recorded targeted mGBA checks and natural playthrough, not a new uninterrupted campaign.
+
+DEPLOYMENT REPRODUCIBILITY FOLLOW-UP — 2026-10-18
+Initial owner-approved publication bd3a679, GitHub Pages run 39047288067, succeeded. All 5,551 non-search files matched the tested build byte for byte. Search contained the identical 1,693 records but Pokemon row order varied because PAGES is a Python set.
+Fixed tools/build.py build_search_index to iterate sorted(PAGES). Two complete builds with PYTHONHASHSEED=1 and 2 produced identical hashes for all 5,552 files. Search entries were preserved exactly; desktop/phone searches for Snorlax, Misty and Dugtrio passed independently. Full static links/assets passed again. No other generated file changed.
