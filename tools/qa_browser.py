@@ -255,7 +255,7 @@ def main():
         # progress + export / import
         go(c, "/progress/")
         c.js("(()=>{const s=document.querySelector('[data-set-pos]');s.value='kanto/saffron-city';s.dispatchEvent(new Event('change',{bubbles:true}))})()"); time.sleep(.2)
-        ok("Progress: setting the current chapter moves You are here", c.js("document.querySelector('.progress [data-now=title]').textContent") == "Saffron City")
+        ok("Progress: setting the current chapter moves You are here", c.js("document.querySelector('.progress [data-now=title]').textContent") == "Saffron Gym")
         c.js("document.querySelector('[data-check=badge-zephyr]').click();document.querySelector('[data-check=ms-surf]').click();document.querySelector('[data-chapter=\"johto/new-bark-town\"]').click()"); time.sleep(.2)
         ok("Progress: Badges, milestones and chapters tick and count", c.js("document.querySelector('[data-region=johto] [data-count]').textContent") == "1 of 8 Badges" and c.js("document.querySelector('[data-chapcount=johto]').textContent").startswith("1 of 19"))
         ok("Progress: postgame objectives are tracked", c.js("document.querySelectorAll('[data-region=postgame] input[data-check]').length") >= 5)
@@ -274,7 +274,7 @@ def main():
         ok("Progress: a wrong file is refused with a message", "isn't a Project Blonde progress export" in c.js("document.querySelector('[data-io-msg]').textContent"))
         ok("Progress: says plainly that nothing is synced", c.js("document.querySelector('.keep').textContent.includes('nothing is synced')"))
         go(c, "/")
-        ok("Home (returning): You are here with place, chapter and Continue", c.js("[...document.querySelectorAll('h1')].find(e=>e.offsetParent).textContent") == "Saffron City" and c.js("document.querySelector('.hero [data-now=meta]').textContent").startswith(f"Kanto · Chapter 22 of {NCH}"))
+        ok("Home (returning): You are here with place, chapter and Continue", c.js("[...document.querySelectorAll('h1')].find(e=>e.offsetParent).textContent") == "Saffron Gym" and c.js("document.querySelector('.hero [data-now=meta]').textContent").startswith(f"Kanto · Chapter 26 of {NCH}"))
         ok("Home (returning): Badge progress and next Badge", "Badges" in c.js("document.querySelector('.hero [data-now=badges]').textContent"))
         ok("Header: Continue chip returns to the chapter", c.js("document.querySelector('.cont').getAttribute('href')").endswith("/walkthrough/kanto/saffron-city/"))
 

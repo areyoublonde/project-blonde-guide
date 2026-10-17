@@ -1,0 +1,171 @@
+PROJECT BLONDE — KANTO WALKTHROUGH REVIEW
+2026-10-17 | OWNER APPROVED — FINAL LOCAL VERIFICATION PASSED
+
+Recommended Gym order: Surge -> Erika -> Misty -> Janine -> Sabrina -> Brock -> Blaine -> Blue.
+Gym maximum levels: 60, 62, 63, 64, 66, 66, 67, 69. No decrease.
+Blaine overlaps Brock’s levels but has a higher maximum; western/southern travel naturally connects them.
+Ash remains after the much higher-level Red because Red’s defeat is a story requirement.
+
+BASELINES
+Site: release-v1.3, commit 5585323; new local branch fix/kanto-progression.
+Approved ROM SHA-256: 4cef1210a5d8e57ac3085f2b96a7d6a177d041eabc48bfe13ba46df7f1bd7085
+All eight 52-byte trainer records and six-member, 36-byte-per-member party records match public v1.3 and the played v113 ROM byte for byte.
+All have six Pokemon and two Full Restores. Existing website team/move/item tables remain unchanged.
+
+GYM AUDIT — first challenges, normal trainer table
+
+Lt. Surge: Electrode Lv.57, Magnezone Lv.59, Lanturn Lv.58, Manectric Lv.58, Electivire Lv.59, Raichu Lv.60
+Open on arrival; no Kanto badge prerequisite; solve the two-switch Gym puzzle.
+Read-only ROM offsets: trainer 0x33ef00, party 0x34fd88.
+
+Erika: Jumpluff Lv.61, Roserade Lv.60, Tangrowth Lv.60, Venusaur Lv.61, Victreebel Lv.62, Bellossom Lv.62
+Reach Celadon via Saffron/Route 7; Cut in Bag for Gym trees; no Kanto badge prerequisite.
+Read-only ROM offsets: trainer 0x33ef34, party 0x34fcb0.
+
+Misty: Golduck Lv.62, Quagsire Lv.62, Vaporeon Lv.61, Milotic Lv.61, Lapras Lv.62, Starmie Lv.63
+Surf to Power Plant; manager -> officer -> Cerulean Gym thief -> Route 24 battle -> recover Machine Part -> return it -> meet Misty on Route 25. No Sabrina badge prerequisite.
+Read-only ROM offsets: trainer 0x33eecc, party 0x34fe60.
+
+Janine: Weezing Lv.63, Muk Lv.62, Swalot Lv.61, Nidoqueen Lv.62, Crobat Lv.63, Venomoth Lv.64
+Reach Fuchsia via Routes 12–15 (Surf on Route 12); no Kanto badge prerequisite. Route 19 remains blocked until Blaine.
+Read-only ROM offsets: trainer 0x33ef9c, party 0x34fb00.
+
+Sabrina: Mr Mime Lv.65, Jynx Lv.64, Slowbro Lv.64, Wobbuffet Lv.64, Espeon Lv.65, Alakazam Lv.66
+Open on the first Saffron visit; teleporter puzzle; no Kanto badge prerequisite. Recommended after Janine for difficulty.
+Read-only ROM offsets: trainer 0x33ef68, party 0x34fbd8.
+
+Brock: Golem Lv.66, Aerodactyl Lv.66, Kabutops Lv.66, Omastar Lv.66, Relicanth Lv.66, Kleavor Lv.66
+Radio Upgrade/Poke Flute/Snorlax -> Diglett’s Cave -> Cut on Route 2. Brock requires no other Kanto badge.
+Read-only ROM offsets: trainer 0x33ee98, party 0x34ff38.
+
+Blaine: Rapidash Lv.66, Magmortar Lv.65, Houndoom Lv.66, Magcargo Lv.65, Torkoal Lv.67, Camerupt Lv.67
+Reach Cinnabar from Pallet via Surf on Route 21, then Seafoam via Route 20. No other Kanto badge requirement. Route 19 is not an early southern shortcut.
+Read-only ROM offsets: trainer 0x33efd0, party 0x34fa28.
+
+Blue: Rhyperior Lv.69, Pidgeot Lv.68, Machamp Lv.67, Exeggutor Lv.68, Tyranitar Lv.68, Arcanine Lv.69
+Fifteen total badges for the Cinnabar invitation: eight Johto plus the other seven Kanto. Speak to Blue, then return to Viridian Gym.
+Read-only ROM offsets: trainer 0x33f004, party 0x34f950.
+
+CHAPTER-BY-CHAPTER JOURNEY
+The proposal was shown in chat and saved before website edits. Kanto chapters 1–15 are site chapters 20–34.
+
+1 / site chapter 20: The S.S. Aqua — Olivine to Vermilion
+Collect the S.S. Ticket, upgrade your Pokédex and sail to Kanto.
+Next: Vermilion City. Straight off the ship.
+
+2 / site chapter 21: Vermilion City — Lt. Surge · Level 57–60
+Find the two hidden switches and beat Lt. Surge.
+Next: Celadon City via Saffron. North along Route 6, then west from Saffron on Route 7. Save Sabrina’s Gym for later.
+
+3 / site chapter 22: Celadon City — Via Saffron · Erika · Level 60–62
+Cut into the Gym’s garden and beat Erika.
+Next: Cerulean City & the Power Plant. Return east along Route 7 to Saffron, then north on Route 5.
+
+4 / site chapter 23: Cerulean City — Power Plant, cape & Misty · Level 61–63
+Recover the Power Plant’s missing part, fetch Misty from the cape and beat her.
+Next: Lavender Town. Fly to Saffron and take Route 8 east for the Radio Upgrade; then continue toward Fuchsia.
+
+5 / site chapter 24: Lavender Town — The Power Plant’s Radio Upgrade
+Collect the Radio Upgrade, then follow the coastal routes south toward Fuchsia.
+Next: Fuchsia City. Go south along Routes 12, 13, 14 and 15. Surf across Route 12’s water and use the eastern southern exit.
+
+6 / site chapter 25: Fuchsia City — Routes 12–15 & Janine · Level 61–64
+Follow the coastal routes from Lavender and earn Janine’s Soul Badge.
+Next: Return to Saffron: Sabrina. Fly to the Saffron City you visited earlier. Its Gym is the next difficulty step.
+
+7 / site chapter 26: Saffron Gym — Return for Sabrina · Level 64–66
+Work through the teleporter maze to Sabrina.
+Next: Snorlax & Diglett’s Cave. Fly to Vermilion with the Radio Upgrade already collected in Lavender.
+
+8 / site chapter 27: Snorlax & Diglett’s Cave — Vermilion revisited · Opening western Kanto
+Use the Poké Flute to wake Snorlax and cross to Route 2.
+Next: Pewter City. Diglett’s Cave to Route 2, then north.
+
+9 / site chapter 28: Pewter City — Brock · All six at Level 66
+Cut through to Pewter and beat Brock.
+Next: Viridian Forest, Viridian & Pallet. Walk south through Route 2 and Viridian Forest, then continue to Pallet on Route 1.
+
+10 / site chapter 29: Viridian Forest & Pallet Town — Viridian City, Route 1 & Route 21
+Travel south from Pewter through Viridian Forest and Pallet, then Surf to Cinnabar.
+Next: Cinnabar & the Seafoam Islands. East from Cinnabar along Route 20.
+
+11 / site chapter 30: Cinnabar Island — Seafoam & Blaine · Level 65–67
+Find Blaine’s temporary Gym in the Seafoam Islands, then meet Blue on Cinnabar.
+Next: Viridian Gym: Blue. After speaking to Blue again on Cinnabar, Fly to Viridian.
+
+12 / site chapter 31: Viridian Gym — Blue · Level 67–69 & Professor Oak
+Win the sixteenth Badge and report to Professor Oak.
+Next: The Kanto League (optional). Fly to the Indigo Plateau for the recommended rematch, or go directly to Mt. Silver after Oak.
+
+13 / site chapter 32: The Kanto League (Optional) — Optional rematch before Mt. Silver
+Optionally beat the Elite Four’s stronger teams and Lance before taking on Red.
+Next: Mt. Silver. Fly to Viridian, west on Route 22, and through the Reception Gate’s west door.
+
+14 / site chapter 33: Mt. Silver — Route 28 & Red
+Climb to the summit and defeat Red.
+Next: A Promise to Butterfree. Fly to Viridian and walk north on Route 2 into Viridian Forest.
+
+15 / site chapter 34: A Promise to Butterfree — Ash in Viridian Forest
+Help Ash, Misty and Brock find a lost Butterfree, battle Ash and accept his Pikachu. This story is required to reach Hoenn.
+Next: The Road to Hoenn. Fly to Pallet Town.
+
+HGSS RESEARCH
+HGSS permits flexible Kanto Gym order. The ship arrives in Vermilion; the Power Plant theft/recovery and Misty’s cape encounter drive northern travel. Lavender’s EXPN expansion enables the Poke Flute and western access past Snorlax. Blue requires the seven other Kanto badges.
+Project Blonde changes levels/teams, adds Mega Evolution, uses a Radio Upgrade and tuning dial, blocks Route 19 with Kingler until Blaine, and requires Red before Butterfree/Ash/Hoenn. The later Silph Co. story follows the Hoenn League, not this initial Gym circuit.
+Sources:
+https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_HeartGold_and_SoulSilver/Part_17
+https://bulbapedia.bulbagarden.net/wiki/Walkthrough:Pok%C3%A9mon_HeartGold_and_SoulSilver/Part_20
+https://www.pokebeach.com/2009/09/kanto-heartgold-and-soulsilver-coverage
+Project Blonde specifics are from its ROM and gameplay evidence, not inferred from the vanilla walkthrough.
+
+NEW mGBA CHECKS — approved baseline, copied natural saves, ordinary buttons only
+1. QA-76-SAFFRON, 9 badges: Saffron -> Route 7 -> Celadon Gym; Cut used. Erika is accessible before Sabrina. Remaining path checked with the existing collision planner; no new Erika-win claim.
+2. Same source save, separate run: Saffron -> Route 5 -> Cerulean Gym. No Sabrina requirement; Gym empty before Power Plant story.
+3. QA-80-POWER-RESTORED: cold boot at Power Plant; quest variable 0x406C=7, returned-part flag 0x1DD set, Misty cape-hide flag 0xBA clear. State check, not a new full quest replay.
+4. QA-84-KANTO-RADIO: Lavender -> Vermilion, walked to Snorlax, tuned POKE FLUTE using the actual radio, closed it and interacted. Awakening dialogue and battle start observed. Battle completion/cave traversal reused from previous playthrough.
+5. QA-94-BLAINE, 15 badges: Seafoam exit -> Cinnabar -> Blue invitation. Flag 0xD5 set and 0xAF cleared: Blue leaves Cinnabar and becomes available in Viridian.
+Native screenshots of radio tuning, early Celadon access and Blue’s departure inspected.
+An initial left-only radio check failed to find the channel. The website’s far-left instruction was corrected to select POKE FLUTE; the normal-input test then passed. An initial Blue diagnostic used a missing symbol name; the re-run with verified flag addresses passed.
+No RAM writes, fixture warps, cheats, in-game saves or original-save changes.
+
+REUSED PLAYTHROUGH AND BINARY EVIDENCE
+blonde/qa/phase5p-new-game-20261017/reports/progression.txt, lines 82–103: Aqua, all eight Gym wins, complete Power Plant/Misty chain, radio/Snorlax/Diglett/Cut, coastal routes, Pallet/Cinnabar/Blaine/Blue, Oak, League, Red, complete Butterfree/gift/Oak-call chain.
+blonde/qa/natural-run-v113/legs/218–269: detailed earlier route scripts and saved checkpoints.
+739 bounded map/script-symbol spans compared: all match public v1.3; selected event-script/trigger code matches played v113. Some header/object/art spans differ from v113; no claim that all map data is unchanged. Current live Gym object pointers still reference their original first-challenge scripts.
+Key scripts: each Gym leader entry; CinnabarIsland_EventScript_Blue/BlueActive; Route10_PowerPlantBackRoom_EventScript_ManagerCheckPart; Route25_EventScript_Misty; LavenderTown_RadioStation_EventScript_Director; PalletTown_Lab_EventScript_Oak16Badges.
+Blue checks VAR_NUM_BADGES 0x4076 == 15. Power restoration sets quest 7 and flag 0x1DD and reveals cape Misty; cape scene reveals Gym trainers; radio requires 0x1DD; Oak requires sixteen badges. Snorlax checks the active flute station.
+
+WEBSITE CHANGES AND VALIDATION
+Edited: content/walkthrough/kanto.json, content/chapters.json, content/site.json.
+Generated: WALKTHROUGH-CHAPTER-MAP.md, CONTENT-COVERAGE.md, dist/.
+Existing URLs, section anchors, trainer IDs, rewards, badge IDs, milestone IDs and completion keys retained. One new slug: snorlax-digletts-cave.
+Lavender #snorlax remains and links to the detailed chapter. Existing Lavender completion is preserved; the new chapter starts unticked rather than assuming Snorlax was cleared.
+Explained Saffron transit/Gym return, Cinnabar’s Blaine/Blue return and the forest’s later Butterfree return. League visibly optional, Red/Ash required for Hoenn.
+Original artwork/screenshots/assets untouched. Accurate event paragraphs preserved; only opening level range, radio directions and Viridian route paragraphs replaced.
+Build PASS: 1,334 pages, 70 chapters.
+Targeted website checks PASS: 90 assertions, 21 affected/adjacent pages, 4,650 internal links, 3,218 asset references.
+Checked chapter numbers, previous/next links, old anchors, badge identity, retained progress keys and nondecreasing Gym maximums.
+Preservation checks PASS: source saves and test copies match; frozen ROM, test ROM and public v1.3 hashes unchanged.
+
+LIMITATIONS / REVIEW
+No uninterrupted replay of the new recommended order. Evidence combines current-ROM inspection, prior full chains and the specific new checks above.
+The initial connected-browser limitation was resolved for final QA by using the existing isolated headless Chrome harness. See FINAL WEBSITE VERIFICATION below.
+At the original review stage nothing was published or pushed. The owner subsequently approved publication after final verification. No ROM/save/gameplay or Discord modification.
+
+LOCAL REVIEW
+Checkout: /Users/blonde/Desktop/VSC/blonde-guide-kanto-progression
+Run: python3 -m http.server 8766 --bind 127.0.0.1 --directory /Users/blonde/Desktop/VSC/blonde-guide-kanto-progression/dist
+Then open: http://127.0.0.1:8766/walkthrough/#kanto
+Owner approval to publish after final verification has now been given.
+Detailed machine-readable QA: /Users/blonde/Desktop/VSC/output/kanto-walkthrough-review-20261017/reports
+
+FINAL WEBSITE VERIFICATION — owner-approved publication
+Production base path: /project-blonde-guide. Build: 1,334 pages, 70 chapters.
+All six GitHub Pages workflow checks passed locally; 83,530 internal links and 39,495 assets checked, zero failures.
+All 48 Gym Pokemon species/levels agree with the existing current-ROM audit; all 90 targeted content/navigation/identity assertions passed.
+Headless Chrome: 21 affected/adjacent/hub pages at 1440, 390 and 320 px (63 views), all clean. Desktop/mobile screenshots inspected.
+Interactions: all 15 next/back/previous chains, eight badge identities, saved old-order state, position, tick/reload, export/import, invalid-import preservation, legacy Lavender anchor, Quick/Full, maps, search and phone menu/journey passed.
+Two harness expectations were corrected and independently retested: open Chapters completed before clicking a hidden checkbox; a completed Snorlax chapter makes the Stuck locator recommend Pewter. No product defect was found.
+All 5,552 generated files hashed for comparison with the deployment artifact; live verification follows publication.
+Evidence: output/kanto-walkthrough-final-20261017 in the workspace.
+Limitations: Chrome responsive emulation, not physical devices or Safari/Firefox. Gameplay evidence remains the previously recorded targeted mGBA checks and natural playthrough, not a new uninterrupted campaign.

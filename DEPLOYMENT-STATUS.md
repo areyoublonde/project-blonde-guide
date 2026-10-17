@@ -1,5 +1,7 @@
 # Deployment status
 
+**Kanto walkthrough update — owner approved publication, final local checks passed.** Fifteen Kanto chapters (20–34), with Surge → Erika → Misty → Janine → Sabrina → Brock → Blaine → Blue. Existing chapter URLs and saved progress identities preserved; new Snorlax/Diglett chapter. All six deployment checks pass (1,334 pages, 83,530 links, 39,495 asset references). Chrome verified 21 pages at desktop, phone and narrow-phone widths, all chapter navigation, progress persistence/export/import, maps/search and mobile controls. See `KANTO-PROGRESSION-REVIEW.txt` for the content/gameplay evidence and test limits. The owner explicitly authorized publication after these checks; no ROM/save/Discord changes.
+
 **Latest deploy 2026-10-17 (v1.3 website update):** commit `1e54e15` on `main` (with `51a3da6`, whose CI run 38999664135 failed the availability step and deployed nothing),
 workflow run 38999767895, success. Verified live: `tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 256 of 256; `PB_PATCHER=v1.3 tools/qa_patcher.py <live>`
 63 of 63 (Emerald, v1.0, v1.1, v1.2 v113 and v115 each made into the exact v1.3 in the browser); the nine Silph chapters and After the Credits at phone width with no
