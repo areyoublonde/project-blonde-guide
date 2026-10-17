@@ -1,7 +1,17 @@
 {
- "build": "v111",
- "sha256": "2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33",
+ "build": "v116",
+ "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
  "tilesets": [
+  {
+   "sym": "0x9fb96b4",
+   "tiles": 512,
+   "art": "rom-raw"
+  },
+  {
+   "sym": "0x9fbb318",
+   "tiles": 384,
+   "art": "source=rom"
+  },
   {
    "sym": "HoRe_BattleFrontier",
    "tiles": 512,
@@ -7986,7 +7996,7 @@
    "slug": "saffron-city-silph-co",
    "img": true,
    "primary": "gTileset_Kanto_Building_Hns",
-   "secondary": "gTileset_SilphCo_Hns",
+   "secondary": "0x9fbb318",
    "version": 2,
    "art": [
     "source=rom",
@@ -12805,7 +12815,7 @@
     ],
     "flat": 0.0,
     "flat_top": 0.0,
-    "sha": "7a99873fe591cd5b"
+    "sha": "3dd3b98fc1811b90"
    }
   },
   "SeafoamIslands_B1F_hns": {
@@ -12850,11 +12860,11 @@
    "slug": "seafoam-islands-secret-cave",
    "img": true,
    "primary": "gTileset_Johto_Building_Hns",
-   "secondary": "gTileset_BlackthornGym_Hns",
+   "secondary": "0x9fb96b4",
    "version": 2,
    "art": [
     "source=rom",
-    "source=rom"
+    "rom-raw"
    ],
    "unresolved": {
     "metatile": 0,
@@ -12869,7 +12879,7 @@
     ],
     "flat": 0.0214,
     "flat_top": 0.0214,
-    "sha": "a1ffcdd7d6d70037"
+    "sha": "fe0c3c85386f0bb0"
    }
   },
   "MtSilver_Outside_hns": {

@@ -341,6 +341,7 @@
 "world/kanto/indigo-plateau"
 ],
 "IndigoPlateau_PokemonCenter_hns": [
+"postgame/silph-league",
 "walkthrough/kanto/kanto-league"
 ],
 "JaggedPass": [
@@ -375,6 +376,7 @@
 ],
 "LittlerootTown": [
 "postgame/after-the-credits",
+"postgame/silph-call",
 "walkthrough/hoenn/littleroot-town",
 "world/hoenn/littleroot-town"
 ],
@@ -904,6 +906,7 @@
 "world/johto/route-29"
 ],
 "Route3_hns": [
+"postgame/silph-leads",
 "world/kanto/route-3"
 ],
 "Route30_hns": [
@@ -1072,6 +1075,8 @@
 "world/johto/safari-zone-gate"
 ],
 "SaffronCity_hns": [
+"postgame/silph-finale",
+"postgame/silph-siege",
 "walkthrough/kanto/saffron-city",
 "world/kanto/saffron-city"
 ],
@@ -1081,6 +1086,9 @@
 ],
 "SaffronCity_Gym_hns": [
 "world/kanto/saffron-city"
+],
+"SaffronCity_SilphCo_hns": [
+"postgame/silph-tower"
 ],
 "Saffron_Temp_hns": [
 "world/kanto/abandoned-ship"
@@ -1125,6 +1133,7 @@
 "world/kanto/seafoam-islands"
 ],
 "SeafoamIslands_Gym_hns": [
+"postgame/silph-blaine",
 "world/kanto/seafoam-islands"
 ],
 "SeafoamIslands_SecretCave_hns": [
@@ -1394,6 +1403,7 @@
 "world/kanto/vermilion-city"
 ],
 "VermilionCity_PortOutside_hns": [
+"postgame/silph-harbor",
 "world/kanto/vermilion-city"
 ],
 "VictoryRoad_1F": [
@@ -1426,6 +1436,7 @@
 "world/johto/violet-city"
 ],
 "ViridianCity_hns": [
+"postgame/silph-blue",
 "walkthrough/kanto/viridian-pallet",
 "world/kanto/viridian-city"
 ],

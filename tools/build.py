@@ -932,7 +932,9 @@ def build_progress():
 
 
 # ============================================================ 17-18  PLAY
-PATCHER = J(CONTENT / "patcher.json")
+PATCHER = J(CONTENT / "patcher.json")         # the v1.0 patcher (method "patcher"), kept on /play/v1.0/
+# every patcher registry by the release it makes: content/patcher.json (v1.0) and content/patcher-<version>.json (later releases, offered beside their Discord download)
+PATCHERS = {r["release"]: r for r in [PATCHER] + [J(f) for f in sorted(CONTENT.glob("patcher-v*.json"))]}
 
 
 def release_state(rel):
@@ -944,10 +946,11 @@ def release_state(rel):
         assert method == dist["method"], "releases.json: distribution.method is not the current release's method"
     if rel["status"] != "released":
         assert not dl["url"], "releases.json: a download URL is set but the release is not marked released"
-        assert not PATCHER["enabled"], "patcher.json is enabled but the release is not marked released"
+        assert not PATCHERS.get(rel["version"], {}).get("enabled"), "a patcher registry is enabled but the release is not marked released"
         return "prerelease"
     if method == "patcher":       # no file is linked: the game is made in the visitor's browser from the registry's verified patches
-        assert PATCHER["enabled"] and PATCHER["release"] == rel["version"] and rel["date"] and rel["sha256"] == PATCHER["target"]["sha256"], "patcher distribution needs an enabled registry whose target is this release, and a date"
+        P = PATCHERS.get(rel["version"], {})
+        assert P.get("enabled") and rel["date"] and rel["sha256"] == P["target"]["sha256"], "patcher distribution needs an enabled registry whose target is this release, and a date"
         return "patcher"
     if method == "discord":       # the official release post on the project's Discord; the signed attachment URL expires and is never linked
         ar = rel["archive"]
@@ -987,6 +990,7 @@ def upgrade_html(rel, h="h3"):
 def patcher_html(rel):
     """Make your game: the two-path in-browser patcher. Registry content/patcher.json; logic site/assets/patcher.js.
     Rendered only in a --prototype build, or once the owner has enabled the registry for a released version."""
+    PATCHER = PATCHERS[rel["version"]]
     T = PATCHER["target"]
     assert (T["public_version"], T["internal_build"]) == (rel["public_version"], rel["internal_build"]) and PATCHER["release"] == rel["version"], "patcher.json does not target this release"
     cur = current_release()
@@ -1068,8 +1072,10 @@ def previous_record(r, cur):
     rows = [("Version", f'{pv} <span class="muted">· build {esc(r["internal_build"])}</span>'), ("Status", f'Previous release · replaced by {cv}'), ("Released", esc(r["date"])),
             ("File", f'{esc(r["file"]["type"])} · {esc(r["file"]["size"])}'),
             ("SHA-256", f'<span class="sumrow"><span class="m">{esc(r["file"]["name"])}</span><code class="sum">{esc(r["sha256"])}</code></span><span class="sumrow"><span class="m">{esc(ar["name"])}</span><code class="sum">{esc(ar["sha256"])}</code></span>'),
-            ("Download", f'No longer offered. <a href="{u("/play/")}#get">Get {cv}</a>'), ("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
-    gone = f'<p class="notice gone">The {pv} download post is no longer on the Project Blonde Discord, which carries the current release only.</p>' if r.get("post_removed") else ""
+            ("Download", (f'Still available: <a data-release-post href="{esc(r["discord_post"])}" target="_blank" rel="noopener">the {pv} download post</a> on Discord. <a href="{u("/play/")}#get">Get {cv}</a> for the latest version.' if r.get("discord_post") else
+                          f'No longer offered. <a href="{u("/play/")}#get">Get {cv}</a>')), ("Link version", f'<code>{esc(r["link_protocol"])}</code>')]
+    gone = (f'<p class="notice gone">The {pv} download post is no longer on the Project Blonde Discord, which carries the current release only.</p>' if r.get("post_removed") else
+            f'<p class="notice">The {pv} download post is still on the Project Blonde Discord, for players who want to stay on {pv}.</p>' if r.get("discord_post") else "")
     return (f'<section id="release" class="relgrid"><div><p class="label">Previous release</p><h2>What {pv} was</h2><ul class="plain bullets">{"".join(f"<li>{n}</li>" for n in r["notes"])}</ul>'
             f'<p class="muted">{esc(r["save_compatibility"])}</p>{gone}</div><dl class="kv wide release">{"".join(f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in rows)}</dl></section>')
 
@@ -1102,9 +1108,11 @@ def build_whatsnew(rel, cur, primary):
     G = J(DATA / f"whatsnew-{rel['public_version']}.json")
     assert G["after"]["sha256"] == rel["sha256"] and (prev or rel["sha256"] == BUILD["build"]["sha256"]), "the before / after gallery was not generated for this release: run tools/whatsnew.py"
     if prev:
-        assert release_state(rel) == "discord" and rel.get("post_removed") and not rel.get("discord_post"), "a previous Discord release must record that its download post was removed"
+        assert release_state(rel) == "discord" and bool(rel.get("post_removed")) != bool(rel.get("discord_post")), "a previous Discord release must record either that its download post was removed or that it is still up (discord_post)"
     if G.get("kind") == "towns":
         return build_whatsnew_towns(rel, cur, primary, G)
+    if G.get("kind") == "story":
+        return build_whatsnew_story(rel, cur, primary, G)
     art = "/assets/game/whatsnew/" + rel["public_version"] + "/"
     O, F = G["atlas"]["overworld"], G["atlas"]["faces"]
     old, by = esc(G["before"]["public"]), lambda k: [c for c in G["comparisons"] if c["kind"] == k]
@@ -1180,6 +1188,32 @@ def build_whatsnew_towns(rel, cur, primary, G):
     write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: {n['total']} ambient Pokémon in Hoenn’s {n['towns']} towns and cities, on rooftops, in treetops, on the ground and in the water. Changelog, before and after screenshots" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
 
 
+def build_whatsnew_story(rel, cur, primary, G):
+    """What's new, story release: the changelog with real in-game screenshots from the release's own playthrough (data from tools/whatsnew_story.py).
+    The landing pages stay light on spoilers; the walkthrough chapters carry the details."""
+    pv, old, prev = esc(rel["public_version"]), esc(G["before"]["public"]), rel is not cur
+    art = "/assets/game/whatsnew/" + rel["public_version"] + "/"
+    assert G["shots"] and all((ROOT / "site" / art.strip("/") / s["file"]).exists() for s in G["shots"]), "run tools/whatsnew_story.py"
+    card = lambda s: (f'<li data-shot="{s["id"]}"><div class="wn-two"><figure><img class="px" src="{u(art + s["file"])}" width="240" height="160" loading="lazy" alt="{esc(s["title"])}: {esc(s["caption"])}"></figure></div>'
+                      f'<b>{esc(s["title"])}</b><p>{esc(s["caption"])}</p></li>')
+    walk = [j for j in JOURNEY if j["ch"].get("slug") == "silph-call"]
+    wl = (f'<p><a class="link" href="{u(walk[0]["url"])}">The Silph Conspiracy in the walkthrough (spoilers){ARROW}</a></p>' if walk else "")
+    last = (f'<a href="#release"><b>Release record</b><span class="m">Checksums</span></a>' if prev else f'<a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA · Android</span></a>')
+    body = f"""
+<div class="wrap play wn" data-release="{pv}" data-release-role="{"previous" if prev else "current"}">
+ <link rel="stylesheet" href="{u("/assets/whatsnew.css")}">
+ {whatsnew_head(rel, cur, G, primary, "See the screenshots", "The pictures below are real in-game screenshots from this release.")}
+ <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul>{wl}</div>
+  <div><p class="label">On this page</p><nav class="wn-toc"><a href="#gallery"><b>In the game</b><span class="m">{len(G["shots"])} screenshots</span></a>{last}<a href="#known"><b>Known limitations</b><span class="m">What was not tested</span></a></nav></div></section>
+ <section id="gallery"><p class="label">In the game</p><h2>The Silph Conspiracy</h2>
+  <p class="lead">A new postgame story for players who have become Champion of the Hoenn League. No major twists are shown here.</p>
+  <ul class="wn-grid tw">{"".join(card(s) for s in G["shots"])}</ul>
+ </section>
+ {whatsnew_foot(rel, cur, primary)}
+</div>"""
+    write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: the Silph Conspiracy, a new postgame story after the Hoenn League, with a new Elite Four member. Changelog, screenshots" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
+
+
 def build_play():
     rel = current_release()
     dist, pt, state = RELEASES["distribution"], rel["patch"], release_state(rel)
@@ -1192,7 +1226,7 @@ def build_play():
     else:
         filetype, needs = esc(rel["file"]["type"]), ("Nothing else: one file" if state == "direct" else "Announced with the release")
     if state == "patcher":
-        needs = "Your own copy of " + esc(next(x["label"] for x in PATCHER["inputs"] if x["kind"] == "base" and x["status"] == "supported")) + ". This page makes the game from it."
+        needs = "Your own copy of " + esc(next(x["label"] for x in PATCHERS[rel["version"]]["inputs"] if x["kind"] == "base" and x["status"] == "supported")) + ". This page makes the game from it."
     sums = f'<code class="sum">{esc(rel["sha256"])}</code>' + (" (the finished game)" if state == "patcher" else "")
     if state == "discord":
         needs = "A Discord account, to open the official download post"
@@ -1238,6 +1272,10 @@ def build_play():
                f'<li>Already playing {esc(rel["upgrade"]["from"])}? Back up your save first, then follow <a href="#update">Updating to {pv}</a>.</li></ol>'
                f'<div class="actions">{primary}</div>'
                f'<p class="notice">To check your download, compare its SHA-256 with the checksums under <a href="#release">Current release</a>. Only trust the official download post; do not download copies offered anywhere else.</p>')
+        if PATCHERS.get(rel["version"], {}).get("enabled"):          # the same release, also made in the browser from a file the visitor already has
+            get += (f'<div class="orpatch" id="make"><p class="label pick">Or, without Discord</p><h3>Make {pv} from a game file you already have</h3>'
+                    f'<p class="lead">Already playing an earlier Project Blonde, or have your own copy of Pokémon Emerald? This page can make {pv} from it on your device. '
+                    f'The result is the same game as the download, checked byte for byte.</p>{patcher_html(rel)}</div>')
     elif state == "direct":
         get = (f'<p class="lead">{esc(dist["notes"]["direct"])}</p><div class="actions">{primary}</div>'
                f'<p class="notice">After downloading, check that the file’s SHA-256 is <code class="sum">{esc(rel["sha256"])}</code>.</p>')

@@ -1,10 +1,10 @@
 {
  "build": {
-  "version": "v115",
-  "public": "v1.2",
-  "folder": "../output/project-blonde-v1.2-hotfix-v115-20261011",
+  "version": "v116",
+  "public": "v1.3",
+  "folder": "../output/project-blonde-v1.3-rc1-20261017",
   "rom": "Pokemon - Project Blonde.gba",
-  "sha256": "b15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22eb",
+  "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
   "symbols": "qa/natural-run-v102/harness/sym-v84.json"
  },
  "maps": 908,
@@ -15,11 +15,11 @@
   "alola": 16,
   "sinjoh": 21
  },
- "trainers": 1171,
+ "trainers": 1215,
  "encounter_maps": 276,
  "sections": 204,
- "item_balls": 428,
- "gift_scripts": 374,
+ "item_balls": 461,
+ "gift_scripts": 390,
  "hidden_items": 251,
  "marts": 39
 }

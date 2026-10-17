@@ -6032,5 +6032,348 @@
   "addr": 167124514,
   "sym": "Alola_Akala_Cave_FindItem2",
   "map": "Akala_Cave_hns"
+ },
+ {
+  "item": "Card Key",
+  "n": 1,
+  "how": "ball",
+  "addr": 167517363,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 167519066,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 167519711,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 167519724,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 167519737,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167519750,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 167520595,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "ball",
+  "addr": 167520608,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167521737,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "X Special",
+  "n": 1,
+  "how": "ball",
+  "addr": 167521750,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 167523173,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 167523186,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 167523867,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 167525174,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 167525187,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 167525200,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 167525390,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Upgrade",
+  "n": 1,
+  "how": "gift",
+  "addr": 167525712,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Mega Ring",
+  "n": 1,
+  "how": "gift",
+  "addr": 167562785,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Hyper Potion",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582384,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Max Revive",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582409,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Escape Rope",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582434,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Full Heal",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582459,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582484,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582509,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "PP Max",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582534,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582559,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "X Special",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582584,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582609,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Max Elixer",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582634,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582659,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582684,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582709,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Rare Candy",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582734,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "ball",
+  "addr": 167582759,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Master Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 167591684,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Master Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 167596488,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Ultra Ball",
+  "n": 1,
+  "how": "gift",
+  "addr": 167598964,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Protein",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599020,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Iron",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599076,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Elixer",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599132,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "PP Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599188,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Carbos",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599244,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Zinc",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599300,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Nugget",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599356,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Max Potion",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599412,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Calcium",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599468,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "HP Up",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599524,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Revive",
+  "n": 1,
+  "how": "gift",
+  "addr": 167599580,
+  "sym": "__rom_end"
  }
 ]

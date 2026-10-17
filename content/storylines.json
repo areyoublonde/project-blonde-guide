@@ -160,6 +160,21 @@
    "chapter": "postgame/far-off-places",
    "symbols": [],
    "note": "The harbor script warps to all three; ticket sources are not traced."
+  },
+  {
+   "id": "silph-conspiracy",
+   "title": "The Silph Conspiracy (v1.3)",
+   "kind": "optional",
+   "status": "covered",
+   "chapter": "postgame/silph-call",
+   "stages": [
+    "start",
+    "lab",
+    "travel"
+   ],
+   "symbols": [],
+   "evidence": "played",
+   "note": "Nine chapters, postgame/silph-call to postgame/silph-league. Its scripts are an appended binary layer (v116) with no symbols in the v84 table, so the symbol check does not apply; the story was played to the end in the v1.3 NEW GAME playthrough."
   }
  ],
  "engine_families": {

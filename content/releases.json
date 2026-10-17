@@ -1,5 +1,5 @@
 {
- "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.2 facts are copied from output/project-blonde-v1.2-rc2-20261011/release-information.json and its guides, v1.1 facts from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. The Discord carries the current release only: a previous release keeps its record here with `post_removed` (the day its download post was removed) and its post is never linked. No URL, date, checksum or patch detail is invented here.",
+ "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.2 facts are copied from output/project-blonde-v1.2-rc2-20261011/release-information.json and its guides, v1.1 facts from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. A previous release keeps its record here: `post_removed` (the day its download post was removed; never linked) or `discord_post` (its download post is still on the Discord, kept with the owner's approval when v1.3 was released). v1.3 facts are copied from output/project-blonde-v1.3-rc1-20261017/ (release-information.json, RELEASE-MANIFEST.json and its guides). No URL, date, checksum or patch detail is invented here.",
  "distribution": {
   "method": "discord",
   "notes": {
@@ -11,8 +11,149 @@
   }
  },
  "notice": "No game file is hosted on this site. The download is the official release post on the Project Blonde Discord. Your progress lives in a separate save file.",
- "current": "1.2",
+ "current": "1.3",
  "releases": [
+  {
+   "version": "1.3",
+   "public_version": "v1.3",
+   "internal_build": "v116",
+   "method": "discord",
+   "status": "released",
+   "status_short": "Released",
+   "status_label": "public release",
+   "date": "2026-10-17",
+   "page": "/play/v1.3/",
+   "summary": "The Silph Conspiracy: a new postgame story after the Hoenn League, and a new member of the Elite Four.",
+   "file": {
+    "type": "ZIP with one Game Boy Advance game (.gba)",
+    "size": "18.7 MB download · 32 MB game",
+    "name": "Pokemon - Project Blonde.gba"
+   },
+   "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
+   "archive": {
+    "name": "Pokemon_-_Project_Blonde.zip",
+    "bytes": 19587476,
+    "sha256": "5376be940f37490e62472554878e56e1ffcd5702e18b89ef34490e546ffd9405"
+   },
+   "download": {
+    "url": "https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480",
+    "file_name": "Pokemon_-_Project_Blonde.zip"
+   },
+   "patch": {
+    "format": null,
+    "base_game": null,
+    "base_checksum": null,
+    "tool": null,
+    "tool_url": null
+   },
+   "release_notes_url": "/play/v1.3/",
+   "save_compatibility": "No save-format change. Saves from v1.0, v1.1 and v1.2 (13 from the project's own playthroughs, one made on public v1.2, and six written by v1.0, v1.1 and the first v1.2 build) were loaded in v1.2 and in v1.3 and compared before the first step: party, PC boxes, Bag, money, Badges, Pokédex, story progress, name, ID and location were the same. Saves from before the Hoenn League continue as before; saves after it receive Brendan's call once on the first steps outdoors, and it does not repeat after a save and reload. Tested in mGBA; not tested on Delta on a device, on an Android device or on physical hardware.",
+   "save_compatibility_short": "Saves from v1.0, v1.1 and v1.2 continue with an ordinary Continue. Back up first.",
+   "link_protocol": "PB-LINK-0001",
+   "highlights": [
+    "The Silph Conspiracy: a new story after the Hoenn League, across Kanto, with Brendan, May and the Kanto Gym Leaders.",
+    "Partner battles, a besieged Silph Co. and battles at Level 95–100.",
+    "A change at the Indigo Plateau: Eusine joins the Elite Four.",
+    "Johto, Kanto and Hoenn in one adventure, on one save file.",
+    "Mega Evolution, the DexNav and Pokémon that follow you."
+   ],
+   "changelog": [
+    "A new postgame storyline. It begins once you are Champion of the Hoenn League: step outside and wait for a call from Brendan.",
+    "Follow the trail from Littleroot Town back to Kanto, through Vermilion Harbor to Saffron City.",
+    "Brendan and May join the investigation and fight alongside you in partner battles.",
+    "Kanto's Gym Leaders have their own parts to play, from the harbour to Saffron City.",
+    "Team Rocket has returned under Giovanni and Archer and taken Silph Co. Fight through the reopened tower: lifts, warp panels, security doors and more.",
+    "The back entrance of the Seafoam Gym is open again.",
+    "Story battles are built for a fully trained team, with opponents up to Lv.100 and Mega Evolution on both sides.",
+    "When the story is over, there is a change at the Indigo Plateau: Eusine joins the Elite Four with a team of his own.",
+    "Fully staged cutscenes with portraits, character movement and Pokémon companions, including Blue's Arcanine and Misty's Water Pokémon swimming in Vermilion Harbor.",
+    "New battle back sprites for Brendan and May in partner battles.",
+    "Partner battles: using a Revive while your partner had no Pokémon left could leave the game stuck on a party screen that could not be closed. Fixed for every battle fought alongside a partner, including the ones already in v1.2.",
+    "The title screen now displays v1.3 beneath PRESS START.",
+    "Everything added in v1.2 remains, including Hoenn's ambient Pokémon and the v1.2 hotfix (Ability Capsules and Ability Patches cannot be sold)."
+   ],
+   "known_limitations": [
+    "The Silph Conspiracy is postgame content for a strong team. It starts only after the Hoenn League has been won.",
+    "On the cooling-system floor of Silph Co., partial progress on the puzzle resets if you leave the floor or black out. Repeat the full sequence.",
+    "Very rarely, in a two-against-two battle fought alongside a partner, a move that knocks out several Pokémon at once can bring up a technical message screen. Press START and the battle continues. This was already the case in v1.2.",
+    "During scripted scenes your following Pokémon returns to its Poké Ball and comes back out when you regain control.",
+    "A save made inside a building or town shows that place as it was in the old version until you leave and re-enter it. Some character graphics also stay cached in older saves until the map is re-entered.",
+    "33 of Hoenn's ambient Pokémon stand close to a town entrance and can be seen appearing as you walk or Surf into the town. This is cosmetic (unchanged from v1.2).",
+    "Six of Hoenn's ambient land Pokémon first appear facing down rather than the direction they were designed to face (unchanged from v1.2).",
+    "Martin on Route 12 and Jake/Joyce on Route 26 keep inherited off-map placements (unchanged from v1.2).",
+    "Testing used the mGBA 0.10.5 emulator core on a computer. Delta on an iPhone/iPad, Android devices and physical hardware were not tested for this release.",
+    "Music and sound were not listened to or recorded during release testing."
+   ],
+   "notes": [
+    "Public version <b>v1.3</b>, internal build v116. The title screen shows v1.3.",
+    "Released on 17 October 2026 on the Project Blonde Discord.",
+    "v1.3 adds the Silph Conspiracy and the partner-battle fix. Everything added in v1.2 remains, including Hoenn’s ambient Pokémon and the v1.2 hotfix.",
+    "This guide’s data was read again from v1.3: 44 new Trainers (Team Rocket, Silph Co. Scientists, Lt. Surge, Sabrina, Koga, Giovanni, Archer and Elite Four Eusine) and the story’s characters on 33 existing maps are the differences. Wild Pokémon, shops and the Pokédex are the same as in v1.2.",
+    "The whole game, including the Silph Conspiracy and the new Elite Four, was played from a new game on the release build before it was published."
+   ],
+   "upgrade": {
+    "from": "v1.2",
+    "instructions": [
+     "Back up the old game and its normal in-game save.",
+     "Use your platform guide: matching mGBA / RetroArch file names, or Delta import/export.",
+     "Cold launch and choose CONTINUE; do not transfer an old save state.",
+     "Leave and re-enter the map you saved on to refresh its characters.",
+     "If you are already Hoenn Champion, step outside and Brendan calls to start the Silph Conspiracy.",
+     "Verify party, bag, badges, money and location, then save and back up again."
+    ],
+    "facts": [
+     "Use <b>Continue</b> from a cold launch. Do not carry an emulator save state across this update. If you only have a save state, load it in the old version and make a normal in-game save first.",
+     "Already Hoenn Champion? Step outside after updating and Brendan calls: the Silph Conspiracy begins. Not yet? Play on; the call comes after you win the Hoenn League.",
+     "A save made inside a building or town shows that place as it was in the old version. Leave and re-enter, and it updates. Nothing is lost.",
+     "The game file is still named <b>Pokemon - Project Blonde.gba</b>. Keep the matching save name: <b>Pokemon - Project Blonde.sav</b> in mGBA, <b>Pokemon - Project Blonde.srm</b> in RetroArch. If your files use another name, keep that matching pair on copies; do not rename or overwrite your only backup.",
+     "If <b>Continue</b> is missing, stop and check the imported save or the save path before starting a new game.",
+     "To go back, restore v1.2 with its own pre-update save backup. A save that has started the Silph Conspiracy should not be moved back to v1.2."
+    ],
+    "guides": [
+     {
+      "id": "delta",
+      "name": "iPhone & iPad",
+      "emulator": "Delta",
+      "steps": [
+       "In the old game, use the game’s <b>SAVE</b> command. Return to Delta’s library.",
+       "Long-press the old game: <b>Manage Save File → Export Save File</b>. Save a dated backup in Files. Keep the old game and this backup.",
+       "Download the ZIP from the official Discord downloads post and extract it in Files. In Delta, tap <b>+</b> and import <b>Pokemon - Project Blonde.gba</b>. It may appear as a separate library entry.",
+       "Long-press the new game: <b>Manage Save File → Import Save File</b>. Select a copy of your exported save.",
+       "Cold-launch the new game, check the <b>v1.3</b> label, then choose <b>Continue</b>. Check party, Bag, Badges, money and location.",
+       "Save inside the game and export a fresh backup. Keep the pre-update backup too."
+      ],
+      "note": "Use the normal save, not an emulator save state. If Continue is missing, check the save import before starting New Game. Delta accepts a save of exactly 131,072 bytes; a save exported from Delta already is, and a save from mGBA on a computer (131,088 bytes) must be trimmed first. This procedure was written from Delta’s official controls. v1.3 was tested in the mGBA engine on a computer; it was not tested on an iPhone or iPad."
+     },
+     {
+      "id": "mgba",
+      "name": "Windows & macOS",
+      "emulator": "mGBA",
+      "steps": [
+       "Save inside the old game, then close mGBA. Copy the old <b>.gba</b> and its <b>.sav</b> into a dated backup folder. Keep that backup unchanged.",
+       "Check <b>mGBA Settings → Paths</b> for your Save games location. By default, saves are beside the game file; a custom path overrides this.",
+       "Extract the v1.3 ZIP into a new folder. Keep the file name <b>Pokemon - Project Blonde.gba</b>.",
+       "Copy your backed-up save into the save location with the matching name <b>Pokemon - Project Blonde.sav</b>. If a save is already there, back it up before replacing it.",
+       "Open the new game, confirm <b>v1.3</b> on the title, then choose <b>Continue</b>. Do not load an old save state. Check party, Bag, Badges, money and location.",
+       "Save inside the game, close mGBA, reopen and confirm Continue loads your progress. Keep both the old backup and a fresh v1.3 backup."
+      ],
+      "note": "If your old game uses a personal file name, keep a matching .gba/.sav pair. If Continue is missing, recheck the file names and Settings → Paths before starting New Game. v1.0, v1.1 and v1.2 saves were tested in the mGBA 0.10.5 engine; the graphical mGBA app itself was not automated."
+     },
+     {
+      "id": "retroarch",
+      "name": "Android",
+      "emulator": "RetroArch",
+      "steps": [
+       "In the old game, <b>SAVE</b> from the START menu, then use <b>Quick Menu → Close Content</b> so RetroArch writes the save file.",
+       "Your save is the <b>.srm</b> file with the same name as the game, in RetroArch’s Save directory (<b>Settings → Directory → Save Files</b>). Copy it to a dated backup folder with a file manager.",
+       "Extract the v1.3 ZIP. Give the new .gba the same name as your old one, or rename a copy of your .srm to <b>Pokemon - Project Blonde.srm</b>: the save is matched by file name.",
+       "Load the new game with the <b>mGBA</b> core, confirm <b>v1.3</b> on the title, then choose <b>Continue</b>. Do not use an old RetroArch save state. Check party, Bag, Badges, money and location.",
+       "Save inside the game, close the content and back up the new .srm. Keep the pre-update backup too."
+      ],
+      "note": "If Continue is missing, check the save file name and the Save Files directory before starting New Game. This procedure follows RetroArch’s documented controls; it was not tested on an Android device."
+     }
+    ]
+   }
+  },
   {
    "version": "1.2",
    "public_version": "v1.2",
@@ -128,7 +269,8 @@
     "Everything from v1.1 is retained: the character sprite overhaul, portraits, battle artwork, the Alola improvements, the animated Gold and Wigglytuff title, the ending and the credits are unchanged. Apart from the hotfix (Ability Capsules and Ability Patches can no longer be sold), no gameplay system, encounter table or story event was changed.",
     "This guide’s data was read again from v1.2: the 125 new town Pokémon are the only difference. Pokémon, encounters, items, Trainers and shops are the same as in v1.1.",
     "The walkthrough was played to the end on builds v100 to v102. A complete story playthrough was not repeated for v1.2."
-   ]
+   ],
+   "discord_post": "https://discord.com/channels/1557763721051512932/1557776605844217866/1558689298931384430"
   },
   {
    "version": "1.1",

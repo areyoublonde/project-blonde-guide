@@ -181,7 +181,10 @@ def run(c, mobile):
                 made = c.js("[...document.querySelectorAll('#get [data-patcher] h3, #get [data-patcher] .lead, #get h2')].map(e=>e.textContent).join(' | ')")
                 ok(f"[{tag}] {r['public_version']}: nothing in the patcher says it makes {cur}", f"Blonde {cur}" not in made and f"Make {cur}" not in made and f"makes {cur}" not in made.replace("does not make", ""), made[:200])
                 go(c, "/play/")
-                ok(f"[{tag}] Download & Play: no patcher on the {cur} page, and the history row says the patcher is {only}", c.js("document.querySelectorAll('[data-patcher]').length") == 0 and only in c.js("[...document.querySelectorAll('#history .history a')].map(a=>a.textContent).join(' | ')"))
+                own = [json.loads((ROOT / f"content/patcher-{REL['public_version']}.json").read_text())] if (ROOT / f"content/patcher-{REL['public_version']}.json").exists() else []
+                pp = c.js("[...document.querySelectorAll('[data-patcher]')].map(e=>[e.dataset.patches,JSON.parse(e.querySelector('#patcher-registry').textContent).target.public_version])")
+                ok(f"[{tag}] Download & Play: the {cur} page carries only a {cur} patcher (if one is registered), never the {r['public_version']} one, and the history row says the old patcher is {only}",
+                   ((len(pp) == 1 and pp[0][0].endswith(f"/assets/patches/{cur}/") and pp[0][1] == cur) if own and own[0].get("enabled") else pp == []) and only in c.js("[...document.querySelectorAll('#history .history a')].map(a=>a.textContent).join(' | ')"), pp)
                 go(c, r["page"])
             ok(f"[{tag}] {r['public_version']}: no sideways scroll", c.js("document.documentElement.scrollWidth <= window.innerWidth"))
 
@@ -236,18 +239,27 @@ def whatsnew(c, tag, rel):
     ok(f"[{tag}] {pv}: the changelog, word for word", all(x in txt("#changes") for x in rel["changelog"]))
     if G.get("kind") == "towns":
         towns(c, tag, rel, G, txt)
+    elif G.get("kind") == "story":
+        story(c, tag, rel, G, txt)
     else:
         sprites(c, tag, rel, G, txt)
     t = txt(".wn")
     posts = c.js("[...document.querySelectorAll('.wn a[data-release-post]')].map(a=>a.href)")
-    ok(f"[{tag}] {pv}: known limitations, and every release-post button opens the {cur} post", all(x in t for x in rel["known_limitations"]) and len(posts) >= 2 and all(h == REL["download"]["url"] for h in posts) and f"Get {cur} on Discord" in txt(".relhero .actions"), posts)
-    if prev:
+    ok(f"[{tag}] {pv}: known limitations, and every release-post button opens the {cur} post (or, for a previous release whose post is kept, its own post)", all(x in t for x in rel["known_limitations"]) and len(posts) >= 2
+       and all(h == REL["download"]["url"] or (prev and h == rel.get("discord_post")) for h in posts) and sum(h == REL["download"]["url"] for h in posts) >= 2 and f"Get {cur} on Discord" in txt(".relhero .actions"), posts)
+    if prev and rel.get("discord_post"):
+        ok(f"[{tag}] {pv}: release record with version, date, both checksums, its notes, its still-available post and a way to the current release", all(x in txt("#release") for x in (pv, rel["internal_build"], rel["date"], rel["sha256"], rel["archive"]["sha256"], f"replaced by {cur}", "Still available", rel["save_compatibility"]))
+           and c.js("[...document.querySelectorAll('#release dl a')].map(a=>a.getAttribute('href'))") == [rel["discord_post"], c.js("document.querySelector('#release dl a:last-child').getAttribute('href')")] and c.js("document.querySelector('#release dl a:last-child').getAttribute('href')").endswith("/play/#get")
+           and c.js("document.querySelectorAll('#release ul li').length") == len(rel["notes"]))
+        ok(f"[{tag}] {pv}: says its download post is still on the Discord, and offers no update steps to {pv}", "still on the Project Blonde Discord" in txt("#release .notice") and not c.js("!!document.querySelector('#release .notice.gone')")
+           and c.js("document.querySelectorAll('details.upg').length") == 0 and not c.js("!!document.getElementById('update')"))
+    elif prev:
         ok(f"[{tag}] {pv}: release record with version, date, both checksums, its notes and a way to the current release", all(x in txt("#release") for x in (pv, rel["internal_build"], rel["date"], rel["sha256"], rel["archive"]["sha256"], f"replaced by {cur}", "No longer offered", rel["save_compatibility"]))
            and c.js("document.querySelector('#release dl a').getAttribute('href')").endswith("/play/#get") and c.js("document.querySelectorAll('#release ul li').length") == len(rel["notes"]))
         ok(f"[{tag}] {pv}: says its download post is gone, links it nowhere, and offers no update steps to {pv}", "no longer on the Project Blonde Discord" in txt("#release .notice.gone") and c.js(SHOWN + "('#release .notice.gone')")
            and c.js("[...document.querySelectorAll('a')].filter(a=>a.href===" + json.dumps(rel["download"]["url"]) + ").length") == 0 and c.js("document.querySelectorAll('details.upg').length") == 0 and not c.js("!!document.getElementById('update')"))
     else:
-        ok(f"[{tag}] {pv}: update steps for Delta and mGBA with the save-compatibility statement", c.js("document.querySelectorAll('#update details.upg').length") == 2 and rel["save_compatibility"] in t and all(x in txt("#update") for x in rel["upgrade"]["instructions"]))
+        ok(f"[{tag}] {pv}: update steps for every listed emulator ({', '.join(g['emulator'] for g in rel['upgrade']['guides'])}) with the save-compatibility statement", c.js("document.querySelectorAll('#update details.upg').length") == len(rel["upgrade"]["guides"]) and rel["save_compatibility"] in t and all(x in txt("#update") for x in rel["upgrade"]["instructions"]))
     ok(f"[{tag}] {pv}: no sideways scroll, no broken image", c.js("document.documentElement.scrollWidth <= window.innerWidth") and c.js("[...document.images].filter(i=>!i.complete||!i.naturalWidth).length") == 0)
     errs = [e for e in c.events if e.get("method") in ("Runtime.exceptionThrown", "Network.loadingFailed") or e.get("method") == "Log.entryAdded" and e["params"]["entry"]["level"] == "error"
             or e.get("method") == "Runtime.consoleAPICalled" and e["params"]["type"] == "error"]
@@ -279,8 +291,22 @@ def towns(c, tag, rel, G, txt):
     c.js("document.querySelector('#towns tbody a').click()"); c.wait("location.pathname.includes('/world/')", 8)
     ok(f"[{tag}] towns: a town link lands on an existing place page", "/world/" in c.url() and c.js("!!document.querySelector('h1')") and G["towns"][0]["town"].split(" ")[0] in c.js("document.body.textContent"), c.url())
     go(c, rel["page"]); c.js("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')"); c.wait("[...document.images].every(i=>i.complete)", 15)
-    t = txt(".wn").lower()
+    t = (txt("#changes") + " " + txt("#gallery") + " " + txt("#towns")).lower()      # the release record of a previous release lists what it kept; only its own changes count here
     ok(f"[{tag}] towns: does not present {old}'s changes as new", not any(w in t for w in ("sprite overhaul", "portrait", "battle artwork", "palm", "dexnav")), [w for w in ("sprite overhaul", "portrait", "battle artwork", "palm", "dexnav") if w in t])
+
+
+def story(c, tag, rel, G, txt):
+    """The story gallery (v1.3): real in-game screenshots from the release's playthrough, light on spoilers, and the way into the walkthrough."""
+    pv, S = rel["public_version"], G["shots"]
+    c.js("document.querySelectorAll('img[loading=lazy]').forEach(i=>i.loading='eager')"); c.wait("[...document.images].every(i=>i.complete)", 15)
+    cards = c.js("[...document.querySelectorAll('#gallery li')].map(l=>[l.dataset.shot,l.querySelector('img').getAttribute('src').split('/').pop(),l.querySelector('b').textContent,l.querySelector('p').textContent])")
+    ok(f"[{tag}] story: {len(S)} screenshots in the generated order, each with its title and caption", cards == [[s["id"], s["file"], s["title"], s["caption"]] for s in S], cards[:1])
+    ok(f"[{tag}] story: every screenshot loads at native 240x160, drawn crisp, inside its card", c.js("[...document.querySelectorAll('#gallery img')].map(i=>i.complete&&i.naturalWidth===240&&i.naturalHeight===160&&getComputedStyle(i).imageRendering==='pixelated')") == [True] * len(S)
+       and c.js("[...document.querySelectorAll('#gallery li')].every(li=>{const a=li.getBoundingClientRect(),b=li.querySelector('img').getBoundingClientRect();return b.left>=a.left&&b.right<=a.right+.5&&Math.abs(b.width/b.height-1.5)<.02})"))
+    t = txt(".wn").lower()
+    ok(f"[{tag}] story: the page keeps the story's twists out (no resignation, betrayal or Giovanni's defeat)", not any(w in t for w in ("resign", "betray", "served team rocket", "father")), [w for w in ("resign", "betray", "served team rocket", "father") if w in t])
+    w = c.js("(a=>a&&a.getAttribute('href'))(document.querySelector('#changes a.link'))")
+    ok(f"[{tag}] story: links into the walkthrough's first Silph Conspiracy chapter", bool(w) and w.endswith("/postgame/silph-call/"), w)
 
 
 def sprites(c, tag, rel, G, txt):

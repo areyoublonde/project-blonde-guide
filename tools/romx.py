@@ -18,12 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "rom"
 B = 0x08000000
 BUILD = {
-    "version": "v115",
-    "public": "v1.2",
-    "folder": "../output/project-blonde-v1.2-hotfix-v115-20261011",            # relative to the game folder: the published release folder, not a qa build folder
+    "version": "v116",
+    "public": "v1.3",
+    "folder": "../output/project-blonde-v1.3-rc1-20261017",            # relative to the game folder: the published release folder, not a qa build folder
     "rom": "Pokemon - Project Blonde.gba",
-    "sha256": "b15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22eb",
-    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v115 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; v112..v113 Hoenn town object events, their scripts and graphics, and the title sheet; v115 = v113 + the sell-menu hotfix, 41 bytes of code; no data table)
+    "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
+    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v116 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; v112..v113 Hoenn town object events, their scripts and graphics, and the title sheet; v115 = v113 + the sell-menu hotfix, 41 bytes of code; v116 = v115 + the Silph Conspiracy story layer (appended maps, scripts, trainers 1487..1530, graphics) + the v1.3 title sheet; the restored Silph floors have no symbol, so they are not map pages)
 }
 TRAINER_SZ, MON_SZ, HNS_ROWS = 52, 36, 635
 HO_LEGACY_FIRST, HO_EXT_FIRST = 634, 1152                     # qa/gym-rematch-yes-no-v84/trainer_capacity.h
@@ -184,7 +184,12 @@ def main():
     bounds = sorted(set(groups)) + [S["gMapGroups"]]
     hdr = {}          # (group, num) -> header address
     for g, p in enumerate(groups):
-        end = min(x for x in bounds if x > p)
+        end = min((x for x in bounds if x > p), default=None)
+        if end is None:          # a group list moved past gMapGroups by a binary layer (v116: group 18 gained the restored Silph floors)
+            lists = sorted(v for k, v in S.items() if k.startswith("gMapGroup_") and isinstance(v, int)) + [S["gMapGroups"]]
+            orig = next(x for x in lists[:-1] if R.u32(x) == R.u32(p))          # the original list it was copied from: same first map
+            end = p + (min(x for x in lists if x > orig) - orig)
+            while R.ok(R.u32(end)) and R.u32(end) not in R.rev: end += 4         # then the appended headers, which have no symbol
         for n in range((end - p) // 4):
             h = R.u32(p + 4 * n)
             if R.ok(h) and h in R.rev:      # groups keep empty slots for maps that were not imported

@@ -1,5 +1,17 @@
 # Deployment status
 
+**v1.3 website update, 2026-10-17 (owner approved publication and the website update in the release instruction).** Branch `release-v1.3` on `origin/main` `8bcaf46`
+(with the v1.2 hotfix evidence commit). The game is public: v1.3 (build v116, game `e851f80d…87c3`, ZIP `5376be94…9405`) was published on Discord on 2026-10-17
+(`https://discord.com/channels/1557763721051512932/1557776605844217866/1560852324795023480`); the v1.2 post stays up (owner: preserve v1.2), so `releases.json` gives v1.2
+`discord_post` instead of `post_removed`. What changes: `releases.json` `current: "1.3"`; `/play/v1.3/` What's new with six real v1.3 screenshots (`tools/whatsnew_story.py`);
+nine Silph Conspiracy chapters in the postgame (`postgame/silph-call` … `postgame/silph-league`) and an updated After the Credits; a Partner Battles feature page;
+`romx.py` BUILD = v116 (group 18 moved past gMapGroups by the story layer is handled; the restored Silph floors have no symbol and are not map pages); two re-rendered,
+re-audited maps (Seafoam Gym back entrance, Blaine's cave lab); a second in-browser patcher registry `content/patcher-v1.3.json` offered under the Discord download
+(Emerald, v1.0, v1.1 and both v1.2 builds → v1.3; patches in `site/assets/patches/v1.3/`, `PATCHER-MATRIX-v1.3.md`); the v1.0 patcher stays on `/play/v1.0/`.
+Local results: build 1,333 pages (69 chapters); `qa_static` 83,254 links / 39,342 assets, 0 failures; `qa_play` 256 of 256; `PB_PATCHER=v1.3 qa_patcher` 63 of 63;
+`qa_maps` 0 problems (audit of v116); `qa_pokemon_data` 482 (440 + 42), 0 problems; `qa_story` 8 covered, 0 failures; `qa_field_encounters` pass; `qa_availability` 30 of 31 (the
+game-folder check is skipped in a worktree). Not tested: a physical iPhone, Safari, Firefox, an Android device.
+
 **v1.2 hotfix record, 2026-10-11.** The v1.2 download on Discord now carries the hotfix build (internal v115, game `b15f98da…22eb`, ZIP `c93d2d31…e7fd`): Ability Capsules and Ability Patches can no longer be sold. The ZIP was replaced on the same pinned post, so the download link did not change; the first v1.2 build (v113) is archived with the release records. This update changes the release record (`content/releases.json`: build, both checksums, ZIP size, one changelog line, two notes), the build record (`tools/romx.py`, `data/rom/manifest.json`, `data/availability.json`) and the gallery provenance (`tools/whatsnew_towns.py`, `data/whatsnew-v1.2.json`: screenshots taken on v113, whose maps and graphics are byte-identical in v115). No page design, guide, Pokédex, map or patcher change; the patcher stays v1.0 only. Local: build 1,315 pages, links 82,690 and assets 39,495 with 0 failures, `qa_play.py` 232 of 232.
 
 **Latest deploy 2026-10-11 (v1.2 website update):** commit `848aa60` on `main`, workflow run 38111891002, success (build 1,315 pages and every CI check). Verified

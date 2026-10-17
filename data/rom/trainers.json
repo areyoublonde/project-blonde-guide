@@ -17145,8 +17145,8 @@
   "n": 466,
   "const": "TRAINER_GIOVANNI_HNS",
   "name": "GIOVANNI",
-  "class": "ROCKET ADMIN",
-  "class_id": "TRAINER_CLASS_ROCKET_ADMIN_HNS",
+  "class": "ROCKET BOSS",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_FRLG",
   "money": 0,
   "pic": "giovanni_hns",
   "double": false,
@@ -41659,5 +41659,2246 @@
    }
   ],
   "src": "HoExtTrainerRecords[334]"
+ },
+ "1487": {
+  "id": 1487,
+  "n": 1487,
+  "const": null,
+  "name": "GIOVANNI",
+  "class": "ROCKET BOSS",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_FRLG",
+  "money": 0,
+  "pic": "giovanni_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_KANGASKHAN",
+    "level": 99,
+    "item": "Kangaskhanite",
+    "ability": null,
+    "moves": [
+     "Dizzy Punch",
+     "Fire Punch",
+     "Safeguard",
+     "Mega Punch"
+    ]
+   },
+   {
+    "species": "SPECIES_HONCHKROW",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Dark Pulse",
+     "Air Slash",
+     "Thief",
+     "Double Team"
+    ]
+   },
+   {
+    "species": "SPECIES_NIDOQUEEN",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Ice Punch",
+     "Cross Poison",
+     "Bulldoze",
+     "Body Slam"
+    ]
+   },
+   {
+    "species": "SPECIES_PERSIAN",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Faint Attack",
+     "Swagger",
+     "Screech",
+     "Slash"
+    ]
+   },
+   {
+    "species": "SPECIES_URSALUNA",
+    "level": 100,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Headlong Rush",
+     "Sandstorm",
+     "Play Rough",
+     "Double Edge"
+    ]
+   },
+   {
+    "species": "SPECIES_NIDOKING",
+    "level": 100,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Thunderpunch",
+     "Earthquake",
+     "Rock Slide",
+     "Thrash"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[335]"
+ },
+ "1488": {
+  "id": 1488,
+  "n": 1488,
+  "const": null,
+  "name": "ARCHER",
+  "class": "ROCKET ADMIN",
+  "class_id": "TRAINER_CLASS_ROCKET_ADMIN_HNS",
+  "money": 0,
+  "pic": "archer_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_HOUNDOOM",
+    "level": 100,
+    "item": "Houndoominite",
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Smog",
+     "Roar",
+     "Flamethrower"
+    ]
+   },
+   {
+    "species": "SPECIES_PORYGON_Z",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Zap Cannon",
+     "Flamethrower",
+     "Ice Beam"
+    ]
+   },
+   {
+    "species": "SPECIES_TAUROS",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Headbutt",
+     "Earthquake",
+     "Pursuit",
+     "Frustration"
+    ]
+   },
+   {
+    "species": "SPECIES_GYARADOS",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Bounce",
+     "Twister",
+     "Aqua Tail"
+    ]
+   },
+   {
+    "species": "SPECIES_SLOWBRO",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Zen Headbutt",
+     "Curse",
+     "Amnesia",
+     "Waterfall"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[336]"
+ },
+ "1489": {
+  "id": 1489,
+  "n": 1489,
+  "const": null,
+  "name": "ARCHER",
+  "class": "ROCKET ADMIN",
+  "class_id": "TRAINER_CLASS_ROCKET_ADMIN_HNS",
+  "money": 0,
+  "pic": "archer_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_PORYGON_Z",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Zap Cannon",
+     "Flamethrower",
+     "Ice Beam"
+    ]
+   },
+   {
+    "species": "SPECIES_TAUROS",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Headbutt",
+     "Earthquake",
+     "Pursuit",
+     "Frustration"
+    ]
+   },
+   {
+    "species": "SPECIES_GYARADOS",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Bounce",
+     "Twister",
+     "Aqua Tail"
+    ]
+   },
+   {
+    "species": "SPECIES_HOUNDOOM",
+    "level": 100,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Smog",
+     "Roar",
+     "Flamethrower"
+    ]
+   },
+   {
+    "species": "SPECIES_SLOWBRO",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Zen Headbutt",
+     "Curse",
+     "Amnesia",
+     "Waterfall"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[337]"
+ },
+ "1490": {
+  "id": 1490,
+  "n": 1490,
+  "const": null,
+  "name": "EUSINE",
+  "class": "ELITE FOUR",
+  "class_id": "TRAINER_CLASS_ELITE_FOUR_HNS",
+  "money": 25,
+  "pic": "eusine_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_HYPNO",
+    "level": 50,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Hypnosis",
+     "Zen Headbutt",
+     "Swagger",
+     "Psychic"
+    ]
+   },
+   {
+    "species": "SPECIES_ELECTRODE",
+    "level": 51,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Foul Play",
+     "Magnet Rise",
+     "Discharge",
+     "Explosion"
+    ]
+   },
+   {
+    "species": "SPECIES_ARCANINE",
+    "level": 50,
+    "item": null,
+    "ability": null,
+    "moves": []
+   },
+   {
+    "species": "SPECIES_POLITOED",
+    "level": 51,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Hypnosis",
+     "Body Slam",
+     "Surf",
+     "Hyper Voice"
+    ]
+   },
+   {
+    "species": "SPECIES_GENGAR",
+    "level": 52,
+    "item": "Gengarite",
+    "ability": null,
+    "moves": [
+     "Sludge",
+     "Shadow Ball",
+     "Dark Pulse",
+     "Destiny Bond"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[338]"
+ },
+ "1491": {
+  "id": 1491,
+  "n": 1491,
+  "const": null,
+  "name": "EUSINE",
+  "class": "ELITE FOUR",
+  "class_id": "TRAINER_CLASS_ELITE_FOUR_HNS",
+  "money": 25,
+  "pic": "eusine_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_HYPNO",
+    "level": 67,
+    "item": null,
+    "ability": null,
+    "moves": []
+   },
+   {
+    "species": "SPECIES_ELECTRODE",
+    "level": 67,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Explosion",
+     "Thunderbolt",
+     "Flash Cannon",
+     "Mirror Coat"
+    ]
+   },
+   {
+    "species": "SPECIES_ARCANINE",
+    "level": 67,
+    "item": null,
+    "ability": null,
+    "moves": []
+   },
+   {
+    "species": "SPECIES_MILOTIC",
+    "level": 67,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Ice Beam",
+     "Recover",
+     "Hydro Pump",
+     "Rain Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_POLITOED",
+    "level": 67,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Hydro Pump",
+     "Ice Beam",
+     "Hypnosis",
+     "Wake Up Slap"
+    ]
+   },
+   {
+    "species": "SPECIES_GENGAR",
+    "level": 68,
+    "item": "Gengarite",
+    "ability": null,
+    "moves": [
+     "Dark Pulse",
+     "Destiny Bond",
+     "Shadow Ball",
+     "Sludge Bomb"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[339]"
+ },
+ "1492": {
+  "id": 1492,
+  "n": 1492,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_RATICATE",
+    "level": 95,
+    "item": "Silk Scarf",
+    "ability": null,
+    "moves": [
+     "Double Edge",
+     "Sucker Punch",
+     "Crunch",
+     "U Turn"
+    ]
+   },
+   {
+    "species": "SPECIES_GOLBAT",
+    "level": 95,
+    "item": "Eviolite",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Poison Fang",
+     "Super Fang",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[340]"
+ },
+ "1493": {
+  "id": 1493,
+  "n": 1493,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_ARBOK",
+    "level": 95,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Earthquake",
+     "Crunch",
+     "Glare"
+    ]
+   },
+   {
+    "species": "SPECIES_LIEPARD",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Knock Off",
+     "Play Rough",
+     "U Turn",
+     "Fake Out"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[341]"
+ },
+ "1494": {
+  "id": 1494,
+  "n": 1494,
+  "const": null,
+  "name": "MARLON",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_MAGNEZONE",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Flash Cannon",
+     "Tri Attack",
+     "Thunder Wave"
+    ]
+   },
+   {
+    "species": "SPECIES_MUK",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Shadow Sneak",
+     "Brick Break",
+     "Curse"
+    ]
+   },
+   {
+    "species": "SPECIES_PORYGON2",
+    "level": 97,
+    "item": "Eviolite",
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Ice Beam",
+     "Thunderbolt",
+     "Recover"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[342]"
+ },
+ "1495": {
+  "id": 1495,
+  "n": 1495,
+  "const": null,
+  "name": "EZRA",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_ELECTRODE",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Foul Play",
+     "Volt Switch",
+     "Explosion"
+    ]
+   },
+   {
+    "species": "SPECIES_HYPNO",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Focus Blast",
+     "Thunder Wave",
+     "Hypnosis"
+    ]
+   },
+   {
+    "species": "SPECIES_WEEZING",
+    "level": 97,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Sludge Bomb",
+     "Flamethrower",
+     "Thunderbolt",
+     "Will O Wisp"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[343]"
+ },
+ "1496": {
+  "id": 1496,
+  "n": 1496,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_HOUNDOOM",
+    "level": 95,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Dark Pulse",
+     "Sludge Bomb",
+     "Nasty Plot"
+    ]
+   },
+   {
+    "species": "SPECIES_CROBAT",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Cross Poison",
+     "U Turn",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[344]"
+ },
+ "1497": {
+  "id": 1497,
+  "n": 1497,
+  "const": null,
+  "name": "IVO",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_ROTOM",
+    "level": 96,
+    "item": "Sitrus Berry",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Shadow Ball",
+     "Volt Switch",
+     "Will O Wisp"
+    ]
+   },
+   {
+    "species": "SPECIES_BRONZONG",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Gyro Ball",
+     "Earthquake",
+     "Hypnosis",
+     "Stealth Rock"
+    ]
+   },
+   {
+    "species": "SPECIES_ALAKAZAM",
+    "level": 97,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Energy Ball"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[345]"
+ },
+ "1498": {
+  "id": 1498,
+  "n": 1498,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_SKUNTANK",
+    "level": 95,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Poison Jab",
+     "Flamethrower",
+     "Sucker Punch"
+    ]
+   },
+   {
+    "species": "SPECIES_TOXICROAK",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Drain Punch",
+     "Gunk Shot",
+     "Sucker Punch",
+     "Swords Dance"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[346]"
+ },
+ "1499": {
+  "id": 1499,
+  "n": 1499,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_GOLBAT",
+    "level": 95,
+    "item": "Eviolite",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Poison Fang",
+     "Super Fang",
+     "Roost"
+    ]
+   },
+   {
+    "species": "SPECIES_WEEZING",
+    "level": 95,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Sludge Bomb",
+     "Flamethrower",
+     "Thunderbolt",
+     "Will O Wisp"
+    ]
+   },
+   {
+    "species": "SPECIES_RATICATE",
+    "level": 96,
+    "item": "Silk Scarf",
+    "ability": null,
+    "moves": [
+     "Double Edge",
+     "Sucker Punch",
+     "Crunch",
+     "U Turn"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[347]"
+ },
+ "1500": {
+  "id": 1500,
+  "n": 1500,
+  "const": null,
+  "name": "OTIS",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_KLINKLANG",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Gear Grind",
+     "Wild Charge",
+     "Shift Gear",
+     "Substitute"
+    ]
+   },
+   {
+    "species": "SPECIES_SLOWBRO",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Scald",
+     "Psychic",
+     "Ice Beam",
+     "Slack Off"
+    ]
+   },
+   {
+    "species": "SPECIES_GENGAR",
+    "level": 97,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Shadow Ball",
+     "Sludge Bomb",
+     "Thunderbolt",
+     "Focus Blast"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[348]"
+ },
+ "1501": {
+  "id": 1501,
+  "n": 1501,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_DRAPION",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Knock Off",
+     "Cross Poison",
+     "Earthquake",
+     "Swords Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_HONCHKROW",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Sucker Punch",
+     "Night Slash",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[349]"
+ },
+ "1502": {
+  "id": 1502,
+  "n": 1502,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_MUK",
+    "level": 95,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Shadow Sneak",
+     "Brick Break",
+     "Curse"
+    ]
+   },
+   {
+    "species": "SPECIES_PERSIAN",
+    "level": 96,
+    "item": "Silk Scarf",
+    "ability": null,
+    "moves": [
+     "Fake Out",
+     "Body Slam",
+     "Play Rough",
+     "U Turn"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[350]"
+ },
+ "1503": {
+  "id": 1503,
+  "n": 1503,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_f_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_VICTREEBEL",
+    "level": 95,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Leaf Blade",
+     "Sludge Bomb",
+     "Sucker Punch",
+     "Sleep Powder"
+    ]
+   },
+   {
+    "species": "SPECIES_WEAVILE",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Icicle Crash",
+     "Knock Off",
+     "Ice Shard",
+     "Low Kick"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[351]"
+ },
+ "1504": {
+  "id": 1504,
+  "n": 1504,
+  "const": null,
+  "name": "BASIL",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_PORYGON_Z",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Dark Pulse",
+     "Ice Beam",
+     "Nasty Plot"
+    ]
+   },
+   {
+    "species": "SPECIES_MAGMORTAR",
+    "level": 97,
+    "item": "Expert Belt",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Thunderbolt",
+     "Focus Blast",
+     "Psychic"
+    ]
+   },
+   {
+    "species": "SPECIES_REUNICLUS",
+    "level": 97,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Focus Blast",
+     "Shadow Ball",
+     "Recover"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[352]"
+ },
+ "1505": {
+  "id": 1505,
+  "n": 1505,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_NIDOKING",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Earth Power",
+     "Sludge Wave",
+     "Ice Beam",
+     "Thunderbolt"
+    ]
+   },
+   {
+    "species": "SPECIES_CROBAT",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Cross Poison",
+     "U Turn",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[353]"
+ },
+ "1506": {
+  "id": 1506,
+  "n": 1506,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_AMBIPOM",
+    "level": 95,
+    "item": "Silk Scarf",
+    "ability": null,
+    "moves": [
+     "Fake Out",
+     "Double Hit",
+     "Knock Off",
+     "U Turn"
+    ]
+   },
+   {
+    "species": "SPECIES_TENTACRUEL",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Scald",
+     "Sludge Bomb",
+     "Giga Drain",
+     "Toxic Spikes"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[354]"
+ },
+ "1507": {
+  "id": 1507,
+  "n": 1507,
+  "const": null,
+  "name": "LYLE",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_METAGROSS",
+    "level": 96,
+    "item": "Assault Vest",
+    "ability": null,
+    "moves": [
+     "Meteor Mash",
+     "Zen Headbutt",
+     "Earthquake",
+     "Bullet Punch"
+    ]
+   },
+   {
+    "species": "SPECIES_ELECTIVIRE",
+    "level": 97,
+    "item": "Expert Belt",
+    "ability": null,
+    "moves": [
+     "Wild Charge",
+     "Ice Punch",
+     "Earthquake",
+     "Cross Chop"
+    ]
+   },
+   {
+    "species": "SPECIES_PORYGON2",
+    "level": 97,
+    "item": "Eviolite",
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Ice Beam",
+     "Thunderbolt",
+     "Recover"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[355]"
+ },
+ "1508": {
+  "id": 1508,
+  "n": 1508,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_BISHARP",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Iron Head",
+     "Knock Off",
+     "Sucker Punch",
+     "Swords Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_ARBOK",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Earthquake",
+     "Crunch",
+     "Glare"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[356]"
+ },
+ "1509": {
+  "id": 1509,
+  "n": 1509,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_MACHAMP",
+    "level": 96,
+    "item": "Assault Vest",
+    "ability": null,
+    "moves": [
+     "Dynamicpunch",
+     "Knock Off",
+     "Bullet Punch",
+     "Stone Edge"
+    ]
+   },
+   {
+    "species": "SPECIES_HOUNDOOM",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Dark Pulse",
+     "Sludge Bomb",
+     "Nasty Plot"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[357]"
+ },
+ "1510": {
+  "id": 1510,
+  "n": 1510,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_GARBODOR",
+    "level": 95,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Drain Punch",
+     "Toxic Spikes",
+     "Explosion"
+    ]
+   },
+   {
+    "species": "SPECIES_GYARADOS",
+    "level": 96,
+    "item": "Sitrus Berry",
+    "ability": null,
+    "moves": [
+     "Waterfall",
+     "Crunch",
+     "Earthquake",
+     "Dragon Dance"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[358]"
+ },
+ "1511": {
+  "id": 1511,
+  "n": 1511,
+  "const": null,
+  "name": "CASPAR",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_EELEKTROSS",
+    "level": 96,
+    "item": "Assault Vest",
+    "ability": null,
+    "moves": [
+     "Wild Charge",
+     "Drain Punch",
+     "Flamethrower",
+     "Giga Drain"
+    ]
+   },
+   {
+    "species": "SPECIES_BEHEEYEM",
+    "level": 97,
+    "item": "Sitrus Berry",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Thunderbolt",
+     "Shadow Ball",
+     "Recover"
+    ]
+   },
+   {
+    "species": "SPECIES_MAGNEZONE",
+    "level": 97,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Flash Cannon",
+     "Tri Attack",
+     "Thunder Wave"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[359]"
+ },
+ "1512": {
+  "id": 1512,
+  "n": 1512,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_KROOKODILE",
+    "level": 96,
+    "item": "Choice Scarf",
+    "ability": null,
+    "moves": [
+     "Earthquake",
+     "Knock Off",
+     "Stone Edge",
+     "Superpower"
+    ]
+   },
+   {
+    "species": "SPECIES_WEEZING",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Sludge Bomb",
+     "Flamethrower",
+     "Thunderbolt",
+     "Will O Wisp"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[360]"
+ },
+ "1513": {
+  "id": 1513,
+  "n": 1513,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_NIDOQUEEN",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Earth Power",
+     "Sludge Bomb",
+     "Ice Beam",
+     "Stealth Rock"
+    ]
+   },
+   {
+    "species": "SPECIES_LIEPARD",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Knock Off",
+     "Play Rough",
+     "U Turn",
+     "Fake Out"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[361]"
+ },
+ "1514": {
+  "id": 1514,
+  "n": 1514,
+  "const": null,
+  "name": "NOLAN",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_PROBOPASS",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Power Gem",
+     "Flash Cannon",
+     "Earth Power",
+     "Thunder Wave"
+    ]
+   },
+   {
+    "species": "SPECIES_ALAKAZAM",
+    "level": 97,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Energy Ball"
+    ]
+   },
+   {
+    "species": "SPECIES_ROTOM",
+    "level": 97,
+    "item": "Sitrus Berry",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Shadow Ball",
+     "Volt Switch",
+     "Will O Wisp"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[362]"
+ },
+ "1515": {
+  "id": 1515,
+  "n": 1515,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_TOXICROAK",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Drain Punch",
+     "Gunk Shot",
+     "Sucker Punch",
+     "Swords Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_HONCHKROW",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Sucker Punch",
+     "Night Slash",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[363]"
+ },
+ "1516": {
+  "id": 1516,
+  "n": 1516,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_SKUNTANK",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Crunch",
+     "Poison Jab",
+     "Flamethrower",
+     "Sucker Punch"
+    ]
+   },
+   {
+    "species": "SPECIES_DRAPION",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Knock Off",
+     "Cross Poison",
+     "Earthquake",
+     "Swords Dance"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[364]"
+ },
+ "1517": {
+  "id": 1517,
+  "n": 1517,
+  "const": null,
+  "name": "EDGAR",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_HYPNO",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Focus Blast",
+     "Thunder Wave",
+     "Hypnosis"
+    ]
+   },
+   {
+    "species": "SPECIES_MAGMORTAR",
+    "level": 97,
+    "item": "Expert Belt",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Thunderbolt",
+     "Focus Blast",
+     "Psychic"
+    ]
+   },
+   {
+    "species": "SPECIES_METAGROSS",
+    "level": 97,
+    "item": "Assault Vest",
+    "ability": null,
+    "moves": [
+     "Meteor Mash",
+     "Zen Headbutt",
+     "Earthquake",
+     "Bullet Punch"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[365]"
+ },
+ "1518": {
+  "id": 1518,
+  "n": 1518,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_WEAVILE",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Icicle Crash",
+     "Knock Off",
+     "Ice Shard",
+     "Low Kick"
+    ]
+   },
+   {
+    "species": "SPECIES_NIDOKING",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Earth Power",
+     "Sludge Wave",
+     "Ice Beam",
+     "Thunderbolt"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[366]"
+ },
+ "1519": {
+  "id": 1519,
+  "n": 1519,
+  "const": null,
+  "name": "TOBIN",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_PORYGON_Z",
+    "level": 97,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Dark Pulse",
+     "Ice Beam",
+     "Nasty Plot"
+    ]
+   },
+   {
+    "species": "SPECIES_ELECTIVIRE",
+    "level": 97,
+    "item": "Expert Belt",
+    "ability": null,
+    "moves": [
+     "Wild Charge",
+     "Ice Punch",
+     "Earthquake",
+     "Cross Chop"
+    ]
+   },
+   {
+    "species": "SPECIES_GENGAR",
+    "level": 97,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Shadow Ball",
+     "Sludge Bomb",
+     "Thunderbolt",
+     "Focus Blast"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[367]"
+ },
+ "1520": {
+  "id": 1520,
+  "n": 1520,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_BISHARP",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Iron Head",
+     "Knock Off",
+     "Sucker Punch",
+     "Swords Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_CROBAT",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Cross Poison",
+     "U Turn",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[368]"
+ },
+ "1521": {
+  "id": 1521,
+  "n": 1521,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_KROOKODILE",
+    "level": 96,
+    "item": "Choice Scarf",
+    "ability": null,
+    "moves": [
+     "Earthquake",
+     "Knock Off",
+     "Stone Edge",
+     "Superpower"
+    ]
+   },
+   {
+    "species": "SPECIES_MACHAMP",
+    "level": 96,
+    "item": "Assault Vest",
+    "ability": null,
+    "moves": [
+     "Dynamicpunch",
+     "Knock Off",
+     "Bullet Punch",
+     "Stone Edge"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[369]"
+ },
+ "1522": {
+  "id": 1522,
+  "n": 1522,
+  "const": null,
+  "name": "LTSURGE",
+  "class": "LEADER",
+  "class_id": "TRAINER_CLASS_LEADER_KANTO_HNS",
+  "money": 25,
+  "pic": "leader_surge_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_ELECTRODE",
+    "level": 98,
+    "item": "Focus Band",
+    "ability": null,
+    "moves": [
+     "Shock Wave",
+     "Rain Dance",
+     "Thunder Wave",
+     "Explosion"
+    ]
+   },
+   {
+    "species": "SPECIES_MAGNEZONE",
+    "level": 98,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Thunder",
+     "Reflect",
+     "Rain Dance",
+     "Double Edge"
+    ]
+   },
+   {
+    "species": "SPECIES_LANTURN",
+    "level": 98,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Ion Deluge",
+     "Hydro Pump",
+     "Discharge",
+     "Confuse Ray"
+    ]
+   },
+   {
+    "species": "SPECIES_MANECTRIC",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Wild Charge",
+     "Charge",
+     "Crunch",
+     "Electric Terrain"
+    ]
+   },
+   {
+    "species": "SPECIES_ELECTIVIRE",
+    "level": 99,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Fire Punch",
+     "Ice Punch",
+     "Submission"
+    ]
+   },
+   {
+    "species": "SPECIES_RAICHU",
+    "level": 99,
+    "item": "Raichunite Y",
+    "ability": null,
+    "moves": [
+     "Thunder",
+     "Rain Dance",
+     "Body Slam",
+     "Surf"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[370]"
+ },
+ "1523": {
+  "id": 1523,
+  "n": 1523,
+  "const": null,
+  "name": "SABRINA",
+  "class": "LEADER",
+  "class_id": "TRAINER_CLASS_LEADER_KANTO_HNS",
+  "money": 25,
+  "pic": "leader_sabrina_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_MR_MIME",
+    "level": 98,
+    "item": "Quick Claw",
+    "ability": null,
+    "moves": [
+     "Magical Leaf",
+     "Psychic",
+     "Substitute",
+     "Reflect"
+    ]
+   },
+   {
+    "species": "SPECIES_JYNX",
+    "level": 98,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Ice Beam",
+     "Lovely Kiss",
+     "Grass Knot"
+    ]
+   },
+   {
+    "species": "SPECIES_SLOWBRO",
+    "level": 98,
+    "item": "Chesto Berry",
+    "ability": null,
+    "moves": [
+     "Rest",
+     "Sleep Talk",
+     "Submission",
+     "Surf"
+    ]
+   },
+   {
+    "species": "SPECIES_WOBBUFFET",
+    "level": 99,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Mirror Coat",
+     "Counter",
+     "Safeguard",
+     "Destiny Bond"
+    ]
+   },
+   {
+    "species": "SPECIES_ESPEON",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Morning Sun",
+     "Future Sight",
+     "Power Gem"
+    ]
+   },
+   {
+    "species": "SPECIES_ALAKAZAM",
+    "level": 99,
+    "item": "Alakazite",
+    "ability": null,
+    "moves": [
+     "Shadow Ball",
+     "Psychic",
+     "Recover",
+     "Calm Mind"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[371]"
+ },
+ "1524": {
+  "id": 1524,
+  "n": 1524,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_WEEZING",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Sludge Bomb",
+     "Flamethrower",
+     "Thunderbolt",
+     "Will O Wisp"
+    ]
+   },
+   {
+    "species": "SPECIES_HONCHKROW",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Sucker Punch",
+     "Night Slash",
+     "Roost"
+    ]
+   },
+   {
+    "species": "SPECIES_CROBAT",
+    "level": 96,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Brave Bird",
+     "Cross Poison",
+     "U Turn",
+     "Roost"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[372]"
+ },
+ "1525": {
+  "id": 1525,
+  "n": 1525,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_MUK",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Shadow Sneak",
+     "Brick Break",
+     "Curse"
+    ]
+   },
+   {
+    "species": "SPECIES_DRAPION",
+    "level": 96,
+    "item": "Scope Lens",
+    "ability": null,
+    "moves": [
+     "Knock Off",
+     "Cross Poison",
+     "Earthquake",
+     "Swords Dance"
+    ]
+   },
+   {
+    "species": "SPECIES_NIDOKING",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Earth Power",
+     "Sludge Wave",
+     "Ice Beam",
+     "Thunderbolt"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[373]"
+ },
+ "1526": {
+  "id": 1526,
+  "n": 1526,
+  "const": null,
+  "name": "TAYLOR",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_MAGNEZONE",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Flash Cannon",
+     "Tri Attack",
+     "Thunder Wave"
+    ]
+   },
+   {
+    "species": "SPECIES_PORYGON_Z",
+    "level": 97,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Tri Attack",
+     "Dark Pulse",
+     "Ice Beam",
+     "Nasty Plot"
+    ]
+   },
+   {
+    "species": "SPECIES_ELECTRODE",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Foul Play",
+     "Volt Switch",
+     "Explosion"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[374]"
+ },
+ "1527": {
+  "id": 1527,
+  "n": 1527,
+  "const": null,
+  "name": "JOSHUA",
+  "class": "SCIENTIST",
+  "class_id": "TRAINER_CLASS_SCIENTIST_FRLG",
+  "money": 12,
+  "pic": "scientist_frlg",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_ALAKAZAM",
+    "level": 96,
+    "item": "Focus Sash",
+    "ability": null,
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Energy Ball"
+    ]
+   },
+   {
+    "species": "SPECIES_ROTOM",
+    "level": 97,
+    "item": "Sitrus Berry",
+    "ability": null,
+    "moves": [
+     "Thunderbolt",
+     "Shadow Ball",
+     "Volt Switch",
+     "Will O Wisp"
+    ]
+   },
+   {
+    "species": "SPECIES_MAGMORTAR",
+    "level": 96,
+    "item": "Expert Belt",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Thunderbolt",
+     "Focus Blast",
+     "Psychic"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[375]"
+ },
+ "1528": {
+  "id": 1528,
+  "n": 1528,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_ARBOK",
+    "level": 95,
+    "item": "Black Sludge",
+    "ability": null,
+    "moves": [
+     "Gunk Shot",
+     "Earthquake",
+     "Crunch",
+     "Glare"
+    ]
+   },
+   {
+    "species": "SPECIES_WEEZING",
+    "level": 96,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Sludge Bomb",
+     "Flamethrower",
+     "Thunderbolt",
+     "Will O Wisp"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[376]"
+ },
+ "1529": {
+  "id": 1529,
+  "n": 1529,
+  "const": null,
+  "name": "GRUNT",
+  "class": "ROCKET",
+  "class_id": "TRAINER_CLASS_TEAM_ROCKET_HNS",
+  "money": 0,
+  "pic": "rocket_grunt_m_hns",
+  "double": false,
+  "items": [],
+  "party": [
+   {
+    "species": "SPECIES_RATICATE",
+    "level": 95,
+    "item": "Silk Scarf",
+    "ability": null,
+    "moves": [
+     "Double Edge",
+     "Sucker Punch",
+     "Crunch",
+     "U Turn"
+    ]
+   },
+   {
+    "species": "SPECIES_HOUNDOOM",
+    "level": 96,
+    "item": "Life Orb",
+    "ability": null,
+    "moves": [
+     "Flamethrower",
+     "Dark Pulse",
+     "Sludge Bomb",
+     "Nasty Plot"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[377]"
+ },
+ "1530": {
+  "id": 1530,
+  "n": 1530,
+  "const": null,
+  "name": "KOGA",
+  "class": "ELITE FOUR",
+  "class_id": "TRAINER_CLASS_ELITE_FOUR_HNS",
+  "money": 25,
+  "pic": "elite_four_koga_hns",
+  "double": false,
+  "items": [
+   "Full Restore",
+   "Full Restore"
+  ],
+  "party": [
+   {
+    "species": "SPECIES_ARIADOS",
+    "level": 98,
+    "item": "Kings Rock",
+    "ability": null,
+    "moves": [
+     "Megahorn",
+     "Giga Drain",
+     "Double Team",
+     "Toxic"
+    ]
+   },
+   {
+    "species": "SPECIES_QWILFISH",
+    "level": 98,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Aqua Tail",
+     "Toxic",
+     "Protect",
+     "Poison Jab"
+    ]
+   },
+   {
+    "species": "SPECIES_MUK",
+    "level": 98,
+    "item": "Leftovers",
+    "ability": null,
+    "moves": [
+     "Shadow Sneak",
+     "Fire Blast",
+     "Gunk Shot",
+     "Toxic"
+    ]
+   },
+   {
+    "species": "SPECIES_VENOMOTH",
+    "level": 99,
+    "item": null,
+    "ability": null,
+    "moves": [
+     "Leech Life",
+     "Psychic",
+     "Poison Fang",
+     "Sleep Powder"
+    ]
+   },
+   {
+    "species": "SPECIES_CROBAT",
+    "level": 99,
+    "item": "Brightpowder",
+    "ability": null,
+    "moves": [
+     "Double Team",
+     "Toxic",
+     "Bite",
+     "Confuse Ray"
+    ]
+   }
+  ],
+  "src": "HoExtTrainerRecords[378]"
  }
 }

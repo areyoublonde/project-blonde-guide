@@ -16,10 +16,14 @@ ROOT = Path(__file__).resolve().parent.parent
 BASE = (sys.argv[1] if len(sys.argv) > 1 else "http://localhost:8951").rstrip("/")
 OUT = ROOT / "qa-evidence" / "patcher"
 LABEL = "live" if "github.io" in BASE else "local"
-REG = json.loads((ROOT / "content/patcher.json").read_text(encoding="utf-8")); T = REG["target"]
+SEL = os.environ.get("PB_PATCHER", "")         # "" = the v1.0 patcher (content/patcher.json, private/roms.json); "v1.3" = content/patcher-v1.3.json, private/roms-v1.3.json
+REGF = ROOT / ("content/patcher.json" if not SEL else f"content/patcher-{SEL}.json")
+REG = json.loads(REGF.read_text(encoding="utf-8")); T = REG["target"]
 _REL = json.loads((ROOT / "content/releases.json").read_text(encoding="utf-8"))
-PAGE = next(("/play/" if r["version"] == _REL["current"] else r["page"]) for r in _REL["releases"] if r["version"] == json.loads((ROOT / "content/patcher.json").read_text(encoding="utf-8"))["release"])   # the page that carries the patcher
-ROMS = json.loads((ROOT / "private/roms.json").read_text(encoding="utf-8"))["roms"]
+PAGE = next(("/play/" if r["version"] == _REL["current"] else r["page"]) for r in _REL["releases"] if r["version"] == REG["release"])   # the page that carries the patcher
+ROMS = json.loads((ROOT / ("private/roms.json" if not SEL else f"private/roms-{SEL}.json")).read_text(encoding="utf-8"))["roms"]
+OTHER = "v115" if SEL else "v104"               # a supported earlier release used for the update screenshots, the advanced details and the wrong-patch test
+UNKNOWN = "/Users/blonde/Desktop/VSC/output/silph-poc-20261011/phase5p/build/Pokemon - Project Blonde.gba"      # v1.3: a Project Blonde build that was never released (Phase 5P)
 BY = {x["id"]: x for x in REG["inputs"]}
 res, perf = [], {}
 sha = lambda p: hashlib.sha256(Path(p).read_bytes()).hexdigest()
@@ -38,7 +42,7 @@ def variants(tmp):
     w("cut-short.gba", em[:8 << 20]); w("save-sized.sav", bytes(131072)); w("not-a-game.gba", b"hello" * 5000)
     with zipfile.ZipFile(Path(tmp) / "zipped.zip", "w", zipfile.ZIP_STORED) as z: z.writestr("game.gba", em[:4096])
     v["zipped.zip"] = str(Path(tmp) / "zipped.zip")
-    w("Pokemon Project Blonde v1.0.gba", Path(ROMS["v100"]).read_bytes())      # an unsupported build wearing the current release's name
+    w("Pokemon Project Blonde v1.0.gba", Path(ROMS["v100"] if not SEL else UNKNOWN).read_bytes())      # an unsupported build wearing the current release's name
     w("holiday-photos.bin", em)                                                 # the right game under a meaningless name
     return v
 
@@ -91,7 +95,10 @@ def main():
         ok("one file selector, labelled 'Choose your game file', and no New / Updating choice", c.js("document.querySelector('.mk-pick span').textContent") == "Choose your game file" and c.js("document.querySelectorAll('[data-mk-file]').length") == 1 and c.js("document.querySelectorAll('[data-mk-path]').length") == 0)
         ok("nothing technical is visible before a file is chosen", not vis("[data-mk-found]") and not vis("[data-mk-ready]") and not c.js("document.querySelector('.mk-adv').open") and not c.js("document.querySelector('[data-mk-adv]').checkVisibility()"))
         if REG["enabled"]:
-            if PAGE == "/play/":
+            if PAGE == "/play/" and SEL:
+                ok("released: no prototype notice; the Discord download comes first and the patcher is offered beside it, under 'Or, without Discord'", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "discord"
+                   and c.js("!!document.querySelector('#get #make [data-patcher]')") and "without Discord" in c.js("document.querySelector('#make .label').textContent") and c.js("!!document.querySelector('#get a[data-release-post]')"))
+            elif PAGE == "/play/":
                 ok("released: no prototype notice, the page says Released and the primary action leads to the patcher", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.relhero .actions a.btn').getAttribute('href')") == "#get")
             else:
                 ok("previous release: no prototype notice, the page names its version as a previous release and points to the current one", not vis(".mk-proto") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.wrap.play').dataset.release") == T["public_version"]
@@ -139,7 +146,7 @@ def main():
             ok(f"{vid}: afterwards explains that the save must be restored separately", vis(".mk-ready .mk-warn") and "starts without one" in c.js("document.querySelector('.mk-ready .mk-warn').textContent") and c.js("!!document.querySelector('.mk-ready .mk-warn a[href$=\"#update\"]')"))
             ok(f"{vid}: only its own patch was downloaded", [x[:2] for x in reqs()] == [("GET", BY[vid]["patch"]["file"] + ".gz")], reqs())
         snap("phone-ready-update.png")
-        load(); choose(ROMS["v104"]); snap("phone-found-update.png")
+        load(); choose(ROMS[OTHER]); snap("phone-found-update.png")
 
         # ---- already current
         load(); s1 = choose(ROMS[T["rom"]])
@@ -147,8 +154,10 @@ def main():
         snap("phone-current.png")
 
         # ---- refusals: nothing offered, nothing downloaded, a plain reason
-        cases = [("recognised but unsupported build (v100)", ROMS["v100"], "v100", "cannot update that build"),
-                 ("unsupported build renamed to the release's file name", V["Pokemon Project Blonde v1.0.gba"], "v100", "cannot update that build"),
+        cases = ([("recognised but unsupported build (v100)", ROMS["v100"], "v100", "cannot update that build"),
+                 ("unsupported build renamed to the release's file name", V["Pokemon Project Blonde v1.0.gba"], "v100", "cannot update that build")] if not SEL else
+                 [("unreleased Project Blonde build (Phase 5P)", UNKNOWN, "unknown", "not a version this page knows"),
+                  ("unreleased build renamed to a release's file name", V["Pokemon Project Blonde v1.0.gba"], "unknown", "not a version this page knows")]) + [
                  ("unknown Project Blonde / Heart & Soul build (Heart & Soul 2.0)", "/Users/blonde/Desktop/VSC/Pokemon - Heart & Soul 2.0.gba", "unknown", "not a version this page knows"),
                  ("modified Emerald (Recharged Emerald 2.2.5)", "/Users/blonde/Downloads/recharged_em_version_2.2.5.gba", "unknown", "not an unchanged copy"),
                  ("Emerald with one byte changed", V["corrupt-one-byte.gba"], "unknown", "not an unchanged copy"),
@@ -163,7 +172,7 @@ def main():
         ok("after a refusal the visitor can simply choose another file", choose(ROMS["emerald-usa"]) == "found")
 
         # ---- incorrect / damaged patch from the server
-        for name, hook, err in [("the wrong patch is delivered", "u.replace('emerald-usa-to','v104-to')", "damaged"), ("the download is cut off", None, None)]:
+        for name, hook, err in [("the wrong patch is delivered", f"u.replace('emerald-usa-to','{OTHER}-to')", "damaged"), ("the download is cut off", None, None)]:
             load()
             if hook: c.js(f"(f=>{{window.fetch=(u,o)=>f({hook},o)}})(window.fetch.bind(window));1")
             else: c.js("(f=>{window.fetch=async(u,o)=>{const r=await f(u,o);const b=await r.arrayBuffer();return new Response(b.slice(0,b.byteLength>>1))}})(window.fetch.bind(window));1")
@@ -174,9 +183,9 @@ def main():
         ok("out of memory: a clear message, nothing offered", s1 == "error" and c.js(R + ".dataset.error") == "memory" and "ran out of memory" in msg() and "on a computer" in msg(), msg()[:80])
 
         # ---- advanced details, keyboard, desktop
-        load(False); choose(ROMS["v104"])
+        load(False); choose(ROMS[OTHER])
         c.js("document.querySelector('.mk-adv summary').click()"); time.sleep(.2)
-        ok("advanced details (opened on request) show the checksums and the patch used", (lambda t: BY["v104"]["sha256"] in t and T["sha256"] in t and BY["v104"]["patch"]["file"] in t)(c.js("document.querySelector('.mk-adv').textContent")))
+        ok("advanced details (opened on request) show the checksums and the patch used", (lambda t: BY[OTHER]["sha256"] in t and T["sha256"] in t and BY[OTHER]["patch"]["file"] in t)(c.js("document.querySelector('.mk-adv').textContent")))
         ok("checksums and patch names appear nowhere outside advanced details", c.js("(m=>{const k=m.cloneNode(true);k.querySelectorAll('.mk-adv,script,noscript').forEach(e=>e.remove());return !/[0-9a-f]{32}|\\.bps|SHA-256|checksum/i.test(k.textContent)})(document.querySelector('.mkgame'))"))
         c.js("document.querySelector('[data-mk-backup]').focus()"); c.key(" ", "Space", 32); time.sleep(.2)
         ok("keyboard: Space ticks the backup box and enables Update", c.js("document.querySelector('[data-mk-backup]').checked && !document.querySelector('[data-mk-go]').disabled"))
@@ -190,7 +199,7 @@ def main():
     finally:
         c.close()
     bad = [r for r in res if not r["ok"]]
-    (OUT / f"{LABEL}.json").write_text(json.dumps({"base": BASE, "checked": time.strftime("%Y-%m-%d %H:%M"), "passed": len(res) - len(bad), "failed": len(bad), "performance": perf, "results": res}, indent=1, ensure_ascii=False))
+    (OUT / f"{LABEL}{'-' + SEL if SEL else ''}.json").write_text(json.dumps({"base": BASE, "checked": time.strftime("%Y-%m-%d %H:%M"), "passed": len(res) - len(bad), "failed": len(bad), "performance": perf, "results": res}, indent=1, ensure_ascii=False))
     print(json.dumps(perf, indent=1)); print(f"{len(res) - len(bad)} of {len(res)} checks passed")
     sys.exit(1 if bad else 0)
 

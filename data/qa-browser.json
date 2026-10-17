@@ -2,12 +2,12 @@
  "sweep": [],
  "checks": [
   {
-   "name": "Desktop sweep: 185 pages clean",
+   "name": "Desktop sweep: 195 pages clean",
    "ok": true,
    "detail": "0 pages failed"
   },
   {
-   "name": "Phone sweep: 185 pages clean",
+   "name": "Phone sweep: 195 pages clean",
    "ok": true,
    "detail": "0 pages failed"
   },
@@ -37,7 +37,7 @@
    "detail": ""
   },
   {
-   "name": "Road: 60 stops, every one a link",
+   "name": "Road: 69 stops, every one a link",
    "ok": true,
    "detail": ""
   },
@@ -538,6 +538,6 @@
   }
  ],
  "fail": 0,
- "sweep_pages": 185,
+ "sweep_pages": 195,
  "passed": 107
 }

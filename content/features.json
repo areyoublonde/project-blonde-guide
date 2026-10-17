@@ -36,6 +36,25 @@
   "ev": "natural-run-v100 trace 27; website notes ‘Early systems’"
  },
  {
+  "id": "partner-battles",
+  "title": "Partner Battles",
+  "blurb": "Two-on-two battles with a story partner at your side, and a v1.3 fix for reviving in them.",
+  "basis": "played",
+  "what": "Some story battles are fought two against two with a partner who brings their own Pokémon: Lance in the Rocket Hideout, Steven in the Mossdeep Space Center, and in v1.3 May, Brendan and your rival in the Silph Conspiracy.",
+  "how": [
+   "In the Space Center and Silph Co. battles the game asks you to <b>choose three</b> of your Pokémon first.",
+   "Your partner controls their own side and their own Pokémon.",
+   "Win, and your full party is restored exactly as it was. Lose, and you black out and can try again."
+  ],
+  "when": "Johto (Lance), Hoenn (Steven) and, after the Hoenn League, the Silph Conspiracy (May on Silph Co. 3F, Brendan on 5F, and your rival against Giovanni and Archer).",
+  "limits": "Moves that hit every Pokémon on the field, such as Earthquake, also hit your partner.",
+  "more": [
+   "New in v1.3: a Pokémon you revive during a partner battle now waits in your party instead of taking your partner’s empty spot. In earlier versions this could leave the game stuck on a party screen that could not be closed. The fix applies to every partner battle.",
+   "Brendan and May have new battle back sprites."
+  ],
+  "ev": "v1.3 NEW GAME playthrough (Ariana with Lance, Steven at the Space Center, May, Brendan and the rival at Silph Co.); revive fix verified on the release build (blonde/qa/silph-poc-rig, p5l_softlock, label v13rc)"
+ },
+ {
   "id": "mega-evolution",
   "title": "Mega Evolution",
   "blurb": "Get the Mega Ring from Professor Oak, then collect stones for free from Elm’s aide.",

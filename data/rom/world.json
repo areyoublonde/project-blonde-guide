@@ -12027,6 +12027,26 @@
      "flag": 2,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 24,
+     "x": 41,
+     "y": 15,
+     "gfx": "BLUE_HNS",
+     "script": "0x9fd045b",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 25,
+     "x": 42,
+     "y": 15,
+     "gfx": "16443",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -13901,7 +13921,7 @@
      "y": 21,
      "gfx": "ERIKA_HNS",
      "script": "CeladonCity_EventScript_Erika",
-     "flag": "FLAG_WALLY_SPEECH",
+     "flag": 31,
      "tt": 0,
      "trainers": []
     },
@@ -14421,6 +14441,166 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 27,
+     "x": 6,
+     "y": 26,
+     "gfx": "ERIKA_HNS",
+     "script": "0x9fd0c42",
+     "flag": 27,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 28,
+     "x": 9,
+     "y": 27,
+     "gfx": "16566",
+     "script": "0x9fd0a43",
+     "flag": 26,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 29,
+     "x": 10,
+     "y": 27,
+     "gfx": "LITTLE_GIRL_HNS",
+     "script": "0x9fd0a43",
+     "flag": 26,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 30,
+     "x": 10,
+     "y": 28,
+     "gfx": "WOMAN_1_HNS",
+     "script": "0x9fd0a43",
+     "flag": 26,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 31,
+     "x": 11,
+     "y": 28,
+     "gfx": "LITTLE_BOY_HNS",
+     "script": "0x9fd0a43",
+     "flag": 26,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 32,
+     "x": 23,
+     "y": 25,
+     "gfx": "10329",
+     "script": "0x9fd0c88",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 33,
+     "x": 33,
+     "y": 31,
+     "gfx": "BLUE_HNS",
+     "script": "0x9fd0f70",
+     "flag": 21,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 34,
+     "x": 36,
+     "y": 32,
+     "gfx": "SURGE_HNS",
+     "script": "0x9fd107a",
+     "flag": 22,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 35,
+     "x": 36,
+     "y": 33,
+     "gfx": "SABRINA_HNS",
+     "script": "0x9fd10b8",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 36,
+     "x": 31,
+     "y": 31,
+     "gfx": "10240",
+     "script": "0x9fd1099",
+     "flag": 24,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 37,
+     "x": 37,
+     "y": 33,
+     "gfx": "16449",
+     "script": "0x9fce4a3",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 38,
+     "x": 37,
+     "y": 32,
+     "gfx": "16410",
+     "script": "0x9fce4a3",
+     "flag": 22,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 39,
+     "x": 34,
+     "y": 31,
+     "gfx": "16443",
+     "script": "0x9fce4a3",
+     "flag": 21,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 40,
+     "x": 30,
+     "y": 32,
+     "gfx": "VAR_2",
+     "script": "0x9fce4a3",
+     "flag": 24,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 41,
+     "x": 24,
+     "y": 25,
+     "gfx": "VAR_1",
+     "script": "0x9fce4a3",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 42,
+     "x": 35,
+     "y": 32,
+     "gfx": "16566",
+     "script": "0x9fce4a3",
+     "flag": 20,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -14542,7 +14722,73 @@
     }
    ],
    "hidden": [],
-   "triggers": []
+   "triggers": [
+    {
+     "x": 13,
+     "y": 22,
+     "script": "0x9fd089e"
+    },
+    {
+     "x": 13,
+     "y": 23,
+     "script": "0x9fd08c0"
+    },
+    {
+     "x": 13,
+     "y": 24,
+     "script": "0x9fd08e1"
+    },
+    {
+     "x": 13,
+     "y": 25,
+     "script": "0x9fd0901"
+    },
+    {
+     "x": 9,
+     "y": 21,
+     "script": "0x9fd0920"
+    },
+    {
+     "x": 10,
+     "y": 21,
+     "script": "0x9fd0945"
+    },
+    {
+     "x": 11,
+     "y": 21,
+     "script": "0x9fd0969"
+    },
+    {
+     "x": 9,
+     "y": 29,
+     "script": "0x9fd098c"
+    },
+    {
+     "x": 10,
+     "y": 29,
+     "script": "0x9fd09ac"
+    },
+    {
+     "x": 11,
+     "y": 29,
+     "script": "0x9fd09cb"
+    },
+    {
+     "x": 3,
+     "y": 27,
+     "script": "0x9fd09de"
+    },
+    {
+     "x": 2,
+     "y": 26,
+     "script": "0x9fd09ff"
+    },
+    {
+     "x": 2,
+     "y": 28,
+     "script": "0x9fd0a20"
+    }
+   ]
   },
   "src": "gMapGroups[0][38] SaffronCity_hns @ 0x91dc004",
   "trainers": [],
@@ -14790,6 +15036,26 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 22,
+     "x": 11,
+     "y": 33,
+     "gfx": "JANINE_HNS",
+     "script": "0x9fd0189",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 23,
+     "x": 12,
+     "y": 33,
+     "gfx": "16433",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -14930,7 +15196,7 @@
      "y": 21,
      "gfx": "BLUE_HNS",
      "script": "CinnabarIsland_EventScript_Blue",
-     "flag": "FLAG_RECEIVED_PREMIER_BALL_RUSTBORO",
+     "flag": 30,
      "tt": 0,
      "trainers": []
     },
@@ -15040,7 +15306,7 @@
      "y": 28,
      "gfx": "BLAINE_HNS",
      "script": "CinnabarIsland_EventScript_Blaine",
-     "flag": "FLAG_RECEIVED_RED_OR_BLUE_ORB",
+     "flag": 31,
      "tt": 0,
      "trainers": []
     }
@@ -15530,7 +15796,7 @@
      "y": 10,
      "gfx": "12036",
      "script": "Route3_EventScript_Burt",
-     "flag": null,
+     "flag": 25,
      "tt": 1,
      "trainers": [
       291
@@ -15593,6 +15859,26 @@
      "gfx": "16674",
      "script": null,
      "flag": "FLAG_HIDDEN_ITEM_SAFARI_ZONE_SOUTH_EAST_FULL_RESTORE",
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 71,
+     "y": 10,
+     "gfx": "BROCK_HNS",
+     "script": "0x9fcf6db",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 72,
+     "y": 10,
+     "gfx": "16460",
+     "script": "0x9fce4a3",
+     "flag": 30,
      "tt": 0,
      "trainers": []
     }
@@ -16864,7 +17150,7 @@
      "y": 55,
      "gfx": "SURGE_HNS",
      "script": "Route10_EventScript_Surge",
-     "flag": "FLAG_DELIVERED_STEVEN_LETTER",
+     "flag": 31,
      "tt": 0,
      "trainers": [
       272,
@@ -20178,7 +20464,7 @@
      "y": 17,
      "gfx": "MISTY_HNS",
      "script": "Route25_EventScript_MistyRematch",
-     "flag": "FLAG_DECORATION_11",
+     "flag": 31,
      "tt": 0,
      "trainers": [
       23,
@@ -29627,7 +29913,7 @@
      "y": 5,
      "gfx": "SABRINA_HNS",
      "script": "OlivineCity_PortOutside_EventScript_Sabrina",
-     "flag": "FLAG_DEFEATED_RIVAL_ROUTE103",
+     "flag": 31,
      "tt": 0,
      "trainers": []
     }
@@ -32313,7 +32599,7 @@
      "x": 6,
      "y": 16,
      "gfx": "GYM_GUY_HNS",
-     "script": "ViridianCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5b1d",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -32324,7 +32610,7 @@
      "y": 2,
      "gfx": "BLUE_HNS",
      "script": "ViridianCity_Gym_EventScript_Blue",
-     "flag": "FLAG_DECORATION_2",
+     "flag": "FLAG_UNUSED_0x4A1",
      "tt": 0,
      "trainers": []
     }
@@ -32666,7 +32952,7 @@
      "x": 7,
      "y": 12,
      "gfx": "GYM_GUY_HNS",
-     "script": "PewterCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5a27",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -32689,7 +32975,7 @@
      "y": 5,
      "gfx": "BROCK_HNS",
      "script": "PewterCity_Gym_EventScript_Brock",
-     "flag": null,
+     "flag": "FLAG_UNUSED_0x49A",
      "tt": 0,
      "trainers": []
     }
@@ -33268,7 +33554,7 @@
      "y": 6,
      "gfx": "MISTY_HNS",
      "script": "CeruleanCity_Gym_EventScript_Misty",
-     "flag": "FLAG_DECORATION_10",
+     "flag": "FLAG_UNUSED_0x49B",
      "tt": 0,
      "trainers": []
     },
@@ -33323,7 +33609,7 @@
      "x": 9,
      "y": 16,
      "gfx": "GYM_GUY_HNS",
-     "script": "CeruleanCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5a50",
      "flag": "FLAG_DECORATION_10",
      "tt": 0,
      "trainers": []
@@ -33602,7 +33888,87 @@
      "y": 6,
      "gfx": "FISHERMAN_HNS",
      "script": "VermilionCity_PortOutside_EventScript_Fisher",
-     "flag": null,
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 2,
+     "x": 21,
+     "y": 5,
+     "gfx": "10240",
+     "script": "0x9fcf420",
+     "flag": 29,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 3,
+     "x": 22,
+     "y": 5,
+     "gfx": "MISTY_HNS",
+     "script": "0x9fcf4c8",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 15,
+     "y": 0,
+     "gfx": "SURGE_HNS",
+     "script": "0x9fcf41f",
+     "flag": 28,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 20,
+     "y": 5,
+     "gfx": "VAR_2",
+     "script": "0x9fce4a3",
+     "flag": 29,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 23,
+     "y": 4,
+     "gfx": "393",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 19,
+     "y": 3,
+     "gfx": "394",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 27,
+     "y": 3,
+     "gfx": "395",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 15,
+     "y": 0,
+     "gfx": "16410",
+     "script": "0x9fce4a3",
+     "flag": 27,
      "tt": 0,
      "trainers": []
     }
@@ -33617,7 +33983,38 @@
    ],
    "signs": [],
    "hidden": [],
-   "triggers": []
+   "triggers": [
+    {
+     "x": 14,
+     "y": 4,
+     "script": "0x9fcf272"
+    },
+    {
+     "x": 15,
+     "y": 4,
+     "script": "0x9fcf28e"
+    },
+    {
+     "x": 16,
+     "y": 4,
+     "script": "0x9fcf2a9"
+    },
+    {
+     "x": 14,
+     "y": 7,
+     "script": "0x9fcf2c3"
+    },
+    {
+     "x": 15,
+     "y": 7,
+     "script": "0x9fcf2de"
+    },
+    {
+     "x": 16,
+     "y": 7,
+     "script": "0x9fcf2f8"
+    }
+   ]
   },
   "src": "gMapGroups[15][2] VermilionCity_PortOutside_hns @ 0x91dcfe0",
   "trainers": [],
@@ -33720,7 +34117,7 @@
      "y": 2,
      "gfx": "SURGE_HNS",
      "script": "VermilionCity_Gym_EventScript_Surge",
-     "flag": null,
+     "flag": "FLAG_UNUSED_0x49C",
      "tt": 0,
      "trainers": []
     },
@@ -33765,14 +34162,10 @@
      "x": 6,
      "y": 17,
      "gfx": "GYM_GUY_HNS",
-     "script": "VermilionCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5a79",
      "flag": null,
      "tt": 0,
-     "trainers": [
-      157,
-      257,
-      298
-     ]
+     "trainers": []
     }
    ],
    "warps": [
@@ -36238,7 +36631,7 @@
      "y": 4,
      "gfx": "ERIKA_HNS",
      "script": "CeladonCity_Gym_EventScript_Erika",
-     "flag": null,
+     "flag": "FLAG_UNUSED_0x49D",
      "tt": 0,
      "trainers": []
     },
@@ -36733,6 +37126,16 @@
      "gfx": "BLACK_BELT_HNS",
      "script": "SaffronCity_FightingDojo_EventScript_BlackBelt",
      "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 14,
+     "y": 5,
+     "gfx": "BLACK_BELT_HNS",
+     "script": "0x9fcc8d5",
+     "flag": "FLAG_DEFEATED_MOSSDEEP_GYM",
      "tt": 0,
      "trainers": []
     }
@@ -37361,7 +37764,7 @@
      "y": 11,
      "gfx": "SABRINA_HNS",
      "script": "SaffronCity_Gym_EventScript_Sabrina",
-     "flag": null,
+     "flag": "FLAG_UNUSED_0x49F",
      "tt": 0,
      "trainers": []
     },
@@ -37370,15 +37773,10 @@
      "x": 15,
      "y": 20,
      "gfx": "GYM_GUY_HNS",
-     "script": "SaffronCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5acb",
      "flag": null,
      "tt": 0,
-     "trainers": [
-      367,
-      307,
-      368,
-      316
-     ]
+     "trainers": []
     }
    ],
    "warps": [
@@ -37630,10 +38028,10 @@
    "objects": [
     {
      "n": 1,
-     "x": 31,
-     "y": 2,
+     "x": 29,
+     "y": 4,
      "gfx": "OFFICER_HNS",
-     "script": "SaffronCity_SilphCo_EventScript_Officer",
+     "script": "0x9fd1279",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -37644,7 +38042,7 @@
      "y": 14,
      "gfx": "STEVEN_HNS",
      "script": "SaffronCity_SilphCo_EventScript_Steven",
-     "flag": "FLAG_HIDDEN_ITEM_UNDERWATER_126_HEART_SCALE",
+     "flag": 22,
      "tt": 0,
      "trainers": []
     },
@@ -37653,8 +38051,208 @@
      "x": 5,
      "y": 6,
      "gfx": "BEAUTY_HNS",
-     "script": "SaffronCity_SilphCo_EventScript_Receptionist",
+     "script": "0x9fd1804",
      "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 8,
+     "y": 20,
+     "gfx": "SURGE_HNS",
+     "script": "0x9fc18e9",
+     "flag": "FLAG_DEFEATED_ELITE_4_DRAKE",
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 5,
+     "x": 8,
+     "y": 20,
+     "gfx": "BLUE_HNS",
+     "script": "0x9fd17f8",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 8,
+     "y": 20,
+     "gfx": "16443",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 8,
+     "y": 20,
+     "gfx": "16410",
+     "script": "0x9fce4a3",
+     "flag": 26,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 10,
+     "y": 13,
+     "gfx": "ROCKET_M_HNS",
+     "script": "0x9fd0a43",
+     "flag": 27,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 11,
+     "y": 15,
+     "gfx": "ROCKET_M_HNS",
+     "script": "0x9fd0a43",
+     "flag": 27,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 6,
+     "x": 12,
+     "y": 17,
+     "gfx": "ROCKET_M_HNS",
+     "script": "0x9fd0a43",
+     "flag": 29,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 7,
+     "x": 13,
+     "y": 16,
+     "gfx": "ROCKET_F_HNS",
+     "script": "0x9fd0a43",
+     "flag": 29,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 8,
+     "x": 7,
+     "y": 12,
+     "gfx": "WORKER_F_HNS",
+     "script": "0x9fd544c",
+     "flag": 24,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 9,
+     "x": 10,
+     "y": 13,
+     "gfx": "WORKER_M_HNS",
+     "script": "0x9fd5455",
+     "flag": 24,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 8,
+     "y": 14,
+     "gfx": "GENTLEMAN_HNS",
+     "script": "0x9fd0a43",
+     "flag": 28,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 15,
+     "x": 8,
+     "y": 20,
+     "gfx": "10240",
+     "script": "0x9fd0a43",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 16,
+     "x": 8,
+     "y": 20,
+     "gfx": "VAR_2",
+     "script": "0x9fce4a3",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 17,
+     "x": 8,
+     "y": 20,
+     "gfx": "10329",
+     "script": "0x9fd0a43",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 18,
+     "x": 8,
+     "y": 20,
+     "gfx": "VAR_1",
+     "script": "0x9fce4a3",
+     "flag": 25,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 19,
+     "x": 8,
+     "y": 20,
+     "gfx": "BLAINE_HNS",
+     "script": "0x9fd0a43",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 20,
+     "x": 8,
+     "y": 20,
+     "gfx": "BROCK_HNS",
+     "script": "0x9fd0a43",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 21,
+     "x": 8,
+     "y": 20,
+     "gfx": "ERIKA_HNS",
+     "script": "0x9fd0a43",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 22,
+     "x": 8,
+     "y": 20,
+     "gfx": "MISTY_HNS",
+     "script": "0x9fd0a43",
+     "flag": 23,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 23,
+     "x": 8,
+     "y": 20,
+     "gfx": "JANINE_HNS",
+     "script": "0x9fd0a43",
+     "flag": 23,
      "tt": 0,
      "trainers": []
     }
@@ -37665,6 +38263,18 @@
      "x": 8,
      "y": 20,
      "to": "SaffronCity_hns"
+    },
+    {
+     "n": 1,
+     "x": 31,
+     "y": 2,
+     "to": null
+    },
+    {
+     "n": 2,
+     "x": 22,
+     "y": 3,
+     "to": null
     }
    ],
    "signs": [
@@ -37680,7 +38290,23 @@
     }
    ],
    "hidden": [],
-   "triggers": []
+   "triggers": [
+    {
+     "x": 30,
+     "y": 3,
+     "script": "0x9fd1219"
+    },
+    {
+     "x": 31,
+     "y": 3,
+     "script": "0x9fd1219"
+    },
+    {
+     "x": 22,
+     "y": 4,
+     "script": "0x9fd1219"
+    }
+   ]
   },
   "src": "gMapGroups[18][6] SaffronCity_SilphCo_hns @ 0x91dd408",
   "trainers": [],
@@ -38256,7 +38882,7 @@
      "y": 11,
      "gfx": "JANINE_HNS",
      "script": "FuchsiaCity_Gym_EventScript_Janine",
-     "flag": null,
+     "flag": "FLAG_UNUSED_0x49E",
      "tt": 0,
      "trainers": []
     },
@@ -38265,7 +38891,7 @@
      "x": 5,
      "y": 19,
      "gfx": "GYM_GUY_HNS",
-     "script": "FuchsiaCity_Gym_EventScript_GymGuy",
+     "script": "0x9fd5aa2",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -38610,7 +39236,7 @@
      "y": 8,
      "gfx": "SILVER_HNS",
      "script": "IndigoPlateau_EventScript_Silver",
-     "flag": "FLAG_RECEIVED_TM_BULK_UP",
+     "flag": 28,
      "tt": 0,
      "trainers": []
     },
@@ -38619,7 +39245,7 @@
      "x": 32,
      "y": 3,
      "gfx": "BLACK_BELT_HNS",
-     "script": "IndigoPlateau_EventScript_BlackBelt",
+     "script": "0x9fcc8ad",
      "flag": "FLAG_RECEIVED_TM_SHOCK_WAVE",
      "tt": 0,
      "trainers": []
@@ -38631,6 +39257,56 @@
      "gfx": "COOLTRAINER_M_HNS",
      "script": "IndigoPlateau_EventScript_ShigyNinja",
      "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 11,
+     "x": 32,
+     "y": 5,
+     "gfx": "LANCE_HNS",
+     "script": "0x9fd4a5f",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 10,
+     "x": 32,
+     "y": 7,
+     "gfx": "KOGA_HNS",
+     "script": "0x9fd4a5f",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 12,
+     "x": 33,
+     "y": 7,
+     "gfx": "JANINE_HNS",
+     "script": "0x9fd4a5f",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 31,
+     "y": 7,
+     "gfx": "16553",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 34,
+     "y": 7,
+     "gfx": "16433",
+     "script": "0x9fce4a3",
+     "flag": 30,
      "tt": 0,
      "trainers": []
     }
@@ -38766,7 +39442,27 @@
      "y": 6,
      "gfx": "KOGA_HNS",
      "script": "PokemonLeague_KogasRoom_EventScript_Koga",
-     "flag": null,
+     "flag": "FLAG_DEFEATED_METEOR_FALLS_STEVEN",
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 2,
+     "x": 6,
+     "y": 6,
+     "gfx": "EUSINE_HNS",
+     "script": "0x9fd5e79",
+     "flag": "FLAG_DEFEATED_SOOTOPOLIS_GYM",
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 3,
+     "x": 4,
+     "y": 5,
+     "gfx": "LANCE_HNS",
+     "script": "0x9fd5e70",
+     "flag": 30,
      "tt": 0,
      "trainers": []
     }
@@ -40480,7 +41176,7 @@
      "y": 6,
      "gfx": "JANINE_HNS",
      "script": "ReceptionGate_EventScript_Janine",
-     "flag": "FLAG_MET_DIVING_TREASURE_HUNTER",
+     "flag": 31,
      "tt": 0,
      "trainers": []
     }
@@ -42031,7 +42727,7 @@
      "x": 3,
      "y": 6,
      "gfx": "OFFICER_HNS",
-     "script": "Gate_SaffronCity_Route5_EventScript_Guard",
+     "script": "0x9fd5656",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -42170,7 +42866,7 @@
      "x": 3,
      "y": 6,
      "gfx": "OFFICER_HNS",
-     "script": "Gate_SaffronCity_Route6_EventScript_Guard",
+     "script": "0x9fd567f",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -42220,7 +42916,7 @@
      "x": 6,
      "y": 2,
      "gfx": "OFFICER_HNS",
-     "script": "Gate_SaffronCity_Route7_EventScript_Guard",
+     "script": "0x9fd56a8",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -42387,7 +43083,7 @@
      "x": 6,
      "y": 2,
      "gfx": "OFFICER_HNS",
-     "script": "Gate_SaffronCity_Route8_EventScript_Guard",
+     "script": "0x9fd56d1",
      "flag": null,
      "tt": 0,
      "trainers": []
@@ -58886,7 +59582,7 @@
      "y": 3,
      "gfx": "BROCK_HNS",
      "script": "DiglettsCave_EntranceNorth_EventScript_Brock",
-     "flag": "FLAG_DECORATION_6",
+     "flag": 31,
      "tt": 0,
      "trainers": []
     }
@@ -59252,7 +59948,7 @@
      "y": 10,
      "gfx": "BLAINE_HNS",
      "script": "SeafoamIslands_Gym_EventScript_Blaine",
-     "flag": "FLAG_ENABLE_WALLY_MATCH_CALL",
+     "flag": "FLAG_UNUSED_0x4A0",
      "tt": 0,
      "trainers": []
     },
@@ -59351,7 +60047,7 @@
      "x": 20,
      "y": 23,
      "gfx": "GYM_GUY_HNS",
-     "script": "SeafomIslands2_EventScript_GymGuide",
+     "script": "0x9fd5af4",
      "flag": "FLAG_ENABLE_SCOTT_MATCH_CALL",
      "tt": 0,
      "trainers": []
@@ -59367,7 +60063,7 @@
     {
      "n": 1,
      "x": 18,
-     "y": 8,
+     "y": 7,
      "to": "SeafoamIslands_SecretCave_hns"
     }
    ],
@@ -59566,7 +60262,28 @@
   "layout": 152414488,
   "connections": [],
   "events": {
-   "objects": [],
+   "objects": [
+    {
+     "n": 1,
+     "x": 16,
+     "y": 14,
+     "gfx": "16534",
+     "script": "0x9fcc81e",
+     "flag": "FLAG_UNUSED_0x4A2",
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 2,
+     "x": 20,
+     "y": 17,
+     "gfx": "BLAINE_HNS",
+     "script": "0x9fcfea3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    }
+   ],
    "warps": [
     {
      "n": 0,
@@ -59575,7 +60292,58 @@
      "to": "SeafoamIslands_Gym_hns"
     }
    ],
-   "signs": [],
+   "signs": [
+    {
+     "x": 16,
+     "y": 13,
+     "script": "0x9fcfe46"
+    },
+    {
+     "x": 17,
+     "y": 13,
+     "script": "0x9fcfe46"
+    },
+    {
+     "x": 14,
+     "y": 13,
+     "script": "0x9fcfe5b"
+    },
+    {
+     "x": 15,
+     "y": 13,
+     "script": "0x9fcfe5b"
+    },
+    {
+     "x": 13,
+     "y": 15,
+     "script": "0x9fcfe70"
+    },
+    {
+     "x": 14,
+     "y": 15,
+     "script": "0x9fcfe70"
+    },
+    {
+     "x": 14,
+     "y": 14,
+     "script": "0x9fcfe70"
+    },
+    {
+     "x": 18,
+     "y": 14,
+     "script": "0x9fcfe85"
+    },
+    {
+     "x": 18,
+     "y": 15,
+     "script": "0x9fcfe85"
+    },
+    {
+     "x": 19,
+     "y": 15,
+     "script": "0x9fcfe85"
+    }
+   ],
    "hidden": [],
    "triggers": []
   },
@@ -86237,6 +87005,26 @@
      "flag": null,
      "tt": 0,
      "trainers": []
+    },
+    {
+     "n": 13,
+     "x": 4,
+     "y": 17,
+     "gfx": "10329",
+     "script": "0x9fcec76",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 14,
+     "x": 3,
+     "y": 17,
+     "gfx": "VAR_1",
+     "script": "0x9fce4a3",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
     }
    ],
    "warps": [
@@ -98226,8 +99014,8 @@
      "x": 3,
      "y": 3,
      "gfx": "10240",
-     "script": "HoC1_LittlerootTown_BrendansHouse_2F_EventScript_RivalC4",
-     "flag": null,
+     "script": "0x9fce9dc",
+     "flag": 28,
      "tt": 0,
      "trainers": []
     }
@@ -98326,8 +99114,8 @@
      "x": 5,
      "y": 3,
      "gfx": "10329",
-     "script": "HoC1_LittlerootTown_MaysHouse_2F_EventScript_RivalC4",
-     "flag": null,
+     "script": "0x9fcea8f",
+     "flag": 28,
      "tt": 0,
      "trainers": []
     }
@@ -98380,8 +99168,28 @@
      "x": 6,
      "y": 4,
      "gfx": "10304",
-     "script": "HoRe_LittlerootTown_ProfessorBirchsLab_Talk_2",
+     "script": "0x9fce8db",
      "flag": null,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 3,
+     "x": 4,
+     "y": 4,
+     "gfx": "10240",
+     "script": "0x9fce7fc",
+     "flag": 30,
+     "tt": 0,
+     "trainers": []
+    },
+    {
+     "n": 4,
+     "x": 3,
+     "y": 4,
+     "gfx": "VAR_2",
+     "script": "0x9fce4a3",
+     "flag": 30,
      "tt": 0,
      "trainers": []
     }

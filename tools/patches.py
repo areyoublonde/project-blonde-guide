@@ -2,6 +2,7 @@
 """Patch generator and verifier for the in-browser patcher. Registry: content/patcher.json.
 
     python3 tools/patches.py build      make one direct patch per registry input -> private/patches/<release>/, write hashes into the registry
+    PB_PATCHER=v1.3 python3 tools/patches.py build|verify   the same for the v1.3 registry (content/patcher-v1.3.json)
     python3 tools/patches.py verify     re-check every registry hash, re-apply every patch with the independent decoder -> PATCHER-MATRIX.md ; exit 1 on any mismatch
 
 Reads the ROM files named in private/roms.json (never writes to them). Patches are BPS: one per supported or recognised input,
@@ -12,7 +13,12 @@ import gzip, hashlib, json, struct, sys, time, zlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REG_PATH, ROMS_PATH = ROOT / "content/patcher.json", ROOT / "private/roms.json"
+import os
+# one registry per patcher release: content/patcher.json (v1.0, on /play/v1.0/) is the default; PB_PATCHER=v1.3 selects content/patcher-v1.3.json
+_SEL = os.environ.get("PB_PATCHER", "")
+REG_PATH = ROOT / ("content/patcher.json" if not _SEL else f"content/patcher-{_SEL}.json")
+ROMS_PATH = ROOT / ("private/roms.json" if not _SEL else f"private/roms-{_SEL}.json")
+MATRIX = ROOT / ("PATCHER-MATRIX.md" if not _SEL else f"PATCHER-MATRIX-{_SEL}.md")
 sha256 = lambda b: hashlib.sha256(b).hexdigest()
 
 
@@ -165,7 +171,7 @@ def verify():
     for x, c in rows:
         md.append(f'| {x["label"]} | {"clean base game: makes a new game" if x["kind"] == "base" else "earlier Project Blonde: updates it"} | {"yes" if x["status"] == "supported" else "no: recognised, refused"} | `{x["sha256"][:16]}…` | `{x["patch"]["file"]}` | {x["patch"]["size"]:,} ({x["patch"]["size_gz"]:,}) | {"yes" if c["reproduces target"] and c["input hash"] and c["patch hash"] else "NO"} | {"yes" if c["refuses other inputs"] else "NO"} | {x.get("save", {}).get("status", "new game")} |')
     md += ["", "Any file whose SHA-256 is not in this table is unknown and is refused.", ""]
-    (ROOT / "PATCHER-MATRIX.md").write_text("\n".join(md), encoding="utf-8")
+    MATRIX.write_text("\n".join(md), encoding="utf-8")
     print("\n".join(md[6:])); print("FAILED: " + "; ".join(bad) if bad else "all patches verified")
     sys.exit(1 if bad else 0)
 
