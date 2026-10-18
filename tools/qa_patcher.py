@@ -100,6 +100,10 @@ def main():
                    and c.js("!!document.querySelector('#get #make [data-patcher]')") and "without Discord" in c.js("document.querySelector('#make .label').textContent") and c.js("!!document.querySelector('#get a[data-release-post]')"))
             elif PAGE == "/play/":
                 ok("released: no prototype notice, the page says Released and the primary action leads to the patcher", not vis(".mk-proto") and "Released" in c.js("document.querySelector('.relline').textContent") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.relhero .actions a.btn').getAttribute('href')") == "#get")
+            elif SEL:     # a previous Discord release that keeps its own patcher on its What's new page (v1.3 after v1.4)
+                ok("previous release: no prototype notice, its What's new page says Previous release, the patcher is labelled as making this version only and points to the current release",
+                   not vis(".mk-proto") and "Previous release" in c.js("document.querySelector('.relline').textContent") and c.js("!!document.querySelector('#get [data-patcher]')")
+                   and (T["public_version"] + " only") in c.js("document.querySelector('#get .label').textContent") and c.js("document.querySelector('#get .notice a').getAttribute('href')").endswith("/play/#get"))
             else:
                 ok("previous release: no prototype notice, the page names its version as a previous release and points to the current one", not vis(".mk-proto") and c.js("document.querySelector('.wrap.play').dataset.releaseState") == "patcher" and c.js("document.querySelector('.wrap.play').dataset.release") == T["public_version"]
                    and "Previous release" in c.js("document.querySelector('#release').textContent") and c.js("document.querySelector('.phead .actions a.btn').getAttribute('href')").endswith("/play/#get"))

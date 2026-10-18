@@ -11,7 +11,7 @@
   ],
   [
    "A knock-out is not the end",
-   "A Pokémon you defeat leaves, but most return when you next enter the Hall of Fame as Kanto Champion. See {{quest:league-reset|How legendaries return}}."
+   "A Pokémon you defeat leaves, but most return when you next enter the Hall of Fame as Kanto Champion; one you catch stays caught. See {{quest:league-reset|How legendaries return}}."
   ],
   [
    "Nothing here is missed for good",
@@ -25,14 +25,15 @@
    "sub": "The Hall of Fame reset",
    "basis": "script",
    "p": [
-    "Your first Hall of Fame entry, after the Johto League, does not reset anything. Every later one does. Once you hold sixteen Badges and re-enter the Indigo Plateau as described in [[kanto/kanto-league|The Kanto League]], each Hall of Fame entry there puts the following back, whether you caught them before or not:",
+    "Your first Hall of Fame entry, after the Johto League, does not reset anything. Every later one does. Once you hold sixteen Badges and re-enter the Indigo Plateau as described in [[kanto/kanto-league|The Kanto League]], each Hall of Fame entry there puts back the following, <b>unless you have caught them</b>. Since v1.4 a one-time legendary you have caught stays caught; one you defeated, ran from or never met returns as before:",
     "<b>Back at their posts:</b> Articuno, Zapdos, Moltres, Mewtwo, Ho-Oh and Lugia (both at Level 70), the Latias or Latios on Southern Island, Mew, Deoxys, the six Regis of Sinjoh including Regigigas, and the Mt. Moon rock that calls Jirachi.",
-    "<b>Released again:</b> Raikou and Entei in Johto and your chosen Latias or Latios in Kanto. A roamer that was still at large is replaced by a fresh one.",
+    "<b>Released again:</b> Raikou and Entei in Johto and your chosen Latias or Latios in Kanto, if you have not caught them. A roamer that is still at large keeps roaming; it is no longer replaced by a fresh one.",
     "<b>Only if you got far enough:</b> Suicune returns to Route 25 once you have fought it there. A second Celebi appears in Ilex Forest once you have caught the first; if you did not catch it, the GS Ball reappears in the Ruins of Alph instead. The four Tapu return once Samson Oak has given you the Beast Ball. Arceus returns once Steven has congratulated you in its hall.",
+    "How the game knows you caught one: the encounter’s own caught record where it keeps one (Lugia, Ho-Oh, the first Celebi, Mew, Deoxys), otherwise a Pokémon of that species in your party or PC with your Trainer ID that was caught at that place. One you released or traded away cannot be recognised and may return. Extra copies created by League wins in versions before v1.4 stay in your save.",
     "The same League win is also what makes you Kanto Champion the first time. That title is the key to three things on this page: the guard leaves Cerulean Cave, Steven hands over the {{item:Eon Ticket}} and a woman in Olivine City hands over the {{item:Aurora Ticket}}.",
     "Kyogre, Groudon and Rayquaza follow Hoenn’s rule, not this one: see their entries."
    ],
-   "ev": "data/maps/PokemonLeague_HallOfFame_hns/scripts.inc: PokemonLeague_HallOfFame_EventScript_Cutscene (first clear) and _CutsceneKantoChamp → _SetGameClearFlags (every later clear)"
+   "ev": "data/maps/PokemonLeague_HallOfFame_hns/scripts.inc: PokemonLeague_HallOfFame_EventScript_Cutscene (first clear) and _CutsceneKantoChamp → _SetGameClearFlags (every later clear); v1.4 r02: the League-clear script calls PB_LegendHofRespawn (output/project-blonde-v1.4/r02-legendary-respawn/src/legend.c) in place of the legendary commands"
   },
   {
    "id": "sinjoh",
@@ -1857,7 +1858,8 @@
    "after": [
     "When Kyogre is caught or defeated, the rain on Route 127 stops and the cave closes.",
     "<b>One per save.</b> Once the Pokédex shows Kyogre as caught, it is never offered again.",
-    "If you knock it out, the cave reopens after your next Hoenn League win."
+    "If you knock it out, the cave reopens after your next Hoenn League win.",
+    "<b>Primal Reversion:</b> after the Silph Conspiracy, Brendan gives you the {{item:Blue Orb}} in his room in Littleroot Town, once. A Kyogre holding it becomes Primal Kyogre when it enters battle."
    ],
    "facts": {
     "Repeatable": "No. One catch per save.",
@@ -1915,7 +1917,8 @@
    "after": [
     "When Groudon is caught or defeated, the drought on Route 114 ends and the cave closes.",
     "<b>One per save.</b> Once the Pokédex shows Groudon as caught, it is never offered again.",
-    "If you knock it out, the cave reopens after your next Hoenn League win."
+    "If you knock it out, the cave reopens after your next Hoenn League win.",
+    "<b>Primal Reversion:</b> after the Silph Conspiracy, May gives you the {{item:Red Orb}} in her room in Littleroot Town, once. A Groudon holding it becomes Primal Groudon when it enters battle."
    ],
    "facts": {
     "Repeatable": "No. One catch per save.",
@@ -1944,10 +1947,6 @@
    [
     "Cosmog, Solgaleo and Lunala",
     "Lillie’s story on the Alola isles is Project Blonde’s own and does not involve Cosmog."
-   ],
-   [
-    "Primal Groudon and Primal Kyogre",
-    "The Red Orb and Blue Orb appear in Hoenn’s story but no script gives either to you, so the Primal forms are not available."
    ],
    [
     "Hoenn’s Regi chambers",

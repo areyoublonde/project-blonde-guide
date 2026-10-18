@@ -1097,6 +1097,10 @@ def whatsnew_foot(rel, cur, primary):
     """Update steps (current release) or the release record (previous release), then known limitations and the way to the current download."""
     pv, cv, prev = esc(rel["public_version"]), esc(cur["public_version"]), rel is not cur
     mid = previous_record(rel, cur) if prev else f'<section id="update">{upgrade_html(rel, "h2")}<p><a class="link" href="{u("/play/")}#update">The full update guide, with every device{ARROW}</a></p></section>'
+    if prev and PATCHERS.get(rel["version"], {}).get("enabled"):     # a previous release keeps its own in-browser patcher here (v1.3, after v1.4 was released), labelled as making that version only
+        mid += (f'<section id="get"><p class="label">In-browser patcher · {pv} only</p><h2>Make {pv} from your own game file</h2>'
+                f'<p class="notice wide only"><b>{pv} only.</b> This patcher makes Project Blonde {pv}. It does not make {cv} and cannot update a game to {cv}: '
+                f'<a href="{u("/play/")}#get">get {cv} from its release post</a> or its own patcher there. It builds {pv} on your device from your own copy of the base game, or from a supported earlier build.</p><div class="getbody">{patcher_html(rel)}</div></section>')
     return f"""{mid}
  <section id="known" class="entry-cols"><div><p class="label">Known limitations{" in " + pv if prev else ""}</p><h2>What was not tested</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["known_limitations"])}</ul></div>
   <div><p class="label">Get {cv}</p><h2>Download</h2><p class="lead">{esc(RELEASES["distribution"]["notes"]["discord"])}</p><div class="actions">{primary}<a class="link" href="{u("/play/")}#get">How to get the game{ARROW}</a></div></div></section>"""
@@ -1196,8 +1200,13 @@ def build_whatsnew_story(rel, cur, primary, G):
     assert G["shots"] and all((ROOT / "site" / art.strip("/") / s["file"]).exists() for s in G["shots"]), "run tools/whatsnew_story.py"
     card = lambda s: (f'<li data-shot="{s["id"]}"><div class="wn-two"><figure><img class="px" src="{u(art + s["file"])}" width="240" height="160" loading="lazy" alt="{esc(s["title"])}: {esc(s["caption"])}"></figure></div>'
                       f'<b>{esc(s["title"])}</b><p>{esc(s["caption"])}</p></li>')
-    walk = [j for j in JOURNEY if j["ch"].get("slug") == "silph-call"]
-    wl = (f'<p><a class="link" href="{u(walk[0]["url"])}">The Silph Conspiracy in the walkthrough (spoilers){ARROW}</a></p>' if walk else "")
+    # gallery copy comes from the gallery data (tools/whatsnew_v14.py sets it for v1.4); the defaults are the v1.3 wording
+    heading, lead = G.get("heading", "The Silph Conspiracy"), G.get("lead", "A new postgame story for players who have become Champion of the Hoenn League. No major twists are shown here.")
+    if G.get("link"):
+        wl = f'<p><a class="link" href="{u(G["link"][0])}">{esc(G["link"][1])}{ARROW}</a></p>'
+    else:
+        walk = [j for j in JOURNEY if j["ch"].get("slug") == "silph-call"]
+        wl = (f'<p><a class="link" href="{u(walk[0]["url"])}">The Silph Conspiracy in the walkthrough (spoilers){ARROW}</a></p>' if walk else "")
     last = (f'<a href="#release"><b>Release record</b><span class="m">Checksums</span></a>' if prev else f'<a href="#update-{pv}"><b>Updating from {old}</b><span class="m">Delta · mGBA · Android</span></a>')
     body = f"""
 <div class="wrap play wn" data-release="{pv}" data-release-role="{"previous" if prev else "current"}">
@@ -1205,13 +1214,13 @@ def build_whatsnew_story(rel, cur, primary, G):
  {whatsnew_head(rel, cur, G, primary, "See the screenshots", "The pictures below are real in-game screenshots from this release.")}
  <section id="changes" class="entry-cols"><div><p class="label">Changelog</p><h2>Changes since {old}</h2><ul class="plain bullets">{"".join(f"<li>{esc(x)}</li>" for x in rel["changelog"])}</ul>{wl}</div>
   <div><p class="label">On this page</p><nav class="wn-toc"><a href="#gallery"><b>In the game</b><span class="m">{len(G["shots"])} screenshots</span></a>{last}<a href="#known"><b>Known limitations</b><span class="m">What was not tested</span></a></nav></div></section>
- <section id="gallery"><p class="label">In the game</p><h2>The Silph Conspiracy</h2>
-  <p class="lead">A new postgame story for players who have become Champion of the Hoenn League. No major twists are shown here.</p>
+ <section id="gallery"><p class="label">In the game</p><h2>{esc(heading)}</h2>
+  <p class="lead">{esc(lead)}</p>
   <ul class="wn-grid tw">{"".join(card(s) for s in G["shots"])}</ul>
  </section>
  {whatsnew_foot(rel, cur, primary)}
 </div>"""
-    write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: the Silph Conspiracy, a new postgame story after the Hoenn League, with a new Elite Four member. Changelog, screenshots" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
+    write(rel["page"], layout(f"{'What was new' if prev else 'What’s new'} in {rel['public_version']}", body, desc=f"Pokémon Project Blonde {rel['public_version']}: " + G.get("desc", "the Silph Conspiracy, a new postgame story after the Hoenn League, with a new Elite Four member") + ". Changelog, screenshots" + ("." if prev else f", and how to update from {G['before']['public']}."), path="/play/", dock="none"))
 
 
 def build_play():

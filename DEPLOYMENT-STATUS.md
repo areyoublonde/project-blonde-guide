@@ -4,6 +4,19 @@
 
 **Kanto walkthrough update — owner approved publication, final local checks passed.** Fifteen Kanto chapters (20–34), with Surge → Erika → Misty → Janine → Sabrina → Brock → Blaine → Blue. Existing chapter URLs and saved progress identities preserved; new Snorlax/Diglett chapter. All six deployment checks pass (1,334 pages, 83,530 links, 39,495 asset references). Chrome verified 21 pages at desktop, phone and narrow-phone widths, all chapter navigation, progress persistence/export/import, maps/search and mobile controls. See `KANTO-PROGRESSION-REVIEW.txt` for the content/gameplay evidence and test limits. The owner explicitly authorized publication after these checks; no ROM/save/Discord changes.
 
+**v1.4 website update, 2026-10-19 (owner: "I approve r04 … proceed with the full release, including the website, patcher and Discord").** Branch `release-v1.4` on `origin/main`
+`debed29`. The game is public: v1.4 (build r04, game `0bc34645…1a2a`, ZIP `99df7f56…d353`) was published on Discord on 2026-10-19
+(`https://discord.com/channels/1557763721051512932/1557776605844217866/1561417753020203068`, plus #announcements and #next-update); the v1.3 post stays up, so v1.3 gets
+`discord_post`; the v1.2 post had already been removed from the Discord, so v1.2 now records `post_removed` instead of linking a deleted message. What changes:
+`releases.json` `current: "1.4"`; `/play/v1.4/` What's new with five real v1.4 screenshots (`tools/whatsnew_v14.py`; the story gallery's heading, lead and link now come
+from the gallery data, v1.3's page unchanged); a new Overworld encounters feature page; the Legendary guide's Hall of Fame reset (caught one-time legendaries stay caught,
+roamers no longer replaced) and Primal Reversion with the Orbs; the postgame walkthrough's Orb step and the Silph 3F Grunt's new team; `romx.py` BUILD = r04 with the v1.4
+symbol table (`output/project-blonde-v1.4-rc1-20261019/symbols-v1.4.json`, from the optimised layout's base-symbols); a third patcher registry `content/patcher-v1.4.json`
+(Emerald, v1.0, v1.1, both v1.2 builds and v1.3 → v1.4; patches in `site/assets/patches/v1.4/`, `PATCHER-MATRIX-v1.4.md`), and the v1.3 patcher kept on `/play/v1.3/`
+(labelled v1.3 only). Local results: build 1,336 pages (70 chapters); `qa_static` 0 failures; `qa_play` 280 of 280; `PB_PATCHER=v1.4 qa_patcher` 70 of 70; `PB_PATCHER=v1.3
+qa_patcher` 63 of 63 on its page; `qa_maps` 0 problems (map images unchanged from the v116 audit); `qa_pokemon_data` 482 (440 + 42), 0 problems; `qa_story` 0 failures;
+`qa_field_encounters` pass; `qa_availability` pass. Not run: the v1.0 patcher's browser test (its private ROM index is gone; its files are unchanged). Not tested: a physical iPhone, Safari, Firefox, an Android device.
+
 **Latest deploy 2026-10-17 (v1.3 website update):** commit `1e54e15` on `main` (with `51a3da6`, whose CI run 38999664135 failed the availability step and deployed nothing),
 workflow run 38999767895, success. Verified live: `tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 256 of 256; `PB_PATCHER=v1.3 tools/qa_patcher.py <live>`
 63 of 63 (Emerald, v1.0, v1.1, v1.2 v113 and v115 each made into the exact v1.3 in the browser); the nine Silph chapters and After the Credits at phone width with no

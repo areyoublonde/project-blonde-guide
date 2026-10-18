@@ -1,5 +1,39 @@
 [
  {
+  "id": "overworld-encounters",
+  "title": "Overworld encounters",
+  "blurb": "New in v1.4: see wild Pokémon on the map and walk into the one you want to battle. Optional; CLASSIC stays the default.",
+  "basis": "tested",
+  "what": "An optional way to meet wild Pokémon. With <b>OVERWORLD</b> chosen, the Pokémon of each area appear on the map, in grass, caves, sand and water in every region, and you battle the one you walk into. With <b>CLASSIC</b>, wild Pokémon appear at random as before.",
+  "how": [
+   "Open the START menu, choose <b>OPTIONS</b> and go down to <b>WILD ENCOUNTERS</b>.",
+   "Choose <b>OVERWORLD</b> or <b>CLASSIC</b> with Left and Right, then close the menu to keep the choice.",
+   "Walk into a wild Pokémon on the map, or face it and press <b>A</b>, to battle it.",
+   "Up to four wild Pokémon are around you at a time. They wander, swim or float, leave after a while, and new ones appear out of sight."
+  ],
+  "when": "At any time, in a new game or an existing save. The choice is kept in your save and starts as CLASSIC.",
+  "limits": "The Pokémon, their levels and their odds come from the same tables as CLASSIC, by time of day, with mass outbreaks, Repel and Keen Eye or Intimidate working as before. Fishing, Rock Smash and other special encounters are unchanged, and roaming legendaries still appear by surprise. Wild Pokémon only appear on ground you can reach.",
+  "more": [
+   "Walking or surfing no longer starts random battles on the maps that show their Pokémon; switch back to CLASSIC whenever you like.",
+   "Pokémon stay where you left them for a while, including just across a route border, and those from another time of day do not come back after dark or at dawn.",
+   "Pokémon float and swim on water, with reflections on still ponds. Magikarp flop and splash, Pokémon in tall grass are hidden by it like you are, and underwater they take on the colour of the sea.",
+   "A shiny Pokémon can appear on the map. The newest one you have seen is kept when you save and continue.",
+   "On Ice Path and in the Shoal Cave ice room they keep clear of ice and boulders, so they never block a slide or a puzzle. During the Bug-Catching Contest the contest Pokémon appear in the park.",
+   "DexNav works in both modes. While a DexNav search is running no new Pokémon appear, and the battle is the Pokémon you searched for."
+  ],
+  "links": [
+   [
+    "/play/v1.4/",
+    "What’s new in v1.4"
+   ],
+   [
+    "/features/dexnav/",
+    "DexNav: track a Pokémon in the area you are in"
+   ]
+  ],
+  "ev": "v1.4 release build (r04) and the overworld encounter test builds R4 to R5d (output/v1.4-exp-overworld-encounters): 269 maps, encounter odds checked with 10,000 samples per table, visits, contests, ice puzzles and saves"
+ },
+ {
   "id": "start-relearn",
   "title": "START Relearn",
   "blurb": "Relearn any level-up move from the Summary screen, anywhere, for free.",

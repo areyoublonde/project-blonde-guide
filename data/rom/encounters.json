@@ -107,7 +107,7 @@
   },
   "src": "gWildMonHeaders[0] @ 0x8ff84e4",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -159,7 +159,7 @@
   },
   "src": "gWildMonHeaders[1] @ 0x8ff8538",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -453,8 +453,8 @@
   },
   "src": "gWildMonHeaders[2] @ 0x8ff858c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -731,8 +731,8 @@
   },
   "src": "gWildMonHeaders[3] @ 0x8ff85e0",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -1036,7 +1036,7 @@
   },
   "src": "gWildMonHeaders[7] @ 0x8ff8730",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -1243,8 +1243,8 @@
   },
   "src": "gWildMonHeaders[9] @ 0x8ff87d8",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -1557,8 +1557,8 @@
   },
   "src": "gWildMonHeaders[10] @ 0x8ff882c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "rock-smash": 60,
    "old-rod": 30,
@@ -2037,7 +2037,7 @@
   },
   "src": "gWildMonHeaders[14] @ 0x8ff897c",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -2510,7 +2510,7 @@
   "src": "gWildMonHeaders[17] @ 0x8ff8a78",
   "density": {
    "walk": 10,
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -2811,8 +2811,8 @@
   },
   "src": "gWildMonHeaders[18] @ 0x8ff8acc",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -3077,8 +3077,8 @@
   },
   "src": "gWildMonHeaders[19] @ 0x8ff8b20",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -3169,7 +3169,7 @@
   },
   "src": "gWildMonHeaders[20] @ 0x8ff8b74",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route37_hns": {
@@ -3256,7 +3256,7 @@
   },
   "src": "gWildMonHeaders[21] @ 0x8ff8bc8",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -3580,7 +3580,7 @@
   },
   "src": "gWildMonHeaders[24] @ 0x8ff8cc4",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -3710,7 +3710,7 @@
   },
   "src": "gWildMonHeaders[25] @ 0x8ff8d18",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -3808,7 +3808,7 @@
   },
   "src": "gWildMonHeaders[26] @ 0x8ff8d6c",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -3908,7 +3908,7 @@
   },
   "src": "gWildMonHeaders[27] @ 0x8ff8dc0",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -4872,7 +4872,7 @@
   },
   "src": "gWildMonHeaders[32] @ 0x8ff8f64",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "headbutt": 60,
    "old-rod": 30,
@@ -4960,7 +4960,7 @@
   },
   "src": "gWildMonHeaders[33] @ 0x8ff8fb8",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -5318,8 +5318,8 @@
   },
   "src": "gWildMonHeaders[35] @ 0x8ff9060",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -6500,8 +6500,8 @@
   },
   "src": "gWildMonHeaders[40] @ 0x8ff9204",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -6594,7 +6594,7 @@
   },
   "src": "gWildMonHeaders[41] @ 0x8ff9258",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -6829,8 +6829,8 @@
   },
   "src": "gWildMonHeaders[42] @ 0x8ff92ac",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -7392,8 +7392,8 @@
   },
   "src": "gWildMonHeaders[49] @ 0x8ff94f8",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -7875,8 +7875,8 @@
   },
   "src": "gWildMonHeaders[51] @ 0x8ff95a0",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -8791,7 +8791,7 @@
   },
   "src": "gWildMonHeaders[55] @ 0x8ff96f0",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -9309,8 +9309,8 @@
   },
   "src": "gWildMonHeaders[57] @ 0x8ff9798",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -9561,8 +9561,8 @@
   },
   "src": "gWildMonHeaders[58] @ 0x8ff97ec",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -10105,8 +10105,8 @@
   },
   "src": "gWildMonHeaders[62] @ 0x8ff993c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -10259,7 +10259,7 @@
   },
   "src": "gWildMonHeaders[63] @ 0x8ff9990",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -10607,8 +10607,8 @@
   },
   "src": "gWildMonHeaders[64] @ 0x8ff99e4",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -10711,7 +10711,7 @@
   },
   "src": "gWildMonHeaders[65] @ 0x8ff9a38",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -10867,7 +10867,7 @@
   },
   "src": "gWildMonHeaders[66] @ 0x8ff9a8c",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -11143,8 +11143,8 @@
   },
   "src": "gWildMonHeaders[67] @ 0x8ff9ae0",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -11435,8 +11435,8 @@
   },
   "src": "gWildMonHeaders[68] @ 0x8ff9b34",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -11823,7 +11823,7 @@
   },
   "src": "gWildMonHeaders[71] @ 0x8ff9c30",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -12121,8 +12121,8 @@
   },
   "src": "gWildMonHeaders[72] @ 0x8ff9c84",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -12369,8 +12369,8 @@
   },
   "src": "gWildMonHeaders[73] @ 0x8ff9cd8",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -12679,8 +12679,8 @@
   },
   "src": "gWildMonHeaders[74] @ 0x8ff9d2c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -12926,8 +12926,8 @@
   },
   "src": "gWildMonHeaders[75] @ 0x8ff9d80",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -12999,7 +12999,7 @@
   },
   "src": "gWildMonHeaders[76] @ 0x8ff9dd4",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route17_hns": {
@@ -13068,7 +13068,7 @@
   },
   "src": "gWildMonHeaders[77] @ 0x8ff9e28",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route18_hns": {
@@ -13155,7 +13155,7 @@
   },
   "src": "gWildMonHeaders[78] @ 0x8ff9e7c",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route24_hns": {
@@ -13380,8 +13380,8 @@
   },
   "src": "gWildMonHeaders[79] @ 0x8ff9ed0",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -13597,8 +13597,8 @@
   },
   "src": "gWildMonHeaders[80] @ 0x8ff9f24",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -13640,7 +13640,7 @@
   },
   "src": "gWildMonHeaders[81] @ 0x8ff9f78",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route1_hns": {
@@ -13847,8 +13847,8 @@
   },
   "src": "gWildMonHeaders[82] @ 0x8ff9fcc",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -14127,8 +14127,8 @@
   },
   "src": "gWildMonHeaders[83] @ 0x8ffa020",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -14275,7 +14275,7 @@
   },
   "src": "gWildMonHeaders[84] @ 0x8ffa074",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -14590,7 +14590,7 @@
   },
   "src": "gWildMonHeaders[86] @ 0x8ffa11c",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -14752,7 +14752,7 @@
   },
   "src": "gWildMonHeaders[87] @ 0x8ffa170",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15034,8 +15034,8 @@
   },
   "src": "gWildMonHeaders[88] @ 0x8ffa1c4",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15227,8 +15227,8 @@
   },
   "src": "gWildMonHeaders[89] @ 0x8ffa218",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15426,8 +15426,8 @@
   },
   "src": "gWildMonHeaders[90] @ 0x8ffa26c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -15685,8 +15685,8 @@
   },
   "src": "gWildMonHeaders[91] @ 0x8ffa2c0",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "headbutt": 20,
    "old-rod": 30,
    "good-rod": 30,
@@ -15897,7 +15897,7 @@
   },
   "src": "gWildMonHeaders[92] @ 0x8ffa314",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -16108,7 +16108,7 @@
   },
   "src": "gWildMonHeaders[93] @ 0x8ffa368",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -16307,7 +16307,7 @@
   },
   "src": "gWildMonHeaders[94] @ 0x8ffa3bc",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -16452,7 +16452,7 @@
   },
   "src": "gWildMonHeaders[95] @ 0x8ffa410",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -16719,7 +16719,7 @@
   },
   "src": "gWildMonHeaders[96] @ 0x8ffa464",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -16888,7 +16888,7 @@
   },
   "src": "gWildMonHeaders[97] @ 0x8ffa4b8",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -17066,7 +17066,7 @@
   },
   "src": "gWildMonHeaders[98] @ 0x8ffa50c",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "rock-smash": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -17199,7 +17199,7 @@
   },
   "src": "gWildMonHeaders[99] @ 0x8ffa560",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -17472,7 +17472,7 @@
   },
   "src": "gWildMonHeaders[100] @ 0x8ffa5b4",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "rock-smash": 60,
    "old-rod": 30,
@@ -17642,7 +17642,7 @@
   },
   "src": "gWildMonHeaders[101] @ 0x8ffa608",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -17786,7 +17786,7 @@
   },
   "src": "gWildMonHeaders[102] @ 0x8ffa65c",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -17939,7 +17939,7 @@
   },
   "src": "gWildMonHeaders[103] @ 0x8ffa6b0",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 0,
    "good-rod": 0,
    "super-rod": 0
@@ -18158,7 +18158,7 @@
   },
   "src": "gWildMonHeaders[104] @ 0x8ffa704",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -18357,7 +18357,7 @@
   },
   "src": "gWildMonHeaders[105] @ 0x8ffa758",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "headbutt": 60,
    "old-rod": 30,
    "good-rod": 30,
@@ -18489,7 +18489,7 @@
   },
   "src": "gWildMonHeaders[107] @ 0x8ffa800",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "MtSilver_2F_hns": {
@@ -18759,7 +18759,7 @@
   },
   "src": "gWildMonHeaders[109] @ 0x8ffa8a8",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "MtSilver_Snow_hns#2": {
@@ -18826,7 +18826,7 @@
   },
   "src": "gWildMonHeaders[110] @ 0x8ffa8fc",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "dup": true
  },
@@ -18968,7 +18968,7 @@
   },
   "src": "gWildMonHeaders[114] @ 0x8ffaa4c",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "CeruleanCave_1F_hns": {
@@ -19551,7 +19551,7 @@
   },
   "src": "gWildMonHeaders[118] @ 0x8ffab9c",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_4F_hns": {
@@ -19624,7 +19624,7 @@
   },
   "src": "gWildMonHeaders[119] @ 0x8ffabf0",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_5F_hns": {
@@ -19697,7 +19697,7 @@
   },
   "src": "gWildMonHeaders[120] @ 0x8ffac44",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_6F_hns": {
@@ -19770,7 +19770,7 @@
   },
   "src": "gWildMonHeaders[121] @ 0x8ffac98",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_7F_hns": {
@@ -19843,7 +19843,7 @@
   },
   "src": "gWildMonHeaders[122] @ 0x8ffacec",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_8F_hns": {
@@ -19898,7 +19898,7 @@
   },
   "src": "gWildMonHeaders[123] @ 0x8ffad40",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "TinTower_9F_hns": {
@@ -19953,7 +19953,7 @@
   },
   "src": "gWildMonHeaders[124] @ 0x8ffad94",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "NationalPark_BugContest_hns": {
@@ -20762,7 +20762,7 @@
   },
   "src": "gWildMonHeaders[133] @ 0x8ffb088",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "FuchsiaCity_SafariZoneBeach_hns": {
@@ -21948,8 +21948,8 @@
   },
   "src": "gWildMonHeaders[149] @ 0x8ffb5c8",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -22071,8 +22071,8 @@
   },
   "src": "gWildMonHeaders[150] @ 0x8ffb61c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -22182,7 +22182,7 @@
   },
   "src": "gWildMonHeaders[151] @ 0x8ffb670",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 7,
    "old-rod": 30,
    "good-rod": 30,
@@ -22277,7 +22277,7 @@
   },
   "src": "gWildMonHeaders[152] @ 0x8ffb6c4",
   "density": {
-   "surf": 7,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -22423,8 +22423,8 @@
   },
   "src": "gWildMonHeaders[153] @ 0x8ffb718",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -22594,8 +22594,8 @@
   },
   "src": "gWildMonHeaders[154] @ 0x8ffb76c",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -22671,7 +22671,7 @@
   },
   "src": "gWildMonHeaders[155] @ 0x8ffb7c0",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Akala_Cave_hns": {
@@ -22720,7 +22720,7 @@
   },
   "src": "gWildMonHeaders[156] @ 0x8ffb814",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "UlaUla_Cave_hns": {
@@ -22769,7 +22769,7 @@
   },
   "src": "gWildMonHeaders[157] @ 0x8ffb868",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "UlaUla_Cave_2_hns": {
@@ -22788,7 +22788,7 @@
   },
   "src": "gWildMonHeaders[158] @ 0x8ffb8bc",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "SnowsweptCavern_hns": {
@@ -22883,7 +22883,7 @@
   },
   "src": "gWildMonHeaders[159] @ 0x8ffb910",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "rock-smash": 60
   }
  },
@@ -22945,7 +22945,7 @@
   },
   "src": "gWildMonHeaders[160] @ 0x8ffb964",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route49_hns": {
@@ -23082,8 +23082,8 @@
   },
   "src": "gWildMonHeaders[161] @ 0x8ffb9b8",
   "density": {
-   "walk": 20,
-   "surf": 7,
+   "walk": 14,
+   "surf": 5,
    "old-rod": 30,
    "good-rod": 30,
    "super-rod": 30
@@ -23175,7 +23175,7 @@
   },
   "src": "gWildMonHeaders[162] @ 0x8ffba0c",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "headbutt": 60
   }
  },
@@ -23249,7 +23249,7 @@
   },
   "src": "gWildMonHeaders[163] @ 0x8ffba60",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "SinjohRuins_Temple_hns": {
@@ -23316,7 +23316,7 @@
   },
   "src": "gWildMonHeaders[164] @ 0x8ffbab4",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "SinjohRuins_RegirockRoom_hns": {
@@ -23401,7 +23401,7 @@
   },
   "src": "gWildMonHeaders[165] @ 0x8ffbb08",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "SinjohRuins_RegiceRoom_hns": {
@@ -23468,7 +23468,7 @@
   },
   "src": "gWildMonHeaders[166] @ 0x8ffbb5c",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "SinjohRuins_hns": {
@@ -23591,7 +23591,7 @@
   },
   "src": "gWildMonHeaders[167] @ 0x8ffbbb0",
   "density": {
-   "walk": 20
+   "walk": 14
   },
   "unavailable_tables": {
    "rock-smash": {
@@ -23739,7 +23739,7 @@
   },
   "src": "gWildMonHeaders[168] @ 0x8ffbc04",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route102": {
@@ -24134,7 +24134,7 @@
   },
   "src": "gWildMonHeaders[169] @ 0x8ffbc58",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -24509,7 +24509,7 @@
   },
   "src": "gWildMonHeaders[170] @ 0x8ffbcac",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -25032,7 +25032,7 @@
   },
   "src": "gWildMonHeaders[172] @ 0x8ffbd54",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -25223,7 +25223,7 @@
   },
   "src": "gWildMonHeaders[173] @ 0x8ffbda8",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route116": {
@@ -25386,7 +25386,7 @@
   },
   "src": "gWildMonHeaders[174] @ 0x8ffbdfc",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "RusturfTunnel": {
@@ -28291,7 +28291,7 @@
   },
   "src": "gWildMonHeaders[187] @ 0x8ffc240",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -28738,7 +28738,7 @@
   },
   "src": "gWildMonHeaders[188] @ 0x8ffc294",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -29195,7 +29195,7 @@
   },
   "src": "gWildMonHeaders[190] @ 0x8ffc33c",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "FieryPath": {
@@ -29449,7 +29449,7 @@
   },
   "src": "gWildMonHeaders[192] @ 0x8ffc3e4",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route114": {
@@ -29902,7 +29902,7 @@
   },
   "src": "gWildMonHeaders[193] @ 0x8ffc438",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "rock-smash": 20,
    "old-rod": 30,
@@ -31402,7 +31402,7 @@
   },
   "src": "gWildMonHeaders[198] @ 0x8ffc5dc",
   "density": {
-   "walk": 20
+   "walk": 14
   }
  },
  "Route115": {
@@ -31797,7 +31797,7 @@
   },
   "src": "gWildMonHeaders[199] @ 0x8ffc630",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -32244,7 +32244,7 @@
   },
   "src": "gWildMonHeaders[200] @ 0x8ffc684",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -33090,7 +33090,7 @@
   },
   "src": "gWildMonHeaders[202] @ 0x8ffc72c",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -33537,7 +33537,7 @@
   },
   "src": "gWildMonHeaders[203] @ 0x8ffc780",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -34276,7 +34276,7 @@
   },
   "src": "gWildMonHeaders[205] @ 0x8ffc828",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,
@@ -38251,7 +38251,7 @@
   },
   "src": "gWildMonHeaders[230] @ 0x8ffd05c",
   "density": {
-   "walk": 20,
+   "walk": 14,
    "surf": 4,
    "old-rod": 30,
    "good-rod": 30,

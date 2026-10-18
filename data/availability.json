@@ -1731,12 +1731,12 @@
    "ITEM_NEW_MAUVILLE_KEY"
   ],
   "build": {
-   "version": "v116",
-   "public": "v1.3",
-   "folder": "../output/project-blonde-v1.3-rc1-20261017",
+   "version": "r04",
+   "public": "v1.4",
+   "folder": "../output/project-blonde-v1.4-rc1-20261019",
    "rom": "Pokemon - Project Blonde.gba",
-   "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
-   "symbols": "qa/natural-run-v102/harness/sym-v84.json"
+   "sha256": "0bc3464580952c6d7b41b0e7755f1d0cb35d5fceb1c388105c4fc460628f1a2a",
+   "symbols": "../output/project-blonde-v1.4-rc1-20261019/symbols-v1.4.json"
   },
   "engine_species_rows": 1573,
   "dex_records": 1479,
@@ -40345,7 +40345,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -40584,7 +40584,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -40606,7 +40606,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -41665,7 +41665,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -42138,7 +42138,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -42314,7 +42314,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },
@@ -42930,7 +42930,7 @@
    "primary": null,
    "regions": [],
    "in_game_dex": false,
-   "reason": "used by Trainers only; no acquisition source",
+   "reason": "defined in the engine only; no encounter, gift, trade, evolution or egg leads to it",
    "uncertain": null,
    "n_sources": 0
   },

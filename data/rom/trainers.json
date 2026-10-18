@@ -42123,15 +42123,15 @@
     ]
    },
    {
-    "species": "SPECIES_LIEPARD",
+    "species": "SPECIES_HYPNO",
     "level": 96,
-    "item": "Focus Sash",
+    "item": "Leftovers",
     "ability": null,
     "moves": [
-     "Knock Off",
-     "Play Rough",
-     "U Turn",
-     "Fake Out"
+     "Psychic",
+     "Focus Blast",
+     "Shadow Ball",
+     "Thunder Wave"
     ]
    }
   ],
@@ -42342,27 +42342,27 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_SKUNTANK",
+    "species": "SPECIES_MUK",
     "level": 95,
     "item": "Black Sludge",
     "ability": null,
     "moves": [
-     "Crunch",
-     "Poison Jab",
-     "Flamethrower",
-     "Sucker Punch"
+     "Gunk Shot",
+     "Knock Off",
+     "Shadow Sneak",
+     "Fire Punch"
     ]
    },
    {
-    "species": "SPECIES_TOXICROAK",
+    "species": "SPECIES_MACHAMP",
     "level": 96,
     "item": "Life Orb",
     "ability": null,
     "moves": [
-     "Drain Punch",
-     "Gunk Shot",
-     "Sucker Punch",
-     "Swords Dance"
+     "Dynamicpunch",
+     "Knock Off",
+     "Bullet Punch",
+     "Stone Edge"
     ]
    }
   ],
@@ -42483,14 +42483,14 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_DRAPION",
+    "species": "SPECIES_GLISCOR",
     "level": 96,
-    "item": "Scope Lens",
+    "item": "Leftovers",
     "ability": null,
     "moves": [
-     "Knock Off",
-     "Cross Poison",
      "Earthquake",
+     "Knock Off",
+     "Poison Jab",
      "Swords Dance"
     ]
    },
@@ -42780,14 +42780,14 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_BISHARP",
+    "species": "SPECIES_SCIZOR",
     "level": 96,
     "item": "Life Orb",
     "ability": null,
     "moves": [
-     "Iron Head",
+     "Bullet Punch",
      "Knock Off",
-     "Sucker Punch",
+     "U Turn",
      "Swords Dance"
     ]
    },
@@ -42858,14 +42858,14 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_GARBODOR",
+    "species": "SPECIES_SWALOT",
     "level": 95,
     "item": "Black Sludge",
     "ability": null,
     "moves": [
      "Gunk Shot",
-     "Drain Punch",
      "Toxic Spikes",
+     "Earthquake",
      "Explosion"
     ]
    },
@@ -42948,15 +42948,15 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_KROOKODILE",
+    "species": "SPECIES_MAROWAK",
     "level": 96,
-    "item": "Choice Scarf",
+    "item": "Thick Club",
     "ability": null,
     "moves": [
      "Earthquake",
      "Knock Off",
      "Stone Edge",
-     "Superpower"
+     "Fire Punch"
     ]
    },
    {
@@ -42999,15 +42999,15 @@
     ]
    },
    {
-    "species": "SPECIES_LIEPARD",
+    "species": "SPECIES_PERSIAN",
     "level": 96,
     "item": "Focus Sash",
     "ability": null,
     "moves": [
+     "Fake Out",
      "Knock Off",
      "Play Rough",
-     "U Turn",
-     "Fake Out"
+     "U Turn"
     ]
    }
   ],
@@ -43077,15 +43077,15 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_TOXICROAK",
+    "species": "SPECIES_GENGAR",
     "level": 96,
     "item": "Life Orb",
     "ability": null,
     "moves": [
-     "Drain Punch",
-     "Gunk Shot",
-     "Sucker Punch",
-     "Swords Dance"
+     "Shadow Ball",
+     "Sludge Wave",
+     "Focus Blast",
+     "Nasty Plot"
     ]
    },
    {
@@ -43116,7 +43116,7 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_SKUNTANK",
+    "species": "SPECIES_SEVIPER",
     "level": 96,
     "item": "Black Sludge",
     "ability": null,
@@ -43128,14 +43128,14 @@
     ]
    },
    {
-    "species": "SPECIES_DRAPION",
+    "species": "SPECIES_GLISCOR",
     "level": 96,
-    "item": "Scope Lens",
+    "item": "Leftovers",
     "ability": null,
     "moves": [
-     "Knock Off",
-     "Cross Poison",
      "Earthquake",
+     "Knock Off",
+     "Poison Jab",
      "Swords Dance"
     ]
    }
@@ -43296,14 +43296,14 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_BISHARP",
+    "species": "SPECIES_ABSOL",
     "level": 96,
     "item": "Life Orb",
     "ability": null,
     "moves": [
-     "Iron Head",
      "Knock Off",
      "Sucker Punch",
+     "Play Rough",
      "Swords Dance"
     ]
    },
@@ -43335,15 +43335,15 @@
   "items": [],
   "party": [
    {
-    "species": "SPECIES_KROOKODILE",
+    "species": "SPECIES_STEELIX",
     "level": 96,
-    "item": "Choice Scarf",
+    "item": "Leftovers",
     "ability": null,
     "moves": [
      "Earthquake",
-     "Knock Off",
+     "Iron Head",
      "Stone Edge",
-     "Superpower"
+     "Rock Polish"
     ]
    },
    {
@@ -43617,14 +43617,14 @@
     ]
    },
    {
-    "species": "SPECIES_DRAPION",
+    "species": "SPECIES_GLISCOR",
     "level": 96,
-    "item": "Scope Lens",
+    "item": "Leftovers",
     "ability": null,
     "moves": [
-     "Knock Off",
-     "Cross Poison",
      "Earthquake",
+     "Knock Off",
+     "Poison Jab",
      "Swords Dance"
     ]
    },

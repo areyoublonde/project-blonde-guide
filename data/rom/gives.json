@@ -6375,5 +6375,19 @@
   "how": "gift",
   "addr": 167599580,
   "sym": "__rom_end"
+ },
+ {
+  "item": "Red Orb",
+  "n": 1,
+  "how": "gift",
+  "addr": 167691737,
+  "sym": "__rom_end"
+ },
+ {
+  "item": "Blue Orb",
+  "n": 1,
+  "how": "gift",
+  "addr": 167692491,
+  "sym": "__rom_end"
  }
 ]

@@ -306,7 +306,10 @@ def story(c, tag, rel, G, txt):
     t = txt(".wn").lower()
     ok(f"[{tag}] story: the page keeps the story's twists out (no resignation, betrayal or Giovanni's defeat)", not any(w in t for w in ("resign", "betray", "served team rocket", "father")), [w for w in ("resign", "betray", "served team rocket", "father") if w in t])
     w = c.js("(a=>a&&a.getAttribute('href'))(document.querySelector('#changes a.link'))")
-    ok(f"[{tag}] story: links into the walkthrough's first Silph Conspiracy chapter", bool(w) and w.endswith("/postgame/silph-call/"), w)
+    if G.get("link"):     # a story gallery that names its own link (v1.4: the overworld encounters guide)
+        ok(f"[{tag}] story: links to {G['link'][1]}", bool(w) and w.endswith(G["link"][0]), w)
+    else:
+        ok(f"[{tag}] story: links into the walkthrough's first Silph Conspiracy chapter", bool(w) and w.endswith("/postgame/silph-call/"), w)
 
 
 def sprites(c, tag, rel, G, txt):

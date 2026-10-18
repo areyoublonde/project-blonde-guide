@@ -18,12 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "rom"
 B = 0x08000000
 BUILD = {
-    "version": "v116",
-    "public": "v1.3",
-    "folder": "../output/project-blonde-v1.3-rc1-20261017",            # relative to the game folder: the published release folder, not a qa build folder
+    "version": "r04",
+    "public": "v1.4",
+    "folder": "../output/project-blonde-v1.4-rc1-20261019",            # relative to the game folder: the published release folder, not a qa build folder
     "rom": "Pokemon - Project Blonde.gba",
-    "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
-    "symbols": "qa/natural-run-v102/harness/sym-v84.json",   # nm of the linked v84 ELF; v85..v116 are binary layers on top of it (v103..v105 change script, text and the title sheet; v106..v111 graphics, object graphics ids and the title sheet; v112..v113 Hoenn town object events, their scripts and graphics, and the title sheet; v115 = v113 + the sell-menu hotfix, 41 bytes of code; v116 = v115 + the Silph Conspiracy story layer (appended maps, scripts, trainers 1487..1530, graphics) + the v1.3 title sheet; the restored Silph floors have no symbol, so they are not map pages)
+    "sha256": "0bc3464580952c6d7b41b0e7755f1d0cb35d5fceb1c388105c4fc460628f1a2a",
+    "symbols": "../output/project-blonde-v1.4-rc1-20261019/symbols-v1.4.json",   # v1.4 = v116 content on the 2026-10-17 optimised layout (code and data moved, ids and save format unchanged) + binary layers r01..r04; addresses from output/rom-space-performance-sixfix-20261017/reports/base-symbols.json in the v84 table's format (14,621 of its symbols moved); the v1.4 layers (title, legendary script copy, overworld encounters, QA fixes) add code and scripts only
 }
 TRAINER_SZ, MON_SZ, HNS_ROWS = 52, 36, 635
 HO_LEGACY_FIRST, HO_EXT_FIRST = 634, 1152                     # qa/gym-rematch-yes-no-v84/trainer_capacity.h

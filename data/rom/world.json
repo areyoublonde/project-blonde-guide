@@ -38041,7 +38041,7 @@
      "x": 17,
      "y": 14,
      "gfx": "STEVEN_HNS",
-     "script": "SaffronCity_SilphCo_EventScript_Steven",
+     "script": "0x9fef484",
      "flag": 22,
      "tt": 0,
      "trainers": []
@@ -41175,7 +41175,7 @@
      "x": 11,
      "y": 6,
      "gfx": "JANINE_HNS",
-     "script": "ReceptionGate_EventScript_Janine",
+     "script": "0x9fff6c4",
      "flag": 31,
      "tt": 0,
      "trainers": []
@@ -99014,7 +99014,7 @@
      "x": 3,
      "y": 3,
      "gfx": "10240",
-     "script": "0x9fce9dc",
+     "script": "0x9fec896",
      "flag": 28,
      "tt": 0,
      "trainers": []
@@ -99114,7 +99114,7 @@
      "x": 5,
      "y": 3,
      "gfx": "10329",
-     "script": "0x9fcea8f",
+     "script": "0x9fec5a4",
      "flag": 28,
      "tt": 0,
      "trainers": []

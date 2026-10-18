@@ -1,21 +1,21 @@
 {
- "base": "http://127.0.0.1:8817",
- "checked": "2026-10-17 11:05",
+ "base": "http://127.0.0.1:8987",
+ "checked": "2026-10-19 00:56",
  "passed": 63,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.18,
-  "emerald: download + build + check (s, CPU 6x slower)": 1.13,
+  "emerald: recognise (s, CPU 6x slower)": 0.24,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.31,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1217,
-   1275
+   1115,
+   1192
   ],
-  "emerald: recognise with the plain-JS hash (s)": 0.12,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.42,
-  "v115: update (s)": 0.11,
+  "emerald: recognise with the plain-JS hash (s)": 0.14,
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 0.6,
+  "v115: update (s)": 0.09,
   "v113: update (s)": 0.09,
-  "v111: update (s)": 0.11,
-  "v105: update (s)": 0.1
+  "v111: update (s)": 0.09,
+  "v105: update (s)": 0.09
  },
  "results": [
   {
@@ -29,7 +29,7 @@
    "detail": ""
   },
   {
-   "name": "released: no prototype notice; the Discord download comes first and the patcher is offered beside it, under 'Or, without Discord'",
+   "name": "previous release: no prototype notice, its What's new page says Previous release, the patcher is labelled as making this version only and points to the current release",
    "ok": true,
    "detail": ""
   },
