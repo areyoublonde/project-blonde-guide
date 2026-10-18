@@ -4,6 +4,12 @@
 
 **Kanto walkthrough update — owner approved publication, final local checks passed.** Fifteen Kanto chapters (20–34), with Surge → Erika → Misty → Janine → Sabrina → Brock → Blaine → Blue. Existing chapter URLs and saved progress identities preserved; new Snorlax/Diglett chapter. All six deployment checks pass (1,334 pages, 83,530 links, 39,495 asset references). Chrome verified 21 pages at desktop, phone and narrow-phone widths, all chapter navigation, progress persistence/export/import, maps/search and mobile controls. See `KANTO-PROGRESSION-REVIEW.txt` for the content/gameplay evidence and test limits. The owner explicitly authorized publication after these checks; no ROM/save/Discord changes.
 
+**Latest deploy 2026-10-19 (v1.4 website update):** commit `07c8b3a` on `main`, workflow run 39147603059, success (build + every CI QA step). Verified live:
+`tools/qa_play.py https://areyoublonde.github.io/project-blonde-guide` 280 of 280; `PB_PATCHER=v1.4 tools/qa_patcher.py <live>` 70 of 70 (Emerald, v1.0, v1.1, both v1.2 builds and v1.3
+each made into the exact v1.4 in the browser); `PB_PATCHER=v1.3 tools/qa_patcher.py <live>` 63 of 63 on `/play/v1.3/` after its traffic check learned to ignore the page's own
+lazy-loaded screenshots (first live run 62 of 63: only lab / harbor / cave .png loading as the test scrolled; nothing was sent); the site's download button opens the v1.4 Discord post.
+This note, the test fix and the live evidence are committed locally only; push them with the next update.
+
 **v1.4 website update, 2026-10-19 (owner: "I approve r04 … proceed with the full release, including the website, patcher and Discord").** Branch `release-v1.4` on `origin/main`
 `debed29`. The game is public: v1.4 (build r04, game `0bc34645…1a2a`, ZIP `99df7f56…d353`) was published on Discord on 2026-10-19
 (`https://discord.com/channels/1557763721051512932/1557776605844217866/1561417753020203068`, plus #announcements and #next-update); the v1.3 post stays up, so v1.3 gets

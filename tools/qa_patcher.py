@@ -123,7 +123,7 @@ def main():
         sv = saved()
         ok("Emerald: the file offered for saving is the approved release, byte for byte", sv == [T["file_name"], T["size"], T["sha256"]] and c.js(R + ".dataset.outSha256") == T["sha256"], sv)
         ok("Emerald: a clear save action, with setup pointer; no save-transfer wording for a new game", vis("[data-mk-save]") and c.js("document.querySelector('[data-mk-save] span').textContent") in ("Save game file", "Save to Files") and not vis(".mk-ready .mk-warn"))
-        rq = reqs()
+        rq = [x for x in reqs() if not (x[0] == "GET" and x[1].endswith(".png") and not x[2])]   # the page's own lazy-loaded screenshots (a What's new page, v1.3) are not patcher traffic
         ok("Emerald: the only network traffic is one download of the patch; nothing is sent", [x for x in rq] == [("GET", BY["emerald-usa"]["patch"]["file"] + ".gz", False)], rq)
         c.send("Emulation.setCPUThrottlingRate", rate=1)
         snap("phone-ready-new.png")

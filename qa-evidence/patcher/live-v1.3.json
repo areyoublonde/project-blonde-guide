@@ -1,21 +1,21 @@
 {
  "base": "https://areyoublonde.github.io/project-blonde-guide",
- "checked": "2026-10-17 11:45",
+ "checked": "2026-10-19 01:07",
  "passed": 63,
  "failed": 0,
  "performance": {
-  "emerald: recognise (s, CPU 6x slower)": 0.2,
-  "emerald: download + build + check (s, CPU 6x slower)": 2.53,
+  "emerald: recognise (s, CPU 6x slower)": 0.21,
+  "emerald: download + build + check (s, CPU 6x slower)": 1.47,
   "emerald: browser memory before / peak (MB, all Chrome processes)": [
-   1206,
-   1553
+   1240,
+   1572
   ],
   "emerald: recognise with the plain-JS hash (s)": 0.13,
-  "emerald: build with plain-JS hash and uncompressed patch (s)": 3.2,
-  "v115: update (s)": 0.4,
-  "v113: update (s)": 0.35,
-  "v111: update (s)": 0.42,
-  "v105: update (s)": 0.34
+  "emerald: build with plain-JS hash and uncompressed patch (s)": 1.22,
+  "v115: update (s)": 0.38,
+  "v113: update (s)": 0.34,
+  "v111: update (s)": 0.33,
+  "v105: update (s)": 0.52
  },
  "results": [
   {
@@ -29,7 +29,7 @@
    "detail": ""
   },
   {
-   "name": "released: no prototype notice; the Discord download comes first and the patcher is offered beside it, under 'Or, without Discord'",
+   "name": "previous release: no prototype notice, its What's new page says Previous release, the patcher is labelled as making this version only and points to the current release",
    "ok": true,
    "detail": ""
   },
