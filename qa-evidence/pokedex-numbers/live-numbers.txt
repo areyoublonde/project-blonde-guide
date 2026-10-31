@@ -1,0 +1,3 @@
+list: 482 rows, first #001 bulbasaur, last #482 noivern; 440 numbers; skips [(419, 439), (439, 446), (446, 449), (449, 454), (454, 457), (457, 464), (464, 466), (466, 469)]
+pages: 482 Pokémon pages opened and checked
+0 problems

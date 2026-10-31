@@ -1,7 +1,7 @@
 {
  "base": "https://areyoublonde.github.io/project-blonde-guide",
  "browser": "Chrome (headless)",
- "date": "2026-10-09",
+ "date": "2026-10-31",
  "passed": 136,
  "total": 136,
  "checks": [
@@ -216,7 +216,7 @@
    "detail": "[]"
   },
   {
-   "name": "[desktop] region filter Hoenn shows only Hoenn entries (135)",
+   "name": "[desktop] region filter Hoenn shows only Hoenn entries (138)",
    "ok": true,
    "detail": ""
   },
@@ -328,7 +328,7 @@
   {
    "name": "[desktop] global search finds Pikachu",
    "ok": true,
-   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/items/ashs-pikachu/']"
+   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/stuck/#ash-i-cant-find-pikachu-or-the-pink-butterfr']"
   },
   {
    "name": "[desktop] global search does not offer a page for unobtainable Greninja",
@@ -546,7 +546,7 @@
    "detail": "[]"
   },
   {
-   "name": "[phone] region filter Hoenn shows only Hoenn entries (135)",
+   "name": "[phone] region filter Hoenn shows only Hoenn entries (138)",
    "ok": true,
    "detail": ""
   },
@@ -658,7 +658,7 @@
   {
    "name": "[phone] global search finds Pikachu",
    "ok": true,
-   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/items/ashs-pikachu/']"
+   "detail": "['/project-blonde-guide/pokemon/pikachu/', '/project-blonde-guide/pokemon/raichu/', '/project-blonde-guide/stuck/#ash-i-cant-find-pikachu-or-the-pink-butterfr']"
   },
   {
    "name": "[phone] global search does not offer a page for unobtainable Greninja",
@@ -666,12 +666,12 @@
    "detail": "[]"
   },
   {
-   "name": "[desktop] /items/ filter “surf” visibly narrows 445 rows to 1",
+   "name": "[desktop] /items/ filter “surf” visibly narrows 447 rows to 1",
    "ok": true,
    "detail": ""
   },
   {
-   "name": "[desktop] /trainers/ filter “wallace” visibly narrows 85 rows to 1",
+   "name": "[desktop] /trainers/ filter “wallace” visibly narrows 95 rows to 1",
    "ok": true,
    "detail": ""
   },
