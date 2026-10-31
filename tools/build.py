@@ -942,7 +942,8 @@ def release_state(rel):
     dist, dl, pt = RELEASES["distribution"], rel["download"], rel["patch"]
     method = rel.get("method", dist["method"])
     if rel["version"] == RELEASES["current"]:
-        assert BUILD["build"]["public"].startswith(rel["public_version"]) and BUILD["build"]["version"] == rel["internal_build"], "releases.json does not describe the build the guide was extracted from"
+        _src = rel.get("guide_data_from") or {"public": rel["public_version"], "version": rel["internal_build"]}   # v1.4.1 changes no reachable game data, so its guide data stays the v1.4 extraction
+        assert BUILD["build"]["public"].startswith(_src["public"]) and BUILD["build"]["version"] == _src["version"], "releases.json does not describe the build the guide was extracted from"
         assert method == dist["method"], "releases.json: distribution.method is not the current release's method"
     if rel["status"] != "released":
         assert not dl["url"], "releases.json: a download URL is set but the release is not marked released"
@@ -1110,7 +1111,7 @@ def build_whatsnew(rel, cur, primary):
     """What's new: the release's changelog with its before / after gallery (data/whatsnew-<version>.json). A previous release keeps this page as its entry in the version history."""
     pv, prev = esc(rel["public_version"]), rel is not cur
     G = J(DATA / f"whatsnew-{rel['public_version']}.json")
-    assert G["after"]["sha256"] == rel["sha256"] and (prev or rel["sha256"] == BUILD["build"]["sha256"]), "the before / after gallery was not generated for this release: run tools/whatsnew.py"
+    assert G["after"]["sha256"] == rel["sha256"] and (prev or rel.get("guide_data_from") or rel["sha256"] == BUILD["build"]["sha256"]), "the before / after gallery was not generated for this release: run tools/whatsnew.py"
     if prev:
         assert release_state(rel) == "discord" and bool(rel.get("post_removed")) != bool(rel.get("discord_post")), "a previous Discord release must record either that its download post was removed or that it is still up (discord_post)"
     if G.get("kind") == "towns":

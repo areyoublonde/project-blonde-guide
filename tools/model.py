@@ -25,7 +25,8 @@ def check(cond, msg):
 
 # ----------------------------------------------------------------------------- raw data
 BUILD = J(DATA / "rom/manifest.json")
-VERSION = f'{BUILD["build"]["public"]} (build {BUILD["build"]["version"]})'       # how the game version is named on every page
+_REL = json.loads((ROOT / "content/releases.json").read_text(encoding="utf-8")); _CUR = next(r for r in _REL["releases"] if r["version"] == _REL["current"])
+VERSION = f'{_CUR["public_version"]} (build {_CUR["internal_build"]})' if _CUR.get("guide_data_from") else f'{BUILD["build"]["public"]} (build {BUILD["build"]["version"]})'       # how the game version is named on every page
 world, TR, enc = J(DATA / "rom/world.json"), J(DATA / "rom/trainers.json"), J(DATA / "rom/encounters.json")
 _sec = J(DATA / "rom/sections.json")
 SECNAME, SECXY = {int(k): v for k, v in _sec["names"].items()}, {int(k): v for k, v in _sec["coords"].items()}

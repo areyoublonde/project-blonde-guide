@@ -1,5 +1,28 @@
 [
  {
+  "id": "portable-pc",
+  "title": "Portable PC",
+  "blurb": "New in v1.4.1: press R on the party screen to open Pokémon Storage without walking back to a Pokémon Center.",
+  "basis": "tested",
+  "what": "The same Pokémon Storage as a Pokémon Center PC, opened from your party. Deposit, withdraw and move Pokémon, rearrange boxes, change wallpapers and read summaries, then close it to return to the party screen.",
+  "how": [
+   "Press <b>START</b> and choose <b>POKéMON</b>.",
+   "Look for the <b>R◆PC</b> hint beside <b>SEL◆ORDER</b>, then press <b>R</b>.",
+   "Move your Pokémon as you would at a Pokémon Center: choose one with <b>A</b>, or open your party from the top of the screen.",
+   "Press <b>B</b> and leave the boxes to return to the party screen."
+  ],
+  "when": "In ordinary exploration, in a new game or an existing save, whenever the hint is showing. It also works while Surfing or cycling, and in the Battle Frontier’s Pokémon Center, Mart, Lounges and outdoor areas.",
+  "limits": "It is not a free heal: HP, PP and status conditions stay as they are, and fainted Pokémon stay fainted. It is off, with the hint hidden, in Battle Frontier facilities and their lobbies, Battle Tents, Trainer Hill, scripted events, link play and underwater. The usual storage rules apply, so you cannot deposit your last healthy Pokémon.",
+  "more": [
+   "With <b>BUTTON MODE</b> set to <b>L/R</b> in OPTIONS, R keeps moving the party cursor, so the portable PC is off. Normal and L=A modes use R for the PC.",
+   "It opens <b>MOVE POKéMON</b>. <b>MOVE ITEMS</b> stays on Pokémon Center PCs.",
+   "Your follower changes to your new lead Pokémon after you close the PC and walk.",
+   "No save-format change: it works with existing saves."
+  ],
+  "links": [],
+  "ev": "v1.4.1 release build (r09) and its test reports (output/v1.4-exp-portable-pc-20261031): every Frontier map, real captured states, a real Pike challenge, storage round trips compared byte for byte, saves from v1.0 to v1.4, mGBA and VBA-M."
+ },
+ {
   "id": "overworld-encounters",
   "title": "Overworld encounters",
   "blurb": "New in v1.4: see wild Pokémon on the map and walk into the one you want to battle. Optional; CLASSIC stays the default.",
