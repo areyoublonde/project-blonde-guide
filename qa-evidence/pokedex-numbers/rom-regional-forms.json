@@ -1,0 +1,254 @@
+[
+{
+"const": "SPECIES_RATTATA_ALOLA",
+"row": 19,
+"number_on_list_info_stats": 19,
+"summary_screen_number": 420
+},
+{
+"const": "SPECIES_RATICATE_ALOLA",
+"row": 20,
+"number_on_list_info_stats": 20,
+"summary_screen_number": 421
+},
+{
+"const": "SPECIES_RAICHU_ALOLA",
+"row": 27,
+"number_on_list_info_stats": 27,
+"summary_screen_number": 422
+},
+{
+"const": "SPECIES_SANDSHREW_ALOLA",
+"row": 28,
+"number_on_list_info_stats": 28,
+"summary_screen_number": 423
+},
+{
+"const": "SPECIES_SANDSLASH_ALOLA",
+"row": 29,
+"number_on_list_info_stats": 29,
+"summary_screen_number": 424
+},
+{
+"const": "SPECIES_VULPIX_ALOLA",
+"row": 39,
+"number_on_list_info_stats": 39,
+"summary_screen_number": 425
+},
+{
+"const": "SPECIES_NINETALES_ALOLA",
+"row": 40,
+"number_on_list_info_stats": 40,
+"summary_screen_number": 426
+},
+{
+"const": "SPECIES_DIGLETT_ALOLA",
+"row": 55,
+"number_on_list_info_stats": 55,
+"summary_screen_number": 427
+},
+{
+"const": "SPECIES_DUGTRIO_ALOLA",
+"row": 56,
+"number_on_list_info_stats": 56,
+"summary_screen_number": 428
+},
+{
+"const": "SPECIES_MEOWTH_ALOLA",
+"row": 57,
+"number_on_list_info_stats": 57,
+"summary_screen_number": 429
+},
+{
+"const": "SPECIES_PERSIAN_ALOLA",
+"row": 58,
+"number_on_list_info_stats": 58,
+"summary_screen_number": 430
+},
+{
+"const": "SPECIES_GEODUDE_ALOLA",
+"row": 81,
+"number_on_list_info_stats": 81,
+"summary_screen_number": 431
+},
+{
+"const": "SPECIES_GRAVELER_ALOLA",
+"row": 82,
+"number_on_list_info_stats": 82,
+"summary_screen_number": 432
+},
+{
+"const": "SPECIES_GOLEM_ALOLA",
+"row": 83,
+"number_on_list_info_stats": 83,
+"summary_screen_number": 433
+},
+{
+"const": "SPECIES_GRIMER_ALOLA",
+"row": 97,
+"number_on_list_info_stats": 97,
+"summary_screen_number": 434
+},
+{
+"const": "SPECIES_MUK_ALOLA",
+"row": 98,
+"number_on_list_info_stats": 98,
+"summary_screen_number": 435
+},
+{
+"const": "SPECIES_EXEGGUTOR_ALOLA",
+"row": 113,
+"number_on_list_info_stats": 113,
+"summary_screen_number": 436
+},
+{
+"const": "SPECIES_MAROWAK_ALOLA",
+"row": 115,
+"number_on_list_info_stats": 115,
+"summary_screen_number": 437
+},
+{
+"const": "SPECIES_MEOWTH_GALAR",
+"row": 57,
+"number_on_list_info_stats": 57,
+"summary_screen_number": 438
+},
+{
+"const": "SPECIES_PONYTA_GALAR",
+"row": 84,
+"number_on_list_info_stats": 84,
+"summary_screen_number": 440
+},
+{
+"const": "SPECIES_RAPIDASH_GALAR",
+"row": 85,
+"number_on_list_info_stats": 85,
+"summary_screen_number": 441
+},
+{
+"const": "SPECIES_SLOWPOKE_GALAR",
+"row": 86,
+"number_on_list_info_stats": 86,
+"summary_screen_number": 442
+},
+{
+"const": "SPECIES_SLOWBRO_GALAR",
+"row": 87,
+"number_on_list_info_stats": 87,
+"summary_screen_number": 443
+},
+{
+"const": "SPECIES_SLOWKING_GALAR",
+"row": 88,
+"number_on_list_info_stats": 88,
+"summary_screen_number": 444
+},
+{
+"const": "SPECIES_FARFETCHD_GALAR",
+"row": 92,
+"number_on_list_info_stats": 92,
+"summary_screen_number": 445
+},
+{
+"const": "SPECIES_WEEZING_GALAR",
+"row": 123,
+"number_on_list_info_stats": 123,
+"summary_screen_number": 447
+},
+{
+"const": "SPECIES_MR_MIME_GALAR",
+"row": 141,
+"number_on_list_info_stats": 141,
+"summary_screen_number": 448
+},
+{
+"const": "SPECIES_ARTICUNO_GALAR",
+"row": 178,
+"number_on_list_info_stats": 178,
+"summary_screen_number": 450
+},
+{
+"const": "SPECIES_ZAPDOS_GALAR",
+"row": 179,
+"number_on_list_info_stats": 179,
+"summary_screen_number": 451
+},
+{
+"const": "SPECIES_MOLTRES_GALAR",
+"row": 180,
+"number_on_list_info_stats": 180,
+"summary_screen_number": 452
+},
+{
+"const": "SPECIES_CORSOLA_GALAR",
+"row": 259,
+"number_on_list_info_stats": 259,
+"summary_screen_number": 453
+},
+{
+"const": "SPECIES_ZIGZAGOON_GALAR",
+"row": 294,
+"number_on_list_info_stats": 294,
+"summary_screen_number": 455
+},
+{
+"const": "SPECIES_LINOONE_GALAR",
+"row": 295,
+"number_on_list_info_stats": 295,
+"summary_screen_number": 456
+},
+{
+"const": "SPECIES_GROWLITHE_HISUI",
+"row": 64,
+"number_on_list_info_stats": 64,
+"summary_screen_number": 458
+},
+{
+"const": "SPECIES_ARCANINE_HISUI",
+"row": 65,
+"number_on_list_info_stats": 65,
+"summary_screen_number": 459
+},
+{
+"const": "SPECIES_VOLTORB_HISUI",
+"row": 110,
+"number_on_list_info_stats": 110,
+"summary_screen_number": 460
+},
+{
+"const": "SPECIES_ELECTRODE_HISUI",
+"row": 111,
+"number_on_list_info_stats": 111,
+"summary_screen_number": 461
+},
+{
+"const": "SPECIES_TYPHLOSION_HISUI",
+"row": 191,
+"number_on_list_info_stats": 191,
+"summary_screen_number": 462
+},
+{
+"const": "SPECIES_QWILFISH_HISUI",
+"row": 246,
+"number_on_list_info_stats": 246,
+"summary_screen_number": 463
+},
+{
+"const": "SPECIES_SNEASEL_HISUI",
+"row": 249,
+"number_on_list_info_stats": 249,
+"summary_screen_number": 465
+},
+{
+"const": "SPECIES_TAUROS_PALDEA_AQUA",
+"row": 154,
+"number_on_list_info_stats": 154,
+"summary_screen_number": 467
+},
+{
+"const": "SPECIES_WOOPER_PALDEA",
+"row": 227,
+"number_on_list_info_stats": 227,
+"summary_screen_number": 468
+}
+]

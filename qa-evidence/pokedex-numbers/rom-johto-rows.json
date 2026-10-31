@@ -1,0 +1,2258 @@
+[
+{
+"row": 1,
+"expected": 1,
+"dexNum": 152,
+"species": 152,
+"const": "SPECIES_CHIKORITA",
+"name": "CHIKORITA"
+},
+{
+"row": 2,
+"expected": 2,
+"dexNum": 153,
+"species": 153,
+"const": "SPECIES_BAYLEEF",
+"name": "BAYLEEF"
+},
+{
+"row": 3,
+"expected": 3,
+"dexNum": 154,
+"species": 154,
+"const": "SPECIES_MEGANIUM",
+"name": "MEGANIUM"
+},
+{
+"row": 4,
+"expected": 4,
+"dexNum": 155,
+"species": 155,
+"const": "SPECIES_CYNDAQUIL",
+"name": "CYNDAQUIL"
+},
+{
+"row": 5,
+"expected": 5,
+"dexNum": 156,
+"species": 156,
+"const": "SPECIES_QUILAVA",
+"name": "QUILAVA"
+},
+{
+"row": 6,
+"expected": 6,
+"dexNum": 157,
+"species": 157,
+"const": "SPECIES_TYPHLOSION",
+"name": "TYPHLOSION"
+},
+{
+"row": 7,
+"expected": 7,
+"dexNum": 158,
+"species": 158,
+"const": "SPECIES_TOTODILE",
+"name": "TOTODILE"
+},
+{
+"row": 8,
+"expected": 8,
+"dexNum": 159,
+"species": 159,
+"const": "SPECIES_CROCONAW",
+"name": "CROCONAW"
+},
+{
+"row": 9,
+"expected": 9,
+"dexNum": 160,
+"species": 160,
+"const": "SPECIES_FERALIGATR",
+"name": "FERALIGATR"
+},
+{
+"row": 10,
+"expected": 10,
+"dexNum": 16,
+"species": 16,
+"const": "SPECIES_PIDGEY",
+"name": "PIDGEY"
+},
+{
+"row": 11,
+"expected": 11,
+"dexNum": 17,
+"species": 17,
+"const": "SPECIES_PIDGEOTTO",
+"name": "PIDGEOTTO"
+},
+{
+"row": 12,
+"expected": 12,
+"dexNum": 18,
+"species": 18,
+"const": "SPECIES_PIDGEOT",
+"name": "PIDGEOT"
+},
+{
+"row": 13,
+"expected": 13,
+"dexNum": 21,
+"species": 21,
+"const": "SPECIES_SPEAROW",
+"name": "SPEAROW"
+},
+{
+"row": 14,
+"expected": 14,
+"dexNum": 22,
+"species": 22,
+"const": "SPECIES_FEAROW",
+"name": "FEAROW"
+},
+{
+"row": 15,
+"expected": 15,
+"dexNum": 163,
+"species": 163,
+"const": "SPECIES_HOOTHOOT",
+"name": "HOOTHOOT"
+},
+{
+"row": 16,
+"expected": 16,
+"dexNum": 164,
+"species": 164,
+"const": "SPECIES_NOCTOWL",
+"name": "NOCTOWL"
+},
+{
+"row": 17,
+"expected": 17,
+"dexNum": 19,
+"species": 19,
+"const": "SPECIES_RATTATA",
+"name": "RATTATA"
+},
+{
+"row": 18,
+"expected": 18,
+"dexNum": 20,
+"species": 20,
+"const": "SPECIES_RATICATE",
+"name": "RATICATE"
+},
+{
+"row": 19,
+"expected": 19,
+"dexNum": 161,
+"species": 161,
+"const": "SPECIES_SENTRET",
+"name": "SENTRET"
+},
+{
+"row": 20,
+"expected": 20,
+"dexNum": 162,
+"species": 162,
+"const": "SPECIES_FURRET",
+"name": "FURRET"
+},
+{
+"row": 21,
+"expected": 21,
+"dexNum": 172,
+"species": 172,
+"const": "SPECIES_PICHU",
+"name": "PICHU"
+},
+{
+"row": 22,
+"expected": 22,
+"dexNum": 25,
+"species": 25,
+"const": "SPECIES_PIKACHU",
+"name": "PIKACHU"
+},
+{
+"row": 23,
+"expected": 23,
+"dexNum": 26,
+"species": 26,
+"const": "SPECIES_RAICHU",
+"name": "RAICHU"
+},
+{
+"row": 24,
+"expected": 24,
+"dexNum": 10,
+"species": 10,
+"const": "SPECIES_CATERPIE",
+"name": "CATERPIE"
+},
+{
+"row": 25,
+"expected": 25,
+"dexNum": 11,
+"species": 11,
+"const": "SPECIES_METAPOD",
+"name": "METAPOD"
+},
+{
+"row": 26,
+"expected": 26,
+"dexNum": 12,
+"species": 12,
+"const": "SPECIES_BUTTERFREE",
+"name": "BUTTERFREE"
+},
+{
+"row": 27,
+"expected": 27,
+"dexNum": 13,
+"species": 13,
+"const": "SPECIES_WEEDLE",
+"name": "WEEDLE"
+},
+{
+"row": 28,
+"expected": 28,
+"dexNum": 14,
+"species": 14,
+"const": "SPECIES_KAKUNA",
+"name": "KAKUNA"
+},
+{
+"row": 29,
+"expected": 29,
+"dexNum": 15,
+"species": 15,
+"const": "SPECIES_BEEDRILL",
+"name": "BEEDRILL"
+},
+{
+"row": 30,
+"expected": 30,
+"dexNum": 165,
+"species": 165,
+"const": "SPECIES_LEDYBA",
+"name": "LEDYBA"
+},
+{
+"row": 31,
+"expected": 31,
+"dexNum": 166,
+"species": 166,
+"const": "SPECIES_LEDIAN",
+"name": "LEDIAN"
+},
+{
+"row": 32,
+"expected": 32,
+"dexNum": 167,
+"species": 167,
+"const": "SPECIES_SPINARAK",
+"name": "SPINARAK"
+},
+{
+"row": 33,
+"expected": 33,
+"dexNum": 168,
+"species": 168,
+"const": "SPECIES_ARIADOS",
+"name": "ARIADOS"
+},
+{
+"row": 34,
+"expected": 34,
+"dexNum": 74,
+"species": 74,
+"const": "SPECIES_GEODUDE",
+"name": "GEODUDE"
+},
+{
+"row": 35,
+"expected": 35,
+"dexNum": 75,
+"species": 75,
+"const": "SPECIES_GRAVELER",
+"name": "GRAVELER"
+},
+{
+"row": 36,
+"expected": 36,
+"dexNum": 76,
+"species": 76,
+"const": "SPECIES_GOLEM",
+"name": "GOLEM"
+},
+{
+"row": 37,
+"expected": 37,
+"dexNum": 41,
+"species": 41,
+"const": "SPECIES_ZUBAT",
+"name": "ZUBAT"
+},
+{
+"row": 38,
+"expected": 38,
+"dexNum": 42,
+"species": 42,
+"const": "SPECIES_GOLBAT",
+"name": "GOLBAT"
+},
+{
+"row": 39,
+"expected": 39,
+"dexNum": 169,
+"species": 169,
+"const": "SPECIES_CROBAT",
+"name": "CROBAT"
+},
+{
+"row": 40,
+"expected": 40,
+"dexNum": 173,
+"species": 173,
+"const": "SPECIES_CLEFFA",
+"name": "CLEFFA"
+},
+{
+"row": 41,
+"expected": 41,
+"dexNum": 35,
+"species": 35,
+"const": "SPECIES_CLEFAIRY",
+"name": "CLEFAIRY"
+},
+{
+"row": 42,
+"expected": 42,
+"dexNum": 36,
+"species": 36,
+"const": "SPECIES_CLEFABLE",
+"name": "CLEFABLE"
+},
+{
+"row": 43,
+"expected": 43,
+"dexNum": 174,
+"species": 174,
+"const": "SPECIES_IGGLYBUFF",
+"name": "IGGLYBUFF"
+},
+{
+"row": 44,
+"expected": 44,
+"dexNum": 39,
+"species": 39,
+"const": "SPECIES_JIGGLYPUFF",
+"name": "JIGGLYPUFF"
+},
+{
+"row": 45,
+"expected": 45,
+"dexNum": 40,
+"species": 40,
+"const": "SPECIES_WIGGLYTUFF",
+"name": "WIGGLYTUFF"
+},
+{
+"row": 46,
+"expected": 46,
+"dexNum": 175,
+"species": 175,
+"const": "SPECIES_TOGEPI",
+"name": "TOGEPI"
+},
+{
+"row": 47,
+"expected": 47,
+"dexNum": 176,
+"species": 176,
+"const": "SPECIES_TOGETIC",
+"name": "TOGETIC"
+},
+{
+"row": 48,
+"expected": 48,
+"dexNum": 468,
+"species": 468,
+"const": "SPECIES_TOGEKISS",
+"name": "TOGEKISS"
+},
+{
+"row": 49,
+"expected": 49,
+"dexNum": 27,
+"species": 27,
+"const": "SPECIES_SANDSHREW",
+"name": "SANDSHREW"
+},
+{
+"row": 50,
+"expected": 50,
+"dexNum": 28,
+"species": 28,
+"const": "SPECIES_SANDSLASH",
+"name": "SANDSLASH"
+},
+{
+"row": 51,
+"expected": 51,
+"dexNum": 23,
+"species": 23,
+"const": "SPECIES_EKANS",
+"name": "EKANS"
+},
+{
+"row": 52,
+"expected": 52,
+"dexNum": 24,
+"species": 24,
+"const": "SPECIES_ARBOK",
+"name": "ARBOK"
+},
+{
+"row": 53,
+"expected": 53,
+"dexNum": 206,
+"species": 206,
+"const": "SPECIES_DUNSPARCE",
+"name": "DUNSPARCE"
+},
+{
+"row": 54,
+"expected": 54,
+"dexNum": 982,
+"species": 1373,
+"const": "SPECIES_DUDUNSPARCE_TWO_SEGMENT",
+"name": "DUDUNSPARCE"
+},
+{
+"row": 55,
+"expected": 55,
+"dexNum": 179,
+"species": 179,
+"const": "SPECIES_MAREEP",
+"name": "MAREEP"
+},
+{
+"row": 56,
+"expected": 56,
+"dexNum": 180,
+"species": 180,
+"const": "SPECIES_FLAAFFY",
+"name": "FLAAFFY"
+},
+{
+"row": 57,
+"expected": 57,
+"dexNum": 181,
+"species": 181,
+"const": "SPECIES_AMPHAROS",
+"name": "AMPHAROS"
+},
+{
+"row": 58,
+"expected": 58,
+"dexNum": 194,
+"species": 194,
+"const": "SPECIES_WOOPER",
+"name": "WOOPER"
+},
+{
+"row": 59,
+"expected": 59,
+"dexNum": 195,
+"species": 195,
+"const": "SPECIES_QUAGSIRE",
+"name": "QUAGSIRE"
+},
+{
+"row": 60,
+"expected": 60,
+"dexNum": 92,
+"species": 92,
+"const": "SPECIES_GASTLY",
+"name": "GASTLY"
+},
+{
+"row": 61,
+"expected": 61,
+"dexNum": 93,
+"species": 93,
+"const": "SPECIES_HAUNTER",
+"name": "HAUNTER"
+},
+{
+"row": 62,
+"expected": 62,
+"dexNum": 94,
+"species": 94,
+"const": "SPECIES_GENGAR",
+"name": "GENGAR"
+},
+{
+"row": 63,
+"expected": 63,
+"dexNum": 201,
+"species": 201,
+"const": "SPECIES_UNOWN",
+"name": "UNOWN"
+},
+{
+"row": 64,
+"expected": 64,
+"dexNum": 95,
+"species": 95,
+"const": "SPECIES_ONIX",
+"name": "ONIX"
+},
+{
+"row": 65,
+"expected": 65,
+"dexNum": 208,
+"species": 208,
+"const": "SPECIES_STEELIX",
+"name": "STEELIX"
+},
+{
+"row": 66,
+"expected": 66,
+"dexNum": 69,
+"species": 69,
+"const": "SPECIES_BELLSPROUT",
+"name": "BELLSPROUT"
+},
+{
+"row": 67,
+"expected": 67,
+"dexNum": 70,
+"species": 70,
+"const": "SPECIES_WEEPINBELL",
+"name": "WEEPINBELL"
+},
+{
+"row": 68,
+"expected": 68,
+"dexNum": 71,
+"species": 71,
+"const": "SPECIES_VICTREEBEL",
+"name": "VICTREEBEL"
+},
+{
+"row": 69,
+"expected": 69,
+"dexNum": 187,
+"species": 187,
+"const": "SPECIES_HOPPIP",
+"name": "HOPPIP"
+},
+{
+"row": 70,
+"expected": 70,
+"dexNum": 188,
+"species": 188,
+"const": "SPECIES_SKIPLOOM",
+"name": "SKIPLOOM"
+},
+{
+"row": 71,
+"expected": 71,
+"dexNum": 189,
+"species": 189,
+"const": "SPECIES_JUMPLUFF",
+"name": "JUMPLUFF"
+},
+{
+"row": 72,
+"expected": 72,
+"dexNum": 46,
+"species": 46,
+"const": "SPECIES_PARAS",
+"name": "PARAS"
+},
+{
+"row": 73,
+"expected": 73,
+"dexNum": 47,
+"species": 47,
+"const": "SPECIES_PARASECT",
+"name": "PARASECT"
+},
+{
+"row": 74,
+"expected": 74,
+"dexNum": 60,
+"species": 60,
+"const": "SPECIES_POLIWAG",
+"name": "POLIWAG"
+},
+{
+"row": 75,
+"expected": 75,
+"dexNum": 61,
+"species": 61,
+"const": "SPECIES_POLIWHIRL",
+"name": "POLIWHIRL"
+},
+{
+"row": 76,
+"expected": 76,
+"dexNum": 62,
+"species": 62,
+"const": "SPECIES_POLIWRATH",
+"name": "POLIWRATH"
+},
+{
+"row": 77,
+"expected": 77,
+"dexNum": 186,
+"species": 186,
+"const": "SPECIES_POLITOED",
+"name": "POLITOED"
+},
+{
+"row": 78,
+"expected": 78,
+"dexNum": 129,
+"species": 129,
+"const": "SPECIES_MAGIKARP",
+"name": "MAGIKARP"
+},
+{
+"row": 79,
+"expected": 79,
+"dexNum": 130,
+"species": 130,
+"const": "SPECIES_GYARADOS",
+"name": "GYARADOS"
+},
+{
+"row": 80,
+"expected": 80,
+"dexNum": 118,
+"species": 118,
+"const": "SPECIES_GOLDEEN",
+"name": "GOLDEEN"
+},
+{
+"row": 81,
+"expected": 81,
+"dexNum": 119,
+"species": 119,
+"const": "SPECIES_SEAKING",
+"name": "SEAKING"
+},
+{
+"row": 82,
+"expected": 82,
+"dexNum": 79,
+"species": 79,
+"const": "SPECIES_SLOWPOKE",
+"name": "SLOWPOKE"
+},
+{
+"row": 83,
+"expected": 83,
+"dexNum": 80,
+"species": 80,
+"const": "SPECIES_SLOWBRO",
+"name": "SLOWBRO"
+},
+{
+"row": 84,
+"expected": 84,
+"dexNum": 199,
+"species": 199,
+"const": "SPECIES_SLOWKING",
+"name": "SLOWKING"
+},
+{
+"row": 85,
+"expected": 85,
+"dexNum": 43,
+"species": 43,
+"const": "SPECIES_ODDISH",
+"name": "ODDISH"
+},
+{
+"row": 86,
+"expected": 86,
+"dexNum": 44,
+"species": 44,
+"const": "SPECIES_GLOOM",
+"name": "GLOOM"
+},
+{
+"row": 87,
+"expected": 87,
+"dexNum": 45,
+"species": 45,
+"const": "SPECIES_VILEPLUME",
+"name": "VILEPLUME"
+},
+{
+"row": 88,
+"expected": 88,
+"dexNum": 182,
+"species": 182,
+"const": "SPECIES_BELLOSSOM",
+"name": "BELLOSSOM"
+},
+{
+"row": 89,
+"expected": 89,
+"dexNum": 96,
+"species": 96,
+"const": "SPECIES_DROWZEE",
+"name": "DROWZEE"
+},
+{
+"row": 90,
+"expected": 90,
+"dexNum": 97,
+"species": 97,
+"const": "SPECIES_HYPNO",
+"name": "HYPNO"
+},
+{
+"row": 91,
+"expected": 91,
+"dexNum": 63,
+"species": 63,
+"const": "SPECIES_ABRA",
+"name": "ABRA"
+},
+{
+"row": 92,
+"expected": 92,
+"dexNum": 64,
+"species": 64,
+"const": "SPECIES_KADABRA",
+"name": "KADABRA"
+},
+{
+"row": 93,
+"expected": 93,
+"dexNum": 65,
+"species": 65,
+"const": "SPECIES_ALAKAZAM",
+"name": "ALAKAZAM"
+},
+{
+"row": 94,
+"expected": 94,
+"dexNum": 132,
+"species": 132,
+"const": "SPECIES_DITTO",
+"name": "DITTO"
+},
+{
+"row": 95,
+"expected": 95,
+"dexNum": 204,
+"species": 204,
+"const": "SPECIES_PINECO",
+"name": "PINECO"
+},
+{
+"row": 96,
+"expected": 96,
+"dexNum": 205,
+"species": 205,
+"const": "SPECIES_FORRETRESS",
+"name": "FORRETRESS"
+},
+{
+"row": 97,
+"expected": 97,
+"dexNum": 29,
+"species": 29,
+"const": "SPECIES_NIDORAN_F",
+"name": "NIDORAN♀"
+},
+{
+"row": 98,
+"expected": 98,
+"dexNum": 30,
+"species": 30,
+"const": "SPECIES_NIDORINA",
+"name": "NIDORINA"
+},
+{
+"row": 99,
+"expected": 99,
+"dexNum": 31,
+"species": 31,
+"const": "SPECIES_NIDOQUEEN",
+"name": "NIDOQUEEN"
+},
+{
+"row": 100,
+"expected": 100,
+"dexNum": 32,
+"species": 32,
+"const": "SPECIES_NIDORAN_M",
+"name": "NIDORAN♂"
+},
+{
+"row": 101,
+"expected": 101,
+"dexNum": 33,
+"species": 33,
+"const": "SPECIES_NIDORINO",
+"name": "NIDORINO"
+},
+{
+"row": 102,
+"expected": 102,
+"dexNum": 34,
+"species": 34,
+"const": "SPECIES_NIDOKING",
+"name": "NIDOKING"
+},
+{
+"row": 103,
+"expected": 103,
+"dexNum": 193,
+"species": 193,
+"const": "SPECIES_YANMA",
+"name": "YANMA"
+},
+{
+"row": 104,
+"expected": 104,
+"dexNum": 469,
+"species": 469,
+"const": "SPECIES_YANMEGA",
+"name": "YANMEGA"
+},
+{
+"row": 105,
+"expected": 105,
+"dexNum": 191,
+"species": 191,
+"const": "SPECIES_SUNKERN",
+"name": "SUNKERN"
+},
+{
+"row": 106,
+"expected": 106,
+"dexNum": 192,
+"species": 192,
+"const": "SPECIES_SUNFLORA",
+"name": "SUNFLORA"
+},
+{
+"row": 107,
+"expected": 107,
+"dexNum": 102,
+"species": 102,
+"const": "SPECIES_EXEGGCUTE",
+"name": "EXEGGCUTE"
+},
+{
+"row": 108,
+"expected": 108,
+"dexNum": 103,
+"species": 103,
+"const": "SPECIES_EXEGGUTOR",
+"name": "EXEGGUTOR"
+},
+{
+"row": 109,
+"expected": 109,
+"dexNum": 438,
+"species": 438,
+"const": "SPECIES_BONSLY",
+"name": "BONSLY"
+},
+{
+"row": 110,
+"expected": 110,
+"dexNum": 185,
+"species": 185,
+"const": "SPECIES_SUDOWOODO",
+"name": "SUDOWOODO"
+},
+{
+"row": 111,
+"expected": 111,
+"dexNum": 360,
+"species": 360,
+"const": "SPECIES_WYNAUT",
+"name": "WYNAUT"
+},
+{
+"row": 112,
+"expected": 112,
+"dexNum": 202,
+"species": 202,
+"const": "SPECIES_WOBBUFFET",
+"name": "WOBBUFFET"
+},
+{
+"row": 113,
+"expected": 113,
+"dexNum": 48,
+"species": 48,
+"const": "SPECIES_VENONAT",
+"name": "VENONAT"
+},
+{
+"row": 114,
+"expected": 114,
+"dexNum": 49,
+"species": 49,
+"const": "SPECIES_VENOMOTH",
+"name": "VENOMOTH"
+},
+{
+"row": 115,
+"expected": 115,
+"dexNum": 123,
+"species": 123,
+"const": "SPECIES_SCYTHER",
+"name": "SCYTHER"
+},
+{
+"row": 116,
+"expected": 116,
+"dexNum": 212,
+"species": 212,
+"const": "SPECIES_SCIZOR",
+"name": "SCIZOR"
+},
+{
+"row": 117,
+"expected": 117,
+"dexNum": 900,
+"species": 900,
+"const": "SPECIES_KLEAVOR",
+"name": "KLEAVOR"
+},
+{
+"row": 118,
+"expected": 118,
+"dexNum": 127,
+"species": 127,
+"const": "SPECIES_PINSIR",
+"name": "PINSIR"
+},
+{
+"row": 119,
+"expected": 119,
+"dexNum": 214,
+"species": 214,
+"const": "SPECIES_HERACROSS",
+"name": "HERACROSS"
+},
+{
+"row": 120,
+"expected": 120,
+"dexNum": 109,
+"species": 109,
+"const": "SPECIES_KOFFING",
+"name": "KOFFING"
+},
+{
+"row": 121,
+"expected": 121,
+"dexNum": 110,
+"species": 110,
+"const": "SPECIES_WEEZING",
+"name": "WEEZING"
+},
+{
+"row": 122,
+"expected": 122,
+"dexNum": 88,
+"species": 88,
+"const": "SPECIES_GRIMER",
+"name": "GRIMER"
+},
+{
+"row": 123,
+"expected": 123,
+"dexNum": 89,
+"species": 89,
+"const": "SPECIES_MUK",
+"name": "MUK"
+},
+{
+"row": 124,
+"expected": 124,
+"dexNum": 81,
+"species": 81,
+"const": "SPECIES_MAGNEMITE",
+"name": "MAGNEMITE"
+},
+{
+"row": 125,
+"expected": 125,
+"dexNum": 82,
+"species": 82,
+"const": "SPECIES_MAGNETON",
+"name": "MAGNETON"
+},
+{
+"row": 126,
+"expected": 126,
+"dexNum": 462,
+"species": 462,
+"const": "SPECIES_MAGNEZONE",
+"name": "MAGNEZONE"
+},
+{
+"row": 127,
+"expected": 127,
+"dexNum": 100,
+"species": 100,
+"const": "SPECIES_VOLTORB",
+"name": "VOLTORB"
+},
+{
+"row": 128,
+"expected": 128,
+"dexNum": 101,
+"species": 101,
+"const": "SPECIES_ELECTRODE",
+"name": "ELECTRODE"
+},
+{
+"row": 129,
+"expected": 129,
+"dexNum": 190,
+"species": 190,
+"const": "SPECIES_AIPOM",
+"name": "AIPOM"
+},
+{
+"row": 130,
+"expected": 130,
+"dexNum": 424,
+"species": 424,
+"const": "SPECIES_AMBIPOM",
+"name": "AMBIPOM"
+},
+{
+"row": 131,
+"expected": 131,
+"dexNum": 209,
+"species": 209,
+"const": "SPECIES_SNUBBULL",
+"name": "SNUBBULL"
+},
+{
+"row": 132,
+"expected": 132,
+"dexNum": 210,
+"species": 210,
+"const": "SPECIES_GRANBULL",
+"name": "GRANBULL"
+},
+{
+"row": 133,
+"expected": 133,
+"dexNum": 37,
+"species": 37,
+"const": "SPECIES_VULPIX",
+"name": "VULPIX"
+},
+{
+"row": 134,
+"expected": 134,
+"dexNum": 38,
+"species": 38,
+"const": "SPECIES_NINETALES",
+"name": "NINETALES"
+},
+{
+"row": 135,
+"expected": 135,
+"dexNum": 58,
+"species": 58,
+"const": "SPECIES_GROWLITHE",
+"name": "GROWLITHE"
+},
+{
+"row": 136,
+"expected": 136,
+"dexNum": 59,
+"species": 59,
+"const": "SPECIES_ARCANINE",
+"name": "ARCANINE"
+},
+{
+"row": 137,
+"expected": 137,
+"dexNum": 234,
+"species": 234,
+"const": "SPECIES_STANTLER",
+"name": "STANTLER"
+},
+{
+"row": 138,
+"expected": 138,
+"dexNum": 899,
+"species": 899,
+"const": "SPECIES_WYRDEER",
+"name": "WYRDEER"
+},
+{
+"row": 139,
+"expected": 139,
+"dexNum": 298,
+"species": 298,
+"const": "SPECIES_AZURILL",
+"name": "AZURILL"
+},
+{
+"row": 140,
+"expected": 140,
+"dexNum": 183,
+"species": 183,
+"const": "SPECIES_MARILL",
+"name": "MARILL"
+},
+{
+"row": 141,
+"expected": 141,
+"dexNum": 184,
+"species": 184,
+"const": "SPECIES_AZUMARILL",
+"name": "AZUMARILL"
+},
+{
+"row": 142,
+"expected": 142,
+"dexNum": 50,
+"species": 50,
+"const": "SPECIES_DIGLETT",
+"name": "DIGLETT"
+},
+{
+"row": 143,
+"expected": 143,
+"dexNum": 51,
+"species": 51,
+"const": "SPECIES_DUGTRIO",
+"name": "DUGTRIO"
+},
+{
+"row": 144,
+"expected": 144,
+"dexNum": 56,
+"species": 56,
+"const": "SPECIES_MANKEY",
+"name": "MANKEY"
+},
+{
+"row": 145,
+"expected": 145,
+"dexNum": 57,
+"species": 57,
+"const": "SPECIES_PRIMEAPE",
+"name": "PRIMEAPE"
+},
+{
+"row": 146,
+"expected": 146,
+"dexNum": 979,
+"species": 1370,
+"const": "SPECIES_ANNIHILAPE",
+"name": "ANNIHILAPE"
+},
+{
+"row": 147,
+"expected": 147,
+"dexNum": 52,
+"species": 52,
+"const": "SPECIES_MEOWTH",
+"name": "MEOWTH"
+},
+{
+"row": 148,
+"expected": 148,
+"dexNum": 53,
+"species": 53,
+"const": "SPECIES_PERSIAN",
+"name": "PERSIAN"
+},
+{
+"row": 149,
+"expected": 149,
+"dexNum": 54,
+"species": 54,
+"const": "SPECIES_PSYDUCK",
+"name": "PSYDUCK"
+},
+{
+"row": 150,
+"expected": 150,
+"dexNum": 55,
+"species": 55,
+"const": "SPECIES_GOLDUCK",
+"name": "GOLDUCK"
+},
+{
+"row": 151,
+"expected": 151,
+"dexNum": 66,
+"species": 66,
+"const": "SPECIES_MACHOP",
+"name": "MACHOP"
+},
+{
+"row": 152,
+"expected": 152,
+"dexNum": 67,
+"species": 67,
+"const": "SPECIES_MACHOKE",
+"name": "MACHOKE"
+},
+{
+"row": 153,
+"expected": 153,
+"dexNum": 68,
+"species": 68,
+"const": "SPECIES_MACHAMP",
+"name": "MACHAMP"
+},
+{
+"row": 154,
+"expected": 154,
+"dexNum": 236,
+"species": 236,
+"const": "SPECIES_TYROGUE",
+"name": "TYROGUE"
+},
+{
+"row": 155,
+"expected": 155,
+"dexNum": 106,
+"species": 106,
+"const": "SPECIES_HITMONLEE",
+"name": "HITMONLEE"
+},
+{
+"row": 156,
+"expected": 156,
+"dexNum": 107,
+"species": 107,
+"const": "SPECIES_HITMONCHAN",
+"name": "HITMONCHAN"
+},
+{
+"row": 157,
+"expected": 157,
+"dexNum": 237,
+"species": 237,
+"const": "SPECIES_HITMONTOP",
+"name": "HITMONTOP"
+},
+{
+"row": 158,
+"expected": 158,
+"dexNum": 203,
+"species": 203,
+"const": "SPECIES_GIRAFARIG",
+"name": "GIRAFARIG"
+},
+{
+"row": 159,
+"expected": 159,
+"dexNum": 981,
+"species": 1372,
+"const": "SPECIES_FARIGIRAF",
+"name": "FARIGIRAF"
+},
+{
+"row": 160,
+"expected": 160,
+"dexNum": 128,
+"species": 128,
+"const": "SPECIES_TAUROS",
+"name": "TAUROS"
+},
+{
+"row": 161,
+"expected": 161,
+"dexNum": 241,
+"species": 241,
+"const": "SPECIES_MILTANK",
+"name": "MILTANK"
+},
+{
+"row": 162,
+"expected": 162,
+"dexNum": 240,
+"species": 240,
+"const": "SPECIES_MAGBY",
+"name": "MAGBY"
+},
+{
+"row": 163,
+"expected": 163,
+"dexNum": 126,
+"species": 126,
+"const": "SPECIES_MAGMAR",
+"name": "MAGMAR"
+},
+{
+"row": 164,
+"expected": 164,
+"dexNum": 467,
+"species": 467,
+"const": "SPECIES_MAGMORTAR",
+"name": "MAGMORTAR"
+},
+{
+"row": 165,
+"expected": 165,
+"dexNum": 238,
+"species": 238,
+"const": "SPECIES_SMOOCHUM",
+"name": "SMOOCHUM"
+},
+{
+"row": 166,
+"expected": 166,
+"dexNum": 124,
+"species": 124,
+"const": "SPECIES_JYNX",
+"name": "JYNX"
+},
+{
+"row": 167,
+"expected": 167,
+"dexNum": 239,
+"species": 239,
+"const": "SPECIES_ELEKID",
+"name": "ELEKID"
+},
+{
+"row": 168,
+"expected": 168,
+"dexNum": 125,
+"species": 125,
+"const": "SPECIES_ELECTABUZZ",
+"name": "ELECTABUZZ"
+},
+{
+"row": 169,
+"expected": 169,
+"dexNum": 466,
+"species": 466,
+"const": "SPECIES_ELECTIVIRE",
+"name": "ELECTIVIRE"
+},
+{
+"row": 170,
+"expected": 170,
+"dexNum": 439,
+"species": 439,
+"const": "SPECIES_MIME_JR",
+"name": "MIME JR."
+},
+{
+"row": 171,
+"expected": 171,
+"dexNum": 122,
+"species": 122,
+"const": "SPECIES_MR_MIME",
+"name": "MR. MIME"
+},
+{
+"row": 172,
+"expected": 172,
+"dexNum": 235,
+"species": 235,
+"const": "SPECIES_SMEARGLE",
+"name": "SMEARGLE"
+},
+{
+"row": 173,
+"expected": 173,
+"dexNum": 83,
+"species": 83,
+"const": "SPECIES_FARFETCHD",
+"name": "FARFETCH’D"
+},
+{
+"row": 174,
+"expected": 174,
+"dexNum": 177,
+"species": 177,
+"const": "SPECIES_NATU",
+"name": "NATU"
+},
+{
+"row": 175,
+"expected": 175,
+"dexNum": 178,
+"species": 178,
+"const": "SPECIES_XATU",
+"name": "XATU"
+},
+{
+"row": 176,
+"expected": 176,
+"dexNum": 211,
+"species": 211,
+"const": "SPECIES_QWILFISH",
+"name": "QWILFISH"
+},
+{
+"row": 177,
+"expected": 177,
+"dexNum": 72,
+"species": 72,
+"const": "SPECIES_TENTACOOL",
+"name": "TENTACOOL"
+},
+{
+"row": 178,
+"expected": 178,
+"dexNum": 73,
+"species": 73,
+"const": "SPECIES_TENTACRUEL",
+"name": "TENTACRUEL"
+},
+{
+"row": 179,
+"expected": 179,
+"dexNum": 98,
+"species": 98,
+"const": "SPECIES_KRABBY",
+"name": "KRABBY"
+},
+{
+"row": 180,
+"expected": 180,
+"dexNum": 99,
+"species": 99,
+"const": "SPECIES_KINGLER",
+"name": "KINGLER"
+},
+{
+"row": 181,
+"expected": 181,
+"dexNum": 213,
+"species": 213,
+"const": "SPECIES_SHUCKLE",
+"name": "SHUCKLE"
+},
+{
+"row": 182,
+"expected": 182,
+"dexNum": 120,
+"species": 120,
+"const": "SPECIES_STARYU",
+"name": "STARYU"
+},
+{
+"row": 183,
+"expected": 183,
+"dexNum": 121,
+"species": 121,
+"const": "SPECIES_STARMIE",
+"name": "STARMIE"
+},
+{
+"row": 184,
+"expected": 184,
+"dexNum": 90,
+"species": 90,
+"const": "SPECIES_SHELLDER",
+"name": "SHELLDER"
+},
+{
+"row": 185,
+"expected": 185,
+"dexNum": 91,
+"species": 91,
+"const": "SPECIES_CLOYSTER",
+"name": "CLOYSTER"
+},
+{
+"row": 186,
+"expected": 186,
+"dexNum": 222,
+"species": 222,
+"const": "SPECIES_CORSOLA",
+"name": "CORSOLA"
+},
+{
+"row": 187,
+"expected": 187,
+"dexNum": 223,
+"species": 223,
+"const": "SPECIES_REMORAID",
+"name": "REMORAID"
+},
+{
+"row": 188,
+"expected": 188,
+"dexNum": 224,
+"species": 224,
+"const": "SPECIES_OCTILLERY",
+"name": "OCTILLERY"
+},
+{
+"row": 189,
+"expected": 189,
+"dexNum": 170,
+"species": 170,
+"const": "SPECIES_CHINCHOU",
+"name": "CHINCHOU"
+},
+{
+"row": 190,
+"expected": 190,
+"dexNum": 171,
+"species": 171,
+"const": "SPECIES_LANTURN",
+"name": "LANTURN"
+},
+{
+"row": 191,
+"expected": 191,
+"dexNum": 86,
+"species": 86,
+"const": "SPECIES_SEEL",
+"name": "SEEL"
+},
+{
+"row": 192,
+"expected": 192,
+"dexNum": 87,
+"species": 87,
+"const": "SPECIES_DEWGONG",
+"name": "DEWGONG"
+},
+{
+"row": 193,
+"expected": 193,
+"dexNum": 108,
+"species": 108,
+"const": "SPECIES_LICKITUNG",
+"name": "LICKITUNG"
+},
+{
+"row": 194,
+"expected": 194,
+"dexNum": 463,
+"species": 463,
+"const": "SPECIES_LICKILICKY",
+"name": "LICKILICKY"
+},
+{
+"row": 195,
+"expected": 195,
+"dexNum": 114,
+"species": 114,
+"const": "SPECIES_TANGELA",
+"name": "TANGELA"
+},
+{
+"row": 196,
+"expected": 196,
+"dexNum": 465,
+"species": 465,
+"const": "SPECIES_TANGROWTH",
+"name": "TANGROWTH"
+},
+{
+"row": 197,
+"expected": 197,
+"dexNum": 133,
+"species": 133,
+"const": "SPECIES_EEVEE",
+"name": "EEVEE"
+},
+{
+"row": 198,
+"expected": 198,
+"dexNum": 134,
+"species": 134,
+"const": "SPECIES_VAPOREON",
+"name": "VAPOREON"
+},
+{
+"row": 199,
+"expected": 199,
+"dexNum": 135,
+"species": 135,
+"const": "SPECIES_JOLTEON",
+"name": "JOLTEON"
+},
+{
+"row": 200,
+"expected": 200,
+"dexNum": 136,
+"species": 136,
+"const": "SPECIES_FLAREON",
+"name": "FLAREON"
+},
+{
+"row": 201,
+"expected": 201,
+"dexNum": 196,
+"species": 196,
+"const": "SPECIES_ESPEON",
+"name": "ESPEON"
+},
+{
+"row": 202,
+"expected": 202,
+"dexNum": 197,
+"species": 197,
+"const": "SPECIES_UMBREON",
+"name": "UMBREON"
+},
+{
+"row": 203,
+"expected": 203,
+"dexNum": 470,
+"species": 470,
+"const": "SPECIES_LEAFEON",
+"name": "LEAFEON"
+},
+{
+"row": 204,
+"expected": 204,
+"dexNum": 471,
+"species": 471,
+"const": "SPECIES_GLACEON",
+"name": "GLACEON"
+},
+{
+"row": 205,
+"expected": 205,
+"dexNum": 700,
+"species": 700,
+"const": "SPECIES_SYLVEON",
+"name": "SYLVEON"
+},
+{
+"row": 206,
+"expected": 206,
+"dexNum": 116,
+"species": 116,
+"const": "SPECIES_HORSEA",
+"name": "HORSEA"
+},
+{
+"row": 207,
+"expected": 207,
+"dexNum": 117,
+"species": 117,
+"const": "SPECIES_SEADRA",
+"name": "SEADRA"
+},
+{
+"row": 208,
+"expected": 208,
+"dexNum": 230,
+"species": 230,
+"const": "SPECIES_KINGDRA",
+"name": "KINGDRA"
+},
+{
+"row": 209,
+"expected": 209,
+"dexNum": 207,
+"species": 207,
+"const": "SPECIES_GLIGAR",
+"name": "GLIGAR"
+},
+{
+"row": 210,
+"expected": 210,
+"dexNum": 472,
+"species": 472,
+"const": "SPECIES_GLISCOR",
+"name": "GLISCOR"
+},
+{
+"row": 211,
+"expected": 211,
+"dexNum": 225,
+"species": 225,
+"const": "SPECIES_DELIBIRD",
+"name": "DELIBIRD"
+},
+{
+"row": 212,
+"expected": 212,
+"dexNum": 220,
+"species": 220,
+"const": "SPECIES_SWINUB",
+"name": "SWINUB"
+},
+{
+"row": 213,
+"expected": 213,
+"dexNum": 221,
+"species": 221,
+"const": "SPECIES_PILOSWINE",
+"name": "PILOSWINE"
+},
+{
+"row": 214,
+"expected": 214,
+"dexNum": 473,
+"species": 473,
+"const": "SPECIES_MAMOSWINE",
+"name": "MAMOSWINE"
+},
+{
+"row": 215,
+"expected": 215,
+"dexNum": 216,
+"species": 216,
+"const": "SPECIES_TEDDIURSA",
+"name": "TEDDIURSA"
+},
+{
+"row": 216,
+"expected": 216,
+"dexNum": 217,
+"species": 217,
+"const": "SPECIES_URSARING",
+"name": "URSARING"
+},
+{
+"row": 217,
+"expected": 217,
+"dexNum": 901,
+"species": 901,
+"const": "SPECIES_URSALUNA",
+"name": "URSALUNA"
+},
+{
+"row": 218,
+"expected": 218,
+"dexNum": 231,
+"species": 231,
+"const": "SPECIES_PHANPY",
+"name": "PHANPY"
+},
+{
+"row": 219,
+"expected": 219,
+"dexNum": 232,
+"species": 232,
+"const": "SPECIES_DONPHAN",
+"name": "DONPHAN"
+},
+{
+"row": 220,
+"expected": 220,
+"dexNum": 458,
+"species": 458,
+"const": "SPECIES_MANTYKE",
+"name": "MANTYKE"
+},
+{
+"row": 221,
+"expected": 221,
+"dexNum": 226,
+"species": 226,
+"const": "SPECIES_MANTINE",
+"name": "MANTINE"
+},
+{
+"row": 222,
+"expected": 222,
+"dexNum": 227,
+"species": 227,
+"const": "SPECIES_SKARMORY",
+"name": "SKARMORY"
+},
+{
+"row": 223,
+"expected": 223,
+"dexNum": 84,
+"species": 84,
+"const": "SPECIES_DODUO",
+"name": "DODUO"
+},
+{
+"row": 224,
+"expected": 224,
+"dexNum": 85,
+"species": 85,
+"const": "SPECIES_DODRIO",
+"name": "DODRIO"
+},
+{
+"row": 225,
+"expected": 225,
+"dexNum": 77,
+"species": 77,
+"const": "SPECIES_PONYTA",
+"name": "PONYTA"
+},
+{
+"row": 226,
+"expected": 226,
+"dexNum": 78,
+"species": 78,
+"const": "SPECIES_RAPIDASH",
+"name": "RAPIDASH"
+},
+{
+"row": 227,
+"expected": 227,
+"dexNum": 104,
+"species": 104,
+"const": "SPECIES_CUBONE",
+"name": "CUBONE"
+},
+{
+"row": 228,
+"expected": 228,
+"dexNum": 105,
+"species": 105,
+"const": "SPECIES_MAROWAK",
+"name": "MAROWAK"
+},
+{
+"row": 229,
+"expected": 229,
+"dexNum": 115,
+"species": 115,
+"const": "SPECIES_KANGASKHAN",
+"name": "KANGASKHAN"
+},
+{
+"row": 230,
+"expected": 230,
+"dexNum": 111,
+"species": 111,
+"const": "SPECIES_RHYHORN",
+"name": "RHYHORN"
+},
+{
+"row": 231,
+"expected": 231,
+"dexNum": 112,
+"species": 112,
+"const": "SPECIES_RHYDON",
+"name": "RHYDON"
+},
+{
+"row": 232,
+"expected": 232,
+"dexNum": 464,
+"species": 464,
+"const": "SPECIES_RHYPERIOR",
+"name": "RHYPERIOR"
+},
+{
+"row": 233,
+"expected": 233,
+"dexNum": 198,
+"species": 198,
+"const": "SPECIES_MURKROW",
+"name": "MURKROW"
+},
+{
+"row": 234,
+"expected": 234,
+"dexNum": 430,
+"species": 430,
+"const": "SPECIES_HONCHKROW",
+"name": "HONCHKROW"
+},
+{
+"row": 235,
+"expected": 235,
+"dexNum": 228,
+"species": 228,
+"const": "SPECIES_HOUNDOUR",
+"name": "HOUNDOUR"
+},
+{
+"row": 236,
+"expected": 236,
+"dexNum": 229,
+"species": 229,
+"const": "SPECIES_HOUNDOOM",
+"name": "HOUNDOOM"
+},
+{
+"row": 237,
+"expected": 237,
+"dexNum": 218,
+"species": 218,
+"const": "SPECIES_SLUGMA",
+"name": "SLUGMA"
+},
+{
+"row": 238,
+"expected": 238,
+"dexNum": 219,
+"species": 219,
+"const": "SPECIES_MAGCARGO",
+"name": "MAGCARGO"
+},
+{
+"row": 239,
+"expected": 239,
+"dexNum": 215,
+"species": 215,
+"const": "SPECIES_SNEASEL",
+"name": "SNEASEL"
+},
+{
+"row": 240,
+"expected": 240,
+"dexNum": 461,
+"species": 461,
+"const": "SPECIES_WEAVILE",
+"name": "WEAVILE"
+},
+{
+"row": 241,
+"expected": 241,
+"dexNum": 200,
+"species": 200,
+"const": "SPECIES_MISDREAVUS",
+"name": "MISDREAVUS"
+},
+{
+"row": 242,
+"expected": 242,
+"dexNum": 429,
+"species": 429,
+"const": "SPECIES_MISMAGIUS",
+"name": "MISMAGIUS"
+},
+{
+"row": 243,
+"expected": 243,
+"dexNum": 137,
+"species": 137,
+"const": "SPECIES_PORYGON",
+"name": "PORYGON"
+},
+{
+"row": 244,
+"expected": 244,
+"dexNum": 233,
+"species": 233,
+"const": "SPECIES_PORYGON2",
+"name": "PORYGON2"
+},
+{
+"row": 245,
+"expected": 245,
+"dexNum": 474,
+"species": 474,
+"const": "SPECIES_PORYGON_Z",
+"name": "PORYGON-Z"
+},
+{
+"row": 246,
+"expected": 246,
+"dexNum": 440,
+"species": 440,
+"const": "SPECIES_HAPPINY",
+"name": "HAPPINY"
+},
+{
+"row": 247,
+"expected": 247,
+"dexNum": 113,
+"species": 113,
+"const": "SPECIES_CHANSEY",
+"name": "CHANSEY"
+},
+{
+"row": 248,
+"expected": 248,
+"dexNum": 242,
+"species": 242,
+"const": "SPECIES_BLISSEY",
+"name": "BLISSEY"
+},
+{
+"row": 249,
+"expected": 249,
+"dexNum": 131,
+"species": 131,
+"const": "SPECIES_LAPRAS",
+"name": "LAPRAS"
+},
+{
+"row": 250,
+"expected": 250,
+"dexNum": 138,
+"species": 138,
+"const": "SPECIES_OMANYTE",
+"name": "OMANYTE"
+},
+{
+"row": 251,
+"expected": 251,
+"dexNum": 139,
+"species": 139,
+"const": "SPECIES_OMASTAR",
+"name": "OMASTAR"
+},
+{
+"row": 252,
+"expected": 252,
+"dexNum": 140,
+"species": 140,
+"const": "SPECIES_KABUTO",
+"name": "KABUTO"
+},
+{
+"row": 253,
+"expected": 253,
+"dexNum": 141,
+"species": 141,
+"const": "SPECIES_KABUTOPS",
+"name": "KABUTOPS"
+},
+{
+"row": 254,
+"expected": 254,
+"dexNum": 142,
+"species": 142,
+"const": "SPECIES_AERODACTYL",
+"name": "AERODACTYL"
+},
+{
+"row": 255,
+"expected": 255,
+"dexNum": 446,
+"species": 446,
+"const": "SPECIES_MUNCHLAX",
+"name": "MUNCHLAX"
+},
+{
+"row": 256,
+"expected": 256,
+"dexNum": 143,
+"species": 143,
+"const": "SPECIES_SNORLAX",
+"name": "SNORLAX"
+},
+{
+"row": 257,
+"expected": 257,
+"dexNum": 1,
+"species": 1,
+"const": "SPECIES_BULBASAUR",
+"name": "BULBASAUR"
+},
+{
+"row": 258,
+"expected": 258,
+"dexNum": 2,
+"species": 2,
+"const": "SPECIES_IVYSAUR",
+"name": "IVYSAUR"
+},
+{
+"row": 259,
+"expected": 259,
+"dexNum": 3,
+"species": 3,
+"const": "SPECIES_VENUSAUR",
+"name": "VENUSAUR"
+},
+{
+"row": 260,
+"expected": 260,
+"dexNum": 4,
+"species": 4,
+"const": "SPECIES_CHARMANDER",
+"name": "CHARMANDER"
+},
+{
+"row": 261,
+"expected": 261,
+"dexNum": 5,
+"species": 5,
+"const": "SPECIES_CHARMELEON",
+"name": "CHARMELEON"
+},
+{
+"row": 262,
+"expected": 262,
+"dexNum": 6,
+"species": 6,
+"const": "SPECIES_CHARIZARD",
+"name": "CHARIZARD"
+},
+{
+"row": 263,
+"expected": 263,
+"dexNum": 7,
+"species": 7,
+"const": "SPECIES_SQUIRTLE",
+"name": "SQUIRTLE"
+},
+{
+"row": 264,
+"expected": 264,
+"dexNum": 8,
+"species": 8,
+"const": "SPECIES_WARTORTLE",
+"name": "WARTORTLE"
+},
+{
+"row": 265,
+"expected": 265,
+"dexNum": 9,
+"species": 9,
+"const": "SPECIES_BLASTOISE",
+"name": "BLASTOISE"
+},
+{
+"row": 266,
+"expected": 266,
+"dexNum": 144,
+"species": 144,
+"const": "SPECIES_ARTICUNO",
+"name": "ARTICUNO"
+},
+{
+"row": 267,
+"expected": 267,
+"dexNum": 145,
+"species": 145,
+"const": "SPECIES_ZAPDOS",
+"name": "ZAPDOS"
+},
+{
+"row": 268,
+"expected": 268,
+"dexNum": 146,
+"species": 146,
+"const": "SPECIES_MOLTRES",
+"name": "MOLTRES"
+},
+{
+"row": 269,
+"expected": 269,
+"dexNum": 243,
+"species": 243,
+"const": "SPECIES_RAIKOU",
+"name": "RAIKOU"
+},
+{
+"row": 270,
+"expected": 270,
+"dexNum": 244,
+"species": 244,
+"const": "SPECIES_ENTEI",
+"name": "ENTEI"
+},
+{
+"row": 271,
+"expected": 271,
+"dexNum": 245,
+"species": 245,
+"const": "SPECIES_SUICUNE",
+"name": "SUICUNE"
+},
+{
+"row": 272,
+"expected": 272,
+"dexNum": 147,
+"species": 147,
+"const": "SPECIES_DRATINI",
+"name": "DRATINI"
+},
+{
+"row": 273,
+"expected": 273,
+"dexNum": 148,
+"species": 148,
+"const": "SPECIES_DRAGONAIR",
+"name": "DRAGONAIR"
+},
+{
+"row": 274,
+"expected": 274,
+"dexNum": 149,
+"species": 149,
+"const": "SPECIES_DRAGONITE",
+"name": "DRAGONITE"
+},
+{
+"row": 275,
+"expected": 275,
+"dexNum": 246,
+"species": 246,
+"const": "SPECIES_LARVITAR",
+"name": "LARVITAR"
+},
+{
+"row": 276,
+"expected": 276,
+"dexNum": 247,
+"species": 247,
+"const": "SPECIES_PUPITAR",
+"name": "PUPITAR"
+},
+{
+"row": 277,
+"expected": 277,
+"dexNum": 248,
+"species": 248,
+"const": "SPECIES_TYRANITAR",
+"name": "TYRANITAR"
+},
+{
+"row": 278,
+"expected": 278,
+"dexNum": 249,
+"species": 249,
+"const": "SPECIES_LUGIA",
+"name": "LUGIA"
+},
+{
+"row": 279,
+"expected": 279,
+"dexNum": 250,
+"species": 250,
+"const": "SPECIES_HO_OH",
+"name": "HO-OH"
+},
+{
+"row": 280,
+"expected": 280,
+"dexNum": 150,
+"species": 150,
+"const": "SPECIES_MEWTWO",
+"name": "MEWTWO"
+},
+{
+"row": 281,
+"expected": 281,
+"dexNum": 151,
+"species": 151,
+"const": "SPECIES_MEW",
+"name": "MEW"
+},
+{
+"row": 282,
+"expected": 282,
+"dexNum": 251,
+"species": 251,
+"const": "SPECIES_CELEBI",
+"name": "CELEBI"
+}
+]

@@ -324,7 +324,7 @@ def how_summary(d):
 
 def build_pokemon():
     rows = ""
-    entries = sorted((DEX[k] for k in PAGES), key=lambda d: (d["dex"], d["num"]))
+    entries = sorted((DEX[k] for k in PAGES), key=lambda d: (d["game_no"], d["dex"]))     # the game's list order; a regional form follows its base species
     for d in entries:
         av = AV[d["id"]]
         names = where_summary(d)
@@ -337,9 +337,10 @@ def build_pokemon():
         hay = " ".join([d["display"], form, " ".join(d["types"]), " ".join(names), " ".join(MLABEL[k] for k in av["kinds"])]).lower()
         hay = re.sub(r"[^a-z0-9 ]+", " ", hay.replace("é", "e").replace("♀", " f").replace("♂", " m")) + " " + re.sub(r"[^a-z0-9]+", "", d["display"].lower().replace("é", "e"))
         rows += (f'<li id="{d["slug"]}" data-f="{esc(hay)}" data-r="{" ".join(regions + keys)}">'
-                 f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a>{label}</b>{types(d)}<span class="w">{esc(how_summary(d))}</span></li>')
+                 f'{icon_img(d, 32)}<b><a href="{u("/pokemon/" + d["slug"] + "/")}">{esc(d["display"])}</a> {dex_no(d)}{label}</b>{types(d)}<span class="w">{esc(how_summary(d))}</span></li>')
     n_base, n_reg = sum(1 for d in entries if d["kind"] == "species"), sum(1 for d in entries if d["kind"] == "regional")
-    body = head("Pokédex", "Where to find them", f"{len(entries)} Pokémon you can obtain in Project Blonde: {n_base} species and {n_reg} regional forms. Each is here because the game’s own data shows a way to get it: a wild encounter, an event, a gift, a trade, an evolution or an egg. Species the engine defines but the game never offers are left out.",
+    NUMSKIP = next(a["game_no"] for a, b in zip(entries, entries[1:]) if b["game_no"] > a["game_no"] + 1)
+    body = head("Pokédex", "Where to find them", f"{len(entries)} Pokémon you can obtain in Project Blonde: {n_base} species and {n_reg} regional forms. Each is here because the game’s own data shows a way to get it: a wild encounter, an event, a gift, a trade, an evolution or an egg. Species the engine defines but the game never offers are left out. Numbers are the ones the game’s Pokédex shows in National mode, not official National Dex numbers. As in the game, a regional form shares its base species’ number, and numbers skip after #{NUMSKIP} where the game keeps places for those forms.",
                 f'<p class="headlinks"><a class="link" href="{u("/features/evolution-methods/")}">Trade evolutions without trading{ARROW}</a><a class="link" href="{u("/items/mega-stones/")}">Mega Stones{ARROW}</a><a class="link" href="{u(legend_page.URL)}">Legendary &amp; Mythical guide{ARROW}</a><a class="link" href="{u(dexnav_page.URL)}">Track one with DexNav{ARROW}</a></p>') + f"""
 <div class="wrap listpage">
  <div class="filterbar"><label class="field">{SEARCH}<span class="sr">Filter Pokémon</span><input type="search" data-filter-list="#dex" placeholder="Name, type or place — try “pikachu”, “alolan” or “route 119”" autocomplete="off" aria-controls="dex"></label>
@@ -490,7 +491,7 @@ def build_species(d):
 <article class="entry"><div class="wrap">
  <nav class="crumbs">{crumb}</nav>
  <header class="entry-head"><div class="art">{art_img(d, 192, title)}</div>
-  <div><p class="label">{label}</p><h1>{esc(title)}</h1><p class="typeline">{types(d)}</p><p class="lead">{esc(d.get("text") or "")}</p></div></header>
+  <div><p class="label">{label}</p><h1>{esc(title)} {dex_no(d)}</h1><p class="typeline">{types(d)}</p><p class="lead">{esc(d.get("text") or "")}</p></div></header>
  <section class="entry-where"><div><p class="label">Where to find</p><h2>In the game</h2>{bestline}{table}</div><div class="figs">{figs}</div></section>
  {"<section><p class=label>Forms</p><h2>Forms and Mega Evolution</h2>" + forms + "</section>" if forms else ""}
  <section class="entry-cols"><div><p class="label">Evolution</p><h2>Family</h2>{family(d)}</div>

@@ -1,0 +1,3880 @@
+{
+"source": {
+"revision": "r09",
+"rom_sha256": "115a3204c1b2ff8bff6b39fb89418fd80b7674172b5c97974f7b7da8fd806d58",
+"tables": [
+"sObtainableToNationalOrder",
+"sJohtoToNationalOrder",
+"sNationalToSpeciesOrder",
+"sDexRegionalGroups",
+"gSpeciesInfo"
+]
+},
+"counts": {
+"national_slots": 1080,
+"list_entries": 482,
+"regional_forms": 42,
+"numbers_shown": 440,
+"johto": 282,
+"first": 1,
+"last": 482
+},
+"entries": {
+"1": {
+"no": 1,
+"position": 1,
+"johto": 257,
+"national": 1,
+"name": "BULBASAUR",
+"regional_of": null
+},
+"2": {
+"no": 2,
+"position": 2,
+"johto": 258,
+"national": 2,
+"name": "IVYSAUR",
+"regional_of": null
+},
+"3": {
+"no": 3,
+"position": 3,
+"johto": 259,
+"national": 3,
+"name": "VENUSAUR",
+"regional_of": null
+},
+"4": {
+"no": 4,
+"position": 4,
+"johto": 260,
+"national": 4,
+"name": "CHARMANDER",
+"regional_of": null
+},
+"5": {
+"no": 5,
+"position": 5,
+"johto": 261,
+"national": 5,
+"name": "CHARMELEON",
+"regional_of": null
+},
+"6": {
+"no": 6,
+"position": 6,
+"johto": 262,
+"national": 6,
+"name": "CHARIZARD",
+"regional_of": null
+},
+"7": {
+"no": 7,
+"position": 7,
+"johto": 263,
+"national": 7,
+"name": "SQUIRTLE",
+"regional_of": null
+},
+"8": {
+"no": 8,
+"position": 8,
+"johto": 264,
+"national": 8,
+"name": "WARTORTLE",
+"regional_of": null
+},
+"9": {
+"no": 9,
+"position": 9,
+"johto": 265,
+"national": 9,
+"name": "BLASTOISE",
+"regional_of": null
+},
+"10": {
+"no": 10,
+"position": 10,
+"johto": 24,
+"national": 10,
+"name": "CATERPIE",
+"regional_of": null
+},
+"11": {
+"no": 11,
+"position": 11,
+"johto": 25,
+"national": 11,
+"name": "METAPOD",
+"regional_of": null
+},
+"12": {
+"no": 12,
+"position": 12,
+"johto": 26,
+"national": 12,
+"name": "BUTTERFREE",
+"regional_of": null
+},
+"13": {
+"no": 13,
+"position": 13,
+"johto": 27,
+"national": 13,
+"name": "WEEDLE",
+"regional_of": null
+},
+"14": {
+"no": 14,
+"position": 14,
+"johto": 28,
+"national": 14,
+"name": "KAKUNA",
+"regional_of": null
+},
+"15": {
+"no": 15,
+"position": 15,
+"johto": 29,
+"national": 15,
+"name": "BEEDRILL",
+"regional_of": null
+},
+"16": {
+"no": 16,
+"position": 16,
+"johto": 10,
+"national": 16,
+"name": "PIDGEY",
+"regional_of": null
+},
+"17": {
+"no": 17,
+"position": 17,
+"johto": 11,
+"national": 17,
+"name": "PIDGEOTTO",
+"regional_of": null
+},
+"18": {
+"no": 18,
+"position": 18,
+"johto": 12,
+"national": 18,
+"name": "PIDGEOT",
+"regional_of": null
+},
+"19": {
+"no": 19,
+"position": 19,
+"johto": 17,
+"national": 19,
+"name": "RATTATA",
+"regional_of": null
+},
+"20": {
+"no": 20,
+"position": 20,
+"johto": 18,
+"national": 20,
+"name": "RATICATE",
+"regional_of": null
+},
+"21": {
+"no": 21,
+"position": 21,
+"johto": 13,
+"national": 21,
+"name": "SPEAROW",
+"regional_of": null
+},
+"22": {
+"no": 22,
+"position": 22,
+"johto": 14,
+"national": 22,
+"name": "FEAROW",
+"regional_of": null
+},
+"23": {
+"no": 23,
+"position": 23,
+"johto": 51,
+"national": 23,
+"name": "EKANS",
+"regional_of": null
+},
+"24": {
+"no": 24,
+"position": 24,
+"johto": 52,
+"national": 24,
+"name": "ARBOK",
+"regional_of": null
+},
+"172": {
+"no": 25,
+"position": 25,
+"johto": 21,
+"national": 172,
+"name": "PICHU",
+"regional_of": null
+},
+"25": {
+"no": 26,
+"position": 26,
+"johto": 22,
+"national": 25,
+"name": "PIKACHU",
+"regional_of": null
+},
+"26": {
+"no": 27,
+"position": 27,
+"johto": 23,
+"national": 26,
+"name": "RAICHU",
+"regional_of": null
+},
+"27": {
+"no": 28,
+"position": 28,
+"johto": 49,
+"national": 27,
+"name": "SANDSHREW",
+"regional_of": null
+},
+"28": {
+"no": 29,
+"position": 29,
+"johto": 50,
+"national": 28,
+"name": "SANDSLASH",
+"regional_of": null
+},
+"29": {
+"no": 30,
+"position": 30,
+"johto": 97,
+"national": 29,
+"name": "NIDORAN♀",
+"regional_of": null
+},
+"30": {
+"no": 31,
+"position": 31,
+"johto": 98,
+"national": 30,
+"name": "NIDORINA",
+"regional_of": null
+},
+"31": {
+"no": 32,
+"position": 32,
+"johto": 99,
+"national": 31,
+"name": "NIDOQUEEN",
+"regional_of": null
+},
+"32": {
+"no": 33,
+"position": 33,
+"johto": 100,
+"national": 32,
+"name": "NIDORAN♂",
+"regional_of": null
+},
+"33": {
+"no": 34,
+"position": 34,
+"johto": 101,
+"national": 33,
+"name": "NIDORINO",
+"regional_of": null
+},
+"34": {
+"no": 35,
+"position": 35,
+"johto": 102,
+"national": 34,
+"name": "NIDOKING",
+"regional_of": null
+},
+"173": {
+"no": 36,
+"position": 36,
+"johto": 40,
+"national": 173,
+"name": "CLEFFA",
+"regional_of": null
+},
+"35": {
+"no": 37,
+"position": 37,
+"johto": 41,
+"national": 35,
+"name": "CLEFAIRY",
+"regional_of": null
+},
+"36": {
+"no": 38,
+"position": 38,
+"johto": 42,
+"national": 36,
+"name": "CLEFABLE",
+"regional_of": null
+},
+"37": {
+"no": 39,
+"position": 39,
+"johto": 133,
+"national": 37,
+"name": "VULPIX",
+"regional_of": null
+},
+"38": {
+"no": 40,
+"position": 40,
+"johto": 134,
+"national": 38,
+"name": "NINETALES",
+"regional_of": null
+},
+"174": {
+"no": 41,
+"position": 41,
+"johto": 43,
+"national": 174,
+"name": "IGGLYBUFF",
+"regional_of": null
+},
+"39": {
+"no": 42,
+"position": 42,
+"johto": 44,
+"national": 39,
+"name": "JIGGLYPUFF",
+"regional_of": null
+},
+"40": {
+"no": 43,
+"position": 43,
+"johto": 45,
+"national": 40,
+"name": "WIGGLYTUFF",
+"regional_of": null
+},
+"41": {
+"no": 44,
+"position": 44,
+"johto": 37,
+"national": 41,
+"name": "ZUBAT",
+"regional_of": null
+},
+"42": {
+"no": 45,
+"position": 45,
+"johto": 38,
+"national": 42,
+"name": "GOLBAT",
+"regional_of": null
+},
+"169": {
+"no": 46,
+"position": 46,
+"johto": 39,
+"national": 169,
+"name": "CROBAT",
+"regional_of": null
+},
+"43": {
+"no": 47,
+"position": 47,
+"johto": 85,
+"national": 43,
+"name": "ODDISH",
+"regional_of": null
+},
+"44": {
+"no": 48,
+"position": 48,
+"johto": 86,
+"national": 44,
+"name": "GLOOM",
+"regional_of": null
+},
+"45": {
+"no": 49,
+"position": 49,
+"johto": 87,
+"national": 45,
+"name": "VILEPLUME",
+"regional_of": null
+},
+"182": {
+"no": 50,
+"position": 50,
+"johto": 88,
+"national": 182,
+"name": "BELLOSSOM",
+"regional_of": null
+},
+"46": {
+"no": 51,
+"position": 51,
+"johto": 72,
+"national": 46,
+"name": "PARAS",
+"regional_of": null
+},
+"47": {
+"no": 52,
+"position": 52,
+"johto": 73,
+"national": 47,
+"name": "PARASECT",
+"regional_of": null
+},
+"48": {
+"no": 53,
+"position": 53,
+"johto": 113,
+"national": 48,
+"name": "VENONAT",
+"regional_of": null
+},
+"49": {
+"no": 54,
+"position": 54,
+"johto": 114,
+"national": 49,
+"name": "VENOMOTH",
+"regional_of": null
+},
+"50": {
+"no": 55,
+"position": 55,
+"johto": 142,
+"national": 50,
+"name": "DIGLETT",
+"regional_of": null
+},
+"51": {
+"no": 56,
+"position": 56,
+"johto": 143,
+"national": 51,
+"name": "DUGTRIO",
+"regional_of": null
+},
+"52": {
+"no": 57,
+"position": 57,
+"johto": 147,
+"national": 52,
+"name": "MEOWTH",
+"regional_of": null
+},
+"53": {
+"no": 58,
+"position": 58,
+"johto": 148,
+"national": 53,
+"name": "PERSIAN",
+"regional_of": null
+},
+"54": {
+"no": 59,
+"position": 59,
+"johto": 149,
+"national": 54,
+"name": "PSYDUCK",
+"regional_of": null
+},
+"55": {
+"no": 60,
+"position": 60,
+"johto": 150,
+"national": 55,
+"name": "GOLDUCK",
+"regional_of": null
+},
+"56": {
+"no": 61,
+"position": 61,
+"johto": 144,
+"national": 56,
+"name": "MANKEY",
+"regional_of": null
+},
+"57": {
+"no": 62,
+"position": 62,
+"johto": 145,
+"national": 57,
+"name": "PRIMEAPE",
+"regional_of": null
+},
+"979": {
+"no": 63,
+"position": 63,
+"johto": 146,
+"national": 979,
+"name": "ANNIHILAPE",
+"regional_of": null
+},
+"58": {
+"no": 64,
+"position": 64,
+"johto": 135,
+"national": 58,
+"name": "GROWLITHE",
+"regional_of": null
+},
+"59": {
+"no": 65,
+"position": 65,
+"johto": 136,
+"national": 59,
+"name": "ARCANINE",
+"regional_of": null
+},
+"60": {
+"no": 66,
+"position": 66,
+"johto": 74,
+"national": 60,
+"name": "POLIWAG",
+"regional_of": null
+},
+"61": {
+"no": 67,
+"position": 67,
+"johto": 75,
+"national": 61,
+"name": "POLIWHIRL",
+"regional_of": null
+},
+"62": {
+"no": 68,
+"position": 68,
+"johto": 76,
+"national": 62,
+"name": "POLIWRATH",
+"regional_of": null
+},
+"186": {
+"no": 69,
+"position": 69,
+"johto": 77,
+"national": 186,
+"name": "POLITOED",
+"regional_of": null
+},
+"63": {
+"no": 70,
+"position": 70,
+"johto": 91,
+"national": 63,
+"name": "ABRA",
+"regional_of": null
+},
+"64": {
+"no": 71,
+"position": 71,
+"johto": 92,
+"national": 64,
+"name": "KADABRA",
+"regional_of": null
+},
+"65": {
+"no": 72,
+"position": 72,
+"johto": 93,
+"national": 65,
+"name": "ALAKAZAM",
+"regional_of": null
+},
+"66": {
+"no": 73,
+"position": 73,
+"johto": 151,
+"national": 66,
+"name": "MACHOP",
+"regional_of": null
+},
+"67": {
+"no": 74,
+"position": 74,
+"johto": 152,
+"national": 67,
+"name": "MACHOKE",
+"regional_of": null
+},
+"68": {
+"no": 75,
+"position": 75,
+"johto": 153,
+"national": 68,
+"name": "MACHAMP",
+"regional_of": null
+},
+"69": {
+"no": 76,
+"position": 76,
+"johto": 66,
+"national": 69,
+"name": "BELLSPROUT",
+"regional_of": null
+},
+"70": {
+"no": 77,
+"position": 77,
+"johto": 67,
+"national": 70,
+"name": "WEEPINBELL",
+"regional_of": null
+},
+"71": {
+"no": 78,
+"position": 78,
+"johto": 68,
+"national": 71,
+"name": "VICTREEBEL",
+"regional_of": null
+},
+"72": {
+"no": 79,
+"position": 79,
+"johto": 177,
+"national": 72,
+"name": "TENTACOOL",
+"regional_of": null
+},
+"73": {
+"no": 80,
+"position": 80,
+"johto": 178,
+"national": 73,
+"name": "TENTACRUEL",
+"regional_of": null
+},
+"74": {
+"no": 81,
+"position": 81,
+"johto": 34,
+"national": 74,
+"name": "GEODUDE",
+"regional_of": null
+},
+"75": {
+"no": 82,
+"position": 82,
+"johto": 35,
+"national": 75,
+"name": "GRAVELER",
+"regional_of": null
+},
+"76": {
+"no": 83,
+"position": 83,
+"johto": 36,
+"national": 76,
+"name": "GOLEM",
+"regional_of": null
+},
+"77": {
+"no": 84,
+"position": 84,
+"johto": 225,
+"national": 77,
+"name": "PONYTA",
+"regional_of": null
+},
+"78": {
+"no": 85,
+"position": 85,
+"johto": 226,
+"national": 78,
+"name": "RAPIDASH",
+"regional_of": null
+},
+"79": {
+"no": 86,
+"position": 86,
+"johto": 82,
+"national": 79,
+"name": "SLOWPOKE",
+"regional_of": null
+},
+"80": {
+"no": 87,
+"position": 87,
+"johto": 83,
+"national": 80,
+"name": "SLOWBRO",
+"regional_of": null
+},
+"199": {
+"no": 88,
+"position": 88,
+"johto": 84,
+"national": 199,
+"name": "SLOWKING",
+"regional_of": null
+},
+"81": {
+"no": 89,
+"position": 89,
+"johto": 124,
+"national": 81,
+"name": "MAGNEMITE",
+"regional_of": null
+},
+"82": {
+"no": 90,
+"position": 90,
+"johto": 125,
+"national": 82,
+"name": "MAGNETON",
+"regional_of": null
+},
+"462": {
+"no": 91,
+"position": 91,
+"johto": 126,
+"national": 462,
+"name": "MAGNEZONE",
+"regional_of": null
+},
+"83": {
+"no": 92,
+"position": 92,
+"johto": 173,
+"national": 83,
+"name": "FARFETCH'D",
+"regional_of": null
+},
+"84": {
+"no": 93,
+"position": 93,
+"johto": 223,
+"national": 84,
+"name": "DODUO",
+"regional_of": null
+},
+"85": {
+"no": 94,
+"position": 94,
+"johto": 224,
+"national": 85,
+"name": "DODRIO",
+"regional_of": null
+},
+"86": {
+"no": 95,
+"position": 95,
+"johto": 191,
+"national": 86,
+"name": "SEEL",
+"regional_of": null
+},
+"87": {
+"no": 96,
+"position": 96,
+"johto": 192,
+"national": 87,
+"name": "DEWGONG",
+"regional_of": null
+},
+"88": {
+"no": 97,
+"position": 97,
+"johto": 122,
+"national": 88,
+"name": "GRIMER",
+"regional_of": null
+},
+"89": {
+"no": 98,
+"position": 98,
+"johto": 123,
+"national": 89,
+"name": "MUK",
+"regional_of": null
+},
+"90": {
+"no": 99,
+"position": 99,
+"johto": 184,
+"national": 90,
+"name": "SHELLDER",
+"regional_of": null
+},
+"91": {
+"no": 100,
+"position": 100,
+"johto": 185,
+"national": 91,
+"name": "CLOYSTER",
+"regional_of": null
+},
+"92": {
+"no": 101,
+"position": 101,
+"johto": 60,
+"national": 92,
+"name": "GASTLY",
+"regional_of": null
+},
+"93": {
+"no": 102,
+"position": 102,
+"johto": 61,
+"national": 93,
+"name": "HAUNTER",
+"regional_of": null
+},
+"94": {
+"no": 103,
+"position": 103,
+"johto": 62,
+"national": 94,
+"name": "GENGAR",
+"regional_of": null
+},
+"95": {
+"no": 104,
+"position": 104,
+"johto": 64,
+"national": 95,
+"name": "ONIX",
+"regional_of": null
+},
+"208": {
+"no": 105,
+"position": 105,
+"johto": 65,
+"national": 208,
+"name": "STEELIX",
+"regional_of": null
+},
+"96": {
+"no": 106,
+"position": 106,
+"johto": 89,
+"national": 96,
+"name": "DROWZEE",
+"regional_of": null
+},
+"97": {
+"no": 107,
+"position": 107,
+"johto": 90,
+"national": 97,
+"name": "HYPNO",
+"regional_of": null
+},
+"98": {
+"no": 108,
+"position": 108,
+"johto": 179,
+"national": 98,
+"name": "KRABBY",
+"regional_of": null
+},
+"99": {
+"no": 109,
+"position": 109,
+"johto": 180,
+"national": 99,
+"name": "KINGLER",
+"regional_of": null
+},
+"100": {
+"no": 110,
+"position": 110,
+"johto": 127,
+"national": 100,
+"name": "VOLTORB",
+"regional_of": null
+},
+"101": {
+"no": 111,
+"position": 111,
+"johto": 128,
+"national": 101,
+"name": "ELECTRODE",
+"regional_of": null
+},
+"102": {
+"no": 112,
+"position": 112,
+"johto": 107,
+"national": 102,
+"name": "EXEGGCUTE",
+"regional_of": null
+},
+"103": {
+"no": 113,
+"position": 113,
+"johto": 108,
+"national": 103,
+"name": "EXEGGUTOR",
+"regional_of": null
+},
+"104": {
+"no": 114,
+"position": 114,
+"johto": 227,
+"national": 104,
+"name": "CUBONE",
+"regional_of": null
+},
+"105": {
+"no": 115,
+"position": 115,
+"johto": 228,
+"national": 105,
+"name": "MAROWAK",
+"regional_of": null
+},
+"236": {
+"no": 116,
+"position": 116,
+"johto": 154,
+"national": 236,
+"name": "TYROGUE",
+"regional_of": null
+},
+"106": {
+"no": 117,
+"position": 117,
+"johto": 155,
+"national": 106,
+"name": "HITMONLEE",
+"regional_of": null
+},
+"107": {
+"no": 118,
+"position": 118,
+"johto": 156,
+"national": 107,
+"name": "HITMONCHAN",
+"regional_of": null
+},
+"237": {
+"no": 119,
+"position": 119,
+"johto": 157,
+"national": 237,
+"name": "HITMONTOP",
+"regional_of": null
+},
+"108": {
+"no": 120,
+"position": 120,
+"johto": 193,
+"national": 108,
+"name": "LICKITUNG",
+"regional_of": null
+},
+"463": {
+"no": 121,
+"position": 121,
+"johto": 194,
+"national": 463,
+"name": "LICKILICKY",
+"regional_of": null
+},
+"109": {
+"no": 122,
+"position": 122,
+"johto": 120,
+"national": 109,
+"name": "KOFFING",
+"regional_of": null
+},
+"110": {
+"no": 123,
+"position": 123,
+"johto": 121,
+"national": 110,
+"name": "WEEZING",
+"regional_of": null
+},
+"111": {
+"no": 124,
+"position": 124,
+"johto": 230,
+"national": 111,
+"name": "RHYHORN",
+"regional_of": null
+},
+"112": {
+"no": 125,
+"position": 125,
+"johto": 231,
+"national": 112,
+"name": "RHYDON",
+"regional_of": null
+},
+"464": {
+"no": 126,
+"position": 126,
+"johto": 232,
+"national": 464,
+"name": "RHYPERIOR",
+"regional_of": null
+},
+"440": {
+"no": 127,
+"position": 127,
+"johto": 246,
+"national": 440,
+"name": "HAPPINY",
+"regional_of": null
+},
+"113": {
+"no": 128,
+"position": 128,
+"johto": 247,
+"national": 113,
+"name": "CHANSEY",
+"regional_of": null
+},
+"242": {
+"no": 129,
+"position": 129,
+"johto": 248,
+"national": 242,
+"name": "BLISSEY",
+"regional_of": null
+},
+"114": {
+"no": 130,
+"position": 130,
+"johto": 195,
+"national": 114,
+"name": "TANGELA",
+"regional_of": null
+},
+"465": {
+"no": 131,
+"position": 131,
+"johto": 196,
+"national": 465,
+"name": "TANGROWTH",
+"regional_of": null
+},
+"115": {
+"no": 132,
+"position": 132,
+"johto": 229,
+"national": 115,
+"name": "KANGASKHAN",
+"regional_of": null
+},
+"116": {
+"no": 133,
+"position": 133,
+"johto": 206,
+"national": 116,
+"name": "HORSEA",
+"regional_of": null
+},
+"117": {
+"no": 134,
+"position": 134,
+"johto": 207,
+"national": 117,
+"name": "SEADRA",
+"regional_of": null
+},
+"230": {
+"no": 135,
+"position": 135,
+"johto": 208,
+"national": 230,
+"name": "KINGDRA",
+"regional_of": null
+},
+"118": {
+"no": 136,
+"position": 136,
+"johto": 80,
+"national": 118,
+"name": "GOLDEEN",
+"regional_of": null
+},
+"119": {
+"no": 137,
+"position": 137,
+"johto": 81,
+"national": 119,
+"name": "SEAKING",
+"regional_of": null
+},
+"120": {
+"no": 138,
+"position": 138,
+"johto": 182,
+"national": 120,
+"name": "STARYU",
+"regional_of": null
+},
+"121": {
+"no": 139,
+"position": 139,
+"johto": 183,
+"national": 121,
+"name": "STARMIE",
+"regional_of": null
+},
+"439": {
+"no": 140,
+"position": 140,
+"johto": 170,
+"national": 439,
+"name": "MIME JR.",
+"regional_of": null
+},
+"122": {
+"no": 141,
+"position": 141,
+"johto": 171,
+"national": 122,
+"name": "MR. MIME",
+"regional_of": null
+},
+"123": {
+"no": 142,
+"position": 142,
+"johto": 115,
+"national": 123,
+"name": "SCYTHER",
+"regional_of": null
+},
+"212": {
+"no": 143,
+"position": 143,
+"johto": 116,
+"national": 212,
+"name": "SCIZOR",
+"regional_of": null
+},
+"900": {
+"no": 144,
+"position": 144,
+"johto": 117,
+"national": 900,
+"name": "KLEAVOR",
+"regional_of": null
+},
+"238": {
+"no": 145,
+"position": 145,
+"johto": 165,
+"national": 238,
+"name": "SMOOCHUM",
+"regional_of": null
+},
+"124": {
+"no": 146,
+"position": 146,
+"johto": 166,
+"national": 124,
+"name": "JYNX",
+"regional_of": null
+},
+"239": {
+"no": 147,
+"position": 147,
+"johto": 167,
+"national": 239,
+"name": "ELEKID",
+"regional_of": null
+},
+"125": {
+"no": 148,
+"position": 148,
+"johto": 168,
+"national": 125,
+"name": "ELECTABUZZ",
+"regional_of": null
+},
+"466": {
+"no": 149,
+"position": 149,
+"johto": 169,
+"national": 466,
+"name": "ELECTIVIRE",
+"regional_of": null
+},
+"240": {
+"no": 150,
+"position": 150,
+"johto": 162,
+"national": 240,
+"name": "MAGBY",
+"regional_of": null
+},
+"126": {
+"no": 151,
+"position": 151,
+"johto": 163,
+"national": 126,
+"name": "MAGMAR",
+"regional_of": null
+},
+"467": {
+"no": 152,
+"position": 152,
+"johto": 164,
+"national": 467,
+"name": "MAGMORTAR",
+"regional_of": null
+},
+"127": {
+"no": 153,
+"position": 153,
+"johto": 118,
+"national": 127,
+"name": "PINSIR",
+"regional_of": null
+},
+"128": {
+"no": 154,
+"position": 154,
+"johto": 160,
+"national": 128,
+"name": "TAUROS",
+"regional_of": null
+},
+"129": {
+"no": 155,
+"position": 155,
+"johto": 78,
+"national": 129,
+"name": "MAGIKARP",
+"regional_of": null
+},
+"130": {
+"no": 156,
+"position": 156,
+"johto": 79,
+"national": 130,
+"name": "GYARADOS",
+"regional_of": null
+},
+"131": {
+"no": 157,
+"position": 157,
+"johto": 249,
+"national": 131,
+"name": "LAPRAS",
+"regional_of": null
+},
+"132": {
+"no": 158,
+"position": 158,
+"johto": 94,
+"national": 132,
+"name": "DITTO",
+"regional_of": null
+},
+"133": {
+"no": 159,
+"position": 159,
+"johto": 197,
+"national": 133,
+"name": "EEVEE",
+"regional_of": null
+},
+"134": {
+"no": 160,
+"position": 160,
+"johto": 198,
+"national": 134,
+"name": "VAPOREON",
+"regional_of": null
+},
+"135": {
+"no": 161,
+"position": 161,
+"johto": 199,
+"national": 135,
+"name": "JOLTEON",
+"regional_of": null
+},
+"136": {
+"no": 162,
+"position": 162,
+"johto": 200,
+"national": 136,
+"name": "FLAREON",
+"regional_of": null
+},
+"196": {
+"no": 163,
+"position": 163,
+"johto": 201,
+"national": 196,
+"name": "ESPEON",
+"regional_of": null
+},
+"197": {
+"no": 164,
+"position": 164,
+"johto": 202,
+"national": 197,
+"name": "UMBREON",
+"regional_of": null
+},
+"470": {
+"no": 165,
+"position": 165,
+"johto": 203,
+"national": 470,
+"name": "LEAFEON",
+"regional_of": null
+},
+"471": {
+"no": 166,
+"position": 166,
+"johto": 204,
+"national": 471,
+"name": "GLACEON",
+"regional_of": null
+},
+"700": {
+"no": 167,
+"position": 167,
+"johto": 205,
+"national": 700,
+"name": "SYLVEON",
+"regional_of": null
+},
+"137": {
+"no": 168,
+"position": 168,
+"johto": 243,
+"national": 137,
+"name": "PORYGON",
+"regional_of": null
+},
+"233": {
+"no": 169,
+"position": 169,
+"johto": 244,
+"national": 233,
+"name": "PORYGON2",
+"regional_of": null
+},
+"474": {
+"no": 170,
+"position": 170,
+"johto": 245,
+"national": 474,
+"name": "PORYGON-Z",
+"regional_of": null
+},
+"138": {
+"no": 171,
+"position": 171,
+"johto": 250,
+"national": 138,
+"name": "OMANYTE",
+"regional_of": null
+},
+"139": {
+"no": 172,
+"position": 172,
+"johto": 251,
+"national": 139,
+"name": "OMASTAR",
+"regional_of": null
+},
+"140": {
+"no": 173,
+"position": 173,
+"johto": 252,
+"national": 140,
+"name": "KABUTO",
+"regional_of": null
+},
+"141": {
+"no": 174,
+"position": 174,
+"johto": 253,
+"national": 141,
+"name": "KABUTOPS",
+"regional_of": null
+},
+"142": {
+"no": 175,
+"position": 175,
+"johto": 254,
+"national": 142,
+"name": "AERODACTYL",
+"regional_of": null
+},
+"446": {
+"no": 176,
+"position": 176,
+"johto": 255,
+"national": 446,
+"name": "MUNCHLAX",
+"regional_of": null
+},
+"143": {
+"no": 177,
+"position": 177,
+"johto": 256,
+"national": 143,
+"name": "SNORLAX",
+"regional_of": null
+},
+"144": {
+"no": 178,
+"position": 178,
+"johto": 266,
+"national": 144,
+"name": "ARTICUNO",
+"regional_of": null
+},
+"145": {
+"no": 179,
+"position": 179,
+"johto": 267,
+"national": 145,
+"name": "ZAPDOS",
+"regional_of": null
+},
+"146": {
+"no": 180,
+"position": 180,
+"johto": 268,
+"national": 146,
+"name": "MOLTRES",
+"regional_of": null
+},
+"147": {
+"no": 181,
+"position": 181,
+"johto": 272,
+"national": 147,
+"name": "DRATINI",
+"regional_of": null
+},
+"148": {
+"no": 182,
+"position": 182,
+"johto": 273,
+"national": 148,
+"name": "DRAGONAIR",
+"regional_of": null
+},
+"149": {
+"no": 183,
+"position": 183,
+"johto": 274,
+"national": 149,
+"name": "DRAGONITE",
+"regional_of": null
+},
+"150": {
+"no": 184,
+"position": 184,
+"johto": 280,
+"national": 150,
+"name": "MEWTWO",
+"regional_of": null
+},
+"151": {
+"no": 185,
+"position": 185,
+"johto": 281,
+"national": 151,
+"name": "MEW",
+"regional_of": null
+},
+"152": {
+"no": 186,
+"position": 186,
+"johto": 1,
+"national": 152,
+"name": "CHIKORITA",
+"regional_of": null
+},
+"153": {
+"no": 187,
+"position": 187,
+"johto": 2,
+"national": 153,
+"name": "BAYLEEF",
+"regional_of": null
+},
+"154": {
+"no": 188,
+"position": 188,
+"johto": 3,
+"national": 154,
+"name": "MEGANIUM",
+"regional_of": null
+},
+"155": {
+"no": 189,
+"position": 189,
+"johto": 4,
+"national": 155,
+"name": "CYNDAQUIL",
+"regional_of": null
+},
+"156": {
+"no": 190,
+"position": 190,
+"johto": 5,
+"national": 156,
+"name": "QUILAVA",
+"regional_of": null
+},
+"157": {
+"no": 191,
+"position": 191,
+"johto": 6,
+"national": 157,
+"name": "TYPHLOSION",
+"regional_of": null
+},
+"158": {
+"no": 192,
+"position": 192,
+"johto": 7,
+"national": 158,
+"name": "TOTODILE",
+"regional_of": null
+},
+"159": {
+"no": 193,
+"position": 193,
+"johto": 8,
+"national": 159,
+"name": "CROCONAW",
+"regional_of": null
+},
+"160": {
+"no": 194,
+"position": 194,
+"johto": 9,
+"national": 160,
+"name": "FERALIGATR",
+"regional_of": null
+},
+"161": {
+"no": 195,
+"position": 195,
+"johto": 19,
+"national": 161,
+"name": "SENTRET",
+"regional_of": null
+},
+"162": {
+"no": 196,
+"position": 196,
+"johto": 20,
+"national": 162,
+"name": "FURRET",
+"regional_of": null
+},
+"163": {
+"no": 197,
+"position": 197,
+"johto": 15,
+"national": 163,
+"name": "HOOTHOOT",
+"regional_of": null
+},
+"164": {
+"no": 198,
+"position": 198,
+"johto": 16,
+"national": 164,
+"name": "NOCTOWL",
+"regional_of": null
+},
+"165": {
+"no": 199,
+"position": 199,
+"johto": 30,
+"national": 165,
+"name": "LEDYBA",
+"regional_of": null
+},
+"166": {
+"no": 200,
+"position": 200,
+"johto": 31,
+"national": 166,
+"name": "LEDIAN",
+"regional_of": null
+},
+"167": {
+"no": 201,
+"position": 201,
+"johto": 32,
+"national": 167,
+"name": "SPINARAK",
+"regional_of": null
+},
+"168": {
+"no": 202,
+"position": 202,
+"johto": 33,
+"national": 168,
+"name": "ARIADOS",
+"regional_of": null
+},
+"170": {
+"no": 203,
+"position": 203,
+"johto": 189,
+"national": 170,
+"name": "CHINCHOU",
+"regional_of": null
+},
+"171": {
+"no": 204,
+"position": 204,
+"johto": 190,
+"national": 171,
+"name": "LANTURN",
+"regional_of": null
+},
+"175": {
+"no": 205,
+"position": 205,
+"johto": 46,
+"national": 175,
+"name": "TOGEPI",
+"regional_of": null
+},
+"176": {
+"no": 206,
+"position": 206,
+"johto": 47,
+"national": 176,
+"name": "TOGETIC",
+"regional_of": null
+},
+"468": {
+"no": 207,
+"position": 207,
+"johto": 48,
+"national": 468,
+"name": "TOGEKISS",
+"regional_of": null
+},
+"177": {
+"no": 208,
+"position": 208,
+"johto": 174,
+"national": 177,
+"name": "NATU",
+"regional_of": null
+},
+"178": {
+"no": 209,
+"position": 209,
+"johto": 175,
+"national": 178,
+"name": "XATU",
+"regional_of": null
+},
+"179": {
+"no": 210,
+"position": 210,
+"johto": 55,
+"national": 179,
+"name": "MAREEP",
+"regional_of": null
+},
+"180": {
+"no": 211,
+"position": 211,
+"johto": 56,
+"national": 180,
+"name": "FLAAFFY",
+"regional_of": null
+},
+"181": {
+"no": 212,
+"position": 212,
+"johto": 57,
+"national": 181,
+"name": "AMPHAROS",
+"regional_of": null
+},
+"298": {
+"no": 213,
+"position": 213,
+"johto": 139,
+"national": 298,
+"name": "AZURILL",
+"regional_of": null
+},
+"183": {
+"no": 214,
+"position": 214,
+"johto": 140,
+"national": 183,
+"name": "MARILL",
+"regional_of": null
+},
+"184": {
+"no": 215,
+"position": 215,
+"johto": 141,
+"national": 184,
+"name": "AZUMARILL",
+"regional_of": null
+},
+"438": {
+"no": 216,
+"position": 216,
+"johto": 109,
+"national": 438,
+"name": "BONSLY",
+"regional_of": null
+},
+"185": {
+"no": 217,
+"position": 217,
+"johto": 110,
+"national": 185,
+"name": "SUDOWOODO",
+"regional_of": null
+},
+"187": {
+"no": 218,
+"position": 218,
+"johto": 69,
+"national": 187,
+"name": "HOPPIP",
+"regional_of": null
+},
+"188": {
+"no": 219,
+"position": 219,
+"johto": 70,
+"national": 188,
+"name": "SKIPLOOM",
+"regional_of": null
+},
+"189": {
+"no": 220,
+"position": 220,
+"johto": 71,
+"national": 189,
+"name": "JUMPLUFF",
+"regional_of": null
+},
+"190": {
+"no": 221,
+"position": 221,
+"johto": 129,
+"national": 190,
+"name": "AIPOM",
+"regional_of": null
+},
+"424": {
+"no": 222,
+"position": 222,
+"johto": 130,
+"national": 424,
+"name": "AMBIPOM",
+"regional_of": null
+},
+"191": {
+"no": 223,
+"position": 223,
+"johto": 105,
+"national": 191,
+"name": "SUNKERN",
+"regional_of": null
+},
+"192": {
+"no": 224,
+"position": 224,
+"johto": 106,
+"national": 192,
+"name": "SUNFLORA",
+"regional_of": null
+},
+"193": {
+"no": 225,
+"position": 225,
+"johto": 103,
+"national": 193,
+"name": "YANMA",
+"regional_of": null
+},
+"469": {
+"no": 226,
+"position": 226,
+"johto": 104,
+"national": 469,
+"name": "YANMEGA",
+"regional_of": null
+},
+"194": {
+"no": 227,
+"position": 227,
+"johto": 58,
+"national": 194,
+"name": "WOOPER",
+"regional_of": null
+},
+"195": {
+"no": 228,
+"position": 228,
+"johto": 59,
+"national": 195,
+"name": "QUAGSIRE",
+"regional_of": null
+},
+"198": {
+"no": 229,
+"position": 229,
+"johto": 233,
+"national": 198,
+"name": "MURKROW",
+"regional_of": null
+},
+"430": {
+"no": 230,
+"position": 230,
+"johto": 234,
+"national": 430,
+"name": "HONCHKROW",
+"regional_of": null
+},
+"200": {
+"no": 231,
+"position": 231,
+"johto": 241,
+"national": 200,
+"name": "MISDREAVUS",
+"regional_of": null
+},
+"429": {
+"no": 232,
+"position": 232,
+"johto": 242,
+"national": 429,
+"name": "MISMAGIUS",
+"regional_of": null
+},
+"201": {
+"no": 233,
+"position": 233,
+"johto": 63,
+"national": 201,
+"name": "UNOWN",
+"regional_of": null
+},
+"360": {
+"no": 234,
+"position": 234,
+"johto": 111,
+"national": 360,
+"name": "WYNAUT",
+"regional_of": null
+},
+"202": {
+"no": 235,
+"position": 235,
+"johto": 112,
+"national": 202,
+"name": "WOBBUFFET",
+"regional_of": null
+},
+"203": {
+"no": 236,
+"position": 236,
+"johto": 158,
+"national": 203,
+"name": "GIRAFARIG",
+"regional_of": null
+},
+"981": {
+"no": 237,
+"position": 237,
+"johto": 159,
+"national": 981,
+"name": "FARIGIRAF",
+"regional_of": null
+},
+"204": {
+"no": 238,
+"position": 238,
+"johto": 95,
+"national": 204,
+"name": "PINECO",
+"regional_of": null
+},
+"205": {
+"no": 239,
+"position": 239,
+"johto": 96,
+"national": 205,
+"name": "FORRETRESS",
+"regional_of": null
+},
+"206": {
+"no": 240,
+"position": 240,
+"johto": 53,
+"national": 206,
+"name": "DUNSPARCE",
+"regional_of": null
+},
+"982": {
+"no": 241,
+"position": 241,
+"johto": 54,
+"national": 982,
+"name": "DUDUNSPARCE",
+"regional_of": null
+},
+"207": {
+"no": 242,
+"position": 242,
+"johto": 209,
+"national": 207,
+"name": "GLIGAR",
+"regional_of": null
+},
+"472": {
+"no": 243,
+"position": 243,
+"johto": 210,
+"national": 472,
+"name": "GLISCOR",
+"regional_of": null
+},
+"209": {
+"no": 244,
+"position": 244,
+"johto": 131,
+"national": 209,
+"name": "SNUBBULL",
+"regional_of": null
+},
+"210": {
+"no": 245,
+"position": 245,
+"johto": 132,
+"national": 210,
+"name": "GRANBULL",
+"regional_of": null
+},
+"211": {
+"no": 246,
+"position": 246,
+"johto": 176,
+"national": 211,
+"name": "QWILFISH",
+"regional_of": null
+},
+"213": {
+"no": 247,
+"position": 247,
+"johto": 181,
+"national": 213,
+"name": "SHUCKLE",
+"regional_of": null
+},
+"214": {
+"no": 248,
+"position": 248,
+"johto": 119,
+"national": 214,
+"name": "HERACROSS",
+"regional_of": null
+},
+"215": {
+"no": 249,
+"position": 249,
+"johto": 239,
+"national": 215,
+"name": "SNEASEL",
+"regional_of": null
+},
+"461": {
+"no": 250,
+"position": 250,
+"johto": 240,
+"national": 461,
+"name": "WEAVILE",
+"regional_of": null
+},
+"216": {
+"no": 251,
+"position": 251,
+"johto": 215,
+"national": 216,
+"name": "TEDDIURSA",
+"regional_of": null
+},
+"217": {
+"no": 252,
+"position": 252,
+"johto": 216,
+"national": 217,
+"name": "URSARING",
+"regional_of": null
+},
+"901": {
+"no": 253,
+"position": 253,
+"johto": 217,
+"national": 901,
+"name": "URSALUNA",
+"regional_of": null
+},
+"218": {
+"no": 254,
+"position": 254,
+"johto": 237,
+"national": 218,
+"name": "SLUGMA",
+"regional_of": null
+},
+"219": {
+"no": 255,
+"position": 255,
+"johto": 238,
+"national": 219,
+"name": "MAGCARGO",
+"regional_of": null
+},
+"220": {
+"no": 256,
+"position": 256,
+"johto": 212,
+"national": 220,
+"name": "SWINUB",
+"regional_of": null
+},
+"221": {
+"no": 257,
+"position": 257,
+"johto": 213,
+"national": 221,
+"name": "PILOSWINE",
+"regional_of": null
+},
+"473": {
+"no": 258,
+"position": 258,
+"johto": 214,
+"national": 473,
+"name": "MAMOSWINE",
+"regional_of": null
+},
+"222": {
+"no": 259,
+"position": 259,
+"johto": 186,
+"national": 222,
+"name": "CORSOLA",
+"regional_of": null
+},
+"223": {
+"no": 260,
+"position": 260,
+"johto": 187,
+"national": 223,
+"name": "REMORAID",
+"regional_of": null
+},
+"224": {
+"no": 261,
+"position": 261,
+"johto": 188,
+"national": 224,
+"name": "OCTILLERY",
+"regional_of": null
+},
+"225": {
+"no": 262,
+"position": 262,
+"johto": 211,
+"national": 225,
+"name": "DELIBIRD",
+"regional_of": null
+},
+"458": {
+"no": 263,
+"position": 263,
+"johto": 220,
+"national": 458,
+"name": "MANTYKE",
+"regional_of": null
+},
+"226": {
+"no": 264,
+"position": 264,
+"johto": 221,
+"national": 226,
+"name": "MANTINE",
+"regional_of": null
+},
+"227": {
+"no": 265,
+"position": 265,
+"johto": 222,
+"national": 227,
+"name": "SKARMORY",
+"regional_of": null
+},
+"228": {
+"no": 266,
+"position": 266,
+"johto": 235,
+"national": 228,
+"name": "HOUNDOUR",
+"regional_of": null
+},
+"229": {
+"no": 267,
+"position": 267,
+"johto": 236,
+"national": 229,
+"name": "HOUNDOOM",
+"regional_of": null
+},
+"231": {
+"no": 268,
+"position": 268,
+"johto": 218,
+"national": 231,
+"name": "PHANPY",
+"regional_of": null
+},
+"232": {
+"no": 269,
+"position": 269,
+"johto": 219,
+"national": 232,
+"name": "DONPHAN",
+"regional_of": null
+},
+"234": {
+"no": 270,
+"position": 270,
+"johto": 137,
+"national": 234,
+"name": "STANTLER",
+"regional_of": null
+},
+"899": {
+"no": 271,
+"position": 271,
+"johto": 138,
+"national": 899,
+"name": "WYRDEER",
+"regional_of": null
+},
+"235": {
+"no": 272,
+"position": 272,
+"johto": 172,
+"national": 235,
+"name": "SMEARGLE",
+"regional_of": null
+},
+"241": {
+"no": 273,
+"position": 273,
+"johto": 161,
+"national": 241,
+"name": "MILTANK",
+"regional_of": null
+},
+"243": {
+"no": 274,
+"position": 274,
+"johto": 269,
+"national": 243,
+"name": "RAIKOU",
+"regional_of": null
+},
+"244": {
+"no": 275,
+"position": 275,
+"johto": 270,
+"national": 244,
+"name": "ENTEI",
+"regional_of": null
+},
+"245": {
+"no": 276,
+"position": 276,
+"johto": 271,
+"national": 245,
+"name": "SUICUNE",
+"regional_of": null
+},
+"246": {
+"no": 277,
+"position": 277,
+"johto": 275,
+"national": 246,
+"name": "LARVITAR",
+"regional_of": null
+},
+"247": {
+"no": 278,
+"position": 278,
+"johto": 276,
+"national": 247,
+"name": "PUPITAR",
+"regional_of": null
+},
+"248": {
+"no": 279,
+"position": 279,
+"johto": 277,
+"national": 248,
+"name": "TYRANITAR",
+"regional_of": null
+},
+"249": {
+"no": 280,
+"position": 280,
+"johto": 278,
+"national": 249,
+"name": "LUGIA",
+"regional_of": null
+},
+"250": {
+"no": 281,
+"position": 281,
+"johto": 279,
+"national": 250,
+"name": "HO-OH",
+"regional_of": null
+},
+"251": {
+"no": 282,
+"position": 282,
+"johto": 282,
+"national": 251,
+"name": "CELEBI",
+"regional_of": null
+},
+"252": {
+"no": 283,
+"position": 283,
+"johto": null,
+"national": 252,
+"name": "TREECKO",
+"regional_of": null
+},
+"253": {
+"no": 284,
+"position": 284,
+"johto": null,
+"national": 253,
+"name": "GROVYLE",
+"regional_of": null
+},
+"254": {
+"no": 285,
+"position": 285,
+"johto": null,
+"national": 254,
+"name": "SCEPTILE",
+"regional_of": null
+},
+"255": {
+"no": 286,
+"position": 286,
+"johto": null,
+"national": 255,
+"name": "TORCHIC",
+"regional_of": null
+},
+"256": {
+"no": 287,
+"position": 287,
+"johto": null,
+"national": 256,
+"name": "COMBUSKEN",
+"regional_of": null
+},
+"257": {
+"no": 288,
+"position": 288,
+"johto": null,
+"national": 257,
+"name": "BLAZIKEN",
+"regional_of": null
+},
+"258": {
+"no": 289,
+"position": 289,
+"johto": null,
+"national": 258,
+"name": "MUDKIP",
+"regional_of": null
+},
+"259": {
+"no": 290,
+"position": 290,
+"johto": null,
+"national": 259,
+"name": "MARSHTOMP",
+"regional_of": null
+},
+"260": {
+"no": 291,
+"position": 291,
+"johto": null,
+"national": 260,
+"name": "SWAMPERT",
+"regional_of": null
+},
+"261": {
+"no": 292,
+"position": 292,
+"johto": null,
+"national": 261,
+"name": "POOCHYENA",
+"regional_of": null
+},
+"262": {
+"no": 293,
+"position": 293,
+"johto": null,
+"national": 262,
+"name": "MIGHTYENA",
+"regional_of": null
+},
+"263": {
+"no": 294,
+"position": 294,
+"johto": null,
+"national": 263,
+"name": "ZIGZAGOON",
+"regional_of": null
+},
+"264": {
+"no": 295,
+"position": 295,
+"johto": null,
+"national": 264,
+"name": "LINOONE",
+"regional_of": null
+},
+"265": {
+"no": 296,
+"position": 296,
+"johto": null,
+"national": 265,
+"name": "WURMPLE",
+"regional_of": null
+},
+"266": {
+"no": 297,
+"position": 297,
+"johto": null,
+"national": 266,
+"name": "SILCOON",
+"regional_of": null
+},
+"267": {
+"no": 298,
+"position": 298,
+"johto": null,
+"national": 267,
+"name": "BEAUTIFLY",
+"regional_of": null
+},
+"268": {
+"no": 299,
+"position": 299,
+"johto": null,
+"national": 268,
+"name": "CASCOON",
+"regional_of": null
+},
+"269": {
+"no": 300,
+"position": 300,
+"johto": null,
+"national": 269,
+"name": "DUSTOX",
+"regional_of": null
+},
+"270": {
+"no": 301,
+"position": 301,
+"johto": null,
+"national": 270,
+"name": "LOTAD",
+"regional_of": null
+},
+"271": {
+"no": 302,
+"position": 302,
+"johto": null,
+"national": 271,
+"name": "LOMBRE",
+"regional_of": null
+},
+"272": {
+"no": 303,
+"position": 303,
+"johto": null,
+"national": 272,
+"name": "LUDICOLO",
+"regional_of": null
+},
+"273": {
+"no": 304,
+"position": 304,
+"johto": null,
+"national": 273,
+"name": "SEEDOT",
+"regional_of": null
+},
+"274": {
+"no": 305,
+"position": 305,
+"johto": null,
+"national": 274,
+"name": "NUZLEAF",
+"regional_of": null
+},
+"275": {
+"no": 306,
+"position": 306,
+"johto": null,
+"national": 275,
+"name": "SHIFTRY",
+"regional_of": null
+},
+"276": {
+"no": 307,
+"position": 307,
+"johto": null,
+"national": 276,
+"name": "TAILLOW",
+"regional_of": null
+},
+"277": {
+"no": 308,
+"position": 308,
+"johto": null,
+"national": 277,
+"name": "SWELLOW",
+"regional_of": null
+},
+"278": {
+"no": 309,
+"position": 309,
+"johto": null,
+"national": 278,
+"name": "WINGULL",
+"regional_of": null
+},
+"279": {
+"no": 310,
+"position": 310,
+"johto": null,
+"national": 279,
+"name": "PELIPPER",
+"regional_of": null
+},
+"280": {
+"no": 311,
+"position": 311,
+"johto": null,
+"national": 280,
+"name": "RALTS",
+"regional_of": null
+},
+"281": {
+"no": 312,
+"position": 312,
+"johto": null,
+"national": 281,
+"name": "KIRLIA",
+"regional_of": null
+},
+"282": {
+"no": 313,
+"position": 313,
+"johto": null,
+"national": 282,
+"name": "GARDEVOIR",
+"regional_of": null
+},
+"475": {
+"no": 314,
+"position": 314,
+"johto": null,
+"national": 475,
+"name": "GALLADE",
+"regional_of": null
+},
+"283": {
+"no": 315,
+"position": 315,
+"johto": null,
+"national": 283,
+"name": "SURSKIT",
+"regional_of": null
+},
+"284": {
+"no": 316,
+"position": 316,
+"johto": null,
+"national": 284,
+"name": "MASQUERAIN",
+"regional_of": null
+},
+"285": {
+"no": 317,
+"position": 317,
+"johto": null,
+"national": 285,
+"name": "SHROOMISH",
+"regional_of": null
+},
+"286": {
+"no": 318,
+"position": 318,
+"johto": null,
+"national": 286,
+"name": "BRELOOM",
+"regional_of": null
+},
+"287": {
+"no": 319,
+"position": 319,
+"johto": null,
+"national": 287,
+"name": "SLAKOTH",
+"regional_of": null
+},
+"288": {
+"no": 320,
+"position": 320,
+"johto": null,
+"national": 288,
+"name": "VIGOROTH",
+"regional_of": null
+},
+"289": {
+"no": 321,
+"position": 321,
+"johto": null,
+"national": 289,
+"name": "SLAKING",
+"regional_of": null
+},
+"290": {
+"no": 322,
+"position": 322,
+"johto": null,
+"national": 290,
+"name": "NINCADA",
+"regional_of": null
+},
+"291": {
+"no": 323,
+"position": 323,
+"johto": null,
+"national": 291,
+"name": "NINJASK",
+"regional_of": null
+},
+"292": {
+"no": 324,
+"position": 324,
+"johto": null,
+"national": 292,
+"name": "SHEDINJA",
+"regional_of": null
+},
+"293": {
+"no": 325,
+"position": 325,
+"johto": null,
+"national": 293,
+"name": "WHISMUR",
+"regional_of": null
+},
+"294": {
+"no": 326,
+"position": 326,
+"johto": null,
+"national": 294,
+"name": "LOUDRED",
+"regional_of": null
+},
+"295": {
+"no": 327,
+"position": 327,
+"johto": null,
+"national": 295,
+"name": "EXPLOUD",
+"regional_of": null
+},
+"296": {
+"no": 328,
+"position": 328,
+"johto": null,
+"national": 296,
+"name": "MAKUHITA",
+"regional_of": null
+},
+"297": {
+"no": 329,
+"position": 329,
+"johto": null,
+"national": 297,
+"name": "HARIYAMA",
+"regional_of": null
+},
+"299": {
+"no": 330,
+"position": 330,
+"johto": null,
+"national": 299,
+"name": "NOSEPASS",
+"regional_of": null
+},
+"476": {
+"no": 331,
+"position": 331,
+"johto": null,
+"national": 476,
+"name": "PROBOPASS",
+"regional_of": null
+},
+"300": {
+"no": 332,
+"position": 332,
+"johto": null,
+"national": 300,
+"name": "SKITTY",
+"regional_of": null
+},
+"301": {
+"no": 333,
+"position": 333,
+"johto": null,
+"national": 301,
+"name": "DELCATTY",
+"regional_of": null
+},
+"302": {
+"no": 334,
+"position": 334,
+"johto": null,
+"national": 302,
+"name": "SABLEYE",
+"regional_of": null
+},
+"303": {
+"no": 335,
+"position": 335,
+"johto": null,
+"national": 303,
+"name": "MAWILE",
+"regional_of": null
+},
+"304": {
+"no": 336,
+"position": 336,
+"johto": null,
+"national": 304,
+"name": "ARON",
+"regional_of": null
+},
+"305": {
+"no": 337,
+"position": 337,
+"johto": null,
+"national": 305,
+"name": "LAIRON",
+"regional_of": null
+},
+"306": {
+"no": 338,
+"position": 338,
+"johto": null,
+"national": 306,
+"name": "AGGRON",
+"regional_of": null
+},
+"307": {
+"no": 339,
+"position": 339,
+"johto": null,
+"national": 307,
+"name": "MEDITITE",
+"regional_of": null
+},
+"308": {
+"no": 340,
+"position": 340,
+"johto": null,
+"national": 308,
+"name": "MEDICHAM",
+"regional_of": null
+},
+"309": {
+"no": 341,
+"position": 341,
+"johto": null,
+"national": 309,
+"name": "ELECTRIKE",
+"regional_of": null
+},
+"310": {
+"no": 342,
+"position": 342,
+"johto": null,
+"national": 310,
+"name": "MANECTRIC",
+"regional_of": null
+},
+"311": {
+"no": 343,
+"position": 343,
+"johto": null,
+"national": 311,
+"name": "PLUSLE",
+"regional_of": null
+},
+"312": {
+"no": 344,
+"position": 344,
+"johto": null,
+"national": 312,
+"name": "MINUN",
+"regional_of": null
+},
+"313": {
+"no": 345,
+"position": 345,
+"johto": null,
+"national": 313,
+"name": "VOLBEAT",
+"regional_of": null
+},
+"314": {
+"no": 346,
+"position": 346,
+"johto": null,
+"national": 314,
+"name": "ILLUMISE",
+"regional_of": null
+},
+"406": {
+"no": 347,
+"position": 347,
+"johto": null,
+"national": 406,
+"name": "BUDEW",
+"regional_of": null
+},
+"315": {
+"no": 348,
+"position": 348,
+"johto": null,
+"national": 315,
+"name": "ROSELIA",
+"regional_of": null
+},
+"407": {
+"no": 349,
+"position": 349,
+"johto": null,
+"national": 407,
+"name": "ROSERADE",
+"regional_of": null
+},
+"316": {
+"no": 350,
+"position": 350,
+"johto": null,
+"national": 316,
+"name": "GULPIN",
+"regional_of": null
+},
+"317": {
+"no": 351,
+"position": 351,
+"johto": null,
+"national": 317,
+"name": "SWALOT",
+"regional_of": null
+},
+"318": {
+"no": 352,
+"position": 352,
+"johto": null,
+"national": 318,
+"name": "CARVANHA",
+"regional_of": null
+},
+"319": {
+"no": 353,
+"position": 353,
+"johto": null,
+"national": 319,
+"name": "SHARPEDO",
+"regional_of": null
+},
+"320": {
+"no": 354,
+"position": 354,
+"johto": null,
+"national": 320,
+"name": "WAILMER",
+"regional_of": null
+},
+"321": {
+"no": 355,
+"position": 355,
+"johto": null,
+"national": 321,
+"name": "WAILORD",
+"regional_of": null
+},
+"322": {
+"no": 356,
+"position": 356,
+"johto": null,
+"national": 322,
+"name": "NUMEL",
+"regional_of": null
+},
+"323": {
+"no": 357,
+"position": 357,
+"johto": null,
+"national": 323,
+"name": "CAMERUPT",
+"regional_of": null
+},
+"324": {
+"no": 358,
+"position": 358,
+"johto": null,
+"national": 324,
+"name": "TORKOAL",
+"regional_of": null
+},
+"325": {
+"no": 359,
+"position": 359,
+"johto": null,
+"national": 325,
+"name": "SPOINK",
+"regional_of": null
+},
+"326": {
+"no": 360,
+"position": 360,
+"johto": null,
+"national": 326,
+"name": "GRUMPIG",
+"regional_of": null
+},
+"327": {
+"no": 361,
+"position": 361,
+"johto": null,
+"national": 327,
+"name": "SPINDA",
+"regional_of": null
+},
+"328": {
+"no": 362,
+"position": 362,
+"johto": null,
+"national": 328,
+"name": "TRAPINCH",
+"regional_of": null
+},
+"329": {
+"no": 363,
+"position": 363,
+"johto": null,
+"national": 329,
+"name": "VIBRAVA",
+"regional_of": null
+},
+"330": {
+"no": 364,
+"position": 364,
+"johto": null,
+"national": 330,
+"name": "FLYGON",
+"regional_of": null
+},
+"331": {
+"no": 365,
+"position": 365,
+"johto": null,
+"national": 331,
+"name": "CACNEA",
+"regional_of": null
+},
+"332": {
+"no": 366,
+"position": 366,
+"johto": null,
+"national": 332,
+"name": "CACTURNE",
+"regional_of": null
+},
+"333": {
+"no": 367,
+"position": 367,
+"johto": null,
+"national": 333,
+"name": "SWABLU",
+"regional_of": null
+},
+"334": {
+"no": 368,
+"position": 368,
+"johto": null,
+"national": 334,
+"name": "ALTARIA",
+"regional_of": null
+},
+"335": {
+"no": 369,
+"position": 369,
+"johto": null,
+"national": 335,
+"name": "ZANGOOSE",
+"regional_of": null
+},
+"336": {
+"no": 370,
+"position": 370,
+"johto": null,
+"national": 336,
+"name": "SEVIPER",
+"regional_of": null
+},
+"337": {
+"no": 371,
+"position": 371,
+"johto": null,
+"national": 337,
+"name": "LUNATONE",
+"regional_of": null
+},
+"338": {
+"no": 372,
+"position": 372,
+"johto": null,
+"national": 338,
+"name": "SOLROCK",
+"regional_of": null
+},
+"339": {
+"no": 373,
+"position": 373,
+"johto": null,
+"national": 339,
+"name": "BARBOACH",
+"regional_of": null
+},
+"340": {
+"no": 374,
+"position": 374,
+"johto": null,
+"national": 340,
+"name": "WHISCASH",
+"regional_of": null
+},
+"341": {
+"no": 375,
+"position": 375,
+"johto": null,
+"national": 341,
+"name": "CORPHISH",
+"regional_of": null
+},
+"342": {
+"no": 376,
+"position": 376,
+"johto": null,
+"national": 342,
+"name": "CRAWDAUNT",
+"regional_of": null
+},
+"343": {
+"no": 377,
+"position": 377,
+"johto": null,
+"national": 343,
+"name": "BALTOY",
+"regional_of": null
+},
+"344": {
+"no": 378,
+"position": 378,
+"johto": null,
+"national": 344,
+"name": "CLAYDOL",
+"regional_of": null
+},
+"345": {
+"no": 379,
+"position": 379,
+"johto": null,
+"national": 345,
+"name": "LILEEP",
+"regional_of": null
+},
+"346": {
+"no": 380,
+"position": 380,
+"johto": null,
+"national": 346,
+"name": "CRADILY",
+"regional_of": null
+},
+"347": {
+"no": 381,
+"position": 381,
+"johto": null,
+"national": 347,
+"name": "ANORITH",
+"regional_of": null
+},
+"348": {
+"no": 382,
+"position": 382,
+"johto": null,
+"national": 348,
+"name": "ARMALDO",
+"regional_of": null
+},
+"349": {
+"no": 383,
+"position": 383,
+"johto": null,
+"national": 349,
+"name": "FEEBAS",
+"regional_of": null
+},
+"350": {
+"no": 384,
+"position": 384,
+"johto": null,
+"national": 350,
+"name": "MILOTIC",
+"regional_of": null
+},
+"351": {
+"no": 385,
+"position": 385,
+"johto": null,
+"national": 351,
+"name": "CASTFORM",
+"regional_of": null
+},
+"352": {
+"no": 386,
+"position": 386,
+"johto": null,
+"national": 352,
+"name": "KECLEON",
+"regional_of": null
+},
+"353": {
+"no": 387,
+"position": 387,
+"johto": null,
+"national": 353,
+"name": "SHUPPET",
+"regional_of": null
+},
+"354": {
+"no": 388,
+"position": 388,
+"johto": null,
+"national": 354,
+"name": "BANETTE",
+"regional_of": null
+},
+"355": {
+"no": 389,
+"position": 389,
+"johto": null,
+"national": 355,
+"name": "DUSKULL",
+"regional_of": null
+},
+"356": {
+"no": 390,
+"position": 390,
+"johto": null,
+"national": 356,
+"name": "DUSCLOPS",
+"regional_of": null
+},
+"477": {
+"no": 391,
+"position": 391,
+"johto": null,
+"national": 477,
+"name": "DUSKNOIR",
+"regional_of": null
+},
+"357": {
+"no": 392,
+"position": 392,
+"johto": null,
+"national": 357,
+"name": "TROPIUS",
+"regional_of": null
+},
+"433": {
+"no": 393,
+"position": 393,
+"johto": null,
+"national": 433,
+"name": "CHINGLING",
+"regional_of": null
+},
+"358": {
+"no": 394,
+"position": 394,
+"johto": null,
+"national": 358,
+"name": "CHIMECHO",
+"regional_of": null
+},
+"359": {
+"no": 395,
+"position": 395,
+"johto": null,
+"national": 359,
+"name": "ABSOL",
+"regional_of": null
+},
+"361": {
+"no": 396,
+"position": 396,
+"johto": null,
+"national": 361,
+"name": "SNORUNT",
+"regional_of": null
+},
+"362": {
+"no": 397,
+"position": 397,
+"johto": null,
+"national": 362,
+"name": "GLALIE",
+"regional_of": null
+},
+"478": {
+"no": 398,
+"position": 398,
+"johto": null,
+"national": 478,
+"name": "FROSLASS",
+"regional_of": null
+},
+"363": {
+"no": 399,
+"position": 399,
+"johto": null,
+"national": 363,
+"name": "SPHEAL",
+"regional_of": null
+},
+"364": {
+"no": 400,
+"position": 400,
+"johto": null,
+"national": 364,
+"name": "SEALEO",
+"regional_of": null
+},
+"365": {
+"no": 401,
+"position": 401,
+"johto": null,
+"national": 365,
+"name": "WALREIN",
+"regional_of": null
+},
+"366": {
+"no": 402,
+"position": 402,
+"johto": null,
+"national": 366,
+"name": "CLAMPERL",
+"regional_of": null
+},
+"367": {
+"no": 403,
+"position": 403,
+"johto": null,
+"national": 367,
+"name": "HUNTAIL",
+"regional_of": null
+},
+"368": {
+"no": 404,
+"position": 404,
+"johto": null,
+"national": 368,
+"name": "GOREBYSS",
+"regional_of": null
+},
+"369": {
+"no": 405,
+"position": 405,
+"johto": null,
+"national": 369,
+"name": "RELICANTH",
+"regional_of": null
+},
+"370": {
+"no": 406,
+"position": 406,
+"johto": null,
+"national": 370,
+"name": "LUVDISC",
+"regional_of": null
+},
+"371": {
+"no": 407,
+"position": 407,
+"johto": null,
+"national": 371,
+"name": "BAGON",
+"regional_of": null
+},
+"372": {
+"no": 408,
+"position": 408,
+"johto": null,
+"national": 372,
+"name": "SHELGON",
+"regional_of": null
+},
+"373": {
+"no": 409,
+"position": 409,
+"johto": null,
+"national": 373,
+"name": "SALAMENCE",
+"regional_of": null
+},
+"374": {
+"no": 410,
+"position": 410,
+"johto": null,
+"national": 374,
+"name": "BELDUM",
+"regional_of": null
+},
+"375": {
+"no": 411,
+"position": 411,
+"johto": null,
+"national": 375,
+"name": "METANG",
+"regional_of": null
+},
+"376": {
+"no": 412,
+"position": 412,
+"johto": null,
+"national": 376,
+"name": "METAGROSS",
+"regional_of": null
+},
+"380": {
+"no": 413,
+"position": 413,
+"johto": null,
+"national": 380,
+"name": "LATIAS",
+"regional_of": null
+},
+"381": {
+"no": 414,
+"position": 414,
+"johto": null,
+"national": 381,
+"name": "LATIOS",
+"regional_of": null
+},
+"382": {
+"no": 415,
+"position": 415,
+"johto": null,
+"national": 382,
+"name": "KYOGRE",
+"regional_of": null
+},
+"383": {
+"no": 416,
+"position": 416,
+"johto": null,
+"national": 383,
+"name": "GROUDON",
+"regional_of": null
+},
+"384": {
+"no": 417,
+"position": 417,
+"johto": null,
+"national": 384,
+"name": "RAYQUAZA",
+"regional_of": null
+},
+"385": {
+"no": 418,
+"position": 418,
+"johto": null,
+"national": 385,
+"name": "JIRACHI",
+"regional_of": null
+},
+"386": {
+"no": 419,
+"position": 419,
+"johto": null,
+"national": 386,
+"name": "DEOXYS",
+"regional_of": null
+},
+"1026": {
+"no": 19,
+"position": 420,
+"johto": 17,
+"national": 1026,
+"name": "RATTATA",
+"regional_of": 19
+},
+"1027": {
+"no": 20,
+"position": 421,
+"johto": 18,
+"national": 1027,
+"name": "RATICATE",
+"regional_of": 20
+},
+"1028": {
+"no": 27,
+"position": 422,
+"johto": 23,
+"national": 1028,
+"name": "RAICHU",
+"regional_of": 26
+},
+"1029": {
+"no": 28,
+"position": 423,
+"johto": 49,
+"national": 1029,
+"name": "SANDSHREW",
+"regional_of": 27
+},
+"1030": {
+"no": 29,
+"position": 424,
+"johto": 50,
+"national": 1030,
+"name": "SANDSLASH",
+"regional_of": 28
+},
+"1031": {
+"no": 39,
+"position": 425,
+"johto": 133,
+"national": 1031,
+"name": "VULPIX",
+"regional_of": 37
+},
+"1032": {
+"no": 40,
+"position": 426,
+"johto": 134,
+"national": 1032,
+"name": "NINETALES",
+"regional_of": 38
+},
+"1033": {
+"no": 55,
+"position": 427,
+"johto": 142,
+"national": 1033,
+"name": "DIGLETT",
+"regional_of": 50
+},
+"1034": {
+"no": 56,
+"position": 428,
+"johto": 143,
+"national": 1034,
+"name": "DUGTRIO",
+"regional_of": 51
+},
+"1035": {
+"no": 57,
+"position": 429,
+"johto": 147,
+"national": 1035,
+"name": "MEOWTH",
+"regional_of": 52
+},
+"1036": {
+"no": 58,
+"position": 430,
+"johto": 148,
+"national": 1036,
+"name": "PERSIAN",
+"regional_of": 53
+},
+"1037": {
+"no": 81,
+"position": 431,
+"johto": 34,
+"national": 1037,
+"name": "GEODUDE",
+"regional_of": 74
+},
+"1038": {
+"no": 82,
+"position": 432,
+"johto": 35,
+"national": 1038,
+"name": "GRAVELER",
+"regional_of": 75
+},
+"1039": {
+"no": 83,
+"position": 433,
+"johto": 36,
+"national": 1039,
+"name": "GOLEM",
+"regional_of": 76
+},
+"1040": {
+"no": 97,
+"position": 434,
+"johto": 122,
+"national": 1040,
+"name": "GRIMER",
+"regional_of": 88
+},
+"1041": {
+"no": 98,
+"position": 435,
+"johto": 123,
+"national": 1041,
+"name": "MUK",
+"regional_of": 89
+},
+"1042": {
+"no": 113,
+"position": 436,
+"johto": 108,
+"national": 1042,
+"name": "EXEGGUTOR",
+"regional_of": 103
+},
+"1043": {
+"no": 115,
+"position": 437,
+"johto": 228,
+"national": 1043,
+"name": "MAROWAK",
+"regional_of": 105
+},
+"1044": {
+"no": 57,
+"position": 438,
+"johto": 147,
+"national": 1044,
+"name": "MEOWTH",
+"regional_of": 52
+},
+"863": {
+"no": 439,
+"position": 439,
+"johto": null,
+"national": 863,
+"name": "PERRSERKER",
+"regional_of": null
+},
+"1045": {
+"no": 84,
+"position": 440,
+"johto": 225,
+"national": 1045,
+"name": "PONYTA",
+"regional_of": 77
+},
+"1046": {
+"no": 85,
+"position": 441,
+"johto": 226,
+"national": 1046,
+"name": "RAPIDASH",
+"regional_of": 78
+},
+"1047": {
+"no": 86,
+"position": 442,
+"johto": 82,
+"national": 1047,
+"name": "SLOWPOKE",
+"regional_of": 79
+},
+"1048": {
+"no": 87,
+"position": 443,
+"johto": 83,
+"national": 1048,
+"name": "SLOWBRO",
+"regional_of": 80
+},
+"1049": {
+"no": 88,
+"position": 444,
+"johto": 84,
+"national": 1049,
+"name": "SLOWKING",
+"regional_of": 199
+},
+"1050": {
+"no": 92,
+"position": 445,
+"johto": 173,
+"national": 1050,
+"name": "FARFETCH'D",
+"regional_of": 83
+},
+"865": {
+"no": 446,
+"position": 446,
+"johto": null,
+"national": 865,
+"name": "SIRFETCH'D",
+"regional_of": null
+},
+"1051": {
+"no": 123,
+"position": 447,
+"johto": 121,
+"national": 1051,
+"name": "WEEZING",
+"regional_of": 110
+},
+"1052": {
+"no": 141,
+"position": 448,
+"johto": 171,
+"national": 1052,
+"name": "MR. MIME",
+"regional_of": 122
+},
+"866": {
+"no": 449,
+"position": 449,
+"johto": null,
+"national": 866,
+"name": "MR. RIME",
+"regional_of": null
+},
+"1053": {
+"no": 178,
+"position": 450,
+"johto": 266,
+"national": 1053,
+"name": "ARTICUNO",
+"regional_of": 144
+},
+"1054": {
+"no": 179,
+"position": 451,
+"johto": 267,
+"national": 1054,
+"name": "ZAPDOS",
+"regional_of": 145
+},
+"1055": {
+"no": 180,
+"position": 452,
+"johto": 268,
+"national": 1055,
+"name": "MOLTRES",
+"regional_of": 146
+},
+"1056": {
+"no": 259,
+"position": 453,
+"johto": 186,
+"national": 1056,
+"name": "CORSOLA",
+"regional_of": 222
+},
+"864": {
+"no": 454,
+"position": 454,
+"johto": null,
+"national": 864,
+"name": "CURSOLA",
+"regional_of": null
+},
+"1057": {
+"no": 294,
+"position": 455,
+"johto": null,
+"national": 1057,
+"name": "ZIGZAGOON",
+"regional_of": 263
+},
+"1058": {
+"no": 295,
+"position": 456,
+"johto": null,
+"national": 1058,
+"name": "LINOONE",
+"regional_of": 264
+},
+"862": {
+"no": 457,
+"position": 457,
+"johto": null,
+"national": 862,
+"name": "OBSTAGOON",
+"regional_of": null
+},
+"1063": {
+"no": 64,
+"position": 458,
+"johto": 135,
+"national": 1063,
+"name": "GROWLITHE",
+"regional_of": 58
+},
+"1064": {
+"no": 65,
+"position": 459,
+"johto": 136,
+"national": 1064,
+"name": "ARCANINE",
+"regional_of": 59
+},
+"1065": {
+"no": 110,
+"position": 460,
+"johto": 127,
+"national": 1065,
+"name": "VOLTORB",
+"regional_of": 100
+},
+"1066": {
+"no": 111,
+"position": 461,
+"johto": 128,
+"national": 1066,
+"name": "ELECTRODE",
+"regional_of": 101
+},
+"1067": {
+"no": 191,
+"position": 462,
+"johto": 6,
+"national": 1067,
+"name": "TYPHLOSION",
+"regional_of": 157
+},
+"1068": {
+"no": 246,
+"position": 463,
+"johto": 176,
+"national": 1068,
+"name": "QWILFISH",
+"regional_of": 211
+},
+"904": {
+"no": 464,
+"position": 464,
+"johto": null,
+"national": 904,
+"name": "OVERQWIL",
+"regional_of": null
+},
+"1069": {
+"no": 249,
+"position": 465,
+"johto": 239,
+"national": 1069,
+"name": "SNEASEL",
+"regional_of": 215
+},
+"903": {
+"no": 466,
+"position": 466,
+"johto": null,
+"national": 903,
+"name": "SNEASLER",
+"regional_of": null
+},
+"1079": {
+"no": 154,
+"position": 467,
+"johto": 160,
+"national": 1079,
+"name": "TAUROS",
+"regional_of": 128
+},
+"1080": {
+"no": 227,
+"position": 468,
+"johto": 58,
+"national": 1080,
+"name": "WOOPER",
+"regional_of": 194
+},
+"980": {
+"no": 469,
+"position": 469,
+"johto": null,
+"national": 980,
+"name": "CLODSIRE",
+"regional_of": null
+},
+"377": {
+"no": 470,
+"position": 470,
+"johto": null,
+"national": 377,
+"name": "REGIROCK",
+"regional_of": null
+},
+"378": {
+"no": 471,
+"position": 471,
+"johto": null,
+"national": 378,
+"name": "REGICE",
+"regional_of": null
+},
+"379": {
+"no": 472,
+"position": 472,
+"johto": null,
+"national": 379,
+"name": "REGISTEEL",
+"regional_of": null
+},
+"894": {
+"no": 473,
+"position": 473,
+"johto": null,
+"national": 894,
+"name": "REGIELEKI",
+"regional_of": null
+},
+"895": {
+"no": 474,
+"position": 474,
+"johto": null,
+"national": 895,
+"name": "REGIDRAGO",
+"regional_of": null
+},
+"486": {
+"no": 475,
+"position": 475,
+"johto": null,
+"national": 486,
+"name": "REGIGIGAS",
+"regional_of": null
+},
+"493": {
+"no": 476,
+"position": 476,
+"johto": null,
+"national": 493,
+"name": "ARCEUS",
+"regional_of": null
+},
+"785": {
+"no": 477,
+"position": 477,
+"johto": null,
+"national": 785,
+"name": "TAPU KOKO",
+"regional_of": null
+},
+"786": {
+"no": 478,
+"position": 478,
+"johto": null,
+"national": 786,
+"name": "TAPU LELE",
+"regional_of": null
+},
+"787": {
+"no": 479,
+"position": 479,
+"johto": null,
+"national": 787,
+"name": "TAPU BULU",
+"regional_of": null
+},
+"788": {
+"no": 480,
+"position": 480,
+"johto": null,
+"national": 788,
+"name": "TAPU FINI",
+"regional_of": null
+},
+"714": {
+"no": 481,
+"position": 481,
+"johto": null,
+"national": 714,
+"name": "NOIBAT",
+"regional_of": null
+},
+"715": {
+"no": 482,
+"position": 482,
+"johto": null,
+"national": 715,
+"name": "NOIVERN",
+"regional_of": null
+}
+}
+}

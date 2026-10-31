@@ -68,6 +68,10 @@ for d in DEX.values():
         d["display_full"] = (f'Mega {nice(base["name"])}' + (f' {fn.replace("Mega", "").strip()}' if fn.replace("Mega", "").strip() else "")) if d["kind"] == "mega" and not d.get("primal") else f'{nice(base["name"])} ({fn})'
     else:
         d["display_full"] = d["display"]
+# The number the game's own Pokédex draws for each entry (tools/dex_numbers.py): the only place the site gets one from.
+NUMBERS = J(DATA / "pokedex-numbers.json")["entries"]
+for d in DEX.values():
+    d["game_no"] = NUMBERS.get(str(d["dex"]), {}).get("no")
 # The public Pokédex lists Pokémon a player can legitimately obtain in this build, not every species the engine defines.
 # tools/availability.py decides that from evidence; the build refuses to run on an audit made for another build.
 AVAIL = J(DATA / "availability.json")
@@ -75,6 +79,8 @@ AV = AVAIL["species"]
 check(AVAIL["report"]["build"]["sha256"] == BUILD["build"]["sha256"], "data/availability.json was computed for a different game build: re-run tools/availability.py")
 ENTRIES = {k for k, d in DEX.items() if d["kind"] in ("species", "regional")}       # every species and regional form the engine defines
 PAGES = {k for k in ENTRIES if AV.get(k, {}).get("status") == "obtainable"}          # the public Pokédex: entries with their own page
+check(all(DEX[k]["game_no"] for k in PAGES), "a public Pokémon has no number in data/pokedex-numbers.json: re-run tools/dex_numbers.py")
+dex_no = lambda d: f'<span class="dexno">#{d["game_no"]:03d}</span>'
 UNREACHABLE = set(AVAIL["report"]["maps_unreachable"])
 GATED = J(CONTENT / "availability-rules.json")["gated"]
 FORMS = {}

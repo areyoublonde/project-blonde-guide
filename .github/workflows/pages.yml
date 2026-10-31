@@ -34,6 +34,9 @@ jobs:
       # Types on every page are the ROM's (the "Side Hazard Sharp Steel" regression); the public Pokédex stays 440 + 42
       - name: Check Pokémon types and fields
         run: python3 tools/qa_pokemon_data.py
+      # Every number on the Pokédex list and the Pokémon pages is the game's own (data/pokedex-numbers.json)
+      - name: Check Pokédex numbers
+        run: python3 tools/qa_dex_numbers.py
       - name: Check every link and asset
         run: python3 tools/qa_static.py --base "${{ steps.pages.outputs.base_path }}"
       - name: Check Headbutt and Rock Smash encounters

@@ -347,7 +347,10 @@ a.enc-row:hover b{color:#fff}
 .count{font:400 .7rem var(--mono);letter-spacing:.07em;color:var(--ink-3);margin:0;text-transform:uppercase}
 .empty{color:var(--ink-3);padding:28px 0}
 .dex li,.people li,.places li{display:grid;align-items:center;gap:0 18px;min-height:50px;border-bottom:1px solid var(--hair);scroll-margin-top:calc(var(--head) + 90px)}
-.dex li{grid-template-columns:32px minmax(120px,200px) 150px 1fr}
+.dex li{grid-template-columns:32px minmax(120px,264px) 150px 1fr}
+.dexno{font:400 .78em var(--mono);color:var(--ink-2);white-space:nowrap}
+h1 .dexno{font-size:.5em;letter-spacing:.02em}
+@media (max-width:360px){.dex li{grid-template-columns:32px 1fr}.dex .types,.dex .w{grid-column:2}}
 .dex b,.people b,.places b,.itemlist b{font-weight:500}.dex a,.people a,.places a,.itemlist a,.chlinks a{text-decoration:none}.dex a:hover,.people a:hover,.places a:hover{color:#fff}
 .dex li:has(a) b::after,.places li:has(a) b::after{content:"→";margin-left:8px;color:var(--ink-3);font-weight:400}
 .w{font-size:.9rem;color:var(--ink-2);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -521,7 +524,7 @@ dialog.search::backdrop{background:rgba(8,7,7,.62);backdrop-filter:blur(8px)}
   .cgrid{padding-top:170px}.cfirst .plate{height:260px}.cfirst .plate img{object-position:36% 40%}
   .road .m:not(.you-tag){display:none}.leg h2{font-size:1.35rem}
   .crossing{min-height:170px;margin-top:36px}.crossing>div{padding:20px}.crossing.major{min-height:240px}.crossing.major h3{font-size:1.7rem}
-  .dex li{grid-template-columns:32px 1fr auto;padding:8px 0}.dex .w{grid-column:2/4;font-size:.84rem;color:var(--ink-3)}
+  .dex li{grid-template-columns:32px 1fr auto;padding:8px 0;column-gap:14px}.dex .w{grid-column:2/4;font-size:.84rem;color:var(--ink-3)}
   .people li{grid-template-columns:48px 1fr auto;padding:10px 0;gap:0 14px}.people .n,.people .w:nth-of-type(n+2){display:none}.people .w{grid-column:2;font-size:.84rem}.people .m{grid-row:1/3;grid-column:3}
   .people.feat li{grid-template-columns:1fr auto}.people.feat .w{grid-column:1/3;display:block}.people.feat .m{grid-row:1;grid-column:2}
   .places li{grid-template-columns:1fr auto;padding:8px 0}.places .w:last-child{grid-column:1/3;font-size:.82rem;color:var(--ink-3)}
