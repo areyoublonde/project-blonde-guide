@@ -12,6 +12,7 @@ import legend_page
 import dexnav_page
 
 MEGASTONES = J(DATA / "megastones.json")
+BREEDS = J(CONTENT / "regional-breeds.json")
 ABOUT = J(CONTENT / "about.json")
 BASIS = {"played": ("Played", "Every step on this page was carried out in the completed natural playthrough of the game."),
          "mixed": ("Partly played", "Part of this page was played in the natural playthrough; the rest comes from game data and is marked."),
@@ -420,6 +421,10 @@ def build_species(d):
             txt = f'Leave {sp_link(DEX[m["from"]])} at the Day Care; the egg hatches into {esc(d["display_full"])}'
         elif k == "converter":
             txt = f'Take {sp_link(DEX[m["from"]])} to Bill’s house on Route 25: the machine there changes it into its regional form'
+        elif k == "trade" and d["id"] in BREEDS:
+            if how:
+                continue
+            txt = BREEDS[d["id"]]["obtain"].replace("{where}", maplink(BREEDS[d["id"]]["map"]))
         elif k == "trade":
             txt = f'An in-game trade {esc(m["detail"])}'
         elif k == "roamer":
@@ -469,10 +474,16 @@ def build_species(d):
         stone = link and link.get("stone")
         offered = stone and any(o["stone"] == stone for o in MEGASTONES["offered"])
         how = (f'Holds {ilink(stone)}' + ("" if offered else " — <b>not obtainable</b> in the current build") if stone else (f'Knows {esc(link["move"])}' if link else "Form change"))
+        if x.get("form_item"):
+            how = f'Holds {ilink(x["form_item"])}' + ("" if any(g["item"] == x["form_item"] for g in GIVES) else " — <b>not obtainable</b> in the current build")
         xs = x["stats"]
         forms += (f'<div class="megarow">{art_img(x, 64, x["display_full"])}<div><b>{esc(x["display_full"])}</b> {types(x)}<p class="muted">{how} · Ability: {esc(", ".join(dict.fromkeys(x["abilities"])))}'
                   f' · HP {xs["hp"]} / Atk {xs["atk"]} / Def {xs["def"]} / Sp. Atk {xs["spa"]} / Sp. Def {xs["spd"]} / Speed {xs["spe"]}</p></div></div>')
     others = [x for x in FORMS.get(d["id"], []) if x["kind"] == "form"]
+    if d["id"] in BREEDS:          # breeds of one regional form, each with its own typing and condition
+        b = BREEDS[d["id"]]
+        others = []
+        forms += f'<p class="muted">{b["intro"]}</p>' + "".join(f'<div class="megarow">{art_img(dict(DEX[r["id"]], art_slug=DEX[r["id"]]["slug"]), 64, r["name"])}<div><b>{esc(r["name"])}</b> {types(DEX[r["id"]] if r["id"] != d["id"] else {"types": r["types"]})}<p class="muted">{r["how"]}</p></div></div>' for r in b["rows"])
     if others:
         forms += '<p class="muted">Other forms in the game’s data: ' + ", ".join(esc(x.get("form_name") or x["display_full"]) for x in others[:24]) + ("…" if len(others) > 24 else "") + ".</p>"
     moves = "".join(f'<li><span>{"Evo" if lv == 0 else lv}</span>{esc(mv)}</li>' for lv, mv in d["moves"])
@@ -493,7 +504,7 @@ def build_species(d):
  <header class="entry-head"><div class="art">{art_img(d, 192, title)}</div>
   <div><p class="label">{label}</p><h1>{esc(title)} {dex_no(d)}</h1><p class="typeline">{types(d)}</p><p class="lead">{esc(d.get("text") or "")}</p></div></header>
  <section class="entry-where"><div><p class="label">Where to find</p><h2>In the game</h2>{bestline}{table}</div><div class="figs">{figs}</div></section>
- {"<section><p class=label>Forms</p><h2>Forms and Mega Evolution</h2>" + forms + "</section>" if forms else ""}
+ {"<section><p class=label>Forms</p><h2>Forms and " + ("Primal Reversion" if any(x.get("primal") for x in FORMS.get(d["id"], [])) else "breeds" if d["id"] in BREEDS else "Mega Evolution") + "</h2>" + forms + "</section>" if forms else ""}
  <section class="entry-cols"><div><p class="label">Evolution</p><h2>Family</h2>{family(d)}</div>
   <div><p class="label">In battle</p><h2>Base stats</h2><dl class="statrow">{stats}</dl><p class="muted">Total {total} · Abilities: {esc(ab)}{hidden} · Catch rate {d["catch_rate"]}</p></div></section>
  <section class="entry-cols">{"<div><p class=label>On the road</p><h2>Where it turns up</h2><ul class=plain>" + road + "</ul></div>" if road else ""}{"<div><p class=label>Opponents</p><h2>Who uses it</h2><ul class=plain>" + used + "</ul></div>" if used else ""}</section>

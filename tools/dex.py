@@ -222,6 +222,9 @@ def main():
             suffix = d["id"].replace(dex[d["of"]]["id"], "").strip("_").lower().replace("_", "-")
             d["slug"] = dex[d["of"]].get("slug", slug(d["name"])) + "-" + (suffix or "form")
             d["form_name"] = title(suffix.replace("-", "_").upper()) if suffix else "Form"
+            breed = re.search(r"_PALDEA_(COMBAT|BLAZE|AQUA)$", d["id"])
+            if breed:
+                d["form_name"] = f"{breed.group(1).title()} Breed"
     seen = {}
     for d in sorted(dex.values(), key=lambda d: d["num"]):      # a few species share a display name with a form
         if d["slug"] in seen:
@@ -242,6 +245,11 @@ def main():
     for m in re.finditer(r"\{FORM_CHANGE_BATTLE_MEGA_EVOLUTION_MOVE,\s*(SPECIES_\w+),\s*(MOVE_\w+)\}", fc):
         if m.group(1) in dex and dex[m.group(1)].get("of"):
             megas.append({"stone": None, "move": title(m.group(2), "MOVE_"), "mega": m.group(1), "species": dex[m.group(1)]["of"], "src": "src/data/pokemon/form_change_tables.h"})
+
+    # Primal Reversion: the held item from the same form-change table. Kept off megas.json, which lists Mega Stones only.
+    for m in re.finditer(r"\{FORM_CHANGE_BATTLE_PRIMAL_REVERSION,\s*(SPECIES_\w+),\s*(ITEM_\w+)\}", fc):
+        if m.group(1) in dex:
+            dex[m.group(1)]["form_item"] = item_name(m.group(2))
 
     n_art = n_icon = 0
     for d in dex.values():

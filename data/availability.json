@@ -1739,7 +1739,7 @@
    "symbols": "../output/project-blonde-v1.4-rc1-20261019/symbols-v1.4.json"
   },
   "engine_species_rows": 1573,
-  "dex_records": 1479,
+  "dex_records": 1481,
   "entries_considered": 1080,
   "maps": 908,
   "maps_reachable": 862,
@@ -24802,7 +24802,7 @@
      "kind": "trade",
      "where": "In-game trade",
      "map": null,
-     "detail": "for None",
+     "detail": "for another Pokémon",
      "evidence": "src/data/trade.h:INGAME_TRADE_STEELIX"
     },
     {
@@ -49054,24 +49054,24 @@
      "kind": "trade",
      "where": "In-game trade",
      "map": null,
-     "detail": "for None",
+     "detail": "for another Pokémon",
      "evidence": "src/data/trade.h:INGAME_TRADE_TAUROS_FIGHT"
     },
     {
      "kind": "trade",
      "where": "In-game trade",
      "map": null,
-     "detail": "for None",
+     "detail": "for another Pokémon",
      "evidence": "src/data/trade.h:INGAME_TRADE_TAUROS_FIRE",
-     "form": "Species Tauros Paldea Blaze"
+     "form": "Blaze Breed"
     },
     {
      "kind": "trade",
      "where": "In-game trade",
      "map": null,
-     "detail": "for None",
+     "detail": "for another Pokémon",
      "evidence": "src/data/trade.h:INGAME_TRADE_TAUROS_WATER",
-     "form": "Species Tauros Paldea Aqua"
+     "form": "Aqua Breed"
     },
     {
      "kind": "breeding",

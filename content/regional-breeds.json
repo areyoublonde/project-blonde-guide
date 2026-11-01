@@ -1,0 +1,13 @@
+{
+  "SPECIES_TAUROS_PALDEA_COMBAT": {
+    "map": "Melemele_House_hns",
+    "obtain": "An in-game trade with Jessica in {where} on Melemele Isle, once per save. You choose the Pokémon you give from your PC. Which breed she offers depends on your starter (see Forms).",
+    "intro": "The game has one Pokédex entry for all three breeds, and it always shows the Aqua Breed: its art, Fighting / Water typing and text are what this page shows. The breed you receive depends on the starter you chose. Stats and abilities are the same; the Level 15 and Level 55 level-up moves differ.",
+    "rows": [
+      {"id": "SPECIES_TAUROS_PALDEA_AQUA", "name": "Aqua Breed", "how": "If you chose Chikorita. Level-up moves: Aqua Jet (15), Wave Crash (55)."},
+      {"id": "SPECIES_TAUROS_PALDEA_BLAZE", "name": "Blaze Breed", "how": "If you chose Cyndaquil. Level-up moves: Flame Charge (15), Flare Blitz (55)."},
+      {"id": "SPECIES_TAUROS_PALDEA_COMBAT", "name": "Combat Breed", "types": ["Fighting"], "how": "If you chose Totodile. Level-up moves: Assurance (15), Double Edge (55)."}
+    ],
+    "evidence": "r09 ROM: VAR_STARTER_MON 0/1/2 set with Chikorita/Cyndaquil/Totodile at 0x09EDC83E/899/8F4 (NewBarkTown_Lab); Alola_Melemele_Pokecenter_Jessica at 0x09F5E72F run for each value: trades 13 Aqua, 15 Blaze, 14 Combat (qa-evidence/pokedex-numbers/paldean-tauros-r09.json). The script comment in data/maps/Melemele_House_hns/scripts.inc states a different mapping; the code and the ROM are what the game does."
+  }
+}

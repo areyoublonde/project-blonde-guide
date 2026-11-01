@@ -1,0 +1,42 @@
+{
+ "rom": "r09",
+ "sha": "115a3204c1b2ff8bff6b39fb89418fd80b7674172b5c97974f7b7da8fd806d58",
+ "starter_table": [
+  "TREECKO",
+  "TORCHIC",
+  "MUDKIP"
+ ],
+ "trade": [
+  {
+   "var_starter": 0,
+   "trade_index": 13,
+   "species": "TAUROS_PALDEA_AQUA",
+   "types": [
+    2,
+    12
+   ],
+   "text": "The TAUROS out here aren\u2019t like the ones on the mainland. Want to trade for my TAUROS?"
+  },
+  {
+   "var_starter": 1,
+   "trade_index": 15,
+   "species": "TAUROS_PALDEA_BLAZE",
+   "types": [
+    2,
+    11
+   ],
+   "text": "The TAUROS out here aren\u2019t like the ones on the mainland. Want to trade for my TAUROS?"
+  },
+  {
+   "var_starter": 2,
+   "trade_index": 14,
+   "species": "TAUROS_PALDEA_COMBAT",
+   "types": [
+    2,
+    2
+   ],
+   "text": "The TAUROS out here aren\u2019t like the ones on the mainland. Want to trade for my TAUROS?"
+  }
+ ],
+ "row": 153
+}

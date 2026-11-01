@@ -47,6 +47,21 @@ def run(read):
         if len(m) != 1 or f'<span class="dexno">#{want:03d}</span>' not in m[0] or len(re.findall(r'class="dexno"', h)) != 1:
             err.append(f'{d["slug"]}: heading {m[:1]}, the game shows {want}')
     print(f"pages: {pages} Pokémon pages opened and checked")
+    # Forms the game's data defines: Primal Reversions on their base pages; Paldean Tauros as the game's Pokédex shows it, with its three breeds
+    for slug, name, orb, art in (("kyogre", "Primal Kyogre", "Blue Orb", "kyogre-primal"), ("groudon", "Primal Groudon", "Red Orb", "groudon-primal")):
+        h = read(f"/pokemon/{slug}/")
+        if f"<b>{name}</b>" not in h or orb not in h or f"pokemon/{art}.png" not in h:
+            err.append(f"{slug}: {name}, {orb} or its art is missing")
+    h = read("/pokemon/tauros-paldea/")
+    want = DEX[next(k for k, d in DEX.items() if d["num"] == N["entries"]["1079"]["row"])]
+    line = re.search(r'<p class="typeline">(.*?)</p>', h, re.S).group(1)
+    if re.findall(r'class="type"[^>]*>([^<]+)<', line) != want["types"] or want["text"].split(".")[0].replace("’", "") not in h.replace("’", ""):
+        err.append(f"tauros-paldea: heading does not show the row the game's Pokédex shows ({want['id']})")
+    for b in ("Aqua Breed", "Blaze Breed", "Combat Breed"):
+        if f"<b>{b}</b>" not in h:
+            err.append(f"tauros-paldea: {b} is missing")
+    if "for None" in h:
+        err.append("tauros-paldea: a trade names no species")
     for r in (e for e in N["entries"].values() if e["regional_of"]):
         if r["no"] != N["entries"][str(r["regional_of"])]["no"]:
             err.append(f"{r['name']}: regional form does not share its base number")

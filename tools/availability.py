@@ -231,7 +231,7 @@ def main():
         s1 = re.search(r"\.species\s*=\s*(SPECIES_\w+)", m.group(2))
         want = re.search(r"\.requestedSpecies\s*=\s*(SPECIES_\w+)", m.group(2))
         if s1 and m.group(1) in used and alias.get(s1.group(1)) in dex:
-            add(alias[s1.group(1)], "trade", "In-game trade", f'for {title(want.group(1), "SPECIES_") if want else "another Pokémon"}', f"src/data/trade.h:{m.group(1)}")
+            add(alias[s1.group(1)], "trade", "In-game trade", f'for {title(want.group(1), "SPECIES_") if want and want.group(1) != "SPECIES_NONE" else "another Pokémon"}', f"src/data/trade.h:{m.group(1)}")
     for name in sorted(set(re.findall(r"TryAddRoamer\((SPECIES_\w+)", (game / "src/roamer.c").read_text()))):
         name = alias.get(name)
         if name in dex:

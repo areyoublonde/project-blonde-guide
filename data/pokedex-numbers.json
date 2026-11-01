@@ -26,7 +26,8 @@
 "johto": 257,
 "national": 1,
 "name": "BULBASAUR",
-"regional_of": null
+"regional_of": null,
+"row": 1
 },
 "2": {
 "no": 2,
@@ -34,7 +35,8 @@
 "johto": 258,
 "national": 2,
 "name": "IVYSAUR",
-"regional_of": null
+"regional_of": null,
+"row": 2
 },
 "3": {
 "no": 3,
@@ -42,7 +44,8 @@
 "johto": 259,
 "national": 3,
 "name": "VENUSAUR",
-"regional_of": null
+"regional_of": null,
+"row": 3
 },
 "4": {
 "no": 4,
@@ -50,7 +53,8 @@
 "johto": 260,
 "national": 4,
 "name": "CHARMANDER",
-"regional_of": null
+"regional_of": null,
+"row": 4
 },
 "5": {
 "no": 5,
@@ -58,7 +62,8 @@
 "johto": 261,
 "national": 5,
 "name": "CHARMELEON",
-"regional_of": null
+"regional_of": null,
+"row": 5
 },
 "6": {
 "no": 6,
@@ -66,7 +71,8 @@
 "johto": 262,
 "national": 6,
 "name": "CHARIZARD",
-"regional_of": null
+"regional_of": null,
+"row": 6
 },
 "7": {
 "no": 7,
@@ -74,7 +80,8 @@
 "johto": 263,
 "national": 7,
 "name": "SQUIRTLE",
-"regional_of": null
+"regional_of": null,
+"row": 7
 },
 "8": {
 "no": 8,
@@ -82,7 +89,8 @@
 "johto": 264,
 "national": 8,
 "name": "WARTORTLE",
-"regional_of": null
+"regional_of": null,
+"row": 8
 },
 "9": {
 "no": 9,
@@ -90,7 +98,8 @@
 "johto": 265,
 "national": 9,
 "name": "BLASTOISE",
-"regional_of": null
+"regional_of": null,
+"row": 9
 },
 "10": {
 "no": 10,
@@ -98,7 +107,8 @@
 "johto": 24,
 "national": 10,
 "name": "CATERPIE",
-"regional_of": null
+"regional_of": null,
+"row": 10
 },
 "11": {
 "no": 11,
@@ -106,7 +116,8 @@
 "johto": 25,
 "national": 11,
 "name": "METAPOD",
-"regional_of": null
+"regional_of": null,
+"row": 11
 },
 "12": {
 "no": 12,
@@ -114,7 +125,8 @@
 "johto": 26,
 "national": 12,
 "name": "BUTTERFREE",
-"regional_of": null
+"regional_of": null,
+"row": 12
 },
 "13": {
 "no": 13,
@@ -122,7 +134,8 @@
 "johto": 27,
 "national": 13,
 "name": "WEEDLE",
-"regional_of": null
+"regional_of": null,
+"row": 13
 },
 "14": {
 "no": 14,
@@ -130,7 +143,8 @@
 "johto": 28,
 "national": 14,
 "name": "KAKUNA",
-"regional_of": null
+"regional_of": null,
+"row": 14
 },
 "15": {
 "no": 15,
@@ -138,7 +152,8 @@
 "johto": 29,
 "national": 15,
 "name": "BEEDRILL",
-"regional_of": null
+"regional_of": null,
+"row": 15
 },
 "16": {
 "no": 16,
@@ -146,7 +161,8 @@
 "johto": 10,
 "national": 16,
 "name": "PIDGEY",
-"regional_of": null
+"regional_of": null,
+"row": 16
 },
 "17": {
 "no": 17,
@@ -154,7 +170,8 @@
 "johto": 11,
 "national": 17,
 "name": "PIDGEOTTO",
-"regional_of": null
+"regional_of": null,
+"row": 17
 },
 "18": {
 "no": 18,
@@ -162,7 +179,8 @@
 "johto": 12,
 "national": 18,
 "name": "PIDGEOT",
-"regional_of": null
+"regional_of": null,
+"row": 18
 },
 "19": {
 "no": 19,
@@ -170,7 +188,8 @@
 "johto": 17,
 "national": 19,
 "name": "RATTATA",
-"regional_of": null
+"regional_of": null,
+"row": 19
 },
 "20": {
 "no": 20,
@@ -178,7 +197,8 @@
 "johto": 18,
 "national": 20,
 "name": "RATICATE",
-"regional_of": null
+"regional_of": null,
+"row": 20
 },
 "21": {
 "no": 21,
@@ -186,7 +206,8 @@
 "johto": 13,
 "national": 21,
 "name": "SPEAROW",
-"regional_of": null
+"regional_of": null,
+"row": 21
 },
 "22": {
 "no": 22,
@@ -194,7 +215,8 @@
 "johto": 14,
 "national": 22,
 "name": "FEAROW",
-"regional_of": null
+"regional_of": null,
+"row": 22
 },
 "23": {
 "no": 23,
@@ -202,7 +224,8 @@
 "johto": 51,
 "national": 23,
 "name": "EKANS",
-"regional_of": null
+"regional_of": null,
+"row": 23
 },
 "24": {
 "no": 24,
@@ -210,7 +233,8 @@
 "johto": 52,
 "national": 24,
 "name": "ARBOK",
-"regional_of": null
+"regional_of": null,
+"row": 24
 },
 "172": {
 "no": 25,
@@ -218,7 +242,8 @@
 "johto": 21,
 "national": 172,
 "name": "PICHU",
-"regional_of": null
+"regional_of": null,
+"row": 172
 },
 "25": {
 "no": 26,
@@ -226,7 +251,8 @@
 "johto": 22,
 "national": 25,
 "name": "PIKACHU",
-"regional_of": null
+"regional_of": null,
+"row": 25
 },
 "26": {
 "no": 27,
@@ -234,7 +260,8 @@
 "johto": 23,
 "national": 26,
 "name": "RAICHU",
-"regional_of": null
+"regional_of": null,
+"row": 26
 },
 "27": {
 "no": 28,
@@ -242,7 +269,8 @@
 "johto": 49,
 "national": 27,
 "name": "SANDSHREW",
-"regional_of": null
+"regional_of": null,
+"row": 27
 },
 "28": {
 "no": 29,
@@ -250,7 +278,8 @@
 "johto": 50,
 "national": 28,
 "name": "SANDSLASH",
-"regional_of": null
+"regional_of": null,
+"row": 28
 },
 "29": {
 "no": 30,
@@ -258,7 +287,8 @@
 "johto": 97,
 "national": 29,
 "name": "NIDORAN♀",
-"regional_of": null
+"regional_of": null,
+"row": 29
 },
 "30": {
 "no": 31,
@@ -266,7 +296,8 @@
 "johto": 98,
 "national": 30,
 "name": "NIDORINA",
-"regional_of": null
+"regional_of": null,
+"row": 30
 },
 "31": {
 "no": 32,
@@ -274,7 +305,8 @@
 "johto": 99,
 "national": 31,
 "name": "NIDOQUEEN",
-"regional_of": null
+"regional_of": null,
+"row": 31
 },
 "32": {
 "no": 33,
@@ -282,7 +314,8 @@
 "johto": 100,
 "national": 32,
 "name": "NIDORAN♂",
-"regional_of": null
+"regional_of": null,
+"row": 32
 },
 "33": {
 "no": 34,
@@ -290,7 +323,8 @@
 "johto": 101,
 "national": 33,
 "name": "NIDORINO",
-"regional_of": null
+"regional_of": null,
+"row": 33
 },
 "34": {
 "no": 35,
@@ -298,7 +332,8 @@
 "johto": 102,
 "national": 34,
 "name": "NIDOKING",
-"regional_of": null
+"regional_of": null,
+"row": 34
 },
 "173": {
 "no": 36,
@@ -306,7 +341,8 @@
 "johto": 40,
 "national": 173,
 "name": "CLEFFA",
-"regional_of": null
+"regional_of": null,
+"row": 173
 },
 "35": {
 "no": 37,
@@ -314,7 +350,8 @@
 "johto": 41,
 "national": 35,
 "name": "CLEFAIRY",
-"regional_of": null
+"regional_of": null,
+"row": 35
 },
 "36": {
 "no": 38,
@@ -322,7 +359,8 @@
 "johto": 42,
 "national": 36,
 "name": "CLEFABLE",
-"regional_of": null
+"regional_of": null,
+"row": 36
 },
 "37": {
 "no": 39,
@@ -330,7 +368,8 @@
 "johto": 133,
 "national": 37,
 "name": "VULPIX",
-"regional_of": null
+"regional_of": null,
+"row": 37
 },
 "38": {
 "no": 40,
@@ -338,7 +377,8 @@
 "johto": 134,
 "national": 38,
 "name": "NINETALES",
-"regional_of": null
+"regional_of": null,
+"row": 38
 },
 "174": {
 "no": 41,
@@ -346,7 +386,8 @@
 "johto": 43,
 "national": 174,
 "name": "IGGLYBUFF",
-"regional_of": null
+"regional_of": null,
+"row": 174
 },
 "39": {
 "no": 42,
@@ -354,7 +395,8 @@
 "johto": 44,
 "national": 39,
 "name": "JIGGLYPUFF",
-"regional_of": null
+"regional_of": null,
+"row": 39
 },
 "40": {
 "no": 43,
@@ -362,7 +404,8 @@
 "johto": 45,
 "national": 40,
 "name": "WIGGLYTUFF",
-"regional_of": null
+"regional_of": null,
+"row": 40
 },
 "41": {
 "no": 44,
@@ -370,7 +413,8 @@
 "johto": 37,
 "national": 41,
 "name": "ZUBAT",
-"regional_of": null
+"regional_of": null,
+"row": 41
 },
 "42": {
 "no": 45,
@@ -378,7 +422,8 @@
 "johto": 38,
 "national": 42,
 "name": "GOLBAT",
-"regional_of": null
+"regional_of": null,
+"row": 42
 },
 "169": {
 "no": 46,
@@ -386,7 +431,8 @@
 "johto": 39,
 "national": 169,
 "name": "CROBAT",
-"regional_of": null
+"regional_of": null,
+"row": 169
 },
 "43": {
 "no": 47,
@@ -394,7 +440,8 @@
 "johto": 85,
 "national": 43,
 "name": "ODDISH",
-"regional_of": null
+"regional_of": null,
+"row": 43
 },
 "44": {
 "no": 48,
@@ -402,7 +449,8 @@
 "johto": 86,
 "national": 44,
 "name": "GLOOM",
-"regional_of": null
+"regional_of": null,
+"row": 44
 },
 "45": {
 "no": 49,
@@ -410,7 +458,8 @@
 "johto": 87,
 "national": 45,
 "name": "VILEPLUME",
-"regional_of": null
+"regional_of": null,
+"row": 45
 },
 "182": {
 "no": 50,
@@ -418,7 +467,8 @@
 "johto": 88,
 "national": 182,
 "name": "BELLOSSOM",
-"regional_of": null
+"regional_of": null,
+"row": 182
 },
 "46": {
 "no": 51,
@@ -426,7 +476,8 @@
 "johto": 72,
 "national": 46,
 "name": "PARAS",
-"regional_of": null
+"regional_of": null,
+"row": 46
 },
 "47": {
 "no": 52,
@@ -434,7 +485,8 @@
 "johto": 73,
 "national": 47,
 "name": "PARASECT",
-"regional_of": null
+"regional_of": null,
+"row": 47
 },
 "48": {
 "no": 53,
@@ -442,7 +494,8 @@
 "johto": 113,
 "national": 48,
 "name": "VENONAT",
-"regional_of": null
+"regional_of": null,
+"row": 48
 },
 "49": {
 "no": 54,
@@ -450,7 +503,8 @@
 "johto": 114,
 "national": 49,
 "name": "VENOMOTH",
-"regional_of": null
+"regional_of": null,
+"row": 49
 },
 "50": {
 "no": 55,
@@ -458,7 +512,8 @@
 "johto": 142,
 "national": 50,
 "name": "DIGLETT",
-"regional_of": null
+"regional_of": null,
+"row": 50
 },
 "51": {
 "no": 56,
@@ -466,7 +521,8 @@
 "johto": 143,
 "national": 51,
 "name": "DUGTRIO",
-"regional_of": null
+"regional_of": null,
+"row": 51
 },
 "52": {
 "no": 57,
@@ -474,7 +530,8 @@
 "johto": 147,
 "national": 52,
 "name": "MEOWTH",
-"regional_of": null
+"regional_of": null,
+"row": 52
 },
 "53": {
 "no": 58,
@@ -482,7 +539,8 @@
 "johto": 148,
 "national": 53,
 "name": "PERSIAN",
-"regional_of": null
+"regional_of": null,
+"row": 53
 },
 "54": {
 "no": 59,
@@ -490,7 +548,8 @@
 "johto": 149,
 "national": 54,
 "name": "PSYDUCK",
-"regional_of": null
+"regional_of": null,
+"row": 54
 },
 "55": {
 "no": 60,
@@ -498,7 +557,8 @@
 "johto": 150,
 "national": 55,
 "name": "GOLDUCK",
-"regional_of": null
+"regional_of": null,
+"row": 55
 },
 "56": {
 "no": 61,
@@ -506,7 +566,8 @@
 "johto": 144,
 "national": 56,
 "name": "MANKEY",
-"regional_of": null
+"regional_of": null,
+"row": 56
 },
 "57": {
 "no": 62,
@@ -514,7 +575,8 @@
 "johto": 145,
 "national": 57,
 "name": "PRIMEAPE",
-"regional_of": null
+"regional_of": null,
+"row": 57
 },
 "979": {
 "no": 63,
@@ -522,7 +584,8 @@
 "johto": 146,
 "national": 979,
 "name": "ANNIHILAPE",
-"regional_of": null
+"regional_of": null,
+"row": 1370
 },
 "58": {
 "no": 64,
@@ -530,7 +593,8 @@
 "johto": 135,
 "national": 58,
 "name": "GROWLITHE",
-"regional_of": null
+"regional_of": null,
+"row": 58
 },
 "59": {
 "no": 65,
@@ -538,7 +602,8 @@
 "johto": 136,
 "national": 59,
 "name": "ARCANINE",
-"regional_of": null
+"regional_of": null,
+"row": 59
 },
 "60": {
 "no": 66,
@@ -546,7 +611,8 @@
 "johto": 74,
 "national": 60,
 "name": "POLIWAG",
-"regional_of": null
+"regional_of": null,
+"row": 60
 },
 "61": {
 "no": 67,
@@ -554,7 +620,8 @@
 "johto": 75,
 "national": 61,
 "name": "POLIWHIRL",
-"regional_of": null
+"regional_of": null,
+"row": 61
 },
 "62": {
 "no": 68,
@@ -562,7 +629,8 @@
 "johto": 76,
 "national": 62,
 "name": "POLIWRATH",
-"regional_of": null
+"regional_of": null,
+"row": 62
 },
 "186": {
 "no": 69,
@@ -570,7 +638,8 @@
 "johto": 77,
 "national": 186,
 "name": "POLITOED",
-"regional_of": null
+"regional_of": null,
+"row": 186
 },
 "63": {
 "no": 70,
@@ -578,7 +647,8 @@
 "johto": 91,
 "national": 63,
 "name": "ABRA",
-"regional_of": null
+"regional_of": null,
+"row": 63
 },
 "64": {
 "no": 71,
@@ -586,7 +656,8 @@
 "johto": 92,
 "national": 64,
 "name": "KADABRA",
-"regional_of": null
+"regional_of": null,
+"row": 64
 },
 "65": {
 "no": 72,
@@ -594,7 +665,8 @@
 "johto": 93,
 "national": 65,
 "name": "ALAKAZAM",
-"regional_of": null
+"regional_of": null,
+"row": 65
 },
 "66": {
 "no": 73,
@@ -602,7 +674,8 @@
 "johto": 151,
 "national": 66,
 "name": "MACHOP",
-"regional_of": null
+"regional_of": null,
+"row": 66
 },
 "67": {
 "no": 74,
@@ -610,7 +683,8 @@
 "johto": 152,
 "national": 67,
 "name": "MACHOKE",
-"regional_of": null
+"regional_of": null,
+"row": 67
 },
 "68": {
 "no": 75,
@@ -618,7 +692,8 @@
 "johto": 153,
 "national": 68,
 "name": "MACHAMP",
-"regional_of": null
+"regional_of": null,
+"row": 68
 },
 "69": {
 "no": 76,
@@ -626,7 +701,8 @@
 "johto": 66,
 "national": 69,
 "name": "BELLSPROUT",
-"regional_of": null
+"regional_of": null,
+"row": 69
 },
 "70": {
 "no": 77,
@@ -634,7 +710,8 @@
 "johto": 67,
 "national": 70,
 "name": "WEEPINBELL",
-"regional_of": null
+"regional_of": null,
+"row": 70
 },
 "71": {
 "no": 78,
@@ -642,7 +719,8 @@
 "johto": 68,
 "national": 71,
 "name": "VICTREEBEL",
-"regional_of": null
+"regional_of": null,
+"row": 71
 },
 "72": {
 "no": 79,
@@ -650,7 +728,8 @@
 "johto": 177,
 "national": 72,
 "name": "TENTACOOL",
-"regional_of": null
+"regional_of": null,
+"row": 72
 },
 "73": {
 "no": 80,
@@ -658,7 +737,8 @@
 "johto": 178,
 "national": 73,
 "name": "TENTACRUEL",
-"regional_of": null
+"regional_of": null,
+"row": 73
 },
 "74": {
 "no": 81,
@@ -666,7 +746,8 @@
 "johto": 34,
 "national": 74,
 "name": "GEODUDE",
-"regional_of": null
+"regional_of": null,
+"row": 74
 },
 "75": {
 "no": 82,
@@ -674,7 +755,8 @@
 "johto": 35,
 "national": 75,
 "name": "GRAVELER",
-"regional_of": null
+"regional_of": null,
+"row": 75
 },
 "76": {
 "no": 83,
@@ -682,7 +764,8 @@
 "johto": 36,
 "national": 76,
 "name": "GOLEM",
-"regional_of": null
+"regional_of": null,
+"row": 76
 },
 "77": {
 "no": 84,
@@ -690,7 +773,8 @@
 "johto": 225,
 "national": 77,
 "name": "PONYTA",
-"regional_of": null
+"regional_of": null,
+"row": 77
 },
 "78": {
 "no": 85,
@@ -698,7 +782,8 @@
 "johto": 226,
 "national": 78,
 "name": "RAPIDASH",
-"regional_of": null
+"regional_of": null,
+"row": 78
 },
 "79": {
 "no": 86,
@@ -706,7 +791,8 @@
 "johto": 82,
 "national": 79,
 "name": "SLOWPOKE",
-"regional_of": null
+"regional_of": null,
+"row": 79
 },
 "80": {
 "no": 87,
@@ -714,7 +800,8 @@
 "johto": 83,
 "national": 80,
 "name": "SLOWBRO",
-"regional_of": null
+"regional_of": null,
+"row": 80
 },
 "199": {
 "no": 88,
@@ -722,7 +809,8 @@
 "johto": 84,
 "national": 199,
 "name": "SLOWKING",
-"regional_of": null
+"regional_of": null,
+"row": 199
 },
 "81": {
 "no": 89,
@@ -730,7 +818,8 @@
 "johto": 124,
 "national": 81,
 "name": "MAGNEMITE",
-"regional_of": null
+"regional_of": null,
+"row": 81
 },
 "82": {
 "no": 90,
@@ -738,7 +827,8 @@
 "johto": 125,
 "national": 82,
 "name": "MAGNETON",
-"regional_of": null
+"regional_of": null,
+"row": 82
 },
 "462": {
 "no": 91,
@@ -746,7 +836,8 @@
 "johto": 126,
 "national": 462,
 "name": "MAGNEZONE",
-"regional_of": null
+"regional_of": null,
+"row": 462
 },
 "83": {
 "no": 92,
@@ -754,7 +845,8 @@
 "johto": 173,
 "national": 83,
 "name": "FARFETCH'D",
-"regional_of": null
+"regional_of": null,
+"row": 83
 },
 "84": {
 "no": 93,
@@ -762,7 +854,8 @@
 "johto": 223,
 "national": 84,
 "name": "DODUO",
-"regional_of": null
+"regional_of": null,
+"row": 84
 },
 "85": {
 "no": 94,
@@ -770,7 +863,8 @@
 "johto": 224,
 "national": 85,
 "name": "DODRIO",
-"regional_of": null
+"regional_of": null,
+"row": 85
 },
 "86": {
 "no": 95,
@@ -778,7 +872,8 @@
 "johto": 191,
 "national": 86,
 "name": "SEEL",
-"regional_of": null
+"regional_of": null,
+"row": 86
 },
 "87": {
 "no": 96,
@@ -786,7 +881,8 @@
 "johto": 192,
 "national": 87,
 "name": "DEWGONG",
-"regional_of": null
+"regional_of": null,
+"row": 87
 },
 "88": {
 "no": 97,
@@ -794,7 +890,8 @@
 "johto": 122,
 "national": 88,
 "name": "GRIMER",
-"regional_of": null
+"regional_of": null,
+"row": 88
 },
 "89": {
 "no": 98,
@@ -802,7 +899,8 @@
 "johto": 123,
 "national": 89,
 "name": "MUK",
-"regional_of": null
+"regional_of": null,
+"row": 89
 },
 "90": {
 "no": 99,
@@ -810,7 +908,8 @@
 "johto": 184,
 "national": 90,
 "name": "SHELLDER",
-"regional_of": null
+"regional_of": null,
+"row": 90
 },
 "91": {
 "no": 100,
@@ -818,7 +917,8 @@
 "johto": 185,
 "national": 91,
 "name": "CLOYSTER",
-"regional_of": null
+"regional_of": null,
+"row": 91
 },
 "92": {
 "no": 101,
@@ -826,7 +926,8 @@
 "johto": 60,
 "national": 92,
 "name": "GASTLY",
-"regional_of": null
+"regional_of": null,
+"row": 92
 },
 "93": {
 "no": 102,
@@ -834,7 +935,8 @@
 "johto": 61,
 "national": 93,
 "name": "HAUNTER",
-"regional_of": null
+"regional_of": null,
+"row": 93
 },
 "94": {
 "no": 103,
@@ -842,7 +944,8 @@
 "johto": 62,
 "national": 94,
 "name": "GENGAR",
-"regional_of": null
+"regional_of": null,
+"row": 94
 },
 "95": {
 "no": 104,
@@ -850,7 +953,8 @@
 "johto": 64,
 "national": 95,
 "name": "ONIX",
-"regional_of": null
+"regional_of": null,
+"row": 95
 },
 "208": {
 "no": 105,
@@ -858,7 +962,8 @@
 "johto": 65,
 "national": 208,
 "name": "STEELIX",
-"regional_of": null
+"regional_of": null,
+"row": 208
 },
 "96": {
 "no": 106,
@@ -866,7 +971,8 @@
 "johto": 89,
 "national": 96,
 "name": "DROWZEE",
-"regional_of": null
+"regional_of": null,
+"row": 96
 },
 "97": {
 "no": 107,
@@ -874,7 +980,8 @@
 "johto": 90,
 "national": 97,
 "name": "HYPNO",
-"regional_of": null
+"regional_of": null,
+"row": 97
 },
 "98": {
 "no": 108,
@@ -882,7 +989,8 @@
 "johto": 179,
 "national": 98,
 "name": "KRABBY",
-"regional_of": null
+"regional_of": null,
+"row": 98
 },
 "99": {
 "no": 109,
@@ -890,7 +998,8 @@
 "johto": 180,
 "national": 99,
 "name": "KINGLER",
-"regional_of": null
+"regional_of": null,
+"row": 99
 },
 "100": {
 "no": 110,
@@ -898,7 +1007,8 @@
 "johto": 127,
 "national": 100,
 "name": "VOLTORB",
-"regional_of": null
+"regional_of": null,
+"row": 100
 },
 "101": {
 "no": 111,
@@ -906,7 +1016,8 @@
 "johto": 128,
 "national": 101,
 "name": "ELECTRODE",
-"regional_of": null
+"regional_of": null,
+"row": 101
 },
 "102": {
 "no": 112,
@@ -914,7 +1025,8 @@
 "johto": 107,
 "national": 102,
 "name": "EXEGGCUTE",
-"regional_of": null
+"regional_of": null,
+"row": 102
 },
 "103": {
 "no": 113,
@@ -922,7 +1034,8 @@
 "johto": 108,
 "national": 103,
 "name": "EXEGGUTOR",
-"regional_of": null
+"regional_of": null,
+"row": 103
 },
 "104": {
 "no": 114,
@@ -930,7 +1043,8 @@
 "johto": 227,
 "national": 104,
 "name": "CUBONE",
-"regional_of": null
+"regional_of": null,
+"row": 104
 },
 "105": {
 "no": 115,
@@ -938,7 +1052,8 @@
 "johto": 228,
 "national": 105,
 "name": "MAROWAK",
-"regional_of": null
+"regional_of": null,
+"row": 105
 },
 "236": {
 "no": 116,
@@ -946,7 +1061,8 @@
 "johto": 154,
 "national": 236,
 "name": "TYROGUE",
-"regional_of": null
+"regional_of": null,
+"row": 236
 },
 "106": {
 "no": 117,
@@ -954,7 +1070,8 @@
 "johto": 155,
 "national": 106,
 "name": "HITMONLEE",
-"regional_of": null
+"regional_of": null,
+"row": 106
 },
 "107": {
 "no": 118,
@@ -962,7 +1079,8 @@
 "johto": 156,
 "national": 107,
 "name": "HITMONCHAN",
-"regional_of": null
+"regional_of": null,
+"row": 107
 },
 "237": {
 "no": 119,
@@ -970,7 +1088,8 @@
 "johto": 157,
 "national": 237,
 "name": "HITMONTOP",
-"regional_of": null
+"regional_of": null,
+"row": 237
 },
 "108": {
 "no": 120,
@@ -978,7 +1097,8 @@
 "johto": 193,
 "national": 108,
 "name": "LICKITUNG",
-"regional_of": null
+"regional_of": null,
+"row": 108
 },
 "463": {
 "no": 121,
@@ -986,7 +1106,8 @@
 "johto": 194,
 "national": 463,
 "name": "LICKILICKY",
-"regional_of": null
+"regional_of": null,
+"row": 463
 },
 "109": {
 "no": 122,
@@ -994,7 +1115,8 @@
 "johto": 120,
 "national": 109,
 "name": "KOFFING",
-"regional_of": null
+"regional_of": null,
+"row": 109
 },
 "110": {
 "no": 123,
@@ -1002,7 +1124,8 @@
 "johto": 121,
 "national": 110,
 "name": "WEEZING",
-"regional_of": null
+"regional_of": null,
+"row": 110
 },
 "111": {
 "no": 124,
@@ -1010,7 +1133,8 @@
 "johto": 230,
 "national": 111,
 "name": "RHYHORN",
-"regional_of": null
+"regional_of": null,
+"row": 111
 },
 "112": {
 "no": 125,
@@ -1018,7 +1142,8 @@
 "johto": 231,
 "national": 112,
 "name": "RHYDON",
-"regional_of": null
+"regional_of": null,
+"row": 112
 },
 "464": {
 "no": 126,
@@ -1026,7 +1151,8 @@
 "johto": 232,
 "national": 464,
 "name": "RHYPERIOR",
-"regional_of": null
+"regional_of": null,
+"row": 464
 },
 "440": {
 "no": 127,
@@ -1034,7 +1160,8 @@
 "johto": 246,
 "national": 440,
 "name": "HAPPINY",
-"regional_of": null
+"regional_of": null,
+"row": 440
 },
 "113": {
 "no": 128,
@@ -1042,7 +1169,8 @@
 "johto": 247,
 "national": 113,
 "name": "CHANSEY",
-"regional_of": null
+"regional_of": null,
+"row": 113
 },
 "242": {
 "no": 129,
@@ -1050,7 +1178,8 @@
 "johto": 248,
 "national": 242,
 "name": "BLISSEY",
-"regional_of": null
+"regional_of": null,
+"row": 242
 },
 "114": {
 "no": 130,
@@ -1058,7 +1187,8 @@
 "johto": 195,
 "national": 114,
 "name": "TANGELA",
-"regional_of": null
+"regional_of": null,
+"row": 114
 },
 "465": {
 "no": 131,
@@ -1066,7 +1196,8 @@
 "johto": 196,
 "national": 465,
 "name": "TANGROWTH",
-"regional_of": null
+"regional_of": null,
+"row": 465
 },
 "115": {
 "no": 132,
@@ -1074,7 +1205,8 @@
 "johto": 229,
 "national": 115,
 "name": "KANGASKHAN",
-"regional_of": null
+"regional_of": null,
+"row": 115
 },
 "116": {
 "no": 133,
@@ -1082,7 +1214,8 @@
 "johto": 206,
 "national": 116,
 "name": "HORSEA",
-"regional_of": null
+"regional_of": null,
+"row": 116
 },
 "117": {
 "no": 134,
@@ -1090,7 +1223,8 @@
 "johto": 207,
 "national": 117,
 "name": "SEADRA",
-"regional_of": null
+"regional_of": null,
+"row": 117
 },
 "230": {
 "no": 135,
@@ -1098,7 +1232,8 @@
 "johto": 208,
 "national": 230,
 "name": "KINGDRA",
-"regional_of": null
+"regional_of": null,
+"row": 230
 },
 "118": {
 "no": 136,
@@ -1106,7 +1241,8 @@
 "johto": 80,
 "national": 118,
 "name": "GOLDEEN",
-"regional_of": null
+"regional_of": null,
+"row": 118
 },
 "119": {
 "no": 137,
@@ -1114,7 +1250,8 @@
 "johto": 81,
 "national": 119,
 "name": "SEAKING",
-"regional_of": null
+"regional_of": null,
+"row": 119
 },
 "120": {
 "no": 138,
@@ -1122,7 +1259,8 @@
 "johto": 182,
 "national": 120,
 "name": "STARYU",
-"regional_of": null
+"regional_of": null,
+"row": 120
 },
 "121": {
 "no": 139,
@@ -1130,7 +1268,8 @@
 "johto": 183,
 "national": 121,
 "name": "STARMIE",
-"regional_of": null
+"regional_of": null,
+"row": 121
 },
 "439": {
 "no": 140,
@@ -1138,7 +1277,8 @@
 "johto": 170,
 "national": 439,
 "name": "MIME JR.",
-"regional_of": null
+"regional_of": null,
+"row": 439
 },
 "122": {
 "no": 141,
@@ -1146,7 +1286,8 @@
 "johto": 171,
 "national": 122,
 "name": "MR. MIME",
-"regional_of": null
+"regional_of": null,
+"row": 122
 },
 "123": {
 "no": 142,
@@ -1154,7 +1295,8 @@
 "johto": 115,
 "national": 123,
 "name": "SCYTHER",
-"regional_of": null
+"regional_of": null,
+"row": 123
 },
 "212": {
 "no": 143,
@@ -1162,7 +1304,8 @@
 "johto": 116,
 "national": 212,
 "name": "SCIZOR",
-"regional_of": null
+"regional_of": null,
+"row": 212
 },
 "900": {
 "no": 144,
@@ -1170,7 +1313,8 @@
 "johto": 117,
 "national": 900,
 "name": "KLEAVOR",
-"regional_of": null
+"regional_of": null,
+"row": 900
 },
 "238": {
 "no": 145,
@@ -1178,7 +1322,8 @@
 "johto": 165,
 "national": 238,
 "name": "SMOOCHUM",
-"regional_of": null
+"regional_of": null,
+"row": 238
 },
 "124": {
 "no": 146,
@@ -1186,7 +1331,8 @@
 "johto": 166,
 "national": 124,
 "name": "JYNX",
-"regional_of": null
+"regional_of": null,
+"row": 124
 },
 "239": {
 "no": 147,
@@ -1194,7 +1340,8 @@
 "johto": 167,
 "national": 239,
 "name": "ELEKID",
-"regional_of": null
+"regional_of": null,
+"row": 239
 },
 "125": {
 "no": 148,
@@ -1202,7 +1349,8 @@
 "johto": 168,
 "national": 125,
 "name": "ELECTABUZZ",
-"regional_of": null
+"regional_of": null,
+"row": 125
 },
 "466": {
 "no": 149,
@@ -1210,7 +1358,8 @@
 "johto": 169,
 "national": 466,
 "name": "ELECTIVIRE",
-"regional_of": null
+"regional_of": null,
+"row": 466
 },
 "240": {
 "no": 150,
@@ -1218,7 +1367,8 @@
 "johto": 162,
 "national": 240,
 "name": "MAGBY",
-"regional_of": null
+"regional_of": null,
+"row": 240
 },
 "126": {
 "no": 151,
@@ -1226,7 +1376,8 @@
 "johto": 163,
 "national": 126,
 "name": "MAGMAR",
-"regional_of": null
+"regional_of": null,
+"row": 126
 },
 "467": {
 "no": 152,
@@ -1234,7 +1385,8 @@
 "johto": 164,
 "national": 467,
 "name": "MAGMORTAR",
-"regional_of": null
+"regional_of": null,
+"row": 467
 },
 "127": {
 "no": 153,
@@ -1242,7 +1394,8 @@
 "johto": 118,
 "national": 127,
 "name": "PINSIR",
-"regional_of": null
+"regional_of": null,
+"row": 127
 },
 "128": {
 "no": 154,
@@ -1250,7 +1403,8 @@
 "johto": 160,
 "national": 128,
 "name": "TAUROS",
-"regional_of": null
+"regional_of": null,
+"row": 128
 },
 "129": {
 "no": 155,
@@ -1258,7 +1412,8 @@
 "johto": 78,
 "national": 129,
 "name": "MAGIKARP",
-"regional_of": null
+"regional_of": null,
+"row": 129
 },
 "130": {
 "no": 156,
@@ -1266,7 +1421,8 @@
 "johto": 79,
 "national": 130,
 "name": "GYARADOS",
-"regional_of": null
+"regional_of": null,
+"row": 130
 },
 "131": {
 "no": 157,
@@ -1274,7 +1430,8 @@
 "johto": 249,
 "national": 131,
 "name": "LAPRAS",
-"regional_of": null
+"regional_of": null,
+"row": 131
 },
 "132": {
 "no": 158,
@@ -1282,7 +1439,8 @@
 "johto": 94,
 "national": 132,
 "name": "DITTO",
-"regional_of": null
+"regional_of": null,
+"row": 132
 },
 "133": {
 "no": 159,
@@ -1290,7 +1448,8 @@
 "johto": 197,
 "national": 133,
 "name": "EEVEE",
-"regional_of": null
+"regional_of": null,
+"row": 133
 },
 "134": {
 "no": 160,
@@ -1298,7 +1457,8 @@
 "johto": 198,
 "national": 134,
 "name": "VAPOREON",
-"regional_of": null
+"regional_of": null,
+"row": 134
 },
 "135": {
 "no": 161,
@@ -1306,7 +1466,8 @@
 "johto": 199,
 "national": 135,
 "name": "JOLTEON",
-"regional_of": null
+"regional_of": null,
+"row": 135
 },
 "136": {
 "no": 162,
@@ -1314,7 +1475,8 @@
 "johto": 200,
 "national": 136,
 "name": "FLAREON",
-"regional_of": null
+"regional_of": null,
+"row": 136
 },
 "196": {
 "no": 163,
@@ -1322,7 +1484,8 @@
 "johto": 201,
 "national": 196,
 "name": "ESPEON",
-"regional_of": null
+"regional_of": null,
+"row": 196
 },
 "197": {
 "no": 164,
@@ -1330,7 +1493,8 @@
 "johto": 202,
 "national": 197,
 "name": "UMBREON",
-"regional_of": null
+"regional_of": null,
+"row": 197
 },
 "470": {
 "no": 165,
@@ -1338,7 +1502,8 @@
 "johto": 203,
 "national": 470,
 "name": "LEAFEON",
-"regional_of": null
+"regional_of": null,
+"row": 470
 },
 "471": {
 "no": 166,
@@ -1346,7 +1511,8 @@
 "johto": 204,
 "national": 471,
 "name": "GLACEON",
-"regional_of": null
+"regional_of": null,
+"row": 471
 },
 "700": {
 "no": 167,
@@ -1354,7 +1520,8 @@
 "johto": 205,
 "national": 700,
 "name": "SYLVEON",
-"regional_of": null
+"regional_of": null,
+"row": 700
 },
 "137": {
 "no": 168,
@@ -1362,7 +1529,8 @@
 "johto": 243,
 "national": 137,
 "name": "PORYGON",
-"regional_of": null
+"regional_of": null,
+"row": 137
 },
 "233": {
 "no": 169,
@@ -1370,7 +1538,8 @@
 "johto": 244,
 "national": 233,
 "name": "PORYGON2",
-"regional_of": null
+"regional_of": null,
+"row": 233
 },
 "474": {
 "no": 170,
@@ -1378,7 +1547,8 @@
 "johto": 245,
 "national": 474,
 "name": "PORYGON-Z",
-"regional_of": null
+"regional_of": null,
+"row": 474
 },
 "138": {
 "no": 171,
@@ -1386,7 +1556,8 @@
 "johto": 250,
 "national": 138,
 "name": "OMANYTE",
-"regional_of": null
+"regional_of": null,
+"row": 138
 },
 "139": {
 "no": 172,
@@ -1394,7 +1565,8 @@
 "johto": 251,
 "national": 139,
 "name": "OMASTAR",
-"regional_of": null
+"regional_of": null,
+"row": 139
 },
 "140": {
 "no": 173,
@@ -1402,7 +1574,8 @@
 "johto": 252,
 "national": 140,
 "name": "KABUTO",
-"regional_of": null
+"regional_of": null,
+"row": 140
 },
 "141": {
 "no": 174,
@@ -1410,7 +1583,8 @@
 "johto": 253,
 "national": 141,
 "name": "KABUTOPS",
-"regional_of": null
+"regional_of": null,
+"row": 141
 },
 "142": {
 "no": 175,
@@ -1418,7 +1592,8 @@
 "johto": 254,
 "national": 142,
 "name": "AERODACTYL",
-"regional_of": null
+"regional_of": null,
+"row": 142
 },
 "446": {
 "no": 176,
@@ -1426,7 +1601,8 @@
 "johto": 255,
 "national": 446,
 "name": "MUNCHLAX",
-"regional_of": null
+"regional_of": null,
+"row": 446
 },
 "143": {
 "no": 177,
@@ -1434,7 +1610,8 @@
 "johto": 256,
 "national": 143,
 "name": "SNORLAX",
-"regional_of": null
+"regional_of": null,
+"row": 143
 },
 "144": {
 "no": 178,
@@ -1442,7 +1619,8 @@
 "johto": 266,
 "national": 144,
 "name": "ARTICUNO",
-"regional_of": null
+"regional_of": null,
+"row": 144
 },
 "145": {
 "no": 179,
@@ -1450,7 +1628,8 @@
 "johto": 267,
 "national": 145,
 "name": "ZAPDOS",
-"regional_of": null
+"regional_of": null,
+"row": 145
 },
 "146": {
 "no": 180,
@@ -1458,7 +1637,8 @@
 "johto": 268,
 "national": 146,
 "name": "MOLTRES",
-"regional_of": null
+"regional_of": null,
+"row": 146
 },
 "147": {
 "no": 181,
@@ -1466,7 +1646,8 @@
 "johto": 272,
 "national": 147,
 "name": "DRATINI",
-"regional_of": null
+"regional_of": null,
+"row": 147
 },
 "148": {
 "no": 182,
@@ -1474,7 +1655,8 @@
 "johto": 273,
 "national": 148,
 "name": "DRAGONAIR",
-"regional_of": null
+"regional_of": null,
+"row": 148
 },
 "149": {
 "no": 183,
@@ -1482,7 +1664,8 @@
 "johto": 274,
 "national": 149,
 "name": "DRAGONITE",
-"regional_of": null
+"regional_of": null,
+"row": 149
 },
 "150": {
 "no": 184,
@@ -1490,7 +1673,8 @@
 "johto": 280,
 "national": 150,
 "name": "MEWTWO",
-"regional_of": null
+"regional_of": null,
+"row": 150
 },
 "151": {
 "no": 185,
@@ -1498,7 +1682,8 @@
 "johto": 281,
 "national": 151,
 "name": "MEW",
-"regional_of": null
+"regional_of": null,
+"row": 151
 },
 "152": {
 "no": 186,
@@ -1506,7 +1691,8 @@
 "johto": 1,
 "national": 152,
 "name": "CHIKORITA",
-"regional_of": null
+"regional_of": null,
+"row": 152
 },
 "153": {
 "no": 187,
@@ -1514,7 +1700,8 @@
 "johto": 2,
 "national": 153,
 "name": "BAYLEEF",
-"regional_of": null
+"regional_of": null,
+"row": 153
 },
 "154": {
 "no": 188,
@@ -1522,7 +1709,8 @@
 "johto": 3,
 "national": 154,
 "name": "MEGANIUM",
-"regional_of": null
+"regional_of": null,
+"row": 154
 },
 "155": {
 "no": 189,
@@ -1530,7 +1718,8 @@
 "johto": 4,
 "national": 155,
 "name": "CYNDAQUIL",
-"regional_of": null
+"regional_of": null,
+"row": 155
 },
 "156": {
 "no": 190,
@@ -1538,7 +1727,8 @@
 "johto": 5,
 "national": 156,
 "name": "QUILAVA",
-"regional_of": null
+"regional_of": null,
+"row": 156
 },
 "157": {
 "no": 191,
@@ -1546,7 +1736,8 @@
 "johto": 6,
 "national": 157,
 "name": "TYPHLOSION",
-"regional_of": null
+"regional_of": null,
+"row": 157
 },
 "158": {
 "no": 192,
@@ -1554,7 +1745,8 @@
 "johto": 7,
 "national": 158,
 "name": "TOTODILE",
-"regional_of": null
+"regional_of": null,
+"row": 158
 },
 "159": {
 "no": 193,
@@ -1562,7 +1754,8 @@
 "johto": 8,
 "national": 159,
 "name": "CROCONAW",
-"regional_of": null
+"regional_of": null,
+"row": 159
 },
 "160": {
 "no": 194,
@@ -1570,7 +1763,8 @@
 "johto": 9,
 "national": 160,
 "name": "FERALIGATR",
-"regional_of": null
+"regional_of": null,
+"row": 160
 },
 "161": {
 "no": 195,
@@ -1578,7 +1772,8 @@
 "johto": 19,
 "national": 161,
 "name": "SENTRET",
-"regional_of": null
+"regional_of": null,
+"row": 161
 },
 "162": {
 "no": 196,
@@ -1586,7 +1781,8 @@
 "johto": 20,
 "national": 162,
 "name": "FURRET",
-"regional_of": null
+"regional_of": null,
+"row": 162
 },
 "163": {
 "no": 197,
@@ -1594,7 +1790,8 @@
 "johto": 15,
 "national": 163,
 "name": "HOOTHOOT",
-"regional_of": null
+"regional_of": null,
+"row": 163
 },
 "164": {
 "no": 198,
@@ -1602,7 +1799,8 @@
 "johto": 16,
 "national": 164,
 "name": "NOCTOWL",
-"regional_of": null
+"regional_of": null,
+"row": 164
 },
 "165": {
 "no": 199,
@@ -1610,7 +1808,8 @@
 "johto": 30,
 "national": 165,
 "name": "LEDYBA",
-"regional_of": null
+"regional_of": null,
+"row": 165
 },
 "166": {
 "no": 200,
@@ -1618,7 +1817,8 @@
 "johto": 31,
 "national": 166,
 "name": "LEDIAN",
-"regional_of": null
+"regional_of": null,
+"row": 166
 },
 "167": {
 "no": 201,
@@ -1626,7 +1826,8 @@
 "johto": 32,
 "national": 167,
 "name": "SPINARAK",
-"regional_of": null
+"regional_of": null,
+"row": 167
 },
 "168": {
 "no": 202,
@@ -1634,7 +1835,8 @@
 "johto": 33,
 "national": 168,
 "name": "ARIADOS",
-"regional_of": null
+"regional_of": null,
+"row": 168
 },
 "170": {
 "no": 203,
@@ -1642,7 +1844,8 @@
 "johto": 189,
 "national": 170,
 "name": "CHINCHOU",
-"regional_of": null
+"regional_of": null,
+"row": 170
 },
 "171": {
 "no": 204,
@@ -1650,7 +1853,8 @@
 "johto": 190,
 "national": 171,
 "name": "LANTURN",
-"regional_of": null
+"regional_of": null,
+"row": 171
 },
 "175": {
 "no": 205,
@@ -1658,7 +1862,8 @@
 "johto": 46,
 "national": 175,
 "name": "TOGEPI",
-"regional_of": null
+"regional_of": null,
+"row": 175
 },
 "176": {
 "no": 206,
@@ -1666,7 +1871,8 @@
 "johto": 47,
 "national": 176,
 "name": "TOGETIC",
-"regional_of": null
+"regional_of": null,
+"row": 176
 },
 "468": {
 "no": 207,
@@ -1674,7 +1880,8 @@
 "johto": 48,
 "national": 468,
 "name": "TOGEKISS",
-"regional_of": null
+"regional_of": null,
+"row": 468
 },
 "177": {
 "no": 208,
@@ -1682,7 +1889,8 @@
 "johto": 174,
 "national": 177,
 "name": "NATU",
-"regional_of": null
+"regional_of": null,
+"row": 177
 },
 "178": {
 "no": 209,
@@ -1690,7 +1898,8 @@
 "johto": 175,
 "national": 178,
 "name": "XATU",
-"regional_of": null
+"regional_of": null,
+"row": 178
 },
 "179": {
 "no": 210,
@@ -1698,7 +1907,8 @@
 "johto": 55,
 "national": 179,
 "name": "MAREEP",
-"regional_of": null
+"regional_of": null,
+"row": 179
 },
 "180": {
 "no": 211,
@@ -1706,7 +1916,8 @@
 "johto": 56,
 "national": 180,
 "name": "FLAAFFY",
-"regional_of": null
+"regional_of": null,
+"row": 180
 },
 "181": {
 "no": 212,
@@ -1714,7 +1925,8 @@
 "johto": 57,
 "national": 181,
 "name": "AMPHAROS",
-"regional_of": null
+"regional_of": null,
+"row": 181
 },
 "298": {
 "no": 213,
@@ -1722,7 +1934,8 @@
 "johto": 139,
 "national": 298,
 "name": "AZURILL",
-"regional_of": null
+"regional_of": null,
+"row": 298
 },
 "183": {
 "no": 214,
@@ -1730,7 +1943,8 @@
 "johto": 140,
 "national": 183,
 "name": "MARILL",
-"regional_of": null
+"regional_of": null,
+"row": 183
 },
 "184": {
 "no": 215,
@@ -1738,7 +1952,8 @@
 "johto": 141,
 "national": 184,
 "name": "AZUMARILL",
-"regional_of": null
+"regional_of": null,
+"row": 184
 },
 "438": {
 "no": 216,
@@ -1746,7 +1961,8 @@
 "johto": 109,
 "national": 438,
 "name": "BONSLY",
-"regional_of": null
+"regional_of": null,
+"row": 438
 },
 "185": {
 "no": 217,
@@ -1754,7 +1970,8 @@
 "johto": 110,
 "national": 185,
 "name": "SUDOWOODO",
-"regional_of": null
+"regional_of": null,
+"row": 185
 },
 "187": {
 "no": 218,
@@ -1762,7 +1979,8 @@
 "johto": 69,
 "national": 187,
 "name": "HOPPIP",
-"regional_of": null
+"regional_of": null,
+"row": 187
 },
 "188": {
 "no": 219,
@@ -1770,7 +1988,8 @@
 "johto": 70,
 "national": 188,
 "name": "SKIPLOOM",
-"regional_of": null
+"regional_of": null,
+"row": 188
 },
 "189": {
 "no": 220,
@@ -1778,7 +1997,8 @@
 "johto": 71,
 "national": 189,
 "name": "JUMPLUFF",
-"regional_of": null
+"regional_of": null,
+"row": 189
 },
 "190": {
 "no": 221,
@@ -1786,7 +2006,8 @@
 "johto": 129,
 "national": 190,
 "name": "AIPOM",
-"regional_of": null
+"regional_of": null,
+"row": 190
 },
 "424": {
 "no": 222,
@@ -1794,7 +2015,8 @@
 "johto": 130,
 "national": 424,
 "name": "AMBIPOM",
-"regional_of": null
+"regional_of": null,
+"row": 424
 },
 "191": {
 "no": 223,
@@ -1802,7 +2024,8 @@
 "johto": 105,
 "national": 191,
 "name": "SUNKERN",
-"regional_of": null
+"regional_of": null,
+"row": 191
 },
 "192": {
 "no": 224,
@@ -1810,7 +2033,8 @@
 "johto": 106,
 "national": 192,
 "name": "SUNFLORA",
-"regional_of": null
+"regional_of": null,
+"row": 192
 },
 "193": {
 "no": 225,
@@ -1818,7 +2042,8 @@
 "johto": 103,
 "national": 193,
 "name": "YANMA",
-"regional_of": null
+"regional_of": null,
+"row": 193
 },
 "469": {
 "no": 226,
@@ -1826,7 +2051,8 @@
 "johto": 104,
 "national": 469,
 "name": "YANMEGA",
-"regional_of": null
+"regional_of": null,
+"row": 469
 },
 "194": {
 "no": 227,
@@ -1834,7 +2060,8 @@
 "johto": 58,
 "national": 194,
 "name": "WOOPER",
-"regional_of": null
+"regional_of": null,
+"row": 194
 },
 "195": {
 "no": 228,
@@ -1842,7 +2069,8 @@
 "johto": 59,
 "national": 195,
 "name": "QUAGSIRE",
-"regional_of": null
+"regional_of": null,
+"row": 195
 },
 "198": {
 "no": 229,
@@ -1850,7 +2078,8 @@
 "johto": 233,
 "national": 198,
 "name": "MURKROW",
-"regional_of": null
+"regional_of": null,
+"row": 198
 },
 "430": {
 "no": 230,
@@ -1858,7 +2087,8 @@
 "johto": 234,
 "national": 430,
 "name": "HONCHKROW",
-"regional_of": null
+"regional_of": null,
+"row": 430
 },
 "200": {
 "no": 231,
@@ -1866,7 +2096,8 @@
 "johto": 241,
 "national": 200,
 "name": "MISDREAVUS",
-"regional_of": null
+"regional_of": null,
+"row": 200
 },
 "429": {
 "no": 232,
@@ -1874,7 +2105,8 @@
 "johto": 242,
 "national": 429,
 "name": "MISMAGIUS",
-"regional_of": null
+"regional_of": null,
+"row": 429
 },
 "201": {
 "no": 233,
@@ -1882,7 +2114,8 @@
 "johto": 63,
 "national": 201,
 "name": "UNOWN",
-"regional_of": null
+"regional_of": null,
+"row": 201
 },
 "360": {
 "no": 234,
@@ -1890,7 +2123,8 @@
 "johto": 111,
 "national": 360,
 "name": "WYNAUT",
-"regional_of": null
+"regional_of": null,
+"row": 360
 },
 "202": {
 "no": 235,
@@ -1898,7 +2132,8 @@
 "johto": 112,
 "national": 202,
 "name": "WOBBUFFET",
-"regional_of": null
+"regional_of": null,
+"row": 202
 },
 "203": {
 "no": 236,
@@ -1906,7 +2141,8 @@
 "johto": 158,
 "national": 203,
 "name": "GIRAFARIG",
-"regional_of": null
+"regional_of": null,
+"row": 203
 },
 "981": {
 "no": 237,
@@ -1914,7 +2150,8 @@
 "johto": 159,
 "national": 981,
 "name": "FARIGIRAF",
-"regional_of": null
+"regional_of": null,
+"row": 1372
 },
 "204": {
 "no": 238,
@@ -1922,7 +2159,8 @@
 "johto": 95,
 "national": 204,
 "name": "PINECO",
-"regional_of": null
+"regional_of": null,
+"row": 204
 },
 "205": {
 "no": 239,
@@ -1930,7 +2168,8 @@
 "johto": 96,
 "national": 205,
 "name": "FORRETRESS",
-"regional_of": null
+"regional_of": null,
+"row": 205
 },
 "206": {
 "no": 240,
@@ -1938,7 +2177,8 @@
 "johto": 53,
 "national": 206,
 "name": "DUNSPARCE",
-"regional_of": null
+"regional_of": null,
+"row": 206
 },
 "982": {
 "no": 241,
@@ -1946,7 +2186,8 @@
 "johto": 54,
 "national": 982,
 "name": "DUDUNSPARCE",
-"regional_of": null
+"regional_of": null,
+"row": 1373
 },
 "207": {
 "no": 242,
@@ -1954,7 +2195,8 @@
 "johto": 209,
 "national": 207,
 "name": "GLIGAR",
-"regional_of": null
+"regional_of": null,
+"row": 207
 },
 "472": {
 "no": 243,
@@ -1962,7 +2204,8 @@
 "johto": 210,
 "national": 472,
 "name": "GLISCOR",
-"regional_of": null
+"regional_of": null,
+"row": 472
 },
 "209": {
 "no": 244,
@@ -1970,7 +2213,8 @@
 "johto": 131,
 "national": 209,
 "name": "SNUBBULL",
-"regional_of": null
+"regional_of": null,
+"row": 209
 },
 "210": {
 "no": 245,
@@ -1978,7 +2222,8 @@
 "johto": 132,
 "national": 210,
 "name": "GRANBULL",
-"regional_of": null
+"regional_of": null,
+"row": 210
 },
 "211": {
 "no": 246,
@@ -1986,7 +2231,8 @@
 "johto": 176,
 "national": 211,
 "name": "QWILFISH",
-"regional_of": null
+"regional_of": null,
+"row": 211
 },
 "213": {
 "no": 247,
@@ -1994,7 +2240,8 @@
 "johto": 181,
 "national": 213,
 "name": "SHUCKLE",
-"regional_of": null
+"regional_of": null,
+"row": 213
 },
 "214": {
 "no": 248,
@@ -2002,7 +2249,8 @@
 "johto": 119,
 "national": 214,
 "name": "HERACROSS",
-"regional_of": null
+"regional_of": null,
+"row": 214
 },
 "215": {
 "no": 249,
@@ -2010,7 +2258,8 @@
 "johto": 239,
 "national": 215,
 "name": "SNEASEL",
-"regional_of": null
+"regional_of": null,
+"row": 215
 },
 "461": {
 "no": 250,
@@ -2018,7 +2267,8 @@
 "johto": 240,
 "national": 461,
 "name": "WEAVILE",
-"regional_of": null
+"regional_of": null,
+"row": 461
 },
 "216": {
 "no": 251,
@@ -2026,7 +2276,8 @@
 "johto": 215,
 "national": 216,
 "name": "TEDDIURSA",
-"regional_of": null
+"regional_of": null,
+"row": 216
 },
 "217": {
 "no": 252,
@@ -2034,7 +2285,8 @@
 "johto": 216,
 "national": 217,
 "name": "URSARING",
-"regional_of": null
+"regional_of": null,
+"row": 217
 },
 "901": {
 "no": 253,
@@ -2042,7 +2294,8 @@
 "johto": 217,
 "national": 901,
 "name": "URSALUNA",
-"regional_of": null
+"regional_of": null,
+"row": 901
 },
 "218": {
 "no": 254,
@@ -2050,7 +2303,8 @@
 "johto": 237,
 "national": 218,
 "name": "SLUGMA",
-"regional_of": null
+"regional_of": null,
+"row": 218
 },
 "219": {
 "no": 255,
@@ -2058,7 +2312,8 @@
 "johto": 238,
 "national": 219,
 "name": "MAGCARGO",
-"regional_of": null
+"regional_of": null,
+"row": 219
 },
 "220": {
 "no": 256,
@@ -2066,7 +2321,8 @@
 "johto": 212,
 "national": 220,
 "name": "SWINUB",
-"regional_of": null
+"regional_of": null,
+"row": 220
 },
 "221": {
 "no": 257,
@@ -2074,7 +2330,8 @@
 "johto": 213,
 "national": 221,
 "name": "PILOSWINE",
-"regional_of": null
+"regional_of": null,
+"row": 221
 },
 "473": {
 "no": 258,
@@ -2082,7 +2339,8 @@
 "johto": 214,
 "national": 473,
 "name": "MAMOSWINE",
-"regional_of": null
+"regional_of": null,
+"row": 473
 },
 "222": {
 "no": 259,
@@ -2090,7 +2348,8 @@
 "johto": 186,
 "national": 222,
 "name": "CORSOLA",
-"regional_of": null
+"regional_of": null,
+"row": 222
 },
 "223": {
 "no": 260,
@@ -2098,7 +2357,8 @@
 "johto": 187,
 "national": 223,
 "name": "REMORAID",
-"regional_of": null
+"regional_of": null,
+"row": 223
 },
 "224": {
 "no": 261,
@@ -2106,7 +2366,8 @@
 "johto": 188,
 "national": 224,
 "name": "OCTILLERY",
-"regional_of": null
+"regional_of": null,
+"row": 224
 },
 "225": {
 "no": 262,
@@ -2114,7 +2375,8 @@
 "johto": 211,
 "national": 225,
 "name": "DELIBIRD",
-"regional_of": null
+"regional_of": null,
+"row": 225
 },
 "458": {
 "no": 263,
@@ -2122,7 +2384,8 @@
 "johto": 220,
 "national": 458,
 "name": "MANTYKE",
-"regional_of": null
+"regional_of": null,
+"row": 458
 },
 "226": {
 "no": 264,
@@ -2130,7 +2393,8 @@
 "johto": 221,
 "national": 226,
 "name": "MANTINE",
-"regional_of": null
+"regional_of": null,
+"row": 226
 },
 "227": {
 "no": 265,
@@ -2138,7 +2402,8 @@
 "johto": 222,
 "national": 227,
 "name": "SKARMORY",
-"regional_of": null
+"regional_of": null,
+"row": 227
 },
 "228": {
 "no": 266,
@@ -2146,7 +2411,8 @@
 "johto": 235,
 "national": 228,
 "name": "HOUNDOUR",
-"regional_of": null
+"regional_of": null,
+"row": 228
 },
 "229": {
 "no": 267,
@@ -2154,7 +2420,8 @@
 "johto": 236,
 "national": 229,
 "name": "HOUNDOOM",
-"regional_of": null
+"regional_of": null,
+"row": 229
 },
 "231": {
 "no": 268,
@@ -2162,7 +2429,8 @@
 "johto": 218,
 "national": 231,
 "name": "PHANPY",
-"regional_of": null
+"regional_of": null,
+"row": 231
 },
 "232": {
 "no": 269,
@@ -2170,7 +2438,8 @@
 "johto": 219,
 "national": 232,
 "name": "DONPHAN",
-"regional_of": null
+"regional_of": null,
+"row": 232
 },
 "234": {
 "no": 270,
@@ -2178,7 +2447,8 @@
 "johto": 137,
 "national": 234,
 "name": "STANTLER",
-"regional_of": null
+"regional_of": null,
+"row": 234
 },
 "899": {
 "no": 271,
@@ -2186,7 +2456,8 @@
 "johto": 138,
 "national": 899,
 "name": "WYRDEER",
-"regional_of": null
+"regional_of": null,
+"row": 899
 },
 "235": {
 "no": 272,
@@ -2194,7 +2465,8 @@
 "johto": 172,
 "national": 235,
 "name": "SMEARGLE",
-"regional_of": null
+"regional_of": null,
+"row": 235
 },
 "241": {
 "no": 273,
@@ -2202,7 +2474,8 @@
 "johto": 161,
 "national": 241,
 "name": "MILTANK",
-"regional_of": null
+"regional_of": null,
+"row": 241
 },
 "243": {
 "no": 274,
@@ -2210,7 +2483,8 @@
 "johto": 269,
 "national": 243,
 "name": "RAIKOU",
-"regional_of": null
+"regional_of": null,
+"row": 243
 },
 "244": {
 "no": 275,
@@ -2218,7 +2492,8 @@
 "johto": 270,
 "national": 244,
 "name": "ENTEI",
-"regional_of": null
+"regional_of": null,
+"row": 244
 },
 "245": {
 "no": 276,
@@ -2226,7 +2501,8 @@
 "johto": 271,
 "national": 245,
 "name": "SUICUNE",
-"regional_of": null
+"regional_of": null,
+"row": 245
 },
 "246": {
 "no": 277,
@@ -2234,7 +2510,8 @@
 "johto": 275,
 "national": 246,
 "name": "LARVITAR",
-"regional_of": null
+"regional_of": null,
+"row": 246
 },
 "247": {
 "no": 278,
@@ -2242,7 +2519,8 @@
 "johto": 276,
 "national": 247,
 "name": "PUPITAR",
-"regional_of": null
+"regional_of": null,
+"row": 247
 },
 "248": {
 "no": 279,
@@ -2250,7 +2528,8 @@
 "johto": 277,
 "national": 248,
 "name": "TYRANITAR",
-"regional_of": null
+"regional_of": null,
+"row": 248
 },
 "249": {
 "no": 280,
@@ -2258,7 +2537,8 @@
 "johto": 278,
 "national": 249,
 "name": "LUGIA",
-"regional_of": null
+"regional_of": null,
+"row": 249
 },
 "250": {
 "no": 281,
@@ -2266,7 +2546,8 @@
 "johto": 279,
 "national": 250,
 "name": "HO-OH",
-"regional_of": null
+"regional_of": null,
+"row": 250
 },
 "251": {
 "no": 282,
@@ -2274,7 +2555,8 @@
 "johto": 282,
 "national": 251,
 "name": "CELEBI",
-"regional_of": null
+"regional_of": null,
+"row": 251
 },
 "252": {
 "no": 283,
@@ -2282,7 +2564,8 @@
 "johto": null,
 "national": 252,
 "name": "TREECKO",
-"regional_of": null
+"regional_of": null,
+"row": 252
 },
 "253": {
 "no": 284,
@@ -2290,7 +2573,8 @@
 "johto": null,
 "national": 253,
 "name": "GROVYLE",
-"regional_of": null
+"regional_of": null,
+"row": 253
 },
 "254": {
 "no": 285,
@@ -2298,7 +2582,8 @@
 "johto": null,
 "national": 254,
 "name": "SCEPTILE",
-"regional_of": null
+"regional_of": null,
+"row": 254
 },
 "255": {
 "no": 286,
@@ -2306,7 +2591,8 @@
 "johto": null,
 "national": 255,
 "name": "TORCHIC",
-"regional_of": null
+"regional_of": null,
+"row": 255
 },
 "256": {
 "no": 287,
@@ -2314,7 +2600,8 @@
 "johto": null,
 "national": 256,
 "name": "COMBUSKEN",
-"regional_of": null
+"regional_of": null,
+"row": 256
 },
 "257": {
 "no": 288,
@@ -2322,7 +2609,8 @@
 "johto": null,
 "national": 257,
 "name": "BLAZIKEN",
-"regional_of": null
+"regional_of": null,
+"row": 257
 },
 "258": {
 "no": 289,
@@ -2330,7 +2618,8 @@
 "johto": null,
 "national": 258,
 "name": "MUDKIP",
-"regional_of": null
+"regional_of": null,
+"row": 258
 },
 "259": {
 "no": 290,
@@ -2338,7 +2627,8 @@
 "johto": null,
 "national": 259,
 "name": "MARSHTOMP",
-"regional_of": null
+"regional_of": null,
+"row": 259
 },
 "260": {
 "no": 291,
@@ -2346,7 +2636,8 @@
 "johto": null,
 "national": 260,
 "name": "SWAMPERT",
-"regional_of": null
+"regional_of": null,
+"row": 260
 },
 "261": {
 "no": 292,
@@ -2354,7 +2645,8 @@
 "johto": null,
 "national": 261,
 "name": "POOCHYENA",
-"regional_of": null
+"regional_of": null,
+"row": 261
 },
 "262": {
 "no": 293,
@@ -2362,7 +2654,8 @@
 "johto": null,
 "national": 262,
 "name": "MIGHTYENA",
-"regional_of": null
+"regional_of": null,
+"row": 262
 },
 "263": {
 "no": 294,
@@ -2370,7 +2663,8 @@
 "johto": null,
 "national": 263,
 "name": "ZIGZAGOON",
-"regional_of": null
+"regional_of": null,
+"row": 263
 },
 "264": {
 "no": 295,
@@ -2378,7 +2672,8 @@
 "johto": null,
 "national": 264,
 "name": "LINOONE",
-"regional_of": null
+"regional_of": null,
+"row": 264
 },
 "265": {
 "no": 296,
@@ -2386,7 +2681,8 @@
 "johto": null,
 "national": 265,
 "name": "WURMPLE",
-"regional_of": null
+"regional_of": null,
+"row": 265
 },
 "266": {
 "no": 297,
@@ -2394,7 +2690,8 @@
 "johto": null,
 "national": 266,
 "name": "SILCOON",
-"regional_of": null
+"regional_of": null,
+"row": 266
 },
 "267": {
 "no": 298,
@@ -2402,7 +2699,8 @@
 "johto": null,
 "national": 267,
 "name": "BEAUTIFLY",
-"regional_of": null
+"regional_of": null,
+"row": 267
 },
 "268": {
 "no": 299,
@@ -2410,7 +2708,8 @@
 "johto": null,
 "national": 268,
 "name": "CASCOON",
-"regional_of": null
+"regional_of": null,
+"row": 268
 },
 "269": {
 "no": 300,
@@ -2418,7 +2717,8 @@
 "johto": null,
 "national": 269,
 "name": "DUSTOX",
-"regional_of": null
+"regional_of": null,
+"row": 269
 },
 "270": {
 "no": 301,
@@ -2426,7 +2726,8 @@
 "johto": null,
 "national": 270,
 "name": "LOTAD",
-"regional_of": null
+"regional_of": null,
+"row": 270
 },
 "271": {
 "no": 302,
@@ -2434,7 +2735,8 @@
 "johto": null,
 "national": 271,
 "name": "LOMBRE",
-"regional_of": null
+"regional_of": null,
+"row": 271
 },
 "272": {
 "no": 303,
@@ -2442,7 +2744,8 @@
 "johto": null,
 "national": 272,
 "name": "LUDICOLO",
-"regional_of": null
+"regional_of": null,
+"row": 272
 },
 "273": {
 "no": 304,
@@ -2450,7 +2753,8 @@
 "johto": null,
 "national": 273,
 "name": "SEEDOT",
-"regional_of": null
+"regional_of": null,
+"row": 273
 },
 "274": {
 "no": 305,
@@ -2458,7 +2762,8 @@
 "johto": null,
 "national": 274,
 "name": "NUZLEAF",
-"regional_of": null
+"regional_of": null,
+"row": 274
 },
 "275": {
 "no": 306,
@@ -2466,7 +2771,8 @@
 "johto": null,
 "national": 275,
 "name": "SHIFTRY",
-"regional_of": null
+"regional_of": null,
+"row": 275
 },
 "276": {
 "no": 307,
@@ -2474,7 +2780,8 @@
 "johto": null,
 "national": 276,
 "name": "TAILLOW",
-"regional_of": null
+"regional_of": null,
+"row": 276
 },
 "277": {
 "no": 308,
@@ -2482,7 +2789,8 @@
 "johto": null,
 "national": 277,
 "name": "SWELLOW",
-"regional_of": null
+"regional_of": null,
+"row": 277
 },
 "278": {
 "no": 309,
@@ -2490,7 +2798,8 @@
 "johto": null,
 "national": 278,
 "name": "WINGULL",
-"regional_of": null
+"regional_of": null,
+"row": 278
 },
 "279": {
 "no": 310,
@@ -2498,7 +2807,8 @@
 "johto": null,
 "national": 279,
 "name": "PELIPPER",
-"regional_of": null
+"regional_of": null,
+"row": 279
 },
 "280": {
 "no": 311,
@@ -2506,7 +2816,8 @@
 "johto": null,
 "national": 280,
 "name": "RALTS",
-"regional_of": null
+"regional_of": null,
+"row": 280
 },
 "281": {
 "no": 312,
@@ -2514,7 +2825,8 @@
 "johto": null,
 "national": 281,
 "name": "KIRLIA",
-"regional_of": null
+"regional_of": null,
+"row": 281
 },
 "282": {
 "no": 313,
@@ -2522,7 +2834,8 @@
 "johto": null,
 "national": 282,
 "name": "GARDEVOIR",
-"regional_of": null
+"regional_of": null,
+"row": 282
 },
 "475": {
 "no": 314,
@@ -2530,7 +2843,8 @@
 "johto": null,
 "national": 475,
 "name": "GALLADE",
-"regional_of": null
+"regional_of": null,
+"row": 475
 },
 "283": {
 "no": 315,
@@ -2538,7 +2852,8 @@
 "johto": null,
 "national": 283,
 "name": "SURSKIT",
-"regional_of": null
+"regional_of": null,
+"row": 283
 },
 "284": {
 "no": 316,
@@ -2546,7 +2861,8 @@
 "johto": null,
 "national": 284,
 "name": "MASQUERAIN",
-"regional_of": null
+"regional_of": null,
+"row": 284
 },
 "285": {
 "no": 317,
@@ -2554,7 +2870,8 @@
 "johto": null,
 "national": 285,
 "name": "SHROOMISH",
-"regional_of": null
+"regional_of": null,
+"row": 285
 },
 "286": {
 "no": 318,
@@ -2562,7 +2879,8 @@
 "johto": null,
 "national": 286,
 "name": "BRELOOM",
-"regional_of": null
+"regional_of": null,
+"row": 286
 },
 "287": {
 "no": 319,
@@ -2570,7 +2888,8 @@
 "johto": null,
 "national": 287,
 "name": "SLAKOTH",
-"regional_of": null
+"regional_of": null,
+"row": 287
 },
 "288": {
 "no": 320,
@@ -2578,7 +2897,8 @@
 "johto": null,
 "national": 288,
 "name": "VIGOROTH",
-"regional_of": null
+"regional_of": null,
+"row": 288
 },
 "289": {
 "no": 321,
@@ -2586,7 +2906,8 @@
 "johto": null,
 "national": 289,
 "name": "SLAKING",
-"regional_of": null
+"regional_of": null,
+"row": 289
 },
 "290": {
 "no": 322,
@@ -2594,7 +2915,8 @@
 "johto": null,
 "national": 290,
 "name": "NINCADA",
-"regional_of": null
+"regional_of": null,
+"row": 290
 },
 "291": {
 "no": 323,
@@ -2602,7 +2924,8 @@
 "johto": null,
 "national": 291,
 "name": "NINJASK",
-"regional_of": null
+"regional_of": null,
+"row": 291
 },
 "292": {
 "no": 324,
@@ -2610,7 +2933,8 @@
 "johto": null,
 "national": 292,
 "name": "SHEDINJA",
-"regional_of": null
+"regional_of": null,
+"row": 292
 },
 "293": {
 "no": 325,
@@ -2618,7 +2942,8 @@
 "johto": null,
 "national": 293,
 "name": "WHISMUR",
-"regional_of": null
+"regional_of": null,
+"row": 293
 },
 "294": {
 "no": 326,
@@ -2626,7 +2951,8 @@
 "johto": null,
 "national": 294,
 "name": "LOUDRED",
-"regional_of": null
+"regional_of": null,
+"row": 294
 },
 "295": {
 "no": 327,
@@ -2634,7 +2960,8 @@
 "johto": null,
 "national": 295,
 "name": "EXPLOUD",
-"regional_of": null
+"regional_of": null,
+"row": 295
 },
 "296": {
 "no": 328,
@@ -2642,7 +2969,8 @@
 "johto": null,
 "national": 296,
 "name": "MAKUHITA",
-"regional_of": null
+"regional_of": null,
+"row": 296
 },
 "297": {
 "no": 329,
@@ -2650,7 +2978,8 @@
 "johto": null,
 "national": 297,
 "name": "HARIYAMA",
-"regional_of": null
+"regional_of": null,
+"row": 297
 },
 "299": {
 "no": 330,
@@ -2658,7 +2987,8 @@
 "johto": null,
 "national": 299,
 "name": "NOSEPASS",
-"regional_of": null
+"regional_of": null,
+"row": 299
 },
 "476": {
 "no": 331,
@@ -2666,7 +2996,8 @@
 "johto": null,
 "national": 476,
 "name": "PROBOPASS",
-"regional_of": null
+"regional_of": null,
+"row": 476
 },
 "300": {
 "no": 332,
@@ -2674,7 +3005,8 @@
 "johto": null,
 "national": 300,
 "name": "SKITTY",
-"regional_of": null
+"regional_of": null,
+"row": 300
 },
 "301": {
 "no": 333,
@@ -2682,7 +3014,8 @@
 "johto": null,
 "national": 301,
 "name": "DELCATTY",
-"regional_of": null
+"regional_of": null,
+"row": 301
 },
 "302": {
 "no": 334,
@@ -2690,7 +3023,8 @@
 "johto": null,
 "national": 302,
 "name": "SABLEYE",
-"regional_of": null
+"regional_of": null,
+"row": 302
 },
 "303": {
 "no": 335,
@@ -2698,7 +3032,8 @@
 "johto": null,
 "national": 303,
 "name": "MAWILE",
-"regional_of": null
+"regional_of": null,
+"row": 303
 },
 "304": {
 "no": 336,
@@ -2706,7 +3041,8 @@
 "johto": null,
 "national": 304,
 "name": "ARON",
-"regional_of": null
+"regional_of": null,
+"row": 304
 },
 "305": {
 "no": 337,
@@ -2714,7 +3050,8 @@
 "johto": null,
 "national": 305,
 "name": "LAIRON",
-"regional_of": null
+"regional_of": null,
+"row": 305
 },
 "306": {
 "no": 338,
@@ -2722,7 +3059,8 @@
 "johto": null,
 "national": 306,
 "name": "AGGRON",
-"regional_of": null
+"regional_of": null,
+"row": 306
 },
 "307": {
 "no": 339,
@@ -2730,7 +3068,8 @@
 "johto": null,
 "national": 307,
 "name": "MEDITITE",
-"regional_of": null
+"regional_of": null,
+"row": 307
 },
 "308": {
 "no": 340,
@@ -2738,7 +3077,8 @@
 "johto": null,
 "national": 308,
 "name": "MEDICHAM",
-"regional_of": null
+"regional_of": null,
+"row": 308
 },
 "309": {
 "no": 341,
@@ -2746,7 +3086,8 @@
 "johto": null,
 "national": 309,
 "name": "ELECTRIKE",
-"regional_of": null
+"regional_of": null,
+"row": 309
 },
 "310": {
 "no": 342,
@@ -2754,7 +3095,8 @@
 "johto": null,
 "national": 310,
 "name": "MANECTRIC",
-"regional_of": null
+"regional_of": null,
+"row": 310
 },
 "311": {
 "no": 343,
@@ -2762,7 +3104,8 @@
 "johto": null,
 "national": 311,
 "name": "PLUSLE",
-"regional_of": null
+"regional_of": null,
+"row": 311
 },
 "312": {
 "no": 344,
@@ -2770,7 +3113,8 @@
 "johto": null,
 "national": 312,
 "name": "MINUN",
-"regional_of": null
+"regional_of": null,
+"row": 312
 },
 "313": {
 "no": 345,
@@ -2778,7 +3122,8 @@
 "johto": null,
 "national": 313,
 "name": "VOLBEAT",
-"regional_of": null
+"regional_of": null,
+"row": 313
 },
 "314": {
 "no": 346,
@@ -2786,7 +3131,8 @@
 "johto": null,
 "national": 314,
 "name": "ILLUMISE",
-"regional_of": null
+"regional_of": null,
+"row": 314
 },
 "406": {
 "no": 347,
@@ -2794,7 +3140,8 @@
 "johto": null,
 "national": 406,
 "name": "BUDEW",
-"regional_of": null
+"regional_of": null,
+"row": 406
 },
 "315": {
 "no": 348,
@@ -2802,7 +3149,8 @@
 "johto": null,
 "national": 315,
 "name": "ROSELIA",
-"regional_of": null
+"regional_of": null,
+"row": 315
 },
 "407": {
 "no": 349,
@@ -2810,7 +3158,8 @@
 "johto": null,
 "national": 407,
 "name": "ROSERADE",
-"regional_of": null
+"regional_of": null,
+"row": 407
 },
 "316": {
 "no": 350,
@@ -2818,7 +3167,8 @@
 "johto": null,
 "national": 316,
 "name": "GULPIN",
-"regional_of": null
+"regional_of": null,
+"row": 316
 },
 "317": {
 "no": 351,
@@ -2826,7 +3176,8 @@
 "johto": null,
 "national": 317,
 "name": "SWALOT",
-"regional_of": null
+"regional_of": null,
+"row": 317
 },
 "318": {
 "no": 352,
@@ -2834,7 +3185,8 @@
 "johto": null,
 "national": 318,
 "name": "CARVANHA",
-"regional_of": null
+"regional_of": null,
+"row": 318
 },
 "319": {
 "no": 353,
@@ -2842,7 +3194,8 @@
 "johto": null,
 "national": 319,
 "name": "SHARPEDO",
-"regional_of": null
+"regional_of": null,
+"row": 319
 },
 "320": {
 "no": 354,
@@ -2850,7 +3203,8 @@
 "johto": null,
 "national": 320,
 "name": "WAILMER",
-"regional_of": null
+"regional_of": null,
+"row": 320
 },
 "321": {
 "no": 355,
@@ -2858,7 +3212,8 @@
 "johto": null,
 "national": 321,
 "name": "WAILORD",
-"regional_of": null
+"regional_of": null,
+"row": 321
 },
 "322": {
 "no": 356,
@@ -2866,7 +3221,8 @@
 "johto": null,
 "national": 322,
 "name": "NUMEL",
-"regional_of": null
+"regional_of": null,
+"row": 322
 },
 "323": {
 "no": 357,
@@ -2874,7 +3230,8 @@
 "johto": null,
 "national": 323,
 "name": "CAMERUPT",
-"regional_of": null
+"regional_of": null,
+"row": 323
 },
 "324": {
 "no": 358,
@@ -2882,7 +3239,8 @@
 "johto": null,
 "national": 324,
 "name": "TORKOAL",
-"regional_of": null
+"regional_of": null,
+"row": 324
 },
 "325": {
 "no": 359,
@@ -2890,7 +3248,8 @@
 "johto": null,
 "national": 325,
 "name": "SPOINK",
-"regional_of": null
+"regional_of": null,
+"row": 325
 },
 "326": {
 "no": 360,
@@ -2898,7 +3257,8 @@
 "johto": null,
 "national": 326,
 "name": "GRUMPIG",
-"regional_of": null
+"regional_of": null,
+"row": 326
 },
 "327": {
 "no": 361,
@@ -2906,7 +3266,8 @@
 "johto": null,
 "national": 327,
 "name": "SPINDA",
-"regional_of": null
+"regional_of": null,
+"row": 327
 },
 "328": {
 "no": 362,
@@ -2914,7 +3275,8 @@
 "johto": null,
 "national": 328,
 "name": "TRAPINCH",
-"regional_of": null
+"regional_of": null,
+"row": 328
 },
 "329": {
 "no": 363,
@@ -2922,7 +3284,8 @@
 "johto": null,
 "national": 329,
 "name": "VIBRAVA",
-"regional_of": null
+"regional_of": null,
+"row": 329
 },
 "330": {
 "no": 364,
@@ -2930,7 +3293,8 @@
 "johto": null,
 "national": 330,
 "name": "FLYGON",
-"regional_of": null
+"regional_of": null,
+"row": 330
 },
 "331": {
 "no": 365,
@@ -2938,7 +3302,8 @@
 "johto": null,
 "national": 331,
 "name": "CACNEA",
-"regional_of": null
+"regional_of": null,
+"row": 331
 },
 "332": {
 "no": 366,
@@ -2946,7 +3311,8 @@
 "johto": null,
 "national": 332,
 "name": "CACTURNE",
-"regional_of": null
+"regional_of": null,
+"row": 332
 },
 "333": {
 "no": 367,
@@ -2954,7 +3320,8 @@
 "johto": null,
 "national": 333,
 "name": "SWABLU",
-"regional_of": null
+"regional_of": null,
+"row": 333
 },
 "334": {
 "no": 368,
@@ -2962,7 +3329,8 @@
 "johto": null,
 "national": 334,
 "name": "ALTARIA",
-"regional_of": null
+"regional_of": null,
+"row": 334
 },
 "335": {
 "no": 369,
@@ -2970,7 +3338,8 @@
 "johto": null,
 "national": 335,
 "name": "ZANGOOSE",
-"regional_of": null
+"regional_of": null,
+"row": 335
 },
 "336": {
 "no": 370,
@@ -2978,7 +3347,8 @@
 "johto": null,
 "national": 336,
 "name": "SEVIPER",
-"regional_of": null
+"regional_of": null,
+"row": 336
 },
 "337": {
 "no": 371,
@@ -2986,7 +3356,8 @@
 "johto": null,
 "national": 337,
 "name": "LUNATONE",
-"regional_of": null
+"regional_of": null,
+"row": 337
 },
 "338": {
 "no": 372,
@@ -2994,7 +3365,8 @@
 "johto": null,
 "national": 338,
 "name": "SOLROCK",
-"regional_of": null
+"regional_of": null,
+"row": 338
 },
 "339": {
 "no": 373,
@@ -3002,7 +3374,8 @@
 "johto": null,
 "national": 339,
 "name": "BARBOACH",
-"regional_of": null
+"regional_of": null,
+"row": 339
 },
 "340": {
 "no": 374,
@@ -3010,7 +3383,8 @@
 "johto": null,
 "national": 340,
 "name": "WHISCASH",
-"regional_of": null
+"regional_of": null,
+"row": 340
 },
 "341": {
 "no": 375,
@@ -3018,7 +3392,8 @@
 "johto": null,
 "national": 341,
 "name": "CORPHISH",
-"regional_of": null
+"regional_of": null,
+"row": 341
 },
 "342": {
 "no": 376,
@@ -3026,7 +3401,8 @@
 "johto": null,
 "national": 342,
 "name": "CRAWDAUNT",
-"regional_of": null
+"regional_of": null,
+"row": 342
 },
 "343": {
 "no": 377,
@@ -3034,7 +3410,8 @@
 "johto": null,
 "national": 343,
 "name": "BALTOY",
-"regional_of": null
+"regional_of": null,
+"row": 343
 },
 "344": {
 "no": 378,
@@ -3042,7 +3419,8 @@
 "johto": null,
 "national": 344,
 "name": "CLAYDOL",
-"regional_of": null
+"regional_of": null,
+"row": 344
 },
 "345": {
 "no": 379,
@@ -3050,7 +3428,8 @@
 "johto": null,
 "national": 345,
 "name": "LILEEP",
-"regional_of": null
+"regional_of": null,
+"row": 345
 },
 "346": {
 "no": 380,
@@ -3058,7 +3437,8 @@
 "johto": null,
 "national": 346,
 "name": "CRADILY",
-"regional_of": null
+"regional_of": null,
+"row": 346
 },
 "347": {
 "no": 381,
@@ -3066,7 +3446,8 @@
 "johto": null,
 "national": 347,
 "name": "ANORITH",
-"regional_of": null
+"regional_of": null,
+"row": 347
 },
 "348": {
 "no": 382,
@@ -3074,7 +3455,8 @@
 "johto": null,
 "national": 348,
 "name": "ARMALDO",
-"regional_of": null
+"regional_of": null,
+"row": 348
 },
 "349": {
 "no": 383,
@@ -3082,7 +3464,8 @@
 "johto": null,
 "national": 349,
 "name": "FEEBAS",
-"regional_of": null
+"regional_of": null,
+"row": 349
 },
 "350": {
 "no": 384,
@@ -3090,7 +3473,8 @@
 "johto": null,
 "national": 350,
 "name": "MILOTIC",
-"regional_of": null
+"regional_of": null,
+"row": 350
 },
 "351": {
 "no": 385,
@@ -3098,7 +3482,8 @@
 "johto": null,
 "national": 351,
 "name": "CASTFORM",
-"regional_of": null
+"regional_of": null,
+"row": 351
 },
 "352": {
 "no": 386,
@@ -3106,7 +3491,8 @@
 "johto": null,
 "national": 352,
 "name": "KECLEON",
-"regional_of": null
+"regional_of": null,
+"row": 352
 },
 "353": {
 "no": 387,
@@ -3114,7 +3500,8 @@
 "johto": null,
 "national": 353,
 "name": "SHUPPET",
-"regional_of": null
+"regional_of": null,
+"row": 353
 },
 "354": {
 "no": 388,
@@ -3122,7 +3509,8 @@
 "johto": null,
 "national": 354,
 "name": "BANETTE",
-"regional_of": null
+"regional_of": null,
+"row": 354
 },
 "355": {
 "no": 389,
@@ -3130,7 +3518,8 @@
 "johto": null,
 "national": 355,
 "name": "DUSKULL",
-"regional_of": null
+"regional_of": null,
+"row": 355
 },
 "356": {
 "no": 390,
@@ -3138,7 +3527,8 @@
 "johto": null,
 "national": 356,
 "name": "DUSCLOPS",
-"regional_of": null
+"regional_of": null,
+"row": 356
 },
 "477": {
 "no": 391,
@@ -3146,7 +3536,8 @@
 "johto": null,
 "national": 477,
 "name": "DUSKNOIR",
-"regional_of": null
+"regional_of": null,
+"row": 477
 },
 "357": {
 "no": 392,
@@ -3154,7 +3545,8 @@
 "johto": null,
 "national": 357,
 "name": "TROPIUS",
-"regional_of": null
+"regional_of": null,
+"row": 357
 },
 "433": {
 "no": 393,
@@ -3162,7 +3554,8 @@
 "johto": null,
 "national": 433,
 "name": "CHINGLING",
-"regional_of": null
+"regional_of": null,
+"row": 433
 },
 "358": {
 "no": 394,
@@ -3170,7 +3563,8 @@
 "johto": null,
 "national": 358,
 "name": "CHIMECHO",
-"regional_of": null
+"regional_of": null,
+"row": 358
 },
 "359": {
 "no": 395,
@@ -3178,7 +3572,8 @@
 "johto": null,
 "national": 359,
 "name": "ABSOL",
-"regional_of": null
+"regional_of": null,
+"row": 359
 },
 "361": {
 "no": 396,
@@ -3186,7 +3581,8 @@
 "johto": null,
 "national": 361,
 "name": "SNORUNT",
-"regional_of": null
+"regional_of": null,
+"row": 361
 },
 "362": {
 "no": 397,
@@ -3194,7 +3590,8 @@
 "johto": null,
 "national": 362,
 "name": "GLALIE",
-"regional_of": null
+"regional_of": null,
+"row": 362
 },
 "478": {
 "no": 398,
@@ -3202,7 +3599,8 @@
 "johto": null,
 "national": 478,
 "name": "FROSLASS",
-"regional_of": null
+"regional_of": null,
+"row": 478
 },
 "363": {
 "no": 399,
@@ -3210,7 +3608,8 @@
 "johto": null,
 "national": 363,
 "name": "SPHEAL",
-"regional_of": null
+"regional_of": null,
+"row": 363
 },
 "364": {
 "no": 400,
@@ -3218,7 +3617,8 @@
 "johto": null,
 "national": 364,
 "name": "SEALEO",
-"regional_of": null
+"regional_of": null,
+"row": 364
 },
 "365": {
 "no": 401,
@@ -3226,7 +3626,8 @@
 "johto": null,
 "national": 365,
 "name": "WALREIN",
-"regional_of": null
+"regional_of": null,
+"row": 365
 },
 "366": {
 "no": 402,
@@ -3234,7 +3635,8 @@
 "johto": null,
 "national": 366,
 "name": "CLAMPERL",
-"regional_of": null
+"regional_of": null,
+"row": 366
 },
 "367": {
 "no": 403,
@@ -3242,7 +3644,8 @@
 "johto": null,
 "national": 367,
 "name": "HUNTAIL",
-"regional_of": null
+"regional_of": null,
+"row": 367
 },
 "368": {
 "no": 404,
@@ -3250,7 +3653,8 @@
 "johto": null,
 "national": 368,
 "name": "GOREBYSS",
-"regional_of": null
+"regional_of": null,
+"row": 368
 },
 "369": {
 "no": 405,
@@ -3258,7 +3662,8 @@
 "johto": null,
 "national": 369,
 "name": "RELICANTH",
-"regional_of": null
+"regional_of": null,
+"row": 369
 },
 "370": {
 "no": 406,
@@ -3266,7 +3671,8 @@
 "johto": null,
 "national": 370,
 "name": "LUVDISC",
-"regional_of": null
+"regional_of": null,
+"row": 370
 },
 "371": {
 "no": 407,
@@ -3274,7 +3680,8 @@
 "johto": null,
 "national": 371,
 "name": "BAGON",
-"regional_of": null
+"regional_of": null,
+"row": 371
 },
 "372": {
 "no": 408,
@@ -3282,7 +3689,8 @@
 "johto": null,
 "national": 372,
 "name": "SHELGON",
-"regional_of": null
+"regional_of": null,
+"row": 372
 },
 "373": {
 "no": 409,
@@ -3290,7 +3698,8 @@
 "johto": null,
 "national": 373,
 "name": "SALAMENCE",
-"regional_of": null
+"regional_of": null,
+"row": 373
 },
 "374": {
 "no": 410,
@@ -3298,7 +3707,8 @@
 "johto": null,
 "national": 374,
 "name": "BELDUM",
-"regional_of": null
+"regional_of": null,
+"row": 374
 },
 "375": {
 "no": 411,
@@ -3306,7 +3716,8 @@
 "johto": null,
 "national": 375,
 "name": "METANG",
-"regional_of": null
+"regional_of": null,
+"row": 375
 },
 "376": {
 "no": 412,
@@ -3314,7 +3725,8 @@
 "johto": null,
 "national": 376,
 "name": "METAGROSS",
-"regional_of": null
+"regional_of": null,
+"row": 376
 },
 "380": {
 "no": 413,
@@ -3322,7 +3734,8 @@
 "johto": null,
 "national": 380,
 "name": "LATIAS",
-"regional_of": null
+"regional_of": null,
+"row": 380
 },
 "381": {
 "no": 414,
@@ -3330,7 +3743,8 @@
 "johto": null,
 "national": 381,
 "name": "LATIOS",
-"regional_of": null
+"regional_of": null,
+"row": 381
 },
 "382": {
 "no": 415,
@@ -3338,7 +3752,8 @@
 "johto": null,
 "national": 382,
 "name": "KYOGRE",
-"regional_of": null
+"regional_of": null,
+"row": 382
 },
 "383": {
 "no": 416,
@@ -3346,7 +3761,8 @@
 "johto": null,
 "national": 383,
 "name": "GROUDON",
-"regional_of": null
+"regional_of": null,
+"row": 383
 },
 "384": {
 "no": 417,
@@ -3354,7 +3770,8 @@
 "johto": null,
 "national": 384,
 "name": "RAYQUAZA",
-"regional_of": null
+"regional_of": null,
+"row": 384
 },
 "385": {
 "no": 418,
@@ -3362,7 +3779,8 @@
 "johto": null,
 "national": 385,
 "name": "JIRACHI",
-"regional_of": null
+"regional_of": null,
+"row": 385
 },
 "386": {
 "no": 419,
@@ -3370,7 +3788,8 @@
 "johto": null,
 "national": 386,
 "name": "DEOXYS",
-"regional_of": null
+"regional_of": null,
+"row": 386
 },
 "1026": {
 "no": 19,
@@ -3378,7 +3797,8 @@
 "johto": 17,
 "national": 1026,
 "name": "RATTATA",
-"regional_of": 19
+"regional_of": 19,
+"row": 956
 },
 "1027": {
 "no": 20,
@@ -3386,7 +3806,8 @@
 "johto": 18,
 "national": 1027,
 "name": "RATICATE",
-"regional_of": 20
+"regional_of": 20,
+"row": 957
 },
 "1028": {
 "no": 27,
@@ -3394,7 +3815,8 @@
 "johto": 23,
 "national": 1028,
 "name": "RAICHU",
-"regional_of": 26
+"regional_of": 26,
+"row": 958
 },
 "1029": {
 "no": 28,
@@ -3402,7 +3824,8 @@
 "johto": 49,
 "national": 1029,
 "name": "SANDSHREW",
-"regional_of": 27
+"regional_of": 27,
+"row": 959
 },
 "1030": {
 "no": 29,
@@ -3410,7 +3833,8 @@
 "johto": 50,
 "national": 1030,
 "name": "SANDSLASH",
-"regional_of": 28
+"regional_of": 28,
+"row": 960
 },
 "1031": {
 "no": 39,
@@ -3418,7 +3842,8 @@
 "johto": 133,
 "national": 1031,
 "name": "VULPIX",
-"regional_of": 37
+"regional_of": 37,
+"row": 961
 },
 "1032": {
 "no": 40,
@@ -3426,7 +3851,8 @@
 "johto": 134,
 "national": 1032,
 "name": "NINETALES",
-"regional_of": 38
+"regional_of": 38,
+"row": 962
 },
 "1033": {
 "no": 55,
@@ -3434,7 +3860,8 @@
 "johto": 142,
 "national": 1033,
 "name": "DIGLETT",
-"regional_of": 50
+"regional_of": 50,
+"row": 963
 },
 "1034": {
 "no": 56,
@@ -3442,7 +3869,8 @@
 "johto": 143,
 "national": 1034,
 "name": "DUGTRIO",
-"regional_of": 51
+"regional_of": 51,
+"row": 964
 },
 "1035": {
 "no": 57,
@@ -3450,7 +3878,8 @@
 "johto": 147,
 "national": 1035,
 "name": "MEOWTH",
-"regional_of": 52
+"regional_of": 52,
+"row": 965
 },
 "1036": {
 "no": 58,
@@ -3458,7 +3887,8 @@
 "johto": 148,
 "national": 1036,
 "name": "PERSIAN",
-"regional_of": 53
+"regional_of": 53,
+"row": 966
 },
 "1037": {
 "no": 81,
@@ -3466,7 +3896,8 @@
 "johto": 34,
 "national": 1037,
 "name": "GEODUDE",
-"regional_of": 74
+"regional_of": 74,
+"row": 967
 },
 "1038": {
 "no": 82,
@@ -3474,7 +3905,8 @@
 "johto": 35,
 "national": 1038,
 "name": "GRAVELER",
-"regional_of": 75
+"regional_of": 75,
+"row": 968
 },
 "1039": {
 "no": 83,
@@ -3482,7 +3914,8 @@
 "johto": 36,
 "national": 1039,
 "name": "GOLEM",
-"regional_of": 76
+"regional_of": 76,
+"row": 969
 },
 "1040": {
 "no": 97,
@@ -3490,7 +3923,8 @@
 "johto": 122,
 "national": 1040,
 "name": "GRIMER",
-"regional_of": 88
+"regional_of": 88,
+"row": 970
 },
 "1041": {
 "no": 98,
@@ -3498,7 +3932,8 @@
 "johto": 123,
 "national": 1041,
 "name": "MUK",
-"regional_of": 89
+"regional_of": 89,
+"row": 971
 },
 "1042": {
 "no": 113,
@@ -3506,7 +3941,8 @@
 "johto": 108,
 "national": 1042,
 "name": "EXEGGUTOR",
-"regional_of": 103
+"regional_of": 103,
+"row": 972
 },
 "1043": {
 "no": 115,
@@ -3514,7 +3950,8 @@
 "johto": 228,
 "national": 1043,
 "name": "MAROWAK",
-"regional_of": 105
+"regional_of": 105,
+"row": 973
 },
 "1044": {
 "no": 57,
@@ -3522,7 +3959,8 @@
 "johto": 147,
 "national": 1044,
 "name": "MEOWTH",
-"regional_of": 52
+"regional_of": 52,
+"row": 974
 },
 "863": {
 "no": 439,
@@ -3530,7 +3968,8 @@
 "johto": null,
 "national": 863,
 "name": "PERRSERKER",
-"regional_of": null
+"regional_of": null,
+"row": 863
 },
 "1045": {
 "no": 84,
@@ -3538,7 +3977,8 @@
 "johto": 225,
 "national": 1045,
 "name": "PONYTA",
-"regional_of": 77
+"regional_of": 77,
+"row": 975
 },
 "1046": {
 "no": 85,
@@ -3546,7 +3986,8 @@
 "johto": 226,
 "national": 1046,
 "name": "RAPIDASH",
-"regional_of": 78
+"regional_of": 78,
+"row": 976
 },
 "1047": {
 "no": 86,
@@ -3554,7 +3995,8 @@
 "johto": 82,
 "national": 1047,
 "name": "SLOWPOKE",
-"regional_of": 79
+"regional_of": 79,
+"row": 977
 },
 "1048": {
 "no": 87,
@@ -3562,7 +4004,8 @@
 "johto": 83,
 "national": 1048,
 "name": "SLOWBRO",
-"regional_of": 80
+"regional_of": 80,
+"row": 978
 },
 "1049": {
 "no": 88,
@@ -3570,7 +4013,8 @@
 "johto": 84,
 "national": 1049,
 "name": "SLOWKING",
-"regional_of": 199
+"regional_of": 199,
+"row": 985
 },
 "1050": {
 "no": 92,
@@ -3578,7 +4022,8 @@
 "johto": 173,
 "national": 1050,
 "name": "FARFETCH'D",
-"regional_of": 83
+"regional_of": 83,
+"row": 979
 },
 "865": {
 "no": 446,
@@ -3586,7 +4031,8 @@
 "johto": null,
 "national": 865,
 "name": "SIRFETCH'D",
-"regional_of": null
+"regional_of": null,
+"row": 865
 },
 "1051": {
 "no": 123,
@@ -3594,7 +4040,8 @@
 "johto": 121,
 "national": 1051,
 "name": "WEEZING",
-"regional_of": 110
+"regional_of": 110,
+"row": 980
 },
 "1052": {
 "no": 141,
@@ -3602,7 +4049,8 @@
 "johto": 171,
 "national": 1052,
 "name": "MR. MIME",
-"regional_of": 122
+"regional_of": 122,
+"row": 981
 },
 "866": {
 "no": 449,
@@ -3610,7 +4058,8 @@
 "johto": null,
 "national": 866,
 "name": "MR. RIME",
-"regional_of": null
+"regional_of": null,
+"row": 866
 },
 "1053": {
 "no": 178,
@@ -3618,7 +4067,8 @@
 "johto": 266,
 "national": 1053,
 "name": "ARTICUNO",
-"regional_of": 144
+"regional_of": 144,
+"row": 982
 },
 "1054": {
 "no": 179,
@@ -3626,7 +4076,8 @@
 "johto": 267,
 "national": 1054,
 "name": "ZAPDOS",
-"regional_of": 145
+"regional_of": 145,
+"row": 983
 },
 "1055": {
 "no": 180,
@@ -3634,7 +4085,8 @@
 "johto": 268,
 "national": 1055,
 "name": "MOLTRES",
-"regional_of": 146
+"regional_of": 146,
+"row": 984
 },
 "1056": {
 "no": 259,
@@ -3642,7 +4094,8 @@
 "johto": 186,
 "national": 1056,
 "name": "CORSOLA",
-"regional_of": 222
+"regional_of": 222,
+"row": 986
 },
 "864": {
 "no": 454,
@@ -3650,7 +4103,8 @@
 "johto": null,
 "national": 864,
 "name": "CURSOLA",
-"regional_of": null
+"regional_of": null,
+"row": 864
 },
 "1057": {
 "no": 294,
@@ -3658,7 +4112,8 @@
 "johto": null,
 "national": 1057,
 "name": "ZIGZAGOON",
-"regional_of": 263
+"regional_of": 263,
+"row": 987
 },
 "1058": {
 "no": 295,
@@ -3666,7 +4121,8 @@
 "johto": null,
 "national": 1058,
 "name": "LINOONE",
-"regional_of": 264
+"regional_of": 264,
+"row": 988
 },
 "862": {
 "no": 457,
@@ -3674,7 +4130,8 @@
 "johto": null,
 "national": 862,
 "name": "OBSTAGOON",
-"regional_of": null
+"regional_of": null,
+"row": 862
 },
 "1063": {
 "no": 64,
@@ -3682,7 +4139,8 @@
 "johto": 135,
 "national": 1063,
 "name": "GROWLITHE",
-"regional_of": 58
+"regional_of": 58,
+"row": 993
 },
 "1064": {
 "no": 65,
@@ -3690,7 +4148,8 @@
 "johto": 136,
 "national": 1064,
 "name": "ARCANINE",
-"regional_of": 59
+"regional_of": 59,
+"row": 994
 },
 "1065": {
 "no": 110,
@@ -3698,7 +4157,8 @@
 "johto": 127,
 "national": 1065,
 "name": "VOLTORB",
-"regional_of": 100
+"regional_of": 100,
+"row": 995
 },
 "1066": {
 "no": 111,
@@ -3706,7 +4166,8 @@
 "johto": 128,
 "national": 1066,
 "name": "ELECTRODE",
-"regional_of": 101
+"regional_of": 101,
+"row": 996
 },
 "1067": {
 "no": 191,
@@ -3714,7 +4175,8 @@
 "johto": 6,
 "national": 1067,
 "name": "TYPHLOSION",
-"regional_of": 157
+"regional_of": 157,
+"row": 997
 },
 "1068": {
 "no": 246,
@@ -3722,7 +4184,8 @@
 "johto": 176,
 "national": 1068,
 "name": "QWILFISH",
-"regional_of": 211
+"regional_of": 211,
+"row": 998
 },
 "904": {
 "no": 464,
@@ -3730,7 +4193,8 @@
 "johto": null,
 "national": 904,
 "name": "OVERQWIL",
-"regional_of": null
+"regional_of": null,
+"row": 904
 },
 "1069": {
 "no": 249,
@@ -3738,7 +4202,8 @@
 "johto": 239,
 "national": 1069,
 "name": "SNEASEL",
-"regional_of": 215
+"regional_of": 215,
+"row": 999
 },
 "903": {
 "no": 466,
@@ -3746,7 +4211,8 @@
 "johto": null,
 "national": 903,
 "name": "SNEASLER",
-"regional_of": null
+"regional_of": null,
+"row": 903
 },
 "1079": {
 "no": 154,
@@ -3754,7 +4220,8 @@
 "johto": 160,
 "national": 1079,
 "name": "TAUROS",
-"regional_of": 128
+"regional_of": 128,
+"row": 1404
 },
 "1080": {
 "no": 227,
@@ -3762,7 +4229,8 @@
 "johto": 58,
 "national": 1080,
 "name": "WOOPER",
-"regional_of": 194
+"regional_of": 194,
+"row": 1405
 },
 "980": {
 "no": 469,
@@ -3770,7 +4238,8 @@
 "johto": null,
 "national": 980,
 "name": "CLODSIRE",
-"regional_of": null
+"regional_of": null,
+"row": 1371
 },
 "377": {
 "no": 470,
@@ -3778,7 +4247,8 @@
 "johto": null,
 "national": 377,
 "name": "REGIROCK",
-"regional_of": null
+"regional_of": null,
+"row": 377
 },
 "378": {
 "no": 471,
@@ -3786,7 +4256,8 @@
 "johto": null,
 "national": 378,
 "name": "REGICE",
-"regional_of": null
+"regional_of": null,
+"row": 378
 },
 "379": {
 "no": 472,
@@ -3794,7 +4265,8 @@
 "johto": null,
 "national": 379,
 "name": "REGISTEEL",
-"regional_of": null
+"regional_of": null,
+"row": 379
 },
 "894": {
 "no": 473,
@@ -3802,7 +4274,8 @@
 "johto": null,
 "national": 894,
 "name": "REGIELEKI",
-"regional_of": null
+"regional_of": null,
+"row": 894
 },
 "895": {
 "no": 474,
@@ -3810,7 +4283,8 @@
 "johto": null,
 "national": 895,
 "name": "REGIDRAGO",
-"regional_of": null
+"regional_of": null,
+"row": 895
 },
 "486": {
 "no": 475,
@@ -3818,7 +4292,8 @@
 "johto": null,
 "national": 486,
 "name": "REGIGIGAS",
-"regional_of": null
+"regional_of": null,
+"row": 486
 },
 "493": {
 "no": 476,
@@ -3826,7 +4301,8 @@
 "johto": null,
 "national": 493,
 "name": "ARCEUS",
-"regional_of": null
+"regional_of": null,
+"row": 493
 },
 "785": {
 "no": 477,
@@ -3834,7 +4310,8 @@
 "johto": null,
 "national": 785,
 "name": "TAPU KOKO",
-"regional_of": null
+"regional_of": null,
+"row": 785
 },
 "786": {
 "no": 478,
@@ -3842,7 +4319,8 @@
 "johto": null,
 "national": 786,
 "name": "TAPU LELE",
-"regional_of": null
+"regional_of": null,
+"row": 786
 },
 "787": {
 "no": 479,
@@ -3850,7 +4328,8 @@
 "johto": null,
 "national": 787,
 "name": "TAPU BULU",
-"regional_of": null
+"regional_of": null,
+"row": 787
 },
 "788": {
 "no": 480,
@@ -3858,7 +4337,8 @@
 "johto": null,
 "national": 788,
 "name": "TAPU FINI",
-"regional_of": null
+"regional_of": null,
+"row": 788
 },
 "714": {
 "no": 481,
@@ -3866,7 +4346,8 @@
 "johto": null,
 "national": 714,
 "name": "NOIBAT",
-"regional_of": null
+"regional_of": null,
+"row": 714
 },
 "715": {
 "no": 482,
@@ -3874,7 +4355,8 @@
 "johto": null,
 "national": 715,
 "name": "NOIVERN",
-"regional_of": null
+"regional_of": null,
+"row": 715
 }
 }
 }

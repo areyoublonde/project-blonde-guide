@@ -9,6 +9,7 @@ This file is the one source of the numbers the site prints. They are the numbers
   position  = the entry's own position in that list (what the Summary screen prints, the same as `no` except for regional forms)
   johto     = the number in the Pokédex's Johto mode, when the entry is in that list
   national  = gSpeciesInfo[].natDexNum, the key used across the guide's data
+  row       = the gSpeciesInfo row the Pokédex shows for this entry (sNationalToSpeciesOrder)
 Tables are 4-byte enums except sDexRegionalGroups (pairs of u16). Runtime proof is in qa-evidence/pokedex-numbers/."""
 import argparse, json, re, struct
 from pathlib import Path
@@ -55,7 +56,7 @@ def main():
         sp = national[n - 1]
         assert nat(sp) == n, (n, sp)
         b = base.get(n, n)
-        entries[str(n)] = {"no": pos[b], "position": pos[n], "johto": jo.get(b), "national": n, "name": name(sp).replace("’", "'"), "regional_of": b if b != n else None}
+        entries[str(n)] = {"no": pos[b], "position": pos[n], "johto": jo.get(b), "national": n, "name": name(sp).replace("’", "'"), "regional_of": b if b != n else None, "row": sp}
     numbers = sorted({e["no"] for e in entries.values()})
     out = {"source": {"revision": latest["latest_revision"], "rom_sha256": sha, "tables": ["sObtainableToNationalOrder", "sJohtoToNationalOrder", "sNationalToSpeciesOrder", "sDexRegionalGroups", "gSpeciesInfo"]},
            "counts": {"national_slots": len(national), "list_entries": len(listed), "regional_forms": sum(1 for e in entries.values() if e["regional_of"]), "numbers_shown": len(numbers), "johto": len(johto), "first": numbers[0], "last": numbers[-1]},

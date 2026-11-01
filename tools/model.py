@@ -65,13 +65,19 @@ for d in DEX.values():
     elif d["kind"] in ("mega", "form"):
         base = DEX[d["of"]]
         fn = d.get("form_name", "")
-        d["display_full"] = (f'Mega {nice(base["name"])}' + (f' {fn.replace("Mega", "").strip()}' if fn.replace("Mega", "").strip() else "")) if d["kind"] == "mega" and not d.get("primal") else f'{nice(base["name"])} ({fn})'
+        d["display_full"] = f'Primal {nice(base["name"])}' if d.get("primal") else (f'Mega {nice(base["name"])}' + (f' {fn.replace("Mega", "").strip()}' if fn.replace("Mega", "").strip() else "")) if d["kind"] == "mega" else f'{nice(base["name"])} ({fn})'
     else:
         d["display_full"] = d["display"]
 # The number the game's own Pokédex draws for each entry (tools/dex_numbers.py): the only place the site gets one from.
 NUMBERS = J(DATA / "pokedex-numbers.json")["entries"]
 for d in DEX.values():
     d["game_no"] = NUMBERS.get(str(d["dex"]), {}).get("no")
+# An entry whose Pokédex slot points at another row of the same number shows that row, as the game's Pokédex does (Paldean Tauros: Aqua Breed).
+_BY_ROW = {d["num"]: d for d in DEX.values()}
+for d in DEX.values():
+    _row = _BY_ROW.get(NUMBERS.get(str(d["dex"]), {}).get("row"))
+    if _row is not None and d["kind"] in ("species", "regional") and _row is not d:
+        d.update(types=_row["types"], text=_row["text"], category=_row["category"], moves=_row["moves"], art_slug=_row["slug"], shows_row=_row["id"])
 # The public Pokédex lists Pokémon a player can legitimately obtain in this build, not every species the engine defines.
 # tools/availability.py decides that from evidence; the build refuses to run on an audit made for another build.
 AVAIL = J(DATA / "availability.json")

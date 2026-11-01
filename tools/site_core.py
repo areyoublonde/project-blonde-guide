@@ -16,13 +16,13 @@ FIT = EXPAND.replace("M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5", "M9 4v5H4M15 4v5h
 # ----------------------------------------------------------------------------- fragments
 def icon_img(s, size=24):
     if s and s.get("icon"):
-        return f'<img class="px" src="{u("/assets/game/icons/" + s["slug"] + ".png")}" width="{size}" height="{size}" alt="" loading="lazy" decoding="async">'
+        return f'<img class="px" src="{u("/assets/game/icons/" + s.get("art_slug", s["slug"]) + ".png")}" width="{size}" height="{size}" alt="" loading="lazy" decoding="async">'
     return f'<span style="width:{size}px;height:{size}px;display:inline-block"></span>'
 
 
 def art_img(s, size=56, alt=""):
     if s and s.get("art"):
-        return f'<img class="px" src="{u("/assets/game/pokemon/" + s["slug"] + ".png")}" width="{size}" height="{size}" alt="{esc(alt)}" loading="lazy" decoding="async">'
+        return f'<img class="px" src="{u("/assets/game/pokemon/" + s.get("art_slug", s["slug"]) + ".png")}" width="{size}" height="{size}" alt="{esc(alt)}" loading="lazy" decoding="async">'
     return f'<span style="width:{size}px;height:{size}px;display:block"></span>'
 
 

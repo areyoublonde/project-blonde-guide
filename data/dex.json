@@ -100530,6 +100530,197 @@
   "art": true,
   "icon": true
  },
+ "SPECIES_KYOGRE_PRIMAL": {
+  "id": "SPECIES_KYOGRE_PRIMAL",
+  "num": 954,
+  "dex": 382,
+  "name": "KYOGRE",
+  "category": "Sea Basin",
+  "text": "When Kyogre roared, water poured forth and the seas spread outward. Dark clouds enshrouded the world, and the deluge fell upon all…",
+  "types": [
+   "Water"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 150,
+   "def": 90,
+   "spe": 90,
+   "spa": 180,
+   "spd": 160
+  },
+  "abilities": [
+   "Primordial Sea",
+   "Primordial Sea"
+  ],
+  "hidden_ability": null,
+  "catch_rate": 3,
+  "evolves_to": [],
+  "moves": [
+   [
+    1,
+    "Ancientpower"
+   ],
+   [
+    1,
+    "Water Pulse"
+   ],
+   [
+    5,
+    "Scary Face"
+   ],
+   [
+    15,
+    "Aqua Tail"
+   ],
+   [
+    20,
+    "Body Slam"
+   ],
+   [
+    30,
+    "Aqua Ring"
+   ],
+   [
+    35,
+    "Ice Beam"
+   ],
+   [
+    45,
+    "Origin Pulse"
+   ],
+   [
+    50,
+    "Calm Mind"
+   ],
+   [
+    60,
+    "Muddy Water"
+   ],
+   [
+    65,
+    "Sheer Cold"
+   ],
+   [
+    75,
+    "Hydro Pump"
+   ],
+   [
+    80,
+    "Double Edge"
+   ],
+   [
+    90,
+    "Water Spout"
+   ]
+  ],
+  "mega": false,
+  "primal": true,
+  "regional": null,
+  "src": "gSpeciesInfo[954] @ 0x86fc700; src/data/pokemon/species_info/gen_3_families.h",
+  "kind": "mega",
+  "of": "SPECIES_KYOGRE",
+  "slug": "kyogre-primal",
+  "form_name": "Primal",
+  "form_item": "Blue Orb",
+  "art": true,
+  "icon": true
+ },
+ "SPECIES_GROUDON_PRIMAL": {
+  "id": "SPECIES_GROUDON_PRIMAL",
+  "num": 955,
+  "dex": 383,
+  "name": "GROUDON",
+  "category": "Continent",
+  "text": "When Groudon howled, the earth swelled and the land grew wide. The sun blazed atop and all the world around the creature was enveloped in incandescent heat.",
+  "types": [
+   "Ground",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 180,
+   "def": 160,
+   "spe": 90,
+   "spa": 150,
+   "spd": 90
+  },
+  "abilities": [
+   "Desolate Land",
+   "Desolate Land"
+  ],
+  "hidden_ability": null,
+  "catch_rate": 3,
+  "evolves_to": [],
+  "moves": [
+   [
+    1,
+    "Ancientpower"
+   ],
+   [
+    1,
+    "Mud Shot"
+   ],
+   [
+    5,
+    "Scary Face"
+   ],
+   [
+    15,
+    "Earth Power"
+   ],
+   [
+    20,
+    "Lava Plume"
+   ],
+   [
+    30,
+    "Rest"
+   ],
+   [
+    35,
+    "Earthquake"
+   ],
+   [
+    45,
+    "Precipice Blades"
+   ],
+   [
+    50,
+    "Bulk Up"
+   ],
+   [
+    60,
+    "Solarbeam"
+   ],
+   [
+    65,
+    "Fissure"
+   ],
+   [
+    75,
+    "Fire Blast"
+   ],
+   [
+    80,
+    "Hammer Arm"
+   ],
+   [
+    90,
+    "Eruption"
+   ]
+  ],
+  "mega": false,
+  "primal": true,
+  "regional": null,
+  "src": "gSpeciesInfo[955] @ 0x86fc80c; src/data/pokemon/species_info/gen_3_families.h",
+  "kind": "mega",
+  "of": "SPECIES_GROUDON",
+  "slug": "groudon-primal",
+  "form_name": "Primal",
+  "form_item": "Red Orb",
+  "art": true,
+  "icon": true
+ },
  "SPECIES_RATTATA_ALOLA": {
   "id": "SPECIES_RATTATA_ALOLA",
   "num": 956,
@@ -143974,7 +144165,7 @@
   "kind": "form",
   "of": "SPECIES_TAUROS_PALDEA_COMBAT",
   "slug": "tauros-paldea-species-tauros-paldea-blaze",
-  "form_name": "Species Tauros Paldea Blaze",
+  "form_name": "Blaze Breed",
   "art": true,
   "icon": true
  },
@@ -144069,7 +144260,7 @@
   "kind": "form",
   "of": "SPECIES_TAUROS_PALDEA_COMBAT",
   "slug": "tauros-paldea-species-tauros-paldea-aqua",
-  "form_name": "Species Tauros Paldea Aqua",
+  "form_name": "Aqua Breed",
   "art": true,
   "icon": true
  },

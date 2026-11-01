@@ -103,6 +103,7 @@ def check(dist):
         if k in a and t != a[k]["types"]:
             err.append(f"{k}: types {t} differ from the audited ROM value {a[k]['types']}")
     pages = shown = 0
+    numbers = json.loads((ROOT / "data/pokedex-numbers.json").read_text())["entries"]
     if dist and Path(dist).exists():
         by_slug = {d["slug"]: d for d in dex.values()}
         for f in Path(dist).rglob("*.html"):
@@ -122,8 +123,13 @@ def check(dist):
                 continue
             pages += 1
             m = re.search(r'<p class="typeline">(.*?)</p>', p.read_text(encoding="utf-8"), re.S)
-            if not m or labels(m.group(1)) != a.get(k, {}).get("types"):
-                err.append(f"{k}: page shows {labels(m.group(1)) if m else None}, the ROM says {a.get(k, {}).get('types')}")
+            # the heading shows the row the game's Pokédex slot points at (differs from the entry's own row only for Paldean Tauros)
+            want = a.get(k, {}).get("types")
+            slot = next((d for d in dex.values() if d["num"] == numbers[str(dex[k]["dex"])]["row"]), None)
+            if slot is not None and slot["num"] != dex[k]["num"]:
+                want = slot["types"]
+            if not m or labels(m.group(1)) != want:
+                err.append(f"{k}: page shows {labels(m.group(1)) if m else None}, the ROM says {want}")
     print(f"pokémon: {len(pub)} public entries ({base} + {reg}), {len(dex)} records, {pages} pages and {shown} type labels checked; {len(err)} problems")
     for e in err[:60]:
         print("  ", e)
