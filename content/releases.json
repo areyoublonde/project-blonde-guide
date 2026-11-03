@@ -1,5 +1,5 @@
 {
- "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.2 facts are copied from output/project-blonde-v1.2-rc2-20261011/release-information.json and its guides, v1.1 facts from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. A previous release keeps its record here: `post_removed` (the day its download post was removed; never linked) or `discord_post` (its download post is still on the Discord, kept with the owner's approval when v1.3 was released). v1.3 facts are copied from output/project-blonde-v1.3-rc1-20261017/ (release-information.json, RELEASE-MANIFEST.json and its guides); v1.4 facts from output/project-blonde-v1.4-rc1-20261019/ (release-information.json, RELEASE-MANIFEST.json, VERIFICATION-SUMMARY.txt and its guides). When v1.4 was released the v1.3 post was kept on the Discord (discord_post); the v1.2 post had already been removed. No URL, date, checksum or patch detail is invented here.",
+ "_about": "Single authoritative release record; every page reads release facts from here. `current` names the release the site features; older releases stay in `releases` as version history. A release is public only when `status` is \"released\" AND the owner has approved it: then `date`, `sha256` and its `method`'s fields must all be set (the build refuses anything else). `method`: `discord` = the official release post on the Project Blonde Discord (`download.url` is that post's permanent link, never a signed attachment URL); `patcher` = made in the visitor's browser from content/patcher.json. `public_version` must equal blonde/release/public-version.json and the title screen. v1.2 facts are copied from output/project-blonde-v1.2-rc2-20261011/release-information.json and its guides, v1.1 facts from output/project-blonde-v1.1-rc-v111-20261010/release-information.json. A previous release keeps its record here: `post_removed` (the day its download post was removed; never linked) or `discord_post` (its download post is still on the Discord, kept with the owner's approval when v1.3 was released). v1.3 facts are copied from output/project-blonde-v1.3-rc1-20261017/ (release-information.json, RELEASE-MANIFEST.json and its guides); v1.4 facts from output/project-blonde-v1.4-rc1-20261019/ (release-information.json, RELEASE-MANIFEST.json, VERIFICATION-SUMMARY.txt and its guides). When v1.4 was released the v1.3 post was kept on the Discord (discord_post); the v1.2 post had already been removed. No URL, date, checksum or patch detail is invented here. v1.4.2 facts are copied from output/project-blonde-v1.4.2-20261103/ (release-information.json, RELEASE-MANIFEST.json and its guides); when v1.4.2 was released the v1.4.1 and v1.4 posts were kept on the Discord (discord_post).",
  "distribution": {
   "method": "discord",
   "notes": {
@@ -11,8 +11,142 @@
   }
  },
  "notice": "No game file is hosted on this site. The download is the official release post on the Project Blonde Discord. Your progress lives in a separate save file.",
- "current": "1.4.1",
+ "current": "1.4.2",
  "releases": [
+  {
+   "version": "1.4.2",
+   "public_version": "v1.4.2",
+   "internal_build": "r10",
+   "method": "discord",
+   "status": "released",
+   "status_short": "Released",
+   "status_label": "public release",
+   "date": "2026-11-03",
+   "page": "/play/v1.4.2/",
+   "summary": "A bug-fix update: DexNav no longer crashes when hunting WEEZING on Cinnabar Island.",
+   "file": {
+    "type": "ZIP with one Game Boy Advance game (.gba)",
+    "size": "18.6 MB download · 32 MB game",
+    "name": "Pokemon - Project Blonde.gba"
+   },
+   "sha256": "7866c59a7c101b84eeef03ad1a2ea1b066239e3d9a8a58a5e73a828ea3bc45a5",
+   "archive": {
+    "name": "Pokemon_-_Project_Blonde.zip",
+    "bytes": 19553556,
+    "sha256": "fe1f5f23c7223c0492314d3dd5ffb9bd203d34edfb9c9b44b2b2e9213d301cd2"
+   },
+   "download": {
+    "url": "https://discord.com/channels/1557763721051512932/1557776605844217866/1567087794768322620",
+    "file_name": "Pokemon_-_Project_Blonde.zip"
+   },
+   "patch": {
+    "format": null,
+    "base_game": null,
+    "base_checksum": null,
+    "tool": null,
+    "tool_url": null
+   },
+   "release_notes_url": "/play/v1.4.2/",
+   "save_compatibility": "No save-format change. Saves from v1.0, v1.1, v1.2, v1.3, v1.4 and v1.4.1 were loaded with Continue in v1.4.2, opened the portable PC, saved again inside the game and reloaded with party and boxes unchanged. Tested in mGBA; not tested on Delta on a device, on an Android device or on physical hardware.",
+   "save_compatibility_short": "Saves from v1.0 to v1.4.1 continue with an ordinary Continue. Back up first.",
+   "link_protocol": "PB-LINK-0001",
+   "highlights": [
+    "DexNav no longer crashes when hunting WEEZING on Cinnabar Island.",
+    "Portable Pokémon PC: press R on the party screen to open Pokémon Storage wherever supported. HP, PP and status conditions stay as they are.",
+    "Overworld wild encounters: see wild Pokémon in the grass, caves and water of every region, and battle the one you walk into. Optional; CLASSIC stays the default.",
+    "Primal Reversion: Primal Kyogre and Primal Groudon, with the Red and Blue Orbs from May and Brendan after the Silph Conspiracy.",
+    "One-time legendaries you have caught stay caught after League wins.",
+    "The Silph Conspiracy, partner battles and a new Elite Four member.",
+    "Johto, Kanto and Hoenn in one adventure, with Mega Evolution, the DexNav and Pokémon that follow you."
+   ],
+   "changelog": [
+    "DexNav: searching for WEEZING on Cinnabar Island no longer crashes to a blue \"PRESS START TO CONTINUE\" screen. DexNav now handles any encounter whose level range was stored in reverse, so the same crash cannot happen elsewhere.",
+    "Cinnabar Island: WEEZING's encounter data was corrected. It still appears at Lv. 42–43, in the wild and with DexNav.",
+    "Cerulean Cave B2F: the Good Rod POLIWAG and GOLDEEN and the Super Rod POLIWAG encounter data was corrected. They still appear at Lv. 40–45.",
+    "Everything in v1.4.1 remains, including the portable Pokémon PC.",
+    "The title screen still shows v1.4. This is intentional."
+   ],
+   "known_limitations": [
+    "The portable PC opens MOVE POKéMON. MOVE ITEMS stays on Pokémon Center PCs.",
+    "PC storage stays at 14 boxes (420 Pokémon). The save memory of a GBA cartridge is full; more boxes would need a save-format change and are planned for a future update.",
+    "Overworld encounters (optional): on very busy screens a single frame can occasionally be dropped, as in CLASSIC. An area you can only reach by Surf still counts as reachable, so Pokémon may appear there before you have Surf. DexNav can sometimes report that the Pokémon could not be found nearby; try again.",
+    "Legendaries: for a legendary without its own \"caught\" record, one that was caught and then released or traded away can no longer be recognised and may reappear after a League win. Copies created by League wins in older versions are kept.",
+    "A GS BALL you already collected again in an older version stays in your bag.",
+    "v1.4.2 was tested in the mGBA 0.10.5 engine on a computer. It was not tested on Delta on a device, on an Android device or on original GBA hardware."
+   ],
+   "notes": [
+    "Public version <b>v1.4.2</b>, internal build r10. The title screen still shows <b>v1.4</b>; this is intentional.",
+    "Released on 3 November 2026 on the Project Blonde Discord.",
+    "v1.4.2 is a bug-fix update: DexNav no longer crashes on WEEZING, and three encounter entries were corrected without changing their levels. Everything in v1.4.1 remains, including the portable Pokémon PC.",
+    "This guide’s data was read from v1.4. v1.4.2 changes no maps, trainers, items or wild Pokémon levels, so it applies unchanged.",
+    "v1.4.2 was checked in focused release tests on the release build: DexNav WEEZING searches started from the DexNav screen and with R, fishing in Cerulean Cave B2F, the portable PC, and saves from every earlier version, in the mGBA engine."
+   ],
+   "upgrade": {
+    "from": "v1.4.1",
+    "instructions": [
+     "Back up the old game and its normal in-game save.",
+     "Use your platform guide: matching mGBA / RetroArch file names, or Delta import/export.",
+     "Cold launch and choose CONTINUE; do not transfer an old save state.",
+     "Verify party, bag, badges, money and location, then save and back up again."
+    ],
+    "facts": [
+     "Use <b>Continue</b> from a cold launch. Do not carry an emulator save state across this update. If you only have a save state, load it in the old version and make a normal in-game save first.",
+     "A save made inside a building or town shows that place as it was in the old version. Leave and re-enter, and it updates. Nothing is lost.",
+     "The game file is still named <b>Pokemon - Project Blonde.gba</b>. Keep the matching save name: <b>Pokemon - Project Blonde.sav</b> in mGBA, <b>Pokemon - Project Blonde.srm</b> in RetroArch. If your files use another name, keep that matching pair on copies; do not rename or overwrite your only backup.",
+     "If <b>Continue</b> is missing, stop and check the imported save or the save path before starting a new game.",
+     "The title screen still shows <b>v1.4</b> after updating. This is intentional.",
+     "To go back, restore v1.4.1 with its own pre-update save backup."
+    ],
+    "guides": [
+     {
+      "id": "delta",
+      "name": "iPhone & iPad",
+      "emulator": "Delta",
+      "steps": [
+       "In the old game, use the game’s <b>SAVE</b> command. Return to Delta’s library.",
+       "Long-press the old game: <b>Manage Save File → Export Save File</b>. Save a dated backup in Files. Keep the old game and this backup.",
+       "Download the ZIP from the official Discord downloads post and extract it in Files. In Delta, tap <b>+</b> and import <b>Pokemon - Project Blonde.gba</b>. It may appear as a separate library entry.",
+       "Long-press the new game: <b>Manage Save File → Import Save File</b>. Select a copy of your exported save.",
+       "Cold-launch the new game, check the <b>v1.4</b> label, then choose <b>Continue</b>. Check party, Bag, Badges, money and location.",
+       "Save inside the game and export a fresh backup. Keep the pre-update backup too."
+      ],
+      "note": "Use the normal save, not an emulator save state. If Continue is missing, check the save import before starting New Game. Delta accepts a save of exactly 131,072 bytes; a save exported from Delta already is, and a save from mGBA on a computer (131,088 bytes) must be trimmed first. This procedure was written from Delta’s official controls. v1.4.2 was tested in the mGBA engine on a computer; it was not tested on an iPhone or iPad."
+     },
+     {
+      "id": "mgba",
+      "name": "Windows & macOS",
+      "emulator": "mGBA",
+      "steps": [
+       "Save inside the old game, then close mGBA. Copy the old <b>.gba</b> and its <b>.sav</b> into a dated backup folder. Keep that backup unchanged.",
+       "Check <b>mGBA Settings → Paths</b> for your Save games location. By default, saves are beside the game file; a custom path overrides this.",
+       "Extract the v1.4.2 ZIP into a new folder. Keep the file name <b>Pokemon - Project Blonde.gba</b>.",
+       "Copy your backed-up save into the save location with the matching name <b>Pokemon - Project Blonde.sav</b>. If a save is already there, back it up before replacing it.",
+       "Open the new game, confirm <b>v1.4</b> on the title, then choose <b>Continue</b>. Do not load an old save state. Check party, Bag, Badges, money and location.",
+       "Save inside the game, close mGBA, reopen and confirm Continue loads your progress. Keep both the old backup and a fresh v1.4.2 backup."
+      ],
+      "note": "If your old game uses a personal file name, keep a matching .gba/.sav pair. If Continue is missing, recheck the file names and Settings → Paths before starting New Game. Saves from v1.0 to v1.4.1 were tested in the mGBA 0.10.5 engine; the graphical mGBA app itself was not automated."
+     },
+     {
+      "id": "retroarch",
+      "name": "Android",
+      "emulator": "RetroArch",
+      "steps": [
+       "In the old game, <b>SAVE</b> from the START menu, then use <b>Quick Menu → Close Content</b> so RetroArch writes the save file.",
+       "Your save is the <b>.srm</b> file with the same name as the game, in RetroArch’s Save directory (<b>Settings → Directory → Save Files</b>). Copy it to a dated backup folder with a file manager.",
+       "Extract the v1.4.2 ZIP. Give the new .gba the same name as your old one, or rename a copy of your .srm to <b>Pokemon - Project Blonde.srm</b>: the save is matched by file name.",
+       "Load the new game with the <b>mGBA</b> core, confirm <b>v1.4</b> on the title, then choose <b>Continue</b>. Do not use an old RetroArch save state. Check party, Bag, Badges, money and location.",
+       "Save inside the game, close the content and back up the new .srm. Keep the pre-update backup too."
+      ],
+      "note": "If Continue is missing, check the save file name and the Save Files directory before starting New Game. This procedure follows RetroArch’s documented controls; it was not tested on an Android device."
+     }
+    ]
+   },
+   "guide_data_from": {
+    "public": "v1.4",
+    "version": "r04",
+    "why": "v1.4.1 and v1.4.2 (r05 to r10) change no reachable game data the guide shows: they add code, blank content proven unused, and v1.4.2 only re-orders three wild level ranges whose levels stay the same (the guide already lists them as Lv. 42–43 and 40–45). Re-running tools/romx.py on r09 or later would lose the unreachable scripts its static walk counted, not real content."
+   }
+  },
   {
    "version": "1.4.1",
    "public_version": "v1.4.1",
@@ -146,7 +280,8 @@
     "public": "v1.4",
     "version": "r04",
     "why": "v1.4.1 (r05 to r09) changes no reachable game data: it adds code and blanks content proven unused. Re-running tools/romx.py on r09 would lose the unreachable scripts its static walk counted, not real content."
-   }
+   },
+   "discord_post": "https://discord.com/channels/1557763721051512932/1557776605844217866/1566033456666906644"
   },
   {
    "version": "1.4",
