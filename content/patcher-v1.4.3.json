@@ -1,0 +1,192 @@
+{
+ "_about": "The v1.4.3 in-browser patcher registry (v1.0: content/patcher.json on /play/v1.0/; v1.3, v1.4, v1.4.1 and v1.4.2: their own registries on their pages). Same rules: a file is identified ONLY by its SHA-256; `kind` base = the clean game a new player starts from, release = an earlier public Project Blonde release; one direct patch per input, no chains. Saves from every listed public release were continued in v1.4.3 in its release testing (output/project-blonde-v1.4.3-20261106/VERIFICATION-SUMMARY.txt). Hashes, sizes and patch checksums are written by `PB_PATCHER=v1.4.3 tools/patches.py build` from the real files and re-checked by `... verify`; do not type them by hand.",
+ "enabled": true,
+ "release": "1.4.3",
+ "target": {
+  "rom": "r11",
+  "public_version": "v1.4.3",
+  "internal_build": "r11",
+  "file_name": "Pokemon - Project Blonde.gba",
+  "release_notes_url": "/play/v1.4.3/",
+  "sha256": "f3ae7a5cd80be4d48e6ca3198a6aa683eb28f59fb9204488d9fdbfa7829dbe67",
+  "size": 33554432,
+  "crc32": 245641552
+ },
+ "inputs": [
+  {
+   "id": "emerald-usa",
+   "kind": "base",
+   "rom": "emerald-usa",
+   "status": "supported",
+   "label": "Pokémon Emerald (USA, Europe)",
+   "sha256": "a9dec84dfe7f62ab2220bafaef7479da0929d066ece16a6885f6226db19085af",
+   "size": 16777216,
+   "patch": {
+    "file": "emerald-usa-to-r11.bps",
+    "sha256": "48ce715b8736a7d2bf4e00e7e006f6da6cf9c2650dea3be7dba6da9083ea5c87",
+    "size": 23979576,
+    "size_gz": 17707553
+   }
+  },
+  {
+   "id": "r10",
+   "kind": "release",
+   "rom": "r10",
+   "status": "supported",
+   "label": "Project Blonde v1.4.2",
+   "internal_build": "r10",
+   "save": {
+    "status": "tested",
+    "note": "Saves from v1.4.2 were continued in v1.4.3 in the release testing, with party, boxes and Frontier data unchanged and a valid in-game save afterwards."
+   },
+   "sha256": "7866c59a7c101b84eeef03ad1a2ea1b066239e3d9a8a58a5e73a828ea3bc45a5",
+   "size": 33554432,
+   "patch": {
+    "file": "r10-to-r11.bps",
+    "sha256": "f109ffdbd0da7f2e1c75dd72f20148e9470306f129a3fb7f9513ac85a86c77d3",
+    "size": 1952,
+    "size_gz": 1729
+   }
+  },
+  {
+   "id": "r09",
+   "kind": "release",
+   "rom": "r09",
+   "status": "supported",
+   "label": "Project Blonde v1.4.1",
+   "internal_build": "r09",
+   "save": {
+    "status": "tested",
+    "note": "Saves from v1.4.1 were continued in v1.4.3 in the release testing, with party and boxes unchanged and a valid in-game save afterwards."
+   },
+   "sha256": "115a3204c1b2ff8bff6b39fb89418fd80b7674172b5c97974f7b7da8fd806d58",
+   "size": 33554432,
+   "patch": {
+    "file": "r09-to-r11.bps",
+    "sha256": "9b6e9855b3e94940113ad37cceffca1bd9484eae020bd76ebbdeb95dcb59698f",
+    "size": 2006,
+    "size_gz": 1776
+   }
+  },
+  {
+   "id": "r04",
+   "kind": "release",
+   "rom": "r04",
+   "status": "supported",
+   "label": "Project Blonde v1.4",
+   "internal_build": "r04",
+   "save": {
+    "status": "tested",
+    "note": "Saves from v1.4 were continued in v1.4.3 in the release testing, with party and boxes unchanged and a valid in-game save afterwards."
+   },
+   "sha256": "0bc3464580952c6d7b41b0e7755f1d0cb35d5fceb1c388105c4fc460628f1a2a",
+   "size": 33554432,
+   "patch": {
+    "file": "r04-to-r11.bps",
+    "sha256": "1191e88606182a42835b2f4a4ef9c8e6d606a168cfb27f2331010ffbe8608421",
+    "size": 13407,
+    "size_gz": 9626
+   }
+  },
+  {
+   "id": "v116",
+   "kind": "release",
+   "rom": "v116",
+   "status": "supported",
+   "label": "Project Blonde v1.3",
+   "internal_build": "v116",
+   "save": {
+    "status": "tested",
+    "note": "Saves from v1.3 were continued in v1.4.3 in the release testing, with party and boxes unchanged and a valid in-game save afterwards."
+   },
+   "sha256": "e851f80dfc4b0a025882bb5deeb329ce639747901a0f3e3522a21e6a6b8087c3",
+   "size": 33554432,
+   "patch": {
+    "file": "v116-to-r11.bps",
+    "sha256": "cd6294c86fd589bed33fe7f118d7a43da192531aa060f9072f23a1f61fff04b2",
+    "size": 158368,
+    "size_gz": 101612
+   }
+  },
+  {
+   "id": "v115",
+   "kind": "release",
+   "rom": "v115",
+   "status": "supported",
+   "label": "Project Blonde v1.2",
+   "internal_build": "v115",
+   "save": {
+    "status": "tested",
+    "note": "A save from v1.2 was continued in v1.4.3 in the release testing."
+   },
+   "sha256": "b15f98da54ba19012a63707bae1875f2bb8dd6a861964ce79a30a98d77bb22eb",
+   "size": 33554432,
+   "patch": {
+    "file": "v115-to-r11.bps",
+    "sha256": "0509fe9bb5b71108ce0dfc62481ee264b924c905009ff0d27af726fdb7cc2b33",
+    "size": 321218,
+    "size_gz": 169049
+   }
+  },
+  {
+   "id": "v113",
+   "kind": "release",
+   "rom": "v113",
+   "status": "supported",
+   "label": "Project Blonde v1.2 (first download, before the hotfix)",
+   "internal_build": "v113",
+   "save": {
+    "status": "tested",
+    "note": "A save from v1.2 was continued in v1.4.3 in the release testing; this first v1.2 download uses the same save format."
+   },
+   "sha256": "7a17f42fca0927417c67e1f6c10312a29c6b438adb7218d25fa78162c7736097",
+   "size": 33554432,
+   "patch": {
+    "file": "v113-to-r11.bps",
+    "sha256": "4320f5d9e3fadff5ddd968cac1aaa9f141799ecda1935ab9df4065972abe1fac",
+    "size": 321269,
+    "size_gz": 169114
+   }
+  },
+  {
+   "id": "v111",
+   "kind": "release",
+   "rom": "v111",
+   "status": "supported",
+   "label": "Project Blonde v1.1",
+   "internal_build": "v111",
+   "save": {
+    "status": "tested",
+    "note": "A save from v1.1 was continued in v1.4.3 in the release testing."
+   },
+   "sha256": "2a3299a0daa04225fc4945ed5835ac673d37be2f990ef4ad37aebd6eb856ac33",
+   "size": 33554432,
+   "patch": {
+    "file": "v111-to-r11.bps",
+    "sha256": "6feb3e0145557ccf5de2c15c9030169defaaab1d95f25ffa97f0028e45104aa9",
+    "size": 337548,
+    "size_gz": 175837
+   }
+  },
+  {
+   "id": "v105",
+   "kind": "release",
+   "rom": "v105",
+   "status": "supported",
+   "label": "Project Blonde v1.0",
+   "internal_build": "v105",
+   "save": {
+    "status": "tested",
+    "note": "A save from v1.0 was continued in v1.4.3 in the release testing."
+   },
+   "sha256": "d76ce7db778f09ad9085e6c11a535e6c7c8f4271de1def30d98af46698d5513a",
+   "size": 33554432,
+   "patch": {
+    "file": "v105-to-r11.bps",
+    "sha256": "3d0f6f15dd9c6e8c9884b36ffade6179e06d6bb08d3d87cd5de25f352ae45cc6",
+    "size": 440241,
+    "size_gz": 217125
+   }
+  }
+ ]
+}
